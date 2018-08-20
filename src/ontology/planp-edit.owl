@@ -1,0 +1,25 @@
+Prefix(:=<http://purl.obolibrary.org/obo/planp.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/planp.owl>
+Import(<http://purl.obolibrary.org/obo/planp/imports/ro_import.owl>)
+Annotation(rdfs:comment "Planarian Phenotype Ontology")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_00000000>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_00000000> (planp)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_00000000> "planp"@en)
+
+
+)
