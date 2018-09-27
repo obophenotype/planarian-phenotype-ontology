@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/planp/patterns/defintions.owl#"
-     xml:base="http://purl.obolibrary.org/obo/planp/patterns/defintions.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/planp/patterns/definitions.owl#"
+     xml:base="http://purl.obolibrary.org/obo/planp/patterns/definitions.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/patterns/defintions.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/patterns/definitions.owl"/>
     
 
 
@@ -72,12 +72,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001"/>
     
 
 
@@ -648,6 +642,18 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
     
 
 
@@ -16833,19 +16839,19 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/X_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000466 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/X_0000001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000466">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000384"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
@@ -16856,9 +16862,41 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of Entity (BFO).</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormality of Entity (BFO)</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal Entity (BFO)</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly of the ventral surface.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal shape of ventral surface</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally shaped ventral surface</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal morphology of ventral surface </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000467">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000384"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly in the shape of the ventral surface.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal shape of ventral surface</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally shaped ventral surface</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal shape of ventral surface </rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

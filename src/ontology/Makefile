@@ -22,11 +22,12 @@ DOSDP_SCHEMA=http:// # change to PURL when ready.
 PATTERN_TESTER=simple_pattern_tester.py
 DOSDPT=dosdp-tools
 
+
 # ----------------------------------------
 # Top-level targets
 # ----------------------------------------
 
-all: all_imports sparql_test patterns $(ONT).owl $(ONT).obo 
+all: all_imports sparql_test patterns $(ONT).owl $(ONT).obo
 test: sparql_test all
 prepare_release: all
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
@@ -37,7 +38,7 @@ prepare_release: all
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*owl && cp subsets/* $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
- 
+
 # ----------------------------------------
 # Main release targets
 # ----------------------------------------
@@ -45,7 +46,7 @@ prepare_release: all
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
@@ -56,7 +57,7 @@ $(ONT).obo: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-IMPORTS = ro
+IMPORTS = ro pato plana go
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS)) $(patsubst %, imports/%_terms.txt,$(IMPORTS))
 
 # generate seed with all referenced entities
@@ -177,12 +178,4 @@ $(IMS)/patterns/%.ofn: ../patterns/%.yaml ../patterns/%.tsv $(ONT)-edit.owl
 pattern_modules := $(patsubst %.yaml, $(IMS)/patterns/%.ofn, $(notdir $(wildcard ../patterns/*.yaml)))
 
 ../patterns/definitions.owl: $(pattern_modules)
-	$(ROBOT) merge $(addprefix -i , $(pattern_modules)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/defintions.owl -o $@
-
-
-
-
-
-
-
-
+	$(ROBOT) merge $(addprefix -i , $(pattern_modules)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@

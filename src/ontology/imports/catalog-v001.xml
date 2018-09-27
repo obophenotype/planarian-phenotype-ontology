@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1538082712538" name="http://purl.obolibrary.org/obo/planp/imports/go_import.owl" uri="go_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1538082712538" name="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl" uri="pato_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1538082712538" name="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl" uri="plana_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1538082712538" name="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl" uri="ro_import.owl"/>
+    </group>
+</catalog>

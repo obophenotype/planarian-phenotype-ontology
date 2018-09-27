@@ -12,8 +12,11 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2018-08-20/planp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2018-09-19/planp.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/go_import.owl"/>
         <rdfs:comment>Planarian Phenotype Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -146,6 +149,30 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000068 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000069 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000068"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000460 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000069"/>
     </rdf:Description>
     
 

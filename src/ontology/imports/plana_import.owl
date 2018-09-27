@@ -1,24 +1,18 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo#"
-     xml:base="http://purl.obolibrary.org/obo"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:cito="http://purl.org/spar/cito/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:bspo="http://purl.obolibrary.org/obo/bspo#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/plana/releases/2018-07-15/plana.owl"/>
-        <oboInOwl:treat-xrefs-as-genus-differentia>CARO part_of NCBITaxon:79327; CL part_of NCBITaxon:79327</oboInOwl:treat-xrefs-as-genus-differentia>
-        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:default-namespace>
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"/>
     
 
 
@@ -130,14 +124,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000426 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000426">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first order logic expression</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
@@ -181,29 +167,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002561 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002561">
-        <obo:IAO_0000115>If Rel is the relational form of a process Pr, then it follow that: Rel(x,y) &lt;-&gt; exists p : Pr(p), x partner-in p, y partner-in p</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is symmetric relational form of process class</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002575 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002575">
         <obo:IAO_0000115>Relation p is the direct form of relation q iff p is a subPropertyOf q, p does not have the Transitive characteristic, q does have the Transitive characteristic, and for all x, y: x q y -&gt; exists z1, z2, ..., zn such that x p z1 ... z2n y</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is direct form of</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002579 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002579">
-        <obo:IAO_0000115>Relation p is the indirect form of relation q iff p is a subPropertyOf q, and there exists some p&apos; such that p&apos; is the direct form of q, p&apos; o p&apos; -&gt; p, and forall x,y : x q y -&gt; either (1) x p y or (2) x p&apos; y</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is indirect form of</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -276,17 +244,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bspo#human -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/bspo#human">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
-        <oboInOwl:hasScope rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym typically used in the context of human anatomy</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/bspo#seeAlso -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/bspo#seeAlso"/>
@@ -299,7 +256,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <oboInOwl:hasScope rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym typically used in the context of vertebrate anatomy</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
 
@@ -316,45 +272,9 @@
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
-    
-
-
-    <!-- http://purl.org/spar/cito/citesAsAuthority -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/spar/cito/citesAsAuthority"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">namespace-id-rule</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym_type_property</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
     
 
 
@@ -367,18 +287,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
     
 
 
@@ -413,15 +321,6 @@
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -474,27 +373,11 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-genus-differentia -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-genus-differentia">
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-26T18:19:59Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">treat-xrefs-as-genus-differentia</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -508,12 +391,6 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#deprecated -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
     
 
 
@@ -571,7 +448,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
     </owl:ObjectProperty>
@@ -591,51 +468,9 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-07-31T02:15:46Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000096</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior_to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000097 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000097">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000100"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distal_to</obo:shorthand>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000040"/>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005867"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000097</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distal_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000097"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000098 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000098">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000102"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal_to</obo:shorthand>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000041"/>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005865"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000098</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dorsal_to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -652,7 +487,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005864"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000099</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caudal_to</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior_to</rdfs:label>
     </owl:ObjectProperty>
@@ -665,61 +500,15 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000100 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000100">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x proximal_to y iff x is closer to the point of attachment with the body than y.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximal_to</obo:shorthand>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000047"/>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005868"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000100</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The elbow is proximal to the hand, but distal to the shoulder.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximal_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000100"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x proximal_to y iff x is closer to the point of attachment with the body than y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000102 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000102">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</obo:IAO_0000115>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000049"/>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005866"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000102</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventral_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000102"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BSPO_0000105 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000105">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <owl:propertyDisjointWith rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000106"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On the same side as. For example, the left arm is ipsilateral to the left leg.</obo:IAO_0000115>
         <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005850"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000105</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ipsilateral_to</rdfs:label>
     </owl:ObjectProperty>
@@ -732,27 +521,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000106 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000106">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On the opposite side from. For example, the left arm is contralateral to the right arm (and the right leg).</obo:IAO_0000115>
-        <bspo:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005851"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000106</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contralateral_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000106"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On the opposite side from. For example, the left arm is contralateral to the right arm (and the right leg).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BSPO_0000107 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000107">
@@ -760,7 +528,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Further away from the surface of the organism. Thus, the muscular layer is deep to the skin, but superficial to the intestines.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000107</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deep_to</rdfs:label>
     </owl:ObjectProperty>
@@ -779,7 +547,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near the outer surface of the organism. Thus, skin is superficial to the muscle layer.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000108</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superficial_to</rdfs:label>
     </owl:ObjectProperty>
@@ -799,7 +567,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Closer to the left side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left_of Y &lt;=&gt; every instance x of X is left_of some instance y of Y, and there exists some organism o such that x part_of o and y part_of o.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000110</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left_of</rdfs:label>
     </owl:ObjectProperty>
@@ -818,7 +586,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Closer to the right side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left_of Y &lt;=&gt; every instance x of X is right_of some instance y of Y, and there exists some organism o such that x part_of o and y part_of o.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000111</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">right_of</rdfs:label>
     </owl:ObjectProperty>
@@ -837,7 +605,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000105"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direcly opposite to. i.e. on the opposite side through the axis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000113</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opposite_to</rdfs:label>
     </owl:ObjectProperty>
@@ -850,128 +618,13 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000120 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000120">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X in_left_side_of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part_of the left portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_left_side_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000120"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X in_left_side_of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part_of the left portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000121 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000121">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X in_right_side_of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part_of the right portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_right_side_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000121"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X in_right_side_of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part_of the right portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000122 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000122">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X posterior_side_of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part_of the posterior portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000122</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_posterior_side_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000122"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X posterior_side_of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part_of the posterior portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000123 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000123">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X anterior_side_of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part_of the anterior portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000123</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_anterior_side_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000123"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X anterior_side_of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part_of the anterior portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000124 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000124">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x in_proximal_side_of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part_of the proximal portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000124</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_proximal_side_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000124"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x in_proximal_side_of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part_of the proximal portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000125 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000125">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x in_distal_side_of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part_of the distal portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000125</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_distal_side_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000125"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x in_distal_side_of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part_of the distal portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BSPO_0000126 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000126">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X in_lateral_side_of Y &lt;=&gt; if X is in_left_side_of Y or X is in_right_side_of Y. X is often, but not always a paired structure</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000126</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_lateral_side_of</rdfs:label>
     </owl:ObjectProperty>
@@ -980,63 +633,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X in_lateral_side_of Y &lt;=&gt; if X is in_left_side_of Y or X is in_right_side_of Y. X is often, but not always a paired structure</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001100 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001100">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X superficial_part_of Y &lt;=&gt; if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001100</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_superficial_part_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001100"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X superficial_part_of Y &lt;=&gt; if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001101 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001101">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X superficial_part_of Y &lt;=&gt; if Y is subdivided into two superficial and deep portions, X is part_of the deep portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001101</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_deep_part_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001101"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X superficial_part_of Y &lt;=&gt; if Y is subdivided into two superficial and deep portions, X is part_of the deep portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001106 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001106">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000124"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X proximalmost_part_of Y &lt;=&gt; X is in_proximal_side_of Y and X is adjacent_to the proximal boundary of Y</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001106</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximalmost_part_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001106"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X proximalmost_part_of Y &lt;=&gt; X is in_proximal_side_of Y and X is adjacent_to the proximal boundary of Y</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1051,7 +647,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_deep_to</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001107</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_deep_to</rdfs:label>
     </owl:ObjectProperty>
@@ -1064,113 +660,12 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001108 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001108">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000125"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X distalmost_part_of Y &lt;=&gt; X is in_distal_side_of Y and X is adjacent_to the distal boundary of Y</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distalmost_part_of</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001108</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distalmost_part_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001108"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X distalmost_part_of Y &lt;=&gt; X is in_distal_side_of Y and X is adjacent_to the distal boundary of Y</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001113 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001113">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001113</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preaxialmost_part_of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001114 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001114">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x preaxial_to y iff x is further along the preaxial-postaxial axis than y, towards the postaxial side.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior_to (developmentally)</obo:hasRelatedSynonym>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postaxial_to</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001114</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior_to (developmentally)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postaxial_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001114"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x preaxial_to y iff x is further along the preaxial-postaxial axis than y, towards the postaxial side.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/postaxial</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001114"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior_to (developmentally)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:th</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001115 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001115">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0001115</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postaxialmost_part_of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0005001 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0005001">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X intersects_median_plane of iff X crosses the midine plane of Y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0005001</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intersects_midsagittal_plane_of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015001 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015001">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015001</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A directional axis can be divided by a plane. Following Allen Interval Algebra terminology we say that the side on which the axis initiates starts the axis, with the other side finishing the axis. If s finishes_axis x, and x has_end_point p, then x overlaps p</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finishes_axis</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BSPO_0015002 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015002">
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015002</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follows_axis</rdfs:label>
     </owl:ObjectProperty>
@@ -1181,81 +676,9 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015003">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015003</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_axis</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015004 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015004">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relation between an axis and a part of an organism, in which the part defines the initial point of the axis.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015004</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axes can be defined in a given species by subtyping the relevant axis type and stating a end and end point</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_end_point</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relation between an axis and a part of an organism, in which the part defines the initial point of the axis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015005 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015005">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crossing at right angles</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015005</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orthogonal_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015005"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crossing at right angles</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015006 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015006">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intersects at two points.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015006</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passes_through</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015006"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intersects at two points.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015007 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015007">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015007</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A directional axis can be divided by a plane. Following Allen Interval Algebra terminology we say that the side on which the axis initiates starts the axis, with the other side finishing the axis. . If s starts_axis x, and x has_start_point p, then x overlaps p</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starts_axis</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1265,114 +688,11 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015008">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000005"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015008</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder. used for relation between anatomical surface and an anatomical side.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface_of</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015009 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015009">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000096"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015012"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_anterior_to y iff x anterior_to y and x is contiguous with y.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_anterior_to</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015009</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_anterior_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015009"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_anterior_to y iff x anterior_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015010 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015010">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000097"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015013"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_distal_to y iff x distal_to y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015010</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_distal_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015010"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_distal_to y iff x distal_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015011 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015011">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000098"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_dorsal_to y iff x dorsal_to y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015011</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_dorsal_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_dorsal_to y iff x dorsal_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015012 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015012">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000099"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_posterior_to y iff x posterior_to y and x is contiguous with y.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_posterior_to</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015012</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_posterior_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015012"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_posterior_to y iff x posterior_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015013 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015013">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000100"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_proximal_to y iff x proximal_to y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015013</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_proximal_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015013"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_proximal_to y iff x proximal_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -1385,7 +705,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_superficial_to</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015014</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_superficial_to</rdfs:label>
     </owl:ObjectProperty>
@@ -1398,134 +718,13 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015015 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015015">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000102"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_ventral_to y iff x ventral_to y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015015</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_ventral_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015015"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_ventral_to y iff x ventral_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015016 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015016">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000110"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015017"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_left_of y iff x left_of y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015016</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_left_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015016"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_left_of y iff x left_of y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015017 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015017">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000111"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_right_of y iff x right_of y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015017</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immediately_right_of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015017"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x immediately_right_of y iff x right_of y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015201 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015201">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nearer to the oral opening of the organism, on the oral-aboral axis. This object Property is transitive and as such will be entailed.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral_to</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015201</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral_to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015202 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015202">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nearer to the aboral opening of the organism, on the oral-aboral axis. This object Property is transitive and as such will be entailed.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aboral_to</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0015202</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aboral_to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_1000000 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_1000000">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x preaxial_to y iff x is further along the preaxial-postaxial axis than y, towards the front.  This object Property is transitive and as such will be entailed.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior_to (developmentally)</obo:hasRelatedSynonym>
-        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral (radial) to</obo:hasRelatedSynonym>
-        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medial (tibial) to</obo:hasRelatedSynonym>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preaxial_to</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:1000000</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior_to (developmentally)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lateral (radial) to</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medial (tibial) to</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preaxial_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_1000000"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x preaxial_to y iff x is further along the preaxial-postaxial axis than y, towards the front.  This object Property is transitive and as such will be entailed.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/preaxial</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_1000000"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior_to (developmentally)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:th</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PLANA_0007536 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PLANA_0007536">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature restricted to</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-07-24T20:21:09Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific_to</rdfs:label>
         <skos:altLabel>specific to</skos:altLabel>
     </owl:ObjectProperty>
@@ -1540,14 +739,13 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Containment obtains in each case between material and immaterial continuants, for instance: lung contained_in thoracic cavity; bladder contained_in pelvic cavity. Hence containment is not a transitive relation.    If c part_of c1 at t then we have also, by our definition and by the axioms of mereology applied to spatial regions, c located_in c1 at t. Thus, many examples of instance-level location relations for continuants are in fact cases of instance-level parthood. For material continuants location and parthood coincide. Containment is location not involving parthood, and arises only where some immaterial continuant is involved. To understand this relation, we first define overlap for continuants as follows:    c1 overlap c2 at t =def for some c, c part_of c1 at t and c part_of c2 at t. The containment relation on the instance level can then be defined (see definition):</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intended meaning:
 domain: material entity
-range: spatial region or site (immaterial continuant)
-        </obo:IAO_0000116>
+range: spatial region or site (immaterial continuant)</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contained_in</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo#ro-eco"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contained in</rdfs:label>
     </owl:ObjectProperty>
@@ -1559,7 +757,7 @@ range: spatial region or site (immaterial continuant)
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002131">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x overlaps y iff they have some part in common.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002131</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;(forall (x y) (iff (overlaps x y) (exists (z) (and (part_of z x) (part_of z y)))))&quot; CLIF []</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlaps</rdfs:label>
@@ -1588,7 +786,7 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_from</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002202</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is the transitive form of the develops from relation</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops from</rdfs:label>
@@ -1614,48 +812,9 @@ range: spatial region or site (immaterial continuant)
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002220</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002226 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002226">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x develops_in y if x is located in y whilst x is developing</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2</obo:IAO_0000119>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonathan Bard, EHDAA2</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_in</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002226</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation take from EHDAA2 - precise semantics yet to be defined</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops in</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002285 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002285">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x developmentally replaces y if and only if there is some developmental process that causes x to move or to cease to exist, and for the site that was occupied by x to become occupied by y, where y either comes into existence in this site or moves to this site from somewhere else</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation is intended for cases such as when we have a bone element replacing its cartilage element precursor. Currently most AOs represent this using &apos;develops from&apos;. We need to decide whether &apos;develops from&apos; will be generic and encompass replacement, or whether we need a new name for a generic relation that encompasses replacement and development-via-cell-lineage</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replaces</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmentally_replaces</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002285</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmentally replaces</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1668,29 +827,9 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving organismal development</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmentally related to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002380 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002380">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">we need to check if FMA branch_of implies part_of. the relation we intend to use here should - for example, see vestibulocochlear nerve</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo#ro-eco"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branching_part_of</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002380</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branching part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1706,25 +845,9 @@ range: spatial region or site (immaterial continuant)
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002488</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">begins_to_exist_during</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence starts during</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002489 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002489">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x starts ends with y if and only if the time point at which x starts is equivalent to the time point at which y starts. Formally: x existence starts with y iff α(x) = α(y). This object Property is transitive and as such will be entailed.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_with</obo:shorthand>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002489</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence starts with</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1735,25 +858,10 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y)) OR (ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y))</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence overlaps</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002491 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002491">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002492"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x existence starts and ends during y if and only if the start of x is part of y and the end of x is part of y. Formally: x existence starts and ends during y iff α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y) &amp; ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y)</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence starts and ends during</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1769,7 +877,7 @@ range: spatial region or site (immaterial continuant)
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002492</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ceases_to_exist_during</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence ends during</rdfs:label>
@@ -1786,7 +894,7 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_starts_during_or_after</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002496</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence starts during or after</rdfs:label>
@@ -1803,7 +911,7 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence_ends_during_or_before</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002497</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence ends during or before</rdfs:label>
@@ -1816,7 +924,7 @@ range: spatial region or site (immaterial continuant)
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002583">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x existence starts at point y if and only if the time point at which x starts is equivalent to the time point at which y ends.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence starts at point</rdfs:label>
     </owl:ObjectProperty>
@@ -1828,7 +936,7 @@ range: spatial region or site (immaterial continuant)
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002593">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x existence starts at point y if and only if the time point at which x starts is equivalent to the time point at which y ends.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence ends at point</rdfs:label>
     </owl:ObjectProperty>
@@ -1865,60 +973,9 @@ Note that this definition doesn&apos;t quite distinguish the output of a transfo
         <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo#ro-eco"/>
         <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produced_by</obo:shorthand>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0003001</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produced by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/#_has_start_point -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/#_has_start_point">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relation between an axis and a part of an organism, in which the part defines the initial point of the axis.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">:has_start_point</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002220</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axes can be defined in a given species by subtyping the relevant axis type and stating a start and end point.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_start_point</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/#_has_start_point"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relation between an axis and a part of an organism, in which the part defines the initial point of the axis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bspo#parallel_to -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bspo#parallel_to">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002220</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parallel_to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo#existence_starts_and_ends_during -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo#existence_starts_and_ends_during">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002492"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">existence starts and ends during</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1929,7 +986,7 @@ Note that this definition doesn&apos;t quite distinguish the output of a transfo
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder relation. X = &apos;subdivision of A&apos; and subdivision_of some B means that X is the mereological sum of A and B. 
 PLANA uses this objectProperty specifically for body region relations. For example, anterior pole subdivision_of anterior.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder relation. X = &apos;subdivision of A&apos; and subdivision_of some B means that X is the mereological sum of A and B</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subdivision of</rdfs:label>
@@ -2442,7 +1499,7 @@ PLANA uses this objectProperty specifically for body region relations. For examp
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000042"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical margin that is located on the antero-medial region of the body or body part.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:wd&lt;new dbxref&gt;</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:wd</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4843,7 +3900,7 @@ PLANA uses this objectProperty specifically for body region relations. For examp
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musculature surrounding internal organs of the body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 26904543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26904543</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5409,7 +4466,6 @@ PLANA uses this objectProperty specifically for body region relations. For examp
     <!-- http://purl.obolibrary.org/obo/PLANA_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0000021">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organisms sharing a specified genotype or karyotype.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000021</oboInOwl:id>
@@ -6732,7 +5788,6 @@ PLANA uses this objectProperty specifically for body region relations. For examp
     <!-- http://purl.obolibrary.org/obo/PLANA_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0000040">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stage of embryonic development defined by a unique gene expression signature, morphology and chronological time post-egg capsule deposition for hermaphrodites reared at 20˚C.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmidtea_mediterranea_Developmental_Stages</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000040</oboInOwl:id>
@@ -7499,7 +6554,7 @@ PMID:17999079</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonic development producing juvenile animals with body plans and feeding behavior similar to adults. Juveniles grow and mature into adults without undergoing metamorphosis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 12888018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12888018</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7840,7 +6895,7 @@ PMID:17999079</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000055"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciliated epithelial cells along the dorsal midline.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17553481</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17553481</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -8182,7 +7237,7 @@ PMID:17999079</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visceral muscle surrounding the definitive gut.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 26904543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26904543</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -8231,7 +7286,7 @@ PMID:17999079</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000062"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attachment between the triclad gut and the proximal end of the definitive pharynx.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 24737865
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24737865
 OCLC:16809160</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9533,7 +8588,7 @@ PMID:26057828</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000082"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciliated epidermal cells located along the dorsal midline.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17553481</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17553481</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11163,7 +10218,6 @@ PMID:26057828</oboInOwl:hasDbXref>
     <!-- http://purl.obolibrary.org/obo/PLANA_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0000112">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A term used to describe a developmental process during Schmidtea mediterranea embryogenesis.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmidtea_mediterranea_Developmental_Terms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000112</oboInOwl:id>
@@ -11309,7 +10363,7 @@ PMID:26057828</oboInOwl:hasDbXref>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000215"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000922</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000116</oboInOwl:id>
@@ -11335,7 +10389,7 @@ PMID:26057828</oboInOwl:hasDbXref>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000116"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that is part of an embryo. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that is part of an embryo.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002050</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000117</oboInOwl:id>
@@ -12014,7 +11068,7 @@ PMID:22074376</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000132"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The production of haploid germ cells from diploid precursor cells through meiosis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 19022767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022767</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12035,8 +11089,8 @@ PMID:22074376</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000133"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell specialized to transduce mechanical stimuli and relay that information centrally in the nervous system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 7466176
-PMID: 18202849</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7466176
+PMID:18202849</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13190,7 +12244,10 @@ PMID:22074376</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000219"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gh4+, nanos+ cells residing at the testis periphery that self-renew and give rise to differentiating daughters that will ultimately produce haploid sperm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20844018, PMID:19022767, PMID:27163480, PMID:27330085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20844018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27330085</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13283,7 +12340,8 @@ PMID:22074376</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An euploid male germ cell of an early stage of spermatogenesis. In planaria, the gh4+ stem cell daughter exiting the niche undergoes three rounds of transit amplifying division with incomplete cytokinesis prior to transitioning to terminal differentiation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480, PMID:27330085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27330085</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13535,7 +12593,8 @@ PMID:22074376</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000223"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A piwi-1+, nanos+ cell residing in the ovary that self-renews and give rise to oogonial cells that differentiate into oocytes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20844018, PMID:19022767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20844018</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13614,7 +12673,10 @@ PMID:22074376</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000224"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glands surrounding the copulatory bursa that are required for production of the proteinaceous egg capsule shell and stalk.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18942102, PMID:27149082, ASIN:B000M4NK9M, PMID:22074376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASIN:B000M4NK9M</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18942102</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22074376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27149082</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13838,9 +12900,9 @@ PMID:27149082</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000231"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glands surrounding the oviducts which produce yolk cells. Yolk cells deposited into the oviducts travel to the genital atrium where they are packaged, along with one or more zygotes, into developing egg capsules.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16932928
-PMID:18942102
-PMID:27149082</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16932928</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18942102</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27149082</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14021,7 +13083,8 @@ PMID:27149082</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000234"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glandular pouches adjoining the sperm ducts which produce seminal fluid.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22074376, PMID:19022767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22074376</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14046,7 +13109,8 @@ PMID:27149082</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000237"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyst of 8 interconnected spermatocytes undergoes meiosis, producing 32 haploid round spermatids. Round spermatids express protein kinase A, and  undergo morphogenesis to produce mature sperm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480, PMID:27330085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27330085</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14071,7 +13135,8 @@ PMID:27149082</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000238"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spermatids expressing protein kinase A undergoing morphogenic changes to make mature sperm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480, PMID:27330085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27330085</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14334,7 +13399,6 @@ PMID:27149082</oboInOwl:hasDbXref>
     <!-- http://purl.obolibrary.org/obo/PLANA_0000400 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0000400">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001062</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
@@ -15385,8 +14449,10 @@ PMID:29865769</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000033</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000418</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depicted by field contains diagram representation of body region.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head</rdfs:label>
         <rdfs:seeAlso>https://planosphere.stowers.org/ontology/PLANA_0000418</rdfs:seeAlso>
+        <foaf:depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/head.png"/>
     </owl:Class>
     
 
@@ -15428,8 +14494,10 @@ PMID:29865769</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the juvenile or adult animal between the posterior end of the cephalic ganglia and the anterior end of the definitive pharynx.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000419</oboInOwl:id>
+        <rdfs:comment rdf:resource="http://purl.obolibrary.org/obo/Depicted%20by%20field%20contains%20diagram%20representation%20of%20body%20region."/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neck</rdfs:label>
         <rdfs:seeAlso>https://planosphere.stowers.org/ontology/PLANA_0000419</rdfs:seeAlso>
+        <foaf:depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/neck.png"/>
     </owl:Class>
     
 
@@ -15469,12 +14537,14 @@ PMID:29865769</oboInOwl:hasDbXref>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the animal lateral to and surrounding the definitive pharynx.</obo:IAO_0000115>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trunk is a synonym here because the parapharyngeal region is always contained in a trunk fragment. However, a trunk fragment may also contain some neck and some tail.</obo:IAO_0000232>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000420</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trunk is a synonym here because the parapharyngeal region is always contained in a trunk fragment. However, a trunk fragment may also contain some neck and some tail.</rdfs:comment>
+        <rdfs:comment rdf:resource="http://purl.obolibrary.org/obo/Depicted%20by%20field%20contains%20diagram%20representation%20of%20body%20region."/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parapharyngeal region</rdfs:label>
         <rdfs:seeAlso>https://planosphere.stowers.org/ontology/PLANA_0000420</rdfs:seeAlso>
+        <foaf:depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/parapharyngealregion.png"/>
     </owl:Class>
     
 
@@ -15528,8 +14598,10 @@ PMID:29865769</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caudal region, beginning at the mouth and ending at posterior pole.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0000421</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depicted by field contains diagram representation of body region.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail</rdfs:label>
         <rdfs:seeAlso>https://planosphere.stowers.org/ontology/PLANA_0000421</rdfs:seeAlso>
+        <foaf:depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/tail.png"/>
     </owl:Class>
     
 
@@ -16066,7 +15138,11 @@ PMID:29865769</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000461"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nerve branches that extend from the lateral side of each cephalic ganglia lobe. Each lobe has nine lateral branches which terminate in sensory organs. Evidence suggests they play a role in chemosensation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12128224, PMID:9493832, PMID:4452894, PMID:18466009, PMID:27612384</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12128224</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18466009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27612384</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:4452894</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9493832</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16428,7 +15504,7 @@ doi:10.1002/jmor.1051550208</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000468"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin net of single nerve fibers located around the gut.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17999079
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17999079
 doi.org/10.1002/jmor.1051550208</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -16810,7 +15886,7 @@ doi.org/10.1002/jmor.1051550208</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000478"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The total musculature within the pharynx.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 26904543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26904543</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17714,6 +16790,7 @@ PMID:27612384</oboInOwl:hasDbXref>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0000520">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000433"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lipid bilayer along with all the proteins and protein complexes embedded in it an attached to it.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0016020</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian_Anatomy</oboInOwl:hasOBONamespace>
@@ -18848,7 +17925,8 @@ PMID:17376870</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0004506"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dmd-1+ expressing somatic cells within the testis that promote male GSC maintenance. dmd-1+, ophis-1+ somatic gonadal cells ensheath germ cells via long cytoplasmic processes and promote differentiation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23652002, PMID:27163480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23652002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27163480</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19320,7 +18398,8 @@ PMID:17376870</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0004516"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The epithelial cell surface lining the temporary embryonic pharynx lumen.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387, PMID:20100474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20100474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19488,7 +18567,7 @@ PMID:17376870</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0004518"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-mitotic, terminally differentiated cells which, give rise to temporary embryonic tissues.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 28072387</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19644,7 +18723,8 @@ PMID:17376870</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0004521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foxA1+ epithelial cell contained in the temporary embryonic pharynx.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387, PMID:20100474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20100474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19746,8 +18826,10 @@ PMID:17376870</oboInOwl:hasDbXref>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-28T18:20:43Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLANA:0004527</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depicted by field contains diagram representation of body region.</rdfs:comment>
         <rdfs:label xml:lang="en">copulatory region</rdfs:label>
         <rdfs:seeAlso>https://planosphere.stowers.org/ontology/PLANA_0004527</rdfs:seeAlso>
+        <foaf:depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/copulatoryregion.png"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0004527"/>
@@ -20699,7 +19781,7 @@ PMID:27149082</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007518"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The digestive component of the cell. They are homogenous, dense, membrane bound organelles filled with acid hydrolases which break down polymers.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN: 0-71677033-4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0-71677033-4</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:4853064</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -21320,7 +20402,7 @@ OCLC:16809160</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialized epithelial cells located along the dorsoventral margin. Adhesion glands are comprised of three cell types, the viscid and releasing gland cells which penetrate through an epithelial anchor cell and terminate at the epithelial surface.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCLC:16809160
-PMID: 20865784</oboInOwl:hasDbXref>
+PMID:20865784</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21402,7 +20484,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialized epithelial cell located along the dorsoventral margin that surrounds the viscid and releasing gland cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCLC:16809160
-PMID: 20865784</oboInOwl:hasDbXref>
+PMID:20865784</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21484,7 +20566,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized insunk epithelial cell that is part of the adhesion glands which is responsible for production and excretion of the viscid substance allowing adherence to a substrate.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCLC:16809160
-PMID: 20865784</oboInOwl:hasDbXref>
+PMID:20865784</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21572,7 +20654,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialized insunk epithelial cell that is part of the adhesion gland which is responsible for production of releasing substance.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCLC:16809160
-PMID: 20865784</oboInOwl:hasDbXref>
+PMID:20865784</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21806,7 +20888,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007547"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piwi-1+, foxD+, prep+ progenitor neoblasts required for formation of the anterior pole.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24415944 </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24415944 </oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21849,7 +20931,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007548"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axon tracts from ganglia that cross the midline, connecting the two ventral nerve cords.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17999079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17999079</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22114,7 +21196,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007553"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nerve extending laterally from the ventral nerve cord that innervates the submuscular plexus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17999079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17999079</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22201,7 +21283,7 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007555"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piwi-1+, pax3/7+ progenitor neoblasts implicated in the production of DBH+ ventral midline neurons.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 25254346</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 25254346</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22372,8 +21454,8 @@ PMID: 20865784</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007557"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nerve plexus surrounding the testis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 7833618
-PMID: 17999079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7833618
+PMID:17999079</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22393,7 +21475,8 @@ PMID: 17999079</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007558"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse anatomical plane, located approximately 1-2 mm from the posterior extremity of an adult animal, at which fission occurs.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 11972158; OCLC:16809160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCLC:16809160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11972158</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22460,8 +21543,8 @@ PMID: 17999079</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007559"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nerve plexus surrounding the ovary.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 7833618
-PMID: 17999079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7833618
+PMID:17999079</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22498,5 +21581,5 @@ PMID: 17999079</oboInOwl:hasDbXref>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
 
