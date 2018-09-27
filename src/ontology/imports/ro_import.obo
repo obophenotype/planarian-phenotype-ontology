@@ -181,6 +181,11 @@ is_a: BFO:0000019 ! quality
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0000052
+name: shape
+is_a: PATO:0000051 ! morphology
+
+[Term]
 id: PATO:0001241
 name: physical object quality
 is_a: PATO:0000001 ! quality

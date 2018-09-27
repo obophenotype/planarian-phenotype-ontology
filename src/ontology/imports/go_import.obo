@@ -17,6 +17,7 @@ alt_id: GO:0050876
 def: "The production of new individuals that contain some portion of genetic material inherited from one or more parent organisms." [GOC:go_curators, GOC:isa_complete, GOC:jl, ISBN:0198506732]
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_pir
 subset: goslim_plant
@@ -297,6 +298,7 @@ subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_mouse
 subset: goslim_plant
@@ -313,6 +315,7 @@ name: catalytic activity
 namespace: molecular_function
 def: "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [GOC:vw, ISBN:0198506732]
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_plant
@@ -400,6 +403,7 @@ def: "Interacting selectively and non-covalently with one or more specific sites
 comment: Where appropriate, also consider annotating to 'receptor agonist activity ; GO:0048018'.
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_plant
 synonym: "receptor binding" BROAD []
@@ -584,6 +588,7 @@ subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_mouse
 subset: goslim_pir
@@ -688,6 +693,7 @@ subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_pir
@@ -1239,6 +1245,7 @@ subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_pir
 subset: goslim_plant
@@ -1626,7 +1633,7 @@ def: "The internally coordinated responses (actions or inactions) of animals (in
 comment: 1. Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation reviews.\n2. While a broader definition of behavior encompassing plants and single cell organisms would be justified on the basis of some usage (see PMID:20160973 for discussion), GO uses a tight definition that limits behavior to animals and to responses involving the nervous system, excluding plant responses that GO classifies under development, and responses of unicellular organisms that has general classifications for covering the responses of cells in multicellular organisms (e.g. cell chemotaxis).
 subset: gocheck_do_not_manually_annotate
 subset: goslim_agr
-subset: goslim_plant
+subset: goslim_flybase_ribbon
 synonym: "behavioral response to stimulus" EXACT []
 synonym: "behaviour" EXACT []
 synonym: "behavioural response to stimulus" EXACT []
@@ -1917,6 +1924,7 @@ def: "The multiplication or reproduction of cells, resulting in the expansion of
 comment: This term was moved out from being a child of 'cellular process' because it is a cell population-level process, and cellular processes are restricted to those processes that involve individual cells. Also note that this term is intended to be used for the proliferation of cells within a multicellular organism, not for the expansion of a population of single-celled organisms.
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_mouse
 subset: goslim_pir
@@ -2723,6 +2731,7 @@ id: GO:0010467
 name: gene expression
 namespace: biological_process
 def: "The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form." [GOC:dph, GOC:tb]
+subset: goslim_flybase_ribbon
 xref: Reactome:REACT_100537 "Gene Expression, Xenopus tropicalis"
 xref: Reactome:REACT_101147 "Gene Expression, Danio rerio"
 xref: Reactome:REACT_101952 "Gene Expression, Sus scrofa"
@@ -3314,6 +3323,7 @@ def: "A lipid bilayer along with all the proteins and protein complexes embedded
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_plant
@@ -3683,6 +3693,7 @@ alt_id: GO:0006411
 alt_id: GO:0044268
 def: "The chemical reactions and pathways involving a protein. Includes protein modification." [GOC:ma]
 subset: goslim_agr
+subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pir
 subset: goslim_plant
@@ -3972,6 +3983,7 @@ alt_id: GO:0044700
 def: "The entirety of a process in which information is transmitted within a biological system. This process begins with an active signal and ends when a cellular response has been triggered." [GOC:mtg_signal, GOC:mtg_signaling_feb11, GOC:signaling]
 comment: Note that a signal is any variable property or parameter that serves to convey information, and may be a physical entity such as a gene product or small molecule, a photon, or a change in state such as movement or voltage change.
 subset: goslim_agr
+subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pombe
 subset: goslim_yeast
@@ -4938,6 +4950,7 @@ alt_id: GO:0044767
 def: "A biological process whose specific outcome is the progression of an integrated living unit: an anatomical structure (which may be a subcellular structure, cell, tissue, or organ), or organism over time from an initial condition to a later condition." [GOC:isa_complete]
 subset: goslim_agr
 subset: goslim_aspergillus
+subset: goslim_flybase_ribbon
 subset: goslim_pir
 synonym: "development" NARROW []
 synonym: "single-organism developmental process" RELATED []
@@ -5045,6 +5058,7 @@ def: "A stable assembly of two or more macromolecules, i.e. proteins, nucleic ac
 comment: A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_pir
 synonym: "macromolecular complex" EXACT []
@@ -5059,6 +5073,7 @@ id: GO:0033036
 name: macromolecule localization
 namespace: biological_process
 def: "Any process in which a macromolecule is transported to, or maintained in, a specific location." [GOC:mah]
+subset: goslim_flybase_ribbon
 synonym: "macromolecule localisation" EXACT [GOC:mah]
 is_a: GO:0051179 ! localization
 
@@ -5440,6 +5455,7 @@ alt_id: GO:0019041
 def: "Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response." [GOC:bf, GOC:signaling]
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
 subset: goslim_mouse
 subset: goslim_pir
@@ -5834,6 +5850,7 @@ name: cell projection
 namespace: cellular_component
 def: "A prolongation or process extending from a cell, e.g. a flagellum or axon." [GOC:jl, http://www.cogsci.princeton.edu/~wn/]
 subset: goslim_agr
+subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pir
 synonym: "cell process" BROAD []
@@ -8008,6 +8025,7 @@ def: "A organ system process carried out by any of the organs or tissues of neur
 comment: Discussion of class label and synonyms: https://github.com/geneontology/go-ontology/issues/13824
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_pir
 synonym: "neurological system process" EXACT []
@@ -8032,6 +8050,7 @@ def: "Any process that results in a change in state or activity of a cell or an 
 comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
 subset: gocheck_do_not_manually_annotate
 subset: goslim_agr
+subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pir
 synonym: "physiological response to stimulus" EXACT []
@@ -8478,6 +8497,7 @@ name: establishment of localization
 namespace: biological_process
 def: "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." [GOC:ai, GOC:dos]
 subset: goslim_agr
+subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pir
 synonym: "establishment of localisation" EXACT [GOC:mah]
@@ -10226,6 +10246,7 @@ name: cellular component organization or biogenesis
 namespace: biological_process
 alt_id: GO:0071841
 def: "A process that results in the biosynthesis of constituent macromolecules, assembly, arrangement of constituent parts, or disassembly of a cellular component." [GOC:mah]
+subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
 synonym: "cellular component organisation or biogenesis" EXACT [GOC:mah]
 synonym: "cellular component organisation or biogenesis at cellular level" EXACT [GOC:mah]
@@ -10239,6 +10260,7 @@ id: GO:0071944
 name: cell periphery
 namespace: cellular_component
 def: "The part of a cell encompassing the cell cortex, the plasma membrane, and any external encapsulating structures." [GOC:mah]
+subset: goslim_flybase_ribbon
 is_a: GO:0044464 ! cell part
 created_by: midori
 creation_date: 2010-10-04T01:51:47Z
@@ -10755,6 +10777,7 @@ id: GO:0098772
 name: molecular function regulator
 namespace: molecular_function
 def: "A molecular function that modulates the activity of a gene product or complex.  Examples include enzyme regulators and channel regulators." [GOC:dos, GOC:pt]
+subset: goslim_flybase_ribbon
 is_a: GO:0003674 ! molecular_function
 relationship: part_of GO:0065009 ! regulation of molecular function
 relationship: regulates GO:0003674 ! molecular_function

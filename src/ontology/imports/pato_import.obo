@@ -18,6 +18,17 @@ subset: attribute_slim
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0000052
+name: shape
+namespace: quality
+alt_id: PATO:0001647
+def: "A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)." [PATOC:GVG]
+comment: Shapes are invariant on size transformations. Shapes can be subdivided into 2D and 3D shapes, We can also make a distinction between shapes of complete self-connected objects, and shapes of parts of objects.
+subset: attribute_slim
+synonym: "relational shape quality" EXACT []
+is_a: PATO:0000051 ! morphology
+
+[Term]
 id: PATO:0000068
 name: qualitative
 namespace: quality
