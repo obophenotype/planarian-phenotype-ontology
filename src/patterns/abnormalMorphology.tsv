@@ -1,2 +1,24 @@
 defined_class	defined_class_label	entity	entity_label
 PLANP:0000466	default	BSPO:0000384	ventral surface
+PLANP:0000467	default	PLANA:0004512	primitive ectoderm surface
+PLANP:0000468	default	BSPO:0000378	distal surface
+PLANP:0000469	default	PLANA:0000411	lumen gut surface
+PLANP:0000470	default	PLANA:0000410	basal epidermis surface
+PLANP:0000471	default	BSPO:0000383	medial surface
+PLANP:0000472	default	BSPO:0000005	anatomical surface
+PLANP:0000473	default	BSPO:0000377	proximal surface
+PLANP:0000474	default	BSPO:0000371	anterior surface
+PLANP:0000475	default	PLANA:0000409	apical epidermis surface
+PLANP:0000476	default	BSPO:0000374	basal surface
+PLANP:0000478	default	BSPO:0000373	apical surface
+PLANP:0000479	default	BSPO:0000382	lateral surface
+PLANP:0000480	default	PLANA:0000414	pharyngeal pouch surface
+PLANP:0000481	default	PLANA:0004514	embryonic gut cell surface
+PLANP:0000482	default	PLANA:0004513	primtive gut cell surface
+PLANP:0000483	default	BSPO:0000379	dorsal surface
+PLANP:0000484	default	PLANA:0000412	pharynx lumen epithelial surface
+PLANP:0000485	default	BSPO:0000376	contralateral surface
+PLANP:0000486	default	PLANA:0004516	temporary embryonic pharynx lumen epithelial surface
+PLANP:0000487	default	BSPO:0000381	ipsilateral surface
+PLANP:0000488	default	BSPO:0000372	posterior surface
+PLANP:0000489	default	PLANA:0000413	pharynx outer epithelial surface

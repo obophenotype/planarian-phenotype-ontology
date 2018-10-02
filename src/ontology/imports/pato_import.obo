@@ -44,6 +44,16 @@ subset: attribute_slim
 is_a: PATO:0000068 ! qualitative
 
 [Term]
+id: PATO:0000405
+name: curled
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the bearer's having parallel chains in undulate fashion on the border." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0000460
 name: abnormal
 namespace: quality

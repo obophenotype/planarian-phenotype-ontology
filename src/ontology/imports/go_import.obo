@@ -4560,7 +4560,7 @@ def: "A localization process that acts on a protein complex; the complex is tran
 synonym: "establishment and maintenance of protein complex localization" EXACT []
 synonym: "protein complex localisation" EXACT [GOC:mah]
 synonym: "protein complex localization" RELATED []
-is_a: GO:0051179 ! localization
+is_a: GO:0008104 ! protein localization
 
 [Term]
 id: GO:0031644
@@ -5649,8 +5649,8 @@ synonym: "intraflagellar transport" EXACT []
 synonym: "intraflagellar transport involved in cilium organization" EXACT []
 synonym: "intraflagellar transport involved in microtubule-based flagellum organisation" EXACT []
 xref: Wikipedia:Intraflagellar_transport
-is_a: GO:0010970 ! transport along microtubule
 is_a: GO:0031503 ! protein-containing complex localization
+is_a: GO:0098840 ! protein transport along microtubule
 relationship: occurs_in GO:0005929 ! cilium
 relationship: part_of GO:0044782 ! cilium organization
 
@@ -10824,12 +10824,30 @@ is_a: GO:0007059 ! chromosome segregation
 is_a: GO:0022402 ! cell cycle process
 
 [Term]
+id: GO:0098840
+name: protein transport along microtubule
+namespace: biological_process
+def: "The directed movement of a protein along a microtubule, mediated by motor proteins." [PMID:25987607]
+synonym: "microtubule-based protein transport" BROAD []
+is_a: GO:0006886 ! intracellular protein transport
+is_a: GO:0010970 ! transport along microtubule
+is_a: GO:0099118 ! microtubule-based protein transport
+
+[Term]
 id: GO:0099111
 name: microtubule-based transport
 namespace: biological_process
 def: "A microtubule-based process that results in the transport of organelles, other microtubules, or other cellular components.  Examples include motor-driven movement along microtubules and movement driven by polymerization or depolymerization of microtubules." [GOC:cjm, ISBN:0815316194]
 is_a: GO:0006810 ! transport
 is_a: GO:0007018 ! microtubule-based movement
+
+[Term]
+id: GO:0099118
+name: microtubule-based protein transport
+namespace: biological_process
+def: "A microtubule-based process that results in the transport of proteins." [GOC:vw]
+is_a: GO:0015031 ! protein transport
+is_a: GO:0099111 ! microtubule-based transport
 
 [Term]
 id: GO:0099568
