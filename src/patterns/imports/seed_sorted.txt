@@ -1,4 +1,5 @@
 http://purl.oboibrary.org/obo/upheno/patterns/abnormal
+http://purl.oboibrary.org/obo/upheno/patterns/abnormalshapeofquality
 http://purl.oboibrary.org/obo/upheno/patterns/morphology
 http://purl.oboibrary.org/obo/upheno/patterns/shape
 http://purl.obolibrary.org/obo/BFO_0000001

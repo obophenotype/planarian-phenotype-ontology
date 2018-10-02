@@ -2,9 +2,9 @@ pattern_name: abnomalshapeofquality
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalshapeofquality
 
 classes:
-  shape: PATO:0000052
   abnormal: PATO:0000460
   entity: BFO:0000001
+  shape: PATO:0000052
 
 relations: 
   inheres_in: RO:0000052
@@ -45,7 +45,7 @@ def:
     - shape
 
 equivalentTo:
-  text: "'has_part' some ('shape'  and ('inheres_in' some %s) and  ('qualifier' some '%s') and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('shape'  and ('inheres_in' some %s) and  ('qualifier' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - shape
     - entity
+    - shape
