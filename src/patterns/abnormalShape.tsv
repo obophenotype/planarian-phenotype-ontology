@@ -1,2 +1,4 @@
 defined_class	defined_class_label	entity	entity_label
 PLANP:0000490	default	BSPO:0000384	ventral surface
+PLANP:0000499	default	PLANA:0000418	head
+PLANP:0000500	default	PLANA:0000421	tail

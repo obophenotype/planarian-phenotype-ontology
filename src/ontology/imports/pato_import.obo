@@ -44,6 +44,25 @@ subset: attribute_slim
 is_a: PATO:0000068 ! qualitative
 
 [Term]
+id: PATO:0000117
+name: size
+namespace: quality
+def: "A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude." [WordNet:WordNet]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000122
+name: length
+namespace: quality
+def: "A 1-D extent quality which is equal to the distance between two points." [PATOC:GVG]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001708 ! 1-D extent
+
+[Term]
 id: PATO:0000405
 name: curled
 namespace: quality
@@ -81,6 +100,123 @@ is_a: PATO:0000069 ! deviation(from_normal)
 relationship: is_opposite_of PATO:0000460 ! abnormal
 
 [Term]
+id: PATO:0000573
+name: increased length
+namespace: quality
+def: "A length quality which is relatively large." [PATOC:GVG]
+subset: value_slim
+synonym: "long" EXACT []
+is_a: PATO:0000122 ! length
+is_a: PATO:0000586 ! increased size
+intersection_of: PATO:0000122 ! length
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000574 ! decreased length
+
+[Term]
+id: PATO:0000574
+name: decreased length
+namespace: quality
+def: "A length quality which is relatively small." [PATOC:GVG]
+subset: value_slim
+synonym: "short" EXACT []
+synonym: "shortened" RELATED []
+synonym: "stubby" RELATED []
+is_a: PATO:0000122 ! length
+is_a: PATO:0000587 ! decreased size
+intersection_of: PATO:0000122 ! length
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000573 ! increased length
+
+[Term]
+id: PATO:0000586
+name: increased size
+namespace: quality
+alt_id: PATO:0001202
+def: "A size quality which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "big" RELATED []
+synonym: "enlarged" RELATED []
+synonym: "expanded" RELATED []
+synonym: "great" RELATED []
+synonym: "large" RELATED []
+is_a: PATO:0000117 ! size
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000117 ! size
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000587 ! decreased size
+
+[Term]
+id: PATO:0000587
+name: decreased size
+namespace: quality
+def: "A size quality which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "hypoplasia" NARROW []
+synonym: "reduced" RELATED []
+synonym: "small" RELATED []
+synonym: "tiny" RELATED []
+synonym: "underdeveloped" NARROW []
+is_a: PATO:0000117 ! size
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000117 ! size
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000586 ! increased size
+
+[Term]
+id: PATO:0000599
+name: decreased width
+namespace: quality
+def: "A width which is relatively small." [PATOC:GVG]
+subset: value_slim
+synonym: "narrow" RELATED []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0000921 ! width
+intersection_of: PATO:0000921 ! width
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000600 ! increased width
+
+[Term]
+id: PATO:0000600
+name: increased width
+namespace: quality
+def: "A width which is relatively large." [PATOC:GVG]
+subset: value_slim
+synonym: "broad" RELATED []
+synonym: "wide" RELATED []
+synonym: "wide/broad" RELATED []
+is_a: PATO:0000586 ! increased size
+is_a: PATO:0000921 ! width
+intersection_of: PATO:0000921 ! width
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000599 ! decreased width
+
+[Term]
+id: PATO:0000921
+name: width
+namespace: quality
+def: "A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite." [PATOC:GVG]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "breadth" RELATED []
+is_a: PATO:0001708 ! 1-D extent
+
+[Term]
+id: PATO:0000944
+name: sharpness
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a sharp or tapered end or point." [PATOC:GVG]
+subset: attribute_slim
+subset: cell_quality
+synonym: "apiculate" EXACT []
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0001241
 name: physical object quality
 namespace: quality
@@ -99,6 +235,119 @@ synonym: "quality of continuant" EXACT []
 xref: snap:Quality
 is_a: PATO:0000001 ! quality
 
+[Term]
+id: PATO:0001419
+name: sharp
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the bearer's terminating in a point or edge." [PATOC:GVG]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0000944 ! sharpness
+
+[Term]
+id: PATO:0001708
+name: 1-D extent
+namespace: quality
+def: "A size quality inhering in an bearer by virtue of the bearer's extension in one dimension." [PATOC:GVG]
+subset: attribute_slim
+synonym: "1-D size" EXACT []
+is_a: PATO:0000117 ! size
+
+[Term]
+id: PATO:0002063
+name: columnar
+namespace: quality
+def: "A shape inhering in a bearer by virtue of the bearer's being elongated and cylindrical." [PATOC:me]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: George Gkoutos
+creation_date: 2009-07-01T01:44:06Z
+
+[Term]
+id: PATO:0002258
+name: pointed
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a point." [PATOC:http\://www.merriam-webster.com/dictionary/pointed]
+subset: value_slim
+is_a: PATO:0001419 ! sharp
+created_by: george
+creation_date: 2010-09-08T03:15:16Z
+
+[Term]
+id: PATO:0002300
+name: increased quality
+namespace: quality
+def: "A quality that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002301 ! decreased quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:39:43Z
+
+[Term]
+id: PATO:0002301
+name: decreased quality
+namespace: quality
+def: "A quality that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002300 ! increased quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:40:15Z
+
+[Term]
+id: PATO:0002303
+name: decreased object quality
+namespace: quality
+def: "A quality of an object that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002305 ! increased object quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:51:54Z
+
+[Term]
+id: PATO:0002305
+name: increased object quality
+namespace: quality
+def: "A quality of an object that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002303 ! decreased object quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:54:01Z
+
+[Typedef]
+id: decreased_in_magnitude_relative_to
+name: decreased_in_magnitude_relative_to
+namespace: quality
+def: "q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'decreased strength', relative to the parent type, 'strength'.
+domain: PATO:0000001 ! quality
+range: PATO:0000001 ! quality
+is_transitive: true
+is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
+
+[Typedef]
+id: different_in_magnitude_relative_to
+name: different_in_magnitude_relative_to
+namespace: quality
+def: "q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+domain: PATO:0000001 ! quality
+range: PATO:0000001 ! quality
+
 [Typedef]
 id: has_part
 name: has_part
@@ -106,6 +355,17 @@ namespace: quality
 def: "Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2." [PATOC:CJM]
 comment: We use the has_part relation to relate complex qualities to more primitive ones. A complex quality is a collection of qualities. The complex quality cannot exist without the sub-qualities. For example, the quality 'swollen' necessarily comes with the qualities of 'protruding' and 'increased size'.
 xref: BFO:0000051
+
+[Typedef]
+id: increased_in_magnitude_relative_to
+name: increased_in_magnitude_relative_to
+namespace: quality
+def: "q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'increased strength', relative to the parent type, 'strength'.
+domain: PATO:0000001 ! quality
+range: PATO:0000001 ! quality
+is_transitive: true
+is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
 
 [Typedef]
 id: is_opposite_of

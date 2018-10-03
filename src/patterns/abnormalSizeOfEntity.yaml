@@ -1,0 +1,51 @@
+pattern_name: abnormalSizeOfEntity 
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeOfEntity
+
+classes:
+  abnormal: PATO:0000460
+  entity: BFO:0000001
+  size: PATO:0000117
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  size: "'size'"
+  entity: "'entity'"
+
+name:
+  text: "abnormal %s of %s "
+  vars:
+   - size
+   - entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "abnormal %s size of %s"
+    vars:
+     - size
+     - entity
+  - 
+    annotationProperty: exact_synonym
+    text: "abnormally %s sized %s"
+    vars:
+     - size
+     - entity     
+
+def:
+  text: "Any structural anomaly in the size of the %s that is %s."
+  vars:
+    - entity
+    - size
+
+equivalentTo:
+  text: "'has_part' some ('size' and ('inheres_in' some %s) and ('qualifier' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity
+    - size

@@ -22,3 +22,5 @@ PLANP:0000486	default	PLANA:0004516	temporary embryonic pharynx lumen epithelial
 PLANP:0000487	default	BSPO:0000381	ipsilateral surface
 PLANP:0000488	default	BSPO:0000372	posterior surface
 PLANP:0000489	default	PLANA:0000413	pharynx outer epithelial surface
+PLANP:0000497	default	PLANA:0000418	head
+PLANP:0000498	default	PLANA:0000421	tail
