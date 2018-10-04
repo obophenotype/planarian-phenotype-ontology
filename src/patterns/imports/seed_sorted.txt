@@ -1,7 +1,7 @@
 http://purl.oboibrary.org/obo/upheno/patterns/abnormal
+http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType
 http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize
-http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeOfEntity
-http://purl.oboibrary.org/obo/upheno/patterns/abnormalshapeofentity
+http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType
 http://purl.oboibrary.org/obo/upheno/patterns/morphology
 http://purl.oboibrary.org/obo/upheno/patterns/shape
 http://purl.obolibrary.org/obo/BFO_0000001
