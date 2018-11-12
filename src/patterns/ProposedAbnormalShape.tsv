@@ -1,0 +1,5 @@
+defined_class	defined_class_label	entity	entity_label	shape	shape_label
+PLANP:0000490	default	BSPO:0000384	ventral surface	PATO:0000052	shape
+PLANP:0000490	default	BSPO:0000384	ventral surface	PATO:0000405	curled
+PLANP:0000499	default	PLANA:0000418	head	PATO:0000052	shape
+PLANP:0000500	default	PLANA:0000421	tail	PATO:0000052	shape
