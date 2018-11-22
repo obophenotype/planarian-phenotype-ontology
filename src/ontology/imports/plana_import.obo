@@ -1127,7 +1127,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000009 xsd:string
 
 [Term]
@@ -1196,7 +1196,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000014 xsd:string
 
 [Term]
@@ -1224,7 +1224,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000016 xsd:string
 
 [Term]
@@ -1240,7 +1240,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0002202 PLANA:0000095 ! develops from trail cell
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000017 xsd:string
 
 [Term]
@@ -1268,7 +1268,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000018 xsd:string
 
 [Term]
@@ -1335,7 +1335,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000022 xsd:string
 
 [Term]
@@ -1354,8 +1354,8 @@ relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/temporaryembryonicpharynx.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000023 xsd:string
 
@@ -1401,7 +1401,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000026 xsd:string
 
 [Term]
@@ -1433,7 +1433,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000028 xsd:string
 
 [Term]
@@ -1449,7 +1449,7 @@ relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
 relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000029 xsd:string
 
 [Term]
@@ -1482,7 +1482,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000031 xsd:string
 
 [Term]
@@ -1532,7 +1532,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000034 xsd:string
 
 [Term]
@@ -1556,7 +1556,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000035 xsd:string
 
 [Term]
@@ -1622,7 +1622,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000039 xsd:string
 
 [Term]
@@ -1642,8 +1642,8 @@ relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 relationship: subdivision_of PLANA:0000116 ! embryo
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000041 xsd:string
 
@@ -1666,7 +1666,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/anteriorprimarygutbranch.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000042 xsd:string
 
@@ -1697,7 +1697,7 @@ relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000044 xsd:string
 
 [Term]
@@ -1746,7 +1746,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000046 xsd:string
 
 [Term]
@@ -1906,8 +1906,8 @@ xref: GO:0040016
 is_a: PLANA:0000112 ! Schmidtea mediterranea developmental term
 relationship: RO:0002490 PLANA:0000001 ! existence overlaps Stage 1
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002583 PLANA:0000001 ! existence starts at point Stage 1
-relationship: RO:0002593 PLANA:0000002 ! existence ends at point Stage 2
+relationship: RO:0002496 PLANA:0000001 ! existence starts during or after Stage 1
+relationship: RO:0002497 PLANA:0000002 ! existence ends during or before Stage 2
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000057 xsd:string
 
 [Term]
@@ -1922,8 +1922,8 @@ relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
-relationship: RO:0002593 PLANA:0000007 ! existence ends at point Stage 7
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
+relationship: RO:0002497 PLANA:0000007 ! existence ends during or before Stage 7
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000058 xsd:string
 
 [Term]
@@ -1936,8 +1936,8 @@ relationship: BFO:0000050 PLANA:0000058 ! part of embryonic digestive system
 relationship: RO:0001018 PLANA:0000041 ! contained in aboral hemisphere
 relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
-relationship: RO:0002583 PLANA:0000004 ! existence starts at point Stage 4
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000004 ! existence starts during or after Stage 4
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000059 xsd:string
 
 [Term]
@@ -1950,8 +1950,8 @@ is_a: PLANA:0000423 ! embryonic subdivision
 relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000005 ! existence ends at point Stage 5
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000005 ! existence ends during or before Stage 5
 relationship: subdivision_of PLANA:0000116 ! embryo
 property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/embryonicwall.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000060 xsd:string
@@ -1975,7 +1975,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000061 xsd:string
 
 [Term]
@@ -2100,8 +2100,8 @@ relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000007 ! existence ends at point Stage 7
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000007 ! existence ends during or before Stage 7
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000068 xsd:string
 
 [Term]
@@ -2174,7 +2174,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000072 xsd:string
 
 [Term]
@@ -2209,7 +2209,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000075 xsd:string
 
 [Term]
@@ -2222,8 +2222,8 @@ relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 relationship: subdivision_of PLANA:0000116 ! embryo
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000076 xsd:string
 
@@ -2239,7 +2239,7 @@ relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000077 xsd:string
 
 [Term]
@@ -2327,7 +2327,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/posteriorprimarygutbranch.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000084 xsd:string
 
@@ -2340,8 +2340,8 @@ is_a: PLANA:0004518 ! extraembryonic cell
 relationship: BFO:0000050 PLANA:0000058 ! part of embryonic digestive system
 relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000005 ! existence ends at point Stage 5
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000005 ! existence ends during or before Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000085 xsd:string
 
 [Term]
@@ -2351,8 +2351,8 @@ namespace: Schmidtea_mediterranea_Developmental_Terms
 def: "Stage 2 embryo undergoing the process of sphere formation." [PMID:28072387]
 is_a: PLANA:0000112 ! Schmidtea mediterranea developmental term
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
-relationship: RO:0002593 PLANA:0000002 ! existence ends at point Stage 2
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
+relationship: RO:0002497 PLANA:0000002 ! existence ends during or before Stage 2
 relationship: RO:0003001 PLANA:0000091 ! produced by sphere formation
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000086 xsd:string
 
@@ -2380,7 +2380,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000087 xsd:string
 
 [Term]
@@ -2447,8 +2447,8 @@ namespace: Schmidtea_mediterranea_Developmental_Terms
 def: "Generation of a multilayered spherical embryo comprised of temporary extraembryonic tissues and undifferentiated blastomeres." [OCLC:20423827, OCLC:464776945, PMID:12888018, PMID:15599763, PMID:28072387]
 is_a: PLANA:0000112 ! Schmidtea mediterranea developmental term
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
-relationship: RO:0002593 PLANA:0000002 ! existence ends at point Stage 2
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
+relationship: RO:0002497 PLANA:0000002 ! existence ends during or before Stage 2
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000091 xsd:string
 
 [Term]
@@ -2459,8 +2459,8 @@ def: "Fused yolk cells surrounding blastomeres undergoing dispersed cleavage dur
 is_a: PLANA:0004518 ! extraembryonic cell
 relationship: RO:0002490 PLANA:0000001 ! existence overlaps Stage 1
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002583 PLANA:0000001 ! existence starts at point Stage 1
-relationship: RO:0002593 PLANA:0000002 ! existence ends at point Stage 2
+relationship: RO:0002496 PLANA:0000001 ! existence starts during or after Stage 1
+relationship: RO:0002497 PLANA:0000002 ! existence ends during or before Stage 2
 relationship: RO:0003001 PLANA:0000231 ! produced by vitelline gland
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000092 xsd:string
 
@@ -2496,7 +2496,7 @@ is_a: PLANA:0000112 ! Schmidtea mediterranea developmental term
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000094 xsd:string
 
 [Term]
@@ -2517,7 +2517,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000095 xsd:string
 
 [Term]
@@ -2544,7 +2544,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000096 xsd:string
 
 [Term]
@@ -2593,8 +2593,8 @@ xref: CL:0000365
 is_a: PLANA:0000040 ! Schmidtea mediterranea developmental stage
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
 relationship: RO:0001018 PLANA:0000001 ! contained in Stage 1
-relationship: RO:0002583 PLANA:0000001 ! existence starts at point Stage 1
-relationship: RO:0002593 PLANA:0000001 ! existence ends at point Stage 1
+relationship: RO:0002496 PLANA:0000001 ! existence starts during or after Stage 1
+relationship: RO:0002497 PLANA:0000001 ! existence ends during or before Stage 1
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000098 xsd:string
 
 [Term]
@@ -2659,7 +2659,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000006 ! existence starts at point Stage 6
+relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000104 xsd:string
 
 [Term]
@@ -2700,7 +2700,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 relationship: RO:0003001 PLANA:0000231 ! produced by vitelline gland
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000107 xsd:string
 
@@ -2875,7 +2875,7 @@ is_a: PLANA:0000215 ! reproductive system product
 is_a: PLANA:0000227 ! germ cell
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 relationship: RO:0003001 PLANA:0000217 ! produced by gonad
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000122 xsd:string
 
@@ -2943,7 +2943,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000127 xsd:string
 
 [Term]
@@ -2964,7 +2964,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000128 xsd:string
 
 [Term]
@@ -3017,7 +3017,7 @@ is_a: PLANA:0000112 ! Schmidtea mediterranea developmental term
 relationship: PLANA:0007536 PLANA:0004503 ! specific_to sexually mature adult
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000132 xsd:string
 
 [Term]
@@ -3056,7 +3056,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000134 xsd:string
 
 [Term]
@@ -3092,7 +3092,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000201 xsd:string
 
 [Term]
@@ -3109,7 +3109,7 @@ relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000203 xsd:string
 
 [Term]
@@ -3139,7 +3139,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000205 xsd:string
 
 [Term]
@@ -3155,7 +3155,7 @@ relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000206 xsd:string
 
 [Term]
@@ -3172,7 +3172,7 @@ relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000207 xsd:string
 
 [Term]
@@ -3228,8 +3228,8 @@ relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
 relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
-relationship: RO:0002583 PLANA:0000001 ! existence starts at point Stage 1
-relationship: RO:0002593 PLANA:0000005 ! existence ends at point Stage 5
+relationship: RO:0002496 PLANA:0000001 ! existence starts during or after Stage 1
+relationship: RO:0002497 PLANA:0000005 ! existence ends during or before Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000212 xsd:string
 
 [Term]
@@ -3273,7 +3273,7 @@ relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000217 xsd:string
 
 [Term]
@@ -3319,7 +3319,7 @@ relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002202 PLANA:0000218 ! develops from male primordial germ cell
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000219 xsd:string
 
 [Term]
@@ -3401,7 +3401,7 @@ relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002202 PLANA:0000135 ! develops from female primordial germ cell
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000223 xsd:string
 
 [Term]
@@ -3419,7 +3419,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000224 xsd:string
 
 [Term]
@@ -3478,7 +3478,7 @@ relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000230 xsd:string
 
 [Term]
@@ -3494,7 +3494,7 @@ relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 relationship: RO:0003000 PLANA:0000107 ! produces yolk cell
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000231 xsd:string
 
@@ -3509,7 +3509,7 @@ relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000232 xsd:string
 
 [Term]
@@ -3526,7 +3526,7 @@ relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000233 xsd:string
 
 [Term]
@@ -3541,7 +3541,7 @@ relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000234 xsd:string
 
 [Term]
@@ -3579,7 +3579,7 @@ relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002202 PLANA:0000223 ! develops from female germline stem cell
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000239 xsd:string
 
 [Term]
@@ -3757,7 +3757,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000007 ! existence starts at point Stage 7
+relationship: RO:0002496 PLANA:0000007 ! existence starts during or after Stage 7
 property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/lumenofdigestivetract.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000405 xsd:string
 
@@ -4117,7 +4117,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
-relationship: RO:0002583 PLANA:0000005 ! existence starts at point Stage 5
+relationship: RO:0002496 PLANA:0000005 ! existence starts during or after Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000429 xsd:string
 
 [Term]
@@ -5546,7 +5546,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004507 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-19T21:35:08Z
@@ -5563,8 +5563,8 @@ relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004511 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T14:55:23Z
@@ -5584,7 +5584,7 @@ relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
 relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004512 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T16:25:14Z
@@ -5602,8 +5602,8 @@ relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000005 ! existence ends at point Stage 5
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000005 ! existence ends during or before Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004513 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T16:25:35Z
@@ -5622,8 +5622,8 @@ relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000004 ! existence starts at point Stage 4
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000004 ! existence starts during or after Stage 4
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004514 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T16:25:45Z
@@ -5643,8 +5643,8 @@ relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004516 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T16:26:16Z
@@ -5665,8 +5665,8 @@ relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
 relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
-relationship: RO:0002583 PLANA:0000001 ! existence starts at point Stage 1
-relationship: RO:0002593 PLANA:0000005 ! existence ends at point Stage 5
+relationship: RO:0002496 PLANA:0000001 ! existence starts during or after Stage 1
+relationship: RO:0002497 PLANA:0000005 ! existence ends during or before Stage 5
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004517 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T19:54:22Z
@@ -5685,7 +5685,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002490 PLANA:0000007 ! existence overlaps Stage 7
 relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
-relationship: RO:0002583 PLANA:0000002 ! existence starts at point Stage 2
+relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004518 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T20:00:04Z
@@ -5701,7 +5701,7 @@ relationship: BFO:0000050 PLANA:0000023 ! part of temporary embryonic pharynx
 relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004519 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T20:01:15Z
@@ -5717,7 +5717,7 @@ relationship: BFO:0000050 PLANA:0000023 ! part of temporary embryonic pharynx
 relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004520 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T20:01:39Z
@@ -5733,7 +5733,7 @@ relationship: BFO:0000050 PLANA:0000023 ! part of temporary embryonic pharynx
 relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004521 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T20:02:04Z
@@ -5749,7 +5749,7 @@ relationship: BFO:0000050 PLANA:0000023 ! part of temporary embryonic pharynx
 relationship: RO:0001018 PLANA:0000076 ! contained in oral hemisphere
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
 relationship: RO:0002490 PLANA:0000002 ! existence overlaps Stage 2
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004524 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T20:43:26Z
@@ -5765,7 +5765,7 @@ relationship: BSPO:0000099 PLANA:0000420 ! posterior_to parapharyngeal region
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 relationship: subdivision_of PLANA:0007507 ! posterior compartment
 property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/copulatoryregion.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004527 xsd:string
@@ -5819,7 +5819,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004530 xsd:string
 created_by: Erin Davies
 creation_date: 2017-09-01T17:52:16Z
@@ -5843,7 +5843,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004531 xsd:string
 created_by: Erin Davies
 creation_date: 2017-09-02T22:26:19Z
@@ -5864,7 +5864,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004532 xsd:string
 created_by: Erin Davies
 creation_date: 2017-09-02T22:35:10Z
@@ -5885,7 +5885,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004533 xsd:string
 created_by: Erin Davies
 creation_date: 2017-09-02T22:43:04Z
@@ -5904,7 +5904,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004534 xsd:string
 created_by: Erin Davies
 creation_date: 2017-09-02T22:55:44Z
@@ -6369,7 +6369,7 @@ relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0001018 PLANA:0007545 ! contained in epidermal compartment
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0007541 xsd:string
 created_by: Steph Nowotarski
 creation_date: 2017-09-05T15:08:48Z
@@ -6559,8 +6559,8 @@ relationship: RO:0002490 PLANA:0000003 ! existence overlaps Stage 3
 relationship: RO:0002490 PLANA:0000004 ! existence overlaps Stage 4
 relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
-relationship: RO:0002583 PLANA:0000003 ! existence starts at point Stage 3
-relationship: RO:0002593 PLANA:0000006 ! existence ends at point Stage 6
+relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
+relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0007556 xsd:string
 created_by: Erin Davies
 
@@ -6581,7 +6581,7 @@ relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0007557 xsd:string
 
 [Term]
@@ -6606,7 +6606,7 @@ relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
-relationship: RO:0002583 PLANA:0000214 ! existence starts at point juvenile
+relationship: RO:0002496 PLANA:0000214 ! existence starts during or after juvenile
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0007559 xsd:string
 
 [Term]

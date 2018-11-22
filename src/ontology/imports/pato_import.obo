@@ -110,7 +110,6 @@ is_a: PATO:0000122 ! length
 is_a: PATO:0000586 ! increased size
 intersection_of: PATO:0000122 ! length
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000574 ! decreased length
 
 [Term]
@@ -126,7 +125,6 @@ is_a: PATO:0000122 ! length
 is_a: PATO:0000587 ! decreased size
 intersection_of: PATO:0000122 ! length
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000573 ! increased length
 
 [Term]
@@ -145,7 +143,6 @@ is_a: PATO:0000117 ! size
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000587 ! decreased size
 
 [Term]
@@ -163,7 +160,6 @@ is_a: PATO:0000117 ! size
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000586 ! increased size
 
 [Term]
@@ -177,7 +173,6 @@ is_a: PATO:0000587 ! decreased size
 is_a: PATO:0000921 ! width
 intersection_of: PATO:0000921 ! width
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000600 ! increased width
 
 [Term]
@@ -193,7 +188,6 @@ is_a: PATO:0000586 ! increased size
 is_a: PATO:0000921 ! width
 intersection_of: PATO:0000921 ! width
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000599 ! decreased width
 
 [Term]
@@ -310,7 +304,6 @@ is_a: PATO:0001241 ! physical object quality
 is_a: PATO:0002301 ! decreased quality
 intersection_of: PATO:0001241 ! physical object quality
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0002305 ! increased object quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:51:54Z
@@ -324,7 +317,6 @@ is_a: PATO:0001241 ! physical object quality
 is_a: PATO:0002300 ! increased quality
 intersection_of: PATO:0001241 ! physical object quality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0002303 ! decreased object quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:54:01Z

@@ -42,7 +42,6 @@ relationship: has_part GO:0019778 ! Atg12 activating enzyme activity
 relationship: has_part GO:0019786 ! Atg8-specific protease activity
 relationship: has_part GO:0061651 ! Atg12 conjugating enzyme activity
 relationship: has_part GO:0061660 ! Atg12 ligase activity
-relationship: has_part GO:1904745 ! Atg1/ULK1 kinase complex assembly
 
 [Term]
 id: GO:0000070
@@ -107,25 +106,6 @@ subset: goslim_chembl
 subset: goslim_generic
 subset: goslim_yeast
 synonym: "mitosis" RELATED []
-xref: Reactome:REACT_100451 "Cell Cycle, Mitotic, Taeniopygia guttata"
-xref: Reactome:REACT_104035 "Cell Cycle, Mitotic, Sus scrofa"
-xref: Reactome:REACT_104195 "Cell Cycle, Mitotic, Canis familiaris"
-xref: Reactome:REACT_105856 "Cell Cycle, Mitotic, Danio rerio"
-xref: Reactome:REACT_108233 "Cell Cycle, Mitotic, Saccharomyces cerevisiae"
-xref: Reactome:REACT_152 "Cell Cycle, Mitotic, Homo sapiens"
-xref: Reactome:REACT_28464 "Cell Cycle, Mitotic, Xenopus tropicalis"
-xref: Reactome:REACT_28953 "Cell Cycle, Mitotic, Bos taurus"
-xref: Reactome:REACT_33388 "Cell Cycle, Mitotic, Rattus norvegicus"
-xref: Reactome:REACT_53493 "Cell Cycle, Mitotic, Plasmodium falciparum"
-xref: Reactome:REACT_79085 "Cell Cycle, Mitotic, Schizosaccharomyces pombe"
-xref: Reactome:REACT_84794 "Cell Cycle, Mitotic, Caenorhabditis elegans"
-xref: Reactome:REACT_85137 "Cell Cycle, Mitotic, Gallus gallus"
-xref: Reactome:REACT_85950 "Cell Cycle, Mitotic, Arabidopsis thaliana"
-xref: Reactome:REACT_90332 "Cell Cycle, Mitotic, Mus musculus"
-xref: Reactome:REACT_90846 "Cell Cycle, Mitotic, Oryza sativa"
-xref: Reactome:REACT_96281 "Cell Cycle, Mitotic, Drosophila melanogaster"
-xref: Reactome:REACT_97744 "Cell Cycle, Mitotic, Dictyostelium discoideum"
-xref: Reactome:REACT_98208 "Cell Cycle, Mitotic, Mycobacterium tuberculosis"
 xref: Wikipedia:Mitosis
 is_a: GO:0007049 ! cell cycle
 intersection_of: GO:0007049 ! cell cycle
@@ -164,7 +144,6 @@ id: GO:0001558
 name: regulation of cell growth
 namespace: biological_process
 def: "Any process that modulates the frequency, rate, extent or direction of cell growth." [GOC:go_curators]
-xref: Reactome:REACT_6201 "DTOR is positively regulated by DRheb-GTP, Drosophila melanogaster"
 is_a: GO:0040008 ! regulation of growth
 is_a: GO:0051128 ! regulation of cellular component organization
 intersection_of: GO:0008150 ! biological_process
@@ -363,34 +342,6 @@ synonym: "RDC1 receptor activity" NARROW []
 synonym: "receptor activity, G-protein coupled" EXACT [GOC:bf]
 synonym: "SREB receptor" NARROW []
 synonym: "super conserved receptor expressed in brain receptor activity" NARROW []
-xref: Reactome:REACT_100062 "G12/13 activation by PAR, Sus scrofa"
-xref: Reactome:REACT_100632 "The high affinity receptor complex binds to G-protein, Mus musculus"
-xref: Reactome:REACT_101654 "G12/13 activation by PAR, Taeniopygia guttata"
-xref: Reactome:REACT_108337 "Gq activation by PAR, Gallus gallus"
-xref: Reactome:REACT_108705 "The high affinity receptor complex binds to G-protein, Gallus gallus"
-xref: Reactome:REACT_109480 "Gq activation by PAR, Bos taurus"
-xref: Reactome:REACT_109715 "The high affinity receptor complex binds to G-protein, Danio rerio"
-xref: Reactome:REACT_110075 "G12/13 activation by PAR, Bos taurus"
-xref: Reactome:REACT_1430 "Gq activation by PAR, Homo sapiens"
-xref: Reactome:REACT_15298 "The high affinity receptor complex binds to G-protein, Homo sapiens"
-xref: Reactome:REACT_28243 "Gq activation by PAR, Rattus norvegicus"
-xref: Reactome:REACT_29193 "G12/13 activation by PAR, Rattus norvegicus"
-xref: Reactome:REACT_29686 "Gq activation by PAR, Canis familiaris"
-xref: Reactome:REACT_30471 "G12/13 activation by PAR, Mus musculus"
-xref: Reactome:REACT_32708 "G12/13 activation by PAR, Canis familiaris"
-xref: Reactome:REACT_32983 "Gq activation by PAR, Danio rerio"
-xref: Reactome:REACT_34075 "The high affinity receptor complex binds to G-protein, Taeniopygia guttata"
-xref: Reactome:REACT_637 "G12/13 activation by PAR, Homo sapiens"
-xref: Reactome:REACT_77079 "G12/13 activation by PAR, Danio rerio"
-xref: Reactome:REACT_78692 "The high affinity receptor complex binds to G-protein, Xenopus tropicalis"
-xref: Reactome:REACT_79526 "Gq activation by PAR, Sus scrofa"
-xref: Reactome:REACT_85249 "The high affinity receptor complex binds to G-protein, Canis familiaris"
-xref: Reactome:REACT_85989 "Gq activation by PAR, Taeniopygia guttata"
-xref: Reactome:REACT_86240 "G12/13 activation by PAR, Gallus gallus"
-xref: Reactome:REACT_92494 "The high affinity receptor complex binds to G-protein, Bos taurus"
-xref: Reactome:REACT_95526 "Gq activation by PAR, Mus musculus"
-xref: Reactome:REACT_97825 "Gq activation by PAR, Xenopus tropicalis"
-xref: Reactome:REACT_98882 "G12/13 activation by PAR, Xenopus tropicalis"
 xref: Wikipedia:GPCR
 is_a: GO:0004888 ! transmembrane signaling receptor activity
 relationship: part_of GO:0007186 ! G protein-coupled receptor signaling pathway
@@ -440,77 +391,6 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "glycoprotein binding" NARROW []
 synonym: "protein amino acid binding" EXACT []
-xref: Reactome:REACT_100287 "Formation of the IGF:IGFBP-4 Complex, Canis familiaris"
-xref: Reactome:REACT_101129 "Formation of the IGF:IGFBP-3:ALS Complex, Rattus norvegicus"
-xref: Reactome:REACT_102084 "Formation of the IGF:IGFBP-5:ALS Complex, Mus musculus"
-xref: Reactome:REACT_102457 "An anchoring protein, SARA, recruits SMAD2/3, Canis familiaris"
-xref: Reactome:REACT_103972 "Type II receptor recruits type I receptor, Xenopus tropicalis"
-xref: Reactome:REACT_104029 "Formation of the IGF:IGFBP-6 Complex, Bos taurus"
-xref: Reactome:REACT_104599 "Type II receptor recruits type I receptor, Sus scrofa"
-xref: Reactome:REACT_105776 "Formation of the IGF:IGFBP-3:ALS Complex, Danio rerio"
-xref: Reactome:REACT_105895 "Formation of the IGF:IGFBP-4 Complex, Bos taurus"
-xref: Reactome:REACT_106168 "Formation of the IGF:IGFBP-2 Complex, Bos taurus"
-xref: Reactome:REACT_106189 "Formation of the IGF:IGFBP-5:ALS Complex, Gallus gallus"
-xref: Reactome:REACT_107402 "Formation of the IGF:IGFBP-4 Complex, Mus musculus"
-xref: Reactome:REACT_108283 "Formation of the IGF:IGFBP-4 Complex, Xenopus tropicalis"
-xref: Reactome:REACT_109392 "Formation of the IGF:IGFBP-3:ALS Complex, Gallus gallus"
-xref: Reactome:REACT_110419 "Type II receptor recruits type I receptor, Bos taurus"
-xref: Reactome:REACT_110570 "Formation of the IGF:IGFBP-3:ALS Complex, Sus scrofa"
-xref: Reactome:REACT_15321 "Formation of the IGF:IGFBP-1 Complex, Homo sapiens"
-xref: Reactome:REACT_15325 "Formation of the IGF:IGFBP-4 Complex, Homo sapiens"
-xref: Reactome:REACT_15355 "Formation of the IGF:IGFBP-5:ALS Complex, Homo sapiens"
-xref: Reactome:REACT_15417 "Formation of the IGF:IGFBP-3:ALS Complex, Homo sapiens"
-xref: Reactome:REACT_15419 "Formation of the IGF:IGFBP-2 Complex, Homo sapiens"
-xref: Reactome:REACT_15506 "Formation of the IGF:IGFBP-6 Complex, Homo sapiens"
-xref: Reactome:REACT_15541 "Traversal of the cortical actin network and docking at plasma membrane, Homo sapiens"
-xref: Reactome:REACT_20509 "Exocytosis of Insulin, Mus musculus"
-xref: Reactome:REACT_20539 "Traversal of the cortical actin network., Mus musculus"
-xref: Reactome:REACT_28794 "Formation of the IGF:IGFBP-4 Complex, Sus scrofa"
-xref: Reactome:REACT_30571 "Formation of the IGF:IGFBP-6 Complex, Danio rerio"
-xref: Reactome:REACT_30672 "Formation of the IGF:IGFBP-2 Complex, Taeniopygia guttata"
-xref: Reactome:REACT_31305 "Formation of the IGF:IGFBP-3:ALS Complex, Taeniopygia guttata"
-xref: Reactome:REACT_31537 "Formation of the IGF:IGFBP-6 Complex, Rattus norvegicus"
-xref: Reactome:REACT_31641 "Type II receptor recruits type I receptor, Danio rerio"
-xref: Reactome:REACT_31648 "An anchoring protein, SARA, recruits SMAD2/3, Mus musculus"
-xref: Reactome:REACT_32973 "Formation of the IGF:IGFBP-1 Complex, Canis familiaris"
-xref: Reactome:REACT_33135 "An anchoring protein, SARA, recruits SMAD2/3, Rattus norvegicus"
-xref: Reactome:REACT_34719 "Formation of the IGF:IGFBP-1 Complex, Danio rerio"
-xref: Reactome:REACT_6923 "An anchoring protein, SARA, recruits SMAD2/3, Homo sapiens"
-xref: Reactome:REACT_6945 "Type II receptor recruits type I receptor, Homo sapiens"
-xref: Reactome:REACT_78382 "Formation of the IGF:IGFBP-1 Complex, Mus musculus"
-xref: Reactome:REACT_78466 "Formation of the IGF:IGFBP-6 Complex, Canis familiaris"
-xref: Reactome:REACT_79634 "Formation of the IGF:IGFBP-5:ALS Complex, Canis familiaris"
-xref: Reactome:REACT_80470 "Formation of the IGF:IGFBP-1 Complex, Rattus norvegicus"
-xref: Reactome:REACT_80778 "Type II receptor recruits type I receptor, Mus musculus"
-xref: Reactome:REACT_83147 "Type II receptor recruits type I receptor, Rattus norvegicus"
-xref: Reactome:REACT_83165 "Formation of the IGF:IGFBP-5:ALS Complex, Sus scrofa"
-xref: Reactome:REACT_83532 "Formation of the IGF:IGFBP-2 Complex, Xenopus tropicalis"
-xref: Reactome:REACT_85250 "Formation of the IGF:IGFBP-2 Complex, Canis familiaris"
-xref: Reactome:REACT_85858 "Formation of the IGF:IGFBP-2 Complex, Gallus gallus"
-xref: Reactome:REACT_85975 "An anchoring protein, SARA, recruits SMAD2/3, Danio rerio"
-xref: Reactome:REACT_87187 "An anchoring protein, SARA, recruits SMAD2/3, Xenopus tropicalis"
-xref: Reactome:REACT_87374 "Formation of the IGF:IGFBP-6 Complex, Sus scrofa"
-xref: Reactome:REACT_87652 "Formation of the IGF:IGFBP-5:ALS Complex, Bos taurus"
-xref: Reactome:REACT_88068 "Formation of the IGF:IGFBP-3:ALS Complex, Canis familiaris"
-xref: Reactome:REACT_88138 "Formation of the IGF:IGFBP-5:ALS Complex, Danio rerio"
-xref: Reactome:REACT_88223 "Formation of the IGF:IGFBP-1 Complex, Sus scrofa"
-xref: Reactome:REACT_89261 "Formation of the IGF:IGFBP-4 Complex, Taeniopygia guttata"
-xref: Reactome:REACT_90027 "Formation of the IGF:IGFBP-2 Complex, Rattus norvegicus"
-xref: Reactome:REACT_90105 "Formation of the IGF:IGFBP-1 Complex, Xenopus tropicalis"
-xref: Reactome:REACT_90666 "An anchoring protein, SARA, recruits SMAD2/3, Sus scrofa"
-xref: Reactome:REACT_91560 "Type II receptor recruits type I receptor, Canis familiaris"
-xref: Reactome:REACT_92029 "Formation of the IGF:IGFBP-4 Complex, Rattus norvegicus"
-xref: Reactome:REACT_93175 "Formation of the IGF:IGFBP-1 Complex, Gallus gallus"
-xref: Reactome:REACT_93938 "Formation of the IGF:IGFBP-5:ALS Complex, Rattus norvegicus"
-xref: Reactome:REACT_94522 "Formation of the IGF:IGFBP-5:ALS Complex, Taeniopygia guttata"
-xref: Reactome:REACT_94808 "Formation of the IGF:IGFBP-6 Complex, Mus musculus"
-xref: Reactome:REACT_95241 "Formation of the IGF:IGFBP-3:ALS Complex, Mus musculus"
-xref: Reactome:REACT_95561 "Formation of the IGF:IGFBP-5:ALS Complex, Xenopus tropicalis"
-xref: Reactome:REACT_95647 "Formation of the IGF:IGFBP-3:ALS Complex, Bos taurus"
-xref: Reactome:REACT_96236 "Formation of the IGF:IGFBP-2 Complex, Mus musculus"
-xref: Reactome:REACT_96264 "Formation of the IGF:IGFBP-2 Complex, Danio rerio"
-xref: Reactome:REACT_98028 "Formation of the IGF:IGFBP-1 Complex, Taeniopygia guttata"
-xref: Reactome:REACT_98807 "An anchoring protein, SARA, recruits SMAD2/3, Bos taurus"
 is_a: GO:0005488 ! binding
 
 [Term]
@@ -792,24 +672,6 @@ synonym: "RNA polymerase II transcription factor activity" RELATED []
 synonym: "specific transcription from RNA polymerase II promoter" RELATED [GOC:mah]
 synonym: "transcription from Pol II promoter" EXACT []
 synonym: "transcription from RNA polymerase II promoter" EXACT []
-xref: Reactome:REACT_105738 "RNA Polymerase II Transcription, Bos taurus"
-xref: Reactome:REACT_106213 "RNA Polymerase II Transcription, Caenorhabditis elegans"
-xref: Reactome:REACT_108012 "RNA Polymerase II Transcription, Canis familiaris"
-xref: Reactome:REACT_109421 "RNA Polymerase II Transcription, Xenopus tropicalis"
-xref: Reactome:REACT_1366 "RNA Polymerase II Transcription, Homo sapiens"
-xref: Reactome:REACT_31558 "RNA Polymerase II Transcription, Taeniopygia guttata"
-xref: Reactome:REACT_32943 "RNA Polymerase II Transcription, Danio rerio"
-xref: Reactome:REACT_33538 "RNA Polymerase II Transcription, Rattus norvegicus"
-xref: Reactome:REACT_33583 "RNA Polymerase II Transcription, Sus scrofa"
-xref: Reactome:REACT_34720 "RNA Polymerase II Transcription, Schizosaccharomyces pombe"
-xref: Reactome:REACT_79747 "RNA Polymerase II Transcription, Plasmodium falciparum"
-xref: Reactome:REACT_89454 "RNA Polymerase II Transcription, Oryza sativa"
-xref: Reactome:REACT_89916 "RNA Polymerase II Transcription, Mus musculus"
-xref: Reactome:REACT_97471 "RNA Polymerase II Transcription, Arabidopsis thaliana"
-xref: Reactome:REACT_97536 "RNA Polymerase II Transcription, Gallus gallus"
-xref: Reactome:REACT_99228 "RNA Polymerase II Transcription, Drosophila melanogaster"
-xref: Reactome:REACT_99748 "RNA Polymerase II Transcription, Dictyostelium discoideum"
-xref: Reactome:REACT_99950 "RNA Polymerase II Transcription, Saccharomyces cerevisiae"
 is_a: GO:0006351 ! transcription, DNA-templated
 
 [Term]
@@ -819,18 +681,6 @@ namespace: biological_process
 def: "The synthesis of RNA from a mitochondrial DNA template, usually by a specific mitochondrial RNA polymerase." [GOC:jl]
 comment: Changed class label as requested in https://github.com/geneontology/go-ontology/issues/14854
 synonym: "transcription from mitochondrial promoter" EXACT []
-xref: Reactome:REACT_105472 "Transcription from mitochondrial promoters, Rattus norvegicus"
-xref: Reactome:REACT_107715 "Transcription from mitochondrial promoters, Bos taurus"
-xref: Reactome:REACT_1484 "Transcription from mitochondrial promoters, Homo sapiens"
-xref: Reactome:REACT_32274 "Transcription from mitochondrial promoters, Sus scrofa"
-xref: Reactome:REACT_34725 "Transcription from mitochondrial promoters, Drosophila melanogaster"
-xref: Reactome:REACT_78264 "Transcription from mitochondrial promoters, Taeniopygia guttata"
-xref: Reactome:REACT_82329 "Transcription from mitochondrial promoters, Danio rerio"
-xref: Reactome:REACT_88757 "Transcription from mitochondrial promoters, Caenorhabditis elegans"
-xref: Reactome:REACT_91390 "Transcription from mitochondrial promoters, Xenopus tropicalis"
-xref: Reactome:REACT_95939 "Transcription from mitochondrial promoters, Canis familiaris"
-xref: Reactome:REACT_97569 "Transcription from mitochondrial promoters, Gallus gallus"
-xref: Reactome:REACT_97823 "Transcription from mitochondrial promoters, Mus musculus"
 is_a: GO:0000959 ! mitochondrial RNA metabolic process
 is_a: GO:0006351 ! transcription, DNA-templated
 intersection_of: GO:0006351 ! transcription, DNA-templated
@@ -849,16 +699,6 @@ subset: goslim_metagenomics
 subset: goslim_pir
 synonym: "ATP-dependent proteolysis" NARROW [GOC:mah]
 synonym: "peptidolysis" EXACT []
-xref: Reactome:REACT_105459 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Gallus gallus"
-xref: Reactome:REACT_106013 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Canis familiaris"
-xref: Reactome:REACT_106377 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Mus musculus"
-xref: Reactome:REACT_107219 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Danio rerio"
-xref: Reactome:REACT_110326 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Bos taurus"
-xref: Reactome:REACT_733 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Homo sapiens"
-xref: Reactome:REACT_84556 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Xenopus tropicalis"
-xref: Reactome:REACT_92566 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Sus scrofa"
-xref: Reactome:REACT_95969 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Taeniopygia guttata"
-xref: Reactome:REACT_98959 "Removal of aminoterminal propeptides from gamma-carboxylated proteins, Rattus norvegicus"
 xref: Wikipedia:Proteolysis
 is_a: GO:0019538 ! protein metabolic process
 
@@ -872,6 +712,24 @@ synonym: "aromatic compound metabolism" EXACT []
 synonym: "aromatic hydrocarbon metabolic process" NARROW []
 synonym: "aromatic hydrocarbon metabolism" NARROW []
 is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0006793
+name: phosphorus metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving the nonmetallic element phosphorus or compounds that contain phosphorus, usually in the form of a phosphate group (PO4)." [GOC:ai]
+subset: goslim_pir
+synonym: "phosphorus metabolism" EXACT []
+is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0006796
+name: phosphate-containing compound metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving the phosphate group, the anion or salt of any phosphoric acid." [GOC:ai]
+synonym: "phosphate metabolic process" RELATED []
+synonym: "phosphate metabolism" EXACT []
+is_a: GO:0006793 ! phosphorus metabolic process
 
 [Term]
 id: GO:0006807
@@ -960,7 +818,6 @@ subset: goslim_pombe
 xref: Wikipedia:Autophagy_(cellular)
 is_a: GO:0044248 ! cellular catabolic process
 is_a: GO:0061919 ! process utilizing autophagic mechanism
-relationship: has_part GO:0055085 ! transmembrane transport
 
 [Term]
 id: GO:0006915
@@ -986,61 +843,8 @@ synonym: "induction of apoptosis by p53" RELATED []
 synonym: "programmed cell death by apoptosis" EXACT []
 synonym: "signaling (initiator) caspase activity" RELATED []
 synonym: "type I programmed cell death" NARROW []
-xref: Reactome:REACT_100045 "Apoptosis, Drosophila melanogaster"
-xref: Reactome:REACT_100962 "Apoptosis, Mus musculus"
-xref: Reactome:REACT_101249 "NRIF signals cell death from the nucleus, Danio rerio"
-xref: Reactome:REACT_104187 "NRAGE signals death through JNK, Taeniopygia guttata"
-xref: Reactome:REACT_105149 "NADE modulates death signalling, Rattus norvegicus"
-xref: Reactome:REACT_106405 "NRAGE signals death through JNK, Xenopus tropicalis"
-xref: Reactome:REACT_106672 "NADE modulates death signalling, Sus scrofa"
-xref: Reactome:REACT_107264 "NRIF signals cell death from the nucleus, Xenopus tropicalis"
-xref: Reactome:REACT_108651 "NRAGE signals death through JNK, Mus musculus"
-xref: Reactome:REACT_109165 "NRAGE signals death through JNK, Arabidopsis thaliana"
-xref: Reactome:REACT_110081 "NRAGE signals death through JNK, Schizosaccharomyces pombe"
-xref: Reactome:REACT_111964 "NRAGE signals death through JNK, Dictyostelium discoideum"
-xref: Reactome:REACT_13526 "NADE modulates death signalling, Homo sapiens"
-xref: Reactome:REACT_13638 "NRAGE signals death through JNK, Homo sapiens"
-xref: Reactome:REACT_13643 "NRIF signals cell death from the nucleus, Homo sapiens"
-xref: Reactome:REACT_28087 "Apoptosis, Saccharomyces cerevisiae"
-xref: Reactome:REACT_28795 "Apoptosis, Oryza sativa"
-xref: Reactome:REACT_28816 "Apoptosis, Danio rerio"
-xref: Reactome:REACT_30266 "Apoptosis, Arabidopsis thaliana"
-xref: Reactome:REACT_30361 "Apoptosis, Canis familiaris"
-xref: Reactome:REACT_30371 "NRAGE signals death through JNK, Saccharomyces cerevisiae"
-xref: Reactome:REACT_30548 "NRAGE signals death through JNK, Caenorhabditis elegans"
-xref: Reactome:REACT_30763 "NRAGE signals death through JNK, Oryza sativa"
-xref: Reactome:REACT_31349 "NRAGE signals death through JNK, Canis familiaris"
-xref: Reactome:REACT_34139 "NRAGE signals death through JNK, Gallus gallus"
-xref: Reactome:REACT_578 "Apoptosis, Homo sapiens"
-xref: Reactome:REACT_77132 "NRAGE signals death through JNK, Drosophila melanogaster"
-xref: Reactome:REACT_77313 "NADE modulates death signalling, Bos taurus"
-xref: Reactome:REACT_77415 "NRIF signals cell death from the nucleus, Canis familiaris"
-xref: Reactome:REACT_78287 "Apoptosis, Gallus gallus"
-xref: Reactome:REACT_78802 "NADE modulates death signalling, Canis familiaris"
-xref: Reactome:REACT_79809 "Apoptosis, Schizosaccharomyces pombe"
-xref: Reactome:REACT_82724 "Apoptosis, Taeniopygia guttata"
-xref: Reactome:REACT_83328 "Apoptosis, Sus scrofa"
-xref: Reactome:REACT_85877 "NRAGE signals death through JNK, Rattus norvegicus"
-xref: Reactome:REACT_86749 "Apoptosis, Rattus norvegicus"
-xref: Reactome:REACT_86873 "NRIF signals cell death from the nucleus, Gallus gallus"
-xref: Reactome:REACT_87570 "NRIF signals cell death from the nucleus, Rattus norvegicus"
-xref: Reactome:REACT_88740 "NRIF signals cell death from the nucleus, Sus scrofa"
-xref: Reactome:REACT_88784 "NRIF signals cell death from the nucleus, Mus musculus"
-xref: Reactome:REACT_89196 "Apoptosis, Dictyostelium discoideum"
-xref: Reactome:REACT_90267 "NRIF signals cell death from the nucleus, Taeniopygia guttata"
-xref: Reactome:REACT_91011 "Apoptosis, Caenorhabditis elegans"
-xref: Reactome:REACT_91243 "NADE modulates death signalling, Mus musculus"
-xref: Reactome:REACT_93937 "Apoptosis, Bos taurus"
-xref: Reactome:REACT_94099 "NRAGE signals death through JNK, Danio rerio"
-xref: Reactome:REACT_95069 "Apoptosis, Xenopus tropicalis"
-xref: Reactome:REACT_95675 "Apoptosis, Plasmodium falciparum"
-xref: Reactome:REACT_97627 "NRIF signals cell death from the nucleus, Bos taurus"
-xref: Reactome:REACT_99784 "NRAGE signals death through JNK, Bos taurus"
-xref: Reactome:REACT_99799 "NRAGE signals death through JNK, Sus scrofa"
 xref: Wikipedia:Apoptosis
 is_a: GO:0012501 ! programmed cell death
-relationship: has_part GO:0097190 ! apoptotic signaling pathway
-relationship: has_part GO:0097194 ! execution phase of apoptosis
 
 [Term]
 id: GO:0006921
@@ -1050,24 +854,6 @@ def: "The breakdown of structures such as organelles, proteins, or other macromo
 synonym: "cellular component disassembly involved in apoptosis" NARROW []
 synonym: "cellular component disassembly involved in apoptotic process" BROAD []
 synonym: "disassembly of cell structures" BROAD []
-xref: Reactome:REACT_100800 "Apoptotic execution phase, Danio rerio"
-xref: Reactome:REACT_108463 "Apoptotic execution phase, Taeniopygia guttata"
-xref: Reactome:REACT_29660 "Apoptotic execution phase, Oryza sativa"
-xref: Reactome:REACT_77151 "Apoptotic execution phase, Sus scrofa"
-xref: Reactome:REACT_78666 "Apoptotic execution phase, Saccharomyces cerevisiae"
-xref: Reactome:REACT_79472 "Apoptotic execution phase, Schizosaccharomyces pombe"
-xref: Reactome:REACT_79859 "Apoptotic execution phase, Rattus norvegicus"
-xref: Reactome:REACT_80493 "Apoptotic execution phase, Dictyostelium discoideum"
-xref: Reactome:REACT_81021 "Apoptotic execution phase, Drosophila melanogaster"
-xref: Reactome:REACT_81052 "Apoptotic execution phase, Canis familiaris"
-xref: Reactome:REACT_84120 "Apoptotic execution phase, Xenopus tropicalis"
-xref: Reactome:REACT_89424 "Apoptotic execution phase, Arabidopsis thaliana"
-xref: Reactome:REACT_90988 "Apoptotic execution phase, Plasmodium falciparum"
-xref: Reactome:REACT_92689 "Apoptotic execution phase, Caenorhabditis elegans"
-xref: Reactome:REACT_93576 "Apoptotic execution phase, Gallus gallus"
-xref: Reactome:REACT_94230 "Apoptotic execution phase, Bos taurus"
-xref: Reactome:REACT_97703 "Apoptotic execution phase, Mus musculus"
-xref: Reactome:REACT_995 "Apoptotic execution phase, Homo sapiens"
 is_a: GO:0022411 ! cellular component disassembly
 intersection_of: GO:0022411 ! cellular component disassembly
 intersection_of: part_of GO:0097194 ! execution phase of apoptosis
@@ -1207,18 +993,6 @@ id: GO:0007018
 name: microtubule-based movement
 namespace: biological_process
 def: "A microtubule-based process that results in the movement of organelles, other microtubules, or other cellular components.  Examples include motor-driven movement along microtubules and movement driven by polymerization or depolymerization of microtubules." [GOC:cjm, ISBN:0815316194]
-xref: Reactome:REACT_102513 "Axonal transport of NGF:Trk complexes, Danio rerio"
-xref: Reactome:REACT_113466 "Axonal transport of NGF:Trk complexes, Caenorhabditis elegans"
-xref: Reactome:REACT_12385 "Axonal transport of NGF:Trk complexes, Homo sapiens"
-xref: Reactome:REACT_25201 "Kinesins, Homo sapiens"
-xref: Reactome:REACT_31982 "Axonal transport of NGF:Trk complexes, Sus scrofa"
-xref: Reactome:REACT_32872 "Axonal transport of NGF:Trk complexes, Mus musculus"
-xref: Reactome:REACT_77014 "Axonal transport of NGF:Trk complexes, Drosophila melanogaster"
-xref: Reactome:REACT_78584 "Axonal transport of NGF:Trk complexes, Gallus gallus"
-xref: Reactome:REACT_87390 "Axonal transport of NGF:Trk complexes, Bos taurus"
-xref: Reactome:REACT_89365 "Axonal transport of NGF:Trk complexes, Taeniopygia guttata"
-xref: Reactome:REACT_94549 "Axonal transport of NGF:Trk complexes, Canis familiaris"
-xref: Reactome:REACT_95164 "Axonal transport of NGF:Trk complexes, Xenopus tropicalis"
 is_a: GO:0006928 ! movement of cell or subcellular component
 is_a: GO:0007017 ! microtubule-based process
 
@@ -1418,25 +1192,6 @@ synonym: "signaling cascade" NARROW []
 synonym: "signaling pathway" RELATED []
 synonym: "signalling cascade" NARROW []
 synonym: "signalling pathway" RELATED [GOC:mah]
-xref: Reactome:REACT_100624 "EGFR interacts with phospholipase C-gamma, Gallus gallus"
-xref: Reactome:REACT_102354 "EGFR interacts with phospholipase C-gamma, Canis familiaris"
-xref: Reactome:REACT_112130 "EGFR interacts with phospholipase C-gamma, Oryza sativa"
-xref: Reactome:REACT_112549 "EGFR interacts with phospholipase C-gamma, Arabidopsis thaliana"
-xref: Reactome:REACT_113151 "EGFR interacts with phospholipase C-gamma, Mycobacterium tuberculosis"
-xref: Reactome:REACT_113601 "EGFR interacts with phospholipase C-gamma, Drosophila melanogaster"
-xref: Reactome:REACT_113964 "EGFR interacts with phospholipase C-gamma, Bos taurus"
-xref: Reactome:REACT_114657 "EGFR interacts with phospholipase C-gamma, Dictyostelium discoideum"
-xref: Reactome:REACT_114690 "EGFR interacts with phospholipase C-gamma, Saccharomyces cerevisiae"
-xref: Reactome:REACT_114820 "EGFR interacts with phospholipase C-gamma, Sus scrofa"
-xref: Reactome:REACT_114910 "EGFR interacts with phospholipase C-gamma, Caenorhabditis elegans"
-xref: Reactome:REACT_115037 "EGFR interacts with phospholipase C-gamma, Plasmodium falciparum"
-xref: Reactome:REACT_115147 "EGFR interacts with phospholipase C-gamma, Schizosaccharomyces pombe"
-xref: Reactome:REACT_12478 "EGFR interacts with phospholipase C-gamma, Homo sapiens"
-xref: Reactome:REACT_31232 "EGFR interacts with phospholipase C-gamma, Rattus norvegicus"
-xref: Reactome:REACT_78535 "EGFR interacts with phospholipase C-gamma, Xenopus tropicalis"
-xref: Reactome:REACT_89740 "EGFR interacts with phospholipase C-gamma, Taeniopygia guttata"
-xref: Reactome:REACT_93680 "EGFR interacts with phospholipase C-gamma, Danio rerio"
-xref: Reactome:REACT_98872 "EGFR interacts with phospholipase C-gamma, Mus musculus"
 xref: Wikipedia:Signal_transduction
 is_a: GO:0009987 ! cellular process
 is_a: GO:0050794 ! regulation of cellular process
@@ -1462,7 +1217,6 @@ synonym: "G-protein-coupled receptor protein signalling pathway" EXACT []
 synonym: "GPCR signaling pathway" EXACT []
 synonym: "GPCR signalling pathway" EXACT []
 is_a: GO:0007165 ! signal transduction
-relationship: has_part GO:0004930 ! G protein-coupled receptor activity
 
 [Term]
 id: GO:0007275
@@ -1879,12 +1633,6 @@ synonym: "peptide hydrolase activity" EXACT []
 synonym: "protease activity" EXACT []
 synonym: "proteinase activity" NARROW []
 xref: EC:3.4
-xref: Reactome:REACT_106748 "gamma-secretase cleaves p75NTR, releasing NRIF and TRAF6, Rattus norvegicus"
-xref: Reactome:REACT_110349 "gamma-secretase cleaves p75NTR, releasing NRIF and TRAF6, Mus musculus"
-xref: Reactome:REACT_13710 "gamma-secretase cleaves p75NTR, releasing NRIF and TRAF6, Homo sapiens"
-xref: Reactome:REACT_19284 "Proteolytic processing of Slit, Homo sapiens"
-xref: Reactome:REACT_93020 "gamma-secretase cleaves p75NTR, releasing NRIF and TRAF6, Bos taurus"
-xref: Reactome:REACT_99630 "gamma-secretase cleaves p75NTR, releasing NRIF and TRAF6, Gallus gallus"
 is_a: GO:0016787 ! hydrolase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 relationship: part_of GO:0006508 ! proteolysis
@@ -2238,8 +1986,8 @@ is_a: GO:0050896 ! response to stimulus
 id: GO:0009628
 name: response to abiotic stimulus
 namespace: biological_process
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an abiotic (non-living) stimulus." [GOC:hb]
-comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an abiotic (not derived from living organisms) stimulus." [GOC:hb]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC. Changed defintion as requested in https://github.com/geneontology/go-ontology/issues/16572.
 subset: gocheck_do_not_manually_annotate
 subset: goslim_metagenomics
 subset: goslim_plant
@@ -2511,7 +2259,6 @@ synonym: "stimulation of signal transduction" NARROW []
 synonym: "up regulation of signal transduction" EXACT []
 synonym: "up-regulation of signal transduction" EXACT []
 synonym: "upregulation of signal transduction" EXACT []
-xref: Reactome:REACT_6227 "Activated DTOR also phosphorylates D4EBP, Drosophila melanogaster"
 is_a: GO:0009966 ! regulation of signal transduction
 is_a: GO:0010647 ! positive regulation of cell communication
 is_a: GO:0023056 ! positive regulation of signaling
@@ -2532,7 +2279,6 @@ synonym: "downregulation of signal transduction" EXACT []
 synonym: "inhibition of signal transduction" NARROW []
 synonym: "negative regulation of signaling pathway" RELATED []
 synonym: "negative regulation of signalling pathway" RELATED [GOC:mah]
-xref: Reactome:REACT_6334 "DTSC1 AND DTSC2 form a complex, Drosophila melanogaster"
 is_a: GO:0009966 ! regulation of signal transduction
 is_a: GO:0010648 ! negative regulation of cell communication
 is_a: GO:0023057 ! negative regulation of signaling
@@ -2733,27 +2479,6 @@ name: gene expression
 namespace: biological_process
 def: "The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form." [GOC:dph, GOC:tb]
 subset: goslim_flybase_ribbon
-xref: Reactome:REACT_100537 "Gene Expression, Xenopus tropicalis"
-xref: Reactome:REACT_101147 "Gene Expression, Danio rerio"
-xref: Reactome:REACT_101952 "Gene Expression, Sus scrofa"
-xref: Reactome:REACT_105649 "Gene Expression, Drosophila melanogaster"
-xref: Reactome:REACT_108313 "Gene Expression, Caenorhabditis elegans"
-xref: Reactome:REACT_29068 "Gene Expression, Escherichia coli"
-xref: Reactome:REACT_34240 "Gene Expression, Staphylococcus aureus N315"
-xref: Reactome:REACT_71 "Gene Expression, Homo sapiens"
-xref: Reactome:REACT_78136 "Gene Expression, Mus musculus"
-xref: Reactome:REACT_78959 "Gene Expression, Taeniopygia guttata"
-xref: Reactome:REACT_79662 "Gene Expression, Plasmodium falciparum"
-xref: Reactome:REACT_85241 "Gene Expression, Oryza sativa"
-xref: Reactome:REACT_85359 "Gene Expression, Gallus gallus"
-xref: Reactome:REACT_86357 "Gene Expression, Canis familiaris"
-xref: Reactome:REACT_89816 "Gene Expression, Mycobacterium tuberculosis"
-xref: Reactome:REACT_91657 "Gene Expression, Arabidopsis thaliana"
-xref: Reactome:REACT_91965 "Gene Expression, Rattus norvegicus"
-xref: Reactome:REACT_93586 "Gene Expression, Dictyostelium discoideum"
-xref: Reactome:REACT_93968 "Gene Expression, Bos taurus"
-xref: Reactome:REACT_94814 "Gene Expression, Schizosaccharomyces pombe"
-xref: Reactome:REACT_98256 "Gene Expression, Saccharomyces cerevisiae"
 xref: Wikipedia:Gene_expression
 is_a: GO:0043170 ! macromolecule metabolic process
 
@@ -2849,6 +2574,28 @@ is_a: GO:0010605 ! negative regulation of macromolecule metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0009059 ! macromolecule biosynthetic process
 relationship: negatively_regulates GO:0009059 ! macromolecule biosynthetic process
+
+[Term]
+id: GO:0010562
+name: positive regulation of phosphorus metabolic process
+namespace: biological_process
+def: "Any process that increases the frequency, rate or extent of the chemical reactions and pathways involving phosphorus or compounds containing phosphorus." [GOC:dph, GOC:tb]
+is_a: GO:0031325 ! positive regulation of cellular metabolic process
+is_a: GO:0051174 ! regulation of phosphorus metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0006793 ! phosphorus metabolic process
+relationship: positively_regulates GO:0006793 ! phosphorus metabolic process
+
+[Term]
+id: GO:0010563
+name: negative regulation of phosphorus metabolic process
+namespace: biological_process
+def: "Any process that decreases the frequency, rate or extent of the chemical reactions and pathways involving phosphorus or compounds containing phosphorus." [GOC:dph, GOC:tb]
+is_a: GO:0031324 ! negative regulation of cellular metabolic process
+is_a: GO:0051174 ! regulation of phosphorus metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0006793 ! phosphorus metabolic process
+relationship: negatively_regulates GO:0006793 ! phosphorus metabolic process
 
 [Term]
 id: GO:0010564
@@ -3250,7 +2997,6 @@ synonym: "RCD" RELATED []
 synonym: "regulated cell death" BROAD []
 xref: Wikipedia:Programmed_cell_death
 is_a: GO:0008219 ! cell death
-relationship: has_part GO:0007165 ! signal transduction
 
 [Term]
 id: GO:0014041
@@ -3407,24 +3153,6 @@ subset: goslim_candida
 subset: goslim_metagenomics
 subset: goslim_pir
 synonym: "RNA metabolism" EXACT []
-xref: Reactome:REACT_107259 "Metabolism of RNA, Sus scrofa"
-xref: Reactome:REACT_107652 "Metabolism of RNA, Schizosaccharomyces pombe"
-xref: Reactome:REACT_110289 "Metabolism of RNA, Danio rerio"
-xref: Reactome:REACT_21257 "Metabolism of RNA, Homo sapiens"
-xref: Reactome:REACT_30579 "Metabolism of RNA, Xenopus tropicalis"
-xref: Reactome:REACT_31367 "Metabolism of RNA, Dictyostelium discoideum"
-xref: Reactome:REACT_33720 "Metabolism of RNA, Plasmodium falciparum"
-xref: Reactome:REACT_80071 "Metabolism of RNA, Caenorhabditis elegans"
-xref: Reactome:REACT_83630 "Metabolism of RNA, Taeniopygia guttata"
-xref: Reactome:REACT_84169 "Metabolism of RNA, Canis familiaris"
-xref: Reactome:REACT_85788 "Metabolism of RNA, Oryza sativa"
-xref: Reactome:REACT_88316 "Metabolism of RNA, Mus musculus"
-xref: Reactome:REACT_89992 "Metabolism of RNA, Saccharomyces cerevisiae"
-xref: Reactome:REACT_91556 "Metabolism of RNA, Bos taurus"
-xref: Reactome:REACT_92152 "Metabolism of RNA, Drosophila melanogaster"
-xref: Reactome:REACT_94876 "Metabolism of RNA, Arabidopsis thaliana"
-xref: Reactome:REACT_99403 "Metabolism of RNA, Rattus norvegicus"
-xref: Reactome:REACT_99885 "Metabolism of RNA, Gallus gallus"
 is_a: GO:0090304 ! nucleic acid metabolic process
 
 [Term]
@@ -3455,7 +3183,6 @@ def: "The major inducible pathway for the general turnover of cytoplasmic consti
 comment: Targeted macroautophagy sometimes targets regions of cytoplasm containing non-self, such as virus particles or components (e.g. see PMID:20159618).  As this is essentially the same process as macroautophagy that encloses and digests only self, the term autophagy is still used despite the enclosure of some non-self (non-auto) entities.
 synonym: "autophagy" BROAD []
 is_a: GO:0006914 ! autophagy
-relationship: has_part GO:0000045 ! autophagosome assembly
 
 [Term]
 id: GO:0016239
@@ -3502,6 +3229,31 @@ intersection_of: negatively_regulates GO:0016236 ! macroautophagy
 relationship: negatively_regulates GO:0016236 ! macroautophagy
 
 [Term]
+id: GO:0016301
+name: kinase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [ISBN:0198506732]
+comment: Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "phosphokinase activity" EXACT []
+is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
+relationship: part_of GO:0016310 ! phosphorylation
+
+[Term]
+id: GO:0016310
+name: phosphorylation
+namespace: biological_process
+def: "The process of introducing a phosphate group into a molecule, usually with the formation of a phosphoric ester, a phosphoric anhydride or a phosphoric amide." [ISBN:0198506732]
+subset: goslim_chembl
+subset: goslim_metagenomics
+xref: Wikipedia:Phosphorylation
+is_a: GO:0006796 ! phosphate-containing compound metabolic process
+
+[Term]
 id: GO:0016321
 name: female meiosis chromosome segregation
 namespace: biological_process
@@ -3527,8 +3279,17 @@ subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
 xref: EC:2
-xref: Reactome:REACT_25050 "Molybdenum ion transfer onto molybdopterin, Homo sapiens"
 is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016772
+name: transferase activity, transferring phosphorus-containing groups
+namespace: molecular_function
+def: "Catalysis of the transfer of a phosphorus-containing group from one compound (donor) to another (acceptor)." [GOC:jl, ISBN:0198506732]
+comment: Note that this term encompasses all kinase activities, as well as activities that transfer other phosphorus-containing groups such as diphosphate or nucleotides.
+subset: goslim_chembl
+xref: EC:2.7
+is_a: GO:0016740 ! transferase activity
 
 [Term]
 id: GO:0016787
@@ -3545,16 +3306,6 @@ subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
 xref: EC:3
-xref: Reactome:REACT_110436 "Hydrolysis of phosphatidylcholine, Bos taurus"
-xref: Reactome:REACT_111159 "Partial proteolysis of antigen in phagolysosomes, Homo sapiens"
-xref: Reactome:REACT_15331 "Hydrolysis of phosphatidylcholine, Homo sapiens"
-xref: Reactome:REACT_83734 "Hydrolysis of phosphatidylcholine, Danio rerio"
-xref: Reactome:REACT_84047 "Hydrolysis of phosphatidylcholine, Xenopus tropicalis"
-xref: Reactome:REACT_87959 "Hydrolysis of phosphatidylcholine, Gallus gallus"
-xref: Reactome:REACT_88159 "Hydrolysis of phosphatidylcholine, Canis familiaris"
-xref: Reactome:REACT_90118 "Hydrolysis of phosphatidylcholine, Mus musculus"
-xref: Reactome:REACT_91045 "Hydrolysis of phosphatidylcholine, Taeniopygia guttata"
-xref: Reactome:REACT_98572 "Hydrolysis of phosphatidylcholine, Rattus norvegicus"
 is_a: GO:0003824 ! catalytic activity
 
 [Term]
@@ -3573,8 +3324,6 @@ subset: goslim_pir
 subset: goslim_yeast
 synonym: "synthetase activity" EXACT [GOC:jh2]
 xref: EC:6
-xref: Reactome:REACT_115603 "Ligation of DNA at sites of patch replacement, Gallus gallus"
-xref: Reactome:REACT_116018 "Ligation of newly synthesized repair patch to incised DNA in GG-NER, Gallus gallus"
 is_a: GO:0003824 ! catalytic activity
 
 [Term]
@@ -3656,6 +3405,17 @@ is_a: GO:0080090 ! regulation of primary metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0006139 ! nucleobase-containing compound metabolic process
 relationship: regulates GO:0006139 ! nucleobase-containing compound metabolic process
+
+[Term]
+id: GO:0019220
+name: regulation of phosphate metabolic process
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving phosphates." [GOC:go_curators]
+synonym: "regulation of phosphate metabolism" EXACT []
+is_a: GO:0051174 ! regulation of phosphorus metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0006796 ! phosphate-containing compound metabolic process
+relationship: regulates GO:0006796 ! phosphate-containing compound metabolic process
 
 [Term]
 id: GO:0019222
@@ -3760,7 +3520,6 @@ synonym: "small conjugating protein transferase activity" EXACT [GOC:dph]
 synonym: "small protein conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like-protein ligase activity" NARROW []
-xref: Reactome:REACT_75843 "RIP2 is K63 polyubiquitinated, Homo sapiens"
 is_a: GO:0016740 ! transferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 
@@ -4155,7 +3914,6 @@ synonym: "down regulation of cell growth" EXACT []
 synonym: "down-regulation of cell growth" EXACT []
 synonym: "downregulation of cell growth" EXACT []
 synonym: "inhibition of cell growth" NARROW []
-xref: Reactome:REACT_6328 "DRheb is inhibited by the TSC1/2 complex, Drosophila melanogaster"
 is_a: GO:0001558 ! regulation of cell growth
 is_a: GO:0045926 ! negative regulation of growth
 is_a: GO:0048523 ! negative regulation of cellular process
@@ -4191,7 +3949,6 @@ namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is changed." [GOC:ceb]
 is_a: GO:0098772 ! molecular function regulator
 relationship: part_of GO:0010469 ! regulation of signaling receptor activity
-relationship: regulates GO:0038023 ! signaling receptor activity
 
 [Term]
 id: GO:0030705
@@ -4296,27 +4053,6 @@ synonym: "stimulation of cellular metabolic process" NARROW []
 synonym: "up regulation of cellular metabolic process" EXACT []
 synonym: "up-regulation of cellular metabolic process" EXACT []
 synonym: "upregulation of cellular metabolic process" EXACT []
-xref: Reactome:REACT_101225 "ChREBP activates metabolic gene expression, Mus musculus"
-xref: Reactome:REACT_102187 "ChREBP activates metabolic gene expression, Escherichia coli"
-xref: Reactome:REACT_102331 "ChREBP activates metabolic gene expression, Caenorhabditis elegans"
-xref: Reactome:REACT_105293 "ChREBP activates metabolic gene expression, Plasmodium falciparum"
-xref: Reactome:REACT_108571 "ChREBP activates metabolic gene expression, Drosophila melanogaster"
-xref: Reactome:REACT_109170 "ChREBP activates metabolic gene expression, Xenopus tropicalis"
-xref: Reactome:REACT_2122 "ChREBP activates metabolic gene expression, Homo sapiens"
-xref: Reactome:REACT_28360 "ChREBP activates metabolic gene expression, Arabidopsis thaliana"
-xref: Reactome:REACT_31270 "ChREBP activates metabolic gene expression, Mycobacterium tuberculosis"
-xref: Reactome:REACT_79603 "ChREBP activates metabolic gene expression, Canis familiaris"
-xref: Reactome:REACT_80902 "ChREBP activates metabolic gene expression, Saccharomyces cerevisiae"
-xref: Reactome:REACT_83058 "ChREBP activates metabolic gene expression, Taeniopygia guttata"
-xref: Reactome:REACT_84314 "ChREBP activates metabolic gene expression, Oryza sativa"
-xref: Reactome:REACT_86633 "ChREBP activates metabolic gene expression, Dictyostelium discoideum"
-xref: Reactome:REACT_87840 "ChREBP activates metabolic gene expression, Danio rerio"
-xref: Reactome:REACT_88060 "ChREBP activates metabolic gene expression, Rattus norvegicus"
-xref: Reactome:REACT_91293 "ChREBP activates metabolic gene expression, Staphylococcus aureus N315"
-xref: Reactome:REACT_91429 "ChREBP activates metabolic gene expression, Gallus gallus"
-xref: Reactome:REACT_91906 "ChREBP activates metabolic gene expression, Schizosaccharomyces pombe"
-xref: Reactome:REACT_92487 "ChREBP activates metabolic gene expression, Bos taurus"
-xref: Reactome:REACT_99393 "ChREBP activates metabolic gene expression, Sus scrofa"
 is_a: GO:0009893 ! positive regulation of metabolic process
 is_a: GO:0031323 ! regulation of cellular metabolic process
 is_a: GO:0048522 ! positive regulation of cellular process
@@ -5206,6 +4942,40 @@ is_a: GO:0006950 ! response to stress
 is_a: GO:0051716 ! cellular response to stimulus
 
 [Term]
+id: GO:0033673
+name: negative regulation of kinase activity
+namespace: biological_process
+def: "Any process that stops, prevents, or reduces the frequency, rate or extent of kinase activity, the catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:mah]
+synonym: "down regulation of kinase activity" EXACT []
+synonym: "down-regulation of kinase activity" EXACT []
+synonym: "downregulation of kinase activity" EXACT []
+synonym: "inhibition of kinase activity" NARROW []
+synonym: "kinase inhibitor" NARROW []
+is_a: GO:0042326 ! negative regulation of phosphorylation
+is_a: GO:0043549 ! regulation of kinase activity
+is_a: GO:0051348 ! negative regulation of transferase activity
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0016301 ! kinase activity
+relationship: negatively_regulates GO:0016301 ! kinase activity
+
+[Term]
+id: GO:0033674
+name: positive regulation of kinase activity
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of kinase activity, the catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:mah]
+synonym: "kinase activator" NARROW []
+synonym: "stimulation of kinase activity" NARROW []
+synonym: "up regulation of kinase activity" EXACT []
+synonym: "up-regulation of kinase activity" EXACT []
+synonym: "upregulation of kinase activity" EXACT []
+is_a: GO:0042327 ! positive regulation of phosphorylation
+is_a: GO:0043549 ! regulation of kinase activity
+is_a: GO:0051347 ! positive regulation of transferase activity
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0016301 ! kinase activity
+relationship: positively_regulates GO:0016301 ! kinase activity
+
+[Term]
 id: GO:0034613
 name: cellular protein localization
 namespace: biological_process
@@ -5224,27 +4994,6 @@ def: "The chemical reactions and pathways involving various organic and inorgani
 subset: goslim_chembl
 subset: goslim_generic
 synonym: "cellular nitrogen compound metabolism" EXACT []
-xref: Reactome:REACT_102000 "Metabolism of amino acids and derivatives, Mycobacterium tuberculosis"
-xref: Reactome:REACT_103710 "Metabolism of amino acids and derivatives, Escherichia coli"
-xref: Reactome:REACT_107293 "Metabolism of amino acids and derivatives, Arabidopsis thaliana"
-xref: Reactome:REACT_108179 "Metabolism of amino acids and derivatives, Xenopus tropicalis"
-xref: Reactome:REACT_109042 "Metabolism of amino acids and derivatives, Sus scrofa"
-xref: Reactome:REACT_13 "Metabolism of amino acids and derivatives, Homo sapiens"
-xref: Reactome:REACT_28699 "Metabolism of amino acids and derivatives, Saccharomyces cerevisiae"
-xref: Reactome:REACT_29108 "Metabolism of amino acids and derivatives, Caenorhabditis elegans"
-xref: Reactome:REACT_32429 "Metabolism of amino acids and derivatives, Rattus norvegicus"
-xref: Reactome:REACT_33347 "Metabolism of amino acids and derivatives, Mus musculus"
-xref: Reactome:REACT_34326 "Metabolism of amino acids and derivatives, Staphylococcus aureus N315"
-xref: Reactome:REACT_55564 "Metabolism of amino acids and derivatives, Gallus gallus"
-xref: Reactome:REACT_77741 "Metabolism of amino acids and derivatives, Taeniopygia guttata"
-xref: Reactome:REACT_82379 "Metabolism of amino acids and derivatives, Bos taurus"
-xref: Reactome:REACT_86268 "Metabolism of amino acids and derivatives, Drosophila melanogaster"
-xref: Reactome:REACT_90299 "Metabolism of amino acids and derivatives, Oryza sativa"
-xref: Reactome:REACT_91959 "Metabolism of amino acids and derivatives, Plasmodium falciparum"
-xref: Reactome:REACT_93580 "Metabolism of amino acids and derivatives, Danio rerio"
-xref: Reactome:REACT_95666 "Metabolism of amino acids and derivatives, Canis familiaris"
-xref: Reactome:REACT_98086 "Metabolism of amino acids and derivatives, Dictyostelium discoideum"
-xref: Reactome:REACT_99241 "Metabolism of amino acids and derivatives, Schizosaccharomyces pombe"
 is_a: GO:0006807 ! nitrogen compound metabolic process
 is_a: GO:0044237 ! cellular metabolic process
 
@@ -5399,19 +5148,6 @@ synonym: "intracellular signaling pathway" RELATED []
 synonym: "protein kinase cascade" NARROW [GOC:signaling]
 synonym: "signal transduction via intracellular signaling cascade" RELATED []
 synonym: "signal transmission via intracellular cascade" NARROW []
-xref: Reactome:REACT_100795 "PKA-mediated phosphorylation of key metabolic factors, Saccharomyces cerevisiae"
-xref: Reactome:REACT_102462 "PKA-mediated phosphorylation of key metabolic factors, Canis familiaris"
-xref: Reactome:REACT_104200 "PKA-mediated phosphorylation of key metabolic factors, Taeniopygia guttata"
-xref: Reactome:REACT_108216 "PKA-mediated phosphorylation of key metabolic factors, Dictyostelium discoideum"
-xref: Reactome:REACT_1525 "PKA-mediated phosphorylation of key metabolic factors, Homo sapiens"
-xref: Reactome:REACT_80030 "PKA-mediated phosphorylation of key metabolic factors, Sus scrofa"
-xref: Reactome:REACT_83068 "PKA-mediated phosphorylation of key metabolic factors, Gallus gallus"
-xref: Reactome:REACT_83869 "PKA-mediated phosphorylation of key metabolic factors, Xenopus tropicalis"
-xref: Reactome:REACT_87453 "PKA-mediated phosphorylation of key metabolic factors, Bos taurus"
-xref: Reactome:REACT_89085 "PKA-mediated phosphorylation of key metabolic factors, Rattus norvegicus"
-xref: Reactome:REACT_89983 "PKA-mediated phosphorylation of key metabolic factors, Danio rerio"
-xref: Reactome:REACT_90740 "PKA-mediated phosphorylation of key metabolic factors, Schizosaccharomyces pombe"
-xref: Reactome:REACT_99938 "PKA-mediated phosphorylation of key metabolic factors, Mus musculus"
 is_a: GO:0007165 ! signal transduction
 intersection_of: GO:0007165 ! signal transduction
 intersection_of: occurs_in GO:0005622 ! intracellular
@@ -5692,6 +5428,47 @@ synonym: "response to chemical substance" EXACT []
 is_a: GO:0050896 ! response to stimulus
 
 [Term]
+id: GO:0042325
+name: regulation of phosphorylation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of addition of phosphate groups into a molecule." [GOC:jl]
+is_a: GO:0019220 ! regulation of phosphate metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0016310 ! phosphorylation
+relationship: regulates GO:0016310 ! phosphorylation
+
+[Term]
+id: GO:0042326
+name: negative regulation of phosphorylation
+namespace: biological_process
+def: "Any process that stops, prevents or decreases the rate of addition of phosphate groups to a molecule." [GOC:jl]
+synonym: "down regulation of phosphorylation" EXACT []
+synonym: "down-regulation of phosphorylation" EXACT []
+synonym: "downregulation of phosphorylation" EXACT []
+synonym: "inhibition of phosphorylation" NARROW []
+is_a: GO:0042325 ! regulation of phosphorylation
+is_a: GO:0045936 ! negative regulation of phosphate metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0016310 ! phosphorylation
+relationship: negatively_regulates GO:0016310 ! phosphorylation
+
+[Term]
+id: GO:0042327
+name: positive regulation of phosphorylation
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of addition of phosphate groups to a molecule." [GOC:jl]
+synonym: "activation of phosphorylation" NARROW []
+synonym: "stimulation of phosphorylation" NARROW []
+synonym: "up regulation of phosphorylation" EXACT []
+synonym: "up-regulation of phosphorylation" EXACT []
+synonym: "upregulation of phosphorylation" EXACT []
+is_a: GO:0042325 ! regulation of phosphorylation
+is_a: GO:0045937 ! positive regulation of phosphate metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0016310 ! phosphorylation
+relationship: positively_regulates GO:0016310 ! phosphorylation
+
+[Term]
 id: GO:0042330
 name: taxis
 namespace: biological_process
@@ -5828,18 +5605,6 @@ def: "Any process that modulates the occurrence or rate of cell death by apoptot
 comment: This term should only be used when it is not possible to determine which phase or subtype of the apoptotic process is regulated by a gene product. Whenever detailed information is available, the more granular children terms should be used.
 synonym: "apoptosis regulator activity" RELATED []
 synonym: "regulation of apoptosis" NARROW []
-xref: Reactome:REACT_106248 "Regulation of Apoptosis, Mus musculus"
-xref: Reactome:REACT_109234 "Regulation of Apoptosis, Rattus norvegicus"
-xref: Reactome:REACT_109339 "Regulation of Apoptosis, Sus scrofa"
-xref: Reactome:REACT_13648 "Regulation of Apoptosis, Homo sapiens"
-xref: Reactome:REACT_29911 "Regulation of Apoptosis, Danio rerio"
-xref: Reactome:REACT_30641 "Regulation of Apoptosis, Drosophila melanogaster"
-xref: Reactome:REACT_79698 "Regulation of Apoptosis, Taeniopygia guttata"
-xref: Reactome:REACT_85908 "Regulation of Apoptosis, Bos taurus"
-xref: Reactome:REACT_86575 "Regulation of Apoptosis, Xenopus tropicalis"
-xref: Reactome:REACT_95946 "Regulation of Apoptosis, Caenorhabditis elegans"
-xref: Reactome:REACT_96201 "Regulation of Apoptosis, Canis familiaris"
-xref: Reactome:REACT_99944 "Regulation of Apoptosis, Gallus gallus"
 is_a: GO:0043067 ! regulation of programmed cell death
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0006915 ! apoptotic process
@@ -5904,17 +5669,6 @@ synonym: "downregulation of apoptosis" EXACT []
 synonym: "inhibition of apoptosis" NARROW []
 synonym: "negative regulation of apoptosis" NARROW []
 synonym: "pro-survival" RELATED []
-xref: Reactome:REACT_13537 "p75NTR signals via NF-kB, Homo sapiens"
-xref: Reactome:REACT_29981 "p75NTR signals via NF-kB, Canis familiaris"
-xref: Reactome:REACT_77563 "p75NTR signals via NF-kB, Sus scrofa"
-xref: Reactome:REACT_81263 "p75NTR signals via NF-kB, Taeniopygia guttata"
-xref: Reactome:REACT_83278 "p75NTR signals via NF-kB, Drosophila melanogaster"
-xref: Reactome:REACT_84567 "p75NTR signals via NF-kB, Gallus gallus"
-xref: Reactome:REACT_91585 "p75NTR signals via NF-kB, Danio rerio"
-xref: Reactome:REACT_93662 "p75NTR signals via NF-kB, Rattus norvegicus"
-xref: Reactome:REACT_95215 "p75NTR signals via NF-kB, Mus musculus"
-xref: Reactome:REACT_95867 "p75NTR signals via NF-kB, Xenopus tropicalis"
-xref: Reactome:REACT_98500 "p75NTR signals via NF-kB, Bos taurus"
 is_a: GO:0042981 ! regulation of apoptotic process
 is_a: GO:0043069 ! negative regulation of programmed cell death
 intersection_of: GO:0008150 ! biological_process
@@ -6156,6 +5910,17 @@ intersection_of: regulates GO:0005515 ! protein binding
 relationship: regulates GO:0005515 ! protein binding
 
 [Term]
+id: GO:0043549
+name: regulation of kinase activity
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of kinase activity, the catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:bf]
+is_a: GO:0042325 ! regulation of phosphorylation
+is_a: GO:0051338 ! regulation of transferase activity
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0016301 ! kinase activity
+relationship: regulates GO:0016301 ! kinase activity
+
+[Term]
 id: GO:0043618
 name: regulation of transcription from RNA polymerase II promoter in response to stress
 namespace: biological_process
@@ -6388,25 +6153,6 @@ name: cellular protein metabolic process
 namespace: biological_process
 def: "The chemical reactions and pathways involving a specific protein, rather than of proteins in general, occurring at the level of an individual cell. Includes cellular protein modification." [GOC:jl]
 synonym: "cellular protein metabolism" EXACT []
-xref: Reactome:REACT_101554 "Metabolism of proteins, Gallus gallus"
-xref: Reactome:REACT_102155 "Metabolism of proteins, Arabidopsis thaliana"
-xref: Reactome:REACT_105825 "Metabolism of proteins, Dictyostelium discoideum"
-xref: Reactome:REACT_106151 "Metabolism of proteins, Xenopus tropicalis"
-xref: Reactome:REACT_108005 "Metabolism of proteins, Bos taurus"
-xref: Reactome:REACT_109022 "Metabolism of proteins, Schizosaccharomyces pombe"
-xref: Reactome:REACT_17015 "Metabolism of proteins, Homo sapiens"
-xref: Reactome:REACT_32904 "Metabolism of proteins, Canis familiaris"
-xref: Reactome:REACT_34473 "Metabolism of proteins, Taeniopygia guttata"
-xref: Reactome:REACT_80561 "Metabolism of proteins, Escherichia coli"
-xref: Reactome:REACT_81994 "Metabolism of proteins, Sus scrofa"
-xref: Reactome:REACT_82523 "Metabolism of proteins, Danio rerio"
-xref: Reactome:REACT_85873 "Metabolism of proteins, Saccharomyces cerevisiae"
-xref: Reactome:REACT_86658 "Metabolism of proteins, Drosophila melanogaster"
-xref: Reactome:REACT_89852 "Metabolism of proteins, Rattus norvegicus"
-xref: Reactome:REACT_91052 "Metabolism of proteins, Caenorhabditis elegans"
-xref: Reactome:REACT_93132 "Metabolism of proteins, Mus musculus"
-xref: Reactome:REACT_96466 "Metabolism of proteins, Plasmodium falciparum"
-xref: Reactome:REACT_99179 "Metabolism of proteins, Oryza sativa"
 is_a: GO:0019538 ! protein metabolic process
 is_a: GO:0044260 ! cellular macromolecule metabolic process
 
@@ -6627,6 +6373,7 @@ disjoint_from: GO:0050896 ! response to stimulus
 disjoint_from: GO:0051179 ! localization
 disjoint_from: GO:0051704 ! multi-organism process
 disjoint_from: GO:0071840 ! cellular component organization or biogenesis
+disjoint_from: GO:0098743 ! cell aggregation
 created_by: janelomax
 creation_date: 2014-07-16T13:12:40Z
 
@@ -6943,17 +6690,6 @@ synonym: "downregulation of progression through cell cycle" EXACT []
 synonym: "inhibition of progression through cell cycle" NARROW []
 synonym: "negative regulation of cell cycle progression" EXACT []
 synonym: "negative regulation of progression through cell cycle" EXACT []
-xref: Reactome:REACT_102454 "p75NTR negatively regulates cell cycle via SC1, Taeniopygia guttata"
-xref: Reactome:REACT_102880 "p75NTR negatively regulates cell cycle via SC1, Xenopus tropicalis"
-xref: Reactome:REACT_112803 "p75NTR negatively regulates cell cycle via SC1, Drosophila melanogaster"
-xref: Reactome:REACT_13695 "p75NTR negatively regulates cell cycle via SC1, Homo sapiens"
-xref: Reactome:REACT_31060 "p75NTR negatively regulates cell cycle via SC1, Rattus norvegicus"
-xref: Reactome:REACT_32970 "p75NTR negatively regulates cell cycle via SC1, Sus scrofa"
-xref: Reactome:REACT_78219 "p75NTR negatively regulates cell cycle via SC1, Gallus gallus"
-xref: Reactome:REACT_83256 "p75NTR negatively regulates cell cycle via SC1, Bos taurus"
-xref: Reactome:REACT_88108 "p75NTR negatively regulates cell cycle via SC1, Canis familiaris"
-xref: Reactome:REACT_93253 "p75NTR negatively regulates cell cycle via SC1, Danio rerio"
-xref: Reactome:REACT_99982 "p75NTR negatively regulates cell cycle via SC1, Mus musculus"
 is_a: GO:0048523 ! negative regulation of cellular process
 is_a: GO:0051726 ! regulation of cell cycle
 intersection_of: GO:0008150 ! biological_process
@@ -7245,6 +6981,39 @@ is_a: GO:0051173 ! positive regulation of nitrogen compound metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0006139 ! nucleobase-containing compound metabolic process
 relationship: positively_regulates GO:0006139 ! nucleobase-containing compound metabolic process
+
+[Term]
+id: GO:0045936
+name: negative regulation of phosphate metabolic process
+namespace: biological_process
+def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving phosphates." [GOC:go_curators]
+synonym: "down regulation of phosphate metabolic process" EXACT []
+synonym: "down-regulation of phosphate metabolic process" EXACT []
+synonym: "downregulation of phosphate metabolic process" EXACT []
+synonym: "inhibition of phosphate metabolic process" NARROW []
+synonym: "negative regulation of phosphate metabolism" EXACT []
+is_a: GO:0010563 ! negative regulation of phosphorus metabolic process
+is_a: GO:0019220 ! regulation of phosphate metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0006796 ! phosphate-containing compound metabolic process
+relationship: negatively_regulates GO:0006796 ! phosphate-containing compound metabolic process
+
+[Term]
+id: GO:0045937
+name: positive regulation of phosphate metabolic process
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving phosphates." [GOC:go_curators]
+synonym: "activation of phosphate metabolic process" NARROW []
+synonym: "positive regulation of phosphate metabolism" EXACT []
+synonym: "stimulation of phosphate metabolic process" NARROW []
+synonym: "up regulation of phosphate metabolic process" EXACT []
+synonym: "up-regulation of phosphate metabolic process" EXACT []
+synonym: "upregulation of phosphate metabolic process" EXACT []
+is_a: GO:0010562 ! positive regulation of phosphorus metabolic process
+is_a: GO:0019220 ! regulation of phosphate metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0006796 ! phosphate-containing compound metabolic process
+relationship: positively_regulates GO:0006796 ! phosphate-containing compound metabolic process
 
 [Term]
 id: GO:0045944
@@ -8430,6 +8199,17 @@ intersection_of: positively_regulates GO:0006807 ! nitrogen compound metabolic p
 relationship: positively_regulates GO:0006807 ! nitrogen compound metabolic process
 
 [Term]
+id: GO:0051174
+name: regulation of phosphorus metabolic process
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving phosphorus or compounds containing phosphorus." [GOC:ai]
+synonym: "regulation of phosphorus metabolism" EXACT []
+is_a: GO:0031323 ! regulation of cellular metabolic process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0006793 ! phosphorus metabolic process
+relationship: regulates GO:0006793 ! phosphorus metabolic process
+
+[Term]
 id: GO:0051179
 name: localization
 namespace: biological_process
@@ -9154,53 +8934,6 @@ synonym: "modulation of cell cycle progression" EXACT []
 synonym: "regulation of cell cycle progression" EXACT []
 synonym: "regulation of progression through cell cycle" EXACT []
 synonym: "tumor suppressor" RELATED []
-xref: Reactome:REACT_100159 "Inactivation of Myt1 kinase, Mus musculus"
-xref: Reactome:REACT_1006 "Polo-like kinase mediated events, Homo sapiens"
-xref: Reactome:REACT_102418 "Polo-like kinase mediated events, Schizosaccharomyces pombe"
-xref: Reactome:REACT_102475 "Inactivation of Myt1 kinase, Rattus norvegicus"
-xref: Reactome:REACT_103468 "Activation of Cdc25C, Drosophila melanogaster"
-xref: Reactome:REACT_104523 "Inactivation of Wee1 kinase, Bos taurus"
-xref: Reactome:REACT_105454 "Polo-like kinase mediated events, Dictyostelium discoideum"
-xref: Reactome:REACT_106237 "Polo-like kinase mediated events, Caenorhabditis elegans"
-xref: Reactome:REACT_106324 "Activation of Cdc25C, Mus musculus"
-xref: Reactome:REACT_107424 "Inactivation of Myt1 kinase, Canis familiaris"
-xref: Reactome:REACT_108578 "Inactivation of Myt1 kinase, Xenopus tropicalis"
-xref: Reactome:REACT_109244 "Inactivation of Myt1 kinase, Schizosaccharomyces pombe"
-xref: Reactome:REACT_109507 "Polo-like kinase mediated events, Taeniopygia guttata"
-xref: Reactome:REACT_109584 "Polo-like kinase mediated events, Saccharomyces cerevisiae"
-xref: Reactome:REACT_110774 "Inactivation of Myt1 kinase, Drosophila melanogaster"
-xref: Reactome:REACT_112480 "Inactivation of Wee1 kinase, Dictyostelium discoideum"
-xref: Reactome:REACT_113569 "Activation of Cdc25C, Saccharomyces cerevisiae"
-xref: Reactome:REACT_113990 "Activation of Cdc25C, Schizosaccharomyces pombe"
-xref: Reactome:REACT_114323 "Activation of Cdc25C, Caenorhabditis elegans"
-xref: Reactome:REACT_1944 "Inactivation of Wee1 kinase, Homo sapiens"
-xref: Reactome:REACT_2119 "Activation of Cdc25C, Homo sapiens"
-xref: Reactome:REACT_28091 "Inactivation of Wee1 kinase, Canis familiaris"
-xref: Reactome:REACT_29213 "Activation of Cdc25C, Rattus norvegicus"
-xref: Reactome:REACT_30490 "Inactivation of Myt1 kinase, Danio rerio"
-xref: Reactome:REACT_30836 "Inactivation of Myt1 kinase, Bos taurus"
-xref: Reactome:REACT_30859 "Polo-like kinase mediated events, Gallus gallus"
-xref: Reactome:REACT_32077 "Inactivation of Myt1 kinase, Dictyostelium discoideum"
-xref: Reactome:REACT_34285 "Activation of Cdc25C, Bos taurus"
-xref: Reactome:REACT_414 "Inactivation of Myt1 kinase, Homo sapiens"
-xref: Reactome:REACT_80617 "Inactivation of Wee1 kinase, Xenopus tropicalis"
-xref: Reactome:REACT_81789 "Polo-like kinase mediated events, Drosophila melanogaster"
-xref: Reactome:REACT_82824 "Inactivation of Wee1 kinase, Rattus norvegicus"
-xref: Reactome:REACT_83089 "Inactivation of Myt1 kinase, Saccharomyces cerevisiae"
-xref: Reactome:REACT_83883 "Polo-like kinase mediated events, Canis familiaris"
-xref: Reactome:REACT_87352 "Polo-like kinase mediated events, Danio rerio"
-xref: Reactome:REACT_88486 "Inactivation of Wee1 kinase, Taeniopygia guttata"
-xref: Reactome:REACT_89122 "Activation of Cdc25C, Canis familiaris"
-xref: Reactome:REACT_91085 "Inactivation of Wee1 kinase, Danio rerio"
-xref: Reactome:REACT_92033 "Inactivation of Myt1 kinase, Caenorhabditis elegans"
-xref: Reactome:REACT_93521 "Polo-like kinase mediated events, Mus musculus"
-xref: Reactome:REACT_93702 "Polo-like kinase mediated events, Rattus norvegicus"
-xref: Reactome:REACT_95088 "Inactivation of Wee1 kinase, Mus musculus"
-xref: Reactome:REACT_96524 "Activation of Cdc25C, Xenopus tropicalis"
-xref: Reactome:REACT_97306 "Polo-like kinase mediated events, Bos taurus"
-xref: Reactome:REACT_97384 "Polo-like kinase mediated events, Xenopus tropicalis"
-xref: Reactome:REACT_98443 "Inactivation of Wee1 kinase, Gallus gallus"
-xref: Reactome:REACT_99158 "Inactivation of Wee1 kinase, Drosophila melanogaster"
 is_a: GO:0050794 ! regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0007049 ! cell cycle
@@ -9417,69 +9150,6 @@ subset: goslim_generic
 subset: goslim_pombe
 subset: goslim_yeast
 synonym: "membrane transport" EXACT []
-xref: Reactome:REACT_100480 "SLC-mediated transmembrane transport, Taeniopygia guttata"
-xref: Reactome:REACT_101577 "SLC-mediated transmembrane transport, Caenorhabditis elegans"
-xref: Reactome:REACT_101877 "SLC-mediated transmembrane transport, Escherichia coli"
-xref: Reactome:REACT_101975 "SLC-mediated transmembrane transport, Sus scrofa"
-xref: Reactome:REACT_102348 "Transmembrane transport of small molecules, Staphylococcus aureus N315"
-xref: Reactome:REACT_102897 "Transmembrane transport of small molecules, Caenorhabditis elegans"
-xref: Reactome:REACT_102974 "SLC-mediated transmembrane transport, Canis familiaris"
-xref: Reactome:REACT_104555 "SLC-mediated transmembrane transport, Xenopus tropicalis"
-xref: Reactome:REACT_108243 "SLC-mediated transmembrane transport, Staphylococcus aureus N315"
-xref: Reactome:REACT_109832 "Transmembrane transport of small molecules, Plasmodium falciparum"
-xref: Reactome:REACT_110770 "ABC-family proteins mediated transport, Mus musculus"
-xref: Reactome:REACT_114546 "ABC-family proteins mediated transport, Staphylococcus aureus N315"
-xref: Reactome:REACT_114763 "ABC-family proteins mediated transport, Escherichia coli"
-xref: Reactome:REACT_114890 "ABC-family proteins mediated transport, Plasmodium falciparum"
-xref: Reactome:REACT_115378 "ABC-family proteins mediated transport, Mycobacterium tuberculosis"
-xref: Reactome:REACT_15480 "ABC-family proteins mediated transport, Homo sapiens"
-xref: Reactome:REACT_15518 "Transmembrane transport of small molecules, Homo sapiens"
-xref: Reactome:REACT_19118 "SLC-mediated transmembrane transport, Homo sapiens"
-xref: Reactome:REACT_29093 "ABC-family proteins mediated transport, Taeniopygia guttata"
-xref: Reactome:REACT_29184 "SLC-mediated transmembrane transport, Gallus gallus"
-xref: Reactome:REACT_29635 "Transmembrane transport of small molecules, Canis familiaris"
-xref: Reactome:REACT_30969 "ABC-family proteins mediated transport, Canis familiaris"
-xref: Reactome:REACT_32055 "Transmembrane transport of small molecules, Saccharomyces cerevisiae"
-xref: Reactome:REACT_32223 "Transmembrane transport of small molecules, Rattus norvegicus"
-xref: Reactome:REACT_32423 "SLC-mediated transmembrane transport, Bos taurus"
-xref: Reactome:REACT_32713 "ABC-family proteins mediated transport, Sus scrofa"
-xref: Reactome:REACT_33571 "SLC-mediated transmembrane transport, Danio rerio"
-xref: Reactome:REACT_61245 "Transmembrane transport of small molecules, Bos taurus"
-xref: Reactome:REACT_79086 "SLC-mediated transmembrane transport, Plasmodium falciparum"
-xref: Reactome:REACT_79921 "SLC-mediated transmembrane transport, Saccharomyces cerevisiae"
-xref: Reactome:REACT_80022 "ABC-family proteins mediated transport, Bos taurus"
-xref: Reactome:REACT_80510 "ABC-family proteins mediated transport, Rattus norvegicus"
-xref: Reactome:REACT_80848 "ABC-family proteins mediated transport, Schizosaccharomyces pombe"
-xref: Reactome:REACT_80977 "ABC-family proteins mediated transport, Caenorhabditis elegans"
-xref: Reactome:REACT_81024 "Transmembrane transport of small molecules, Oryza sativa"
-xref: Reactome:REACT_81153 "SLC-mediated transmembrane transport, Mus musculus"
-xref: Reactome:REACT_82725 "SLC-mediated transmembrane transport, Rattus norvegicus"
-xref: Reactome:REACT_83770 "Transmembrane transport of small molecules, Escherichia coli"
-xref: Reactome:REACT_86135 "ABC-family proteins mediated transport, Oryza sativa"
-xref: Reactome:REACT_86409 "Transmembrane transport of small molecules, Drosophila melanogaster"
-xref: Reactome:REACT_86576 "Transmembrane transport of small molecules, Schizosaccharomyces pombe"
-xref: Reactome:REACT_87124 "SLC-mediated transmembrane transport, Oryza sativa"
-xref: Reactome:REACT_88059 "ABC-family proteins mediated transport, Xenopus tropicalis"
-xref: Reactome:REACT_88521 "Transmembrane transport of small molecules, Taeniopygia guttata"
-xref: Reactome:REACT_88894 "Transmembrane transport of small molecules, Gallus gallus"
-xref: Reactome:REACT_89376 "SLC-mediated transmembrane transport, Schizosaccharomyces pombe"
-xref: Reactome:REACT_91272 "ABC-family proteins mediated transport, Arabidopsis thaliana"
-xref: Reactome:REACT_91803 "SLC-mediated transmembrane transport, Mycobacterium tuberculosis"
-xref: Reactome:REACT_92006 "Transmembrane transport of small molecules, Mycobacterium tuberculosis"
-xref: Reactome:REACT_92624 "ABC-family proteins mediated transport, Gallus gallus"
-xref: Reactome:REACT_93747 "Transmembrane transport of small molecules, Dictyostelium discoideum"
-xref: Reactome:REACT_94160 "Transmembrane transport of small molecules, Mus musculus"
-xref: Reactome:REACT_94393 "ABC-family proteins mediated transport, Drosophila melanogaster"
-xref: Reactome:REACT_94944 "ABC-family proteins mediated transport, Danio rerio"
-xref: Reactome:REACT_94972 "SLC-mediated transmembrane transport, Dictyostelium discoideum"
-xref: Reactome:REACT_96633 "Transmembrane transport of small molecules, Sus scrofa"
-xref: Reactome:REACT_96636 "SLC-mediated transmembrane transport, Arabidopsis thaliana"
-xref: Reactome:REACT_97365 "Transmembrane transport of small molecules, Arabidopsis thaliana"
-xref: Reactome:REACT_97867 "ABC-family proteins mediated transport, Saccharomyces cerevisiae"
-xref: Reactome:REACT_98509 "Transmembrane transport of small molecules, Xenopus tropicalis"
-xref: Reactome:REACT_98716 "SLC-mediated transmembrane transport, Drosophila melanogaster"
-xref: Reactome:REACT_99579 "Transmembrane transport of small molecules, Danio rerio"
-xref: Reactome:REACT_99829 "ABC-family proteins mediated transport, Dictyostelium discoideum"
 is_a: GO:0006810 ! transport
 
 [Term]
@@ -9540,7 +9210,6 @@ is_a: GO:0120031 ! plasma membrane bounded cell projection assembly
 relationship: has_part GO:0035082 ! axoneme assembly
 relationship: has_part GO:0035735 ! intraciliary transport involved in cilium assembly
 relationship: has_part GO:0061512 ! protein localization to cilium
-relationship: has_part GO:0097711 ! ciliary basal body-plasma membrane docking
 relationship: has_part GO:0097712 ! vesicle targeting, trans-Golgi to periciliary membrane compartment
 relationship: has_part GO:1905349 ! ciliary transition zone assembly
 
@@ -9704,24 +9373,6 @@ synonym: "cellular membrane organization" EXACT []
 synonym: "membrane organisation" EXACT [GOC:mah]
 synonym: "membrane organization and biogenesis" RELATED [GOC:mah]
 synonym: "single-organism membrane organization" RELATED []
-xref: Reactome:REACT_101524 "Membrane Trafficking, Dictyostelium discoideum"
-xref: Reactome:REACT_103082 "Membrane Trafficking, Schizosaccharomyces pombe"
-xref: Reactome:REACT_11123 "Membrane Trafficking, Homo sapiens"
-xref: Reactome:REACT_29278 "Membrane Trafficking, Sus scrofa"
-xref: Reactome:REACT_32337 "Membrane Trafficking, Taeniopygia guttata"
-xref: Reactome:REACT_33741 "Membrane Trafficking, Bos taurus"
-xref: Reactome:REACT_34084 "Membrane Trafficking, Caenorhabditis elegans"
-xref: Reactome:REACT_78213 "Membrane Trafficking, Plasmodium falciparum"
-xref: Reactome:REACT_78288 "Membrane Trafficking, Xenopus tropicalis"
-xref: Reactome:REACT_83546 "Membrane Trafficking, Oryza sativa"
-xref: Reactome:REACT_86557 "Membrane Trafficking, Arabidopsis thaliana"
-xref: Reactome:REACT_87431 "Membrane Trafficking, Drosophila melanogaster"
-xref: Reactome:REACT_88307 "Membrane Trafficking, Mus musculus"
-xref: Reactome:REACT_91154 "Membrane Trafficking, Saccharomyces cerevisiae"
-xref: Reactome:REACT_93714 "Membrane Trafficking, Danio rerio"
-xref: Reactome:REACT_95586 "Membrane Trafficking, Gallus gallus"
-xref: Reactome:REACT_96516 "Membrane Trafficking, Canis familiaris"
-xref: Reactome:REACT_97881 "Membrane Trafficking, Rattus norvegicus"
 is_a: GO:0016043 ! cellular component organization
 created_by: janelomax
 creation_date: 2010-02-08T02:43:11Z
@@ -10565,76 +10216,6 @@ def: "A series of molecular signals which triggers the apoptotic death of a cell
 comment: This term can be used to annotate gene products involved in apoptotic events happening downstream of the cross-talk point between the extrinsic and intrinsic apoptotic pathways. The cross-talk starts when caspase-8 cleaves Bid and truncated Bid interacts with mitochondria. From this point on it is not possible to distinguish between extrinsic and intrinsic pathways.
 synonym: "apoptotic signalling pathway" EXACT [GOC:mah]
 synonym: "induction of apoptosis by extracellular signals" EXACT []
-xref: Reactome:REACT_101039 "Ceramide signalling, Canis familiaris"
-xref: Reactome:REACT_101287 "Death Receptor Signalling, Xenopus tropicalis"
-xref: Reactome:REACT_101722 "FasL/ CD95L signaling, Rattus norvegicus"
-xref: Reactome:REACT_102105 "FASL binds FAS Receptor, Taeniopygia guttata"
-xref: Reactome:REACT_102682 "Ceramide signalling, Bos taurus"
-xref: Reactome:REACT_103565 "Death Receptor Signalling, Danio rerio"
-xref: Reactome:REACT_104430 "Ceramide signalling, Gallus gallus"
-xref: Reactome:REACT_104446 "Death Receptor Signalling, Bos taurus"
-xref: Reactome:REACT_104880 "Cell death signalling via NRAGE, NRIF and NADE, Drosophila melanogaster"
-xref: Reactome:REACT_105789 "Cell death signalling via NRAGE, NRIF and NADE, Canis familiaris"
-xref: Reactome:REACT_1059 "Extrinsic Pathway for Apoptosis, Homo sapiens"
-xref: Reactome:REACT_106019 "Ceramide signalling, Caenorhabditis elegans"
-xref: Reactome:REACT_106417 "Cell death signalling via NRAGE, NRIF and NADE, Oryza sativa"
-xref: Reactome:REACT_107145 "FASL binds FAS Receptor, Rattus norvegicus"
-xref: Reactome:REACT_107277 "Cell death signalling via NRAGE, NRIF and NADE, Rattus norvegicus"
-xref: Reactome:REACT_108226 "Ceramide signalling, Rattus norvegicus"
-xref: Reactome:REACT_108738 "FASL binds FAS Receptor, Canis familiaris"
-xref: Reactome:REACT_108954 "Cell death signalling via NRAGE, NRIF and NADE, Sus scrofa"
-xref: Reactome:REACT_110327 "FASL binds FAS Receptor, Gallus gallus"
-xref: Reactome:REACT_110777 "Extrinsic Pathway for Apoptosis, Canis familiaris"
-xref: Reactome:REACT_113012 "Extrinsic Pathway for Apoptosis, Caenorhabditis elegans"
-xref: Reactome:REACT_113720 "FasL/ CD95L signaling, Xenopus tropicalis"
-xref: Reactome:REACT_114928 "Cell death signalling via NRAGE, NRIF and NADE, Dictyostelium discoideum"
-xref: Reactome:REACT_115331 "FASL binds FAS Receptor, Xenopus tropicalis"
-xref: Reactome:REACT_13720 "Cell death signalling via NRAGE, NRIF and NADE, Homo sapiens"
-xref: Reactome:REACT_13806 "Ceramide signalling, Homo sapiens"
-xref: Reactome:REACT_1426 "FASL binds FAS Receptor, Homo sapiens"
-xref: Reactome:REACT_1619 "Death Receptor Signalling, Homo sapiens"
-xref: Reactome:REACT_28136 "Death Receptor Signalling, Taeniopygia guttata"
-xref: Reactome:REACT_30777 "Death Receptor Signalling, Sus scrofa"
-xref: Reactome:REACT_32035 "FasL/ CD95L signaling, Danio rerio"
-xref: Reactome:REACT_33023 "Ceramide signalling, Xenopus tropicalis"
-xref: Reactome:REACT_33363 "Death Receptor Signalling, Gallus gallus"
-xref: Reactome:REACT_47012 "Death Receptor Signalling, Mus musculus"
-xref: Reactome:REACT_78512 "Ceramide signalling, Taeniopygia guttata"
-xref: Reactome:REACT_78709 "Ceramide signalling, Drosophila melanogaster"
-xref: Reactome:REACT_79738 "Extrinsic Pathway for Apoptosis, Xenopus tropicalis"
-xref: Reactome:REACT_81353 "Ceramide signalling, Mus musculus"
-xref: Reactome:REACT_81381 "FasL/ CD95L signaling, Gallus gallus"
-xref: Reactome:REACT_82611 "Cell death signalling via NRAGE, NRIF and NADE, Taeniopygia guttata"
-xref: Reactome:REACT_83750 "Extrinsic Pathway for Apoptosis, Gallus gallus"
-xref: Reactome:REACT_84151 "Extrinsic Pathway for Apoptosis, Bos taurus"
-xref: Reactome:REACT_85830 "Cell death signalling via NRAGE, NRIF and NADE, Danio rerio"
-xref: Reactome:REACT_86320 "Cell death signalling via NRAGE, NRIF and NADE, Gallus gallus"
-xref: Reactome:REACT_86807 "Death Receptor Signalling, Canis familiaris"
-xref: Reactome:REACT_88410 "Cell death signalling via NRAGE, NRIF and NADE, Schizosaccharomyces pombe"
-xref: Reactome:REACT_88562 "Ceramide signalling, Danio rerio"
-xref: Reactome:REACT_89305 "FASL binds FAS Receptor, Bos taurus"
-xref: Reactome:REACT_89421 "Cell death signalling via NRAGE, NRIF and NADE, Xenopus tropicalis"
-xref: Reactome:REACT_900 "FasL/ CD95L signaling, Homo sapiens"
-xref: Reactome:REACT_90409 "Ceramide signalling, Schizosaccharomyces pombe"
-xref: Reactome:REACT_90414 "Cell death signalling via NRAGE, NRIF and NADE, Arabidopsis thaliana"
-xref: Reactome:REACT_90980 "FasL/ CD95L signaling, Canis familiaris"
-xref: Reactome:REACT_91488 "Cell death signalling via NRAGE, NRIF and NADE, Bos taurus"
-xref: Reactome:REACT_92659 "Extrinsic Pathway for Apoptosis, Sus scrofa"
-xref: Reactome:REACT_92947 "Extrinsic Pathway for Apoptosis, Danio rerio"
-xref: Reactome:REACT_93354 "Ceramide signalling, Sus scrofa"
-xref: Reactome:REACT_93927 "Cell death signalling via NRAGE, NRIF and NADE, Caenorhabditis elegans"
-xref: Reactome:REACT_94832 "Ceramide signalling, Saccharomyces cerevisiae"
-xref: Reactome:REACT_94837 "Extrinsic Pathway for Apoptosis, Taeniopygia guttata"
-xref: Reactome:REACT_95750 "FASL binds FAS Receptor, Danio rerio"
-xref: Reactome:REACT_95777 "FasL/ CD95L signaling, Taeniopygia guttata"
-xref: Reactome:REACT_96066 "Death Receptor Signalling, Rattus norvegicus"
-xref: Reactome:REACT_96229 "Extrinsic Pathway for Apoptosis, Rattus norvegicus"
-xref: Reactome:REACT_96867 "Cell death signalling via NRAGE, NRIF and NADE, Saccharomyces cerevisiae"
-xref: Reactome:REACT_97301 "Extrinsic Pathway for Apoptosis, Mus musculus"
-xref: Reactome:REACT_98119 "Cell death signalling via NRAGE, NRIF and NADE, Mus musculus"
-xref: Reactome:REACT_98804 "FasL/ CD95L signaling, Bos taurus"
-xref: Reactome:REACT_99367 "FASL binds FAS Receptor, Mus musculus"
-xref: Reactome:REACT_99865 "FasL/ CD95L signaling, Mus musculus"
 is_a: GO:0007165 ! signal transduction
 relationship: part_of GO:0006915 ! apoptotic process
 created_by: paola
@@ -10703,7 +10284,9 @@ id: GO:0097722
 name: sperm motility
 namespace: biological_process
 def: "Any process involved in the controlled movement of a sperm cell." [GOC:cilia, GOC:krc]
+subset: gocheck_do_not_annotate
 synonym: "sperm movement" EXACT []
+is_a: GO:0022414 ! reproductive process
 is_a: GO:0048870 ! cell motility
 created_by: paola
 creation_date: 2016-09-01T12:00:45Z
@@ -10774,6 +10357,13 @@ intersection_of: part_of GO:0098609 ! cell-cell adhesion
 relationship: part_of GO:0098609 ! cell-cell adhesion
 
 [Term]
+id: GO:0098743
+name: cell aggregation
+namespace: biological_process
+def: "The clustering together and adhesion of initially separate cells to form an aggregate.  Examples include the clustering of unicellular organisms or blood cells in suspension and the condensation of mesenchymal cells during cartilage formation." [GOC:dos]
+is_a: GO:0008150 ! biological_process
+
+[Term]
 id: GO:0098772
 name: molecular function regulator
 namespace: molecular_function
@@ -10781,7 +10371,6 @@ def: "A molecular function that modulates the activity of a gene product or comp
 subset: goslim_flybase_ribbon
 is_a: GO:0003674 ! molecular_function
 relationship: part_of GO:0065009 ! regulation of molecular function
-relationship: regulates GO:0003674 ! molecular_function
 
 [Term]
 id: GO:0098796
@@ -11332,6 +10921,7 @@ def: "Any process that modulates the frequency, rate or extent of flagellated sp
 synonym: "regulation of sperm motility" BROAD []
 synonym: "regulation of sperm movement" BROAD [GOC:TermGenie]
 is_a: GO:2000145 ! regulation of cell motility
+is_a: GO:2000241 ! regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0030317 ! flagellated sperm motility
 relationship: regulates GO:0030317 ! flagellated sperm motility
@@ -11355,6 +10945,7 @@ synonym: "negative regulation of sperm motility" BROAD []
 synonym: "negative regulation of sperm movement" BROAD [GOC:TermGenie]
 is_a: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000146 ! negative regulation of cell motility
+is_a: GO:2000242 ! negative regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0030317 ! flagellated sperm motility
 relationship: negatively_regulates GO:0030317 ! flagellated sperm motility
@@ -11600,6 +11191,7 @@ synonym: "upregulation of sperm motility" BROAD [GOC:TermGenie]
 synonym: "upregulation of sperm movement" BROAD [GOC:TermGenie]
 is_a: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000147 ! positive regulation of cell motility
+is_a: GO:2000243 ! positive regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0030317 ! flagellated sperm motility
 relationship: positively_regulates GO:0030317 ! flagellated sperm motility
@@ -14479,17 +14071,15 @@ creation_date: 2011-12-02T02:01:26Z
 
 [Typedef]
 id: has_part
-name: has_part
+name: has part
 namespace: external
 xref: BFO:0000051
-is_transitive: true
 
 [Typedef]
 id: negatively_regulates
 name: negatively regulates
 namespace: external
 xref: RO:0002212
-is_a: regulates ! regulates
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -14497,24 +14087,18 @@ id: occurs_in
 name: occurs in
 namespace: external
 xref: BFO:0000066
-holds_over_chain: part_of occurs_in
-transitive_over: part_of ! part of
 
 [Typedef]
 id: part_of
 name: part of
 namespace: external
 xref: BFO:0000050
-is_transitive: true
-inverse_of: has_part ! has_part
 
 [Typedef]
 id: positively_regulates
 name: positively regulates
 namespace: external
 xref: RO:0002213
-holds_over_chain: negatively_regulates negatively_regulates
-is_a: regulates ! regulates
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -14522,6 +14106,5 @@ id: regulates
 name: regulates
 namespace: external
 xref: RO:0002211
-is_transitive: true
 transitive_over: part_of ! part of
 
