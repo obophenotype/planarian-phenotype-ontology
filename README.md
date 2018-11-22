@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/srobb1/planarian-phenotype-ontology.svg?branch=master)](https://travis-ci.org/srobb1/planarian-phenotype-ontology)
-[![DOI](https://zenodo.org/badge/13996/srobb1/planarian-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/srobb1/planarian-phenotype-ontology)
+[![Build Status](https://travis-ci.org/obophenotype/planarian-phenotype-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/planarian-phenotype-ontology)
+<!-- [![DOI](https://zenodo.org/badge/13996/obophenotype/planarian-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/planarian-phenotype-ontology) -->
 
 # planarian-phenotype-ontology
 
