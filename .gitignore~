@@ -7,5 +7,4 @@ semantic.cache
 bin/
 src/ontology/seed.txt
 src/ontology/target/
-src/ontology/ed_definitions_merged.owl
 src/ontology/dosdp-tools.log

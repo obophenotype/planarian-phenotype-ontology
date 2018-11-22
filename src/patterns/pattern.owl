@@ -9,7 +9,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormal>))
-Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/morphology>))
@@ -20,6 +19,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000117>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
@@ -40,15 +40,6 @@ AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormal> "abnormality of 'entity'"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormal> "abnormal 'entity'"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> (abnormal 'shape' shape of 'entity' )
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> "Any structural anomaly in the shape of the 'entity' that is 'shape'."^^xsd:string)
-AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnomalShapeByType"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormal 'shape' shape of 'entity'"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormally 'shape' shaped 'entity'"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormal 'shape' shape of 'entity' "^^xsd:string)
-EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000052>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize> (abnormal size of 'entity')
 
@@ -84,6 +75,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/shape> "abnormally shaped 'entity'"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/shape> "abnormal shape of 'entity' "^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/shape> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> (abnormal 'shape' shape of 'entity' )
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "Any structural anomaly that causes 'entity' to be 'shape' shaped."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormalShapeByType"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormal 'shape' shape of 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormal 'shape' shape of 'entity' "^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )

@@ -17628,14 +17628,10 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000405"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000384"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000405"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
@@ -17646,9 +17642,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly in the shape of the ventral surface that is curled.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes ventral surface to be curled shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal curled shape of ventral surface</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally curled shaped ventral surface</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal curled shape of ventral surface </rdfs:label>
     </owl:Class>
     
@@ -17663,7 +17658,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002258"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000418"/>
@@ -17672,18 +17667,13 @@
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
                             </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002258"/>
-                            </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly in the shape of the head that is pointed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes head to be pointed shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal pointed shape of head</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally pointed shaped head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal pointed shape of head </rdfs:label>
     </owl:Class>
     
@@ -17698,7 +17688,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002063"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000418"/>
@@ -17707,18 +17697,13 @@
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
                             </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002063"/>
-                            </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly in the shape of the head that is columnar.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes head to be columnar shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal columnar shape of head</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally columnar shaped head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal columnar shape of head </rdfs:label>
     </owl:Class>
     
@@ -17803,7 +17788,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002258"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000421"/>
@@ -17812,18 +17797,13 @@
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
                             </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002258"/>
-                            </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly in the shape of the tail that is pointed.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes tail to be pointed shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal pointed shape of tail</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally pointed shaped tail</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal pointed shape of tail </rdfs:label>
     </owl:Class>
     

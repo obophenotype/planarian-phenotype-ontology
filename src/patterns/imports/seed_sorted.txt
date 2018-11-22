@@ -1,5 +1,4 @@
 http://purl.oboibrary.org/obo/upheno/patterns/abnormal
-http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType
 http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize
 http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType
 http://purl.oboibrary.org/obo/upheno/patterns/morphology
@@ -14,6 +13,7 @@ http://purl.obolibrary.org/obo/PATO_0000117
 http://purl.obolibrary.org/obo/PATO_0000460
 http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/RO_0002573
+http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType
 http://purl.org/dc/terms/title
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 http://www.w3.org/1999/02/22-rdf-syntax-ns#nil

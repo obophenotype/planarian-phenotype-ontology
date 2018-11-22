@@ -435,3 +435,4 @@ http://purl.obolibrary.org/obo/GO_1990708
 http://purl.obolibrary.org/obo/GO_2000112
 http://purl.obolibrary.org/obo/GO_2000113
 http://purl.obolibrary.org/obo/GO_2001141
+http://purl.obolibrary.org/obo/GO_0098743

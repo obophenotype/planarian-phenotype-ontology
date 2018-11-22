@@ -565,12 +565,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is relatively large.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000574"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long</oboInOwl:hasExactSynonym>
@@ -604,12 +598,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A length quality which is relatively small.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000573"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short</oboInOwl:hasExactSynonym>
@@ -645,12 +633,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A size quality which is relatively high.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001202</oboInOwl:hasAlternativeId>
@@ -689,12 +671,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A size quality which is relatively low.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoplasia</oboInOwl:hasNarrowSynonym>
@@ -732,12 +708,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width which is relatively small.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000600"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
@@ -771,12 +741,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A width which is relatively large.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000599"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
@@ -1044,12 +1008,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002301"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of an object that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Gkoutos</oboInOwl:created_by>
@@ -1083,12 +1041,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002300"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of an object that has a value that is increased compared to normal or average.</obo:IAO_0000115>
         <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Gkoutos</oboInOwl:created_by>
