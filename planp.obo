@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2018-11-16
+data-version: releases/2018-11-22
 remark: Planarian Phenotype Ontology
 import: http://purl.obolibrary.org/obo/planp/imports/go_import.owl
 import: http://purl.obolibrary.org/obo/planp/imports/pato_import.owl
@@ -4125,6 +4125,7 @@ is_a: GO:0048199 ! vesicle targeting, to, from or within Golgi
 
 [Term]
 id: GO:0097722 ! sperm motility
+is_a: GO:0022414 ! reproductive process
 is_a: GO:0048870 ! cell motility
 
 [Term]
@@ -4366,11 +4367,13 @@ is_a: GO:0010467 ! gene expression
 [Term]
 id: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000145 ! regulation of cell motility
+is_a: GO:2000241 ! regulation of reproductive process
 
 [Term]
 id: GO:1901318 ! negative regulation of flagellated sperm motility
 is_a: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000146 ! negative regulation of cell motility
+is_a: GO:2000242 ! negative regulation of reproductive process
 
 [Term]
 id: GO:1901360 ! organic cyclic compound metabolic process
@@ -4436,6 +4439,7 @@ is_a: GO:0042221 ! response to chemical
 id: GO:1902093 ! positive regulation of flagellated sperm motility
 is_a: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000147 ! positive regulation of cell motility
+is_a: GO:2000243 ! positive regulation of reproductive process
 
 [Term]
 id: GO:1902115 ! regulation of organelle assembly

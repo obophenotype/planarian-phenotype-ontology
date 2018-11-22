@@ -42,7 +42,6 @@ relationship: has_part GO:0019778 ! Atg12 activating enzyme activity
 relationship: has_part GO:0019786 ! Atg8-specific protease activity
 relationship: has_part GO:0061651 ! Atg12 conjugating enzyme activity
 relationship: has_part GO:0061660 ! Atg12 ligase activity
-relationship: has_part GO:1904745 ! Atg1/ULK1 kinase complex assembly
 
 [Term]
 id: GO:0000070
@@ -819,7 +818,6 @@ subset: goslim_pombe
 xref: Wikipedia:Autophagy_(cellular)
 is_a: GO:0044248 ! cellular catabolic process
 is_a: GO:0061919 ! process utilizing autophagic mechanism
-relationship: has_part GO:0055085 ! transmembrane transport
 
 [Term]
 id: GO:0006915
@@ -847,8 +845,6 @@ synonym: "signaling (initiator) caspase activity" RELATED []
 synonym: "type I programmed cell death" NARROW []
 xref: Wikipedia:Apoptosis
 is_a: GO:0012501 ! programmed cell death
-relationship: has_part GO:0097190 ! apoptotic signaling pathway
-relationship: has_part GO:0097194 ! execution phase of apoptosis
 
 [Term]
 id: GO:0006921
@@ -1221,7 +1217,6 @@ synonym: "G-protein-coupled receptor protein signalling pathway" EXACT []
 synonym: "GPCR signaling pathway" EXACT []
 synonym: "GPCR signalling pathway" EXACT []
 is_a: GO:0007165 ! signal transduction
-relationship: has_part GO:0004930 ! G protein-coupled receptor activity
 
 [Term]
 id: GO:0007275
@@ -3002,7 +2997,6 @@ synonym: "RCD" RELATED []
 synonym: "regulated cell death" BROAD []
 xref: Wikipedia:Programmed_cell_death
 is_a: GO:0008219 ! cell death
-relationship: has_part GO:0007165 ! signal transduction
 
 [Term]
 id: GO:0014041
@@ -3189,7 +3183,6 @@ def: "The major inducible pathway for the general turnover of cytoplasmic consti
 comment: Targeted macroautophagy sometimes targets regions of cytoplasm containing non-self, such as virus particles or components (e.g. see PMID:20159618).  As this is essentially the same process as macroautophagy that encloses and digests only self, the term autophagy is still used despite the enclosure of some non-self (non-auto) entities.
 synonym: "autophagy" BROAD []
 is_a: GO:0006914 ! autophagy
-relationship: has_part GO:0000045 ! autophagosome assembly
 
 [Term]
 id: GO:0016239
@@ -3956,7 +3949,6 @@ namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is changed." [GOC:ceb]
 is_a: GO:0098772 ! molecular function regulator
 relationship: part_of GO:0010469 ! regulation of signaling receptor activity
-relationship: regulates GO:0038023 ! signaling receptor activity
 
 [Term]
 id: GO:0030705
@@ -9218,7 +9210,6 @@ is_a: GO:0120031 ! plasma membrane bounded cell projection assembly
 relationship: has_part GO:0035082 ! axoneme assembly
 relationship: has_part GO:0035735 ! intraciliary transport involved in cilium assembly
 relationship: has_part GO:0061512 ! protein localization to cilium
-relationship: has_part GO:0097711 ! ciliary basal body-plasma membrane docking
 relationship: has_part GO:0097712 ! vesicle targeting, trans-Golgi to periciliary membrane compartment
 relationship: has_part GO:1905349 ! ciliary transition zone assembly
 
@@ -10293,7 +10284,9 @@ id: GO:0097722
 name: sperm motility
 namespace: biological_process
 def: "Any process involved in the controlled movement of a sperm cell." [GOC:cilia, GOC:krc]
+subset: gocheck_do_not_annotate
 synonym: "sperm movement" EXACT []
+is_a: GO:0022414 ! reproductive process
 is_a: GO:0048870 ! cell motility
 created_by: paola
 creation_date: 2016-09-01T12:00:45Z
@@ -10378,7 +10371,6 @@ def: "A molecular function that modulates the activity of a gene product or comp
 subset: goslim_flybase_ribbon
 is_a: GO:0003674 ! molecular_function
 relationship: part_of GO:0065009 ! regulation of molecular function
-relationship: regulates GO:0003674 ! molecular_function
 
 [Term]
 id: GO:0098796
@@ -10929,6 +10921,7 @@ def: "Any process that modulates the frequency, rate or extent of flagellated sp
 synonym: "regulation of sperm motility" BROAD []
 synonym: "regulation of sperm movement" BROAD [GOC:TermGenie]
 is_a: GO:2000145 ! regulation of cell motility
+is_a: GO:2000241 ! regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0030317 ! flagellated sperm motility
 relationship: regulates GO:0030317 ! flagellated sperm motility
@@ -10952,6 +10945,7 @@ synonym: "negative regulation of sperm motility" BROAD []
 synonym: "negative regulation of sperm movement" BROAD [GOC:TermGenie]
 is_a: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000146 ! negative regulation of cell motility
+is_a: GO:2000242 ! negative regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0030317 ! flagellated sperm motility
 relationship: negatively_regulates GO:0030317 ! flagellated sperm motility
@@ -11197,6 +11191,7 @@ synonym: "upregulation of sperm motility" BROAD [GOC:TermGenie]
 synonym: "upregulation of sperm movement" BROAD [GOC:TermGenie]
 is_a: GO:1901317 ! regulation of flagellated sperm motility
 is_a: GO:2000147 ! positive regulation of cell motility
+is_a: GO:2000243 ! positive regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0030317 ! flagellated sperm motility
 relationship: positively_regulates GO:0030317 ! flagellated sperm motility
@@ -14076,17 +14071,15 @@ creation_date: 2011-12-02T02:01:26Z
 
 [Typedef]
 id: has_part
-name: has_part
+name: has part
 namespace: external
 xref: BFO:0000051
-is_transitive: true
 
 [Typedef]
 id: negatively_regulates
 name: negatively regulates
 namespace: external
 xref: RO:0002212
-is_a: regulates ! regulates
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -14094,24 +14087,18 @@ id: occurs_in
 name: occurs in
 namespace: external
 xref: BFO:0000066
-holds_over_chain: part_of occurs_in
-transitive_over: part_of ! part of
 
 [Typedef]
 id: part_of
 name: part of
 namespace: external
 xref: BFO:0000050
-is_transitive: true
-inverse_of: has_part ! has_part
 
 [Typedef]
 id: positively_regulates
 name: positively regulates
 namespace: external
 xref: RO:0002213
-holds_over_chain: negatively_regulates negatively_regulates
-is_a: regulates ! regulates
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -14119,6 +14106,5 @@ id: regulates
 name: regulates
 namespace: external
 xref: RO:0002211
-is_transitive: true
 transitive_over: part_of ! part of
 

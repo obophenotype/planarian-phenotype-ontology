@@ -17,7 +17,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2018-11-16/planp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2018-11-22/planp.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"/>
@@ -7724,6 +7724,7 @@
     <!-- http://purl.obolibrary.org/obo/GO_0097722 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0097722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022414"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048870"/>
     </rdf:Description>
     
@@ -8169,6 +8170,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000145"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000241"/>
     </rdf:Description>
     
 
@@ -8178,6 +8180,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901317"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000242"/>
     </rdf:Description>
     
 
@@ -8295,6 +8298,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1902093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901317"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_2000243"/>
     </rdf:Description>
     
 
