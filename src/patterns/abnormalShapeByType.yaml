@@ -1,10 +1,10 @@
-pattern_name: abnomalShapeByType 
-pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalShapeByType
+pattern_name: abnormalShapeByType 
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType
 
 classes:
+  shape: PATO:0000052
   abnormal: PATO:0000460
   entity: BFO:0000001
-  shape: PATO:0000052
 
 relations: 
   inheres_in: RO:0000052
@@ -15,8 +15,8 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  shape: "'shape'"
   entity: "'entity'"
+  shape: "'shape'"
 
 name:
   text: "abnormal %s shape of %s "
@@ -31,21 +31,15 @@ annotations:
     vars:
      - shape
      - entity
-  - 
-    annotationProperty: exact_synonym
-    text: "abnormally %s shaped %s"
-    vars:
-     - shape
-     - entity     
 
 def:
-  text: "Any structural anomaly in the shape of the %s that is %s."
+  text: "Any structural anomaly that causes %s to be %s shaped."
   vars:
     - entity
     - shape
 
 equivalentTo:
-  text: "'has_part' some ('shape'  and ('inheres_in' some %s) and  ('qualifier' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some (%s and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - entity
     - shape
+    - entity
