@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2018-11-22
+data-version: releases/2018-12-07
 remark: Planarian Phenotype Ontology
 import: http://purl.obolibrary.org/obo/planp/imports/go_import.owl
 import: http://purl.obolibrary.org/obo/planp/imports/pato_import.owl
@@ -7,7 +7,7 @@ import: http://purl.obolibrary.org/obo/planp/imports/plana_import.owl
 import: http://purl.obolibrary.org/obo/planp/imports/ro_import.owl
 import: http://purl.obolibrary.org/obo/planp/patterns/definitions.owl
 ontology: planp
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0004872>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000021>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000112>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000400>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_00000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000062>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000262>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000305>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000426>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/GO_0004872> (<http://purl.obolibrary.org/obo/GO_0004872>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0004872> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000021> (biotype)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000021> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000040> (Schmidtea mediterranea developmental stage)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000040> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000112> (Schmidtea mediterranea developmental term)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000112> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000400> (anatomical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000400> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_00000000> (planp)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_00000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000062> (abnormal Schmidtea mediterranea developmental term)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000062> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000262> (abnormal Schmidtea mediterranea developmental stage)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000262> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000305> (abnormal biotype)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000305> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000426> (abnormal anatomical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000426> owl:Thing)\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0004872>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000021>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000112>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000400>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000401>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000424>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_00000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000061>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000062>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000072>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000081>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000089>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000118>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000120>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000208>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000262>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000276>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000292>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000305>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000385>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000426>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000441>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000446>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/GO_0004872> (<http://purl.obolibrary.org/obo/GO_0004872>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0004872> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000021> (biotype)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000021> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000040> (Schmidtea mediterranea developmental stage)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000040> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000112> (Schmidtea mediterranea developmental term)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000112> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000400> (<http://purl.obolibrary.org/obo/PLANA_0000400>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000400> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000401> (<http://purl.obolibrary.org/obo/PLANA_0000401>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000401> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0000424> (<http://purl.obolibrary.org/obo/PLANA_0000424>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0000424> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_00000000> (planp)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_00000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000061> (abnormal anatomical gradient)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000061> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000062> (abnormal Schmidtea mediterranea developmental term)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000062> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000072> (abnormal anatomical plane)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000072> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000081> (abnormal anatomical junction)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000081> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000089> (abnormal material anatomical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000089> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000118> (abnormal immaterial anatomical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000118> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000120> (abnormal anatomical surface)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000120> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000208> (abnormal anatomical space)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000208> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000262> (abnormal Schmidtea mediterranea developmental stage)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000262> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000276> (abnormal anatomical structure)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000276> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000292> (abnormal anatomical boundary)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000292> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000305> (abnormal biotype)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000305> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000385> (abnormal anatomical point)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000385> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000426> (abnormal anatomical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000426> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000441> (abnormal anatomical line)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000441> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PLANP_0000446> (abnormal organism subdivision)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANP_0000446> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001062> owl:Thing)\n\n\n)
 
 [Term]
 id: BFO:0000004 ! independent continuant
@@ -39,7 +39,7 @@ is_a: BSPO:0000054 ! anatomical side
 
 [Term]
 id: BSPO:0000005 ! anatomical surface
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: BSPO:0000006 ! anatomical margin
@@ -161,7 +161,7 @@ is_a: BSPO:0000684 ! ventral margin
 
 [Term]
 id: BSPO:0000051 ! anatomical gradient
-is_a: PLANA:0000424 ! material anatomical entity
+is_a: UBERON:0000465 ! material anatomical entity
 
 [Term]
 id: BSPO:0000052 ! anterior-posterior gradient
@@ -1000,17 +1000,17 @@ id: GO:0008277 ! regulation of G protein-coupled receptor signaling pathway
 is_a: GO:0009966 ! regulation of signal transduction
 
 [Term]
-id: GO:0008283 ! cell proliferation
+id: GO:0008283 ! cell population proliferation
 is_a: GO:0008150 ! biological_process
 
 [Term]
-id: GO:0008284 ! positive regulation of cell proliferation
-is_a: GO:0042127 ! regulation of cell proliferation
+id: GO:0008284 ! positive regulation of cell population proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 is_a: GO:0048522 ! positive regulation of cellular process
 
 [Term]
-id: GO:0008285 ! negative regulation of cell proliferation
-is_a: GO:0042127 ! regulation of cell proliferation
+id: GO:0008285 ! negative regulation of cell population proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 is_a: GO:0048523 ! negative regulation of cellular process
 
 [Term]
@@ -2373,7 +2373,7 @@ is_a: GO:0017145 ! stem cell division
 is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
 
 [Term]
-id: GO:0042127 ! regulation of cell proliferation
+id: GO:0042127 ! regulation of cell population proliferation
 is_a: GO:0050794 ! regulation of cellular process
 
 [Term]
@@ -3012,20 +3012,20 @@ is_a: GO:0017145 ! stem cell division
 
 [Term]
 id: GO:0048144 ! fibroblast proliferation
-is_a: GO:0008283 ! cell proliferation
+is_a: GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0048145 ! regulation of fibroblast proliferation
-is_a: GO:0042127 ! regulation of cell proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 
 [Term]
 id: GO:0048146 ! positive regulation of fibroblast proliferation
-is_a: GO:0008284 ! positive regulation of cell proliferation
+is_a: GO:0008284 ! positive regulation of cell population proliferation
 is_a: GO:0048145 ! regulation of fibroblast proliferation
 
 [Term]
 id: GO:0048147 ! negative regulation of fibroblast proliferation
-is_a: GO:0008285 ! negative regulation of cell proliferation
+is_a: GO:0008285 ! negative regulation of cell population proliferation
 is_a: GO:0048145 ! regulation of fibroblast proliferation
 
 [Term]
@@ -3183,20 +3183,20 @@ is_a: GO:0040011 ! locomotion
 
 [Term]
 id: GO:0050673 ! epithelial cell proliferation
-is_a: GO:0008283 ! cell proliferation
+is_a: GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0050678 ! regulation of epithelial cell proliferation
-is_a: GO:0042127 ! regulation of cell proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 
 [Term]
 id: GO:0050679 ! positive regulation of epithelial cell proliferation
-is_a: GO:0008284 ! positive regulation of cell proliferation
+is_a: GO:0008284 ! positive regulation of cell population proliferation
 is_a: GO:0050678 ! regulation of epithelial cell proliferation
 
 [Term]
 id: GO:0050680 ! negative regulation of epithelial cell proliferation
-is_a: GO:0008285 ! negative regulation of cell proliferation
+is_a: GO:0008285 ! negative regulation of cell population proliferation
 is_a: GO:0050678 ! regulation of epithelial cell proliferation
 
 [Term]
@@ -5729,7 +5729,7 @@ is_a: PLANA:0000106 ! ciliated epithelial cell
 
 [Term]
 id: PLANA:0000129 ! anatomical structure
-is_a: PLANA:0000424 ! material anatomical entity
+is_a: UBERON:0000465 ! material anatomical entity
 
 [Term]
 id: PLANA:0000130 ! circular muscle progenitor cell
@@ -5941,16 +5941,12 @@ id: PLANA:0000242 ! anatomical cavity
 is_a: PLANA:0000403 ! anatomical space
 
 [Term]
-id: PLANA:0000401 ! immaterial anatomical entity
-is_a: PLANA:0000400 ! anatomical entity
-
-[Term]
 id: PLANA:0000402 ! anatomical point
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: PLANA:0000403 ! anatomical space
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: PLANA:0000404 ! cavity of pharynx
@@ -6004,7 +6000,7 @@ is_a: BSPO:0000005 ! anatomical surface
 
 [Term]
 id: PLANA:0000416 ! organism subdivision
-is_a: PLANA:0000424 ! material anatomical entity
+is_a: UBERON:0000465 ! material anatomical entity
 
 [Term]
 id: PLANA:0000417 ! definitive organism subdivision
@@ -6016,7 +6012,7 @@ is_a: BFO:0000002 ! continuant
 is_a: PLANA:0000102 ! anatomical compartment subdivision
 
 [Term]
-id: PLANA:0000419 ! neck
+id: PLANA:0000419 ! prepharyngeal region
 is_a: BFO:0000002 ! continuant
 is_a: PLANA:0000102 ! anatomical compartment subdivision
 
@@ -6038,10 +6034,6 @@ is_a: PLANA:0000109 ! anatomical compartment subdivision feature
 [Term]
 id: PLANA:0000423 ! embryonic subdivision
 is_a: PLANA:0000416 ! organism subdivision
-
-[Term]
-id: PLANA:0000424 ! material anatomical entity
-is_a: PLANA:0000400 ! anatomical entity
 
 [Term]
 id: PLANA:0000425 ! definitive anatomical structure
@@ -6212,11 +6204,11 @@ is_a: PLANA:0000485 ! gland cell
 
 [Term]
 id: PLANA:0000489 ! anatomical line
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: PLANA:0000490 ! anatomical plane
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: PLANA:0000491 ! plane of autotomy
@@ -6240,11 +6232,11 @@ is_a: PLANA:0000432 ! regenerating anatomical structure
 
 [Term]
 id: PLANA:0000496 ! anatomical boundary
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: PLANA:0000497 ! anatomical junction
-is_a: PLANA:0000401 ! immaterial anatomical entity
+is_a: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: PLANA:0000498 ! main body axis
@@ -7106,10 +7098,6 @@ id: PLANP:0000060 ! abnormal head
 is_a: PLANP:0000261 ! abnormal anatomical compartment subdivision
 
 [Term]
-id: PLANP:0000061 ! abnormal anatomical gradient
-is_a: PLANP:0000089 ! abnormal material anatomical entity
-
-[Term]
 id: PLANP:0000063 ! abnormal distal region
 is_a: PLANP:0000408 ! abnormal anatomical region
 
@@ -7146,10 +7134,6 @@ id: PLANP:0000071 ! abnormal basal epidermis surface
 is_a: PLANP:0000257 ! abnormal basal surface
 
 [Term]
-id: PLANP:0000072 ! abnormal anatomical plane
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
-
-[Term]
 id: PLANP:0000073 ! abnormal posterior compartment
 is_a: PLANP:0000040 ! abnormal anatomical compartment
 
@@ -7182,10 +7166,6 @@ id: PLANP:0000080 ! abnormal round spermatid
 is_a: PLANP:0000221 ! abnormal spermatid
 
 [Term]
-id: PLANP:0000081 ! abnormal anatomical junction
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
-
-[Term]
 id: PLANP:0000082 ! abnormal basal lamina of epithelium
 is_a: PLANP:0000098 ! abnormal acellular anatomical structure
 
@@ -7212,10 +7192,6 @@ is_a: PLANP:0000222 ! abnormal definitive organism subdivision
 [Term]
 id: PLANP:0000088 ! abnormal peripheral nervous system neuron
 is_a: PLANP:0000452 ! abnormal neuron
-
-[Term]
-id: PLANP:0000089 ! abnormal material anatomical entity
-is_a: PLANP:0000426 ! abnormal anatomical entity
 
 [Term]
 id: PLANP:0000090 ! abnormal embryonic digestive system
@@ -7335,16 +7311,8 @@ id: PLANP:0000117 ! abnormal epidermal progenitor
 is_a: PLANP:0000304 ! abnormal progenitor cell
 
 [Term]
-id: PLANP:0000118 ! abnormal immaterial anatomical entity
-is_a: PLANP:0000426 ! abnormal anatomical entity
-
-[Term]
 id: PLANP:0000119 ! abnormal chromatin
 is_a: PLANP:0000170 ! abnormal nuclear part
-
-[Term]
-id: PLANP:0000120 ! abnormal anatomical surface
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
 
 [Term]
 id: PLANP:0000121 ! abnormal Stage 4
@@ -7711,10 +7679,6 @@ id: PLANP:0000207 ! abnormal Category 3 cell
 is_a: PLANP:0000117 ! abnormal epidermal progenitor
 
 [Term]
-id: PLANP:0000208 ! abnormal anatomical space
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
-
-[Term]
 id: PLANP:0000209 ! abnormal gastrodermis
 is_a: PLANP:0000025 ! abnormal definitive tissue
 
@@ -7990,10 +7954,6 @@ id: PLANP:0000275 ! abnormal proximal tubule epithelial cell
 is_a: PLANP:0000150 ! abnormal ciliated epithelial cell
 
 [Term]
-id: PLANP:0000276 ! abnormal anatomical structure
-is_a: PLANP:0000089 ! abnormal material anatomical entity
-
-[Term]
 id: PLANP:0000277 ! abnormal anterior pole
 is_a: PLANP:0000087 ! abnormal anatomical compartment subdivision feature
 
@@ -8054,10 +8014,6 @@ is_a: PLANP:0000022 ! abnormal brain commissure
 [Term]
 id: PLANP:0000291 ! abnormal acidophilic gland cell
 is_a: PLANP:0000205 ! abnormal gland cell
-
-[Term]
-id: PLANP:0000292 ! abnormal anatomical boundary
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
 
 [Term]
 id: PLANP:0000293 ! abnormal tuba lumen
@@ -8434,10 +8390,6 @@ id: PLANP:0000384 ! abnormal secretory system
 is_a: PLANP:0000202 ! abnormal anatomical system
 
 [Term]
-id: PLANP:0000385 ! abnormal anatomical point
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
-
-[Term]
 id: PLANP:0000386 ! abnormal elongate spermatid
 is_a: PLANP:0000221 ! abnormal spermatid
 
@@ -8661,10 +8613,6 @@ is_a: PLANP:0000377 ! abnormal dorsal region
 is_a: PLANP:0000390 ! abnormal anatomical margin
 
 [Term]
-id: PLANP:0000441 ! abnormal anatomical line
-is_a: PLANP:0000118 ! abnormal immaterial anatomical entity
-
-[Term]
 id: PLANP:0000442 ! abnormal circular muscle progenitor cell
 is_a: PLANP:0000312 ! abnormal muscle progenitor
 
@@ -8680,10 +8628,6 @@ is_a: PLANP:0000190 ! abnormal anatomical cavity
 [Term]
 id: PLANP:0000445 ! abnormal spermatocyte
 is_a: PLANP:0000128 ! abnormal male germ cell
-
-[Term]
-id: PLANP:0000446 ! abnormal organism subdivision
-is_a: PLANP:0000089 ! abnormal material anatomical entity
 
 [Term]
 id: PLANP:0000447 ! abnormal medial region
@@ -8932,4 +8876,12 @@ is_a: PLANP:0000498 ! abnormal morphology of tail
 [Term]
 id: PLANP:0000503 ! abnormal decreased width of tail 
 is_a: PLANP:0000502 ! abnormal size of tail
+
+[Term]
+id: UBERON:0000465 ! material anatomical entity
+is_a: UBERON:0001062 ! anatomical entity
+
+[Term]
+id: UBERON:0000466 ! immaterial anatomical entity
+is_a: UBERON:0001062 ! anatomical entity
 

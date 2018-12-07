@@ -17,7 +17,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2018-11-22/planp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2018-12-07/planp.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"/>
@@ -114,7 +114,7 @@
     <!-- http://purl.obolibrary.org/obo/BSPO_0000005 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -348,7 +348,7 @@
     <!-- http://purl.obolibrary.org/obo/BSPO_0000051 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000424"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
     </rdf:Description>
     
 
@@ -10684,7 +10684,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000129 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000424"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
     </rdf:Description>
     
 
@@ -11081,7 +11081,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000401 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000401">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000400"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -11089,7 +11089,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000402 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000402">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -11097,7 +11097,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000403 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000403">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -11195,7 +11195,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000416 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000416">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000424"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
     </rdf:Description>
     
 
@@ -11264,7 +11264,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000424 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000424">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000400"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -11587,7 +11587,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000489 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -11595,7 +11595,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000490 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000490">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -11643,7 +11643,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000496 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000496">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -11651,7 +11651,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0000497 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANA_0000497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000401"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000466"/>
     </rdf:Description>
     
 
@@ -13303,7 +13303,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000061 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000089"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -13391,7 +13391,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000072 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -13463,7 +13463,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000081 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -13527,7 +13527,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000089 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000426"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -13764,7 +13764,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000118 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000426"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -13780,7 +13780,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000120 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -14500,7 +14500,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000208 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000208">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -15055,7 +15055,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000276 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000276">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000089"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -15185,7 +15185,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000292 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -15939,7 +15939,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000385 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -16394,7 +16394,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000441 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000441">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -16435,7 +16435,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000446 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000446">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000089"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -16908,6 +16908,30 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000503">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000466 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
 </rdf:RDF>
 
