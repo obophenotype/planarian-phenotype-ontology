@@ -722,6 +722,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that is located on the anterior side of the body or body part." [BSPO:wd]
 xref: BSPO:0000371
 xref: FBql:00005848
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000055 ! surface_of anterior side
 relationship: BSPO:0015008 BSPO:0000055 ! surface_of anterior side
@@ -733,6 +734,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that is located on the posterior side of the body or body part." [BSPO:wd]
 xref: BSPO:0000372
 xref: FBql:00005849
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000056 ! surface_of posterior side
 relationship: BSPO:0015008 BSPO:0000056 ! surface_of posterior side
@@ -744,6 +746,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that is located on the apical side of the body or body part." [BSPO:wd]
 xref: BSPO:0000373
 xref: FBql:00005854
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000057 ! surface_of apical side
 relationship: BSPO:0015008 BSPO:0000057 ! surface_of apical side
@@ -755,6 +758,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that is located on the basal side of the body or body part." [BSPO:wd]
 xref: BSPO:0000374
 xref: FBql:00005855
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000058 ! surface_of basal side
 relationship: BSPO:0015008 BSPO:0000058 ! surface_of basal side
@@ -793,6 +797,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that located on the dorsal side of the body or body part." [BSPO:wd]
 xref: BSPO:0000379
 xref: FBql:00005842
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000063 ! surface_of dorsal side
 relationship: BSPO:0015008 BSPO:0000063 ! surface_of dorsal side
@@ -822,6 +827,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that located on the medial side of the body or body part." [BSPO:wd]
 xref: BSPO:0000383
 xref: FBql:00005847
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000067 ! surface_of medial side
 relationship: BSPO:0015008 BSPO:0000067 ! surface_of medial side
@@ -833,6 +839,7 @@ namespace: Planarian_Anatomy
 def: "Anatomical surface that is located on the ventral side of the body or body part." [BSPO:wd]
 xref: BSPO:0000384
 xref: FBql:00005843
+is_a: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0000005 ! anatomical surface
 intersection_of: BSPO:0015008 BSPO:0000068 ! surface_of ventral side
 relationship: BSPO:0015008 BSPO:0000068 ! surface_of ventral side
@@ -1110,7 +1117,7 @@ def: "A heterogeneous subpopulation of neoblasts with enriched expression of Sox
 is_a: PLANA:0000120 ! progenitor cell
 is_a: PLANA:0000121 ! stem cell
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1138,7 +1145,7 @@ def: "Neoblasts and post-mitotic, differentiating daughters coexpressing POU2-3,
 is_a: PLANA:0000120 ! progenitor cell
 relationship: BFO:0000050 PLANA:0000088 ! part of renal system
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1183,7 +1190,7 @@ def: "An abundant neoblast subclass consisting of p53+, zfp1+ progenitors requir
 is_a: PLANA:0000033 ! epidermal progenitor
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1253,7 +1260,7 @@ is_a: PLANA:0000033 ! epidermal progenitor
 relationship: BFO:0000050 PLANA:0000054 ! part of dorsal epidermis
 relationship: BFO:0000050 PLANA:0000096 ! part of ventral epidermis
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1284,10 +1291,11 @@ id: PLANA:0000020
 name: protonephridia
 namespace: Planarian_Anatomy
 def: "Excretory organs consisting of flame cells, proximal tubules, and distal tubules connected to a mesenchymal collecting duct." [OCLC:16809160, PMID:21828097, PMID:26057828]
+comment: Depicted by field contains a whole-mount acetylated tubulin (AcTub) staining. Scale bars: 500 μm. Inset to right shows depth-coded projection of AcTub staining. Superficial structures are in blue and deeper structures are in red. Scale bars: 50 μm
 is_a: PLANA:0000431 ! organ
 relationship: BFO:0000050 PLANA:0000088 ! part of renal system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1301,6 +1309,7 @@ relationship: RO:0002490 PLANA:0000008 ! existence overlaps Stage 8
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/protonephridia.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000020 xsd:string
 
 [Term]
@@ -1319,7 +1328,7 @@ is_a: PLANA:0000106 ! ciliated epithelial cell
 relationship: BFO:0000050 PLANA:0000054 ! part of dorsal epidermis
 relationship: BFO:0000050 PLANA:0000096 ! part of ventral epidermis
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1343,7 +1352,7 @@ id: PLANA:0000023
 name: temporary embryonic pharynx
 namespace: Planarian_Anatomy
 def: "An innervated, muscular pump that ingests yolk cells into the gut cavity. The temporary embryonic pharynx is an extraembryonic tissue that forms during Stage 2, functions during Stages 3-5, and degenerates during Stages 6-7." []
-comment: Depicted by field contains hematoxylin and eosin staining section of a stage 5 embryo with anatomical feature noted with black indicators.
+comment: Depicted by field contains hematoxylin and eosin staining section of a stage 5 embryo that zooms into the temporary embryonic pharynx.
 xref: PMID:28072387
 is_a: PLANA:0000063 ! extraembryonic structure
 relationship: BFO:0000050 PLANA:0000058 ! part of embryonic digestive system
@@ -1356,7 +1365,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002496 PLANA:0000002 ! existence starts during or after Stage 2
 relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
-property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/temporaryembryonicpharynx.png
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/temporaryembryonicpharynx.gif
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000023 xsd:string
 
 [Term]
@@ -1364,7 +1373,9 @@ id: PLANA:0000024
 name: Smed asexual biotype
 namespace: Planarian_Anatomy
 def: "Obligate asexual animals that reproduce solely through fission followed by whole body regeneration. Asexual Smed are stable diploids that harbor a chromosome translocation, making them karyotypically distinct from sexual Smed." [PMID:11972158]
+comment: Depicted by field contains light micrscope image of asexual and sexual biotypes of Schmidtea meditteranea with their respective karyotypes. Note that the asexual bioptype has a chromosome inversion compared to the sexual.
 is_a: PLANA:0000021 ! biotype
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/smedasexualbiotype.png {comment="PMID:23136835"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000024 xsd:string
 
 [Term]
@@ -1387,7 +1398,7 @@ def: "The planarian triclad gut contains a central anterior gut branch connected
 is_a: PLANA:0000431 ! organ
 relationship: BFO:0000050 PLANA:0000049 ! part of digestive system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1409,7 +1420,9 @@ id: PLANA:0000027
 name: Smed sexual biotype
 namespace: Planarian_Anatomy
 def: "Cross-fertilizing hemaphrodites that reproduce sexually and do not undergo fission. After mating, each parent lays an egg capsule containing one or more embryos. Sexual Smed are stable diploids." [PMID:11972158]
+comment: Depicted by field contains light micrscope image of asexual and sexual biotypes of Schmidtea meditteranea with their respective karyotypes. Note that the asexual bioptype has a chromosome inversion compared to the sexual.
 is_a: PLANA:0000021 ! biotype
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/smedsexualbiotype.png {comment="PMID:23136835"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000027 xsd:string
 
 [Term]
@@ -1419,7 +1432,7 @@ namespace: Planarian_Anatomy
 def: "Post-mitotic, mesenchymally located epidermal progenitors downstream of the zeta neoblasts." [PMID:18786419, PMID:20040488, PMID:22385657, PMID:25017721, PMID:26114597]
 is_a: PLANA:0000033 ! epidermal progenitor
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1499,11 +1512,18 @@ id: PLANA:0000033
 name: epidermal progenitor
 namespace: Planarian_Anatomy
 def: "Mitotically active zeta neoblasts and their post-mitotic descendants which undergo progressive differentiation and outward directed movement through the mesenchyme prior to incorporation into the epidermis, where terminal differentiation occurs." [PMID:18786419, PMID:20040488, PMID:22385657, PMID:25017721, PMID:26114597, PMID:26457503]
+comment: Depicted by shows multiple epithelia progenitor cell markers via in situ as progenitors mature towards the epidermis in a transverse plane.
 is_a: PLANA:0000120 ! progenitor cell
+intersection_of: PLANA:0000120 ! progenitor cell
+intersection_of: BFO:0000050 PLANA:0004529 ! part of integumental system
+intersection_of: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
+intersection_of: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
+intersection_of: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
 relationship: BFO:0000050 PLANA:0004529 ! part of integumental system
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/epidermalprogenitor.png {xref="PMID:26457503"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000033 xsd:string
 
 [Term]
@@ -1515,7 +1535,7 @@ comment: At present, this definition does not apply to epithelial structures oth
 is_a: PLANA:0000431 ! organ
 relationship: BFO:0000050 PLANA:0004529 ! part of integumental system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1542,7 +1562,7 @@ namespace: Planarian_Anatomy
 def: "Post-mitotic, mesenchymally located epidermal progenitors downstream of the Category 2 cells." [PMID:18786419, PMID:20040488, PMID:26114597, PMID:26457503]
 is_a: PLANA:0000033 ! epidermal progenitor
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1605,7 +1625,7 @@ def: "An abundant neoblast subclass, exhibiting enriched expression of gata456a,
 is_a: PLANA:0000120 ! progenitor cell
 relationship: BFO:0000050 PLANA:0000049 ! part of digestive system
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1656,7 +1676,7 @@ comment: Depicted by field contains hematoxylin and eosin staining section of a 
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007504 ! contained in dorsal compartment
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
@@ -1708,7 +1728,7 @@ def: "Body wall muscle fibers arrayed around the dorsoventral axis. Upon regener
 is_a: PLANA:0000101 ! muscle cell
 relationship: BFO:0000050 PLANA:0000240 ! part of body wall musculature
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1730,7 +1750,7 @@ namespace: Planarian_Anatomy
 def: "Pluripotent piwi-1+ stem cells that self-renew, form expanding colonies and produce differentiating daughters that contribute to multiple organ systems. cNeoblasts are predicted to be broadly distributed across the anteroposterior axis of the adult worm." [PMID:21566185]
 is_a: PLANA:0000121 ! stem cell
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1754,11 +1774,12 @@ id: PLANA:0000047
 name: collecting duct
 namespace: Planarian_Anatomy
 def: "Non-ciliated tubules associated with the distal tubules, which cross the basement membrane and terminate in the dorsal epidermis." [PMID:26057828]
+comment: Depicted by field contains a diagram representing the protonephrida unit (top) as well as a 3D rendering of confocal data depicting the same. In the diagram, terminal flame cells and their corresponding cilia are in blues, the proximal tubule is in reds, the distal tubule is in greens while the  collecting duct is in purple. In the 3D rendering below the cilia (AcTub) are in blue, portions of the proximal tubule (slc6a-13) are in red while the distal tubule (slc6a-12) is in green.
 synonym: "collection duct" EXACT []
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000088 ! part of renal system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1769,6 +1790,7 @@ relationship: RO:0002220 PLANA:0000053 ! adjacent to distal tubule
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/collectingduct.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000047 xsd:string
 
 [Term]
@@ -1779,7 +1801,7 @@ def: "Body wall muscle fibers arrayed diagonally along the anteroposterior axis.
 is_a: PLANA:0000101 ! muscle cell
 relationship: BFO:0000050 PLANA:0000240 ! part of body wall musculature
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1826,10 +1848,11 @@ id: PLANA:0000053
 name: distal tubule
 namespace: Planarian_Anatomy
 def: "Sinusoidal, non-ciliated tubules connected to proximal tubules within the parenchyma. Tubules are formed via intercellular junctions between two epithelial cells." [PMID:21828097]
+comment: Depicted by field contains a diagram representing the protonephrida unit (top) as well as a 3D rendering of confocal data depicting the same. In the diagram, terminal flame cells and their corresponding cilia are in blues, the proximal tubule is in reds, the distal tubule is in greens while the  collecting duct is in purple. In the 3D rendering below the cilia (AcTub) are in blue, portions of the proximal tubule (slc6a-13) are in red while the distal tubule (slc6a-12) is in green.
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000020 ! part of protonephridia
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1841,6 +1864,7 @@ relationship: RO:0002220 PLANA:0000047 ! adjacent to collecting duct
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/distaltubule.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000053 xsd:string
 
 [Term]
@@ -1851,7 +1875,7 @@ def: "Single cell layer of dorsal, post-mitotic, epithelial cells containing the
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000034 ! part of definitive epidermis
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1876,7 +1900,7 @@ synonym: "racing stripe" BROAD []
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000054 ! part of dorsal epidermis
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -1964,7 +1988,7 @@ def: "Visceral muscle surrounding the definitive gut." [PMID:26904543]
 is_a: PLANA:0000013 ! visceral musculature
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2007,10 +2031,11 @@ id: PLANA:0000064
 name: flame bulb
 namespace: Planarian_Anatomy
 def: "Terminal structure of protonephridia unit; consists of flame cells." [PMID:21828097\nPMID\:26057828]
+comment: Depicted by field contains a diagram representing the protonephrida unit (top) as well as a 3D rendering of confocal data depicting the same (bottom). In the diagram, terminal flame cells and their corresponding cilia (flame bulb) are in blues, the proximal tubule is in reds, the distal tubule is in greens while the  collecting duct is in purple. In the 3D rendering below the cilia (AcTub) are in blue, portions of the proximal tubule (slc6a-13) are in red while the distal tubule (slc6a-12) is in green.
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000020 ! part of protonephridia
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007504 ! contained in dorsal compartment
@@ -2020,6 +2045,7 @@ relationship: RO:0002202 PLANA:0000011 ! develops from protonephridial progenito
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/flamebulb.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000064 xsd:string
 
 [Term]
@@ -2027,10 +2053,11 @@ id: PLANA:0000065
 name: flame cell
 namespace: Planarian_Anatomy
 def: "Terminal structure of the protonephridia unit, capping the proximal tubules. Flame cells are defined by the ‘filtration weir’, which consists of closely apposed strands of cytoplasm surrounding a central cilia bundle, and by numerous microvilli between weir and cilia. Positive for acetyated tubulin." [OCLC:16809160, PMID:21828097, PMID:26057828]
+comment: Depicted by field contains a diagram representing the protonephrida unit (top) as well as a 3D rendering of confocal data depicting the same. In the diagram, terminal flame cells and their corresponding cilia are in blues, the proximal tubule is in reds, the distal tubule is in greens while the  collecting duct is in purple. In the 3D rendering below the cilia (AcTub) are in blue, portions of the proximal tubule (slc6a-13) are in red while the distal tubule (slc6a-12) is in green.
 is_a: PLANA:0000119 ! terminally differentiated cell
 relationship: BFO:0000050 PLANA:0000064 ! part of flame bulb
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2041,7 +2068,9 @@ relationship: RO:0002220 PLANA:0000087 ! adjacent to proximal tubule
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/flamecell.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000065 xsd:string
+property_value: UBPROP:0000003 "Has functional homology with vertebrate podocytes." xsd:string {xref="PMID:26057828"}
 
 [Term]
 id: PLANA:0000066
@@ -2051,7 +2080,7 @@ def: "The single cell layer columnar epithelial lining of the intestine. The gas
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2070,7 +2099,7 @@ namespace: Planarian_Anatomy
 def: "Secretory cells that release digestive enzymes into the lumen of the intestine." [PMID:21664348]
 is_a: PLANA:0000105 ! secretory cell
 relationship: BFO:0000050 PLANA:0000066 ! part of gastrodermis
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2119,7 +2148,7 @@ namespace: Planarian_Anatomy
 def: "Absorptive digestive cells that engulf food particles for intracellular digestion." [PMID:21664348]
 is_a: PLANA:0000119 ! terminally differentiated cell
 relationship: BFO:0000050 PLANA:0000066 ! part of gastrodermis
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2141,7 +2170,7 @@ def: "Body wall muscle fibers arrayed along the anteroposterior axis. Upon regen
 is_a: PLANA:0000101 ! muscle cell
 relationship: BFO:0000050 PLANA:0000240 ! part of body wall musculature
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2186,7 +2215,7 @@ xref: CL:0000023
 is_a: PLANA:0000122 ! gamete
 is_a: PLANA:0000229 ! female germ cell
 relationship: BFO:0000050 PLANA:0000204 ! part of ovary
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -2261,7 +2290,7 @@ is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000422 ! part of tail stripe
 relationship: BFO:0000050 PLANA:0000428 ! part of musculature system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2361,10 +2390,11 @@ id: PLANA:0000087
 name: proximal tubule
 namespace: Planarian_Anatomy
 def: "Ciliated epithelial cells form tubules, generating coiled, branching units terminating in flame bulbs. Tubules are formed via intercellular junctions between two epithelial cells. Proximal tubules are connected to non-ciliated distal tubules within the parenchyma." [PMID:21828097]
+comment: Depicted by field contains a diagram representing the protonephrida unit (top) as well as a 3D rendering of confocal data depicting the same. In the diagram, terminal flame cells and their corresponding cilia are in blues, the proximal tubule is in reds, the distal tubule is in greens while the  collecting duct is in purple. In the 3D rendering below the cilia (AcTub) are in blue, portions of the proximal tubule (slc6a-13) are in red while the distal tubule (slc6a-12) is in green.
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000020 ! part of protonephridia
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2381,6 +2411,7 @@ relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
 relationship: RO:0002496 PLANA:0000006 ! existence starts during or after Stage 6
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/proximaltubule.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000087 xsd:string
 
 [Term]
@@ -2404,7 +2435,7 @@ comment: Depicted by field contains hematoxylin and eosin staining section of a 
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2428,7 +2459,7 @@ xref: CL:0000019
 is_a: PLANA:0000122 ! gamete
 is_a: PLANA:0000228 ! male germ cell
 relationship: BFO:0000050 PLANA:0000208 ! part of testis
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2473,7 +2504,7 @@ comment: Depicted by field contains hematoxylin and eosin staining section of a 
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2529,7 +2560,7 @@ is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000034 ! part of definitive epidermis
 relationship: BFO:0000050 PLANA:0007545 ! part of epidermal compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2565,7 +2596,7 @@ xref: WBbt:0005829
 is_a: PLANA:0000431 ! organ
 relationship: BFO:0000050 PLANA:0000103 ! part of central nervous system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2689,7 +2720,7 @@ xref: CL:0000428
 is_a: PLANA:0000119 ! terminally differentiated cell
 is_a: PLANA:0000215 ! reproductive system product
 relationship: BFO:0000050 PLANA:0000060 ! part of embryonic wall
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2720,7 +2751,7 @@ def: "foxA1+ neoblasts and their post-mitotic, differentiating daughters require
 is_a: PLANA:0000120 ! progenitor cell
 relationship: BFO:0000050 PLANA:0000016 ! part of definitive pharynx
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0007504 ! contained in dorsal compartment
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
@@ -2740,7 +2771,7 @@ def: "Ciliated epithelial cells that assemble into proximal tubules." [PMID:2182
 is_a: PLANA:0000106 ! ciliated epithelial cell
 relationship: BFO:0000050 PLANA:0000087 ! part of proximal tubule
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2782,10 +2813,11 @@ id: PLANA:0000115
 name: distal tubule epithelial cell
 namespace: Planarian_Anatomy
 def: "Nonciliated epithelial cells that assemble into protonephridial proximal tubules." [PMID:21828097]
+comment: Depicted by field contains a diagram representing the protonephrida unit (top) as well as a 3D rendering of confocal data depicting the same. In the diagram, terminal flame cells and their corresponding cilia are in blues, the proximal tubule is in reds, the distal tubule is in greens while the  collecting duct is in purple. In the 3D rendering below the cilia (AcTub) are in blue, portions of the proximal tubule (slc6a-13) are in red while the distal tubule (slc6a-12) is in green.
 is_a: PLANA:0000015 ! non ciliated epithelial cell
 relationship: BFO:0000050 PLANA:0000053 ! part of distal tubule
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2795,6 +2827,7 @@ relationship: RO:0001018 PLANA:0007507 ! contained in posterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/distaltubuleepithelialcell.png {xref="PMID:26057828"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000115 xsd:string
 
 [Term]
@@ -2826,7 +2859,7 @@ def: "Nonciliated epithelial cells that assemble into collecting ducts." [PMID:2
 is_a: PLANA:0000015 ! non ciliated epithelial cell
 relationship: BFO:0000050 PLANA:0000047 ! part of collecting duct
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2934,7 +2967,7 @@ def: "Ciliated epithelial cells that assemble into the oviduct." [PMID:22074376]
 is_a: PLANA:0000106 ! ciliated epithelial cell
 relationship: BFO:0000050 PLANA:0004532 ! part of oviduct epithelium
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
@@ -2954,7 +2987,7 @@ def: "Ciliated epithelial cells comprising the sperm ducts." [PMID:19022767\nPMI
 is_a: PLANA:0000106 ! ciliated epithelial cell
 relationship: BFO:0000050 PLANA:0004533 ! part of sperm duct epithelium
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -2985,7 +3018,7 @@ is_a: PLANA:0000019 ! muscle progenitor
 relationship: BFO:0000050 PLANA:0000240 ! part of body wall musculature
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3039,7 +3072,7 @@ is_a: PLANA:0000019 ! muscle progenitor
 relationship: BFO:0000050 PLANA:0000240 ! part of body wall musculature
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3069,7 +3102,7 @@ is_a: PLANA:0000229 ! female germ cell
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -3118,7 +3151,7 @@ name: ovary
 namespace: Planarian_Anatomy
 def: "A gonad containing female germline stem cells which fuel oocyte production. Two ovaries are located ventally, underneath the body wall musculature, immediately posterior to the cephalic ganglia (brain) and adjacent to the ventral nerve cords. The neoblast compartment, including piwi-1+, nanos+ primordial germ cells, fuel formation of the ovaries during juvenile development." [PMID:17376870]
 is_a: PLANA:0000217 ! gonad
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000204 xsd:string
@@ -3131,7 +3164,7 @@ def: "Ciliated tubes adjacent to the ventral nerve cords, adjoining the tuba and
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
@@ -3166,7 +3199,7 @@ def: "A network of tubes that transport sperm from the testes to the seminal ves
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3181,7 +3214,7 @@ name: testis
 namespace: Planarian_Anatomy
 def: "A gonad containing male germline stem cells which fuel sperm production. Testes are located dorsolaterally, and are excluded from the head. The neoblast compartment, including piwi-1+, nanos+ primordial germ cells, fuels formation of testes during juvenile development and regeneration." [PMID:19022767]
 is_a: PLANA:0000217 ! gonad
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3285,7 +3318,7 @@ is_a: PLANA:0000121 ! stem cell
 is_a: PLANA:0000228 ! male germ cell
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3308,7 +3341,7 @@ is_a: PLANA:0000121 ! stem cell
 is_a: PLANA:0000228 ! male germ cell
 relationship: BFO:0000050 PLANA:0000208 ! part of testis
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3332,7 +3365,7 @@ is_a: PLANA:0000120 ! progenitor cell
 is_a: PLANA:0000228 ! male germ cell
 relationship: BFO:0000050 PLANA:0000208 ! part of testis
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3353,7 +3386,7 @@ xref: CL:0000017
 is_a: PLANA:0000228 ! male germ cell
 relationship: BFO:0000050 PLANA:0000208 ! part of testis
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3374,7 +3407,7 @@ xref: CL:0000018
 is_a: PLANA:0000228 ! male germ cell
 relationship: BFO:0000050 PLANA:0000208 ! part of testis
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3394,7 +3427,7 @@ is_a: PLANA:0000121 ! stem cell
 is_a: PLANA:0000229 ! female germ cell
 relationship: BFO:0000050 PLANA:0000204 ! part of ovary
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -3473,7 +3506,7 @@ def: "A sperm storage organ located immediately posterior to the ovary, at the a
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
@@ -3489,7 +3522,7 @@ def: "Glands surrounding the oviducts which produce yolk cells. Yolk cells depos
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
@@ -3572,7 +3605,7 @@ is_a: PLANA:0000120 ! progenitor cell
 is_a: PLANA:0000229 ! female germ cell
 relationship: BFO:0000050 PLANA:0000204 ! part of ovary
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -3595,7 +3628,7 @@ xref: WBbt:0005813
 is_a: PLANA:0000431 ! organ
 relationship: BFO:0000050 PLANA:0000428 ! part of musculature system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3743,7 +3776,7 @@ comment: Depicted by field contains hematoxylin and eosin staining on a coronal 
 xref: UBERON:0006909
 is_a: PLANA:0000242 ! anatomical cavity
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3807,7 +3840,7 @@ is_a: BSPO:0000373 ! apical surface
 relationship: BFO:0000050 PLANA:0000054 ! part of dorsal epidermis
 relationship: BFO:0000050 PLANA:0000096 ! part of ventral epidermis
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3833,7 +3866,7 @@ relationship: BFO:0000050 PLANA:0000054 ! part of dorsal epidermis
 relationship: BFO:0000050 PLANA:0000096 ! part of ventral epidermis
 relationship: BSPO:0015014 PLANA:0001005 ! immediately_superficial_to basal lamina of epithelium
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3858,7 +3891,7 @@ is_a: BSPO:0000005 ! anatomical surface
 relationship: BFO:0000050 PLANA:0000066 ! part of gastrodermis
 relationship: BSPO:0015014 PLANA:0000405 ! immediately_superficial_to lumen of digestive tract
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -3967,7 +4000,7 @@ property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0000418 x
 
 [Term]
 id: PLANA:0000419
-name: neck
+name: prepharyngeal region
 namespace: Planarian_Anatomy
 def: "Region of the juvenile or adult animal between the posterior end of the cephalic ganglia and the anterior end of the definitive pharynx." []
 comment: http://purl.obolibrary.org/obo/Depicted%20by%20field%20contains%20diagram%20representation%20of%20body%20region.
@@ -3988,7 +4021,7 @@ def: "Region of the animal lateral to and surrounding the definitive pharynx." [
 comment: http://purl.obolibrary.org/obo/Depicted%20by%20field%20contains%20diagram%20representation%20of%20body%20region.
 synonym: "trunk" BROAD []
 is_a: PLANA:0000102 ! anatomical compartment subdivision
-relationship: BSPO:0000099 PLANA:0000419 ! posterior_to neck
+relationship: BSPO:0000099 PLANA:0000419 ! posterior_to prepharyngeal region
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
 relationship: RO:0002490 PLANA:0004503 ! existence overlaps sexually mature adult
 relationship: RO:0002490 PLANA:0004504 ! existence overlaps asexual adult
@@ -4106,7 +4139,7 @@ namespace: Planarian_Anatomy
 def: "A heterogeneous population of pluripotent, somatic adult stem cells and lineage primed progenitors that are required for maintenance and regeneration of all cell types in planaria, including the germline." [https://github.com/obophenotype/planaria-ontology/blob/master/metadata/planarefs/planaref-0000004.md, PMID:16311336, PMID:21566185, PMID:22899852]
 is_a: PLANA:0000114 ! anatomical system
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0002202 PLANA:0000212 ! develops from blastomere compartment
@@ -4286,7 +4319,7 @@ namespace: Planarian_Anatomy
 def: "Plexus of nerves located just between the definitive epidermis and the body wall musculature." [PMID:27612384\ndoi\:10.1002/jmor.1051550208]
 is_a: PLANA:0000492 ! nerve plexus
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -4306,7 +4339,7 @@ namespace: Planarian_Anatomy
 def: "Plexus of nerves that innervate the body wall muscles." []
 is_a: PLANA:0000492 ! nerve plexus
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -4327,7 +4360,7 @@ def: "A thin net of single nerve fibers located around the gut." [PMID:17999079\
 is_a: PLANA:0000492 ! nerve plexus
 relationship: BFO:0000050 PLANA:0000026 ! part of definitive gut
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -4483,7 +4516,7 @@ def: "Neurons that express the neurotransmitter serotonin." [] {comment="PMID:17
 is_a: PLANA:0000556 ! neurosecretory neuron
 relationship: BFO:0000050 PLANA:0000044 ! part of cephalic ganglia
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -5416,7 +5449,7 @@ is_a: PLANA:0000565 ! autonomic neuron
 relationship: BFO:0000050 PLANA:0000465 ! part of pharynx nerve plexus
 relationship: BFO:0000050 PLANA:0000468 ! part of gastrodermal plexus
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -5462,7 +5495,7 @@ relationship: BSPO:0001107 PLANA:0000054 ! immediately_deep_to dorsal epidermis
 relationship: BSPO:0001107 PLANA:0000096 ! immediately_deep_to ventral epidermis
 relationship: BSPO:0015014 PLANA:0000240 ! immediately_superficial_to body wall musculature
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -5519,7 +5552,7 @@ def: "dmd-1+ expressing somatic cells within the testis that promote male GSC ma
 is_a: PLANA:0000119 ! terminally differentiated cell
 relationship: BFO:0000050 PLANA:0000208 ! part of testis
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -5540,7 +5573,7 @@ def: "ophis+ somatic cells (gh4-, nanos-) in the ovary that may provide trophic 
 is_a: PLANA:0000119 ! terminally differentiated cell
 relationship: BFO:0000050 PLANA:0000204 ! part of ovary
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -5555,7 +5588,8 @@ creation_date: 2017-07-19T21:35:08Z
 id: PLANA:0004511
 name: oral-aboral axis
 namespace: Planarian_Anatomy
-def: "Axis that runs between the oral and aboral poles of the spherical embryo (Stage 3 through early Stage 6). The oral pole is centered around the temporary embryonic pharynx; the aboral pole is located opposite the temporary embryonic pharynx." [PMID:28072387]
+def: "Axis that runs from the oral pole and to the aboral pole of the spherical embryo (Stage 3 through early Stage 6). The oral pole is centered around the temporary embryonic pharynx; the aboral pole is located opposite the temporary embryonic pharynx." [PMID:28072387]
+comment: Depicted by is an illustration noting the oral-aboral axis in cyan double headed arrow. Note it starts at the temporary embryonic pharynx and extends to opposite.
 is_a: BSPO:0000010 ! anatomical axis
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
 relationship: PLANA:0007536 PLANA:0000116 ! specific_to embryo
@@ -5565,6 +5599,7 @@ relationship: RO:0002490 PLANA:0000005 ! existence overlaps Stage 5
 relationship: RO:0002490 PLANA:0000006 ! existence overlaps Stage 6
 relationship: RO:0002496 PLANA:0000003 ! existence starts during or after Stage 3
 relationship: RO:0002497 PLANA:0000006 ! existence ends during or before Stage 6
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/oralaboralaxis.png
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0004511 xsd:string
 created_by: Erin Davies
 creation_date: 2017-07-27T14:55:23Z
@@ -5810,7 +5845,7 @@ def: "Anatomical space enclosed by the oviduct epithelium." [PMID:22074376]
 is_a: PLANA:0000242 ! anatomical cavity
 relationship: BFO:0000050 PLANA:0000205 ! part of oviduct
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
@@ -5832,7 +5867,7 @@ def: "Anatomical space enclosed by the sperm duct epithelium." [PMID:19022767\nP
 is_a: PLANA:0000242 ! anatomical cavity
 relationship: BFO:0000050 PLANA:0000207 ! part of sperm duct
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -5856,7 +5891,7 @@ def: "Ciliated epithelium lining the oviduct." [PMID:22074376]
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000205 ! part of oviduct
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
@@ -5877,7 +5912,7 @@ def: "Ciliated epithelium lining the sperm duct." [PMID:19022767\nPMID\:22074376
 is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000207 ! part of sperm duct
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -5898,7 +5933,7 @@ def: "Anatomical space enclosed by tuba. Oocyte(s) are fertilized in the tuba lu
 is_a: PLANA:0000242 ! anatomical cavity
 relationship: BFO:0000050 PLANA:0000230 ! part of tuba
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -5913,7 +5948,7 @@ creation_date: 2017-09-02T22:55:44Z
 id: PLANA:0007501
 name: transverse plane
 namespace: Planarian_Anatomy
-def: "Anatomical plane which divides the body into superior and inferior parts. It always contains the midline and is perpendicular to the coronal and sagittal planes. It is also known as the horizontal plane, axial plane, or transaxial plane." []
+def: "Anatomical plane which contains the midline and is perpendicular to the coronal and sagittal planes." []
 is_a: PLANA:0000490 ! anatomical plane
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0007501 xsd:string
 created_by: Steph Nowotarski
@@ -6163,7 +6198,9 @@ id: PLANA:0007523
 name: proximodistal axis
 namespace: Planarian_Anatomy
 def: "Axis that starts at the distal part of an appendage, closest to the body, and runs to the proximal part of an appendage, farthest from the body." []
+comment: Depicted by shows a planarian pharynx exposed by tricaine treatment. The proximodistal axis is denoted with the double headed magenta arrow.
 is_a: BSPO:0000010 ! anatomical axis
+property_value: http://xmlns.com/foaf/0.1/depiction http://purl.obolibrary.org/obo/plana/images/proximodistalaxis.png {xref="PMID:24737865"}
 property_value: seeAlso https://planosphere.stowers.org/ontology/PLANA_0007523 xsd:string
 created_by: Steph Nowotarski
 creation_date: 2017-05-04T18:02:04Z
@@ -6210,7 +6247,7 @@ xref: CL:0000125
 is_a: PLANA:0000561 ! neuron associated cell (sensu Nematoda and Protostomia)
 relationship: BFO:0000050 PLANA:0000470 ! part of neuropil
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6299,7 +6336,7 @@ is_a: PLANA:0000037 ! definitive tissue
 relationship: BFO:0000050 PLANA:0000484 ! part of secretory system
 relationship: RO:0001018 PLANA:0000043 ! contained in dorsoventral margin
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6322,7 +6359,7 @@ is_a: PLANA:0000487 ! acidophilic gland cell
 relationship: BFO:0000050 PLANA:0007538 ! part of adhesion gland
 relationship: RO:0001018 PLANA:0000043 ! contained in dorsoventral margin
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6342,7 +6379,7 @@ is_a: PLANA:0000487 ! acidophilic gland cell
 relationship: BFO:0000050 PLANA:0007538 ! part of adhesion gland
 relationship: RO:0001018 PLANA:0000043 ! contained in dorsoventral margin
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6362,7 +6399,7 @@ is_a: PLANA:0000487 ! acidophilic gland cell
 relationship: BFO:0000050 PLANA:0007538 ! part of adhesion gland
 relationship: RO:0001018 PLANA:0000043 ! contained in dorsoventral margin
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6420,7 +6457,7 @@ relationship: BFO:0000050 PLANA:0000080 ! part of peripheral nervous system
 relationship: BFO:0000050 PLANA:0000103 ! part of central nervous system
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0001018 PLANA:0007554 ! contained in parenchymal compartment
@@ -6471,7 +6508,7 @@ relationship: BFO:0000050 PLANA:0000080 ! part of peripheral nervous system
 relationship: BFO:0000050 PLANA:0000103 ! part of central nervous system
 relationship: BFO:0000050 PLANA:0000429 ! part of neoblast compartment
 relationship: RO:0001018 PLANA:0000418 ! contained in head
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6572,7 +6609,7 @@ def: "Nerve plexus surrounding the testis." [PMID:7833618\nPMID\:17999079]
 is_a: PLANA:0000492 ! nerve plexus
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0000420 ! contained in parapharyngeal region
 relationship: RO:0001018 PLANA:0000421 ! contained in tail
 relationship: RO:0001018 PLANA:0004527 ! contained in copulatory region
@@ -6601,7 +6638,7 @@ def: "Nerve plexus surrounding the ovary." [PMID:7833618\nPMID\:17999079]
 is_a: PLANA:0000492 ! nerve plexus
 relationship: BFO:0000050 PLANA:0000126 ! part of reproductive system
 relationship: PLANA:0007536 PLANA:0000027 ! specific_to Smed sexual biotype
-relationship: RO:0001018 PLANA:0000419 ! contained in neck
+relationship: RO:0001018 PLANA:0000419 ! contained in prepharyngeal region
 relationship: RO:0001018 PLANA:0007505 ! contained in ventral compartment
 relationship: RO:0001018 PLANA:0007506 ! contained in anterior compartment
 relationship: RO:0002490 PLANA:0000214 ! existence overlaps juvenile
@@ -6950,6 +6987,37 @@ property_value: IAO:0000117 "Melissa Haendel" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ro.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
+
+[Typedef]
+id: immediately_preceded_by
+name: immediately_preceded_by
+namespace: uberon
+def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" []
+synonym: "directly preceded by" EXACT []
+synonym: "is directly preceded by" EXACT []
+synonym: "is immediately preceded by" EXACT [SIO:000251]
+synonym: "starts_at_end_of" EXACT []
+xref: RO:0002087
+property_value: seeAlso SIO:000251
+property_value: UBPROP:0000001 "A non-transitive temporal relation in which one process immediately precedes another process, such that there is no interval of time between the two processes[SIO:000251]." xsd:string
+is_a: preceded_by ! preceded_by
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+namespace: uberon
+def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)" []
+synonym: "is preceded by" EXACT [SIO:000249]
+synonym: "takes place after" EXACT [Allen:precedes]
+xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: precedes
+name: precedes
+namespace: uberon
+xref: BFO:0000063
+is_transitive: true
 
 [Typedef]
 id: subdivision_of

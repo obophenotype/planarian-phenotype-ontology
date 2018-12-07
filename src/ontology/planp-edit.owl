@@ -7,22 +7,25 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/planp.owl>
-Import(<http://purl.obolibrary.org/obo/planp/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/planp/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/planp/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/planp/imports/plana_import.owl>)
-Import(<http://purl.obolibrary.org/obo/planp/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/planp/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/planp/patterns/definitions.owl>)
 Annotation(rdfs:comment "Planarian Phenotype Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_00000000>))
 
+
+
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_00000000> (planp)
+# Class: <http://purl.obolibrary.org/obo/PLANP_00000000> (Planarian Phenotype)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_00000000> "planp"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_00000000> "Planarian Phenotype"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_00000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing))))
 
 
 )

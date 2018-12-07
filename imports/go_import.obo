@@ -312,6 +312,7 @@ def: "Combining with an extracellular or intracellular signal and transmitting t
 comment: This term includes intracellular membrane receptors, e.g. IP3 triggered release of Ca2+ from intracellular stores.
 synonym: "transmembrane receptor activity" BROAD [GOC:bf, GOC:signaling]
 synonym: "transmembrane signalling receptor activity" EXACT [GOC:mah]
+xref: reactome:R-HSA-193672 "Sphingomyelinase is activated by the NGF:p75NTR complex"
 is_a: GO:0038023 ! signaling receptor activity
 
 [Term]
@@ -342,6 +343,9 @@ synonym: "RDC1 receptor activity" NARROW []
 synonym: "receptor activity, G-protein coupled" EXACT [GOC:bf]
 synonym: "SREB receptor" NARROW []
 synonym: "super conserved receptor expressed in brain receptor activity" NARROW []
+xref: reactome:R-HSA-114552 "G12/13 activation by PAR"
+xref: reactome:R-HSA-114558 "Gq activation by PAR"
+xref: reactome:R-HSA-167408 "The high affinity receptor complex binds to G-protein"
 xref: Wikipedia:GPCR
 is_a: GO:0004888 ! transmembrane signaling receptor activity
 relationship: part_of GO:0007186 ! G protein-coupled receptor signaling pathway
@@ -391,6 +395,12 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "glycoprotein binding" NARROW []
 synonym: "protein amino acid binding" EXACT []
+xref: reactome:R-HSA-170835 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3"
+xref: reactome:R-HSA-170846 "TGFBR2 recruits TGFBR1"
+xref: reactome:R-HSA-3645786 "TGFBR2 mutant dimers recruit TGFBR1"
+xref: reactome:R-HSA-3656484 "TGFBR2 recruits TGFBR1 KD Mutants"
+xref: reactome:R-HSA-3702153 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3 MH2 domain mutants"
+xref: reactome:R-HSA-3713560 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3 phosphorylation motif mutants"
 is_a: GO:0005488 ! binding
 
 [Term]
@@ -627,7 +637,6 @@ alt_id: GO:0032583
 alt_id: GO:0045449
 alt_id: GO:0061019
 def: "Any process that modulates the frequency, rate or extent of cellular DNA-templated transcription." [GOC:go_curators, GOC:txnOH]
-subset: goslim_pombe
 synonym: "regulation of cellular transcription, DNA-dependent" EXACT []
 synonym: "regulation of gene-specific transcription" RELATED []
 synonym: "regulation of transcription, DNA-dependent" EXACT [GOC:txnOH]
@@ -1633,6 +1642,14 @@ synonym: "peptide hydrolase activity" EXACT []
 synonym: "protease activity" EXACT []
 synonym: "proteinase activity" NARROW []
 xref: EC:3.4
+xref: reactome:R-HSA-205112 "gamma-secretase cleaves p75NTR, releasing NRIF and TRAF6"
+xref: reactome:R-HSA-3000243 "Unknown protease degrades GIF:Cbl to release Cbl"
+xref: reactome:R-HSA-3139027 "Maturation of HIV Virion"
+xref: reactome:R-HSA-376149 "Proteolytic processing of SLIT"
+xref: reactome:R-HSA-5655483 "USP1 autocleavage"
+xref: reactome:R-HSA-5684864 "NAPSA, CTSH, PGA3-5 cleave pro-SFTPB"
+xref: reactome:R-HSA-5685902 "NAPSA, CTSH, PGA3-5 cleave pro-SFTPC"
+xref: reactome:R-HSA-5693319 "CTRC hydrolyses PRSS1"
 is_a: GO:0016787 ! hydrolase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 relationship: part_of GO:0006508 ! proteolysis
@@ -1646,6 +1663,10 @@ def: "Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a m
 synonym: "cysteine protease activity" NARROW []
 synonym: "thiol protease activity" NARROW []
 xref: EC:3.4
+xref: reactome:R-HSA-2022381 "Cathepsin Z (Cathepsin X) hydrolyzes Angiotensin-(1-10) to Angiotensin-(1-8)"
+xref: reactome:R-HSA-2467775 "Autocleavage of ESPL1 (Separase)"
+xref: reactome:R-HSA-2467809 "ESPL1 (Separase) cleaves centromeric cohesin"
+xref: reactome:R-HSA-5660752 "USP9X deubiquitinates Ub-SNCA"
 is_a: GO:0070011 ! peptidase activity, acting on L-amino acid peptides
 
 [Term]
@@ -1667,7 +1688,7 @@ relationship: regulates GO:0007186 ! G protein-coupled receptor signaling pathwa
 
 [Term]
 id: GO:0008283
-name: cell proliferation
+name: cell population proliferation
 namespace: biological_process
 def: "The multiplication or reproduction of cells, resulting in the expansion of a cell population." [GOC:mah, GOC:mb]
 comment: This term was moved out from being a child of 'cellular process' because it is a cell population-level process, and cellular processes are restricted to those processes that involve individual cells. Also note that this term is intended to be used for the proliferation of cells within a multicellular organism, not for the expansion of a population of single-celled organisms.
@@ -1677,38 +1698,41 @@ subset: goslim_flybase_ribbon
 subset: goslim_generic
 subset: goslim_mouse
 subset: goslim_pir
+synonym: "cell proliferation" RELATED []
 is_a: GO:0008150 ! biological_process
 
 [Term]
 id: GO:0008284
-name: positive regulation of cell proliferation
+name: positive regulation of cell population proliferation
 namespace: biological_process
 def: "Any process that activates or increases the rate or extent of cell proliferation." [GOC:go_curators]
 synonym: "activation of cell proliferation" NARROW []
+synonym: "positive regulation of cell proliferation" RELATED []
 synonym: "stimulation of cell proliferation" NARROW []
 synonym: "up regulation of cell proliferation" EXACT []
 synonym: "up-regulation of cell proliferation" EXACT []
 synonym: "upregulation of cell proliferation" EXACT []
-is_a: GO:0042127 ! regulation of cell proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 is_a: GO:0048522 ! positive regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
-intersection_of: positively_regulates GO:0008283 ! cell proliferation
-relationship: positively_regulates GO:0008283 ! cell proliferation
+intersection_of: positively_regulates GO:0008283 ! cell population proliferation
+relationship: positively_regulates GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0008285
-name: negative regulation of cell proliferation
+name: negative regulation of cell population proliferation
 namespace: biological_process
 def: "Any process that stops, prevents or reduces the rate or extent of cell proliferation." [GOC:go_curators]
 synonym: "down regulation of cell proliferation" EXACT []
 synonym: "down-regulation of cell proliferation" EXACT []
 synonym: "downregulation of cell proliferation" EXACT []
 synonym: "inhibition of cell proliferation" NARROW []
-is_a: GO:0042127 ! regulation of cell proliferation
+synonym: "negative regulation of cell proliferation" RELATED []
+is_a: GO:0042127 ! regulation of cell population proliferation
 is_a: GO:0048523 ! negative regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
-intersection_of: negatively_regulates GO:0008283 ! cell proliferation
-relationship: negatively_regulates GO:0008283 ! cell proliferation
+intersection_of: negatively_regulates GO:0008283 ! cell population proliferation
+relationship: negatively_regulates GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0008301
@@ -3240,6 +3264,83 @@ subset: goslim_metagenomics
 subset: goslim_plant
 subset: goslim_yeast
 synonym: "phosphokinase activity" EXACT []
+xref: reactome:R-HSA-109822 "MAPK3,(MAPK1) phosphorylates GRB2-1:SOS1:p-Y427-SHC1"
+xref: reactome:R-HSA-109823 "MAPK3,(MAPK1) phosphorylates GRB2-1:SOS1:p-Y-IRS1,p-Y-IRS2"
+xref: reactome:R-HSA-111898 "Phosphorylation of cPLA2 by ERK-2"
+xref: reactome:R-HSA-112381 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex"
+xref: reactome:R-HSA-139908 "Phosphorylation of DLC2 by MAPK8"
+xref: reactome:R-HSA-139918 "Phosphorylation of BIM by JNK"
+xref: reactome:R-HSA-165692 "Phosphorylation of 4E-BP1 by activated mTORC1"
+xref: reactome:R-HSA-165718 "mTORC1 phosphorylation of RPS6KB1 (S6K)"
+xref: reactome:R-HSA-165726 "Phosphorylation of Ribosomal protein S6 by activated S6K1"
+xref: reactome:R-HSA-165758 "Phosphorylation and inactivation of eEF2K by activated S6K1"
+xref: reactome:R-HSA-165766 "Phosphorylation and activation of eIF4G by activated S6K1"
+xref: reactome:R-HSA-165777 "Phosphorylation and activation of eIF4B by activated S6K1"
+xref: reactome:R-HSA-167084 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex"
+xref: reactome:R-HSA-167098 "Phosphorylation (Ser5) of RNA pol II CTD"
+xref: reactome:R-HSA-167191 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by the P-TEFb(Cyclin T1:Cdk9) complex"
+xref: reactome:R-HSA-170055 "Myt-1 mediated phosphorylation of Cyclin B:Cdc2 complexes"
+xref: reactome:R-HSA-170070 "Wee1-mediated phosphorylation of Cyclin B1:phospho-Cdc2 complexes"
+xref: reactome:R-HSA-170076 "CAK-mediated phosphorylation of Cyclin B1:Cdc2 complexes"
+xref: reactome:R-HSA-170087 "CAK-mediated phosphorylation of Cyclin A:Cdc2 complexes"
+xref: reactome:R-HSA-170116 "Myt-1 mediated phosphorylation of Cyclin A:Cdc2"
+xref: reactome:R-HSA-170126 "Phosphorylation of Cyclin B1 in the CRS domain"
+xref: reactome:R-HSA-170156 "Wee1-mediated phosphorylation of Cyclin A:phospho-Cdc2 complexes"
+xref: reactome:R-HSA-170704 "Phosphorylation of DSIF by the P-TEFb(Cyclin T1:Cdk9) complex"
+xref: reactome:R-HSA-170706 "Phosphorylation of  NEFL by the P-TEFb(Cyclin T1:Cdk9) complex"
+xref: reactome:R-HSA-174164 "Phosphorylation of Cyclin A:Cdk2 at Tyr 15"
+xref: reactome:R-HSA-1839091 "Cytosolic FGFR1 fusion protein-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-1839107 "BCR-FGFR1-associated PI3K phosphorylates PIP2 to PIP3."
+xref: reactome:R-HSA-1839110 "p-BCR-p-FGFR1 phosphorylates GAB2"
+xref: reactome:R-HSA-187949 "CAK-mediated phosphorylation of Cyclin A:Cdk2"
+xref: reactome:R-HSA-188350 "CAK-mediated phosphorylation of Cyclin E:Cdk2"
+xref: reactome:R-HSA-191636 "Phosphorylation of Cx43 by c-src"
+xref: reactome:R-HSA-195275 "Phosphorylation of APC component of the destruction complex"
+xref: reactome:R-HSA-195283 "Phosphorylation of phospho- (Ser45, Thr41) beta-catenin  at Ser37 by GSK-3"
+xref: reactome:R-HSA-195287 "Phosphorylation of phospho-(Ser45 ) at Thr 41 by GSK-3"
+xref: reactome:R-HSA-195300 "Phosphorylation of phospho-(Ser45,Thr41,Ser37) at Ser33 by GSK-3"
+xref: reactome:R-HSA-195318 "Phosphorylation of beta-catenin at Ser45 by CK1 alpha"
+xref: reactome:R-HSA-201717 "CSNK2-mediated phosphorylation of DVL"
+xref: reactome:R-HSA-211583 "Partial autophosphorylation of PAK-2 at  Ser-19, Ser-20, Ser-55, Ser-192, and Ser-197"
+xref: reactome:R-HSA-211650 "Autophosphorylation of PAK-2p34 in the activation loop"
+xref: reactome:R-HSA-2214351 "PLK1 phosphorylates GORASP1"
+xref: reactome:R-HSA-2294580 "PLK1 hyperphosphorylates Condensin II complex"
+xref: reactome:R-HSA-2529020 "CK2 phosphorylates condensin I subunits"
+xref: reactome:R-HSA-389762 "Phosphorylation of PD-1"
+xref: reactome:R-HSA-392752 "Phosphorylation of L1 by CK-II"
+xref: reactome:R-HSA-442724 "Phosphorylation of CREB by ribosomal protein S6 kinase"
+xref: reactome:R-HSA-442726 "Raf activation"
+xref: reactome:R-HSA-442737 "Activation of MAPK"
+xref: reactome:R-HSA-442739 "Phosphorylation by PDK1"
+xref: reactome:R-HSA-444253 "Phosphorylation by MAPK/ERK"
+xref: reactome:R-HSA-445079 "Phosphorylation of L1 by ERK"
+xref: reactome:R-HSA-5654690 "FGFR1-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654692 "FGFR1- and PTPN11- associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654697 "FGFR2- and PTPN11- associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654701 "FGFR2-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654705 "FGFR3-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654709 "FGFR3- and PTPN11-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654714 "FGFR4- and PTPN11-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5654717 "FGFR4-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5655235 "Activated FGFR4 mutant-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5655289 "Activated FGFR3 mutant-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5655290 "Activated FGFR1 mutant-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5655323 "Activated FGFR2 mutant-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-5668545 "NIK autophosphorylates on T559"
+xref: reactome:R-HSA-6788855 "FN3KRP phosphorylates PsiAm, RibAm"
+xref: reactome:R-HSA-6788867 "FN3K phosphorylates ketosamines"
+xref: reactome:R-HSA-6814409 "CK2 phosphorylates PDCL"
+xref: reactome:R-HSA-68954 "Mcm2-7 is phosphorylated by DDK"
+xref: reactome:R-HSA-69195 "Phosphorylation of Cyclin E:CDK2 complexes by WEE1"
+xref: reactome:R-HSA-69604 "Phosphorylation of Cdc25A at Ser-123 by Chk1"
+xref: reactome:R-HSA-75028 "Phosphorylation of Wee1 kinase by Chk1"
+xref: reactome:R-HSA-75809 "Phosphorylation of Cdc25C at Ser216 by CHEK2"
+xref: reactome:R-HSA-77071 "Phosphorylation (Ser5) of RNA pol II CTD"
+xref: reactome:R-HSA-8853323 "Activated FGFR3 fusion-associated PI3K phosphorylates PIP2 to PIP3"
+xref: reactome:R-HSA-8942836 "CDK4/6:CCND complexes are activated by T-loop phosphorylation of CDK4/6"
+xref: reactome:R-HSA-8948039 "FUNDC1 is phosphorylated by CK2"
+xref: reactome:R-HSA-8948143 "p-S13, FUNDC1 is phosphorylated by CK2 at Tyr18"
+xref: reactome:R-HSA-8948146 "FUNDC1 is phosphorylated by ULK1 at Ser17"
 is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
 relationship: part_of GO:0016310 ! phosphorylation
 
@@ -3279,6 +3380,11 @@ subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
 xref: EC:2
+xref: reactome:R-HSA-1483089 "PE is converted to PS by PTDSS2"
+xref: reactome:R-HSA-1483186 "PC is converted to PS by PTDSS1"
+xref: reactome:R-HSA-5668414 "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
+xref: reactome:R-HSA-6787403 "GTPBP3 and MTO1 transform uridine-34 yielding 5-taurinomethyluridine-34 in tRNA"
+xref: reactome:R-HSA-8868783 "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
 is_a: GO:0003824 ! catalytic activity
 
 [Term]
@@ -3306,6 +3412,14 @@ subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
 xref: EC:3
+xref: reactome:R-HSA-1236938 "Partial proteolysis of antigen in phagolysosomes"
+xref: reactome:R-HSA-2029475 "Production of AA by iPLA2 upon FCGR activation"
+xref: reactome:R-HSA-5694583 "ABHD4 hydrolyses NAPE"
+xref: reactome:R-HSA-5695964 "ABHD14B hydrolyses PNPB"
+xref: reactome:R-HSA-6786190 "CMBL hydrolyses OM to OLMS"
+xref: reactome:R-HSA-6788295 "HDHD1:Mg2+ dephosphorylates PURIDP"
+xref: reactome:R-HSA-8938314 "ENPPs hydrolyse CoA-SH to PPANT, PAP"
+xref: reactome:R-HSA-8952137 "Phospholipid phosphatase 6 hydrolyses Presqualene diphosphate to presqualene monophosphate"
 is_a: GO:0003824 ! catalytic activity
 
 [Term]
@@ -3476,6 +3590,7 @@ synonym: "APG12 conjugating enzyme activity" NARROW []
 synonym: "APG12 ligase activity" NARROW []
 synonym: "Atg12 conjugating enzyme activity" NARROW []
 synonym: "Atg12 ligase activity" NARROW []
+xref: reactome:R-HSA-5681999 "ATG10 transfers ATG12 from ATG7 to ATG10"
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
 
 [Term]
@@ -3520,6 +3635,8 @@ synonym: "small conjugating protein transferase activity" EXACT [GOC:dph]
 synonym: "small protein conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like-protein ligase activity" NARROW []
+xref: reactome:R-HSA-5678490 "ATG16L1 complex transfers LC3 from ATG3 to PE"
+xref: reactome:R-HSA-688137 "RIP2 is K63 polyubiquitinated"
 is_a: GO:0016740 ! transferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 
@@ -5404,13 +5521,14 @@ relationship: part_of GO:0007281 ! germ cell development
 
 [Term]
 id: GO:0042127
-name: regulation of cell proliferation
+name: regulation of cell population proliferation
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of cell proliferation." [GOC:jl]
+synonym: "regulation of cell proliferation" RELATED []
 is_a: GO:0050794 ! regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
-intersection_of: regulates GO:0008283 ! cell proliferation
-relationship: regulates GO:0008283 ! cell proliferation
+intersection_of: regulates GO:0008283 ! cell population proliferation
+relationship: regulates GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0042221
@@ -7188,14 +7306,14 @@ id: GO:0048144
 name: fibroblast proliferation
 namespace: biological_process
 def: "The multiplication or reproduction of fibroblast cells, resulting in the expansion of the fibroblast population." [GOC:jid]
-is_a: GO:0008283 ! cell proliferation
+is_a: GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0048145
 name: regulation of fibroblast proliferation
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of multiplication or reproduction of fibroblast cells." [GOC:jid]
-is_a: GO:0042127 ! regulation of cell proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0048144 ! fibroblast proliferation
 relationship: regulates GO:0048144 ! fibroblast proliferation
@@ -7210,7 +7328,7 @@ synonym: "stimulation of fibroblast proliferation" NARROW []
 synonym: "up regulation of fibroblast proliferation" EXACT []
 synonym: "up-regulation of fibroblast proliferation" EXACT []
 synonym: "upregulation of fibroblast proliferation" EXACT []
-is_a: GO:0008284 ! positive regulation of cell proliferation
+is_a: GO:0008284 ! positive regulation of cell population proliferation
 is_a: GO:0048145 ! regulation of fibroblast proliferation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0048144 ! fibroblast proliferation
@@ -7225,7 +7343,7 @@ synonym: "down regulation of fibroblast proliferation" EXACT []
 synonym: "down-regulation of fibroblast proliferation" EXACT []
 synonym: "downregulation of fibroblast proliferation" EXACT []
 synonym: "inhibition of fibroblast proliferation" NARROW []
-is_a: GO:0008285 ! negative regulation of cell proliferation
+is_a: GO:0008285 ! negative regulation of cell population proliferation
 is_a: GO:0048145 ! regulation of fibroblast proliferation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0048144 ! fibroblast proliferation
@@ -7635,14 +7753,14 @@ id: GO:0050673
 name: epithelial cell proliferation
 namespace: biological_process
 def: "The multiplication or reproduction of epithelial cells, resulting in the expansion of a cell population. Epithelial cells make up the epithelium, the covering of internal and external surfaces of the body, including the lining of vessels and other small cavities. It consists of cells joined by small amounts of cementing substances." [ISBN:0721662544]
-is_a: GO:0008283 ! cell proliferation
+is_a: GO:0008283 ! cell population proliferation
 
 [Term]
 id: GO:0050678
 name: regulation of epithelial cell proliferation
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of epithelial cell proliferation." [GOC:ai]
-is_a: GO:0042127 ! regulation of cell proliferation
+is_a: GO:0042127 ! regulation of cell population proliferation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0050673 ! epithelial cell proliferation
 relationship: regulates GO:0050673 ! epithelial cell proliferation
@@ -7657,7 +7775,7 @@ synonym: "stimulation of epithelial cell proliferation" NARROW []
 synonym: "up regulation of epithelial cell proliferation" EXACT []
 synonym: "up-regulation of epithelial cell proliferation" EXACT []
 synonym: "upregulation of epithelial cell proliferation" EXACT []
-is_a: GO:0008284 ! positive regulation of cell proliferation
+is_a: GO:0008284 ! positive regulation of cell population proliferation
 is_a: GO:0050678 ! regulation of epithelial cell proliferation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0050673 ! epithelial cell proliferation
@@ -7672,7 +7790,7 @@ synonym: "down regulation of epithelial cell proliferation" EXACT []
 synonym: "down-regulation of epithelial cell proliferation" EXACT []
 synonym: "downregulation of epithelial cell proliferation" EXACT []
 synonym: "inhibition of epithelial cell proliferation" NARROW []
-is_a: GO:0008285 ! negative regulation of cell proliferation
+is_a: GO:0008285 ! negative regulation of cell population proliferation
 is_a: GO:0050678 ! regulation of epithelial cell proliferation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0050673 ! epithelial cell proliferation
@@ -9534,6 +9652,10 @@ id: GO:0070011
 name: peptidase activity, acting on L-amino acid peptides
 namespace: molecular_function
 def: "Catalysis of the hydrolysis of peptide bonds formed between L-amino acids." [GOC:mah]
+xref: reactome:R-HSA-3065958 "An unknown protease degrades ACACA"
+xref: reactome:R-HSA-3065959 "An unknown protease degrades hCBXs"
+xref: reactome:R-HSA-4167501 "An unknown protease degrades ACACB"
+xref: reactome:R-HSA-6803060 "DCD(63-110) is processed to DCD(63-109)"
 is_a: GO:0008233 ! peptidase activity
 
 [Term]
@@ -14074,12 +14196,14 @@ id: has_part
 name: has part
 namespace: external
 xref: BFO:0000051
+is_transitive: true
 
 [Typedef]
 id: negatively_regulates
 name: negatively regulates
 namespace: external
 xref: RO:0002212
+is_a: regulates ! regulates
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -14087,18 +14211,24 @@ id: occurs_in
 name: occurs in
 namespace: external
 xref: BFO:0000066
+holds_over_chain: part_of occurs_in
+transitive_over: part_of ! part of
 
 [Typedef]
 id: part_of
 name: part of
 namespace: external
 xref: BFO:0000050
+is_transitive: true
+inverse_of: has_part ! has part
 
 [Typedef]
 id: positively_regulates
 name: positively regulates
 namespace: external
 xref: RO:0002213
+holds_over_chain: negatively_regulates negatively_regulates
+is_a: regulates ! regulates
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -14106,5 +14236,6 @@ id: regulates
 name: regulates
 namespace: external
 xref: RO:0002211
+is_transitive: true
 transitive_over: part_of ! part of
 
