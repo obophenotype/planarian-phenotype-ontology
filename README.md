@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/obophenotype/planarian-phenotype-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/planarian-phenotype-ontology)
 <!-- [![DOI](https://zenodo.org/badge/13996/obophenotype/planarian-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/planarian-phenotype-ontology) -->
 
-# planarian-phenotype-ontology
+# Planarian Phenotype Ontology (PLANP)
 
-This ontology is a collection of phenotypes observed in the planarian *Schmidtea mediterranea*. The majority of these phenotypes are likely relevent to other speices of planarians.   
+This ontology is a collection of phenotypes observed in the planarian *Schmidtea mediterranea*. The majority of these phenotypes are likely relevant to other species of planarians.   
 
 ## Versions
 
@@ -12,8 +12,6 @@ This ontology is a collection of phenotypes observed in the planarian *Schmidtea
 The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/planp.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
