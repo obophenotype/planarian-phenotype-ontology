@@ -27,10 +27,10 @@ DOSDPT=dosdp-tools
 # Top-level targets
 # ----------------------------------------
 
-all: all_imports sparql_test patterns $(ONT).owl $(ONT).obo
+all: all_imports sparql_test patterns $(ONT).owl $(ONT).obo $(ONT).csv
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).csv $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\
 	cp imports/*.obo $(RELEASEDIR)/imports &&\
@@ -49,6 +49,8 @@ $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+$(ONT).csv: 
+	$(ROBOT) query -f csv -i ../patterns/definitions.owl --query ../sparql/planp_terms.sparql $@ 
 
 # ----------------------------------------
 # Import modules
