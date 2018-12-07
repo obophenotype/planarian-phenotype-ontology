@@ -3,7 +3,7 @@
 
 # planarian-phenotype-ontology
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology is a collection of phenotypes observed in the planarian *Schmidtea mediterranea*. The majority of these phenotypes are likely relevent to other speices of planarians.   
 
 ## Versions
 
