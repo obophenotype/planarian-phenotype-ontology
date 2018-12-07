@@ -12807,8 +12807,39 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_00000000">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">planp</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Planarian Phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -13311,7 +13342,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000062 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000062">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
     </rdf:Description>
     
 
@@ -14942,7 +14973,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000262 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000262">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
     </rdf:Description>
     
 
@@ -15291,7 +15322,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000305 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000305">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
     </rdf:Description>
     
 
@@ -16273,7 +16304,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000426 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000426">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
     </rdf:Description>
     
 
