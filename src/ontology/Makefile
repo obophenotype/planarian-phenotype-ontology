@@ -27,13 +27,15 @@ DOSDPT=dosdp-tools
 # Top-level targets
 # ----------------------------------------
 
-all: all_imports sparql_test patterns $(ONT).owl $(ONT).obo $(ONT).csv
+all: all_imports sparql_test patterns $(ONT).owl $(ONT).obo $(ONT).csv $(ONT)-base.owl $(ONT)-merged.owl
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).csv $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).csv $(ONT).owl $(ONT).obo $(ONT)-base.owl $(ONT)-merged.owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
+	mkdir -p $(RELEASEDIR)/patterns &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\
 	cp imports/*.obo $(RELEASEDIR)/imports &&\
+	cp ../patterns/definitions.owl $(RELEASEDIR)/patterns &&\
 	git add $(RELEASEDIR)/imports/*.obo &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*owl && cp subsets/* $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
@@ -47,10 +49,19 @@ prepare_release: all
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+
 $(ONT).csv: 
 	$(ROBOT) query -f csv -i ../patterns/definitions.owl --query ../sparql/planp_terms.sparql $@ 
+
+$(ONT)-base.owl: $(SRC) ../patterns/definitions.owl
+	$(ROBOT) remove --input $< --select imports --output $@ &&\
+	$(ROBOT) merge -i $@ -i ../patterns/definitions.owl annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-base.owl annotate --ontology-iri $(BASE)/$(ONT)-base.owl -o $@	
+
+$(ONT)-merged.owl: $(ONT).owl
+	$(ROBOT) merge -i $< annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-merged.owl annotate --ontology-iri $(BASE)/$(ONT)-merged.owl -o $@ 
 
 # ----------------------------------------
 # Import modules
