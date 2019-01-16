@@ -215,6 +215,11 @@ name: shape
 is_a: PATO:0000051 ! morphology
 
 [Term]
+id: PATO:0001199
+name: linear
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0001241
 name: physical object quality
 is_a: PATO:0000001 ! quality

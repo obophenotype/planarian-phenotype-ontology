@@ -259,11 +259,13 @@ synonym: "molecular function" EXACT []
 id: GO:0003676
 name: nucleic acid binding
 namespace: molecular_function
+alt_id: GO:0000496
 def: "Interacting selectively and non-covalently with any nucleic acid." [GOC:jl]
 subset: goslim_chembl
 subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_plant
+synonym: "base pairing" NARROW []
 is_a: GO:0097159 ! organic cyclic compound binding
 is_a: GO:1901363 ! heterocyclic compound binding
 
