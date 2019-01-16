@@ -1,0 +1,5 @@
+defined_class	defined_class__label	entity	entity_label	quantity	quantity_label
+PLANP:0000515	loss of all photoreceptors	PLANA:0000036	eye	PATO:0002000	lacks all parts of type
+PLANP:0000516	has fewer photoreceptors	PLANA:0000036	eye	PATO:0002001	has fewer parts of type
+PLANP:0000517	lacks photoreceptors or has fewer photoreceptors	PLANA:0000036	eye	PATO:0001999	lacks parts or has fewer parts of type
+PLANP:0000518	altered number of photoreceptors	PLANA:0000036	eye	PATO:0002083	altered number of
