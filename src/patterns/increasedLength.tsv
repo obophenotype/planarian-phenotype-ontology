@@ -1,2 +1,3 @@
-defined_class	defined_class_label	entity	entity_label	size	size_label
-PLANP:0000495	long head	PLANA:0000418	head	PATO:0000573	increased length
+defined_class	defined_class_label	entity	entity_label
+PLANP:0000522	long head	PLANA:0000421	tail
+PLANP:0000523	long tail	PLANA:0000421	tail	

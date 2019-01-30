@@ -1,10 +1,10 @@
-pattern_name: increasedWidth 
-pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth
+pattern_name: decreasedWidth 
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth
 
 classes:
   abnormal: PATO:0000460
   entity: BFO:0000001
-  descreased width: PATO:0000599
+  decreased width: PATO:0000599
 
 relations: 
   inheres_in: RO:0000052
@@ -18,7 +18,7 @@ vars:
   entity: "'entity'"
 
 name:
-  text: "decreased width of %s "
+  text: "decreased width of %s"
   vars:
    - entity
 
@@ -30,7 +30,7 @@ annotations:
      - entity
   - 
     annotationProperty: exact_synonym
-    text: "wider %s"
+    text: "skinny %s"
     vars:
      - entity     
 

@@ -18,7 +18,7 @@ vars:
   entity: "'entity'"
 
 name:
-  text: "descreased length of %s "
+  text: "descreased length of %s"
   vars:
    - entity
 

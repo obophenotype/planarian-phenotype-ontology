@@ -1,4 +1,0 @@
-defined_class	defined_class__label	entity	entity_label	position	position_label
-PLANP:0000512	Abnormal position of photoreceptor	PLANA:0000036	eye	PATO:0000140	position
-PLANP:0000510	Photoreceptors further apart than normal	PLANA:0000036	eye	PATO:0002131	abduction
-PLANP:0000511	Photoreceptors closer together than normal	PLANA:0000036	eye	PATO:0002133	adduction

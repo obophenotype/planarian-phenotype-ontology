@@ -1,5 +1,6 @@
 pattern_name: abnormalNumberOfAnatomyByType 
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml
+description: "this pattern is used to describe phenotypes in which there is an abnormal number of anatomical enities. Examples of quantity terms that areappropriate are 'altered number of','has fewer parts of type', 'has extra parts of type', 'lacks all parts of type'. For example, has extra parts of type head." 
 
 classes:
   quantity: PATO:0001555
@@ -19,7 +20,7 @@ vars:
   quantity: "'quantity'"
 
 name:
-  text: "abnormal %s quantity of %s "
+  text: "%s %s"
   vars:
    - quantity
    - entity
@@ -27,13 +28,13 @@ name:
 annotations:
   - 
     annotationProperty: exact_synonym
-    text: "abnormal %s quantity of %s"
+    text: "%s %s"
     vars:
      - quantity
      - entity
 
 def:
-  text: "Any structural anomaly that causes %s to be %s quantityd."
+  text: "Any structural anomaly that causes %s to be %s."
   vars:
     - entity
     - quantity

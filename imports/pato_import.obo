@@ -10,6 +10,46 @@ def: "A dependent entity that inheres in a bearer by virtue of how the bearer is
 synonym: "trait" EXACT []
 
 [Term]
+id: PATO:0000014
+name: color
+namespace: quality
+alt_id: PATO:0000020
+def: "A composite chromatic quality composed of hue, saturation and intensity parts." [PATOC:GVG]
+subset: attribute_slim
+synonym: "colour" EXACT []
+synonym: "relative color" EXACT []
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000033
+name: concentration of
+namespace: quality
+def: "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance." [Wikipedia:http\://en.wikipedia.org/wiki/concentration]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+synonym: "concentration" EXACT []
+is_a: PATO:0002182 ! molecular quality
+
+[Term]
+id: PATO:0000040
+name: distance
+namespace: quality
+def: "A quality that is the extent of space between two entities." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000047
+name: biological sex
+namespace: quality
+def: "An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved." [MGED:MGED]
+subset: attribute_slim
+is_a: PATO:0001995 ! organismal quality
+
+[Term]
 id: PATO:0000051
 name: morphology
 namespace: quality
@@ -44,6 +84,26 @@ subset: attribute_slim
 is_a: PATO:0000068 ! qualitative
 
 [Term]
+id: PATO:0000070
+name: amount
+namespace: quality
+alt_id: PATO:0000053
+alt_id: PATO:0000071
+alt_id: PATO:0001169
+alt_id: PATO:0001226
+def: "The number of entities of this type that are part of the whole organism." [PATOC:GVG]
+comment: This term was originally named "presence". It has been renamed to reduce ambiguity. Consider annotating with the reciprocal relation,PATO:0001555, has_number_of. For example, rather than E=fin ray Q=count in organism C=10, say E=organism Q=has number of E2= fin ray C=10.
+subset: attribute_slim
+synonym: "count" EXACT []
+synonym: "count in organism" RELATED []
+synonym: "number" RELATED []
+synonym: "presence" RELATED []
+synonym: "presence or absence in organism" EXACT []
+synonym: "quantitative" EXACT []
+is_a: PATO:0000068 ! qualitative
+relationship: reciprocal_of PATO:0001555 ! has number of
+
+[Term]
 id: PATO:0000117
 name: size
 namespace: quality
@@ -61,6 +121,16 @@ subset: attribute_slim
 subset: mpath_slim
 subset: scalar_slim
 is_a: PATO:0001708 ! 1-D extent
+
+[Term]
+id: PATO:0000125
+name: mass
+namespace: quality
+def: "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: PATO:0000133
@@ -89,6 +159,81 @@ synonym: "location" EXACT []
 synonym: "placement" EXACT []
 synonym: "relational spatial quality" EXACT []
 is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000141
+name: structure
+namespace: quality
+alt_id: PATO:0001452
+def: "A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form." [PATOC:GVG]
+subset: attribute_slim
+synonym: "conformation" BROAD [VT:1000738]
+synonym: "relational structural quality" EXACT []
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000161
+name: rate
+namespace: quality
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time." [PATOC:melissa]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0000169
+name: viability
+namespace: quality
+def: "An organismal quality inhering in a bearer or a population by virtue of the bearer's disposition to survive and develop normally or the number of surviving individuals in a given population." [PATOC:GVG]
+subset: attribute_slim
+subset: disposition_slim
+is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0000374
+name: increased distance
+namespace: quality
+def: "A distance which is greater relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "long distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000375 ! decreased distance
+
+[Term]
+id: PATO:0000375
+name: decreased distance
+namespace: quality
+def: "A distance which is lesser relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "short distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000374 ! increased distance
+
+[Term]
+id: PATO:0000383
+name: female
+namespace: quality
+def: "A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes." [MGED:MGED]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001894 ! phenotypic sex
+
+[Term]
+id: PATO:0000384
+name: male
+namespace: quality
+def: "A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes." [MGED:MGED]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001894 ! phenotypic sex
 
 [Term]
 id: PATO:0000405
@@ -138,6 +283,54 @@ subset: value_slim
 synonym: "average" RELATED []
 is_a: PATO:0000069 ! deviation(from_normal)
 relationship: is_opposite_of PATO:0000460 ! abnormal
+
+[Term]
+id: PATO:0000462
+name: absent
+namespace: quality
+alt_id: PATO:0001996
+def: "A quality denoting the lack of an entity." [thefreedictionary.:thefreedictionary.]
+comment: See documentation here: http://code.google.com/p/phenotype-ontologies/wiki/ModelingOfAbsence
+subset: absent_slim
+subset: mpath_slim
+subset: value_slim
+synonym: "absence" EXACT []
+synonym: "absent from organism" EXACT []
+is_a: PATO:0000070 ! amount
+disjoint_from: PATO:0000467 ! present
+relationship: is_opposite_of PATO:0000467 ! present
+relationship: reciprocal_of PATO:0001558 ! lacking processual parts
+relationship: reciprocal_of PATO:0002000 ! lacks all parts of type
+
+[Term]
+id: PATO:0000467
+name: present
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's existence." [PATOC:GVG]
+subset: absent_slim
+subset: value_slim
+synonym: "present in organism" RELATED []
+is_a: PATO:0000070 ! amount
+relationship: is_opposite_of PATO:0000462 ! absent
+
+[Term]
+id: PATO:0000470
+name: increased amount
+namespace: quality
+alt_id: PATO:0000420
+alt_id: PATO:0000650
+def: "An amount which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "accessory" RELATED []
+synonym: "increased" RELATED []
+synonym: "increased number" EXACT []
+synonym: "present in greater numbers in organism" EXACT []
+synonym: "supernumerary" EXACT []
+is_a: PATO:0000467 ! present
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0000070 ! amount
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001997 ! decreased amount
 
 [Term]
 id: PATO:0000573
@@ -231,6 +424,35 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000599 ! decreased width
 
 [Term]
+id: PATO:0000911
+name: decreased rate
+namespace: quality
+def: "A rate which is relatively low." [PATO:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "slow rate" EXACT []
+is_a: PATO:0000161 ! rate
+is_a: PATO:0002302 ! decreased process quality
+intersection_of: PATO:0000161 ! rate
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000912 ! increased rate
+
+[Term]
+id: PATO:0000912
+name: increased rate
+namespace: quality
+def: "A rate which is relatively high." [PATO:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "fast rate" EXACT []
+synonym: "high rate" EXACT []
+is_a: PATO:0000161 ! rate
+is_a: PATO:0002304 ! increased process quality
+intersection_of: PATO:0000161 ! rate
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000911 ! decreased rate
+
+[Term]
 id: PATO:0000921
 name: width
 namespace: quality
@@ -277,6 +499,43 @@ xref: Wikipedia:Physical_property
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0001159
+name: concentrated
+namespace: quality
+def: "A concentration quality inhering in a bearer by virtue of the bearer's exhibiting concentration." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: PATO:0001162
+name: increased concentration
+namespace: quality
+def: "A concentration which is higher relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "high concentration" EXACT []
+is_a: PATO:0001159 ! concentrated
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001159 ! concentrated
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001163 ! decreased concentration
+
+[Term]
+id: PATO:0001163
+name: decreased concentration
+namespace: quality
+def: "A concentration which is lower relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "low concentration" EXACT []
+is_a: PATO:0001159 ! concentrated
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001159 ! concentrated
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001162 ! increased concentration
+
+[Term]
 id: PATO:0001199
 name: linear
 namespace: quality
@@ -285,6 +544,20 @@ subset: cell_quality
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001236
+name: process quality
+namespace: quality
+alt_id: PATO:0001239
+alt_id: PATO:0001240
+def: "A quality which inheres in an process." [PATOC:GVG]
+comment: See comments of relational quality of a physical entity.
+synonym: "quality of a process" EXACT []
+synonym: "quality of occurrent" EXACT []
+synonym: "quality of process" EXACT []
+synonym: "relational quality of occurrent" EXACT []
+is_a: PATO:0000001 ! quality
 
 [Term]
 id: PATO:0001241
@@ -306,6 +579,91 @@ xref: snap:Quality
 is_a: PATO:0000001 ! quality
 
 [Term]
+id: PATO:0001291
+name: electromagnetic (EM) radiation quality
+namespace: quality
+def: "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_radiation]
+subset: attribute_slim
+is_a: PATO:0001739 ! radiation quality
+
+[Term]
+id: PATO:0001300
+name: optical quality
+namespace: quality
+def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0001340
+name: hermaphrodite
+namespace: quality
+def: "A biological sex quality inhering in an organism or a population with both male and female sexual organs in one individual." [MGED:MGED]
+subset: value_slim
+synonym: "intersex" EXACT []
+is_a: PATO:0001894 ! phenotypic sex
+
+[Term]
+id: PATO:0001374
+name: ploidy
+namespace: quality
+def: "A cellular quality inhering in a bearer by virtue of the bearer's number of homologous sets of chromosomes in the nucleus or primary chromosome-containing compartment of the cell, each set essentially coding for all the biological traits of the organism." [Wikipedia:http\://en.wikipedia.org/wiki/Ploidy]
+subset: attribute_slim
+is_a: PATO:0001396 ! cellular quality
+
+[Term]
+id: PATO:0001377
+name: polyploid
+namespace: quality
+def: "A ploidy quality inhering in a bearer by virtue of the bearer's containing more than two homologous sets of chromosomes." [Wikipedia:http\://en.wikipedia.org/wiki/Polyploid]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0001393 ! euploid
+
+[Term]
+id: PATO:0001381
+name: triploid
+namespace: quality
+def: "A polyploidy quality inhering in a bearer by virtue of the bearer's containing three homologous sets of chromosomes." [Wikipedia:http\://en.wikipedia.org/wiki/Triploid]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0001377 ! polyploid
+
+[Term]
+id: PATO:0001382
+name: tetraploid
+namespace: quality
+def: "A polyploidy quality inhering in a bearer by virtue of the bearer's containing four homologous sets of chromosomes." [Wikipedia:http\://en.wikipedia.org/wiki/Tetraploid]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0001377 ! polyploid
+
+[Term]
+id: PATO:0001384
+name: hexaploid
+namespace: quality
+def: "A polyploidy quality inhering in a bearer by virtue of the bearer's containing four homologous sets of chromosomes." [Wikipedia:http\://en.wikipedia.org/wiki/Hexaploid]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0001377 ! polyploid
+
+[Term]
+id: PATO:0001393
+name: euploid
+namespace: quality
+def: "A ploidy quality inhering in a bearer by virtue of the bearer's containing an integral multiple of the monoploid number, possibly excluding the sex-determining chromosomes." [Wikipedia:http\://en.wikipedia.org/wiki/Euploid]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0001374 ! ploidy
+
+[Term]
+id: PATO:0001396
+name: cellular quality
+namespace: quality
+def: "A monadic quality of continuant that exists at the cellular level of organisation." [PATOC:GVG]
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
 id: PATO:0001419
 name: sharp
 namespace: quality
@@ -313,6 +671,22 @@ def: "A shape quality inhering in a bearer by virtue of the bearer's terminating
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0000944 ! sharpness
+
+[Term]
+id: PATO:0001421
+name: alive
+namespace: quality
+def: "A viability quality inhering in a bearer by virtue of the bearer's condition before death." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000169 ! viability
+
+[Term]
+id: PATO:0001422
+name: dead
+namespace: quality
+def: "A viability quality inhering in a bearer by virtue of the cessation of the bearer's life." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000169 ! viability
 
 [Term]
 id: PATO:0001475
@@ -357,6 +731,63 @@ xref: OBO_REL:has_part
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0001558
+name: lacking processual parts
+namespace: quality
+def: "A quality of a process inhering in a bearer by virtue of the bearer's lacking a processual part as specified by the additional entity." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001564 ! extra or missing processual parts
+
+[Term]
+id: PATO:0001561
+name: having extra processual parts
+namespace: quality
+def: "A quality of a process inhering in a bearer by virtue of the bearer's having additional processual parts." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "having supernumerary processual parts" EXACT []
+is_a: PATO:0001564 ! extra or missing processual parts
+
+[Term]
+id: PATO:0001562
+name: decreased mass
+namespace: quality
+alt_id: PATO:0000579
+def: "A mass which is lower than normal or average." [PATO:GVG]
+subset: value_slim
+synonym: "low mass" EXACT []
+synonym: "small mass" EXACT []
+is_a: PATO:0000125 ! mass
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000125 ! mass
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001563 ! increased mass
+
+[Term]
+id: PATO:0001563
+name: increased mass
+namespace: quality
+alt_id: PATO:0000578
+def: "A mass which is higher than normal or average." [PATO:GVG]
+subset: value_slim
+synonym: "high mass" EXACT []
+synonym: "large mass" EXACT []
+is_a: PATO:0000125 ! mass
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000125 ! mass
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001562 ! decreased mass
+
+[Term]
+id: PATO:0001564
+name: extra or missing processual parts
+namespace: quality
+def: "A quality of a process inhering in a bearer by virtue of the bearer's processual parts." [PATOC:GVG]
+subset: relational_slim
+is_a: PATO:0001236 ! process quality
+
+[Term]
 id: PATO:0001708
 name: 1-D extent
 namespace: quality
@@ -364,6 +795,57 @@ def: "A size quality inhering in an bearer by virtue of the bearer's extension i
 subset: attribute_slim
 synonym: "1-D size" EXACT []
 is_a: PATO:0000117 ! size
+
+[Term]
+id: PATO:0001739
+name: radiation quality
+namespace: quality
+def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001869
+name: pathological
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's being abnormal and having a destructive effect on living tissue." [PATOC:cjm]
+subset: abnormal_slim
+subset: value_slim
+is_a: PATO:0000460 ! abnormal
+
+[Term]
+id: PATO:0001894
+name: phenotypic sex
+namespace: quality
+def: "An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics." []
+subset: attribute_slim
+is_a: PATO:0000047 ! biological sex
+
+[Term]
+id: PATO:0001995
+name: organismal quality
+namespace: quality
+def: "A quality that inheres in an entire organism or part of an organism." [PATOC:CJM]
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001997
+name: decreased amount
+namespace: quality
+alt_id: PATO:0000419
+alt_id: PATO:0000468
+def: "An amount which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "decreased" RELATED []
+synonym: "decreased number" EXACT []
+synonym: "present in fewer numbers in organism" EXACT []
+synonym: "reduced" RELATED []
+synonym: "subnumerary" RELATED []
+is_a: PATO:0000467 ! present
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0000070 ! amount
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000470 ! increased amount
 
 [Term]
 id: PATO:0001999
@@ -431,6 +913,15 @@ subset: attribute_slim
 synonym: "2-D projection" RELATED []
 synonym: "cross-sectional" RELATED []
 is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002062
+name: physical quality of a process
+namespace: quality
+subset: attribute_slim
+is_a: PATO:0001236 ! process quality
+created_by: george
+creation_date: 2009-06-05T09:16:46Z
 
 [Term]
 id: PATO:0002063
@@ -503,6 +994,87 @@ created_by: george
 creation_date: 2010-01-14T04:45:18Z
 
 [Term]
+id: PATO:0002182
+name: molecular quality
+namespace: quality
+alt_id: PATO:0002061
+def: "A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc." [PATOC:GVG]
+synonym: "relational molecular quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
+created_by: George Gkoutos
+creation_date: 2010-03-10T03:18:15Z
+
+[Term]
+id: PATO:0002247
+name: degree of pigmentation
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's having or lacking of substances produced by living organisms that have a color resulting from selective color absorption." [url:http\://en.wikipedia.org/wiki/Biological_pigment]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000141 ! structure
+relationship: correlates_with PATO:0000014 ! color
+created_by: george
+creation_date: 2010-08-09T04:14:00Z
+
+[Term]
+id: PATO:0002248
+name: pigmented
+namespace: quality
+def: "A degree of pigmentation quality inhering in a bearer by virtue of the bearer's having substances produced by living organisms that have a color resulting from selective color absorption." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002247 ! degree of pigmentation
+disjoint_from: PATO:0002249 ! unpigmented
+relationship: is_opposite_of PATO:0002249 ! unpigmented
+created_by: george
+creation_date: 2010-08-09T04:16:49Z
+
+[Term]
+id: PATO:0002249
+name: unpigmented
+namespace: quality
+def: "A degree of pigmentation quality inhering in a bearer by virtue of the bearer's lacking substances produced by living organisms that have a color resulting from selective color absorption." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "depigmented" EXACT []
+is_a: PATO:0002247 ! degree of pigmentation
+relationship: is_opposite_of PATO:0002248 ! pigmented
+created_by: george
+creation_date: 2010-08-09T04:17:04Z
+
+[Term]
+id: PATO:0002250
+name: increased pigmentation
+namespace: quality
+def: "A degree of pigmentation quality that is relatively high." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "hyperpigmented" EXACT []
+is_a: PATO:0002248 ! pigmented
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0002248 ! pigmented
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002251 ! decreased pigmentation
+created_by: george
+creation_date: 2010-08-09T04:17:19Z
+
+[Term]
+id: PATO:0002251
+name: decreased pigmentation
+namespace: quality
+def: "A degree of pigmentation quality that is relative low." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "hypopigmented" EXACT []
+is_a: PATO:0002248 ! pigmented
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0002248 ! pigmented
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002250 ! increased pigmentation
+created_by: george
+creation_date: 2010-08-09T04:17:37Z
+
+[Term]
 id: PATO:0002258
 name: pointed
 namespace: quality
@@ -539,6 +1111,19 @@ created_by: George Gkoutos
 creation_date: 2011-06-16T06:40:15Z
 
 [Term]
+id: PATO:0002302
+name: decreased process quality
+namespace: quality
+def: "A quality of a process that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! process quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002304 ! increased process quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:50:59Z
+
+[Term]
 id: PATO:0002303
 name: decreased object quality
 namespace: quality
@@ -550,6 +1135,19 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0002305 ! increased object quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:51:54Z
+
+[Term]
+id: PATO:0002304
+name: increased process quality
+namespace: quality
+def: "A quality of a process that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! process quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002302 ! decreased process quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:53:08Z
 
 [Term]
 id: PATO:0002305
@@ -573,6 +1171,11 @@ synonym: "Lamé curve" EXACT []
 is_a: PATO:0002006 ! 2-D shape
 created_by: George Gkoutos
 creation_date: 2011-10-12T12:45:16Z
+
+[Typedef]
+id: correlates_with
+name: correlates_with
+namespace: quality
 
 [Typedef]
 id: decreased_in_magnitude_relative_to
@@ -626,4 +1229,11 @@ name: part_of
 namespace: quality
 xref: BFO:0000050
 is_transitive: true
+
+[Typedef]
+id: reciprocal_of
+name: reciprocal_of
+namespace: quality
+def: "q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e." [PATOC:CJM]
+comment: There are frequently two ways to state the same thing: we can say 'spermatocyte lacks asters' or 'asters absent from spermatocyte'. In this case the quality is 'lacking all parts of type' - it is a (relational) quality of the spermatocyte, and it is with respect to instances of 'aster'. One of the popular requirements of PATO is that it continue to support 'absent', so we need to relate statements which use this quality to the 'lacking all parts of type' quality.
 

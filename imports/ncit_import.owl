@@ -26,14 +26,14 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</owl:annotatedTarget>
+        <owl:annotatedTarget>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
@@ -112,6 +112,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_P381 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P381"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
@@ -136,19 +142,35 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <obo:IAO_0000115>A property representing a reference to an identical or very similar object in another database.</obo:IAO_0000115>
         <obo:NCIT_P108>xRef</obo:NCIT_P108>
         <rdfs:label>xRef</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A property representing a reference to an identical or very similar object in another database.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+        <obo:NCIT_P381>http://www.geneontology.org/page/ontology-structure</obo:NCIT_P381>
+    </owl:Axiom>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <obo:IAO_0000115>Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
@@ -156,7 +178,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</owl:annotatedTarget>
+        <owl:annotatedTarget>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
@@ -179,14 +201,14 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <obo:IAO_0000115>Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.</owl:annotatedTarget>
+        <owl:annotatedTarget>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
@@ -202,8 +224,15 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses to display each concept.</obo:IAO_0000115>
         <rdfs:label>label</rdfs:label>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A property representing the word or phrase that NCI uses to display each concept.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
     
 
 
@@ -247,6 +276,18 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3367"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Clinical, laboratory or molecular evidence, or absence of evidence of disease.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3367"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A meaningful interpretation of data or observations resulting from planned evaluations. Compare to conclusion, hypothesis.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3367"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Finding</owl:annotatedTarget>
         <obo:NCIT_P383>DN</obo:NCIT_P383>
@@ -286,18 +327,6 @@
         <owl:annotatedTarget>finding</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3367"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Clinical, laboratory or molecular evidence, or absence of evidence of disease.</owl:annotatedTarget>
-        <obo:NCIT_P378>NCI</obo:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3367"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
-        <owl:annotatedTarget>A meaningful interpretation of data or observations resulting from planned evaluations. Compare to conclusion, hypothesis.</owl:annotatedTarget>
-        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
     </owl:Axiom>
     
 
@@ -420,8 +449,15 @@
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <obo:IAO_0000115>A property comprised of a free text field used to add remarks to a concept or property</obo:IAO_0000115>
         <rdfs:label>comment</rdfs:label>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A property comprised of a free text field used to add remarks to a concept or property</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
 </rdf:RDF>
 
 

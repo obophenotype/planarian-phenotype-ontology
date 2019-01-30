@@ -1,0 +1,10 @@
+defined_class	defined_class__label	entity	entity_label	shape	shape_label
+PLANP:0000504	star shaped lesion on the head	PLANA:0000418	head	PATO_0002065	star shaped
+PLANP:0000505	circular shaped lesion on the head	PLANA:0000418	head	PATO:0000411	circular
+PLANP:0000506	linear shaped lesion on the head	PLANA:0000418	head	PATO:0001199	linear
+PLANP:0000507	star shaped lesion on the tail	PLANA:0000421	tail	PATO_0002065	star shaped
+PLANP:0000508	circular shaped lesion on the tail	PLANA:0000421	tail	PATO:0000411	circular
+PLANP:0000509	linear shaped lesion on the tail	PLANA:0000421	tail	PATO:0001199	linear
+PLANP:0000507	star shaped lesion on the tail	PLANA:0000421	tail	PATO_0002065	star shaped
+PLANP:0000508	circular shaped lesion on the tail	PLANA:0000421	tail	PATO:0000411	circular
+PLANP:0000509	linear shaped lesion on the tail	PLANA:0000421	tail	PATO:0001199	linear

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ebi.ac.uk/efo/efo.owl#"
+     xml:base="http://www.ebi.ac.uk/efo/efo.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://www.ebi.ac.uk/efo/efo.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/ArrayExpress_label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/ArrayExpress_label"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/BFO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/BFO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_URI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MSH_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MSH_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/NIFSTD_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/NIFSTD_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/SNOMEDCT_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/SNOMEDCT_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/alternative_term -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/alternative_term"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/bioportal_provenance -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/bioportal_provenance"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/branch_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/branch_class"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/organizational_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/source_definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/source_definition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0301 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0301">
+        <rdfs:label xml:lang="en">hasAncestryStatus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestral group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestry group</oboInOwl:hasExactSynonym>
+        <rdfs:label>ancestry category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0290">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0301"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0305"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+        <obo:IAO_0000115>a population with increased genetic homogeneity and reduced genetic variation due to cultural or geographic isolation</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>founder population</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>population isolate</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">genetically isolated population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0304">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0305"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0306"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <obo:IAO_0000115>general characterisation of the ancestry of a population or individual</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ancestry status</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancestry status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <obo:IAO_0000115>Ancestry that is the result of cultural or geographic isolation. Generally characterised by increased genetic homogeneity and reduced genetic variation</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">genetically isolated ancestry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <obo:IAO_0000115>Ancestry which is an admixture of more than one defined ancestral population. The degree and type of admixture may vary within a population and the accuracy of classification requires well-defined reference samples</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">admixed ancestry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A population is a group of material entities consisting of individuals which share a particular characteristic such as inhabiting a particular region or area or ability to interbreed.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone modified from original OBI definition</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak modified from original OBI definition</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000664</efo:EFO_URI>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D011153</efo:MSH_definition_citation>
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD:sao2254405550</efo:NIFSTD_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:385436007</efo:SNOMEDCT_definition_citation>
+        <efo:branch_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:branch_class>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000001 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000001">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An experimental factor in Array Express which are essentially the variable aspects of an experiment design which can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This upper level class is really used to give a root class from which applications can rely on and not be tied to upper ontology classses which do change.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:MO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO:10</efo:MO_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExperimentalFactor</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExperimentalFactor[accessedResource: MO_10][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</oboInOwl:created_by>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</oboInOwl:created_by>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</oboInOwl:created_by>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept naming convention is lower case natural naming with spaces, when necessary captials should be used, for example disease factor, HIV, breast carcinoma, Ewing&apos;s sarcoma</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000562 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000562">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of marking a material in some way for experimental purposes. E.g. the labelling of  a nucleic acid with biotin in a microarray experiment</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:MO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO:471</efo:MO_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C54694</efo:NCI_Thesaurus_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labeling</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labeling[accessedResource: MO_471][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002694 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002694">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004542"/>
+        <obo:IAO_0000115>A process performed as part of an experiment or wider study, i.e. intentionally designed.</obo:IAO_0000115>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C42790</efo:NCI_Thesaurus_definition_citation>
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD:birnlex_2117</efo:NIFSTD_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experiment</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experiment[accessedResource: NIFSTD:birnlex_2117][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004542 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004542">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <obo:IAO_0000115>A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
+        <efo:definition_citation>OBI_0000011</efo:definition_citation>
+        <rdfs:label>planned process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#MaterialEntity -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heart, a human, a fly, a microarray.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity is an entity that exists in full during the length of time of its existence, persists through this time while maintaining its identity and has no temporal parts. For example a heart, a human, a fly, a microarray.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:ArrayExpress_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample factor</efo:ArrayExpress_label>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001434</efo:EFO_URI>
+        <efo:alternative_term>material type</efo:alternative_term>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant [snap:IndependentContinuant] that is spatially extended whose identity is independent of that of other entities and can be maintained through time. Note: Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.</efo:source_definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#Quality -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Quality">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality is an entity that describes some aspect which is intrinsic to that particular object and is dependent on or more material entities in which it inheres in or is borne by. Example the color of a tomato, the ambient temperature of air, the circumference of a waist, the shape of a nose, the mass of a piece of gold, the weight of a chimpanzee</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001436</efo:EFO_URI>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C25283</efo:NCI_Thesaurus_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:263496004</efo:SNOMEDCT_definition_citation>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specifically dependent continuant [snap:SpecificallyDependentContinuant] that is exhibited if it inheres in an entity or entities at all (a categorical property).</efo:source_definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An experimental factor which is a property or characteristic of some other entity.  For example, the mouse has the colour white.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Sirarat Sarntivijai</obo:IAO_0000117>
+        <efo:ArrayExpress_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample characteristic</efo:ArrayExpress_label>
+        <efo:BFO_definition_citation>BFO:0000020</efo:BFO_definition_citation>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001443</efo:EFO_URI>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpecificallyDependentContinuant</efo:alternative_term>
+        <efo:alternative_term>specifically dependent continuant</efo:alternative_term>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant [snap:Continuant] that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</efo:source_definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material property</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#ProcessualEntity -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process is an entity that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity during the time it occurs.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001433</efo:EFO_URI>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C29862</efo:NCI_Thesaurus_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:415178003</efo:SNOMEDCT_definition_citation>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.</efo:source_definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
+
