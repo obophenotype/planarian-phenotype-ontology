@@ -3,6 +3,7 @@ http://purl.obolibrary.org/obo/PLANP_0000487,abnormal morphology of ipsilateral 
 http://purl.obolibrary.org/obo/PLANP_0000010,abnormal fission plane
 http://purl.obolibrary.org/obo/PLANP_0000408,abnormal anatomical region
 http://purl.obolibrary.org/obo/PLANP_0000466,abnormal morphology of ventral surface 
+http://purl.obolibrary.org/obo/PLANP_0000530,altered number of tail
 http://purl.obolibrary.org/obo/PLANP_0000445,abnormal spermatocyte
 http://purl.obolibrary.org/obo/PLANP_0000424,abnormal deep region
 http://purl.obolibrary.org/obo/PLANP_0000339,abnormal microvillus
@@ -45,16 +46,19 @@ http://purl.obolibrary.org/obo/PLANP_0000170,abnormal nuclear part
 http://purl.obolibrary.org/obo/PLANP_0000085,abnormal outer pharynx nerve plexus
 http://purl.obolibrary.org/obo/PLANP_0000006,abnormal zygote
 http://purl.obolibrary.org/obo/PLANP_0000064,abnormal dispersed cleavage
+http://purl.obolibrary.org/obo/PLANP_0000526,altered number of head
 http://purl.obolibrary.org/obo/PLANP_0000043,abnormal organ
+http://purl.obolibrary.org/obo/PLANP_0000505,abnormal head with circular lesion
 http://purl.obolibrary.org/obo/PLANP_0000499,abnormal shape of head 
 http://purl.obolibrary.org/obo/PLANP_0000022,abnormal brain commissure
 http://purl.obolibrary.org/obo/PLANP_0000080,abnormal round spermatid
 http://purl.obolibrary.org/obo/PLANP_0000478,abnormal morphology of apical surface 
 http://purl.obolibrary.org/obo/PLANP_0000001,abnormal cytoplasmic vesicle part
 http://purl.obolibrary.org/obo/PLANP_0000457,abnormal anatomical compartment boundary
+http://purl.obolibrary.org/obo/PLANP_0000521,descreased length of tail
 http://purl.obolibrary.org/obo/PLANP_0000436,abnormal outer pharyngeal epithelium
 http://purl.obolibrary.org/obo/PLANP_0000500,abnormal shape of tail 
-http://purl.obolibrary.org/obo/PLANP_0000494,abnormal decreased width of head 
+http://purl.obolibrary.org/obo/PLANP_0000494,decreased width of head
 http://purl.obolibrary.org/obo/PLANP_0000415,abnormal transverse commissure
 http://purl.obolibrary.org/obo/PLANP_0000473,abnormal morphology of proximal surface 
 http://purl.obolibrary.org/obo/PLANP_0000388,abnormal membrane part
@@ -94,14 +98,18 @@ http://purl.obolibrary.org/obo/PLANP_0000018,abnormal gastrovascular compartment
 http://purl.obolibrary.org/obo/PLANP_0000161,abnormal gonad
 http://purl.obolibrary.org/obo/PLANP_0000076,abnormal embryonic gut cell
 http://purl.obolibrary.org/obo/PLANP_0000140,abnormal adhesion gland
+http://purl.obolibrary.org/obo/PLANP_0000538,increased pigmentation of definitive epidermis
 http://purl.obolibrary.org/obo/PLANP_0000055,abnormal anterior region
+http://purl.obolibrary.org/obo/PLANP_0000517,lacks parts or has fewer parts of type eye
 http://purl.obolibrary.org/obo/PLANP_0000034,abnormal transverse plane
 http://purl.obolibrary.org/obo/PLANP_0000092,abnormal dopaminergic neuron
 http://purl.obolibrary.org/obo/PLANP_0000013,abnormal postero-medial margin
 http://purl.obolibrary.org/obo/PLANP_0000071,abnormal basal epidermis surface
 http://purl.obolibrary.org/obo/PLANP_0000469,abnormal morphology of lumen gut surface 
+http://purl.obolibrary.org/obo/PLANP_0000533,lacks all parts of type tail
 http://purl.obolibrary.org/obo/PLANP_0000050,abnormal bipolar neuron
 http://purl.obolibrary.org/obo/PLANP_0000448,abnormal definitive pharynx progenitor
+http://purl.obolibrary.org/obo/PLANP_0000512,abnormal distance between eye and eye
 http://purl.obolibrary.org/obo/PLANP_0000427,abnormal definitive epidermis
 http://purl.obolibrary.org/obo/PLANP_0000485,abnormal morphology of contralateral surface 
 http://purl.obolibrary.org/obo/PLANP_0000406,abnormal flame bulb
@@ -142,15 +150,18 @@ http://purl.obolibrary.org/obo/PLANP_0000009,abnormal yolk cell
 http://purl.obolibrary.org/obo/PLANP_0000152,abnormal anterior pole progenitor cell
 http://purl.obolibrary.org/obo/PLANP_0000067,abnormal intracellular non-membrane-bounded organelle
 http://purl.obolibrary.org/obo/PLANP_0000131,abnormal membrane-bounded organelle
+http://purl.obolibrary.org/obo/PLANP_0000529,lacks all parts of type head
 http://purl.obolibrary.org/obo/PLANP_0000046,abnormal eye
 http://purl.obolibrary.org/obo/PLANP_0000110,abnormal cell-cell contact zone
+http://purl.obolibrary.org/obo/PLANP_0000508,abnormal tail with circular lesion
 http://purl.obolibrary.org/obo/PLANP_0000025,abnormal definitive tissue
 http://purl.obolibrary.org/obo/PLANP_0000083,abnormal mechanoreceptor cell
 http://purl.obolibrary.org/obo/PLANP_0000004,abnormal Category 4 cell
 http://purl.obolibrary.org/obo/PLANP_0000062,abnormal Schmidtea mediterranea developmental term
+http://purl.obolibrary.org/obo/PLANP_0000524,increased width of head
 http://purl.obolibrary.org/obo/PLANP_0000041,abnormal distal tubule epithelial cell
 http://purl.obolibrary.org/obo/PLANP_0000439,abnormal mouth
-http://purl.obolibrary.org/obo/PLANP_0000503,abnormal decreased width of tail 
+http://purl.obolibrary.org/obo/PLANP_0000503,decreased width of tai
 http://purl.obolibrary.org/obo/PLANP_0000497,abnormal morphology of head 
 http://purl.obolibrary.org/obo/PLANP_0000020,abnormal rough endoplasmic reticulum
 http://purl.obolibrary.org/obo/PLANP_0000418,abnormal central region
@@ -197,14 +208,18 @@ http://purl.obolibrary.org/obo/PLANP_0000101,abnormal medial margin
 http://purl.obolibrary.org/obo/PLANP_0000095,abnormal nuclear pore
 http://purl.obolibrary.org/obo/PLANP_0000016,abnormal outer longitudinal muscle fiber
 http://purl.obolibrary.org/obo/PLANP_0000074,abnormal acidophilic cytoplasm
+http://purl.obolibrary.org/obo/PLANP_0000536,decreased pigmentation of definitive epidermis
 http://purl.obolibrary.org/obo/PLANP_0000053,abnormal cintillo+ sensory neuron
+http://purl.obolibrary.org/obo/PLANP_0000515,lacks all parts of type eye
 http://purl.obolibrary.org/obo/PLANP_0000032,abnormal reproductive system product
 http://purl.obolibrary.org/obo/PLANP_0000090,abnormal embryonic digestive system
 http://purl.obolibrary.org/obo/PLANP_0000488,abnormal morphology of posterior surface 
 http://purl.obolibrary.org/obo/PLANP_0000011,abnormal central nervous system neuron
 http://purl.obolibrary.org/obo/PLANP_0000409,abnormal visceral musculature
 http://purl.obolibrary.org/obo/PLANP_0000467,abnormal morphology of primitive ectoderm surface 
+http://purl.obolibrary.org/obo/PLANP_0000531,has extra parts of type tail
 http://purl.obolibrary.org/obo/PLANP_0000446,abnormal organism subdivision
+http://purl.obolibrary.org/obo/PLANP_0000510,increased distance between eye and eye
 http://purl.obolibrary.org/obo/PLANP_0000425,abnormal ectolecithal embryo
 http://purl.obolibrary.org/obo/PLANP_0000483,abnormal morphology of dorsal surface 
 http://purl.obolibrary.org/obo/PLANP_0000404,abnormal gonopore
@@ -246,16 +261,19 @@ http://purl.obolibrary.org/obo/PLANP_0000086,abnormal cytoskeleton organization
 http://purl.obolibrary.org/obo/PLANP_0000007,abnormal postero-dorsal margin
 http://purl.obolibrary.org/obo/PLANP_0000150,abnormal ciliated epithelial cell
 http://purl.obolibrary.org/obo/PLANP_0000065,abnormal copulatory apparatus
+http://purl.obolibrary.org/obo/PLANP_0000527,has extra parts of type head
 http://purl.obolibrary.org/obo/PLANP_0000044,abnormal pigment cup cell
+http://purl.obolibrary.org/obo/PLANP_0000506,abnormal head with linear lesion
 http://purl.obolibrary.org/obo/PLANP_0000023,abnormal oviduct
 http://purl.obolibrary.org/obo/PLANP_0000081,abnormal anatomical junction
 http://purl.obolibrary.org/obo/PLANP_0000479,abnormal morphology of lateral surface 
 http://purl.obolibrary.org/obo/PLANP_0000002,abnormal mediolateral axis
 http://purl.obolibrary.org/obo/PLANP_0000060,abnormal head
 http://purl.obolibrary.org/obo/PLANP_0000458,abnormal sympathetic neuron
+http://purl.obolibrary.org/obo/PLANP_0000522,increased length of tail
+http://purl.obolibrary.org/obo/PLANP_0000523,increased length of tail
 http://purl.obolibrary.org/obo/PLANP_0000437,abnormal female germ cell
 http://purl.obolibrary.org/obo/PLANP_0000501,abnormal size of head
-http://purl.obolibrary.org/obo/PLANP_0000495,abnormal increased length of head 
 http://purl.obolibrary.org/obo/PLANP_0000416,abnormal sensory neuron
 http://purl.obolibrary.org/obo/PLANP_0000474,abnormal morphology of anterior surface 
 http://purl.obolibrary.org/obo/PLANP_0000389,abnormal main body axis
@@ -288,20 +306,25 @@ http://purl.obolibrary.org/obo/PLANP_0000146,abnormal cytoplasmic part
 http://purl.obolibrary.org/obo/PLANP_0000210,abnormal right side
 http://purl.obolibrary.org/obo/PLANP_0000125,abnormal optic chiasma
 http://purl.obolibrary.org/obo/PLANP_0000183,abnormal electrically responsive cell
-http://purl.obolibrary.org/obo/PLANP_0000104,abnormal oocyte
 http://purl.obolibrary.org/obo/PLANP_0000098,abnormal acellular anatomical structure
+http://purl.obolibrary.org/obo/PLANP_0000104,abnormal oocyte
 http://purl.obolibrary.org/obo/PLANP_0000019,abnormal Smed sexual biotype
 http://purl.obolibrary.org/obo/PLANP_0000162,abnormal antero-dorsal margin
 http://purl.obolibrary.org/obo/PLANP_0000077,abnormal dorsal/ventral compartment boundary
 http://purl.obolibrary.org/obo/PLANP_0000141,abnormal dorsal-most region
+http://purl.obolibrary.org/obo/PLANP_0000539,unpigmented epidermis
 http://purl.obolibrary.org/obo/PLANP_0000056,abnormal sigma neoblast
 http://purl.obolibrary.org/obo/PLANP_0000120,abnormal anatomical surface
+http://purl.obolibrary.org/obo/PLANP_0000518,altered number of eye
 http://purl.obolibrary.org/obo/PLANP_0000035,abnormal horizontal plane
 http://purl.obolibrary.org/obo/PLANP_0000093,abnormal aboral hemisphere
 http://purl.obolibrary.org/obo/PLANP_0000014,abnormal collecting duct
 http://purl.obolibrary.org/obo/PLANP_0000072,abnormal anatomical plane
+http://purl.obolibrary.org/obo/PLANP_0000534,abnormal degree of pigmentation of the eye
 http://purl.obolibrary.org/obo/PLANP_0000051,abnormal definitive pharynx
 http://purl.obolibrary.org/obo/PLANP_0000449,abnormal racing stripe
+http://purl.obolibrary.org/obo/PLANP_0000513,abnormal lesion structure of head 
+http://purl.obolibrary.org/obo/PLANP_0000514,abnormal lesion structure of head 
 http://purl.obolibrary.org/obo/PLANP_0000030,abnormal distal surface
 http://purl.obolibrary.org/obo/PLANP_0000428,abnormal dorsal compartment
 http://purl.obolibrary.org/obo/PLANP_0000486,abnormal morphology of temporary embryonic pharynx lumen epithelial surface 
@@ -334,8 +357,8 @@ http://purl.obolibrary.org/obo/PLANP_0000158,abnormal female primordial germ cel
 http://purl.obolibrary.org/obo/PLANP_0000222,abnormal definitive organism subdivision
 http://purl.obolibrary.org/obo/PLANP_0000137,abnormal basal side
 http://purl.obolibrary.org/obo/PLANP_0000280,abnormal testis
-http://purl.obolibrary.org/obo/PLANP_0000195,abnormal anterior surface
 http://purl.obolibrary.org/obo/PLANP_0000201,abnormal oviparity
+http://purl.obolibrary.org/obo/PLANP_0000195,abnormal anterior surface
 http://purl.obolibrary.org/obo/PLANP_0000116,abnormal embryonic structure
 http://purl.obolibrary.org/obo/PLANP_0000174,abnormal proximal surface
 http://purl.obolibrary.org/obo/PLANP_0000089,abnormal material anatomical entity
@@ -345,15 +368,19 @@ http://purl.obolibrary.org/obo/PLANP_0000132,abnormal spermatogonium
 http://purl.obolibrary.org/obo/PLANP_0000047,abnormal goblet cell
 http://purl.obolibrary.org/obo/PLANP_0000190,abnormal anatomical cavity
 http://purl.obolibrary.org/obo/PLANP_0000111,abnormal releasing gland cell
+http://purl.obolibrary.org/obo/PLANP_0000509,abnormal tail with linear lesion
 http://purl.obolibrary.org/obo/PLANP_0000026,abnormal ipsilateral region
 http://purl.obolibrary.org/obo/PLANP_0000084,abnormal Stage 6
 http://purl.obolibrary.org/obo/PLANP_0000005,abnormal medial-external axis
 http://purl.obolibrary.org/obo/PLANP_0000063,abnormal distal region
+http://purl.obolibrary.org/obo/PLANP_0000525,increased width of tail
 http://purl.obolibrary.org/obo/PLANP_0000042,abnormal proximal tubule
+http://purl.obolibrary.org/obo/PLANP_0000504,abnormal head with star shaped lesion
 http://purl.obolibrary.org/obo/PLANP_0000498,abnormal morphology of tail 
 http://purl.obolibrary.org/obo/PLANP_0000021,abnormal renal system
 http://purl.obolibrary.org/obo/PLANP_0000419,abnormal ventral region
 http://purl.obolibrary.org/obo/PLANP_0000456,abnormal nerve
+http://purl.obolibrary.org/obo/PLANP_0000520,unpigmented eye
 http://purl.obolibrary.org/obo/PLANP_0000435,abnormal primitive ectoderm
 http://purl.obolibrary.org/obo/PLANP_0000493,abnormal columnar shape of head 
 http://purl.obolibrary.org/obo/PLANP_0000414,abnormal apical/basal compartment boundary
@@ -395,14 +422,18 @@ http://purl.obolibrary.org/obo/PLANP_0000096,abnormal sensory cell
 http://purl.obolibrary.org/obo/PLANP_0000017,abnormal tail stripe
 http://purl.obolibrary.org/obo/PLANP_0000160,abnormal asexual adult
 http://purl.obolibrary.org/obo/PLANP_0000075,abnormal medial surface
+http://purl.obolibrary.org/obo/PLANP_0000537,increased pigmentation of eye
 http://purl.obolibrary.org/obo/PLANP_0000054,abnormal cavity of pharynx
+http://purl.obolibrary.org/obo/PLANP_0000516,has fewer parts of type eye
 http://purl.obolibrary.org/obo/PLANP_0000033,abnormal inner pharyngeal longitudinal muscle fiber
 http://purl.obolibrary.org/obo/PLANP_0000091,abnormal muscle cell
 http://purl.obolibrary.org/obo/PLANP_0000489,abnormal morphology of pharynx outer epithelial surface 
 http://purl.obolibrary.org/obo/PLANP_0000012,abnormal musculature of pharynx
 http://purl.obolibrary.org/obo/PLANP_0000070,abnormal autonomic neuron
 http://purl.obolibrary.org/obo/PLANP_0000468,abnormal morphology of distal surface 
+http://purl.obolibrary.org/obo/PLANP_0000532,has fewer parts of type tail
 http://purl.obolibrary.org/obo/PLANP_0000447,abnormal medial region
+http://purl.obolibrary.org/obo/PLANP_0000511,decreased distance between eye and eye
 http://purl.obolibrary.org/obo/PLANP_0000426,abnormal anatomical entity
 http://purl.obolibrary.org/obo/PLANP_0000484,abnormal morphology of pharynx lumen epithelial surface 
 http://purl.obolibrary.org/obo/PLANP_0000405,abnormal ipsilateral surface
@@ -444,7 +475,9 @@ http://purl.obolibrary.org/obo/PLANP_0000008,abnormal male primordial germ cell
 http://purl.obolibrary.org/obo/PLANP_0000151,abnormal sperm duct
 http://purl.obolibrary.org/obo/PLANP_0000066,abnormal posterior side
 http://purl.obolibrary.org/obo/PLANP_0000130,abnormal oral opening
+http://purl.obolibrary.org/obo/PLANP_0000528,has fewer parts of type head
 http://purl.obolibrary.org/obo/PLANP_0000045,abnormal glial cell
+http://purl.obolibrary.org/obo/PLANP_0000507,abnormal tail with star shaped lesion
 http://purl.obolibrary.org/obo/PLANP_0000024,abnormal antero-lateral region
 http://purl.obolibrary.org/obo/PLANP_0000082,abnormal basal lamina of epithelium
 http://purl.obolibrary.org/obo/PLANP_0000003,abnormal oviduct lumen
@@ -493,11 +526,13 @@ http://purl.obolibrary.org/obo/PLANP_0000078,abnormal rhabdite
 http://purl.obolibrary.org/obo/PLANP_0000142,abnormal radial plane
 http://purl.obolibrary.org/obo/PLANP_0000057,abnormal inner longitudinal muscle fiber
 http://purl.obolibrary.org/obo/PLANP_0000121,abnormal Stage 4
+http://purl.obolibrary.org/obo/PLANP_0000519,decreased pigmentation of eye
 http://purl.obolibrary.org/obo/PLANP_0000036,abnormal tail
-http://purl.obolibrary.org/obo/PLANP_0000100,abnormal cell part
 http://purl.obolibrary.org/obo/PLANP_0000094,abnormal cell-cell adhesion
+http://purl.obolibrary.org/obo/PLANP_0000100,abnormal cell part
 http://purl.obolibrary.org/obo/PLANP_0000015,abnormal nucleolus
 http://purl.obolibrary.org/obo/PLANP_0000073,abnormal posterior compartment
+http://purl.obolibrary.org/obo/PLANP_0000535,abnormal degree of pigmentation of the definitive epidermis
 http://purl.obolibrary.org/obo/PLANP_0000052,abnormal ventral epidermis
 http://purl.obolibrary.org/obo/PLANP_0000031,abnormal medial side
 http://purl.obolibrary.org/obo/PLANP_0000429,abnormal heterochromatin

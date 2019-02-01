@@ -1,0 +1,45 @@
+pattern_name: descreasedLength
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength
+
+classes:
+  abnormal: PATO:0000460
+  entity: BFO:0000001
+  descreased length: PATO:0000574
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "descreased length of %s"
+  vars:
+   - entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "descreased length of %s"
+    vars:
+     - entity
+  - 
+    annotationProperty: exact_synonym
+    text: "wider %s"
+    vars:
+     - entity     
+
+def:
+  text: "Increased length of %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('descreased length' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity

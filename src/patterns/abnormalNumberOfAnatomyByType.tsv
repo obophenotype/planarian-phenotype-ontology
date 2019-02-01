@@ -1,0 +1,13 @@
+defined_class	defined_class__label	entity	entity_label	quantity	quantity_label
+PLANP:0000515	loss of all eyes	PLANA:0000036	eye	PATO:0002000	lacks all parts of type
+PLANP:0000516	has fewer eyes	PLANA:0000036	eye	PATO:0002001	has fewer parts of type
+PLANP:0000517	lacks eyes or has fewer eyes	PLANA:0000036	eye	PATO:0001999	lacks parts or has fewer parts of type
+PLANP:0000518	altered number of eyes	PLANA:0000036	eye	PATO:0002083	altered number of
+PLANP:0000526	altered number of heads	PLANA:0000418	head	PATO:0002083	altered number of
+PLANP:0000527	has extra heads	PLANA:0000418	head	PATO:0002002	has extra parts of type
+PLANP:0000528	has fewer heads	PLANA:0000418	head	PATO:0002001	has fewer parts of type
+PLANP:0000529	loss of all heads	PLANA:0000418	head	PATO:0002000	lacks all parts of type
+PLANP:0000530	altered number of tails	PLANA:0000421	tail	PATO:0002083	altered number of
+PLANP:0000531	has extra tails	PLANA:0000421	tail	PATO:0002002	has extra parts of type
+PLANP:0000532	has fewer tails	PLANA:0000421	tail	PATO:0002001	has fewer parts of type
+PLANP:0000533	loss of all tails	PLANA:0000421	tail	PATO:0002000	lacks all parts of type

@@ -9,19 +9,48 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormal>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize>))
-Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/increasedLength>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/morphology>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/shape>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C3824>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000573>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000574>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000599>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000600>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001555>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002247>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002251>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002503>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
@@ -41,6 +70,24 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormal> "abnormal 'entity'"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> (abnormal distance between 'entity1' and 'entity2')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> "abnormal distance between 'entity1' and 'entity2'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> "abnormalDistanceBetweenAnatomicalEntities"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> "abnormal distance between 'entity1' and 'entity2'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> "distance abnormal distance between 'entity1' and 'entity2'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> "abnormal distance between 'entity1' and 'entity2'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalDistanceBetweenAnatomicalEntities.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> (abnormal degree of pigmentation of the 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> "abnormal degree of pigmentation of the 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> "abnormalPigmentation"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> "abnormal degree of pigmentation of the 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> "abnormal pigmentation of the 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> "abnormal degree of pigmentation of the 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
 # Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize> (abnormal size of 'entity')
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize> "A deviation from the normal size of the 'entity'."^^xsd:string)
@@ -49,14 +96,86 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize> "abnormal size of 'entity'"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalSize> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> (abnormal 'size' of 'entity' )
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> (decreased distance between 'entity1' and 'entity2')
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> "Any structural anomaly in the size of the 'entity' that is 'size'."^^xsd:string)
-AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> "abnormalSizeByType"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> "abnormal 'size' size of 'entity'"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> "abnormally 'size' sized 'entity'"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> "abnormal 'size' of 'entity' "^^xsd:string)
-EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalSizeByType> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000117>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> "Decreased distance between 'entity1' and 'entity2'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> "increasedDistanceBetweenAnatomicalEntities"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> "decreased distance between 'entity1' and 'entity2'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> "distance decreased distance between 'entity1' and 'entity2'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> "decreased distance between 'entity1' and 'entity2'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/decreasedDistanceBetweenAnatomicalEntities.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000375> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> (decreased pigmentation of 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> "decreased pigmentation of 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> "decreasedPigmentation"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> "decreased pigmentation of 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> "loss of pigment in the 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> "decreased pigmentation of 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> (decreased width of 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> "decreased width of 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> "decreasedWidth"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> "decreased width of 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> "skinny 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> "decreased width of 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidth> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000599> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> (descreased length of 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> "Increased length of 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> "descreasedLength"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> "descreased length of 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> "wider 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> "descreased length of 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/descreasedLength> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> (increased distance between 'entity1' and 'entity2')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> "Increased distance between 'entity1' and 'entity2'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> "increasedDistanceBetweenAnatomicalEntities"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> "distance increased distance between 'entity1' and 'entity2'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> "increased distance between 'entity1' and 'entity2'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> "increased distance between 'entity1' and 'entity2'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/increasedDistanceBetweenAnatomicalEntities.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000374> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> (increased length of 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> "Increased length of 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> "increasedLength"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> "increased length of 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> "wider 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> "increased length of 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/increasedLength> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> (increased pigmentation of 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> "increased pigmentation of 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> "increadedPigmentation"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> "darker pigment in the 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> "increased pigmentation of 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> "increased pigmentation of 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> (increased width of 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> "Increased width of 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> "increasedWidth"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> "increased width of 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> "wider 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> "increased width of 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/increasedWidth> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000600> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> (unpigmented 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> "loss of pigmenation of the 'entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> "lossOfPigmentation"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> "loss of pigment in the 'entity'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> "loss of pigmentation in the 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> "unpigmented 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.oboibrary.org/obo/upheno/patterns/morphology> (abnormal morphology of 'entity' )
 
@@ -76,6 +195,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/shape> "abnormal shape of 'entity' "^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/shape> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml> ('quantity' 'entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml> "Any structural anomaly that causes 'entity' to be 'quantity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml> "abnormalNumberOfAnatomyByType"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml> "'quantity' 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml> "'quantity' 'entity'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalNumberOfAnatomyByType.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
 # Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> (abnormal 'shape' shape of 'entity' )
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "Any structural anomaly that causes 'entity' to be 'shape' shaped."^^xsd:string)
@@ -83,6 +210,21 @@ AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormal 'shape' shape of 'entity'"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> "abnormal 'shape' shape of 'entity' "^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType> (abnormal 'structure' structure of 'entity' )
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType> "Any structural anomaly that causes 'entity' to be 'structure' shaped."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType> "abnormalStructureByType"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType> "abnormal 'structure' structure of 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType> "abnormal 'structure' structure of 'entity' "^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalStructureByType> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape> (abnormal 'entity' with 'shape' lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape> "An abnormal 'entity' with 'shape' lesion."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape> "lesionInLocationByShape"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape> "abnormal 'entity' with 'shape' lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000001>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )
