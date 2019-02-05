@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/planp.owl#"
      xml:base="http://purl.obolibrary.org/obo/planp.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bspo="http://purl.obolibrary.org/obo/bspo#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2019-01-30/planp.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2019-02-05/planp.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/go_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/patterns/definitions.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/go_import.owl"/>
         <rdfs:comment>Planarian Phenotype Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -17288,6 +17288,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000585 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000596"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000586 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000586">
@@ -17302,6 +17310,24 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000587">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000595 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000596 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
     </rdf:Description>
     
 
@@ -17324,6 +17350,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000639 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002037"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000911 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000911">
@@ -17338,6 +17372,14 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000912">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002304"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000918 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001710"/>
     </rdf:Description>
     
 
@@ -17604,6 +17646,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001710 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001739 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001739">
@@ -17683,6 +17733,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002037 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
     </rdf:Description>
     
 
@@ -17857,6 +17915,15 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0015001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0015001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000639"/>
     </rdf:Description>
     
 
@@ -25472,6 +25539,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000540 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000498"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000541 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002577 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002577">
@@ -25608,9 +25691,17 @@
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Nothing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

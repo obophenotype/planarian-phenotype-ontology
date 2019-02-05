@@ -361,6 +361,29 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000573 ! increased length
 
 [Term]
+id: PATO:0000584
+name: hypertrophic
+namespace: quality
+def: "An increased size quality inhering in a bearer by virtue of the bearer's exhibiting enlargement of a cell or constituent group of cells (for example, organ)." [PATOC:MAH]
+subset: mpath_slim
+subset: value_slim
+synonym: "hypertrophy" NARROW []
+is_a: PATO:0000595 ! increased volume
+relationship: is_opposite_of PATO:0000585 ! hypotrophic
+
+[Term]
+id: PATO:0000585
+name: hypotrophic
+namespace: quality
+alt_id: PATO:0000412
+def: "A decreased size quality inhering in a bearer by virtue of the bearer's exhibiting reduced size of a cell or constituent group of cells (for example, organ)." [PATOC:MAH]
+subset: mpath_slim
+subset: value_slim
+synonym: "shrunken" EXACT []
+is_a: PATO:0000596 ! decreased volume
+relationship: is_opposite_of PATO:0000584 ! hypertrophic
+
+[Term]
 id: PATO:0000586
 name: increased size
 namespace: quality
@@ -396,6 +419,36 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000586 ! increased size
 
 [Term]
+id: PATO:0000595
+name: increased volume
+namespace: quality
+def: "A volume which is relatively high." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "high volume" EXACT []
+synonym: "large volume" RELATED []
+is_a: PATO:0000586 ! increased size
+is_a: PATO:0000918 ! volume
+intersection_of: PATO:0000918 ! volume
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000596 ! decreased volume
+
+[Term]
+id: PATO:0000596
+name: decreased volume
+namespace: quality
+def: "A volume which is relatively low." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "low volume" EXACT []
+synonym: "small volume" RELATED []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0000918 ! volume
+intersection_of: PATO:0000918 ! volume
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000595 ! increased volume
+
+[Term]
 id: PATO:0000599
 name: decreased width
 namespace: quality
@@ -422,6 +475,19 @@ is_a: PATO:0000921 ! width
 intersection_of: PATO:0000921 ! width
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000599 ! decreased width
+
+[Term]
+id: PATO:0000639
+name: degenerate
+namespace: quality
+def: "A structural quality inhering in a bearer whose structure deteriorates or is lost over time due to an active pathological process." [PATOC:mb, PATOC:PortlandMeetingFeb2015]
+subset: mpath_slim
+subset: value_slim
+synonym: "degeneration" NARROW []
+is_a: PATO:0002037 ! degeneration
+disjoint_from: PATO:0002038 ! non-degenerate
+relationship: has_part PATO:0000585 ! hypotrophic
+relationship: is_opposite_of PATO:0002038 ! non-degenerate
 
 [Term]
 id: PATO:0000911
@@ -451,6 +517,16 @@ is_a: PATO:0002304 ! increased process quality
 intersection_of: PATO:0000161 ! rate
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000911 ! decreased rate
+
+[Term]
+id: PATO:0000918
+name: volume
+namespace: quality
+def: "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies." [PATOC:GVG]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001710 ! 3-D extent
 
 [Term]
 id: PATO:0000921
@@ -797,6 +873,15 @@ synonym: "1-D size" EXACT []
 is_a: PATO:0000117 ! size
 
 [Term]
+id: PATO:0001710
+name: 3-D extent
+namespace: quality
+def: "A size quality inhering in an bearer by virtue of the bearer's extension in three dimensions." [PATOC:GVG]
+subset: attribute_slim
+synonym: "3D size" EXACT []
+is_a: PATO:0000117 ! size
+
+[Term]
 id: PATO:0001739
 name: radiation quality
 namespace: quality
@@ -913,6 +998,29 @@ subset: attribute_slim
 synonym: "2-D projection" RELATED []
 synonym: "cross-sectional" RELATED []
 is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002037
+name: degeneration
+namespace: quality
+def: "A structural quality inhering in a bearer by virtue of the bearer exhibiting deterioration of its structure." [PATOC:GVG]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000141 ! structure
+created_by: george
+creation_date: 2009-02-03T11:13:19Z
+
+[Term]
+id: PATO:0002038
+name: non-degenerate
+namespace: quality
+def: "A structural quality inhering in a bearer whose structure which does not deteriorate." [PATOC:GVG]
+subset: value_slim
+synonym: "not degenerate" EXACT []
+is_a: PATO:0002037 ! degeneration
+relationship: is_opposite_of PATO:0000639 ! degenerate
+created_by: george
+creation_date: 2009-02-03T11:14:54Z
 
 [Term]
 id: PATO:0002062
@@ -1171,6 +1279,19 @@ synonym: "Lamé curve" EXACT []
 is_a: PATO:0002006 ! 2-D shape
 created_by: George Gkoutos
 creation_date: 2011-10-12T12:45:16Z
+
+[Term]
+id: PATO:0015001
+name: absence due to degeneration
+namespace: quality
+def: "Absence due to a degenerative process." [PATOC:PortlandMeetingFeb2015]
+subset: absent_slim
+subset: value_slim
+is_a: PATO:0000462 ! absent
+is_a: PATO:0000639 ! degenerate
+intersection_of: PATO:0000462 ! absent
+intersection_of: PATO:0000639 ! degenerate
+created_by: cjm
 
 [Typedef]
 id: correlates_with

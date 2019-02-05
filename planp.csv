@@ -30,8 +30,8 @@ http://purl.obolibrary.org/obo/PLANP_0000159,abnormal photoreceptor neuron
 http://purl.obolibrary.org/obo/PLANP_0000223,abnormal direct development
 http://purl.obolibrary.org/obo/PLANP_0000138,abnormal extraembryonic structure
 http://purl.obolibrary.org/obo/PLANP_0000281,abnormal Category 5 cell
-http://purl.obolibrary.org/obo/PLANP_0000202,abnormal anatomical system
 http://purl.obolibrary.org/obo/PLANP_0000196,abnormal electrically signaling cell
+http://purl.obolibrary.org/obo/PLANP_0000202,abnormal anatomical system
 http://purl.obolibrary.org/obo/PLANP_0000117,abnormal epidermal progenitor
 http://purl.obolibrary.org/obo/PLANP_0000260,abnormal definitive anatomical structure
 http://purl.obolibrary.org/obo/PLANP_0000175,abnormal definitive gut
@@ -166,6 +166,7 @@ http://purl.obolibrary.org/obo/PLANP_0000497,abnormal morphology of head
 http://purl.obolibrary.org/obo/PLANP_0000020,abnormal rough endoplasmic reticulum
 http://purl.obolibrary.org/obo/PLANP_0000418,abnormal central region
 http://purl.obolibrary.org/obo/PLANP_0000476,abnormal morphology of basal surface 
+http://purl.obolibrary.org/obo/PLANP_0000540,tail degeneration
 http://purl.obolibrary.org/obo/PLANP_0000455,abnormal diagonal muscle fiber
 http://purl.obolibrary.org/obo/PLANP_0000434,abnormal sperm duct epithelial cell
 http://purl.obolibrary.org/obo/PLANP_0000349,abnormal sperm
@@ -306,8 +307,8 @@ http://purl.obolibrary.org/obo/PLANP_0000146,abnormal cytoplasmic part
 http://purl.obolibrary.org/obo/PLANP_0000210,abnormal right side
 http://purl.obolibrary.org/obo/PLANP_0000125,abnormal optic chiasma
 http://purl.obolibrary.org/obo/PLANP_0000183,abnormal electrically responsive cell
-http://purl.obolibrary.org/obo/PLANP_0000098,abnormal acellular anatomical structure
 http://purl.obolibrary.org/obo/PLANP_0000104,abnormal oocyte
+http://purl.obolibrary.org/obo/PLANP_0000098,abnormal acellular anatomical structure
 http://purl.obolibrary.org/obo/PLANP_0000019,abnormal Smed sexual biotype
 http://purl.obolibrary.org/obo/PLANP_0000162,abnormal antero-dorsal margin
 http://purl.obolibrary.org/obo/PLANP_0000077,abnormal dorsal/ventral compartment boundary
@@ -379,6 +380,7 @@ http://purl.obolibrary.org/obo/PLANP_0000504,abnormal head with star shaped lesi
 http://purl.obolibrary.org/obo/PLANP_0000498,abnormal morphology of tail 
 http://purl.obolibrary.org/obo/PLANP_0000021,abnormal renal system
 http://purl.obolibrary.org/obo/PLANP_0000419,abnormal ventral region
+http://purl.obolibrary.org/obo/PLANP_0000541,head degeneration
 http://purl.obolibrary.org/obo/PLANP_0000456,abnormal nerve
 http://purl.obolibrary.org/obo/PLANP_0000520,unpigmented eye
 http://purl.obolibrary.org/obo/PLANP_0000435,abnormal primitive ectoderm
@@ -519,8 +521,8 @@ http://purl.obolibrary.org/obo/PLANP_0000290,abnormal anterior commissure
 http://purl.obolibrary.org/obo/PLANP_0000211,abnormal non ciliated epithelial cell
 http://purl.obolibrary.org/obo/PLANP_0000126,abnormal primitive ectoderm cell
 http://purl.obolibrary.org/obo/PLANP_0000184,abnormal parasagittal plane
-http://purl.obolibrary.org/obo/PLANP_0000105,abnormal sperm duct epithelium
 http://purl.obolibrary.org/obo/PLANP_0000099,abnormal gamma neoblast
+http://purl.obolibrary.org/obo/PLANP_0000105,abnormal sperm duct epithelium
 http://purl.obolibrary.org/obo/PLANP_0000163,abnormal apical-basal gradient
 http://purl.obolibrary.org/obo/PLANP_0000078,abnormal rhabdite
 http://purl.obolibrary.org/obo/PLANP_0000142,abnormal radial plane
@@ -528,8 +530,8 @@ http://purl.obolibrary.org/obo/PLANP_0000057,abnormal inner longitudinal muscle 
 http://purl.obolibrary.org/obo/PLANP_0000121,abnormal Stage 4
 http://purl.obolibrary.org/obo/PLANP_0000519,decreased pigmentation of eye
 http://purl.obolibrary.org/obo/PLANP_0000036,abnormal tail
-http://purl.obolibrary.org/obo/PLANP_0000094,abnormal cell-cell adhesion
 http://purl.obolibrary.org/obo/PLANP_0000100,abnormal cell part
+http://purl.obolibrary.org/obo/PLANP_0000094,abnormal cell-cell adhesion
 http://purl.obolibrary.org/obo/PLANP_0000015,abnormal nucleolus
 http://purl.obolibrary.org/obo/PLANP_0000073,abnormal posterior compartment
 http://purl.obolibrary.org/obo/PLANP_0000535,abnormal degree of pigmentation of the definitive epidermis
