@@ -24,7 +24,7 @@ name:
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "loss %s due degeneration"
+    text: "loss of %s due to degeneration"
 
     vars:
      - entity
