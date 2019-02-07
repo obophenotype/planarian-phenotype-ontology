@@ -4,8 +4,8 @@ description: "this patterns describes phenotypes where the distance between two 
  
 classes:
   abnormal: PATO:0000460
-  entity1: BFO:0000001
-  entity2: BFO:0000001
+  entity1: UBERON:0001062
+  entity2: UBERON:0001062
   decreased distance: PATO:0000375
 
 relations: 

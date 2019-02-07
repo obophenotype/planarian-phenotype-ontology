@@ -1,9 +1,10 @@
 pattern_name: lossOfPigmentation
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/lossOfPigmentation
+description: "this pattern describes phenotypes that result in a complete loss of pigmentation in an antomical entity. i.e., unpigmented eye"
 
 classes:
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062
   unpigmented: PATO:0002249
 
 relations: 
@@ -25,17 +26,17 @@ name:
 annotations:
   - 
     annotationProperty: exact_synonym
-    text: "loss of pigmentation in the %s"
+    text: "complete loss of pigmentation in the %s"
     vars:
      - entity
   - 
     annotationProperty: exact_synonym
-    text: "loss of pigment in the %s"
+    text: "absence of pigment in the %s"
     vars:
      - entity     
 
 def:
-  text: "loss of pigmenation of the %s."
+  text: "complete loss of pigmenation of the %s."
   vars:
     - entity
 

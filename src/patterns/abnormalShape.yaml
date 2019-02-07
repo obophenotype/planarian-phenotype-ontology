@@ -1,10 +1,11 @@
 pattern_name: shape 
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/shape
+description: "abnormal shape of an anatomical entity"
 
 classes:
   shape: PATO:0000052
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062 
 
 relations: 
   inheres_in: RO:0000052
@@ -23,11 +24,6 @@ name:
    - entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
-    text: "abnormal shape of %s"
-    vars:
-     - entity
   - 
     annotationProperty: exact_synonym
     text: "abnormally shaped %s"
