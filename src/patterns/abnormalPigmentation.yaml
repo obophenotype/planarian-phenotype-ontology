@@ -1,9 +1,9 @@
 pattern_name: abnormalPigmentation
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalPigmentation
-
+description: "any change in the amount of pigmentation in an anatomical Entity. i.e. Abnormal pigmentation of the epidermis"
 classes:
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062 
   degree of pigmentation: PATO:0002247
 
 relations: 
@@ -23,11 +23,6 @@ name:
    - entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
-    text: "abnormal degree of pigmentation of the %s"
-    vars:
-     - entity
   - 
     annotationProperty: exact_synonym
     text: "abnormal pigmentation of the %s"

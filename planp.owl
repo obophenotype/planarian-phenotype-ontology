@@ -17,7 +17,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2019-01-30/planp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2019-02-06/planp.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/planp/imports/plana_import.owl"/>
@@ -25331,7 +25331,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANP_0000522 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PLANP_0000522">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
     </rdf:Description>
     
 
@@ -25607,6 +25607,14 @@
 
     <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Nothing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
     </rdf:Description>
 </rdf:RDF>
 

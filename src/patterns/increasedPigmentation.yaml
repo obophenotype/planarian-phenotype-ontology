@@ -1,9 +1,10 @@
 pattern_name: increadedPigmentation
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/increasedPigmentation
+description: "this pattern describes phenotypes that result in increased pigmentation (darker) of an anatomical entity. i.e, increased pigmentation of the epithelium"
 
 classes:
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062
   increased pigmentation: PATO:0002250
 
 relations: 
@@ -23,11 +24,6 @@ name:
    - entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
-    text: "increased pigmentation of %s"
-    vars:
-     - entity
   - 
     annotationProperty: exact_synonym
     text: "darker pigment in the %s"

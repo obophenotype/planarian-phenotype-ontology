@@ -1,9 +1,10 @@
 pattern_name: decreasedPigmentation
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/decreasedPigmentation
+description: "this pattern describes phenotypes that result in decreased pigmenetation of an antomical entity. i.e., decreased or loss of pigmentention of the eye"
 
 classes:
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062 
   decreased pigmentation: PATO:0002251
 
 relations: 
@@ -18,16 +19,11 @@ vars:
   entity: "'entity'"
 
 name:
-  text: "decreased pigmentation of %s"
+  text: "decreased pigmentation of in the %s"
   vars:
    - entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
-    text: "decreased pigmentation of %s"
-    vars:
-     - entity
   - 
     annotationProperty: exact_synonym
     text: "loss of pigment in the %s"
@@ -35,7 +31,7 @@ annotations:
      - entity     
 
 def:
-  text: "decreased pigmentation of %s."
+  text: "decreased or loss of pigmentation of %s."
   vars:
     - entity
 
