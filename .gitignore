@@ -1,4 +1,7 @@
 *.tmp
+src/ontology/planp-base.owl
+*.tmp.obo
+*.tmp.owl
 *~
 src/ontology/mirror
 src/ontology/mirror/*
@@ -11,3 +14,5 @@ src/ontology/target/
 src/ontology/ed_definitions_merged.owl
 src/ontology/dosdp-tools.log
 src/ontology/planp.csv
+src/ontology/patterns
+*.DS_Store

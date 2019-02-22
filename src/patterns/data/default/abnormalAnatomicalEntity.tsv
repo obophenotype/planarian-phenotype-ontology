@@ -1,4 +1,4 @@
-defined_class	defined_class_label	entity	entity_label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 PLANP:0000001	default	PLANA:0000514	cytoplasmic vesicle part
 PLANP:0000002	default	PLANA:0007522	mediolateral axis
 PLANP:0000003	default	PLANA:0004530	oviduct lumen

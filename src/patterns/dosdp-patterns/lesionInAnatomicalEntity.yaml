@@ -4,7 +4,7 @@ description : "an antomical strucuture with one or more lesions. i.e., one or mo
 
 classes:
   abnormal: PATO:0000460
-  entity: UBERON:0001062
+  anatomical entity: UBERON:0001062
   lesion: NCIT:C3824
 
 relations:
@@ -17,26 +17,26 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  entity: "'entity'"
+  anatomical_entity: "'anatomical entity'"
 
  
 name:
   text: "lesion in %s"
   vars:
-   - entity
+   - anatomical_entity
 
 def:
   text: "An abnormal %s with one or more lesions."
   vars:
-    - entity
+    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
     text: "%s with lesion(s)"
     vars:
-     - entity
+     - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('lesion' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - entity
+    - anatomical_entity
