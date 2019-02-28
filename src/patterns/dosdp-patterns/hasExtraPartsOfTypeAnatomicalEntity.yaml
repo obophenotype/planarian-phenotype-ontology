@@ -1,5 +1,5 @@
-pattern_name: extraPartsOfTypeAnatomicalEntity 
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/extraPartsOfTypeAnatomicalEntity.yaml
+pattern_name: hasExtraPartsOfTypeAnatomicalEntity 
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/hasExtraPartsOfTypeAnatomicalEntity.yaml
 description: "extra parts of an anatomical entity. For example, has extra parts of type eye." 
 
 classes:
@@ -37,6 +37,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('extra parts of type' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('has extra parts of type' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - anatomical_entity

@@ -1,6 +1,6 @@
 pattern_name: alteredNumberOfAnatomicalEntity 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/alteredNumberOfAnatomicalEntity.yaml
-description: "abnormal number of anatomical enities. For example, has abnormal number of heads." 
+description: "abnormal or altered number of anatomical enities. For example, has abnormal number of heads." 
 
 classes:
   altered number of: PATO:000208
@@ -24,6 +24,11 @@ name:
    - anatomical_entity
 
 annotations:
+  -
+    annotationProperty: exact_synonym
+    text: "altered number of %ss"
+    vars:
+     - anatomical_entity
   - 
     annotationProperty: exact_synonym
     text: "abnormal number of %ss"
@@ -36,6 +41,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('abnormal number of' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('altered number of' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - anatomical_entity

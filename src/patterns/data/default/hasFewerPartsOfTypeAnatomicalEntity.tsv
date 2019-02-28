@@ -1,0 +1,4 @@
+defined_class	defined_class__label	anatomical_entity	anatomical_entity_label
+PLANP:0000516	has fewer eyes	PLANA:0000036	eye	
+PLANP:0000528	has fewer heads	PLANA:0000418	head
+PLANP:0000532	has fewer tails	PLANA:0000421	tail
