@@ -1,0 +1,80 @@
+Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C3824>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000411>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001199>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000418>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000421>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000504>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000505>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000506>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000508>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000509>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000504> (abnormal head with star shaped lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000504> "An abnormal head with a lesion that is star shaped."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000504> "star shaped lesion of the head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000504> "abnormal head with star shaped lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000504> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000418>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000505> (abnormal head with circular lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000505> "An abnormal head with a lesion that is circular."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000505> "circular lesion of the head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000505> "abnormal head with circular lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000418>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000506> (abnormal head with linear lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000506> "An abnormal head with a lesion that is linear."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000506> "linear lesion of the head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000506> "abnormal head with linear lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000506> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001199> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000418>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000507> (abnormal tail with star shaped lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000507> "An abnormal tail with a lesion that is star shaped."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000507> "star shaped lesion of the tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000507> "abnormal tail with star shaped lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000421>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000508> (abnormal tail with circular lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000508> "An abnormal tail with a lesion that is circular."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000508> "circular lesion of the tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000508> "abnormal tail with circular lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000508> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000421>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000509> (abnormal tail with linear lesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000509> "An abnormal tail with a lesion that is linear."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000509> "linear lesion of the tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000509> "abnormal tail with linear lesion"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001199> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000421>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+
+)

@@ -1,0 +1,9 @@
+http://purl.obolibrary.org/obo/NCIT_C3824
+http://purl.obolibrary.org/obo/PLANA_0000418
+http://purl.obolibrary.org/obo/PLANP_0000514
+http://purl.obolibrary.org/obo/RO_0002573
+http://purl.obolibrary.org/obo/PLANP_0000513
+http://purl.obolibrary.org/obo/PATO_0000460
+http://purl.obolibrary.org/obo/RO_0000052
+http://purl.obolibrary.org/obo/PLANA_0000421
+http://purl.obolibrary.org/obo/BFO_0000051

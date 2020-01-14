@@ -1,0 +1,46 @@
+Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000520>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000539>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000520> (unpigmented eye)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000520> "complete loss of pigmenation of the eye."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000520> "absence of pigment in the eye"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000520> "complete loss of pigmentation in the eye"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000520> "unpigmented eye"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000520> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000036>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000539> (unpigmented epidermis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000539> "complete loss of pigmenation of the epidermis."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000539> "absence of pigment in the epidermis"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000539> "complete loss of pigmentation in the epidermis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000539> "unpigmented epidermis"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000034>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+
+)

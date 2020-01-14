@@ -1,0 +1,53 @@
+Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000384>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000418>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000421>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000490>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000499>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000500>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000490> (abnormal shape of ventral surface )
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000490> "Any structural anomaly in the shape of the ventral surface."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000490> "abnormally shaped ventral surface"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000490> "abnormal shape of ventral surface "^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000490> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000384>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000499> (abnormal shape of head )
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000499> "Any structural anomaly in the shape of the head."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000499> "abnormally shaped head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000499> "abnormal shape of head "^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000499> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000500> (abnormal shape of tail )
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000500> "Any structural anomaly in the shape of the tail."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000500> "abnormally shaped tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000500> "abnormal shape of tail "^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+
+)

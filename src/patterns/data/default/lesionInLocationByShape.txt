@@ -1,0 +1,17 @@
+http://purl.obolibrary.org/obo/NCIT_C3824
+http://purl.obolibrary.org/obo/PATO_0000411
+http://purl.obolibrary.org/obo/PLANA_0000418
+http://purl.obolibrary.org/obo/PLANP_0000504
+http://purl.obolibrary.org/obo/BFO_0000050
+http://purl.obolibrary.org/obo/PLANP_0000508
+http://purl.obolibrary.org/obo/RO_0002573
+http://purl.obolibrary.org/obo/PLANP_0000507
+http://purl.obolibrary.org/obo/PATO_0002065
+http://purl.obolibrary.org/obo/PLANP_0000506
+http://purl.obolibrary.org/obo/PATO_0000460
+http://purl.obolibrary.org/obo/PLANP_0000509
+http://purl.obolibrary.org/obo/PATO_0001199
+http://purl.obolibrary.org/obo/RO_0000052
+http://purl.obolibrary.org/obo/PLANA_0000421
+http://purl.obolibrary.org/obo/PLANP_0000505
+http://purl.obolibrary.org/obo/BFO_0000051

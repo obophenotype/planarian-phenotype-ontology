@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: planp/releases/2020-01-14/imports/ncit_import.owl
 ontology: planp/imports/ncit_import
 
 [Term]
@@ -38,8 +39,8 @@ subset: NCIT:C61410
 subset: NCIT:C77526
 subset: NCIT:C77529
 synonym: "GROSS LESION" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000046324", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Visible Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C3367 ! Finding

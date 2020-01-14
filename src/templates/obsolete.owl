@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000018 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000018">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal gastrovascular compartment</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000049 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000049">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">let odk import from BSPO if needed</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal plane of autonomy</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000062 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000062">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal Schmidtea mediterranea developmental term</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000064 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000064">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal dispersed cleavage</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000074 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000074">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term is not needed.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal acidophilic cytoplasm</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000086 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000086">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term is not needed.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal cytoskeleton organization</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000087 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000087">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra layer of complexity not needed upon further examination</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal anatomical compartment subdivision feature</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000102 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000102">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal parenchymal compartment</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000201 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000201">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal oviparity</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000204 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000204">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal protosphere</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000223 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000223">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal direct development</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000236 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000236">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal tissue morphogenesis</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000240 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000240">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal gametogenesis</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000241 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000241">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal body wall musculature compartment</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000255 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000255">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">now using patterned term ventral region PLANA:0000143</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal ventral compartment</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000259 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000259">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal embryonic cleavage</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000260 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000260">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra layer of complexity not needed upon further examination</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal definitive anatomical structure</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000262 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000262">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this term is not needed. All previous children of this term  (Stage 1, Sage 2, etc) are now children of GO life cycle stage or zygote stage</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal Schmidtea mediterranea developmental stage</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000324 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000324">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal sphere formation</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000326 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000326">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term is not needed.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal basophilic cytoplasm</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000344 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000344">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">let odk import from BSPO if needed</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal coronal plane </rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000359 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000359">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal epidermal compartment</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000361 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000361">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causes problems with is a and part of relationships for inner and outer pharynx nerve plexus in that both are true. </rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal pharynx nerve plexus</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000449 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000449">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">racing stripe is now a synonym of PLANA:0000055 dorsal stripe</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal racing stripe</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000459 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000459">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal cross-fertilization</rdfs:label>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</deprecated>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

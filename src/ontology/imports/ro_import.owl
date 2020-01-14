@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/imports/ro_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-01-14/imports/ro_import.owl"/>
+    </owl:Ontology>
     
 
 
@@ -97,12 +100,6 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
     
 
 
@@ -224,7 +221,7 @@ Where we have an annotation assertion
 
   &quot;directly P&quot; &quot;is direct form of&quot; &quot;P&quot;</obo:IAO_0000116>
         <obo:RO_0002423>If we have the annotation P is-direct-form-of Q, and we have inverses P&apos; and Q&apos;, then it follows that P&apos; is-direct-form-of Q&apos;</obo:RO_0002423>
-        <dc:creator>Chris Mungall</dc:creator>
+        <terms:creator>Chris Mungall</terms:creator>
         <rdfs:label>is direct form of</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -281,7 +278,15 @@ Where we have an annotation assertion
 
     <!-- http://purl.obolibrary.org/obo/RO_0040042 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040042"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040042">
+        <obo:IAO_0000112>part-of is homeomorphic for independent continuants.</obo:IAO_0000112>
+        <obo:IAO_0000115>R is homemorphic for C iff (1) there exists some x,y such that x R y, and x and y instantiate C and (2) for all x, if x is an instance of C, and there exists some y some such that x R y, then it follows that y is an instance of C.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-21T19:46:34Z</oboInOwl:creation_date>
+        <rdfs:comment>R homeomorphic-for C expands to: C SubClassOf R only C. Additionally, for any class D that is disjoint with C, we can also expand to C DisjointWith R some D, D DisjointWith R some C.</rdfs:comment>
+        <rdfs:label>is homeomorphic for</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/oborel/obo-relations/issues/164"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -308,6 +313,18 @@ Where we have an annotation assertion
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
     
 
 
@@ -1040,6 +1057,10 @@ range: spatial region or site (immaterial continuant)
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002131"/>
         </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002131"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        </owl:propertyChainAxiom>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
         <obo:IAO_0000424>http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
@@ -1615,7 +1636,7 @@ range: spatial region or site (immaterial continuant)
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Allen%27s_interval_algebra"/>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends.</obo:IAO_0000232>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1</dc:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1</terms:source>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
         <rdfs:comment>A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.</rdfs:comment>
         <rdfs:label xml:lang="en">temporally related to</rdfs:label>
@@ -1955,7 +1976,7 @@ range: spatial region or site (immaterial continuant)
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004047"/>
         <obo:RO_0004049 rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</dc:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</terms:creator>
         <rdfs:comment>holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y</rdfs:comment>
         <rdfs:label>causally upstream of, positive effect</rdfs:label>
     </owl:ObjectProperty>
@@ -1968,7 +1989,7 @@ range: spatial region or site (immaterial continuant)
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004046"/>
         <obo:RO_0004050 rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</dc:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</terms:creator>
         <rdfs:comment>holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y</rdfs:comment>
         <rdfs:label>causally upstream of, negative effect</rdfs:label>
     </owl:ObjectProperty>
@@ -4870,9 +4891,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002019"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4881,9 +4902,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002019"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -5347,5 +5368,5 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

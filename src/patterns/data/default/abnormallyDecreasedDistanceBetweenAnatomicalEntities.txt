@@ -1,0 +1,8 @@
+http://purl.obolibrary.org/obo/PATO_0000375
+http://purl.obolibrary.org/obo/PLANA_0000036
+http://purl.obolibrary.org/obo/PLANP_0000511
+http://purl.obolibrary.org/obo/RO_0002503
+http://purl.obolibrary.org/obo/RO_0002573
+http://purl.obolibrary.org/obo/PATO_0000460
+http://purl.obolibrary.org/obo/RO_0000052
+http://purl.obolibrary.org/obo/BFO_0000051
