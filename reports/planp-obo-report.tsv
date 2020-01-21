@@ -1,0 +1,2048 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	RO:0002583	IAO:0000115	x existence starts at point y if and only if the time point at which x starts is equivalent to the time point at which y ends.	
+ERROR	duplicate_definition	RO:0002593	IAO:0000115	x existence starts at point y if and only if the time point at which x starts is equivalent to the time point at which y ends.	
+ERROR	duplicate_definition	GO:0005886	IAO:0000115	The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.	
+ERROR	duplicate_definition	PLANA:0007509	IAO:0000115	The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.	
+ERROR	duplicate_definition	GO:0098609	IAO:0000115	The attachment of one cell to another cell via adhesion molecules.	
+ERROR	duplicate_definition	PLANA:0000508	IAO:0000115	The attachment of one cell to another cell via adhesion molecules.	
+ERROR	duplicate_definition	GO:0043226	IAO:0000115	Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.	
+ERROR	duplicate_definition	PLANA:0000525	IAO:0000115	Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.	
+ERROR	duplicate_definition	GO:0043229	IAO:0000115	Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane.	
+ERROR	duplicate_definition	PLANA:0000518	IAO:0000115	Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane.	
+ERROR	duplicate_definition	GO:0043230	IAO:0000115	Organized structure of distinctive morphology and function, occurring outside the cell. Includes, for example, extracellular membrane vesicles (EMVs) and the cellulosomes of anaerobic bacteria and fungi.	
+ERROR	duplicate_definition	PLANA:0007511	IAO:0000115	Organized structure of distinctive morphology and function, occurring outside the cell. Includes, for example, extracellular membrane vesicles (EMVs) and the cellulosomes of anaerobic bacteria and fungi.	
+ERROR	duplicate_definition	GO:0043228	IAO:0000115	Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes.	
+ERROR	duplicate_definition	PLANA:0000531	IAO:0000115	Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes.	
+ERROR	duplicate_definition	PLANA:0000537	IAO:0000115	Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes.	
+ERROR	duplicate_definition	GO:0043227	IAO:0000115	Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.	
+ERROR	duplicate_definition	PLANA:0000526	IAO:0000115	Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.	
+ERROR	duplicate_definition	GO:0043231	IAO:0000115	Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.	
+ERROR	duplicate_definition	PLANA:0000527	IAO:0000115	Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.	
+ERROR	duplicate_definition	PLANA:0007513	IAO:0000115	Network of interconnected, flattened, and/or tubular membrane, known as cisternae. This membrane is contiguous with the outer nuclear membrane. The endoplasmic reticulum is involved in both protein and lipid synthesis.	
+ERROR	duplicate_definition	PLANA:0007514	IAO:0000115	Network of interconnected, flattened, and/or tubular membrane, known as cisternae. This membrane is contiguous with the outer nuclear membrane. The endoplasmic reticulum is involved in both protein and lipid synthesis.	
+ERROR	duplicate_definition	CARO:0000003	IAO:0000115	Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.	
+ERROR	duplicate_definition	UBERON:0000061	IAO:0000115	Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.	
+ERROR	duplicate_definition	CARO:0000000	IAO:0000115	Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.	
+ERROR	duplicate_definition	UBERON:0001062	IAO:0000115	Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.	
+ERROR	duplicate_definition	GO:0005730	IAO:0000115	A small, dense body one or more of which are present in the nucleus of eukaryotic cells. It is rich in RNA and protein, is not bounded by a limiting membrane, and is not seen during mitosis. Its prime function is the transcription of the nucleolar DNA into 45S ribosomal-precursor RNA, the processing of this RNA into 5.8S, 18S, and 28S components of ribosomal RNA, and the association of these components with 5S RNA and proteins synthesized outside the nucleolus. This association results in the formation of ribonucleoprotein precursors; these pass into the cytoplasm and mature into the 40S and 60S subunits of the ribosome.	
+ERROR	duplicate_definition	PLANA:0000533	IAO:0000115	A small, dense body one or more of which are present in the nucleus of eukaryotic cells. It is rich in RNA and protein, is not bounded by a limiting membrane, and is not seen during mitosis. Its prime function is the transcription of the nucleolar DNA into 45S ribosomal-precursor RNA, the processing of this RNA into 5.8S, 18S, and 28S components of ribosomal RNA, and the association of these components with 5S RNA and proteins synthesized outside the nucleolus. This association results in the formation of ribonucleoprotein precursors; these pass into the cytoplasm and mature into the 40S and 60S subunits of the ribosome.	
+ERROR	duplicate_definition	CARO:0000010	IAO:0000115	A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.	
+ERROR	duplicate_definition	UBERON:0000015	IAO:0000115	A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.	
+ERROR	duplicate_definition	PLANA:0000565	IAO:0000115	A neruon whose cell body is within an autonomic ganglion.	
+ERROR	duplicate_definition	PLANA:0000566	IAO:0000115	A neruon whose cell body is within an autonomic ganglion.	
+ERROR	duplicate_definition	GO:0005634	IAO:0000115	A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.	
+ERROR	duplicate_definition	PLANA:0000529	IAO:0000115	A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.	
+ERROR	duplicate_definition	GO:0031090	IAO:0000115	A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle.	
+ERROR	duplicate_definition	PLANA:0000524	IAO:0000115	A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle.	
+ERROR	duplicate_definition	GO:0016020	IAO:0000115	A lipid bilayer along with all the proteins and protein complexes embedded in it an attached to it.	
+ERROR	duplicate_definition	PLANA:0000520	IAO:0000115	A lipid bilayer along with all the proteins and protein complexes embedded in it an attached to it.	
+ERROR	duplicate_definition	GO:0099503	IAO:0000115	A cytoplasmic, membrane bound vesicle that is capable of fusing to the plasma membrane to release its contents into the extracellular space.	
+ERROR	duplicate_definition	PLANA:0000530	IAO:0000115	A cytoplasmic, membrane bound vesicle that is capable of fusing to the plasma membrane to release its contents into the extracellular space.	
+ERROR	duplicate_definition	GO:0005794	IAO:0000115	A compound membranous cytoplasmic organelle of eukaryotic cells, consisting of flattened, ribosome-free vesicles arranged in a more or less regular stack. The Golgi apparatus differs from the endoplasmic reticulum in often having slightly thicker membranes, appearing in sections as a characteristic shallow semicircle so that the convex side (cis or entry face) abuts the endoplasmic reticulum, secretory vesicles emerging from the concave side (trans or exit face). In vertebrate cells there is usually one such organelle, while in invertebrates and plants, where they are known usually as dictyosomes, there may be several scattered in the cytoplasm. The Golgi apparatus processes proteins produced on the ribosomes of the rough endoplasmic reticulum; such processing includes modification of the core oligosaccharides of glycoproteins, and the sorting and packaging of proteins for transport to a variety of cellular locations. Three different regions of the Golgi are now recognized both in terms of structure and function: cis, in the vicinity of the cis face, trans, in the vicinity of the trans face, and medial, lying between the cis and trans regions.	
+ERROR	duplicate_definition	PLANA:0000528	IAO:0000115	A compound membranous cytoplasmic organelle of eukaryotic cells, consisting of flattened, ribosome-free vesicles arranged in a more or less regular stack. The Golgi apparatus differs from the endoplasmic reticulum in often having slightly thicker membranes, appearing in sections as a characteristic shallow semicircle so that the convex side (cis or entry face) abuts the endoplasmic reticulum, secretory vesicles emerging from the concave side (trans or exit face). In vertebrate cells there is usually one such organelle, while in invertebrates and plants, where they are known usually as dictyosomes, there may be several scattered in the cytoplasm. The Golgi apparatus processes proteins produced on the ribosomes of the rough endoplasmic reticulum; such processing includes modification of the core oligosaccharides of glycoproteins, and the sorting and packaging of proteins for transport to a variety of cellular locations. Three different regions of the Golgi are now recognized both in terms of structure and function: cis, in the vicinity of the cis face, trans, in the vicinity of the trans face, and medial, lying between the cis and trans regions.	
+ERROR	duplicate_definition	GO:0005773	IAO:0000115	A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol.	
+ERROR	duplicate_definition	PLANA:0000515	IAO:0000115	A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol.	
+ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	fc1212f950b7bc1500d7f38e547ea9c0	
+ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	feb29b87da49869461163dcb5f97f1eb	
+ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	176e8102b2f15d2ac5e4891490399e65	
+ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	9623423279d58cd51b15e8d5fde73c48	
+ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
+ERROR	deprecated_property_reference	RO:0002609	rdfs:subPropertyOf	RO:0002410	
+ERROR	missing_label	BSPO:0000000	rdfs:label		
+ERROR	missing_label	BSPO:0000006	rdfs:label		
+ERROR	missing_label	BSPO:0000007	rdfs:label		
+ERROR	missing_label	BSPO:0000008	rdfs:label		
+ERROR	missing_label	BSPO:0000009	rdfs:label		
+ERROR	missing_label	BSPO:0000012	rdfs:label		
+ERROR	missing_label	BSPO:0000021	rdfs:label		
+ERROR	missing_label	BSPO:0000023	rdfs:label		
+ERROR	missing_label	BSPO:0000024	rdfs:label		
+ERROR	missing_label	BSPO:0000033	rdfs:label		
+ERROR	missing_label	BSPO:0000034	rdfs:label		
+ERROR	missing_label	BSPO:0000036	rdfs:label		
+ERROR	missing_label	BSPO:0000037	rdfs:label		
+ERROR	missing_label	BSPO:0000038	rdfs:label		
+ERROR	missing_label	BSPO:0000039	rdfs:label		
+ERROR	missing_label	BSPO:0000041	rdfs:label		
+ERROR	missing_label	BSPO:0000042	rdfs:label		
+ERROR	missing_label	BSPO:0000043	rdfs:label		
+ERROR	missing_label	BSPO:0000044	rdfs:label		
+ERROR	missing_label	BSPO:0000045	rdfs:label		
+ERROR	missing_label	BSPO:0000046	rdfs:label		
+ERROR	missing_label	BSPO:0000047	rdfs:label		
+ERROR	missing_label	BSPO:0000048	rdfs:label		
+ERROR	missing_label	BSPO:0000049	rdfs:label		
+ERROR	missing_label	BSPO:0000051	rdfs:label		
+ERROR	missing_label	BSPO:0000052	rdfs:label		
+ERROR	missing_label	BSPO:0000053	rdfs:label		
+ERROR	missing_label	BSPO:0000067	rdfs:label		
+ERROR	missing_label	BSPO:0000075	rdfs:label		
+ERROR	missing_label	BSPO:0000076	rdfs:label		
+ERROR	missing_label	BSPO:0000077	rdfs:label		
+ERROR	missing_label	BSPO:0000078	rdfs:label		
+ERROR	missing_label	BSPO:0000081	rdfs:label		
+ERROR	missing_label	BSPO:0000083	rdfs:label		
+ERROR	missing_label	BSPO:0000093	rdfs:label		
+ERROR	missing_label	BSPO:0000127	rdfs:label		
+ERROR	missing_label	BSPO:0000128	rdfs:label		
+ERROR	missing_label	BSPO:0000197	rdfs:label		
+ERROR	missing_label	BSPO:0000201	rdfs:label		
+ERROR	missing_label	BSPO:0000202	rdfs:label		
+ERROR	missing_label	BSPO:0000376	rdfs:label		
+ERROR	missing_label	BSPO:0000377	rdfs:label		
+ERROR	missing_label	BSPO:0000378	rdfs:label		
+ERROR	missing_label	BSPO:0000381	rdfs:label		
+ERROR	missing_label	BSPO:0000383	rdfs:label		
+ERROR	missing_label	BSPO:0000671	rdfs:label		
+ERROR	missing_label	BSPO:0000672	rdfs:label		
+ERROR	missing_label	BSPO:0000673	rdfs:label		
+ERROR	missing_label	BSPO:0000674	rdfs:label		
+ERROR	missing_label	BSPO:0000677	rdfs:label		
+ERROR	missing_label	BSPO:0000678	rdfs:label		
+ERROR	missing_label	BSPO:0000679	rdfs:label		
+ERROR	missing_label	BSPO:0000680	rdfs:label		
+ERROR	missing_label	BSPO:0000682	rdfs:label		
+ERROR	missing_label	BSPO:0000683	rdfs:label		
+ERROR	missing_label	BSPO:0000684	rdfs:label		
+ERROR	missing_label	BSPO:0000685	rdfs:label		
+ERROR	missing_label	BSPO:0000686	rdfs:label		
+ERROR	missing_label	BSPO:0000687	rdfs:label		
+ERROR	missing_label	BSPO:0000688	rdfs:label		
+ERROR	missing_label	BSPO:0000689	rdfs:label		
+ERROR	missing_label	PLANA:0000077	rdfs:label		
+ERROR	missing_label	PLANA:0007501	rdfs:label		
+ERROR	missing_label	PLANP:0000001	rdfs:label		
+ERROR	missing_label	PLANP:0000002	rdfs:label		
+ERROR	missing_label	PLANP:0000003	rdfs:label		
+ERROR	missing_label	PLANP:0000004	rdfs:label		
+ERROR	missing_label	PLANP:0000005	rdfs:label		
+ERROR	missing_label	PLANP:0000006	rdfs:label		
+ERROR	missing_label	PLANP:0000007	rdfs:label		
+ERROR	missing_label	PLANP:0000008	rdfs:label		
+ERROR	missing_label	PLANP:0000009	rdfs:label		
+ERROR	missing_label	PLANP:0000010	rdfs:label		
+ERROR	missing_label	PLANP:0000011	rdfs:label		
+ERROR	missing_label	PLANP:0000012	rdfs:label		
+ERROR	missing_label	PLANP:0000013	rdfs:label		
+ERROR	missing_label	PLANP:0000014	rdfs:label		
+ERROR	missing_label	PLANP:0000015	rdfs:label		
+ERROR	missing_label	PLANP:0000016	rdfs:label		
+ERROR	missing_label	PLANP:0000017	rdfs:label		
+ERROR	missing_label	PLANP:0000018	rdfs:label		
+ERROR	missing_label	PLANP:0000019	rdfs:label		
+ERROR	missing_label	PLANP:0000020	rdfs:label		
+ERROR	missing_label	PLANP:0000021	rdfs:label		
+ERROR	missing_label	PLANP:0000022	rdfs:label		
+ERROR	missing_label	PLANP:0000023	rdfs:label		
+ERROR	missing_label	PLANP:0000024	rdfs:label		
+ERROR	missing_label	PLANP:0000025	rdfs:label		
+ERROR	missing_label	PLANP:0000026	rdfs:label		
+ERROR	missing_label	PLANP:0000027	rdfs:label		
+ERROR	missing_label	PLANP:0000028	rdfs:label		
+ERROR	missing_label	PLANP:0000029	rdfs:label		
+ERROR	missing_label	PLANP:0000030	rdfs:label		
+ERROR	missing_label	PLANP:0000031	rdfs:label		
+ERROR	missing_label	PLANP:0000032	rdfs:label		
+ERROR	missing_label	PLANP:0000033	rdfs:label		
+ERROR	missing_label	PLANP:0000034	rdfs:label		
+ERROR	missing_label	PLANP:0000035	rdfs:label		
+ERROR	missing_label	PLANP:0000036	rdfs:label		
+ERROR	missing_label	PLANP:0000037	rdfs:label		
+ERROR	missing_label	PLANP:0000038	rdfs:label		
+ERROR	missing_label	PLANP:0000039	rdfs:label		
+ERROR	missing_label	PLANP:0000040	rdfs:label		
+ERROR	missing_label	PLANP:0000041	rdfs:label		
+ERROR	missing_label	PLANP:0000042	rdfs:label		
+ERROR	missing_label	PLANP:0000043	rdfs:label		
+ERROR	missing_label	PLANP:0000044	rdfs:label		
+ERROR	missing_label	PLANP:0000045	rdfs:label		
+ERROR	missing_label	PLANP:0000046	rdfs:label		
+ERROR	missing_label	PLANP:0000047	rdfs:label		
+ERROR	missing_label	PLANP:0000048	rdfs:label		
+ERROR	missing_label	PLANP:0000049	rdfs:label		
+ERROR	missing_label	PLANP:0000050	rdfs:label		
+ERROR	missing_label	PLANP:0000051	rdfs:label		
+ERROR	missing_label	PLANP:0000052	rdfs:label		
+ERROR	missing_label	PLANP:0000053	rdfs:label		
+ERROR	missing_label	PLANP:0000054	rdfs:label		
+ERROR	missing_label	PLANP:0000055	rdfs:label		
+ERROR	missing_label	PLANP:0000056	rdfs:label		
+ERROR	missing_label	PLANP:0000057	rdfs:label		
+ERROR	missing_label	PLANP:0000058	rdfs:label		
+ERROR	missing_label	PLANP:0000059	rdfs:label		
+ERROR	missing_label	PLANP:0000060	rdfs:label		
+ERROR	missing_label	PLANP:0000061	rdfs:label		
+ERROR	missing_label	PLANP:0000062	rdfs:label		
+ERROR	missing_label	PLANP:0000063	rdfs:label		
+ERROR	missing_label	PLANP:0000064	rdfs:label		
+ERROR	missing_label	PLANP:0000065	rdfs:label		
+ERROR	missing_label	PLANP:0000066	rdfs:label		
+ERROR	missing_label	PLANP:0000067	rdfs:label		
+ERROR	missing_label	PLANP:0000068	rdfs:label		
+ERROR	missing_label	PLANP:0000069	rdfs:label		
+ERROR	missing_label	PLANP:0000070	rdfs:label		
+ERROR	missing_label	PLANP:0000071	rdfs:label		
+ERROR	missing_label	PLANP:0000072	rdfs:label		
+ERROR	missing_label	PLANP:0000073	rdfs:label		
+ERROR	missing_label	PLANP:0000074	rdfs:label		
+ERROR	missing_label	PLANP:0000075	rdfs:label		
+ERROR	missing_label	PLANP:0000076	rdfs:label		
+ERROR	missing_label	PLANP:0000077	rdfs:label		
+ERROR	missing_label	PLANP:0000078	rdfs:label		
+ERROR	missing_label	PLANP:0000079	rdfs:label		
+ERROR	missing_label	PLANP:0000080	rdfs:label		
+ERROR	missing_label	PLANP:0000081	rdfs:label		
+ERROR	missing_label	PLANP:0000082	rdfs:label		
+ERROR	missing_label	PLANP:0000083	rdfs:label		
+ERROR	missing_label	PLANP:0000084	rdfs:label		
+ERROR	missing_label	PLANP:0000085	rdfs:label		
+ERROR	missing_label	PLANP:0000086	rdfs:label		
+ERROR	missing_label	PLANP:0000087	rdfs:label		
+ERROR	missing_label	PLANP:0000088	rdfs:label		
+ERROR	missing_label	PLANP:0000089	rdfs:label		
+ERROR	missing_label	PLANP:0000090	rdfs:label		
+ERROR	missing_label	PLANP:0000091	rdfs:label		
+ERROR	missing_label	PLANP:0000092	rdfs:label		
+ERROR	missing_label	PLANP:0000093	rdfs:label		
+ERROR	missing_label	PLANP:0000094	rdfs:label		
+ERROR	missing_label	PLANP:0000095	rdfs:label		
+ERROR	missing_label	PLANP:0000096	rdfs:label		
+ERROR	missing_label	PLANP:0000097	rdfs:label		
+ERROR	missing_label	PLANP:0000098	rdfs:label		
+ERROR	missing_label	PLANP:0000099	rdfs:label		
+ERROR	missing_label	PLANP:0000100	rdfs:label		
+ERROR	missing_label	PLANP:0000101	rdfs:label		
+ERROR	missing_label	PLANP:0000102	rdfs:label		
+ERROR	missing_label	PLANP:0000103	rdfs:label		
+ERROR	missing_label	PLANP:0000104	rdfs:label		
+ERROR	missing_label	PLANP:0000105	rdfs:label		
+ERROR	missing_label	PLANP:0000106	rdfs:label		
+ERROR	missing_label	PLANP:0000107	rdfs:label		
+ERROR	missing_label	PLANP:0000108	rdfs:label		
+ERROR	missing_label	PLANP:0000109	rdfs:label		
+ERROR	missing_label	PLANP:0000110	rdfs:label		
+ERROR	missing_label	PLANP:0000111	rdfs:label		
+ERROR	missing_label	PLANP:0000112	rdfs:label		
+ERROR	missing_label	PLANP:0000113	rdfs:label		
+ERROR	missing_label	PLANP:0000114	rdfs:label		
+ERROR	missing_label	PLANP:0000115	rdfs:label		
+ERROR	missing_label	PLANP:0000116	rdfs:label		
+ERROR	missing_label	PLANP:0000117	rdfs:label		
+ERROR	missing_label	PLANP:0000118	rdfs:label		
+ERROR	missing_label	PLANP:0000119	rdfs:label		
+ERROR	missing_label	PLANP:0000120	rdfs:label		
+ERROR	missing_label	PLANP:0000121	rdfs:label		
+ERROR	missing_label	PLANP:0000122	rdfs:label		
+ERROR	missing_label	PLANP:0000123	rdfs:label		
+ERROR	missing_label	PLANP:0000124	rdfs:label		
+ERROR	missing_label	PLANP:0000125	rdfs:label		
+ERROR	missing_label	PLANP:0000126	rdfs:label		
+ERROR	missing_label	PLANP:0000127	rdfs:label		
+ERROR	missing_label	PLANP:0000128	rdfs:label		
+ERROR	missing_label	PLANP:0000129	rdfs:label		
+ERROR	missing_label	PLANP:0000130	rdfs:label		
+ERROR	missing_label	PLANP:0000131	rdfs:label		
+ERROR	missing_label	PLANP:0000132	rdfs:label		
+ERROR	missing_label	PLANP:0000133	rdfs:label		
+ERROR	missing_label	PLANP:0000134	rdfs:label		
+ERROR	missing_label	PLANP:0000135	rdfs:label		
+ERROR	missing_label	PLANP:0000136	rdfs:label		
+ERROR	missing_label	PLANP:0000137	rdfs:label		
+ERROR	missing_label	PLANP:0000138	rdfs:label		
+ERROR	missing_label	PLANP:0000139	rdfs:label		
+ERROR	missing_label	PLANP:0000140	rdfs:label		
+ERROR	missing_label	PLANP:0000141	rdfs:label		
+ERROR	missing_label	PLANP:0000142	rdfs:label		
+ERROR	missing_label	PLANP:0000143	rdfs:label		
+ERROR	missing_label	PLANP:0000144	rdfs:label		
+ERROR	missing_label	PLANP:0000145	rdfs:label		
+ERROR	missing_label	PLANP:0000146	rdfs:label		
+ERROR	missing_label	PLANP:0000147	rdfs:label		
+ERROR	missing_label	PLANP:0000148	rdfs:label		
+ERROR	missing_label	PLANP:0000149	rdfs:label		
+ERROR	missing_label	PLANP:0000150	rdfs:label		
+ERROR	missing_label	PLANP:0000151	rdfs:label		
+ERROR	missing_label	PLANP:0000152	rdfs:label		
+ERROR	missing_label	PLANP:0000153	rdfs:label		
+ERROR	missing_label	PLANP:0000154	rdfs:label		
+ERROR	missing_label	PLANP:0000155	rdfs:label		
+ERROR	missing_label	PLANP:0000156	rdfs:label		
+ERROR	missing_label	PLANP:0000157	rdfs:label		
+ERROR	missing_label	PLANP:0000158	rdfs:label		
+ERROR	missing_label	PLANP:0000159	rdfs:label		
+ERROR	missing_label	PLANP:0000160	rdfs:label		
+ERROR	missing_label	PLANP:0000161	rdfs:label		
+ERROR	missing_label	PLANP:0000162	rdfs:label		
+ERROR	missing_label	PLANP:0000163	rdfs:label		
+ERROR	missing_label	PLANP:0000164	rdfs:label		
+ERROR	missing_label	PLANP:0000165	rdfs:label		
+ERROR	missing_label	PLANP:0000166	rdfs:label		
+ERROR	missing_label	PLANP:0000167	rdfs:label		
+ERROR	missing_label	PLANP:0000168	rdfs:label		
+ERROR	missing_label	PLANP:0000169	rdfs:label		
+ERROR	missing_label	PLANP:0000170	rdfs:label		
+ERROR	missing_label	PLANP:0000171	rdfs:label		
+ERROR	missing_label	PLANP:0000172	rdfs:label		
+ERROR	missing_label	PLANP:0000173	rdfs:label		
+ERROR	missing_label	PLANP:0000174	rdfs:label		
+ERROR	missing_label	PLANP:0000175	rdfs:label		
+ERROR	missing_label	PLANP:0000176	rdfs:label		
+ERROR	missing_label	PLANP:0000177	rdfs:label		
+ERROR	missing_label	PLANP:0000178	rdfs:label		
+ERROR	missing_label	PLANP:0000179	rdfs:label		
+ERROR	missing_label	PLANP:0000180	rdfs:label		
+ERROR	missing_label	PLANP:0000181	rdfs:label		
+ERROR	missing_label	PLANP:0000182	rdfs:label		
+ERROR	missing_label	PLANP:0000183	rdfs:label		
+ERROR	missing_label	PLANP:0000184	rdfs:label		
+ERROR	missing_label	PLANP:0000185	rdfs:label		
+ERROR	missing_label	PLANP:0000186	rdfs:label		
+ERROR	missing_label	PLANP:0000187	rdfs:label		
+ERROR	missing_label	PLANP:0000188	rdfs:label		
+ERROR	missing_label	PLANP:0000189	rdfs:label		
+ERROR	missing_label	PLANP:0000190	rdfs:label		
+ERROR	missing_label	PLANP:0000191	rdfs:label		
+ERROR	missing_label	PLANP:0000192	rdfs:label		
+ERROR	missing_label	PLANP:0000193	rdfs:label		
+ERROR	missing_label	PLANP:0000194	rdfs:label		
+ERROR	missing_label	PLANP:0000195	rdfs:label		
+ERROR	missing_label	PLANP:0000196	rdfs:label		
+ERROR	missing_label	PLANP:0000197	rdfs:label		
+ERROR	missing_label	PLANP:0000198	rdfs:label		
+ERROR	missing_label	PLANP:0000199	rdfs:label		
+ERROR	missing_label	PLANP:0000200	rdfs:label		
+ERROR	missing_label	PLANP:0000201	rdfs:label		
+ERROR	missing_label	PLANP:0000202	rdfs:label		
+ERROR	missing_label	PLANP:0000203	rdfs:label		
+ERROR	missing_label	PLANP:0000204	rdfs:label		
+ERROR	missing_label	PLANP:0000205	rdfs:label		
+ERROR	missing_label	PLANP:0000206	rdfs:label		
+ERROR	missing_label	PLANP:0000207	rdfs:label		
+ERROR	missing_label	PLANP:0000208	rdfs:label		
+ERROR	missing_label	PLANP:0000209	rdfs:label		
+ERROR	missing_label	PLANP:0000210	rdfs:label		
+ERROR	missing_label	PLANP:0000211	rdfs:label		
+ERROR	missing_label	PLANP:0000212	rdfs:label		
+ERROR	missing_label	PLANP:0000213	rdfs:label		
+ERROR	missing_label	PLANP:0000214	rdfs:label		
+ERROR	missing_label	PLANP:0000215	rdfs:label		
+ERROR	missing_label	PLANP:0000216	rdfs:label		
+ERROR	missing_label	PLANP:0000217	rdfs:label		
+ERROR	missing_label	PLANP:0000218	rdfs:label		
+ERROR	missing_label	PLANP:0000219	rdfs:label		
+ERROR	missing_label	PLANP:0000220	rdfs:label		
+ERROR	missing_label	PLANP:0000221	rdfs:label		
+ERROR	missing_label	PLANP:0000222	rdfs:label		
+ERROR	missing_label	PLANP:0000223	rdfs:label		
+ERROR	missing_label	PLANP:0000224	rdfs:label		
+ERROR	missing_label	PLANP:0000225	rdfs:label		
+ERROR	missing_label	PLANP:0000226	rdfs:label		
+ERROR	missing_label	PLANP:0000227	rdfs:label		
+ERROR	missing_label	PLANP:0000228	rdfs:label		
+ERROR	missing_label	PLANP:0000229	rdfs:label		
+ERROR	missing_label	PLANP:0000230	rdfs:label		
+ERROR	missing_label	PLANP:0000231	rdfs:label		
+ERROR	missing_label	PLANP:0000232	rdfs:label		
+ERROR	missing_label	PLANP:0000233	rdfs:label		
+ERROR	missing_label	PLANP:0000234	rdfs:label		
+ERROR	missing_label	PLANP:0000235	rdfs:label		
+ERROR	missing_label	PLANP:0000236	rdfs:label		
+ERROR	missing_label	PLANP:0000237	rdfs:label		
+ERROR	missing_label	PLANP:0000238	rdfs:label		
+ERROR	missing_label	PLANP:0000239	rdfs:label		
+ERROR	missing_label	PLANP:0000240	rdfs:label		
+ERROR	missing_label	PLANP:0000241	rdfs:label		
+ERROR	missing_label	PLANP:0000242	rdfs:label		
+ERROR	missing_label	PLANP:0000243	rdfs:label		
+ERROR	missing_label	PLANP:0000244	rdfs:label		
+ERROR	missing_label	PLANP:0000245	rdfs:label		
+ERROR	missing_label	PLANP:0000246	rdfs:label		
+ERROR	missing_label	PLANP:0000247	rdfs:label		
+ERROR	missing_label	PLANP:0000248	rdfs:label		
+ERROR	missing_label	PLANP:0000249	rdfs:label		
+ERROR	missing_label	PLANP:0000250	rdfs:label		
+ERROR	missing_label	PLANP:0000251	rdfs:label		
+ERROR	missing_label	PLANP:0000252	rdfs:label		
+ERROR	missing_label	PLANP:0000253	rdfs:label		
+ERROR	missing_label	PLANP:0000254	rdfs:label		
+ERROR	missing_label	PLANP:0000255	rdfs:label		
+ERROR	missing_label	PLANP:0000256	rdfs:label		
+ERROR	missing_label	PLANP:0000257	rdfs:label		
+ERROR	missing_label	PLANP:0000258	rdfs:label		
+ERROR	missing_label	PLANP:0000259	rdfs:label		
+ERROR	missing_label	PLANP:0000260	rdfs:label		
+ERROR	missing_label	PLANP:0000261	rdfs:label		
+ERROR	missing_label	PLANP:0000262	rdfs:label		
+ERROR	missing_label	PLANP:0000263	rdfs:label		
+ERROR	missing_label	PLANP:0000264	rdfs:label		
+ERROR	missing_label	PLANP:0000265	rdfs:label		
+ERROR	missing_label	PLANP:0000266	rdfs:label		
+ERROR	missing_label	PLANP:0000267	rdfs:label		
+ERROR	missing_label	PLANP:0000268	rdfs:label		
+ERROR	missing_label	PLANP:0000269	rdfs:label		
+ERROR	missing_label	PLANP:0000270	rdfs:label		
+ERROR	missing_label	PLANP:0000271	rdfs:label		
+ERROR	missing_label	PLANP:0000272	rdfs:label		
+ERROR	missing_label	PLANP:0000273	rdfs:label		
+ERROR	missing_label	PLANP:0000274	rdfs:label		
+ERROR	missing_label	PLANP:0000275	rdfs:label		
+ERROR	missing_label	PLANP:0000276	rdfs:label		
+ERROR	missing_label	PLANP:0000277	rdfs:label		
+ERROR	missing_label	PLANP:0000278	rdfs:label		
+ERROR	missing_label	PLANP:0000279	rdfs:label		
+ERROR	missing_label	PLANP:0000280	rdfs:label		
+ERROR	missing_label	PLANP:0000281	rdfs:label		
+ERROR	missing_label	PLANP:0000282	rdfs:label		
+ERROR	missing_label	PLANP:0000283	rdfs:label		
+ERROR	missing_label	PLANP:0000284	rdfs:label		
+ERROR	missing_label	PLANP:0000285	rdfs:label		
+ERROR	missing_label	PLANP:0000286	rdfs:label		
+ERROR	missing_label	PLANP:0000287	rdfs:label		
+ERROR	missing_label	PLANP:0000288	rdfs:label		
+ERROR	missing_label	PLANP:0000289	rdfs:label		
+ERROR	missing_label	PLANP:0000290	rdfs:label		
+ERROR	missing_label	PLANP:0000291	rdfs:label		
+ERROR	missing_label	PLANP:0000292	rdfs:label		
+ERROR	missing_label	PLANP:0000293	rdfs:label		
+ERROR	missing_label	PLANP:0000294	rdfs:label		
+ERROR	missing_label	PLANP:0000295	rdfs:label		
+ERROR	missing_label	PLANP:0000296	rdfs:label		
+ERROR	missing_label	PLANP:0000297	rdfs:label		
+ERROR	missing_label	PLANP:0000298	rdfs:label		
+ERROR	missing_label	PLANP:0000299	rdfs:label		
+ERROR	missing_label	PLANP:0000300	rdfs:label		
+ERROR	missing_label	PLANP:0000301	rdfs:label		
+ERROR	missing_label	PLANP:0000302	rdfs:label		
+ERROR	missing_label	PLANP:0000303	rdfs:label		
+ERROR	missing_label	PLANP:0000304	rdfs:label		
+ERROR	missing_label	PLANP:0000305	rdfs:label		
+ERROR	missing_label	PLANP:0000306	rdfs:label		
+ERROR	missing_label	PLANP:0000307	rdfs:label		
+ERROR	missing_label	PLANP:0000308	rdfs:label		
+ERROR	missing_label	PLANP:0000309	rdfs:label		
+ERROR	missing_label	PLANP:0000310	rdfs:label		
+ERROR	missing_label	PLANP:0000311	rdfs:label		
+ERROR	missing_label	PLANP:0000312	rdfs:label		
+ERROR	missing_label	PLANP:0000313	rdfs:label		
+ERROR	missing_label	PLANP:0000314	rdfs:label		
+ERROR	missing_label	PLANP:0000315	rdfs:label		
+ERROR	missing_label	PLANP:0000316	rdfs:label		
+ERROR	missing_label	PLANP:0000317	rdfs:label		
+ERROR	missing_label	PLANP:0000318	rdfs:label		
+ERROR	missing_label	PLANP:0000319	rdfs:label		
+ERROR	missing_label	PLANP:0000320	rdfs:label		
+ERROR	missing_label	PLANP:0000321	rdfs:label		
+ERROR	missing_label	PLANP:0000322	rdfs:label		
+ERROR	missing_label	PLANP:0000323	rdfs:label		
+ERROR	missing_label	PLANP:0000324	rdfs:label		
+ERROR	missing_label	PLANP:0000325	rdfs:label		
+ERROR	missing_label	PLANP:0000326	rdfs:label		
+ERROR	missing_label	PLANP:0000327	rdfs:label		
+ERROR	missing_label	PLANP:0000328	rdfs:label		
+ERROR	missing_label	PLANP:0000329	rdfs:label		
+ERROR	missing_label	PLANP:0000330	rdfs:label		
+ERROR	missing_label	PLANP:0000331	rdfs:label		
+ERROR	missing_label	PLANP:0000332	rdfs:label		
+ERROR	missing_label	PLANP:0000333	rdfs:label		
+ERROR	missing_label	PLANP:0000334	rdfs:label		
+ERROR	missing_label	PLANP:0000335	rdfs:label		
+ERROR	missing_label	PLANP:0000336	rdfs:label		
+ERROR	missing_label	PLANP:0000337	rdfs:label		
+ERROR	missing_label	PLANP:0000338	rdfs:label		
+ERROR	missing_label	PLANP:0000339	rdfs:label		
+ERROR	missing_label	PLANP:0000340	rdfs:label		
+ERROR	missing_label	PLANP:0000341	rdfs:label		
+ERROR	missing_label	PLANP:0000342	rdfs:label		
+ERROR	missing_label	PLANP:0000343	rdfs:label		
+ERROR	missing_label	PLANP:0000344	rdfs:label		
+ERROR	missing_label	PLANP:0000345	rdfs:label		
+ERROR	missing_label	PLANP:0000346	rdfs:label		
+ERROR	missing_label	PLANP:0000347	rdfs:label		
+ERROR	missing_label	PLANP:0000348	rdfs:label		
+ERROR	missing_label	PLANP:0000349	rdfs:label		
+ERROR	missing_label	PLANP:0000350	rdfs:label		
+ERROR	missing_label	PLANP:0000351	rdfs:label		
+ERROR	missing_label	PLANP:0000352	rdfs:label		
+ERROR	missing_label	PLANP:0000353	rdfs:label		
+ERROR	missing_label	PLANP:0000354	rdfs:label		
+ERROR	missing_label	PLANP:0000355	rdfs:label		
+ERROR	missing_label	PLANP:0000356	rdfs:label		
+ERROR	missing_label	PLANP:0000357	rdfs:label		
+ERROR	missing_label	PLANP:0000358	rdfs:label		
+ERROR	missing_label	PLANP:0000359	rdfs:label		
+ERROR	missing_label	PLANP:0000360	rdfs:label		
+ERROR	missing_label	PLANP:0000361	rdfs:label		
+ERROR	missing_label	PLANP:0000362	rdfs:label		
+ERROR	missing_label	PLANP:0000363	rdfs:label		
+ERROR	missing_label	PLANP:0000364	rdfs:label		
+ERROR	missing_label	PLANP:0000365	rdfs:label		
+ERROR	missing_label	PLANP:0000366	rdfs:label		
+ERROR	missing_label	PLANP:0000367	rdfs:label		
+ERROR	missing_label	PLANP:0000368	rdfs:label		
+ERROR	missing_label	PLANP:0000369	rdfs:label		
+ERROR	missing_label	PLANP:0000370	rdfs:label		
+ERROR	missing_label	PLANP:0000371	rdfs:label		
+ERROR	missing_label	PLANP:0000372	rdfs:label		
+ERROR	missing_label	PLANP:0000373	rdfs:label		
+ERROR	missing_label	PLANP:0000374	rdfs:label		
+ERROR	missing_label	PLANP:0000375	rdfs:label		
+ERROR	missing_label	PLANP:0000376	rdfs:label		
+ERROR	missing_label	PLANP:0000377	rdfs:label		
+ERROR	missing_label	PLANP:0000378	rdfs:label		
+ERROR	missing_label	PLANP:0000379	rdfs:label		
+ERROR	missing_label	PLANP:0000380	rdfs:label		
+ERROR	missing_label	PLANP:0000381	rdfs:label		
+ERROR	missing_label	PLANP:0000382	rdfs:label		
+ERROR	missing_label	PLANP:0000383	rdfs:label		
+ERROR	missing_label	PLANP:0000384	rdfs:label		
+ERROR	missing_label	PLANP:0000385	rdfs:label		
+ERROR	missing_label	PLANP:0000386	rdfs:label		
+ERROR	missing_label	PLANP:0000387	rdfs:label		
+ERROR	missing_label	PLANP:0000388	rdfs:label		
+ERROR	missing_label	PLANP:0000389	rdfs:label		
+ERROR	missing_label	PLANP:0000390	rdfs:label		
+ERROR	missing_label	PLANP:0000391	rdfs:label		
+ERROR	missing_label	PLANP:0000392	rdfs:label		
+ERROR	missing_label	PLANP:0000393	rdfs:label		
+ERROR	missing_label	PLANP:0000394	rdfs:label		
+ERROR	missing_label	PLANP:0000395	rdfs:label		
+ERROR	missing_label	PLANP:0000396	rdfs:label		
+ERROR	missing_label	PLANP:0000397	rdfs:label		
+ERROR	missing_label	PLANP:0000398	rdfs:label		
+ERROR	missing_label	PLANP:0000399	rdfs:label		
+ERROR	missing_label	PLANP:0000400	rdfs:label		
+ERROR	missing_label	PLANP:0000401	rdfs:label		
+ERROR	missing_label	PLANP:0000402	rdfs:label		
+ERROR	missing_label	PLANP:0000403	rdfs:label		
+ERROR	missing_label	PLANP:0000404	rdfs:label		
+ERROR	missing_label	PLANP:0000405	rdfs:label		
+ERROR	missing_label	PLANP:0000406	rdfs:label		
+ERROR	missing_label	PLANP:0000407	rdfs:label		
+ERROR	missing_label	PLANP:0000408	rdfs:label		
+ERROR	missing_label	PLANP:0000409	rdfs:label		
+ERROR	missing_label	PLANP:0000410	rdfs:label		
+ERROR	missing_label	PLANP:0000411	rdfs:label		
+ERROR	missing_label	PLANP:0000412	rdfs:label		
+ERROR	missing_label	PLANP:0000413	rdfs:label		
+ERROR	missing_label	PLANP:0000414	rdfs:label		
+ERROR	missing_label	PLANP:0000415	rdfs:label		
+ERROR	missing_label	PLANP:0000416	rdfs:label		
+ERROR	missing_label	PLANP:0000417	rdfs:label		
+ERROR	missing_label	PLANP:0000418	rdfs:label		
+ERROR	missing_label	PLANP:0000419	rdfs:label		
+ERROR	missing_label	PLANP:0000420	rdfs:label		
+ERROR	missing_label	PLANP:0000421	rdfs:label		
+ERROR	missing_label	PLANP:0000422	rdfs:label		
+ERROR	missing_label	PLANP:0000423	rdfs:label		
+ERROR	missing_label	PLANP:0000424	rdfs:label		
+ERROR	missing_label	PLANP:0000425	rdfs:label		
+ERROR	missing_label	PLANP:0000426	rdfs:label		
+ERROR	missing_label	PLANP:0000427	rdfs:label		
+ERROR	missing_label	PLANP:0000428	rdfs:label		
+ERROR	missing_label	PLANP:0000429	rdfs:label		
+ERROR	missing_label	PLANP:0000430	rdfs:label		
+ERROR	missing_label	PLANP:0000431	rdfs:label		
+ERROR	missing_label	PLANP:0000432	rdfs:label		
+ERROR	missing_label	PLANP:0000433	rdfs:label		
+ERROR	missing_label	PLANP:0000434	rdfs:label		
+ERROR	missing_label	PLANP:0000435	rdfs:label		
+ERROR	missing_label	PLANP:0000436	rdfs:label		
+ERROR	missing_label	PLANP:0000437	rdfs:label		
+ERROR	missing_label	PLANP:0000438	rdfs:label		
+ERROR	missing_label	PLANP:0000439	rdfs:label		
+ERROR	missing_label	PLANP:0000440	rdfs:label		
+ERROR	missing_label	PLANP:0000441	rdfs:label		
+ERROR	missing_label	PLANP:0000442	rdfs:label		
+ERROR	missing_label	PLANP:0000443	rdfs:label		
+ERROR	missing_label	PLANP:0000444	rdfs:label		
+ERROR	missing_label	PLANP:0000445	rdfs:label		
+ERROR	missing_label	PLANP:0000446	rdfs:label		
+ERROR	missing_label	PLANP:0000447	rdfs:label		
+ERROR	missing_label	PLANP:0000448	rdfs:label		
+ERROR	missing_label	PLANP:0000449	rdfs:label		
+ERROR	missing_label	PLANP:0000450	rdfs:label		
+ERROR	missing_label	PLANP:0000451	rdfs:label		
+ERROR	missing_label	PLANP:0000452	rdfs:label		
+ERROR	missing_label	PLANP:0000453	rdfs:label		
+ERROR	missing_label	PLANP:0000454	rdfs:label		
+ERROR	missing_label	PLANP:0000455	rdfs:label		
+ERROR	missing_label	PLANP:0000456	rdfs:label		
+ERROR	missing_label	PLANP:0000457	rdfs:label		
+ERROR	missing_label	PLANP:0000458	rdfs:label		
+ERROR	missing_label	PLANP:0000459	rdfs:label		
+ERROR	missing_label	PLANP:0000460	rdfs:label		
+ERROR	missing_label	PLANP:0000461	rdfs:label		
+ERROR	missing_label	PLANP:0000462	rdfs:label		
+ERROR	missing_label	PLANP:0000463	rdfs:label		
+ERROR	missing_label	PLANP:0000464	rdfs:label		
+ERROR	missing_label	PLANP:0000465	rdfs:label		
+ERROR	missing_label	PLANP:0000466	rdfs:label		
+ERROR	missing_label	PLANP:0000467	rdfs:label		
+ERROR	missing_label	PLANP:0000468	rdfs:label		
+ERROR	missing_label	PLANP:0000469	rdfs:label		
+ERROR	missing_label	PLANP:0000470	rdfs:label		
+ERROR	missing_label	PLANP:0000471	rdfs:label		
+ERROR	missing_label	PLANP:0000472	rdfs:label		
+ERROR	missing_label	PLANP:0000473	rdfs:label		
+ERROR	missing_label	PLANP:0000474	rdfs:label		
+ERROR	missing_label	PLANP:0000475	rdfs:label		
+ERROR	missing_label	PLANP:0000476	rdfs:label		
+ERROR	missing_label	PLANP:0000478	rdfs:label		
+ERROR	missing_label	PLANP:0000479	rdfs:label		
+ERROR	missing_label	PLANP:0000480	rdfs:label		
+ERROR	missing_label	PLANP:0000481	rdfs:label		
+ERROR	missing_label	PLANP:0000482	rdfs:label		
+ERROR	missing_label	PLANP:0000483	rdfs:label		
+ERROR	missing_label	PLANP:0000484	rdfs:label		
+ERROR	missing_label	PLANP:0000485	rdfs:label		
+ERROR	missing_label	PLANP:0000486	rdfs:label		
+ERROR	missing_label	PLANP:0000487	rdfs:label		
+ERROR	missing_label	PLANP:0000488	rdfs:label		
+ERROR	missing_label	PLANP:0000489	rdfs:label		
+ERROR	missing_label	PLANP:0000490	rdfs:label		
+ERROR	missing_label	PLANP:0000491	rdfs:label		
+ERROR	missing_label	PLANP:0000492	rdfs:label		
+ERROR	missing_label	PLANP:0000493	rdfs:label		
+ERROR	missing_label	PLANP:0000494	rdfs:label		
+ERROR	missing_label	PLANP:0000496	rdfs:label		
+ERROR	missing_label	PLANP:0000497	rdfs:label		
+ERROR	missing_label	PLANP:0000498	rdfs:label		
+ERROR	missing_label	PLANP:0000499	rdfs:label		
+ERROR	missing_label	PLANP:0000500	rdfs:label		
+ERROR	missing_label	PLANP:0000501	rdfs:label		
+ERROR	missing_label	PLANP:0000502	rdfs:label		
+ERROR	missing_label	PLANP:0000503	rdfs:label		
+ERROR	missing_label	PLANP:0000504	rdfs:label		
+ERROR	missing_label	PLANP:0000505	rdfs:label		
+ERROR	missing_label	PLANP:0000506	rdfs:label		
+ERROR	missing_label	PLANP:0000507	rdfs:label		
+ERROR	missing_label	PLANP:0000508	rdfs:label		
+ERROR	missing_label	PLANP:0000509	rdfs:label		
+ERROR	missing_label	PLANP:0000510	rdfs:label		
+ERROR	missing_label	PLANP:0000511	rdfs:label		
+ERROR	missing_label	PLANP:0000512	rdfs:label		
+ERROR	missing_label	PLANP:0000513	rdfs:label		
+ERROR	missing_label	PLANP:0000514	rdfs:label		
+ERROR	missing_label	PLANP:0000515	rdfs:label		
+ERROR	missing_label	PLANP:0000518	rdfs:label		
+ERROR	missing_label	PLANP:0000519	rdfs:label		
+ERROR	missing_label	PLANP:0000520	rdfs:label		
+ERROR	missing_label	PLANP:0000521	rdfs:label		
+ERROR	missing_label	PLANP:0000522	rdfs:label		
+ERROR	missing_label	PLANP:0000523	rdfs:label		
+ERROR	missing_label	PLANP:0000524	rdfs:label		
+ERROR	missing_label	PLANP:0000525	rdfs:label		
+ERROR	missing_label	PLANP:0000526	rdfs:label		
+ERROR	missing_label	PLANP:0000527	rdfs:label		
+ERROR	missing_label	PLANP:0000529	rdfs:label		
+ERROR	missing_label	PLANP:0000530	rdfs:label		
+ERROR	missing_label	PLANP:0000531	rdfs:label		
+ERROR	missing_label	PLANP:0000533	rdfs:label		
+ERROR	missing_label	PLANP:0000534	rdfs:label		
+ERROR	missing_label	PLANP:0000535	rdfs:label		
+ERROR	missing_label	PLANP:0000536	rdfs:label		
+ERROR	missing_label	PLANP:0000537	rdfs:label		
+ERROR	missing_label	PLANP:0000538	rdfs:label		
+ERROR	missing_label	PLANP:0000539	rdfs:label		
+ERROR	missing_label	PLANP:0000540	rdfs:label		
+ERROR	missing_label	PLANP:0000541	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_agr	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_aspergillus	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_candida	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_chembl	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_drosophila	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_generic	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_metagenomics	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_mouse	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_pir	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_plant	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_pombe	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_synapse	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_yeast	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#absent_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#cell_quality	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#disposition_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#mpath_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#relational_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#scalar_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#value_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/uberon/core#upper_level	rdfs:label		
+ERROR	missing_label	oboInOwl:Subset	rdfs:label		
+ERROR	missing_label	foaf:depiction	rdfs:label		
+ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0005634	
+ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0042995	
+ERROR	missing_ontology_description	planp.owl	dc11:description		
+ERROR	duplicate_label	GO:0005773	rdfs:label	vacuole	
+ERROR	duplicate_label	PLANA:0000515	rdfs:label	vacuole	
+ERROR	duplicate_label	GO:0005790	rdfs:label	smooth endoplasmic reticulum	
+ERROR	duplicate_label	PLANA:0007515	rdfs:label	smooth endoplasmic reticulum	
+ERROR	duplicate_label	GO:0099503	rdfs:label	secretory vesicle	
+ERROR	duplicate_label	PLANA:0000530	rdfs:label	secretory vesicle	
+ERROR	duplicate_label	GO:0005791	rdfs:label	rough endoplasmic reticulum	
+ERROR	duplicate_label	PLANA:0007514	rdfs:label	rough endoplasmic reticulum	
+ERROR	duplicate_label	GO:0005886	rdfs:label	plasma membrane	
+ERROR	duplicate_label	PLANA:0007509	rdfs:label	plasma membrane	
+ERROR	duplicate_label	GO:0031090	rdfs:label	organelle membrane	
+ERROR	duplicate_label	PLANA:0000524	rdfs:label	organelle membrane	
+ERROR	duplicate_label	GO:0043226	rdfs:label	organelle	
+ERROR	duplicate_label	PLANA:0000525	rdfs:label	organelle	
+ERROR	duplicate_label	GO:0005634	rdfs:label	nucleus	
+ERROR	duplicate_label	PLANA:0000529	rdfs:label	nucleus	
+ERROR	duplicate_label	GO:0005730	rdfs:label	nucleolus	
+ERROR	duplicate_label	PLANA:0000533	rdfs:label	nucleolus	
+ERROR	duplicate_label	GO:0043228	rdfs:label	non-membrane-bounded organelle	
+ERROR	duplicate_label	PLANA:0000531	rdfs:label	non-membrane-bounded organelle	
+ERROR	duplicate_label	CARO:0010000	rdfs:label	multicellular anatomical structure	
+ERROR	duplicate_label	PLANA:0000427	rdfs:label	multicellular anatomical structure	
+ERROR	duplicate_label	GO:0005739	rdfs:label	mitochondrion	
+ERROR	duplicate_label	PLANA:0007512	rdfs:label	mitochondrion	
+ERROR	duplicate_label	GO:0043227	rdfs:label	membrane-bounded organelle	
+ERROR	duplicate_label	PLANA:0000526	rdfs:label	membrane-bounded organelle	
+ERROR	duplicate_label	GO:0016020	rdfs:label	membrane	
+ERROR	duplicate_label	PLANA:0000520	rdfs:label	membrane	
+ERROR	duplicate_label	CARO:0000006	rdfs:label	material anatomical entity	
+ERROR	duplicate_label	UBERON:0000465	rdfs:label	material anatomical entity	
+ERROR	duplicate_label	GO:0005764	rdfs:label	lysosome	
+ERROR	duplicate_label	PLANA:0007518	rdfs:label	lysosome	
+ERROR	duplicate_label	GO:0043229	rdfs:label	intracellular organelle	
+ERROR	duplicate_label	PLANA:0000518	rdfs:label	intracellular organelle	
+ERROR	duplicate_label	GO:0043232	rdfs:label	intracellular non-membrane-bounded organelle	
+ERROR	duplicate_label	PLANA:0000519	rdfs:label	intracellular non-membrane-bounded organelle	
+ERROR	duplicate_label	GO:0043231	rdfs:label	intracellular membrane-bounded organelle	
+ERROR	duplicate_label	PLANA:0000527	rdfs:label	intracellular membrane-bounded organelle	
+ERROR	duplicate_label	CARO:0000007	rdfs:label	immaterial anatomical entity	
+ERROR	duplicate_label	UBERON:0000466	rdfs:label	immaterial anatomical entity	
+ERROR	duplicate_label	GO:0005794	rdfs:label	Golgi apparatus	
+ERROR	duplicate_label	PLANA:0000528	rdfs:label	Golgi apparatus	
+ERROR	duplicate_label	GO:0043230	rdfs:label	extracellular organelle	
+ERROR	duplicate_label	PLANA:0007511	rdfs:label	extracellular organelle	
+ERROR	duplicate_label	GO:0005783	rdfs:label	endoplasmic reticulum	
+ERROR	duplicate_label	PLANA:0007513	rdfs:label	endoplasmic reticulum	
+ERROR	duplicate_label	GO:0005737	rdfs:label	cytoplasm	
+ERROR	duplicate_label	PLANA:0000510	rdfs:label	cytoplasm	
+ERROR	duplicate_label	GO:0005929	rdfs:label	cilium	
+ERROR	duplicate_label	PLANA:0002024	rdfs:label	cilium	
+ERROR	duplicate_label	GO:0098609	rdfs:label	cell-cell adhesion	
+ERROR	duplicate_label	PLANA:0000508	rdfs:label	cell-cell adhesion	
+ERROR	duplicate_label	GO:0042995	rdfs:label	cell projection	
+ERROR	duplicate_label	PLANA:0000501	rdfs:label	cell projection	
+ERROR	duplicate_label	CARO:0000014	rdfs:label	cell part@en	
+ERROR	duplicate_label	GO:0044464	rdfs:label	cell part@en	
+ERROR	duplicate_label	GO:0005623	rdfs:label	cell	
+ERROR	duplicate_label	PLANA:0000499	rdfs:label	cell	
+ERROR	duplicate_label	GO:0098588	rdfs:label	bounding membrane of organelle	
+ERROR	duplicate_label	PLANA:0000521	rdfs:label	bounding membrane of organelle	
+ERROR	duplicate_label	CARO:0000003	rdfs:label	anatomical structure	
+ERROR	duplicate_label	UBERON:0000061	rdfs:label	anatomical structure	
+ERROR	duplicate_label	BSPO:0000070	rdfs:label	anatomical region	
+ERROR	duplicate_label	PLANA:0000102	rdfs:label	anatomical region	
+ERROR	duplicate_label	CARO:0000000	rdfs:label	anatomical entity	
+ERROR	duplicate_label	UBERON:0001062	rdfs:label	anatomical entity	
+ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en	
+ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
+ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
+ERROR	multiple_definitions	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en	
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
+ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.@en	
+ERROR	multiple_definitions	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
+ERROR	multiple_definitions	BFO:0000051	IAO:0000115	Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.	
+ERROR	multiple_definitions	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
+ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)	
+ERROR	multiple_definitions	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
+ERROR	multiple_definitions	BSPO:0000126	IAO:0000115	X in lateral side of Y <=> if X is in left side of Y or X is in right side of Y. X is often, but not always a paired structure	
+ERROR	multiple_definitions	BSPO:0000126	IAO:0000115	X in_lateral_side_of Y <=> if X is in_left_side_of Y or X is in_right_side_of Y. X is often, but not always a paired structure	
+ERROR	multiple_definitions	BSPO:0001107	IAO:0000115	This relation holds when both the deep_to and ajdacent_to relationship similarly hold.	
+ERROR	multiple_definitions	BSPO:0001107	IAO:0000115	x immediately deep to y iff x deep_to y and x is contiguous with y.	
+ERROR	multiple_definitions	GO:0008150	IAO:0000115	A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.	
+ERROR	multiple_definitions	GO:0008150	IAO:0000115	Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.	
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.	
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
+ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Add as annotation triples in the granting ontology@en	
+ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Use on obsolete terms, relating the term to another term that can be used as a substitute@en	
+ERROR	multiple_definitions	RO:0002131	IAO:0000115	A overlaps B if they share some part in common.	
+ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
+ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.	
+ERROR	multiple_definitions	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
+ERROR	multiple_definitions	RO:0002220	IAO:0000115	x adjacent_to y iff: x and y share a boundary	
+ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+ERROR	multiple_definitions	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
+ERROR	multiple_definitions	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
+ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
+ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
+ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
+ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
+ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
+ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
+ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
+ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
+ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
+ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
+ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
+ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
+ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities and are executing molecular processes that are directly causally connected.	
+ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other.	
+ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.	
+ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities a and b when the execution of a activates or inhibits the activity of b	
+ERROR	multiple_definitions	RO:0002449	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.	
+ERROR	multiple_definitions	RO:0002449	IAO:0000115	Holds between molecules a and b if and only if a executes a process that directly diminishes a process executed by b.	
+ERROR	multiple_definitions	RO:0002450	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.	
+ERROR	multiple_definitions	RO:0002450	IAO:0000115	Holds between molecules a and b if and only if a executes a process that directly activates a process executed by b.	
+ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in process'	
+ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in'	
+ERROR	multiple_definitions	RO:0002629	IAO:0000115	Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.	
+ERROR	multiple_definitions	RO:0002629	IAO:0000115	Process(P1) directly regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.	
+ERROR	multiple_definitions	RO:0002630	IAO:0000115	Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.	
+ERROR	multiple_definitions	RO:0002630	IAO:0000115	Process(P1) directly regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.	
+ERROR	missing_ontology_license	planp.owl	dc:license		
+ERROR	missing_ontology_title	planp.owl	dc11:title		
+ERROR	multiple_labels	BFO:0000050	rdfs:label	part of	
+ERROR	multiple_labels	BFO:0000050	rdfs:label	part of@en	
+ERROR	multiple_labels	BFO:0000050	rdfs:label	part_of	
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has part	
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has part@en	
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has_part	
+ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded by@en	
+ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded_by	
+ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes	
+ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes@en	
+ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in	
+ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in@en	
+ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process	
+ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process@en	
+ERROR	multiple_labels	BSPO:0000107	rdfs:label	deep to	
+ERROR	multiple_labels	BSPO:0000107	rdfs:label	deep_to	
+ERROR	multiple_labels	BSPO:0000108	rdfs:label	superficial to	
+ERROR	multiple_labels	BSPO:0000108	rdfs:label	superficial_to	
+ERROR	multiple_labels	BSPO:0000126	rdfs:label	in lateral side of	
+ERROR	multiple_labels	BSPO:0000126	rdfs:label	in_lateral_side_of	
+ERROR	multiple_labels	BSPO:0001107	rdfs:label	immediately deep to	
+ERROR	multiple_labels	BSPO:0001107	rdfs:label	immediately_deep_to	
+ERROR	multiple_labels	BSPO:0015014	rdfs:label	immediately superficial to	
+ERROR	multiple_labels	BSPO:0015014	rdfs:label	immediately_superficial_to	
+ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity	
+ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity@en	
+ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure	
+ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure@en	
+ERROR	multiple_labels	CARO:0000003	rdfs:label	connected anatomical structure@en	
+ERROR	multiple_labels	CARO:0000006	rdfs:label	material anatomical entity	
+ERROR	multiple_labels	CARO:0000006	rdfs:label	material anatomical entity@en	
+ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus	
+ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus@en	
+ERROR	multiple_labels	GO:0016020	rdfs:label	membrane	
+ERROR	multiple_labels	GO:0016020	rdfs:label	membrane@en	
+ERROR	multiple_labels	GO:0019787	rdfs:label	small conjugating protein ligase activity	
+ERROR	multiple_labels	GO:0019787	rdfs:label	ubiquitin-like protein transferase activity	
+ERROR	multiple_labels	GO:0042995	rdfs:label	cell projection	
+ERROR	multiple_labels	GO:0042995	rdfs:label	cell projection@en	
+ERROR	multiple_labels	GO:0043005	rdfs:label	neuron projection	
+ERROR	multiple_labels	GO:0043005	rdfs:label	neuron projection@en	
+ERROR	multiple_labels	GO:0044403	rdfs:label	symbiosis, encompassing mutualism through parasitism	
+ERROR	multiple_labels	GO:0044403	rdfs:label	symbiotic process	
+ERROR	multiple_labels	GO:0045202	rdfs:label	synapse	
+ERROR	multiple_labels	GO:0045202	rdfs:label	synapse@en	
+ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage	
+ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage@en	
+ERROR	multiple_labels	IAO:0000115	rdfs:label	definition	
+ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en	
+ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note	
+ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note@en	
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en	
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes	
+ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to	
+ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to@en	
+ERROR	multiple_labels	IAO:0000425	rdfs:label	expand assertion to	
+ERROR	multiple_labels	IAO:0000425	rdfs:label	expand assertion to@en	
+ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by	
+ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en	
+ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of	
+ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of@en	
+ERROR	multiple_labels	RO:0001019	rdfs:label	contains	
+ERROR	multiple_labels	RO:0001019	rdfs:label	contains@en	
+ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by@en	
+ERROR	multiple_labels	RO:0002087	rdfs:label	immediately_preceded_by	
+ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps	
+ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps@en	
+ERROR	multiple_labels	RO:0002161	rdfs:label	never in taxon	
+ERROR	multiple_labels	RO:0002161	rdfs:label	never_in_taxon	
+ERROR	multiple_labels	RO:0002180	rdfs:label	has component	
+ERROR	multiple_labels	RO:0002180	rdfs:label	has component@en	
+ERROR	multiple_labels	RO:0002202	rdfs:label	develops from@en	
+ERROR	multiple_labels	RO:0002202	rdfs:label	develops_from	
+ERROR	multiple_labels	RO:0002203	rdfs:label	develops into@en	
+ERROR	multiple_labels	RO:0002203	rdfs:label	develops_into	
+ERROR	multiple_labels	RO:0002211	rdfs:label	regulates	
+ERROR	multiple_labels	RO:0002211	rdfs:label	regulates@en	
+ERROR	multiple_labels	RO:0002212	rdfs:label	negatively regulates	
+ERROR	multiple_labels	RO:0002212	rdfs:label	negatively regulates@en	
+ERROR	multiple_labels	RO:0002213	rdfs:label	positively regulates	
+ERROR	multiple_labels	RO:0002213	rdfs:label	positively regulates@en	
+ERROR	multiple_labels	RO:0002215	rdfs:label	capable of	
+ERROR	multiple_labels	RO:0002215	rdfs:label	capable of@en	
+ERROR	multiple_labels	RO:0002216	rdfs:label	capable of part of	
+ERROR	multiple_labels	RO:0002216	rdfs:label	capable of part of@en	
+ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent to	
+ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent to@en	
+ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent_to	
+ERROR	multiple_labels	RO:0002254	rdfs:label	has developmental contribution from	
+ERROR	multiple_labels	RO:0002254	rdfs:label	has developmental contribution from@en	
+ERROR	multiple_labels	RO:0002255	rdfs:label	developmentally contributes to@en	
+ERROR	multiple_labels	RO:0002255	rdfs:label	developmentally_contributes_to	
+ERROR	multiple_labels	RO:0002258	rdfs:label	developmentally preceded by	
+ERROR	multiple_labels	RO:0002258	rdfs:label	developmentally preceded by@en	
+ERROR	multiple_labels	RO:0002328	rdfs:label	functionally related to	
+ERROR	multiple_labels	RO:0002328	rdfs:label	functionally related to@en	
+ERROR	multiple_labels	RO:0002329	rdfs:label	part of structure that is capable of	
+ERROR	multiple_labels	RO:0002329	rdfs:label	part of structure that is capable of@en	
+ERROR	multiple_labels	RO:0002352	rdfs:label	input of	
+ERROR	multiple_labels	RO:0002352	rdfs:label	input of@en	
+ERROR	multiple_labels	RO:0002385	rdfs:label	has potential to developmentally contribute to	
+ERROR	multiple_labels	RO:0002385	rdfs:label	has potential to developmentally contribute to@en	
+ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into	
+ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into@en	
+ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into	
+ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into@en	
+ERROR	multiple_labels	RO:0002432	rdfs:label	enables activity in	
+ERROR	multiple_labels	RO:0002432	rdfs:label	is active in	
+ERROR	multiple_labels	RO:0002448	rdfs:label	activity directly regulates activity of	
+ERROR	multiple_labels	RO:0002448	rdfs:label	molecularly controls	
+ERROR	multiple_labels	RO:0002449	rdfs:label	activity directly negatively regulates activity of	
+ERROR	multiple_labels	RO:0002449	rdfs:label	molecularly decreases activity of	
+ERROR	multiple_labels	RO:0002450	rdfs:label	activity directly positively regulates activity of	
+ERROR	multiple_labels	RO:0002450	rdfs:label	molecularly increases activity of	
+ERROR	multiple_labels	RO:0002464	rdfs:label	helper property	
+ERROR	multiple_labels	RO:0002464	rdfs:label	helper property (not for use in curation)	
+ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in	
+ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in process	
+ERROR	multiple_labels	RO:0002604	rdfs:label	is opposite of	
+ERROR	multiple_labels	RO:0002604	rdfs:label	is_opposite_of	
+ERROR	multiple_labels	RO:0002608	rdfs:label	has causal agent	
+ERROR	multiple_labels	RO:0002608	rdfs:label	process has causal agent	
+ERROR	multiple_labels	RO:0003000	rdfs:label	produces	
+ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
+ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
+ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
+ERROR	multiple_labels	oboInOwl:SubsetProperty	rdfs:label	subset property	
+ERROR	multiple_labels	oboInOwl:SubsetProperty	rdfs:label	subset_property	
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference	
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	xRef	
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym	
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has_exact_synonym	
+ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset	
+ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset	
+ERROR	label_whitespace	PLANA:0007502	rdfs:label	obsolete coronal plane 	
+WARN	annotation_whitespace	BSPO:0000026	oboInOwl:hasExactSynonym	anterodorsal region 	
+WARN	annotation_whitespace	BSPO:0000027	oboInOwl:hasExactSynonym	anteroventral region 	
+WARN	annotation_whitespace	BSPO:0001001	oboInOwl:hasRelatedSynonym	proximal-distal axis 	
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	2012-04-05:     Barry Smith        The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.        Can you fix to something like:        A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.        Alan Ruttenberg        Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.         On the specifics of the proposed definition:        We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.         Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.         We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en	
+WARN	annotation_whitespace	PLANA:0000465	rdfs:comment	causes problems with is a and part of relationships for inner and outer pharynx nerve plexus in that both are true. 	
+WARN	annotation_whitespace	PLANA:0000493	rdfs:comment	we will just use commissural neuron moving forward 	
+WARN	annotation_whitespace	PLANA:0007502	rdfs:label	obsolete coronal plane 	
+WARN	annotation_whitespace	RO:0001018	IAO:0000116	Intended meaning:    domain: material entity    range: spatial region or site (immaterial continuant)            @en	
+WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 	
+WARN	annotation_whitespace	RO:0002163	IAO:0000116	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en	
+WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 	
+WARN	annotation_whitespace	RO:0002256	IAO:0000119	 Developmental Biology, Gilbert, 8th edition, figure 6.5(F)	
+WARN	annotation_whitespace	RO:0002326	IAO:0000232	In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. 	
+WARN	duplicate_exact_synonym	GO:0005739	oboInOwl:hasExactSynonym	mitochondria	
+WARN	duplicate_exact_synonym	PLANA:0007512	oboInOwl:hasExactSynonym	mitochondria	
+WARN	duplicate_exact_synonym	BSPO:0001001	oboInOwl:hasExactSynonym	mediolateral axis	
+WARN	duplicate_exact_synonym	PLANA:0007522	oboInOwl:hasExactSynonym	mediolateral axis	
+WARN	duplicate_exact_synonym	PLANA:0000069	oboInOwl:hasExactSynonym	inner longitudinal muscle layer	
+WARN	duplicate_exact_synonym	PLANA:0000475	oboInOwl:hasExactSynonym	inner longitudinal muscle layer	
+WARN	duplicate_exact_synonym	PLANA:0000472	oboInOwl:hasExactSynonym	epithelial pharynx lining	
+WARN	duplicate_exact_synonym	PLANA:0007534	oboInOwl:hasExactSynonym	epithelial pharynx lining	
+WARN	duplicate_exact_synonym	BSPO:0000016	oboInOwl:hasExactSynonym	DV axis	
+WARN	duplicate_exact_synonym	PLANA:0007520	oboInOwl:hasExactSynonym	DV axis	
+WARN	duplicate_exact_synonym	BSPO:0000017	oboInOwl:hasExactSynonym	dextro-sinister axis	
+WARN	duplicate_exact_synonym	PLANA:0007521	oboInOwl:hasExactSynonym	dextro-sinister axis	
+WARN	duplicate_exact_synonym	GO:0005886	oboInOwl:hasExactSynonym	cytoplasmic membrane	
+WARN	duplicate_exact_synonym	PLANA:0007509	oboInOwl:hasExactSynonym	cytoplasmic membrane	
+WARN	duplicate_exact_synonym	GO:0005886	oboInOwl:hasExactSynonym	cell membrane	
+WARN	duplicate_exact_synonym	PLANA:0007509	oboInOwl:hasExactSynonym	cell membrane	
+WARN	duplicate_exact_synonym	PLANA:0000001	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000003	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000004	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000005	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000006	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000007	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000011	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000015	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000018	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000019	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000021	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000022	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000029	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000030	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000032	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000038	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000041	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000042	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000053	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000056	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000058	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000059	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000060	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000063	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000064	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000065	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000067	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000068	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000076	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000080	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000085	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000087	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000089	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000098	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000104	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000105	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000110	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000113	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000114	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000116	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000117	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000118	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000119	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000121	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000122	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000123	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000124	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000125	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000126	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000127	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000128	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000130	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000131	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000134	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000135	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000140	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000141	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000142	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000143	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000201	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000211	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000214	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000215	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000217	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000218	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000222	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000227	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000228	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000229	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000230	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000234	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000237	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000239	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000409	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000410	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000417	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000418	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000421	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000422	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000423	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000427	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000430	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000431	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000462	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000466	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000467	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000468	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000482	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000483	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000484	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000494	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000499	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000501	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000502	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000504	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000505	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000506	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000507	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000508	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000509	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000510	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000513	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000514	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000515	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000518	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000519	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000520	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000521	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000522	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000523	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000524	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000525	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000526	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000527	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000528	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000529	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000530	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000531	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000532	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000533	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000534	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000535	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000536	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000537	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000539	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000540	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000543	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000547	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000550	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000552	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000558	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000561	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000562	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000565	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0000566	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002023	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002024	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002025	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002031	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002032	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002053	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002063	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002079	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002089	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002090	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002095	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002118	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002119	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002120	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002133	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002136	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002140	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002141	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004504	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004511	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004512	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004513	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004514	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004516	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004517	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004518	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004519	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004521	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004527	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004529	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004530	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004531	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004532	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004533	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0004534	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007503	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007511	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007513	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007514	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007515	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007516	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007518	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007539	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007540	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007541	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007546	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007547	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007548	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007550	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007551	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007553	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007555	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007556	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007557	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007558	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0007559	oboInOwl:hasExactSynonym		
+WARN	missing_definition	BFO:0000001	IAO:0000115		
+WARN	missing_definition	BFO:0000006	IAO:0000115		
+WARN	missing_definition	BFO:0000016	IAO:0000115		
+WARN	missing_definition	BFO:0000019	IAO:0000115		
+WARN	missing_definition	BFO:0000141	IAO:0000115		
+WARN	missing_definition	BSPO:0000000	IAO:0000115		
+WARN	missing_definition	BSPO:0000006	IAO:0000115		
+WARN	missing_definition	BSPO:0000007	IAO:0000115		
+WARN	missing_definition	BSPO:0000008	IAO:0000115		
+WARN	missing_definition	BSPO:0000009	IAO:0000115		
+WARN	missing_definition	BSPO:0000012	IAO:0000115		
+WARN	missing_definition	BSPO:0000021	IAO:0000115		
+WARN	missing_definition	BSPO:0000023	IAO:0000115		
+WARN	missing_definition	BSPO:0000024	IAO:0000115		
+WARN	missing_definition	BSPO:0000033	IAO:0000115		
+WARN	missing_definition	BSPO:0000034	IAO:0000115		
+WARN	missing_definition	BSPO:0000036	IAO:0000115		
+WARN	missing_definition	BSPO:0000037	IAO:0000115		
+WARN	missing_definition	BSPO:0000038	IAO:0000115		
+WARN	missing_definition	BSPO:0000039	IAO:0000115		
+WARN	missing_definition	BSPO:0000041	IAO:0000115		
+WARN	missing_definition	BSPO:0000042	IAO:0000115		
+WARN	missing_definition	BSPO:0000043	IAO:0000115		
+WARN	missing_definition	BSPO:0000044	IAO:0000115		
+WARN	missing_definition	BSPO:0000045	IAO:0000115		
+WARN	missing_definition	BSPO:0000046	IAO:0000115		
+WARN	missing_definition	BSPO:0000047	IAO:0000115		
+WARN	missing_definition	BSPO:0000048	IAO:0000115		
+WARN	missing_definition	BSPO:0000049	IAO:0000115		
+WARN	missing_definition	BSPO:0000051	IAO:0000115		
+WARN	missing_definition	BSPO:0000052	IAO:0000115		
+WARN	missing_definition	BSPO:0000053	IAO:0000115		
+WARN	missing_definition	BSPO:0000066	IAO:0000115		
+WARN	missing_definition	BSPO:0000067	IAO:0000115		
+WARN	missing_definition	BSPO:0000075	IAO:0000115		
+WARN	missing_definition	BSPO:0000076	IAO:0000115		
+WARN	missing_definition	BSPO:0000077	IAO:0000115		
+WARN	missing_definition	BSPO:0000078	IAO:0000115		
+WARN	missing_definition	BSPO:0000081	IAO:0000115		
+WARN	missing_definition	BSPO:0000083	IAO:0000115		
+WARN	missing_definition	BSPO:0000086	IAO:0000115		
+WARN	missing_definition	BSPO:0000090	IAO:0000115		
+WARN	missing_definition	BSPO:0000092	IAO:0000115		
+WARN	missing_definition	BSPO:0000093	IAO:0000115		
+WARN	missing_definition	BSPO:0000094	IAO:0000115		
+WARN	missing_definition	BSPO:0000127	IAO:0000115		
+WARN	missing_definition	BSPO:0000128	IAO:0000115		
+WARN	missing_definition	BSPO:0000197	IAO:0000115		
+WARN	missing_definition	BSPO:0000201	IAO:0000115		
+WARN	missing_definition	BSPO:0000202	IAO:0000115		
+WARN	missing_definition	BSPO:0000376	IAO:0000115		
+WARN	missing_definition	BSPO:0000377	IAO:0000115		
+WARN	missing_definition	BSPO:0000378	IAO:0000115		
+WARN	missing_definition	BSPO:0000381	IAO:0000115		
+WARN	missing_definition	BSPO:0000383	IAO:0000115		
+WARN	missing_definition	BSPO:0000671	IAO:0000115		
+WARN	missing_definition	BSPO:0000672	IAO:0000115		
+WARN	missing_definition	BSPO:0000673	IAO:0000115		
+WARN	missing_definition	BSPO:0000674	IAO:0000115		
+WARN	missing_definition	BSPO:0000677	IAO:0000115		
+WARN	missing_definition	BSPO:0000678	IAO:0000115		
+WARN	missing_definition	BSPO:0000679	IAO:0000115		
+WARN	missing_definition	BSPO:0000680	IAO:0000115		
+WARN	missing_definition	BSPO:0000682	IAO:0000115		
+WARN	missing_definition	BSPO:0000683	IAO:0000115		
+WARN	missing_definition	BSPO:0000684	IAO:0000115		
+WARN	missing_definition	BSPO:0000685	IAO:0000115		
+WARN	missing_definition	BSPO:0000686	IAO:0000115		
+WARN	missing_definition	BSPO:0000687	IAO:0000115		
+WARN	missing_definition	BSPO:0000688	IAO:0000115		
+WARN	missing_definition	BSPO:0000689	IAO:0000115		
+WARN	missing_definition	BSPO:0015001	IAO:0000115		
+WARN	missing_definition	BSPO:0015007	IAO:0000115		
+WARN	missing_definition	BSPO:0015008	IAO:0000115		
+WARN	missing_definition	CARO:0000014	IAO:0000115		
+WARN	missing_definition	CARO:0001010	IAO:0000115		
+WARN	missing_definition	CARO:0010000	IAO:0000115		
+WARN	missing_definition	CARO:0030000	IAO:0000115		
+WARN	missing_definition	CL:0000000	IAO:0000115		
+WARN	missing_definition	CL:0000540	IAO:0000115		
+WARN	missing_definition	ENVO:01000254	IAO:0000115		
+WARN	missing_definition	IAO:0000027	IAO:0000115		
+WARN	missing_definition	IAO:0000030	IAO:0000115		
+WARN	missing_definition	IAO:0000114	IAO:0000115		
+WARN	missing_definition	IAO:0000425	IAO:0000115		
+WARN	missing_definition	PATO:0000068	IAO:0000115		
+WARN	missing_definition	PATO:0002062	IAO:0000115		
+WARN	missing_definition	PLANA:0000077	IAO:0000115		
+WARN	missing_definition	PLANA:0007501	IAO:0000115		
+WARN	missing_definition	PLANP:00000000	IAO:0000115		
+WARN	missing_definition	PLANP:0000001	IAO:0000115		
+WARN	missing_definition	PLANP:0000002	IAO:0000115		
+WARN	missing_definition	PLANP:0000003	IAO:0000115		
+WARN	missing_definition	PLANP:0000004	IAO:0000115		
+WARN	missing_definition	PLANP:0000005	IAO:0000115		
+WARN	missing_definition	PLANP:0000006	IAO:0000115		
+WARN	missing_definition	PLANP:0000007	IAO:0000115		
+WARN	missing_definition	PLANP:0000008	IAO:0000115		
+WARN	missing_definition	PLANP:0000009	IAO:0000115		
+WARN	missing_definition	PLANP:0000010	IAO:0000115		
+WARN	missing_definition	PLANP:0000011	IAO:0000115		
+WARN	missing_definition	PLANP:0000012	IAO:0000115		
+WARN	missing_definition	PLANP:0000013	IAO:0000115		
+WARN	missing_definition	PLANP:0000014	IAO:0000115		
+WARN	missing_definition	PLANP:0000015	IAO:0000115		
+WARN	missing_definition	PLANP:0000016	IAO:0000115		
+WARN	missing_definition	PLANP:0000017	IAO:0000115		
+WARN	missing_definition	PLANP:0000018	IAO:0000115		
+WARN	missing_definition	PLANP:0000019	IAO:0000115		
+WARN	missing_definition	PLANP:0000020	IAO:0000115		
+WARN	missing_definition	PLANP:0000021	IAO:0000115		
+WARN	missing_definition	PLANP:0000022	IAO:0000115		
+WARN	missing_definition	PLANP:0000023	IAO:0000115		
+WARN	missing_definition	PLANP:0000024	IAO:0000115		
+WARN	missing_definition	PLANP:0000025	IAO:0000115		
+WARN	missing_definition	PLANP:0000026	IAO:0000115		
+WARN	missing_definition	PLANP:0000027	IAO:0000115		
+WARN	missing_definition	PLANP:0000028	IAO:0000115		
+WARN	missing_definition	PLANP:0000029	IAO:0000115		
+WARN	missing_definition	PLANP:0000030	IAO:0000115		
+WARN	missing_definition	PLANP:0000031	IAO:0000115		
+WARN	missing_definition	PLANP:0000032	IAO:0000115		
+WARN	missing_definition	PLANP:0000033	IAO:0000115		
+WARN	missing_definition	PLANP:0000034	IAO:0000115		
+WARN	missing_definition	PLANP:0000035	IAO:0000115		
+WARN	missing_definition	PLANP:0000036	IAO:0000115		
+WARN	missing_definition	PLANP:0000037	IAO:0000115		
+WARN	missing_definition	PLANP:0000038	IAO:0000115		
+WARN	missing_definition	PLANP:0000039	IAO:0000115		
+WARN	missing_definition	PLANP:0000040	IAO:0000115		
+WARN	missing_definition	PLANP:0000041	IAO:0000115		
+WARN	missing_definition	PLANP:0000042	IAO:0000115		
+WARN	missing_definition	PLANP:0000043	IAO:0000115		
+WARN	missing_definition	PLANP:0000044	IAO:0000115		
+WARN	missing_definition	PLANP:0000045	IAO:0000115		
+WARN	missing_definition	PLANP:0000046	IAO:0000115		
+WARN	missing_definition	PLANP:0000047	IAO:0000115		
+WARN	missing_definition	PLANP:0000048	IAO:0000115		
+WARN	missing_definition	PLANP:0000049	IAO:0000115		
+WARN	missing_definition	PLANP:0000050	IAO:0000115		
+WARN	missing_definition	PLANP:0000051	IAO:0000115		
+WARN	missing_definition	PLANP:0000052	IAO:0000115		
+WARN	missing_definition	PLANP:0000053	IAO:0000115		
+WARN	missing_definition	PLANP:0000054	IAO:0000115		
+WARN	missing_definition	PLANP:0000055	IAO:0000115		
+WARN	missing_definition	PLANP:0000056	IAO:0000115		
+WARN	missing_definition	PLANP:0000057	IAO:0000115		
+WARN	missing_definition	PLANP:0000058	IAO:0000115		
+WARN	missing_definition	PLANP:0000059	IAO:0000115		
+WARN	missing_definition	PLANP:0000060	IAO:0000115		
+WARN	missing_definition	PLANP:0000061	IAO:0000115		
+WARN	missing_definition	PLANP:0000062	IAO:0000115		
+WARN	missing_definition	PLANP:0000063	IAO:0000115		
+WARN	missing_definition	PLANP:0000064	IAO:0000115		
+WARN	missing_definition	PLANP:0000065	IAO:0000115		
+WARN	missing_definition	PLANP:0000066	IAO:0000115		
+WARN	missing_definition	PLANP:0000067	IAO:0000115		
+WARN	missing_definition	PLANP:0000068	IAO:0000115		
+WARN	missing_definition	PLANP:0000069	IAO:0000115		
+WARN	missing_definition	PLANP:0000070	IAO:0000115		
+WARN	missing_definition	PLANP:0000071	IAO:0000115		
+WARN	missing_definition	PLANP:0000072	IAO:0000115		
+WARN	missing_definition	PLANP:0000073	IAO:0000115		
+WARN	missing_definition	PLANP:0000074	IAO:0000115		
+WARN	missing_definition	PLANP:0000075	IAO:0000115		
+WARN	missing_definition	PLANP:0000076	IAO:0000115		
+WARN	missing_definition	PLANP:0000077	IAO:0000115		
+WARN	missing_definition	PLANP:0000078	IAO:0000115		
+WARN	missing_definition	PLANP:0000079	IAO:0000115		
+WARN	missing_definition	PLANP:0000080	IAO:0000115		
+WARN	missing_definition	PLANP:0000081	IAO:0000115		
+WARN	missing_definition	PLANP:0000082	IAO:0000115		
+WARN	missing_definition	PLANP:0000083	IAO:0000115		
+WARN	missing_definition	PLANP:0000084	IAO:0000115		
+WARN	missing_definition	PLANP:0000085	IAO:0000115		
+WARN	missing_definition	PLANP:0000086	IAO:0000115		
+WARN	missing_definition	PLANP:0000087	IAO:0000115		
+WARN	missing_definition	PLANP:0000088	IAO:0000115		
+WARN	missing_definition	PLANP:0000089	IAO:0000115		
+WARN	missing_definition	PLANP:0000090	IAO:0000115		
+WARN	missing_definition	PLANP:0000091	IAO:0000115		
+WARN	missing_definition	PLANP:0000092	IAO:0000115		
+WARN	missing_definition	PLANP:0000093	IAO:0000115		
+WARN	missing_definition	PLANP:0000094	IAO:0000115		
+WARN	missing_definition	PLANP:0000095	IAO:0000115		
+WARN	missing_definition	PLANP:0000096	IAO:0000115		
+WARN	missing_definition	PLANP:0000097	IAO:0000115		
+WARN	missing_definition	PLANP:0000098	IAO:0000115		
+WARN	missing_definition	PLANP:0000099	IAO:0000115		
+WARN	missing_definition	PLANP:0000100	IAO:0000115		
+WARN	missing_definition	PLANP:0000101	IAO:0000115		
+WARN	missing_definition	PLANP:0000102	IAO:0000115		
+WARN	missing_definition	PLANP:0000103	IAO:0000115		
+WARN	missing_definition	PLANP:0000104	IAO:0000115		
+WARN	missing_definition	PLANP:0000105	IAO:0000115		
+WARN	missing_definition	PLANP:0000106	IAO:0000115		
+WARN	missing_definition	PLANP:0000107	IAO:0000115		
+WARN	missing_definition	PLANP:0000108	IAO:0000115		
+WARN	missing_definition	PLANP:0000109	IAO:0000115		
+WARN	missing_definition	PLANP:0000110	IAO:0000115		
+WARN	missing_definition	PLANP:0000111	IAO:0000115		
+WARN	missing_definition	PLANP:0000112	IAO:0000115		
+WARN	missing_definition	PLANP:0000113	IAO:0000115		
+WARN	missing_definition	PLANP:0000114	IAO:0000115		
+WARN	missing_definition	PLANP:0000115	IAO:0000115		
+WARN	missing_definition	PLANP:0000116	IAO:0000115		
+WARN	missing_definition	PLANP:0000117	IAO:0000115		
+WARN	missing_definition	PLANP:0000118	IAO:0000115		
+WARN	missing_definition	PLANP:0000119	IAO:0000115		
+WARN	missing_definition	PLANP:0000120	IAO:0000115		
+WARN	missing_definition	PLANP:0000121	IAO:0000115		
+WARN	missing_definition	PLANP:0000122	IAO:0000115		
+WARN	missing_definition	PLANP:0000123	IAO:0000115		
+WARN	missing_definition	PLANP:0000124	IAO:0000115		
+WARN	missing_definition	PLANP:0000125	IAO:0000115		
+WARN	missing_definition	PLANP:0000126	IAO:0000115		
+WARN	missing_definition	PLANP:0000127	IAO:0000115		
+WARN	missing_definition	PLANP:0000128	IAO:0000115		
+WARN	missing_definition	PLANP:0000129	IAO:0000115		
+WARN	missing_definition	PLANP:0000130	IAO:0000115		
+WARN	missing_definition	PLANP:0000131	IAO:0000115		
+WARN	missing_definition	PLANP:0000132	IAO:0000115		
+WARN	missing_definition	PLANP:0000133	IAO:0000115		
+WARN	missing_definition	PLANP:0000134	IAO:0000115		
+WARN	missing_definition	PLANP:0000135	IAO:0000115		
+WARN	missing_definition	PLANP:0000136	IAO:0000115		
+WARN	missing_definition	PLANP:0000137	IAO:0000115		
+WARN	missing_definition	PLANP:0000138	IAO:0000115		
+WARN	missing_definition	PLANP:0000139	IAO:0000115		
+WARN	missing_definition	PLANP:0000140	IAO:0000115		
+WARN	missing_definition	PLANP:0000141	IAO:0000115		
+WARN	missing_definition	PLANP:0000142	IAO:0000115		
+WARN	missing_definition	PLANP:0000143	IAO:0000115		
+WARN	missing_definition	PLANP:0000144	IAO:0000115		
+WARN	missing_definition	PLANP:0000145	IAO:0000115		
+WARN	missing_definition	PLANP:0000146	IAO:0000115		
+WARN	missing_definition	PLANP:0000147	IAO:0000115		
+WARN	missing_definition	PLANP:0000148	IAO:0000115		
+WARN	missing_definition	PLANP:0000149	IAO:0000115		
+WARN	missing_definition	PLANP:0000150	IAO:0000115		
+WARN	missing_definition	PLANP:0000151	IAO:0000115		
+WARN	missing_definition	PLANP:0000152	IAO:0000115		
+WARN	missing_definition	PLANP:0000153	IAO:0000115		
+WARN	missing_definition	PLANP:0000154	IAO:0000115		
+WARN	missing_definition	PLANP:0000155	IAO:0000115		
+WARN	missing_definition	PLANP:0000156	IAO:0000115		
+WARN	missing_definition	PLANP:0000157	IAO:0000115		
+WARN	missing_definition	PLANP:0000158	IAO:0000115		
+WARN	missing_definition	PLANP:0000159	IAO:0000115		
+WARN	missing_definition	PLANP:0000160	IAO:0000115		
+WARN	missing_definition	PLANP:0000161	IAO:0000115		
+WARN	missing_definition	PLANP:0000162	IAO:0000115		
+WARN	missing_definition	PLANP:0000163	IAO:0000115		
+WARN	missing_definition	PLANP:0000164	IAO:0000115		
+WARN	missing_definition	PLANP:0000165	IAO:0000115		
+WARN	missing_definition	PLANP:0000166	IAO:0000115		
+WARN	missing_definition	PLANP:0000167	IAO:0000115		
+WARN	missing_definition	PLANP:0000168	IAO:0000115		
+WARN	missing_definition	PLANP:0000169	IAO:0000115		
+WARN	missing_definition	PLANP:0000170	IAO:0000115		
+WARN	missing_definition	PLANP:0000171	IAO:0000115		
+WARN	missing_definition	PLANP:0000172	IAO:0000115		
+WARN	missing_definition	PLANP:0000173	IAO:0000115		
+WARN	missing_definition	PLANP:0000174	IAO:0000115		
+WARN	missing_definition	PLANP:0000175	IAO:0000115		
+WARN	missing_definition	PLANP:0000176	IAO:0000115		
+WARN	missing_definition	PLANP:0000177	IAO:0000115		
+WARN	missing_definition	PLANP:0000178	IAO:0000115		
+WARN	missing_definition	PLANP:0000179	IAO:0000115		
+WARN	missing_definition	PLANP:0000180	IAO:0000115		
+WARN	missing_definition	PLANP:0000181	IAO:0000115		
+WARN	missing_definition	PLANP:0000182	IAO:0000115		
+WARN	missing_definition	PLANP:0000183	IAO:0000115		
+WARN	missing_definition	PLANP:0000184	IAO:0000115		
+WARN	missing_definition	PLANP:0000185	IAO:0000115		
+WARN	missing_definition	PLANP:0000186	IAO:0000115		
+WARN	missing_definition	PLANP:0000187	IAO:0000115		
+WARN	missing_definition	PLANP:0000188	IAO:0000115		
+WARN	missing_definition	PLANP:0000189	IAO:0000115		
+WARN	missing_definition	PLANP:0000190	IAO:0000115		
+WARN	missing_definition	PLANP:0000191	IAO:0000115		
+WARN	missing_definition	PLANP:0000192	IAO:0000115		
+WARN	missing_definition	PLANP:0000193	IAO:0000115		
+WARN	missing_definition	PLANP:0000194	IAO:0000115		
+WARN	missing_definition	PLANP:0000195	IAO:0000115		
+WARN	missing_definition	PLANP:0000196	IAO:0000115		
+WARN	missing_definition	PLANP:0000197	IAO:0000115		
+WARN	missing_definition	PLANP:0000198	IAO:0000115		
+WARN	missing_definition	PLANP:0000199	IAO:0000115		
+WARN	missing_definition	PLANP:0000200	IAO:0000115		
+WARN	missing_definition	PLANP:0000201	IAO:0000115		
+WARN	missing_definition	PLANP:0000202	IAO:0000115		
+WARN	missing_definition	PLANP:0000203	IAO:0000115		
+WARN	missing_definition	PLANP:0000204	IAO:0000115		
+WARN	missing_definition	PLANP:0000205	IAO:0000115		
+WARN	missing_definition	PLANP:0000206	IAO:0000115		
+WARN	missing_definition	PLANP:0000207	IAO:0000115		
+WARN	missing_definition	PLANP:0000208	IAO:0000115		
+WARN	missing_definition	PLANP:0000209	IAO:0000115		
+WARN	missing_definition	PLANP:0000210	IAO:0000115		
+WARN	missing_definition	PLANP:0000211	IAO:0000115		
+WARN	missing_definition	PLANP:0000212	IAO:0000115		
+WARN	missing_definition	PLANP:0000213	IAO:0000115		
+WARN	missing_definition	PLANP:0000214	IAO:0000115		
+WARN	missing_definition	PLANP:0000215	IAO:0000115		
+WARN	missing_definition	PLANP:0000216	IAO:0000115		
+WARN	missing_definition	PLANP:0000217	IAO:0000115		
+WARN	missing_definition	PLANP:0000218	IAO:0000115		
+WARN	missing_definition	PLANP:0000219	IAO:0000115		
+WARN	missing_definition	PLANP:0000220	IAO:0000115		
+WARN	missing_definition	PLANP:0000221	IAO:0000115		
+WARN	missing_definition	PLANP:0000222	IAO:0000115		
+WARN	missing_definition	PLANP:0000223	IAO:0000115		
+WARN	missing_definition	PLANP:0000224	IAO:0000115		
+WARN	missing_definition	PLANP:0000225	IAO:0000115		
+WARN	missing_definition	PLANP:0000226	IAO:0000115		
+WARN	missing_definition	PLANP:0000227	IAO:0000115		
+WARN	missing_definition	PLANP:0000228	IAO:0000115		
+WARN	missing_definition	PLANP:0000229	IAO:0000115		
+WARN	missing_definition	PLANP:0000230	IAO:0000115		
+WARN	missing_definition	PLANP:0000231	IAO:0000115		
+WARN	missing_definition	PLANP:0000232	IAO:0000115		
+WARN	missing_definition	PLANP:0000233	IAO:0000115		
+WARN	missing_definition	PLANP:0000234	IAO:0000115		
+WARN	missing_definition	PLANP:0000235	IAO:0000115		
+WARN	missing_definition	PLANP:0000236	IAO:0000115		
+WARN	missing_definition	PLANP:0000237	IAO:0000115		
+WARN	missing_definition	PLANP:0000238	IAO:0000115		
+WARN	missing_definition	PLANP:0000239	IAO:0000115		
+WARN	missing_definition	PLANP:0000240	IAO:0000115		
+WARN	missing_definition	PLANP:0000241	IAO:0000115		
+WARN	missing_definition	PLANP:0000242	IAO:0000115		
+WARN	missing_definition	PLANP:0000243	IAO:0000115		
+WARN	missing_definition	PLANP:0000244	IAO:0000115		
+WARN	missing_definition	PLANP:0000245	IAO:0000115		
+WARN	missing_definition	PLANP:0000246	IAO:0000115		
+WARN	missing_definition	PLANP:0000247	IAO:0000115		
+WARN	missing_definition	PLANP:0000248	IAO:0000115		
+WARN	missing_definition	PLANP:0000249	IAO:0000115		
+WARN	missing_definition	PLANP:0000250	IAO:0000115		
+WARN	missing_definition	PLANP:0000251	IAO:0000115		
+WARN	missing_definition	PLANP:0000252	IAO:0000115		
+WARN	missing_definition	PLANP:0000253	IAO:0000115		
+WARN	missing_definition	PLANP:0000254	IAO:0000115		
+WARN	missing_definition	PLANP:0000255	IAO:0000115		
+WARN	missing_definition	PLANP:0000256	IAO:0000115		
+WARN	missing_definition	PLANP:0000257	IAO:0000115		
+WARN	missing_definition	PLANP:0000258	IAO:0000115		
+WARN	missing_definition	PLANP:0000259	IAO:0000115		
+WARN	missing_definition	PLANP:0000260	IAO:0000115		
+WARN	missing_definition	PLANP:0000261	IAO:0000115		
+WARN	missing_definition	PLANP:0000262	IAO:0000115		
+WARN	missing_definition	PLANP:0000263	IAO:0000115		
+WARN	missing_definition	PLANP:0000264	IAO:0000115		
+WARN	missing_definition	PLANP:0000265	IAO:0000115		
+WARN	missing_definition	PLANP:0000266	IAO:0000115		
+WARN	missing_definition	PLANP:0000267	IAO:0000115		
+WARN	missing_definition	PLANP:0000268	IAO:0000115		
+WARN	missing_definition	PLANP:0000269	IAO:0000115		
+WARN	missing_definition	PLANP:0000270	IAO:0000115		
+WARN	missing_definition	PLANP:0000271	IAO:0000115		
+WARN	missing_definition	PLANP:0000272	IAO:0000115		
+WARN	missing_definition	PLANP:0000273	IAO:0000115		
+WARN	missing_definition	PLANP:0000274	IAO:0000115		
+WARN	missing_definition	PLANP:0000275	IAO:0000115		
+WARN	missing_definition	PLANP:0000276	IAO:0000115		
+WARN	missing_definition	PLANP:0000277	IAO:0000115		
+WARN	missing_definition	PLANP:0000278	IAO:0000115		
+WARN	missing_definition	PLANP:0000279	IAO:0000115		
+WARN	missing_definition	PLANP:0000280	IAO:0000115		
+WARN	missing_definition	PLANP:0000281	IAO:0000115		
+WARN	missing_definition	PLANP:0000282	IAO:0000115		
+WARN	missing_definition	PLANP:0000283	IAO:0000115		
+WARN	missing_definition	PLANP:0000284	IAO:0000115		
+WARN	missing_definition	PLANP:0000285	IAO:0000115		
+WARN	missing_definition	PLANP:0000286	IAO:0000115		
+WARN	missing_definition	PLANP:0000287	IAO:0000115		
+WARN	missing_definition	PLANP:0000288	IAO:0000115		
+WARN	missing_definition	PLANP:0000289	IAO:0000115		
+WARN	missing_definition	PLANP:0000290	IAO:0000115		
+WARN	missing_definition	PLANP:0000291	IAO:0000115		
+WARN	missing_definition	PLANP:0000292	IAO:0000115		
+WARN	missing_definition	PLANP:0000293	IAO:0000115		
+WARN	missing_definition	PLANP:0000294	IAO:0000115		
+WARN	missing_definition	PLANP:0000295	IAO:0000115		
+WARN	missing_definition	PLANP:0000296	IAO:0000115		
+WARN	missing_definition	PLANP:0000297	IAO:0000115		
+WARN	missing_definition	PLANP:0000298	IAO:0000115		
+WARN	missing_definition	PLANP:0000299	IAO:0000115		
+WARN	missing_definition	PLANP:0000300	IAO:0000115		
+WARN	missing_definition	PLANP:0000301	IAO:0000115		
+WARN	missing_definition	PLANP:0000302	IAO:0000115		
+WARN	missing_definition	PLANP:0000303	IAO:0000115		
+WARN	missing_definition	PLANP:0000304	IAO:0000115		
+WARN	missing_definition	PLANP:0000305	IAO:0000115		
+WARN	missing_definition	PLANP:0000306	IAO:0000115		
+WARN	missing_definition	PLANP:0000307	IAO:0000115		
+WARN	missing_definition	PLANP:0000308	IAO:0000115		
+WARN	missing_definition	PLANP:0000309	IAO:0000115		
+WARN	missing_definition	PLANP:0000310	IAO:0000115		
+WARN	missing_definition	PLANP:0000311	IAO:0000115		
+WARN	missing_definition	PLANP:0000312	IAO:0000115		
+WARN	missing_definition	PLANP:0000313	IAO:0000115		
+WARN	missing_definition	PLANP:0000314	IAO:0000115		
+WARN	missing_definition	PLANP:0000315	IAO:0000115		
+WARN	missing_definition	PLANP:0000316	IAO:0000115		
+WARN	missing_definition	PLANP:0000317	IAO:0000115		
+WARN	missing_definition	PLANP:0000318	IAO:0000115		
+WARN	missing_definition	PLANP:0000319	IAO:0000115		
+WARN	missing_definition	PLANP:0000320	IAO:0000115		
+WARN	missing_definition	PLANP:0000321	IAO:0000115		
+WARN	missing_definition	PLANP:0000322	IAO:0000115		
+WARN	missing_definition	PLANP:0000323	IAO:0000115		
+WARN	missing_definition	PLANP:0000324	IAO:0000115		
+WARN	missing_definition	PLANP:0000325	IAO:0000115		
+WARN	missing_definition	PLANP:0000326	IAO:0000115		
+WARN	missing_definition	PLANP:0000327	IAO:0000115		
+WARN	missing_definition	PLANP:0000328	IAO:0000115		
+WARN	missing_definition	PLANP:0000329	IAO:0000115		
+WARN	missing_definition	PLANP:0000330	IAO:0000115		
+WARN	missing_definition	PLANP:0000331	IAO:0000115		
+WARN	missing_definition	PLANP:0000332	IAO:0000115		
+WARN	missing_definition	PLANP:0000333	IAO:0000115		
+WARN	missing_definition	PLANP:0000334	IAO:0000115		
+WARN	missing_definition	PLANP:0000335	IAO:0000115		
+WARN	missing_definition	PLANP:0000336	IAO:0000115		
+WARN	missing_definition	PLANP:0000337	IAO:0000115		
+WARN	missing_definition	PLANP:0000338	IAO:0000115		
+WARN	missing_definition	PLANP:0000339	IAO:0000115		
+WARN	missing_definition	PLANP:0000340	IAO:0000115		
+WARN	missing_definition	PLANP:0000341	IAO:0000115		
+WARN	missing_definition	PLANP:0000342	IAO:0000115		
+WARN	missing_definition	PLANP:0000343	IAO:0000115		
+WARN	missing_definition	PLANP:0000344	IAO:0000115		
+WARN	missing_definition	PLANP:0000345	IAO:0000115		
+WARN	missing_definition	PLANP:0000346	IAO:0000115		
+WARN	missing_definition	PLANP:0000347	IAO:0000115		
+WARN	missing_definition	PLANP:0000348	IAO:0000115		
+WARN	missing_definition	PLANP:0000349	IAO:0000115		
+WARN	missing_definition	PLANP:0000350	IAO:0000115		
+WARN	missing_definition	PLANP:0000351	IAO:0000115		
+WARN	missing_definition	PLANP:0000352	IAO:0000115		
+WARN	missing_definition	PLANP:0000353	IAO:0000115		
+WARN	missing_definition	PLANP:0000354	IAO:0000115		
+WARN	missing_definition	PLANP:0000355	IAO:0000115		
+WARN	missing_definition	PLANP:0000356	IAO:0000115		
+WARN	missing_definition	PLANP:0000357	IAO:0000115		
+WARN	missing_definition	PLANP:0000358	IAO:0000115		
+WARN	missing_definition	PLANP:0000359	IAO:0000115		
+WARN	missing_definition	PLANP:0000360	IAO:0000115		
+WARN	missing_definition	PLANP:0000361	IAO:0000115		
+WARN	missing_definition	PLANP:0000362	IAO:0000115		
+WARN	missing_definition	PLANP:0000363	IAO:0000115		
+WARN	missing_definition	PLANP:0000364	IAO:0000115		
+WARN	missing_definition	PLANP:0000365	IAO:0000115		
+WARN	missing_definition	PLANP:0000366	IAO:0000115		
+WARN	missing_definition	PLANP:0000367	IAO:0000115		
+WARN	missing_definition	PLANP:0000368	IAO:0000115		
+WARN	missing_definition	PLANP:0000369	IAO:0000115		
+WARN	missing_definition	PLANP:0000370	IAO:0000115		
+WARN	missing_definition	PLANP:0000371	IAO:0000115		
+WARN	missing_definition	PLANP:0000372	IAO:0000115		
+WARN	missing_definition	PLANP:0000373	IAO:0000115		
+WARN	missing_definition	PLANP:0000374	IAO:0000115		
+WARN	missing_definition	PLANP:0000375	IAO:0000115		
+WARN	missing_definition	PLANP:0000376	IAO:0000115		
+WARN	missing_definition	PLANP:0000377	IAO:0000115		
+WARN	missing_definition	PLANP:0000378	IAO:0000115		
+WARN	missing_definition	PLANP:0000379	IAO:0000115		
+WARN	missing_definition	PLANP:0000380	IAO:0000115		
+WARN	missing_definition	PLANP:0000381	IAO:0000115		
+WARN	missing_definition	PLANP:0000382	IAO:0000115		
+WARN	missing_definition	PLANP:0000383	IAO:0000115		
+WARN	missing_definition	PLANP:0000384	IAO:0000115		
+WARN	missing_definition	PLANP:0000385	IAO:0000115		
+WARN	missing_definition	PLANP:0000386	IAO:0000115		
+WARN	missing_definition	PLANP:0000387	IAO:0000115		
+WARN	missing_definition	PLANP:0000388	IAO:0000115		
+WARN	missing_definition	PLANP:0000389	IAO:0000115		
+WARN	missing_definition	PLANP:0000390	IAO:0000115		
+WARN	missing_definition	PLANP:0000391	IAO:0000115		
+WARN	missing_definition	PLANP:0000392	IAO:0000115		
+WARN	missing_definition	PLANP:0000393	IAO:0000115		
+WARN	missing_definition	PLANP:0000394	IAO:0000115		
+WARN	missing_definition	PLANP:0000395	IAO:0000115		
+WARN	missing_definition	PLANP:0000396	IAO:0000115		
+WARN	missing_definition	PLANP:0000397	IAO:0000115		
+WARN	missing_definition	PLANP:0000398	IAO:0000115		
+WARN	missing_definition	PLANP:0000399	IAO:0000115		
+WARN	missing_definition	PLANP:0000400	IAO:0000115		
+WARN	missing_definition	PLANP:0000401	IAO:0000115		
+WARN	missing_definition	PLANP:0000402	IAO:0000115		
+WARN	missing_definition	PLANP:0000403	IAO:0000115		
+WARN	missing_definition	PLANP:0000404	IAO:0000115		
+WARN	missing_definition	PLANP:0000405	IAO:0000115		
+WARN	missing_definition	PLANP:0000406	IAO:0000115		
+WARN	missing_definition	PLANP:0000407	IAO:0000115		
+WARN	missing_definition	PLANP:0000408	IAO:0000115		
+WARN	missing_definition	PLANP:0000409	IAO:0000115		
+WARN	missing_definition	PLANP:0000410	IAO:0000115		
+WARN	missing_definition	PLANP:0000411	IAO:0000115		
+WARN	missing_definition	PLANP:0000412	IAO:0000115		
+WARN	missing_definition	PLANP:0000413	IAO:0000115		
+WARN	missing_definition	PLANP:0000414	IAO:0000115		
+WARN	missing_definition	PLANP:0000415	IAO:0000115		
+WARN	missing_definition	PLANP:0000416	IAO:0000115		
+WARN	missing_definition	PLANP:0000417	IAO:0000115		
+WARN	missing_definition	PLANP:0000418	IAO:0000115		
+WARN	missing_definition	PLANP:0000419	IAO:0000115		
+WARN	missing_definition	PLANP:0000420	IAO:0000115		
+WARN	missing_definition	PLANP:0000421	IAO:0000115		
+WARN	missing_definition	PLANP:0000422	IAO:0000115		
+WARN	missing_definition	PLANP:0000423	IAO:0000115		
+WARN	missing_definition	PLANP:0000424	IAO:0000115		
+WARN	missing_definition	PLANP:0000425	IAO:0000115		
+WARN	missing_definition	PLANP:0000426	IAO:0000115		
+WARN	missing_definition	PLANP:0000427	IAO:0000115		
+WARN	missing_definition	PLANP:0000428	IAO:0000115		
+WARN	missing_definition	PLANP:0000429	IAO:0000115		
+WARN	missing_definition	PLANP:0000430	IAO:0000115		
+WARN	missing_definition	PLANP:0000431	IAO:0000115		
+WARN	missing_definition	PLANP:0000432	IAO:0000115		
+WARN	missing_definition	PLANP:0000433	IAO:0000115		
+WARN	missing_definition	PLANP:0000434	IAO:0000115		
+WARN	missing_definition	PLANP:0000435	IAO:0000115		
+WARN	missing_definition	PLANP:0000436	IAO:0000115		
+WARN	missing_definition	PLANP:0000437	IAO:0000115		
+WARN	missing_definition	PLANP:0000438	IAO:0000115		
+WARN	missing_definition	PLANP:0000439	IAO:0000115		
+WARN	missing_definition	PLANP:0000440	IAO:0000115		
+WARN	missing_definition	PLANP:0000441	IAO:0000115		
+WARN	missing_definition	PLANP:0000442	IAO:0000115		
+WARN	missing_definition	PLANP:0000443	IAO:0000115		
+WARN	missing_definition	PLANP:0000444	IAO:0000115		
+WARN	missing_definition	PLANP:0000445	IAO:0000115		
+WARN	missing_definition	PLANP:0000446	IAO:0000115		
+WARN	missing_definition	PLANP:0000447	IAO:0000115		
+WARN	missing_definition	PLANP:0000448	IAO:0000115		
+WARN	missing_definition	PLANP:0000449	IAO:0000115		
+WARN	missing_definition	PLANP:0000450	IAO:0000115		
+WARN	missing_definition	PLANP:0000451	IAO:0000115		
+WARN	missing_definition	PLANP:0000452	IAO:0000115		
+WARN	missing_definition	PLANP:0000453	IAO:0000115		
+WARN	missing_definition	PLANP:0000454	IAO:0000115		
+WARN	missing_definition	PLANP:0000455	IAO:0000115		
+WARN	missing_definition	PLANP:0000456	IAO:0000115		
+WARN	missing_definition	PLANP:0000457	IAO:0000115		
+WARN	missing_definition	PLANP:0000458	IAO:0000115		
+WARN	missing_definition	PLANP:0000459	IAO:0000115		
+WARN	missing_definition	PLANP:0000460	IAO:0000115		
+WARN	missing_definition	PLANP:0000461	IAO:0000115		
+WARN	missing_definition	PLANP:0000462	IAO:0000115		
+WARN	missing_definition	PLANP:0000463	IAO:0000115		
+WARN	missing_definition	PLANP:0000464	IAO:0000115		
+WARN	missing_definition	PLANP:0000465	IAO:0000115		
+WARN	missing_definition	PLANP:0000466	IAO:0000115		
+WARN	missing_definition	PLANP:0000467	IAO:0000115		
+WARN	missing_definition	PLANP:0000468	IAO:0000115		
+WARN	missing_definition	PLANP:0000469	IAO:0000115		
+WARN	missing_definition	PLANP:0000470	IAO:0000115		
+WARN	missing_definition	PLANP:0000471	IAO:0000115		
+WARN	missing_definition	PLANP:0000472	IAO:0000115		
+WARN	missing_definition	PLANP:0000473	IAO:0000115		
+WARN	missing_definition	PLANP:0000474	IAO:0000115		
+WARN	missing_definition	PLANP:0000475	IAO:0000115		
+WARN	missing_definition	PLANP:0000476	IAO:0000115		
+WARN	missing_definition	PLANP:0000478	IAO:0000115		
+WARN	missing_definition	PLANP:0000479	IAO:0000115		
+WARN	missing_definition	PLANP:0000480	IAO:0000115		
+WARN	missing_definition	PLANP:0000481	IAO:0000115		
+WARN	missing_definition	PLANP:0000482	IAO:0000115		
+WARN	missing_definition	PLANP:0000483	IAO:0000115		
+WARN	missing_definition	PLANP:0000484	IAO:0000115		
+WARN	missing_definition	PLANP:0000485	IAO:0000115		
+WARN	missing_definition	PLANP:0000486	IAO:0000115		
+WARN	missing_definition	PLANP:0000487	IAO:0000115		
+WARN	missing_definition	PLANP:0000488	IAO:0000115		
+WARN	missing_definition	PLANP:0000489	IAO:0000115		
+WARN	missing_definition	PLANP:0000490	IAO:0000115		
+WARN	missing_definition	PLANP:0000491	IAO:0000115		
+WARN	missing_definition	PLANP:0000492	IAO:0000115		
+WARN	missing_definition	PLANP:0000493	IAO:0000115		
+WARN	missing_definition	PLANP:0000494	IAO:0000115		
+WARN	missing_definition	PLANP:0000496	IAO:0000115		
+WARN	missing_definition	PLANP:0000497	IAO:0000115		
+WARN	missing_definition	PLANP:0000498	IAO:0000115		
+WARN	missing_definition	PLANP:0000499	IAO:0000115		
+WARN	missing_definition	PLANP:0000500	IAO:0000115		
+WARN	missing_definition	PLANP:0000501	IAO:0000115		
+WARN	missing_definition	PLANP:0000502	IAO:0000115		
+WARN	missing_definition	PLANP:0000503	IAO:0000115		
+WARN	missing_definition	PLANP:0000504	IAO:0000115		
+WARN	missing_definition	PLANP:0000505	IAO:0000115		
+WARN	missing_definition	PLANP:0000506	IAO:0000115		
+WARN	missing_definition	PLANP:0000507	IAO:0000115		
+WARN	missing_definition	PLANP:0000508	IAO:0000115		
+WARN	missing_definition	PLANP:0000509	IAO:0000115		
+WARN	missing_definition	PLANP:0000510	IAO:0000115		
+WARN	missing_definition	PLANP:0000511	IAO:0000115		
+WARN	missing_definition	PLANP:0000512	IAO:0000115		
+WARN	missing_definition	PLANP:0000513	IAO:0000115		
+WARN	missing_definition	PLANP:0000514	IAO:0000115		
+WARN	missing_definition	PLANP:0000515	IAO:0000115		
+WARN	missing_definition	PLANP:0000518	IAO:0000115		
+WARN	missing_definition	PLANP:0000519	IAO:0000115		
+WARN	missing_definition	PLANP:0000520	IAO:0000115		
+WARN	missing_definition	PLANP:0000521	IAO:0000115		
+WARN	missing_definition	PLANP:0000522	IAO:0000115		
+WARN	missing_definition	PLANP:0000523	IAO:0000115		
+WARN	missing_definition	PLANP:0000524	IAO:0000115		
+WARN	missing_definition	PLANP:0000525	IAO:0000115		
+WARN	missing_definition	PLANP:0000526	IAO:0000115		
+WARN	missing_definition	PLANP:0000527	IAO:0000115		
+WARN	missing_definition	PLANP:0000529	IAO:0000115		
+WARN	missing_definition	PLANP:0000530	IAO:0000115		
+WARN	missing_definition	PLANP:0000531	IAO:0000115		
+WARN	missing_definition	PLANP:0000533	IAO:0000115		
+WARN	missing_definition	PLANP:0000534	IAO:0000115		
+WARN	missing_definition	PLANP:0000535	IAO:0000115		
+WARN	missing_definition	PLANP:0000536	IAO:0000115		
+WARN	missing_definition	PLANP:0000537	IAO:0000115		
+WARN	missing_definition	PLANP:0000538	IAO:0000115		
+WARN	missing_definition	PLANP:0000539	IAO:0000115		
+WARN	missing_definition	PLANP:0000540	IAO:0000115		
+WARN	missing_definition	PLANP:0000541	IAO:0000115		
+WARN	missing_definition	RO:0001018	IAO:0000115		
+WARN	missing_definition	RO:0001019	IAO:0000115		
+WARN	missing_definition	RO:0002017	IAO:0000115		
+WARN	missing_definition	RO:0002022	IAO:0000115		
+WARN	missing_definition	RO:0002081	IAO:0000115		
+WARN	missing_definition	RO:0002082	IAO:0000115		
+WARN	missing_definition	RO:0002086	IAO:0000115		
+WARN	missing_definition	RO:0002090	IAO:0000115		
+WARN	missing_definition	RO:0002159	IAO:0000115		
+WARN	missing_definition	RO:0002222	IAO:0000115		
+WARN	missing_definition	RO:0002259	IAO:0000115		
+WARN	missing_definition	RO:0002287	IAO:0000115		
+WARN	missing_definition	RO:0002304	IAO:0000115		
+WARN	missing_definition	RO:0002305	IAO:0000115		
+WARN	missing_definition	RO:0002322	IAO:0000115		
+WARN	missing_definition	RO:0002326	IAO:0000115		
+WARN	missing_definition	RO:0002327	IAO:0000115		
+WARN	missing_definition	RO:0002405	IAO:0000115		
+WARN	missing_definition	RO:0002423	IAO:0000115		
+WARN	missing_definition	RO:0002447	IAO:0000115		
+WARN	missing_definition	RO:0002464	IAO:0000115		
+WARN	missing_definition	RO:0002465	IAO:0000115		
+WARN	missing_definition	RO:0002481	IAO:0000115		
+WARN	missing_definition	RO:0002487	IAO:0000115		
+WARN	missing_definition	RO:0002502	IAO:0000115		
+WARN	missing_definition	RO:0002506	IAO:0000115		
+WARN	missing_definition	RO:0002559	IAO:0000115		
+WARN	missing_definition	RO:0002563	IAO:0000115		
+WARN	missing_definition	RO:0002564	IAO:0000115		
+WARN	missing_definition	RO:0004032	IAO:0000115		
+WARN	missing_definition	RO:0004033	IAO:0000115		
+WARN	missing_definition	RO:0004046	IAO:0000115		
+WARN	missing_definition	RO:0004047	IAO:0000115		
+WARN	missing_definition	RO:0004049	IAO:0000115		
+WARN	missing_definition	RO:0004050	IAO:0000115		
+WARN	missing_definition	UBERON:0005423	IAO:0000115		
+WARN	missing_definition	UBPROP:0000007	IAO:0000115		
+WARN	missing_definition	UPHENO:0001001	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/bspo#human	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/bspo#vertebrate	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_agr	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_aspergillus	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_candida	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_chembl	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_drosophila	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_generic	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_metagenomics	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_mouse	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_pir	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_plant	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_pombe	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_synapse	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_yeast	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#systematic_synonym	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#absent_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#cell_quality	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#correlates_with	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#disposition_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#mpath_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#relational_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#scalar_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#value_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ro/subsets#ro-eco	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#upper_level	IAO:0000115		
+WARN	missing_definition	dc11:creator	IAO:0000115		
+WARN	missing_definition	dc11:source	IAO:0000115		
+WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115		
+WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
+WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115		
+WARN	missing_definition	oboInOwl:SynonymTypeProperty	IAO:0000115		
+WARN	missing_definition	oboInOwl:consider	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasScope	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000115		
+WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
+WARN	missing_definition	foaf:depiction	IAO:0000115		
+WARN	missing_definition	foaf:page	IAO:0000115		
+WARN	duplicate_scoped_synonym	RO:0002087	IAO:0000118	starts_at_end_of	
+WARN	duplicate_scoped_synonym	RO:0002087	oboInOwl:hasExactSynonym	starts_at_end_of	
+WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasExactSynonym	fertilized egg stage	
+WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasRelatedSynonym	fertilized egg stage	
+WARN	invalid_xref	PLANA:0000015	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000021	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000030	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000110	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000214	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000215	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000417	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000421	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000422	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000423	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000430	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000459	oboInOwl:hasDbXref	C90609	
+WARN	invalid_xref	PLANA:0000467	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0000468	oboInOwl:hasDbXref	doi.org/10.1002/jmor.1051550208	
+WARN	invalid_xref	PLANA:0000470	oboInOwl:hasDbXref	C12617	
+WARN	invalid_xref	PLANA:0000492	oboInOwl:hasDbXref	C12929	
+WARN	invalid_xref	PLANA:0002119	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0002120	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0002128	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0002133	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0002141	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0004528	oboInOwl:hasDbXref		
+WARN	invalid_xref	PLANA:0007515	oboInOwl:hasDbXref		
+WARN	missing_obsolete_label	GO:0004872	rdfs:label	receptor activity	
+WARN	missing_obsolete_label	GO:0044456	rdfs:label	synapse part@en	
+WARN	missing_obsolete_label	GO:0044464	rdfs:label	cell part@en	
+WARN	missing_obsolete_label	RO:0002218	rdfs:label	has active participant@en	
+WARN	missing_obsolete_label	RO:0002609	rdfs:label	related via dependence to	
+INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
+INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
+INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
+INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
+INFO	lowercase_definition	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
+INFO	lowercase_definition	BFO:0000050	IAO:0000115	a core relation that holds between a part and its whole@en	
+INFO	lowercase_definition	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
+INFO	lowercase_definition	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
+INFO	lowercase_definition	BFO:0000063	IAO:0000115	x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
+INFO	lowercase_definition	BFO:0000066	IAO:0000115	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en	
+INFO	lowercase_definition	BFO:0000067	IAO:0000115	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en	
+INFO	lowercase_definition	BSPO:0000096	IAO:0000115	x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.	
+INFO	lowercase_definition	BSPO:0000098	IAO:0000115	x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).	
+INFO	lowercase_definition	BSPO:0000099	IAO:0000115	x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.	
+INFO	lowercase_definition	BSPO:0000102	IAO:0000115	x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).	
+INFO	lowercase_definition	BSPO:0001107	IAO:0000115	x immediately deep to y iff x deep_to y and x is contiguous with y.	
+INFO	lowercase_definition	BSPO:0015005	IAO:0000115	crossing at right angles	
+INFO	lowercase_definition	BSPO:0015014	IAO:0000115	x immediately superficial to y iff x superficial to y and x is contiguous with y.	
+INFO	lowercase_definition	IAO:0000102	IAO:0000115	data about an ontology part is a data item about a part of an ontology, for example a term@en	
+INFO	lowercase_definition	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en	
+INFO	lowercase_definition	IAO:0000121	IAO:0000115	term created to ease viewing/sort terms for development purpose, and will not be included in a release@en	
+INFO	lowercase_definition	IAO:0000136	IAO:0000115	is_about is a (currently) primitive relation that relates an information artifact to an entity.@en	
+INFO	lowercase_definition	PLANA:0000110	IAO:0000115	foxA1+ neoblasts and their post-mitotic, differentiating daughters required for maintenance and regeneration of the pharynx.	
+INFO	lowercase_definition	PLANA:0000130	IAO:0000115	piwi-1+, nkx1-1+ progenitor neoblasts required for specification of circular muscle fibers.	
+INFO	lowercase_definition	PLANA:0000134	IAO:0000115	piwi-1+, myoD+, snail-1+ progenitor neoblasts required for specification and creation of longitudinal muscle fibers.	
+INFO	lowercase_definition	PLANA:0000219	IAO:0000115	gh4+, nanos+ cells residing at the testis periphery that self-renew and give rise to differentiating daughters that will ultimately produce haploid sperm.	
+INFO	lowercase_definition	PLANA:0000227	IAO:0000115	1. A gamete (as an egg or sperm cell) or one of its antecedent cells. 2. A mature male or female germ cell usually possessing a haploid chromosome set and capable of initiating formation of a new diploid individual by fusion with a gamete of the opposite sex.	
+INFO	lowercase_definition	PLANA:0000494	IAO:0000115	any of the nerve fiber tracts that span the longitudinal fissure between the cerebral and/or cerebellar hemispheres of the brain	
+INFO	lowercase_definition	PLANA:0004506	IAO:0000115	dmd-1+ expressing somatic cells within the testis that promote male GSC maintenance. dmd-1+, ophis-1+ somatic gonadal cells ensheath germ cells via long cytoplasmic processes and promote differentiation.	
+INFO	lowercase_definition	PLANA:0004507	IAO:0000115	ophis+ somatic cells (gh4-, nanos-) in the ovary that may provide trophic support to female germline stem cells and differentiating oogonia.	
+INFO	lowercase_definition	PLANA:0004521	IAO:0000115	foxA1+ epithelial cell contained in the embryonic pharynx.	
+INFO	lowercase_definition	PLANA:0007546	IAO:0000115	piwi-1+, runt-1+, ap2+ progenitor neoblasts required for production of TrpA+ neurons.	
+INFO	lowercase_definition	PLANA:0007547	IAO:0000115	piwi-1+, foxD+, prep+ progenitor neoblasts required for formation of the anterior pole.	
+INFO	lowercase_definition	PLANA:0007550	IAO:0000115	piwi-1+, lhx1/5-1+, pitx+ progenitor neoblasts required for specification of tph+ serotonergic neurons.	
+INFO	lowercase_definition	PLANA:0007551	IAO:0000115	piwi-1+, klf+ progenitor neoblasts required for production of cintillo+ sensory neurons.	
+INFO	lowercase_definition	PLANA:0007555	IAO:0000115	piwi-1+, pax3/7+ progenitor neoblasts implicated in the production of DBH+ ventral midline neurons.	
+INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000053	IAO:0000115	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000056	IAO:0000115	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en	
+INFO	lowercase_definition	RO:0000057	IAO:0000115	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en	
+INFO	lowercase_definition	RO:0000080	IAO:0000115	a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000086	IAO:0000115	a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en	
+INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en	
+INFO	lowercase_definition	RO:0001901	IAO:0000115	        ## Elucidation        This is used when the statement/axiom is assumed to hold true 'eternally'        ## How to interpret (informal)        First the \"atemporal\" FOL is derived from the OWL using the standard    interpretation. This axiom is temporalized by embedding the axiom    within a for-all-times quantified sentence. The t argument is added to    all instantiation predicates and predicates that use this relation.        ## Example            Class: nucleus        SubClassOf: part_of some cell            forall t :          forall n :            instance_of(n,Nucleus,t)             implies            exists c :              instance_of(c,Cell,t)              part_of(n,c,t)        ## Notes        This interpretation is *not* the same as an at-all-times relation        	
+INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
+INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
+INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.	
+INFO	lowercase_definition	RO:0002156	IAO:0000115	d derived_by_descent_from a if d is specified by some genetic program that is sequence-inherited-from a genetic program that specifies a.	
+INFO	lowercase_definition	RO:0002157	IAO:0000115	inverse of derived by descent from	
+INFO	lowercase_definition	RO:0002158	IAO:0000115	two individual entities d1 and d2 stand in a shares_ancestor_with relation if and only if there exists some a such that d1 derived_by_descent_from a and d2 derived_by_descent_from a.	
+INFO	lowercase_definition	RO:0002160	IAO:0000115	x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.	
+INFO	lowercase_definition	RO:0002161	IAO:0000115	x never in taxon T if and only if T is a class, and x does not instantiate the class expression \"in taxon some T\". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL.	
+INFO	lowercase_definition	RO:0002162	IAO:0000115	x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.	
+INFO	lowercase_definition	RO:0002170	IAO:0000115	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b	
+INFO	lowercase_definition	RO:0002177	IAO:0000115	a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b.	
+INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
+INFO	lowercase_definition	RO:0002201	IAO:0000115	inverse of has phenotype	
+INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y	
+INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from	
+INFO	lowercase_definition	RO:0002210	IAO:0000115	inverse of directly develops from	
+INFO	lowercase_definition	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
+INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.	
+INFO	lowercase_definition	RO:0002217	IAO:0000115	x actively participates in y if and only if x participates in y and x realizes some active role	
+INFO	lowercase_definition	RO:0002218	IAO:0000115	x has participant y if and only if x realizes some active role that inheres in y	
+INFO	lowercase_definition	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
+INFO	lowercase_definition	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
+INFO	lowercase_definition	RO:0002220	IAO:0000115	x adjacent_to y iff: x and y share a boundary	
+INFO	lowercase_definition	RO:0002221	IAO:0000115	inverse of surrounded by	
+INFO	lowercase_definition	RO:0002223	IAO:0000115	inverse of starts with	
+INFO	lowercase_definition	RO:0002224	IAO:0000115	x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
+INFO	lowercase_definition	RO:0002225	IAO:0000115	x develops from part of y if and only if there exists some z such that x develops from z and z is part of y	
+INFO	lowercase_definition	RO:0002226	IAO:0000115	x develops_in y if x is located in y whilst x is developing	
+INFO	lowercase_definition	RO:0002229	IAO:0000115	inverse of ends with	
+INFO	lowercase_definition	RO:0002230	IAO:0000115	x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
+INFO	lowercase_definition	RO:0002231	IAO:0000115	x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y	
+INFO	lowercase_definition	RO:0002232	IAO:0000115	x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y	
+INFO	lowercase_definition	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+INFO	lowercase_definition	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
+INFO	lowercase_definition	RO:0002255	IAO:0000115	inverse of has developmental contribution from	
+INFO	lowercase_definition	RO:0002256	IAO:0000115	t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T	
+INFO	lowercase_definition	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
+INFO	lowercase_definition	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
+INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
+INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
+INFO	lowercase_definition	RO:0002285	IAO:0000115	x developmentally replaces y if and only if there is some developmental process that causes x to move or to cease to exist, and for the site that was occupied by x to become occupied by y, where y either comes into existence in this site or moves to this site from somewhere else	
+INFO	lowercase_definition	RO:0002314	IAO:0000115	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.	
+INFO	lowercase_definition	RO:0002329	IAO:0000115	this relation holds between c and p when c is part of some c', and c' is capable of p.	
+INFO	lowercase_definition	RO:0002331	IAO:0000115	c involved_in p if and only if c enables some process p', and p' is part of p	
+INFO	lowercase_definition	RO:0002333	IAO:0000115	inverse of enables	
+INFO	lowercase_definition	RO:0002334	IAO:0000115	inverse of regulates	
+INFO	lowercase_definition	RO:0002335	IAO:0000115	inverse of negatively regulates	
+INFO	lowercase_definition	RO:0002336	IAO:0000115	inverse of positively regulates	
+INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input	
+INFO	lowercase_definition	RO:0002371	IAO:0000115	a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a	
+INFO	lowercase_definition	RO:0002372	IAO:0000115	m has_muscle_origin s iff m is attached_to s, and it is the case that when m contracts, s does not move. The site of the origin tends to be more proximal and have greater mass than what the other end attaches to.@en	
+INFO	lowercase_definition	RO:0002373	IAO:0000115	m has_muscle_insertion s iff m is attaches_to s, and it is the case that when m contracts, s moves. Insertions are usually connections of muscle via tendon to bone.@en	
+INFO	lowercase_definition	RO:0002374	IAO:0000115	x has_fused_element y iff: there exists some z : x has_part z, z homologous_to y, and y is a distinct element, the boundary between x and z is largely fiat@en	
+INFO	lowercase_definition	RO:0002379	IAO:0000115	x spatially_coextensive_with y if and inly if x and y have the same location	
+INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en	
+INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
+INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
+INFO	lowercase_definition	RO:0002386	IAO:0000115	x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y@en	
+INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
+INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
+INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
+INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
+INFO	lowercase_definition	RO:0002404	IAO:0000115	inverse of upstream of	
+INFO	lowercase_definition	RO:0002411	IAO:0000115	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain	
+INFO	lowercase_definition	RO:0002412	IAO:0000115	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.	
+INFO	lowercase_definition	RO:0002418	IAO:0000115	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.	
+INFO	lowercase_definition	RO:0002427	IAO:0000115	inverse of causally upstream of or within	
+INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
+INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
+INFO	lowercase_definition	RO:0002429	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' positively regulates some p	
+INFO	lowercase_definition	RO:0002430	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p	
+INFO	lowercase_definition	RO:0002431	IAO:0000115	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p	
+INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
+INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
+INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
+INFO	lowercase_definition	RO:0002479	IAO:0000115	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.	
+INFO	lowercase_definition	RO:0002488	IAO:0000115	x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y).	
+INFO	lowercase_definition	RO:0002490	IAO:0000115	x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) >= α(y) & α(x) <= ω(y)) OR (ω(x) <= ω(y) & ω(x) >= α(y))	
+INFO	lowercase_definition	RO:0002492	IAO:0000115	x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y).	
+INFO	lowercase_definition	RO:0002496	IAO:0000115	x existence starts during or after y if and only if the time point at which x starts is after or equivalent to the time point at which y starts. Formally: x existence starts during or after y iff α (x) >= α (y).	
+INFO	lowercase_definition	RO:0002497	IAO:0000115	x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends.	
+INFO	lowercase_definition	RO:0002501	IAO:0000115	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.	
+INFO	lowercase_definition	RO:0002503	IAO:0000115	q towards e2 if and only if q is a relational quality such that q inheres-in some e, and e != e2 and q is dependent on e2	
+INFO	lowercase_definition	RO:0002575	IAO:0000115	relation p is the direct form of relation q iff p is a subPropertyOf q, p does not have the Transitive characteristic, q does have the Transitive characteristic, and for all x, y: x q y -> exists z1, z2, ..., zn such that x p z1 ... z2n y	
+INFO	lowercase_definition	RO:0002583	IAO:0000115	x existence starts at point y if and only if the time point at which x starts is equivalent to the time point at which y ends.	
+INFO	lowercase_definition	RO:0002584	IAO:0000115	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p	
+INFO	lowercase_definition	RO:0002593	IAO:0000115	x existence starts at point y if and only if the time point at which x starts is equivalent to the time point at which y ends.	
+INFO	lowercase_definition	RO:0002604	IAO:0000115	x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x).	
+INFO	lowercase_definition	RO:0003000	IAO:0000115	a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.	
+INFO	lowercase_definition	RO:0003001	IAO:0000115	a produced_by b iff some process that occurs_in b has_output a.	
+INFO	lowercase_definition	RO:0004034	IAO:0000115	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive	
+INFO	lowercase_definition	RO:0004035	IAO:0000115	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative	
+INFO	lowercase_definition	http://purl.obolibrary.org/obo/bspo#parallel_to	IAO:0000115	x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross.	
+INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to	IAO:0000115	q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
+INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to	IAO:0000115	q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
+INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to	IAO:0000115	q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
+INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#reciprocal_of	IAO:0000115	q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e.	
+INFO	missing_superclass	NCIT:C7057	rdfs:subClassOf		

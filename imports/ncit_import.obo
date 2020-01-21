@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: planp/releases/2020-01-21/imports/ncit_import.owl
 ontology: planp/imports/ncit_import
 
 [Term]

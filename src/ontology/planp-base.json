@@ -8071,7 +8071,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Planarian Phenotype Ontology"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-14/planp-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-21/planp-base.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -7,7 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/planp/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/planp/releases/2020-01-14/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/planp/releases/2020-01-21/patterns/definitions.owl>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000005>))

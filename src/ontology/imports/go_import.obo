@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-14/imports/go_import.owl
+data-version: planp/releases/2020-01-21/imports/go_import.owl
 ontology: planp/imports/go_import
 
 [Term]

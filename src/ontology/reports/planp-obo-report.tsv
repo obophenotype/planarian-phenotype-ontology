@@ -26,6 +26,8 @@ ERROR	duplicate_definition	CARO:0000000	IAO:0000115	Biological entity that is ei
 ERROR	duplicate_definition	UBERON:0001062	IAO:0000115	Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.	
 ERROR	duplicate_definition	GO:0005730	IAO:0000115	A small, dense body one or more of which are present in the nucleus of eukaryotic cells. It is rich in RNA and protein, is not bounded by a limiting membrane, and is not seen during mitosis. Its prime function is the transcription of the nucleolar DNA into 45S ribosomal-precursor RNA, the processing of this RNA into 5.8S, 18S, and 28S components of ribosomal RNA, and the association of these components with 5S RNA and proteins synthesized outside the nucleolus. This association results in the formation of ribonucleoprotein precursors; these pass into the cytoplasm and mature into the 40S and 60S subunits of the ribosome.	
 ERROR	duplicate_definition	PLANA:0000533	IAO:0000115	A small, dense body one or more of which are present in the nucleus of eukaryotic cells. It is rich in RNA and protein, is not bounded by a limiting membrane, and is not seen during mitosis. Its prime function is the transcription of the nucleolar DNA into 45S ribosomal-precursor RNA, the processing of this RNA into 5.8S, 18S, and 28S components of ribosomal RNA, and the association of these components with 5S RNA and proteins synthesized outside the nucleolus. This association results in the formation of ribonucleoprotein precursors; these pass into the cytoplasm and mature into the 40S and 60S subunits of the ribosome.	
+ERROR	duplicate_definition	CARO:0000010	IAO:0000115	A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.	
+ERROR	duplicate_definition	UBERON:0000015	IAO:0000115	A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.	
 ERROR	duplicate_definition	PLANA:0000565	IAO:0000115	A neruon whose cell body is within an autonomic ganglion.	
 ERROR	duplicate_definition	PLANA:0000566	IAO:0000115	A neruon whose cell body is within an autonomic ganglion.	
 ERROR	duplicate_definition	GO:0005634	IAO:0000115	A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.	
@@ -40,10 +42,10 @@ ERROR	duplicate_definition	GO:0005794	IAO:0000115	A compound membranous cytoplas
 ERROR	duplicate_definition	PLANA:0000528	IAO:0000115	A compound membranous cytoplasmic organelle of eukaryotic cells, consisting of flattened, ribosome-free vesicles arranged in a more or less regular stack. The Golgi apparatus differs from the endoplasmic reticulum in often having slightly thicker membranes, appearing in sections as a characteristic shallow semicircle so that the convex side (cis or entry face) abuts the endoplasmic reticulum, secretory vesicles emerging from the concave side (trans or exit face). In vertebrate cells there is usually one such organelle, while in invertebrates and plants, where they are known usually as dictyosomes, there may be several scattered in the cytoplasm. The Golgi apparatus processes proteins produced on the ribosomes of the rough endoplasmic reticulum; such processing includes modification of the core oligosaccharides of glycoproteins, and the sorting and packaging of proteins for transport to a variety of cellular locations. Three different regions of the Golgi are now recognized both in terms of structure and function: cis, in the vicinity of the cis face, trans, in the vicinity of the trans face, and medial, lying between the cis and trans regions.	
 ERROR	duplicate_definition	GO:0005773	IAO:0000115	A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol.	
 ERROR	duplicate_definition	PLANA:0000515	IAO:0000115	A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol.	
-ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	73ea8caa7a615eaf6f30d4ce1618364b	
-ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	dc57f60e922739bf68bd90235abe167f	
-ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	3db1f0faf5967937ecee5b0ba649bbc6	
-ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	9c039c0156601355085f67bd9deb1d5c	
+ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	fc1212f950b7bc1500d7f38e547ea9c0	
+ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	feb29b87da49869461163dcb5f97f1eb	
+ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	176e8102b2f15d2ac5e4891490399e65	
+ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	9623423279d58cd51b15e8d5fde73c48	
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
 ERROR	deprecated_property_reference	RO:0002609	rdfs:subPropertyOf	RO:0002410	
 ERROR	missing_label	BSPO:0000000	rdfs:label		
@@ -650,6 +652,7 @@ ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_agr	rdfs:label
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_aspergillus	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_candida	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_chembl	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_drosophila	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_generic	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_metagenomics	rdfs:label		
@@ -688,8 +691,6 @@ ERROR	duplicate_label	GO:0031090	rdfs:label	organelle membrane
 ERROR	duplicate_label	PLANA:0000524	rdfs:label	organelle membrane	
 ERROR	duplicate_label	GO:0043226	rdfs:label	organelle	
 ERROR	duplicate_label	PLANA:0000525	rdfs:label	organelle	
-ERROR	duplicate_label	GO:0044464	rdfs:label	obsolete cell part	
-ERROR	duplicate_label	PLANA:0000500	rdfs:label	obsolete cell part	
 ERROR	duplicate_label	GO:0005634	rdfs:label	nucleus	
 ERROR	duplicate_label	PLANA:0000529	rdfs:label	nucleus	
 ERROR	duplicate_label	GO:0005730	rdfs:label	nucleolus	
@@ -724,6 +725,8 @@ ERROR	duplicate_label	GO:0005783	rdfs:label	endoplasmic reticulum
 ERROR	duplicate_label	PLANA:0007513	rdfs:label	endoplasmic reticulum	
 ERROR	duplicate_label	GO:0005737	rdfs:label	cytoplasm	
 ERROR	duplicate_label	PLANA:0000510	rdfs:label	cytoplasm	
+ERROR	duplicate_label	GO:0005929	rdfs:label	cilium	
+ERROR	duplicate_label	PLANA:0002024	rdfs:label	cilium	
 ERROR	duplicate_label	GO:0098609	rdfs:label	cell-cell adhesion	
 ERROR	duplicate_label	PLANA:0000508	rdfs:label	cell-cell adhesion	
 ERROR	duplicate_label	GO:0042995	rdfs:label	cell projection	
@@ -1100,6 +1103,7 @@ WARN	duplicate_exact_synonym	PLANA:0000562	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	PLANA:0000565	oboInOwl:hasExactSynonym		
 WARN	duplicate_exact_synonym	PLANA:0000566	oboInOwl:hasExactSynonym		
 WARN	duplicate_exact_synonym	PLANA:0002023	oboInOwl:hasExactSynonym		
+WARN	duplicate_exact_synonym	PLANA:0002024	oboInOwl:hasExactSynonym		
 WARN	duplicate_exact_synonym	PLANA:0002025	oboInOwl:hasExactSynonym		
 WARN	duplicate_exact_synonym	PLANA:0002031	oboInOwl:hasExactSynonym		
 WARN	duplicate_exact_synonym	PLANA:0002032	oboInOwl:hasExactSynonym		
@@ -1817,6 +1821,7 @@ WARN	missing_definition	RO:0004050	IAO:0000115
 WARN	missing_definition	UBERON:0005423	IAO:0000115		
 WARN	missing_definition	UBPROP:0000007	IAO:0000115		
 WARN	missing_definition	UPHENO:0001001	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/bspo#human	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/bspo#vertebrate	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	IAO:0000115		
@@ -1824,6 +1829,7 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_agr	IAO:0000115
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_aspergillus	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_candida	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_chembl	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_drosophila	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_generic	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_metagenomics	IAO:0000115		
@@ -1852,6 +1858,7 @@ WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115
 WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
 WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115		
 WARN	missing_definition	oboInOwl:SynonymTypeProperty	IAO:0000115		
+WARN	missing_definition	oboInOwl:consider	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115		
