@@ -26,3 +26,4 @@ http://purl.obolibrary.org/obo/PLANP_0000018	obsolete abnormal gastrovascular co
 http://purl.obolibrary.org/obo/PLANP_0000102	obsolete abnormal parenchymal compartment	TRUE	no longer designating mediolateral regions using the contained_in object property
 http://purl.obolibrary.org/obo/PLANP_0000255	obsolete abnormal ventral compartment	TRUE	now using patterned term ventral region PLANA:0000143
 http://purl.obolibrary.org/obo/PLANP_0000087	obsolete abnormal anatomical compartment subdivision feature	TRUE	extra layer of complexity not needed upon further examination
+http://purl.obolibrary.org/obo/PLANP_0000098	obsolete abnormal acellular anatomical structure	TRUE	extra layer of complexity not needed upon further examination

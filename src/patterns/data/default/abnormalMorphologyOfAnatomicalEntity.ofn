@@ -8,19 +8,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000005>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000371>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000372>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000373>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000374>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000376>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000377>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000378>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000379>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000381>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000382>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000383>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000409>))
@@ -35,28 +22,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0004512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0004513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0004514>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0004516>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000467>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000468>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000469>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000470>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000471>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000472>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000473>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000475>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000476>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000478>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000479>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000480>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000481>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000482>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000483>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000484>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000486>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000487>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000488>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000489>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000497>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000498>))
@@ -72,26 +46,12 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000466> (abnormal ventral surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000466> "Any unspecified morphological anomaly of the ventral surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000466> "abnormal morphology of ventral surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000466> "abnormal ventral surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000466> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000384>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000467> (abnormal primitive ectoderm surface morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000467> "Any unspecified morphological anomaly of the primitive ectoderm surface, such as, for example, abnormal shape or colour."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000467> "abnormal morphology of primitive ectoderm surface"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000467> "abnormal primitive ectoderm surface morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0004512>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000468> (abnormal distal surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000468> "Any unspecified morphological anomaly of the distal surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000468> "abnormal morphology of distal surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000468> "abnormal distal surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000378>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000469> (abnormal gastrodermis surface morphology)
 
@@ -107,61 +67,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000470> "abnormal basal surface of the epidermis morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000410>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000471> (abnormal medial surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000471> "Any unspecified morphological anomaly of the medial surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000471> "abnormal morphology of medial surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000471> "abnormal medial surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000471> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000383>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000472> (abnormal anatomical surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000472> "Any unspecified morphological anomaly of the anatomical surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000472> "abnormal morphology of anatomical surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000472> "abnormal anatomical surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000473> (abnormal proximal surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000473> "Any unspecified morphological anomaly of the proximal surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000473> "abnormal morphology of proximal surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000473> "abnormal proximal surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000473> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000377>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000474> (abnormal anterior surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000474> "Any unspecified morphological anomaly of the anterior surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000474> "abnormal morphology of anterior surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000474> "abnormal anterior surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000474> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000371>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000475> (abnormal apical surface of the epidermis morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000475> "Any unspecified morphological anomaly of the apical surface of the epidermis, such as, for example, abnormal shape or colour."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000475> "abnormal morphology of apical surface of the epidermis"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000475> "abnormal apical surface of the epidermis morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000409>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000476> (abnormal basal surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000476> "Any unspecified morphological anomaly of the basal surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000476> "abnormal morphology of basal surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000476> "abnormal basal surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000374>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000478> (abnormal apical surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000478> "Any unspecified morphological anomaly of the apical surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000478> "abnormal morphology of apical surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000478> "abnormal apical surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000478> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000373>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000479> (abnormal lateral surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000479> "Any unspecified morphological anomaly of the lateral surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000479> "abnormal morphology of lateral surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000479> "abnormal lateral surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000479> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000382>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000480> (abnormal pharynx pouch epithelial surface morphology)
 
@@ -184,13 +95,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000482> "abnormal primtive gut cell surface morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0004513>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000483> (abnormal dorsal surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000483> "Any unspecified morphological anomaly of the dorsal surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000483> "abnormal morphology of dorsal surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000483> "abnormal dorsal surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000379>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000484> (abnormal pharynx inner epithelium surface morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000484> "Any unspecified morphological anomaly of the pharynx inner epithelium surface, such as, for example, abnormal shape or colour."^^xsd:string)
@@ -198,33 +102,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000484> "abnormal pharynx inner epithelium surface morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000484> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000485> (abnormal contralateral surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000485> "Any unspecified morphological anomaly of the contralateral surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000485> "abnormal morphology of contralateral surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000485> "abnormal contralateral surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000485> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000376>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000486> (abnormal embryonic pharynx lumen epithelial surface morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000486> "Any unspecified morphological anomaly of the embryonic pharynx lumen epithelial surface, such as, for example, abnormal shape or colour."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000486> "abnormal morphology of embryonic pharynx lumen epithelial surface"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000486> "abnormal embryonic pharynx lumen epithelial surface morphology"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000486> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0004516>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000487> (abnormal ipsilateral surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000487> "Any unspecified morphological anomaly of the ipsilateral surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000487> "abnormal morphology of ipsilateral surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000487> "abnormal ipsilateral surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000381>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000488> (abnormal posterior surface morphology)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000488> "Any unspecified morphological anomaly of the posterior surface, such as, for example, abnormal shape or colour."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000488> "abnormal morphology of posterior surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000488> "abnormal posterior surface morphology"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000372>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000489> (abnormal pharynx outer epithelium surface morphology)
 

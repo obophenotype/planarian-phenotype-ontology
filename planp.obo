@@ -27127,8 +27127,8 @@ subset: NCIT:C61410
 subset: NCIT:C77526
 subset: NCIT:C77529
 synonym: "GROSS LESION" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000046324", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Visible Lesion" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: NCIT:C3367 ! Finding
@@ -36502,10 +36502,6 @@ is_a: PLANP:0000135
 is_a: PLANP:0000211
 
 [Term]
-id: PLANP:0000005
-is_a: PLANP:0000401
-
-[Term]
 id: PLANP:0000008
 is_a: PLANP:0000128
 is_a: PLANP:0000283
@@ -36567,13 +36563,7 @@ is_a: PLANP:0000043
 is_a: PLANP:0000353
 
 [Term]
-id: PLANP:0000024
-is_a: PLANP:0000055
-is_a: PLANP:0000180
-
-[Term]
 id: PLANP:0000027
-is_a: PLANP:0000120
 is_a: PLANP:0000435
 
 [Term]
@@ -36633,7 +36623,6 @@ is_a: PLANP:0000331
 
 [Term]
 id: PLANP:0000048
-is_a: PLANP:0000120
 is_a: PLANP:0000175
 
 [Term]
@@ -36661,10 +36650,6 @@ id: PLANP:0000054
 is_a: PLANP:0000051
 
 [Term]
-id: PLANP:0000055
-is_a: PLANP:0000362
-
-[Term]
 id: PLANP:0000056
 is_a: PLANP:0000029
 
@@ -36690,10 +36675,6 @@ id: PLANP:0000065
 is_a: PLANP:0000353
 
 [Term]
-id: PLANP:0000066
-is_a: PLANP:0000451
-
-[Term]
 id: PLANP:0000067
 is_a: PLANP:0000192
 is_a: PLANP:0000373
@@ -36712,10 +36693,6 @@ is_a: PLANP:0000043
 is_a: PLANP:0000059
 is_a: PLANP:0000090
 is_a: PLANP:0000289
-
-[Term]
-id: PLANP:0000077
-is_a: PLANP:0000457
 
 [Term]
 id: PLANP:0000078
@@ -36905,10 +36882,6 @@ is_a: PLANP:0000043
 is_a: PLANP:0000065
 
 [Term]
-id: PLANP:0000137
-is_a: PLANP:0000451
-
-[Term]
 id: PLANP:0000140
 is_a: PLANP:0000372
 is_a: PLANP:0000384
@@ -36962,10 +36935,6 @@ is_a: PLANP:0000109
 id: PLANP:0000156
 is_a: PLANP:0000186
 is_a: PLANP:0000352
-
-[Term]
-id: PLANP:0000157
-is_a: PLANP:0000408
 
 [Term]
 id: PLANP:0000158
@@ -37023,18 +36992,8 @@ id: PLANP:0000179
 is_a: PLANP:0000161
 
 [Term]
-id: PLANP:0000180
-is_a: PLANP:0000274
-is_a: PLANP:0000362
-
-[Term]
 id: PLANP:0000181
 is_a: PLANP:0000309
-
-[Term]
-id: PLANP:0000182
-is_a: PLANP:0000247
-is_a: PLANP:0000377
 
 [Term]
 id: PLANP:0000183
@@ -37075,17 +37034,8 @@ id: PLANP:0000194
 is_a: PLANP:0000307
 
 [Term]
-id: PLANP:0000195
-is_a: PLANP:0000120
-
-[Term]
 id: PLANP:0000196
 is_a: PLANP:0000268
-
-[Term]
-id: PLANP:0000197
-is_a: PLANP:0000278
-is_a: PLANP:0000419
 
 [Term]
 id: PLANP:0000198
@@ -37165,11 +37115,6 @@ is_a: PLANP:0000353
 is_a: PLANP:0000372
 
 [Term]
-id: PLANP:0000227
-is_a: PLANP:0000066
-is_a: PLANP:0000362
-
-[Term]
 id: PLANP:0000228
 is_a: PLANP:0000059
 is_a: PLANP:0000109
@@ -37221,11 +37166,6 @@ is_a: PLANP:0000175
 is_a: PLANP:0000372
 
 [Term]
-id: PLANP:0000247
-is_a: PLANP:0000274
-is_a: PLANP:0000419
-
-[Term]
 id: PLANP:0000248
 is_a: PLANP:0000310
 
@@ -37253,10 +37193,6 @@ is_a: PLANP:0000352
 id: PLANP:0000256
 is_a: PLANP:0000043
 is_a: PLANP:0000186
-
-[Term]
-id: PLANP:0000257
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000258
@@ -37295,10 +37231,6 @@ id: PLANP:0000271
 is_a: PLANP:0000119
 
 [Term]
-id: PLANP:0000274
-is_a: PLANP:0000408
-
-[Term]
 id: PLANP:0000275
 is_a: PLANP:0000042
 is_a: PLANP:0000150
@@ -37306,10 +37238,6 @@ is_a: PLANP:0000150
 [Term]
 id: PLANP:0000277
 is_a: PLANP:0000261
-
-[Term]
-id: PLANP:0000278
-is_a: PLANP:0000451
 
 [Term]
 id: PLANP:0000279
@@ -37330,16 +37258,8 @@ id: PLANP:0000283
 is_a: PLANP:0000363
 
 [Term]
-id: PLANP:0000284
-is_a: PLANP:0000120
-
-[Term]
 id: PLANP:0000285
 is_a: PLANP:0000202
-
-[Term]
-id: PLANP:0000286
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000287
@@ -37375,13 +37295,11 @@ is_a: PLANP:0000289
 
 [Term]
 id: PLANP:0000296
-is_a: PLANP:0000120
 is_a: PLANP:0000185
 
 [Term]
 id: PLANP:0000297
 is_a: PLANP:0000076
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000298
@@ -37436,11 +37354,6 @@ is_a: PLANP:0000043
 is_a: PLANP:0000065
 
 [Term]
-id: PLANP:0000316
-is_a: PLANP:0000137
-is_a: PLANP:0000157
-
-[Term]
 id: PLANP:0000317
 is_a: PLANP:0000051
 is_a: PLANP:0000372
@@ -37460,12 +37373,7 @@ is_a: PLANP:0000252
 
 [Term]
 id: PLANP:0000327
-is_a: PLANP:0000120
 is_a: PLANP:0000421
-
-[Term]
-id: PLANP:0000328
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000329
@@ -37509,10 +37417,6 @@ is_a: PLANP:0000352
 is_a: PLANP:0000381
 
 [Term]
-id: PLANP:0000337
-is_a: PLANP:0000157
-
-[Term]
 id: PLANP:0000338
 is_a: PLANP:0000029
 is_a: PLANP:0000312
@@ -37542,7 +37446,6 @@ is_a: PLANP:0000372
 
 [Term]
 id: PLANP:0000348
-is_a: PLANP:0000120
 is_a: PLANP:0000396
 
 [Term]
@@ -37593,10 +37496,6 @@ id: PLANP:0000360
 is_a: PLANP:0000175
 
 [Term]
-id: PLANP:0000362
-is_a: PLANP:0000408
-
-[Term]
 id: PLANP:0000364
 is_a: PLANP:0000372
 
@@ -37639,10 +37538,6 @@ is_a: PLANP:0000012
 is_a: PLANP:0000091
 
 [Term]
-id: PLANP:0000377
-is_a: PLANP:0000419
-
-[Term]
 id: PLANP:0000378
 is_a: PLANP:0000070
 
@@ -37657,10 +37552,6 @@ is_a: PLANP:0000305
 [Term]
 id: PLANP:0000381
 is_a: PLANP:0000202
-
-[Term]
-id: PLANP:0000382
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000383
@@ -37691,7 +37582,6 @@ is_a: PLANP:0000186
 [Term]
 id: PLANP:0000394
 is_a: PLANP:0000109
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000396
@@ -37766,10 +37656,6 @@ is_a: PLANP:0000285
 is_a: PLANP:0000352
 
 [Term]
-id: PLANP:0000419
-is_a: PLANP:0000408
-
-[Term]
 id: PLANP:0000420
 is_a: PLANP:0000110
 
@@ -37788,10 +37674,6 @@ is_a: PLANP:0000289
 id: PLANP:0000427
 is_a: PLANP:0000043
 is_a: PLANP:0000381
-
-[Term]
-id: PLANP:0000429
-is_a: PLANP:0000119
 
 [Term]
 id: PLANP:0000430
@@ -37863,16 +37745,8 @@ is_a: PLANP:0000088
 is_a: PLANP:0000242
 
 [Term]
-id: PLANP:0000451
-is_a: PLANP:0000408
-
-[Term]
 id: PLANP:0000452
 is_a: PLANP:0000196
-
-[Term]
-id: PLANP:0000453
-is_a: PLANP:0000120
 
 [Term]
 id: PLANP:0000455
@@ -37902,28 +37776,17 @@ is_a: PLANP:0000229
 
 [Term]
 id: PLANP:0000465
-is_a: PLANP:0000120
 is_a: PLANP:0000436
 
 [Term]
-id: PLANP:0000466
-is_a: PLANP:0000382
-is_a: PLANP:0000472
-
-[Term]
 id: PLANP:0000467
-is_a: PLANP:0000027
-is_a: PLANP:0000472
-
-[Term]
-id: PLANP:0000468
 is_a: PLANP:00000000 ! Planarian Phenotype
-is_a: PLANP:0000030
+is_a: PLANP:0000027
 
 [Term]
 id: PLANP:0000469
+is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000048
-is_a: PLANP:0000472
 
 [Term]
 id: PLANP:0000470
@@ -37931,102 +37794,47 @@ is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000071
 
 [Term]
-id: PLANP:0000471
-is_a: PLANP:00000000 ! Planarian Phenotype
-is_a: PLANP:0000075
-
-[Term]
-id: PLANP:0000472
-is_a: PLANP:00000000 ! Planarian Phenotype
-is_a: PLANP:0000120
-
-[Term]
-id: PLANP:0000473
-is_a: PLANP:00000000 ! Planarian Phenotype
-is_a: PLANP:0000174
-
-[Term]
-id: PLANP:0000474
-is_a: PLANP:0000195
-is_a: PLANP:0000472
-
-[Term]
 id: PLANP:0000475
 is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000243
 
 [Term]
-id: PLANP:0000476
-is_a: PLANP:0000257
-is_a: PLANP:0000472
-
-[Term]
-id: PLANP:0000478
-is_a: PLANP:0000284
-is_a: PLANP:0000472
-
-[Term]
-id: PLANP:0000479
-is_a: PLANP:0000286
-is_a: PLANP:0000472
-
-[Term]
 id: PLANP:0000480
+is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000296
-is_a: PLANP:0000472
 
 [Term]
 id: PLANP:0000481
+is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000297
-is_a: PLANP:0000472
 
 [Term]
 id: PLANP:0000482
+is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000327
-is_a: PLANP:0000472
-
-[Term]
-id: PLANP:0000483
-is_a: PLANP:0000328
-is_a: PLANP:0000472
 
 [Term]
 id: PLANP:0000484
-is_a: PLANP:0000348
-is_a: PLANP:0000472
-
-[Term]
-id: PLANP:0000485
 is_a: PLANP:00000000 ! Planarian Phenotype
-is_a: PLANP:0000351
+is_a: PLANP:0000348
 
 [Term]
 id: PLANP:0000486
-is_a: PLANP:0000394
-is_a: PLANP:0000472
-
-[Term]
-id: PLANP:0000487
 is_a: PLANP:00000000 ! Planarian Phenotype
-is_a: PLANP:0000405
-
-[Term]
-id: PLANP:0000488
-is_a: PLANP:0000453
-is_a: PLANP:0000472
+is_a: PLANP:0000394
 
 [Term]
 id: PLANP:0000489
+is_a: PLANP:00000000 ! Planarian Phenotype
 is_a: PLANP:0000465
-is_a: PLANP:0000472
 
 [Term]
 id: PLANP:0000490
-is_a: PLANP:0000466
+is_a: PLANP:00000000 ! Planarian Phenotype
 
 [Term]
 id: PLANP:0000491
-is_a: PLANP:0000490
+is_a: PLANP:00000000 ! Planarian Phenotype
 
 [Term]
 id: PLANP:0000492
