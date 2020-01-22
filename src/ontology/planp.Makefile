@@ -22,3 +22,6 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 
 templates: $(TEMPLATES)
 	echo $(TEMPLATES)
+	
+components/obsolete.owl: $(TEMPLATESDIR)/obsolete.owl
+	cp $< $@
