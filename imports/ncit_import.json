@@ -26,18 +26,10 @@
           "val" : "Clinical, laboratory or molecular evidence, or absence of evidence of disease.",
           "xrefs" : [ ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C116977", "http://purl.obolibrary.org/obo/NCIT_C90259", "http://purl.obolibrary.org/obo/NCIT_C67497", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C89506" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C90259", "http://purl.obolibrary.org/obo/NCIT_C67497", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C116977", "http://purl.obolibrary.org/obo/NCIT_C89506" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "finding",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Finding",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Finding",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -51,8 +43,25 @@
           "pred" : "hasExactSynonym",
           "val" : "Finding",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Finding",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Finding",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A11",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C90259"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Finding"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Finding"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P371",
           "val" : "Finding"
         }, {
@@ -60,15 +69,6 @@
           "val" : "NICHD"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P107",
-          "val" : "Finding"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
-          "val" : "Finding"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_A11",
-          "val" : "http://purl.obolibrary.org/obo/NCIT_C90259"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
           "val" : "Finding"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
@@ -128,13 +128,28 @@
       "id" : "http://www.w3.org/2000/01/rdf-schema#label",
       "lbl" : "label"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "meta" : {
+        "definition" : {
+          "val" : "A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "DEFINITION",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C3824",
       "meta" : {
         "definition" : {
           "val" : "A localized pathological or traumatic structural change, damage, deformity, or discontinuity of tissue, organ, or body part.",
           "xrefs" : [ ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C77526", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C77529" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C77529", "http://purl.obolibrary.org/obo/NCIT_C77526" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GROSS LESION",
@@ -157,48 +172,33 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
-          "val" : "A localized pathological or traumatic structural change, damage, deformity, or discontinuity of tissue, organ, or body part. (NCI)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
-          "val" : "Finding"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
           "val" : "C0221198"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
-          "val" : "Lesion"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
           "val" : "C3824"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
-          "val" : "An area of abnormal tissue. A lesion may be benign (not cancer) or malignant (cancer)."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
           "val" : "Lesion"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
           "val" : "CDISC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A localized pathological or traumatic structural change, damage, deformity, or discontinuity of tissue, organ, or body part. (NCI)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Finding"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Lesion"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "An area of abnormal tissue. A lesion may be benign (not cancer) or malignant (cancer)."
         } ]
       },
       "type" : "CLASS",
       "lbl" : "Lesion"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
-      "meta" : {
-        "definition" : {
-          "val" : "A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "DEFINITION",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "definition"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
       "type" : "PROPERTY",
@@ -219,14 +219,14 @@
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
           "val" : "C1511989"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
-          "val" : "Disease, Disorder or Finding"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
           "val" : "C7057"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
           "val" : "Diseases_Disorders_and_Findings"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Disease, Disorder or Finding"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
           "val" : "Conceptual Entity"
@@ -249,7 +249,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-21/imports/ncit_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-22/imports/ncit_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -1,7 +1,10 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-21/planp-base.owl
-remark: Planarian Phenotype Ontology
+data-version: planp/releases/2020-01-22/planp-base.owl
 ontology: planp/planp-base
+property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Planarian Phenotype Ontology (PLANP)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
 
 [Term]
 id: PLANP:00000000
@@ -94,7 +97,9 @@ synonym: "abnormality of tail stripe" EXACT []
 [Term]
 id: PLANP:0000018
 name: abnormal obsolete gastrovascular compartment
+name: obsolete abnormal gastrovascular compartment
 def: "Abnormality of obsolete gastrovascular compartment." []
+comment: no longer designating mediolateral regions using the contained_in object property
 synonym: "abnormality of obsolete gastrovascular compartment" EXACT []
 
 [Term]
@@ -218,6 +223,11 @@ def: "Abnormality of gastrodermis surface." []
 synonym: "abnormality of gastrodermis surface" EXACT []
 
 [Term]
+id: PLANP:0000049
+name: obsolete abnormal plane of autonomy
+comment: let odk import from BSPO if needed
+
+[Term]
 id: PLANP:0000050
 name: abnormal bipolar neuron
 def: "Abnormality of bipolar neuron." []
@@ -280,13 +290,17 @@ synonym: "abnormality of head" EXACT []
 [Term]
 id: PLANP:0000062
 name: abnormal obsolete Schmidtea mediterranea developmental term
+name: obsolete abnormal Schmidtea mediterranea developmental term
 def: "Abnormality of obsolete Schmidtea mediterranea developmental term." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete Schmidtea mediterranea developmental term" EXACT []
 
 [Term]
 id: PLANP:0000064
 name: abnormal obsolete  dispersed cleavage
+name: obsolete abnormal dispersed cleavage
 def: "Abnormality of obsolete  dispersed cleavage." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  dispersed cleavage" EXACT []
 
 [Term]
@@ -322,7 +336,9 @@ synonym: "abnormality of basal surface of the epidermis" EXACT []
 [Term]
 id: PLANP:0000074
 name: abnormal obsolete acidophilic cytoplasm
+name: obsolete abnormal acidophilic cytoplasm
 def: "Abnormality of obsolete acidophilic cytoplasm." []
+comment: term is not needed.
 synonym: "abnormality of obsolete acidophilic cytoplasm" EXACT []
 
 [Term]
@@ -376,13 +392,17 @@ synonym: "abnormality of pharynx outer nerve plexus" EXACT []
 [Term]
 id: PLANP:0000086
 name: abnormal obsolete cytoskeleton organization
+name: obsolete abnormal cytoskeleton organization
 def: "Abnormality of obsolete cytoskeleton organization." []
+comment: term is not needed.
 synonym: "abnormality of obsolete cytoskeleton organization" EXACT []
 
 [Term]
 id: PLANP:0000087
 name: abnormal obsolete anatomical compartment subdivision feature
+name: obsolete abnormal anatomical compartment subdivision feature
 def: "Abnormality of obsolete anatomical compartment subdivision feature." []
+comment: extra layer of complexity not needed upon further examination
 synonym: "abnormality of obsolete anatomical compartment subdivision feature" EXACT []
 
 [Term]
@@ -440,6 +460,11 @@ def: "Abnormality of ribosome." []
 synonym: "abnormality of ribosome" EXACT []
 
 [Term]
+id: PLANP:0000098
+name: obsolete abnormal acellular anatomical structure
+comment: extra layer of complexity not needed upon further examination
+
+[Term]
 id: PLANP:0000099
 name: abnormal gamma neoblast
 def: "Abnormality of gamma neoblast." []
@@ -448,7 +473,9 @@ synonym: "abnormality of gamma neoblast" EXACT []
 [Term]
 id: PLANP:0000102
 name: abnormal obsolete parenchymal compartment
+name: obsolete abnormal parenchymal compartment
 def: "Abnormality of obsolete parenchymal compartment." []
+comment: no longer designating mediolateral regions using the contained_in object property
 synonym: "abnormality of obsolete parenchymal compartment" EXACT []
 
 [Term]
@@ -880,7 +907,9 @@ synonym: "abnormality of nucleus" EXACT []
 [Term]
 id: PLANP:0000201
 name: abnormal obsolete  oviparity
+name: obsolete abnormal oviparity
 def: "Abnormality of obsolete  oviparity." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  oviparity" EXACT []
 
 [Term]
@@ -892,7 +921,9 @@ synonym: "abnormality of anatomical system" EXACT []
 [Term]
 id: PLANP:0000204
 name: abnormal obsolete  protosphere
+name: obsolete abnormal protosphere
 def: "Abnormality of obsolete  protosphere." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  protosphere" EXACT []
 
 [Term]
@@ -988,7 +1019,9 @@ synonym: "abnormality of definitive organism subdivision" EXACT []
 [Term]
 id: PLANP:0000223
 name: abnormal obsolete  direct development
+name: obsolete abnormal direct development
 def: "Abnormality of obsolete  direct development." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  direct development" EXACT []
 
 [Term]
@@ -1036,7 +1069,9 @@ synonym: "abnormality of zeta neoblast" EXACT []
 [Term]
 id: PLANP:0000236
 name: abnormal obsolete tissue morphogenesis
+name: obsolete abnormal tissue morphogenesis
 def: "Abnormality of obsolete tissue morphogenesis." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete tissue morphogenesis" EXACT []
 
 [Term]
@@ -1060,13 +1095,17 @@ synonym: "abnormality of pharynx inner circular muscle cell" EXACT []
 [Term]
 id: PLANP:0000240
 name: abnormal obsolete  gametogenesis
+name: obsolete abnormal gametogenesis
 def: "Abnormality of obsolete  gametogenesis." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  gametogenesis" EXACT []
 
 [Term]
 id: PLANP:0000241
 name: abnormal obsolete body wall musculature compartment
+name: obsolete abnormal body wall musculature compartment
 def: "Abnormality of obsolete body wall musculature compartment." []
+comment: no longer designating mediolateral regions using the contained_in object property
 synonym: "abnormality of obsolete body wall musculature compartment" EXACT []
 
 [Term]
@@ -1126,7 +1165,9 @@ synonym: "abnormality of pharynx inner nerve plexus" EXACT []
 [Term]
 id: PLANP:0000255
 name: abnormal obsolete ventral compartment
+name: obsolete abnormal ventral compartment
 def: "Abnormality of obsolete ventral compartment." []
+comment: now using patterned term ventral region PLANA:0000143
 synonym: "abnormality of obsolete ventral compartment" EXACT []
 
 [Term]
@@ -1144,13 +1185,17 @@ synonym: "abnormality of neuron projection bundle" EXACT []
 [Term]
 id: PLANP:0000259
 name: abnormal obsolete embryonic cleavage
+name: obsolete abnormal embryonic cleavage
 def: "Abnormality of obsolete embryonic cleavage." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete embryonic cleavage" EXACT []
 
 [Term]
 id: PLANP:0000260
 name: abnormal obsolete definitive anatomical structure
+name: obsolete abnormal definitive anatomical structure
 def: "Abnormality of obsolete definitive anatomical structure." []
+comment: extra layer of complexity not needed upon further examination
 synonym: "abnormality of obsolete definitive anatomical structure" EXACT []
 
 [Term]
@@ -1162,7 +1207,9 @@ synonym: "abnormality of anatomical region" EXACT []
 [Term]
 id: PLANP:0000262
 name: abnormal obsolete Schmidtea mediterranea developmental stage
+name: obsolete abnormal Schmidtea mediterranea developmental stage
 def: "Abnormality of obsolete Schmidtea mediterranea developmental stage." []
+comment: this term is not needed. All previous children of this term  (Stage 1, Sage 2, etc) are now children of GO life cycle stage or zygote stage
 synonym: "abnormality of obsolete Schmidtea mediterranea developmental stage" EXACT []
 
 [Term]
@@ -1438,7 +1485,9 @@ synonym: "abnormality of ventral midline" EXACT []
 [Term]
 id: PLANP:0000324
 name: abnormal obsolete  sphere formation
+name: obsolete abnormal sphere formation
 def: "Abnormality of obsolete  sphere formation." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  sphere formation" EXACT []
 
 [Term]
@@ -1450,7 +1499,9 @@ synonym: "abnormality of obsolete extracellular component" EXACT []
 [Term]
 id: PLANP:0000326
 name: abnormal obsolete basophilic cytoplasm
+name: obsolete abnormal basophilic cytoplasm
 def: "Abnormality of obsolete basophilic cytoplasm." []
+comment: term is not needed.
 synonym: "abnormality of obsolete basophilic cytoplasm" EXACT []
 
 [Term]
@@ -1538,6 +1589,11 @@ def: "Abnormality of enteric musculature." []
 synonym: "abnormality of enteric musculature" EXACT []
 
 [Term]
+id: PLANP:0000344
+name: obsolete abnormal coronal plane 
+comment: let odk import from BSPO if needed
+
+[Term]
 id: PLANP:0000345
 name: abnormal dorsal midline
 def: "Abnormality of dorsal midline." []
@@ -1612,7 +1668,9 @@ synonym: "abnormality of intracellular part" EXACT []
 [Term]
 id: PLANP:0000359
 name: abnormal obsolete epidermal compartment
+name: obsolete abnormal epidermal compartment
 def: "Abnormality of obsolete epidermal compartment." []
+comment: no longer designating mediolateral regions using the contained_in object property
 synonym: "abnormality of obsolete epidermal compartment" EXACT []
 
 [Term]
@@ -1624,7 +1682,9 @@ synonym: "abnormality of digestive tract lumen" EXACT []
 [Term]
 id: PLANP:0000361
 name: abnormal obsolete pharynx nerve plexus
+name: obsolete abnormal pharynx nerve plexus
 def: "Abnormality of obsolete pharynx nerve plexus." []
+comment: causes problems with is a and part of relationships for inner and outer pharynx nerve plexus in that both are true. 
 synonym: "abnormality of obsolete pharynx nerve plexus" EXACT []
 
 [Term]
@@ -1972,7 +2032,9 @@ synonym: "abnormality of pharynx progenitor cell" EXACT []
 [Term]
 id: PLANP:0000449
 name: abnormal obsolete racing stripe
+name: obsolete abnormal racing stripe
 def: "Abnormality of obsolete racing stripe." []
+comment: racing stripe is now a synonym of PLANA:0000055 dorsal stripe
 synonym: "abnormality of obsolete racing stripe" EXACT []
 
 [Term]
@@ -2008,7 +2070,9 @@ synonym: "abnormality of sympathetic neuron" EXACT []
 [Term]
 id: PLANP:0000459
 name: abnormal obsolete  cross-fertilization
+name: obsolete abnormal cross-fertilization
 def: "Abnormality of obsolete  cross-fertilization." []
+comment: removing all processes. may bring back if PLANA expanded to cover processes.
 synonym: "abnormality of obsolete  cross-fertilization" EXACT []
 
 [Term]

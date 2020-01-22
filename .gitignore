@@ -16,3 +16,12 @@ src/ontology/dosdp-tools.log
 src/ontology/planp.csv
 src/ontology/patterns
 *.DS_Store
+src/ontology/planp-full.json
+src/ontology/planp-full.obo
+src/ontology/planp-full.owl
+src/ontology/planp-simple.json
+src/ontology/planp-simple.obo
+src/ontology/planp-simple.owl
+src/ontology/reports/planp-edit.owl-obo-report.tsv
+src/ontology/simple_seed.txt
+src/ontology/merged-planp-edit.owl
