@@ -1,13 +1,7 @@
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT DISTINCT ?term ?label
+SELECT DISTINCT ?term
 WHERE {
-  { ?s1 ?p1 ?term .
-  }
+  { ?s1 ?p1 ?term . }
   UNION
-  { ?term ?p2 ?o2 . 
-  ?term rdfs:label ?label .
-  }
-  FILTER(isIRI(?term) && regex(str(?term), "PLANP_"))
+  { ?term ?p2 ?o2 . }
+  FILTER(isIRI(?term) && (regex(str(?term), UCASE("planp_")) || regex(str(?term), "http://purl.obolibrary.org/obo/PLANP_")))
 }
-
-
