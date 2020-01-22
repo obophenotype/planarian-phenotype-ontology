@@ -3,7 +3,7 @@ title: "Planarian Phenotype Ontology"
 github_org: obophenotype
 repo: planarian-phenotype-ontology
 #report_fail_on: ERROR
-report_fail_on: ERROR
+report_fail_on: None
 use_dosdps: TRUE
 namespaces: 
   - http://purl.obolibrary.org/obo/PLANP_

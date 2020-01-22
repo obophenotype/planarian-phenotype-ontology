@@ -91,6 +91,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000098">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra layer of complexity not needed upon further examination</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal acellular anatomical structure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PLANP_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000102">
