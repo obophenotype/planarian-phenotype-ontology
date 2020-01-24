@@ -18,6 +18,6 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEnt
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntity.yaml
-http://purl.obolibrary.org/obo/upheno/patterns-dev/lesionInAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/lesionedAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPigmentationOfAnatomicalEntity.yaml
 https://raw.githubusercontent.com/obophenotype/upheno/master/src/patterns/dosdp-workshop/lesionInLocationByShape.yaml

@@ -243,21 +243,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal glial cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000165",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of embryonic wall.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of embryonic wall",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal embryonic wall"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000044",
       "meta" : {
         "definition" : {
@@ -272,6 +257,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pigment cup cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000165",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of embryonic wall.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of embryonic wall",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal embryonic wall"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000289",
       "meta" : {
@@ -303,21 +303,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal goblet cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000167",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of pharynx radial muscle cell.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of pharynx radial muscle cell",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal pharynx radial muscle cell"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000046",
       "meta" : {
         "definition" : {
@@ -332,6 +317,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal eye"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000167",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx radial muscle cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx radial muscle cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx radial muscle cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000288",
       "meta" : {
@@ -363,21 +363,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal Stage 5"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000052",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of ventral epidermis.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of ventral epidermis",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal ventral epidermis"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000173",
       "meta" : {
         "definition" : {
@@ -392,6 +377,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal sensory system"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000052",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ventral epidermis.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ventral epidermis",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ventral epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000293",
       "meta" : {
@@ -588,21 +588,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal dorsal ventral margin of the whole animal"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000298",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of vacuole.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of vacuole",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal vacuole"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000056",
       "meta" : {
         "definition" : {
@@ -617,6 +602,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal sigma neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000298",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of vacuole.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of vacuole",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal vacuole"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000297",
       "meta" : {
@@ -633,21 +633,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal embryonic gut cell surface"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000058",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of pharynx epithelium.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of pharynx epithelium",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal pharynx epithelium"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000179",
       "meta" : {
         "definition" : {
@@ -663,20 +648,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal ovary"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000057",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000058",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of inner longitudinal muscle cell.",
+          "val" : "Abnormality of pharynx epithelium.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of inner longitudinal muscle cell",
+          "val" : "abnormality of pharynx epithelium",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal inner longitudinal muscle cell"
+      "lbl" : "abnormal pharynx epithelium"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000299",
       "meta" : {
@@ -693,20 +678,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal proximal-distal axis of the whole animal"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000261",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000057",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of anatomical region.",
+          "val" : "Abnormality of inner longitudinal muscle cell.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of anatomical region",
+          "val" : "abnormality of inner longitudinal muscle cell",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal anatomical region"
+      "lbl" : "abnormal inner longitudinal muscle cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000140",
       "meta" : {
@@ -723,27 +708,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal adhesion gland"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000260",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000261",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of obsolete definitive anatomical structure.",
+          "val" : "Abnormality of anatomical region.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete definitive anatomical structure",
+          "val" : "abnormality of anatomical region",
           "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "extra layer of complexity not needed upon further examination"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "obsolete abnormal definitive anatomical structure"
+      "lbl" : "abnormal anatomical region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000381",
       "meta" : {
@@ -759,6 +737,19 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal integumental system"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000260",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "extra layer of complexity not needed upon further examination"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal definitive anatomical structure"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000384",
       "meta" : {
@@ -807,25 +798,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000262",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete Schmidtea mediterranea developmental stage.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete Schmidtea mediterranea developmental stage",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "this term is not needed. All previous children of this term  (Stage 1, Sage 2, etc) are now children of GO life cycle stage or zygote stage"
-        }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "this term is not needed. All previous children of this term  (Stage 1, Sage 2, etc) are now children of GO life cycle stage or zygote stage"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete Schmidtea mediterranea developmental stage"
+      "lbl" : "obsolete abnormal Schmidtea mediterranea developmental stage"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000383",
       "meta" : {
@@ -947,21 +929,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal cephalic ganglia"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000386",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of elongate spermatid.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of elongate spermatid",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal elongate spermatid"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000265",
       "meta" : {
         "definition" : {
@@ -976,6 +943,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal cell-cell junction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000386",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of elongate spermatid.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of elongate spermatid",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal elongate spermatid"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000144",
       "meta" : {
@@ -1052,21 +1034,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal neural progenitor cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000146",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of cytoplasmic part.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of cytoplasmic part",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal cytoplasmic part"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000388",
       "meta" : {
         "definition" : {
@@ -1097,6 +1064,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal smooth endoplasmic reticulum"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000146",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cytoplasmic part.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cytoplasmic part",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cytoplasmic part"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000145",
       "meta" : {
         "definition" : {
@@ -1111,21 +1093,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal plasma membrane"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000266",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of TrpA+ central nervous system neuron.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of TrpA+ central nervous system neuron",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal TrpA+ central nervous system neuron"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000387",
       "meta" : {
@@ -1142,20 +1109,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal lysosome"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000393",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000266",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of dorsal-ventral axis of the whole animal.",
+          "val" : "Abnormality of TrpA+ central nervous system neuron.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of dorsal-ventral axis of the whole animal",
+          "val" : "abnormality of TrpA+ central nervous system neuron",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal dorsal-ventral axis of the whole animal"
+      "lbl" : "abnormal TrpA+ central nervous system neuron"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000151",
       "meta" : {
@@ -1171,6 +1138,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal sperm duct"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000393",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of dorsal-ventral axis of the whole animal.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of dorsal-ventral axis of the whole animal",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal dorsal-ventral axis of the whole animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000271",
       "meta" : {
@@ -1307,21 +1289,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal primordium"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000038",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of prepharyngeal region.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of prepharyngeal region",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal prepharyngeal region"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000159",
       "meta" : {
         "definition" : {
@@ -1336,6 +1303,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal photoreceptor neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000038",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prepharyngeal region.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prepharyngeal region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prepharyngeal region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000279",
       "meta" : {
@@ -1412,21 +1394,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal circular muscle cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000154",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of plasma membrane part.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of plasma membrane part",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal plasma membrane part"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000275",
       "meta" : {
         "definition" : {
@@ -1471,6 +1438,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pharynx inner epithelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000154",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of plasma membrane part.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of plasma membrane part",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal plasma membrane part"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000036",
       "meta" : {
@@ -1517,21 +1499,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal anterior pole"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000398",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of intracellular membrane-bounded organelle.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of intracellular membrane-bounded organelle",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal intracellular membrane-bounded organelle"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000156",
       "meta" : {
         "definition" : {
@@ -1546,6 +1513,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal submuscular nerve plexus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000398",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of intracellular membrane-bounded organelle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of intracellular membrane-bounded organelle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal intracellular membrane-bounded organelle"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000090",
       "meta" : {
@@ -1594,37 +1576,19 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000087",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete anatomical compartment subdivision feature.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete anatomical compartment subdivision feature",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "extra layer of complexity not needed upon further examination"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete anatomical compartment subdivision feature"
+      "lbl" : "obsolete abnormal anatomical compartment subdivision feature"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000086",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete cytoskeleton organization.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete cytoskeleton organization",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "term is not needed."
@@ -1634,7 +1598,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete cytoskeleton organization"
+      "lbl" : "obsolete abnormal cytoskeleton organization"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000080",
       "meta" : {
@@ -1829,28 +1793,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal gamma neoblast"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000062",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete Schmidtea mediterranea developmental term.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete Schmidtea mediterranea developmental term",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "obsolete abnormal Schmidtea mediterranea developmental term"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000183",
       "meta" : {
         "definition" : {
@@ -1865,6 +1807,19 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal electrically responsive cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000062",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal Schmidtea mediterranea developmental term"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000186",
       "meta" : {
@@ -1898,15 +1853,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000064",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete  dispersed cleavage.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  dispersed cleavage",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
@@ -1916,7 +1862,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete  dispersed cleavage"
+      "lbl" : "obsolete abnormal dispersed cleavage"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000185",
       "meta" : {
@@ -2025,15 +1971,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000074",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete acidophilic cytoplasm.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete acidophilic cytoplasm",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "term is not needed."
@@ -2242,21 +2179,12 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000449",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete racing stripe.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete racing stripe",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "racing stripe is now a synonym of PLANA:0000055 dorsal stripe"
-        }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "racing stripe is now a synonym of PLANA:0000055 dorsal stripe"
         } ]
       },
       "type" : "CLASS",
@@ -2276,6 +2204,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal primtive gut cell surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000569",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chemosensory neuron.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chemosensory neuron",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chemosensory neuron"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000448",
       "meta" : {
@@ -2337,17 +2280,83 @@
       "type" : "CLASS",
       "lbl" : "abnormal egg capsule"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000324",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000681",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of obsolete  sphere formation.",
+          "val" : "Abnormality of syncytium.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  sphere formation",
+          "val" : "abnormality of syncytium",
           "xrefs" : [ ]
-        } ],
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal syncytium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000560",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of basal body.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of basal body",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal basal body"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000680",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of parasagittal orientation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of parasagittal orientation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal parasagittal orientation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000566",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cephalic ganglia neuron.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cephalic ganglia neuron",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cephalic ganglia neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000687",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of parenchyma.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of parenchyma",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal parenchyma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000324",
+      "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
@@ -2389,6 +2398,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx pouch cavity"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000565",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cephalic ganglia lobe.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cephalic ganglia lobe",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cephalic ganglia lobe"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000686",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of sperm duct epithelial surface.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of sperm duct epithelial surface",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal sperm duct epithelial surface"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000202",
       "meta" : {
         "definition" : {
@@ -2419,23 +2458,44 @@
       "type" : "CLASS",
       "lbl" : "abnormal ventral midline"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000326",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000568",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of obsolete basophilic cytoplasm.",
+          "val" : "Abnormality of chemical pharynx amputation.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete basophilic cytoplasm",
+          "val" : "abnormality of chemical pharynx amputation",
           "xrefs" : [ ]
-        } ],
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chemical pharynx amputation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000689",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ventral epidermis cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ventral epidermis cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ventral epidermis cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000326",
+      "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "term is not needed."
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       },
       "type" : "CLASS",
@@ -2456,32 +2516,8 @@
       "type" : "CLASS",
       "lbl" : "abnormal gland cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000325",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete extracellular component.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete extracellular component",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal obsolete extracellular component"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000204",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete  protosphere.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  protosphere",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
@@ -2491,7 +2527,37 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete  protosphere"
+      "lbl" : "obsolete abnormal protosphere"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000688",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of testis cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of testis cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal testis cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000567",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chemical amputation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chemical amputation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chemical amputation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000320",
       "meta" : {
@@ -2508,27 +2574,80 @@
       "type" : "CLASS",
       "lbl" : "abnormal Stage 2"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000201",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000683",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of obsolete  oviparity.",
+          "val" : "Abnormality of FACS sorted cell population.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  oviparity",
+          "val" : "abnormality of FACS sorted cell population",
           "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "obsolete abnormal oviparity"
+      "lbl" : "abnormal FACS sorted cell population"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000562",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of bulbar cavity.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of bulbar cavity",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal bulbar cavity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000561",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of brain visual center.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of brain visual center",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal brain visual center"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000682",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of intracellular granule.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of intracellular granule",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal intracellular granule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000564",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cell body.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cell body",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cell body"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000322",
       "meta" : {
@@ -2545,6 +2664,34 @@
       "type" : "CLASS",
       "lbl" : "abnormal protonephridial progenitor cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000201",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal oviparity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000685",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx pouch epithelium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx pouch epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx pouch epithelium"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000443",
       "meta" : {
         "definition" : {
@@ -2559,6 +2706,36 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal embryonic pharynx epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000200",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nucleus.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nucleus",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nucleus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000563",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of Category 1 cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of Category 1 cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal Category 1 cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000442",
       "meta" : {
@@ -2575,20 +2752,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal circular muscle progenitor cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000200",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000684",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of nucleus.",
+          "val" : "Abnormality of derived cell population.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of nucleus",
+          "val" : "abnormality of derived cell population",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal nucleus"
+      "lbl" : "abnormal derived cell population"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000339",
       "meta" : {
@@ -2620,28 +2797,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal Stage 8"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000459",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete  cross-fertilization.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  cross-fertilization",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal obsolete  cross-fertilization"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000338",
       "meta" : {
         "definition" : {
@@ -2656,6 +2811,19 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal longitudinal muscle progenitor cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000459",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal cross-fertilization"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000219",
       "meta" : {
@@ -2672,6 +2840,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal copulatory region"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000690",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of visual system cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of visual system cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal visual system cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000571",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chromosome.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chromosome",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chromosome"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000692",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of enteric muscle cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of enteric muscle cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal enteric muscle cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000450",
       "meta" : {
         "definition" : {
@@ -2686,6 +2899,51 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal excitatory motor neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000570",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chromatoid body.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chromatoid body",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chromatoid body"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000691",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of eye cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of eye cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal eye cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000577",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of dendrite.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of dendrite",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal dendrite"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000214",
       "meta" : {
@@ -2717,6 +2975,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal nerve"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000698",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx neuron.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx neuron",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx neuron"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000335",
       "meta" : {
         "definition" : {
@@ -2746,6 +3019,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal diagonal muscle cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000576",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cut.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cut",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cut"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000334",
       "meta" : {
@@ -2777,6 +3065,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal left-right axis of the whole animal"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000697",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anterior pole cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anterior pole cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anterior pole cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000216",
       "meta" : {
         "definition" : {
@@ -2807,20 +3110,35 @@
       "type" : "CLASS",
       "lbl" : "abnormal sympathetic neuron"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000336",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000579",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of subepidermal nerve plexus.",
+          "val" : "Abnormality of early female germ cell.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of subepidermal nerve plexus",
+          "val" : "abnormality of early female germ cell",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal subepidermal nerve plexus"
+      "lbl" : "abnormal early female germ cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000699",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx epithelial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx epithelial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx epithelial cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000215",
       "meta" : {
@@ -2836,6 +3154,66 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal blastomere"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000578",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of dorsal-ventral muscle cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of dorsal-ventral muscle cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal dorsal-ventral muscle cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000336",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of subepidermal nerve plexus.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of subepidermal nerve plexus",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal subepidermal nerve plexus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000694",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of adhesion gland cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of adhesion gland cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal adhesion gland cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000573",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ciliated epithelium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ciliated epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ciliated epithelium"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000452",
       "meta" : {
@@ -2867,6 +3245,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal secretory cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000572",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chromosome arm.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chromosome arm",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chromosome arm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000693",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of dorsal epidermis cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of dorsal epidermis cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal dorsal epidermis cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000330",
       "meta" : {
         "definition" : {
@@ -2897,6 +3305,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal penis papilla"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000696",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of gastrodermal cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of gastrodermal cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal gastrodermal cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000212",
       "meta" : {
         "definition" : {
@@ -2911,6 +3334,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pharynx longitudinal muscle cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000575",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of commissure.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of commissure",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal commissure"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000211",
       "meta" : {
@@ -2942,6 +3380,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx outer longitudinal muscle cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000574",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cilium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cilium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cilium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000695",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of body wall muscle cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of body wall muscle cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal body wall muscle cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000309",
       "meta" : {
         "definition" : {
@@ -2956,6 +3424,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal neurosecretory neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000306",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of organelle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of organelle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal organelle"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000427",
       "meta" : {
@@ -2972,20 +3455,65 @@
       "type" : "CLASS",
       "lbl" : "abnormal epidermis"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000306",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000548",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of organelle.",
+          "val" : "Abnormality of ventral region of the whole animal.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of organelle",
+          "val" : "abnormality of ventral region of the whole animal",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal organelle"
+      "lbl" : "abnormal ventral region of the whole animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000669",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of perturbation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of perturbation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal perturbation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000547",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of posterior compartment of the whole animal.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of posterior compartment of the whole animal",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal posterior compartment of the whole animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000668",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chromosome_part.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chromosome_part",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chromosome_part"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000305",
       "meta" : {
@@ -3017,6 +3545,81 @@
       "type" : "CLASS",
       "lbl" : "abnormal embryonic subdivision"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000549",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of heterochromatin.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of heterochromatin",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal heterochromatin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000780",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of tail fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of tail fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal tail fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000544",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of Hyman vesicle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of Hyman vesicle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal Hyman vesicle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000786",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of longitudinal fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of longitudinal fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal longitudinal fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000665",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of epithelium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal epithelium"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000302",
       "meta" : {
         "definition" : {
@@ -3047,6 +3650,81 @@
       "type" : "CLASS",
       "lbl" : "abnormal sperm duct lumen"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000664",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of fission fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of fission fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal fission fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000785",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of lateral fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of lateral fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal lateral fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000543",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of regeneration.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of regeneration",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal regeneration"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000667",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of extraembryonic organ.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of extraembryonic organ",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal extraembryonic organ"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000788",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of wedge fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of wedge fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal wedge fragment"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000304",
       "meta" : {
         "definition" : {
@@ -3061,6 +3739,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal progenitor cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000546",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of dorsal region of the whole animal.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of dorsal region of the whole animal",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal dorsal region of the whole animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000425",
       "meta" : {
@@ -3077,6 +3770,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal ectolecithal embryo"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000545",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anterior region of the whole animal.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anterior region of the whole animal",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anterior region of the whole animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000787",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of plug fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of plug fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal plug fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000666",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of gut branch.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of gut branch",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal gut branch"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000540",
       "meta" : {
         "definition" : {
@@ -3092,6 +3830,96 @@
       "type" : "CLASS",
       "lbl" : "Decreased number of tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000661",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of Xins cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of Xins cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal Xins cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000782",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of postpharyngeal fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of postpharyngeal fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal postpharyngeal fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000781",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prepharyngeal fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prepharyngeal fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prepharyngeal fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000660",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of X2 cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of X2 cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal X2 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000542",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of whole organism.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal whole organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000784",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of posterior fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of posterior fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal posterior fragment"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000421",
       "meta" : {
         "definition" : {
@@ -3106,6 +3934,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal primitive gut cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000663",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of post-blastema region.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of post-blastema region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal post-blastema region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000541",
       "meta" : {
@@ -3137,6 +3980,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal cell junction"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000783",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anterior fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anterior fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anterior fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000662",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of post-pharyngeal region.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of post-pharyngeal region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal post-pharyngeal region"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000438",
       "meta" : {
         "definition" : {
@@ -3152,6 +4025,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal collecting duct epithelial cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000559",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of axoneme.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of axoneme",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal axoneme"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000317",
       "meta" : {
         "definition" : {
@@ -3166,6 +4054,36 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal esophagus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000679",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of sagittal orientation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of sagittal orientation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal sagittal orientation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000558",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of axon.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of axon",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal axon"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000437",
       "meta" : {
@@ -3212,20 +4130,50 @@
       "type" : "CLASS",
       "lbl" : "abnormal mouth"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000434",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000670",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of sperm duct epithelial cell.",
+          "val" : "Abnormality of chromosomal_structural_element.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of sperm duct epithelial cell",
+          "val" : "abnormality of chromosomal_structural_element",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal sperm duct epithelial cell"
+      "lbl" : "abnormal chromosomal_structural_element"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000555",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anterior tip.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anterior tip",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anterior tip"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000676",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of plug wound.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of plug wound",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal plug wound"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000313",
       "meta" : {
@@ -3242,6 +4190,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal endoplasmic reticulum"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000434",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of sperm duct epithelial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of sperm duct epithelial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal sperm duct epithelial cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000433",
       "meta" : {
         "definition" : {
@@ -3256,6 +4219,36 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal ovarian somatic gonadal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000554",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anterior gut branch.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anterior gut branch",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anterior gut branch"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000675",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of chemical wound.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of chemical wound",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal chemical wound"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000312",
       "meta" : {
@@ -3272,21 +4265,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal muscle progenitor cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000315",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of copulatory bursa.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of copulatory bursa",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal copulatory bursa"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000436",
       "meta" : {
         "definition" : {
@@ -3301,6 +4279,51 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pharynx outer epithelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000678",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of regenerating fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of regenerating fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal regenerating fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000557",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of auricle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of auricle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal auricle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000315",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of copulatory bursa.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of copulatory bursa",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal copulatory bursa"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000435",
       "meta" : {
@@ -3317,6 +4340,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal primitive ectoderm"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000677",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of wedge wound.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of wedge wound",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal wedge wound"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000314",
       "meta" : {
         "definition" : {
@@ -3331,6 +4369,36 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal distal tubule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000556",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of antrum.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of antrum",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal antrum"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000672",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of thin fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of thin fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal thin fragment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000430",
       "meta" : {
@@ -3347,6 +4415,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal nu neoblast"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000551",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of adherens junction.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of adherens junction",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal adherens junction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000671",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of thick fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of thick fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal thick fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000550",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of adenal rhabdite.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of adenal rhabdite",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal adenal rhabdite"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000311",
       "meta" : {
         "definition" : {
@@ -3362,6 +4475,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal serotonergic neuron"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000553",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of amputation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of amputation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal amputation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000674",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of longitudinal region.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of longitudinal region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal longitudinal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000552",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of adhesive papilla.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of adhesive papilla",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal adhesive papilla"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000310",
       "meta" : {
         "definition" : {
@@ -3376,6 +4534,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000673",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal fragment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000009",
       "meta" : {
@@ -3422,21 +4595,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal longitudinal muscle cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000481",
-      "meta" : {
-        "definition" : {
-          "val" : "Any unspecified morphological anomaly of the embryonic gut cell surface, such as, for example, abnormal shape or colour.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of embryonic gut cell surface",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal embryonic gut cell surface morphology"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000360",
       "meta" : {
         "definition" : {
@@ -3451,6 +4609,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal digestive tract lumen"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000481",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the embryonic gut cell surface, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of embryonic gut cell surface",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal embryonic gut cell surface morphology"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000480",
       "meta" : {
@@ -3469,25 +4642,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000241",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete body wall musculature compartment.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete body wall musculature compartment",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "no longer designating mediolateral regions using the contained_in object property"
-        }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "no longer designating mediolateral regions using the contained_in object property"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete body wall musculature compartment"
+      "lbl" : "obsolete abnormal body wall musculature compartment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000482",
       "meta" : {
@@ -3504,39 +4668,8 @@
       "type" : "CLASS",
       "lbl" : "abnormal primtive gut cell surface morphology"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000361",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete pharynx nerve plexus.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete pharynx nerve plexus",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "causes problems with is a and part of relationships for inner and outer pharynx nerve plexus in that both are true. "
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal obsolete pharynx nerve plexus"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000240",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete  gametogenesis.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  gametogenesis",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
@@ -3548,20 +4681,18 @@
       "type" : "CLASS",
       "lbl" : "obsolete abnormal gametogenesis"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000126",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000361",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of primitive ectoderm cell.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of primitive ectoderm cell",
-          "xrefs" : [ ]
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "causes problems with is a and part of relationships for inner and outer pharynx nerve plexus in that both are true. "
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal primitive ectoderm cell"
+      "lbl" : "obsolete abnormal pharynx nerve plexus"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000489",
       "meta" : {
@@ -3578,20 +4709,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx outer epithelium surface morphology"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000004",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000126",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of Category 4 cell.",
+          "val" : "Abnormality of primitive ectoderm cell.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of Category 4 cell",
+          "val" : "abnormality of primitive ectoderm cell",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal Category 4 cell"
+      "lbl" : "abnormal primitive ectoderm cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000367",
       "meta" : {
@@ -3637,6 +4768,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal optic chiasm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000004",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of Category 4 cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of Category 4 cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal Category 4 cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000128",
       "meta" : {
@@ -3773,21 +4919,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx inner epithelium surface morphology"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000242",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of motor neuron.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of motor neuron",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal motor neuron"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000363",
       "meta" : {
         "definition" : {
@@ -3802,6 +4933,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000242",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of motor neuron.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of motor neuron",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal motor neuron"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000121",
       "meta" : {
@@ -4013,21 +5159,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal fission plane"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000131",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of membrane-bounded organelle.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of membrane-bounded organelle",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal membrane-bounded organelle"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000252",
       "meta" : {
         "definition" : {
@@ -4058,6 +5189,21 @@
       "type" : "CLASS",
       "lbl" : "decreased width of the head"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000131",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of membrane-bounded organelle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of membrane-bounded organelle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal membrane-bounded organelle"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000373",
       "meta" : {
         "definition" : {
@@ -4072,21 +5218,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal intracellular organelle"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000372",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of tissue.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of tissue",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal tissue"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000251",
       "meta" : {
@@ -4103,20 +5234,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal ovary nerve plexus"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000130",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000372",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of oral opening.",
+          "val" : "Abnormality of tissue.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of oral opening",
+          "val" : "abnormality of tissue",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal oral opening"
+      "lbl" : "abnormal tissue"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000493",
       "meta" : {
@@ -4132,6 +5263,21 @@
       },
       "type" : "CLASS",
       "lbl" : "columnar head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000130",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of oral opening.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of oral opening",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal oral opening"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000490",
       "meta" : {
@@ -4193,20 +5339,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal embryonic cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000015",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000378",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of nucleolus.",
+          "val" : "Abnormality of enteric neuron.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of nucleolus",
+          "val" : "abnormality of enteric neuron",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal nucleolus"
+      "lbl" : "abnormal enteric neuron"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000499",
       "meta" : {
@@ -4238,20 +5384,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal seminal vesicle"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000378",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000015",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of enteric neuron.",
+          "val" : "Abnormality of nucleolus.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of enteric neuron",
+          "val" : "abnormality of nucleolus",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal enteric neuron"
+      "lbl" : "abnormal nucleolus"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000139",
       "meta" : {
@@ -4270,47 +5416,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000018",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete gastrovascular compartment.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete gastrovascular compartment",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "no longer designating mediolateral regions using the contained_in object property"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete gastrovascular compartment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000259",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete embryonic cleavage.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete embryonic cleavage",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "obsolete abnormal embryonic cleavage"
+      "lbl" : "obsolete abnormal gastrovascular compartment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000017",
       "meta" : {
@@ -4327,6 +5442,19 @@
       "type" : "CLASS",
       "lbl" : "abnormal tail stripe"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000259",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "removing all processes. may bring back if PLANA expanded to cover processes."
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal embryonic cleavage"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000138",
       "meta" : {
         "definition" : {
@@ -4341,36 +5469,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal extraembryonic structure"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000496",
-      "meta" : {
-        "definition" : {
-          "val" : "Any structural anomaly that causes tail to be pointed shaped.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal pointed shape of tail",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "pointed tail"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000012",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of pharynx musculature.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of pharynx musculature",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal pharynx musculature"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000375",
       "meta" : {
@@ -4401,6 +5499,36 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pharynx inner nerve plexus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000496",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be pointed shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal pointed shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pointed tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000012",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx musculature.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx musculature",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx musculature"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000011",
       "meta" : {
@@ -4447,6 +5575,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal spermatogonium"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000498",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the tail, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal tail morphology"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000256",
       "meta" : {
         "definition" : {
@@ -4477,21 +5620,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal dorsal region of the epidermis"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000498",
-      "meta" : {
-        "definition" : {
-          "val" : "Any unspecified morphological anomaly of the tail, such as, for example, abnormal shape or colour.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of tail",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal tail morphology"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000014",
       "meta" : {
         "definition" : {
@@ -4506,6 +5634,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal collecting duct"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000497",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal head morphology"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000376",
       "meta" : {
@@ -4524,15 +5667,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000255",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete ventral compartment.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete ventral compartment",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "now using patterned term ventral region PLANA:0000143"
@@ -4542,37 +5676,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete ventral compartment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000497",
-      "meta" : {
-        "definition" : {
-          "val" : "Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of head",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal head morphology"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000108",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of gamete.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of gamete",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal gamete"
+      "lbl" : "obsolete abnormal ventral compartment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000229",
       "meta" : {
@@ -4588,6 +5692,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal membrane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000108",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of gamete.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of gamete",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal gamete"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000349",
       "meta" : {
@@ -4634,6 +5753,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal embryonic pharynx"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000580",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of early male germ cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of early male germ cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal early male germ cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000340",
       "meta" : {
         "definition" : {
@@ -4648,6 +5782,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal adult hermaphrodite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000582",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of epidermal cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of epidermal cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal epidermal cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000461",
       "meta" : {
@@ -4664,20 +5813,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal secretory pore"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000467",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000581",
       "meta" : {
         "definition" : {
-          "val" : "Any unspecified morphological anomaly of the primitive ectoderm surface, such as, for example, abnormal shape or colour.",
+          "val" : "Abnormality of embryonic gut.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of primitive ectoderm surface",
+          "val" : "abnormality of embryonic gut",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal primitive ectoderm surface morphology"
+      "lbl" : "abnormal embryonic gut"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000346",
       "meta" : {
@@ -4708,6 +5857,51 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal oocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000467",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the primitive ectoderm surface, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of primitive ectoderm surface",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal primitive ectoderm surface morphology"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000588",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of extracellular space.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of extracellular space",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal extracellular space"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000587",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of extracellular matrix.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of extracellular matrix",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal extracellular matrix"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000103",
       "meta" : {
@@ -4769,21 +5963,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal gastrodermis surface morphology"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000105",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of sperm duct epithelium.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of sperm duct epithelium",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal sperm duct epithelium"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000226",
       "meta" : {
         "definition" : {
@@ -4799,6 +5978,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal vitelline gland"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000105",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of sperm duct epithelium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of sperm duct epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal sperm duct epithelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000589",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of fission.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of fission",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal fission"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000221",
       "meta" : {
         "definition" : {
@@ -4813,6 +6022,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal spermatid"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000584",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ER membrane.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ER membrane",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ER membrane"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000342",
       "meta" : {
@@ -4859,6 +6083,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal blastema"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000583",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of epidermal rhabdite.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of epidermal rhabdite",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal epidermal rhabdite"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000220",
       "meta" : {
         "definition" : {
@@ -4891,15 +6130,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000223",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete  direct development.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete  direct development",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
@@ -4911,27 +6141,33 @@
       "type" : "CLASS",
       "lbl" : "obsolete abnormal direct development"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000102",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000586",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of obsolete parenchymal compartment.",
+          "val" : "Abnormality of excretory cell.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete parenchymal compartment",
+          "val" : "abnormality of excretory cell",
           "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "no longer designating mediolateral regions using the contained_in object property"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal obsolete parenchymal compartment"
+      "lbl" : "abnormal excretory cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000102",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "no longer designating mediolateral regions using the contained_in object property"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal parenchymal compartment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000465",
       "meta" : {
@@ -4951,30 +6187,30 @@
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000344",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "let odk import from BSPO if needed"
-        }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "let odk import from BSPO if needed"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "obsolete abnormal coronal plane "
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000464",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000585",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of organelle membrane.",
+          "val" : "Abnormality of eumelanin.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of organelle membrane",
+          "val" : "abnormality of eumelanin",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal organelle membrane"
+      "lbl" : "abnormal eumelanin"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000222",
       "meta" : {
@@ -4990,6 +6226,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal definitive organism subdivision"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000464",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of organelle membrane.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of organelle membrane",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal organelle membrane"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000119",
       "meta" : {
@@ -5036,6 +6287,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal basal surface of the epidermis morphology"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000591",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of gap junction.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of gap junction",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal gap junction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000590",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of flagellum.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of flagellum",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal flagellum"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000593",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal germ cell cyst"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000230",
       "meta" : {
         "definition" : {
@@ -5050,6 +6346,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal flame cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000592",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of genital atrium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of genital atrium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal genital atrium"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000350",
       "meta" : {
@@ -5098,15 +6409,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000236",
       "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete tissue morphogenesis.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete tissue morphogenesis",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
@@ -5117,6 +6419,21 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete abnormal tissue morphogenesis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000599",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of intercellular junction.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of intercellular junction",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal intercellular junction"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000356",
       "meta" : {
@@ -5133,6 +6450,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal intestinal phagocyte"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000598",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of inner zone of gland cells.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of inner zone of gland cells",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal inner zone of gland cells"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000114",
       "meta" : {
         "definition" : {
@@ -5148,43 +6480,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal lateral branch"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000117",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of epidermal progenitor cell.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of epidermal progenitor cell",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal epidermal progenitor cell"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000359",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of obsolete epidermal compartment.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of obsolete epidermal compartment",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "no longer designating mediolateral regions using the contained_in object property"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal obsolete epidermal compartment"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000238",
       "meta" : {
         "definition" : {
@@ -5199,6 +6494,34 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal central nervous system"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000359",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "no longer designating mediolateral regions using the contained_in object property"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete abnormal epidermal compartment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000117",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of epidermal progenitor cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of epidermal progenitor cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal epidermal progenitor cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000237",
       "meta" : {
@@ -5290,6 +6613,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal releasing gland cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000595",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of glycogen granule.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of glycogen granule",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal glycogen granule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000594",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of germline stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of germline stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal germline stem cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000352",
       "meta" : {
         "definition" : {
@@ -5320,20 +6673,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal cell-cell contact zone"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000355",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000597",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of neuropil.",
+          "val" : "Abnormality of pharynx inner epidermal cell.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of neuropil",
+          "val" : "abnormality of pharynx inner epidermal cell",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal neuropil"
+      "lbl" : "abnormal pharynx inner epidermal cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000234",
       "meta" : {
@@ -5365,6 +6718,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal bursal canal"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000355",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of neuropil.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of neuropil",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal neuropil"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000233",
       "meta" : {
         "definition" : {
@@ -5395,6 +6763,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal afferent neuron"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000112",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of testis somatic gonadal cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of testis somatic gonadal cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal testis somatic gonadal cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000475",
       "meta" : {
         "definition" : {
@@ -5410,20 +6793,920 @@
       "type" : "CLASS",
       "lbl" : "abnormal apical surface of the epidermis morphology"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000112",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000596",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of testis somatic gonadal cell.",
+          "val" : "Abnormality of incision.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of testis somatic gonadal cell",
+          "val" : "abnormality of incision",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal testis somatic gonadal cell"
+      "lbl" : "abnormal incision"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000728",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G2 phase spermatogonium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G2 phase spermatogonium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G2 phase spermatogonium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000607",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic germ cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic germ cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic germ cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000727",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of S phase spermatogonium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of S phase spermatogonium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal S phase spermatogonium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000606",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of medial muscle cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of medial muscle cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal medial muscle cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000609",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of mucus.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of mucus",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal mucus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000608",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of melanosome.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of melanosome",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal melanosome"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000729",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prophase spermatogonium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prophase spermatogonium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prophase spermatogonium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000603",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of lumen.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of lumen",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal lumen"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000724",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anaphase oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anaphase oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anaphase oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000723",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of metaphase oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of metaphase oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal metaphase oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000602",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of lipid droplet.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of lipid droplet",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal lipid droplet"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000726",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G1 phase spermatogonium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G1 phase spermatogonium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G1 phase spermatogonium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000605",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of mechanosensory neuron.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of mechanosensory neuron",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal mechanosensory neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000725",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telophase  oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telophase  oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telophase  oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000604",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of marginal adhesive zone.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of marginal adhesive zone",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal marginal adhesive zone"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000720",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of S phase oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of S phase oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal S phase oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000722",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prophase  oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prophase  oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prophase  oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000601",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of linear incision.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of linear incision",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal linear incision"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000600",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of linear amputation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of linear amputation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal linear amputation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000721",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G2 phase  oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G2 phase  oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G2 phase  oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000618",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nuclear periphery.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nuclear periphery",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nuclear periphery"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000739",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telophase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telophase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telophase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000738",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anaphase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anaphase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anaphase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000617",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nuclear outer membrane.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nuclear outer membrane",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nuclear outer membrane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000619",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ommochrome pigment cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ommochrome pigment cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ommochrome pigment cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000614",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nuclear envelope.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nuclear envelope",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nuclear envelope"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000735",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G2 phase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G2 phase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G2 phase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000734",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of S phase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of S phase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal S phase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000613",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of non-ciliated epidermis.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of non-ciliated epidermis",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal non-ciliated epidermis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000616",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nuclear lumen.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nuclear lumen",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nuclear lumen"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000737",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of metaphase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of metaphase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal metaphase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000736",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prophase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prophase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prophase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000615",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nuclear inner membrane.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nuclear inner membrane",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nuclear inner membrane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000610",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of nephridiopore.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of nephridiopore",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal nephridiopore"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000731",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anaphase spermatogonia.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anaphase spermatogonia",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anaphase spermatogonia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000730",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of metaphase spermatogonia.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of metaphase spermatogonia",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal metaphase spermatogonia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000612",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of neuropeptidergic neuron.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of neuropeptidergic neuron",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal neuropeptidergic neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000733",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G1 phase oogonial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G1 phase oogonial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G1 phase oogonial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000611",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of neurite.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of neurite",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal neurite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000732",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telophase spermatogonium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telophase spermatogonium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telophase spermatogonium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000706",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of S phase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of S phase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal S phase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000705",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G1 phase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G1 phase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G1 phase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000708",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prophase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prophase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prophase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000707",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G2 phase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G2 phase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G2 phase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000702",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of melanin pigment granule.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of melanin pigment granule",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal melanin pigment granule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000701",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx pouch epithelial cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx pouch epithelial cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx pouch epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000704",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of parenchymal cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of parenchymal cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal parenchymal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000703",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ommochrome pigment granule.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ommochrome pigment granule",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ommochrome pigment granule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000709",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of metaphase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of metaphase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal metaphase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000700",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx muscle cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx muscle cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx muscle cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000717",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anaphase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anaphase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anaphase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000716",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of metaphase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of metaphase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal metaphase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000719",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G1 phase oogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G1 phase oogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G1 phase oogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000718",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telophase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telophase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telophase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000713",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of S phase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of S phase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal S phase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000712",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G1 phase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G1 phase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G1 phase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000715",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prophase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prophase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prophase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000714",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G2 phase spermatogonial stem cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G2 phase spermatogonial stem cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G2 phase spermatogonial stem cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000711",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telophase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telophase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telophase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000710",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anaphase neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anaphase neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anaphase neoblast"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000409",
       "meta" : {
@@ -5455,6 +7738,36 @@
       "type" : "CLASS",
       "lbl" : "absent head"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000647",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of stalk.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of stalk",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal stalk"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000768",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of testis primordium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of testis primordium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal testis primordium"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000526",
       "meta" : {
         "definition" : {
@@ -5474,20 +7787,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal number of anatomical enitites of type head"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000404",
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000767",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of gonopore.",
+          "val" : "Abnormality of pigment cup primordium.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of gonopore",
+          "val" : "abnormality of pigment cup primordium",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal gonopore"
+      "lbl" : "abnormal pigment cup primordium"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000525",
       "meta" : {
@@ -5504,6 +7817,36 @@
       "type" : "CLASS",
       "lbl" : "increased width of tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000404",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of gonopore.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of gonopore",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal gonopore"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000646",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of specialized neoblast.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of specialized neoblast",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal specialized neoblast"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000407",
       "meta" : {
         "definition" : {
@@ -5518,6 +7861,51 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal cholinergic neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000649",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of synapse.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of synapse",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal synapse"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000769",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of gonad primoridium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of gonad primoridium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal gonad primoridium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000648",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of surgical wound.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of surgical wound",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal surgical wound"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000527",
       "meta" : {
@@ -5549,6 +7937,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal flame bulb"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000764",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cephalic ganglia primordium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cephalic ganglia primordium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cephalic ganglia primordium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000643",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of secretory granule.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of secretory granule",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal secretory granule"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000522",
       "meta" : {
         "definition" : {
@@ -5579,6 +7997,51 @@
       "type" : "CLASS",
       "lbl" : "decreased length of tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000642",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of secretory duct.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of secretory duct",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal secretory duct"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000763",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic telophase II spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic telophase II spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic telophase II spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000766",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx primordium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx primordium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx primordium"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000403",
       "meta" : {
         "definition" : {
@@ -5593,6 +8056,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal octopaminergic neuron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000645",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of somatic gonadal cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of somatic gonadal cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal somatic gonadal cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000524",
       "meta" : {
@@ -5609,6 +8087,21 @@
       "type" : "CLASS",
       "lbl" : "increased width of head"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000765",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of eye primordium.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of eye primordium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal eye primordium"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000523",
       "meta" : {
         "definition" : {
@@ -5623,6 +8116,36 @@
       },
       "type" : "CLASS",
       "lbl" : "increased length of the tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000644",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of somatic cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of somatic cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal somatic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000760",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic prophase II spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic prophase II spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic prophase II spermatocyte"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000520",
       "meta" : {
@@ -5643,6 +8166,66 @@
       "type" : "CLASS",
       "lbl" : "unpigmented eye"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000762",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic anaphase II spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic anaphase II spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic anaphase II spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000641",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of rhabdomere.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of rhabdomere",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal rhabdomere"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000761",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic metaphase 2 spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic metaphase 2 spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic metaphase 2 spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000640",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of rhabdome.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of rhabdome",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal rhabdome"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000416",
       "meta" : {
         "definition" : {
@@ -5658,6 +8241,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal sensory neuron"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000779",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of trunk fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of trunk fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal trunk fragment"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000537",
       "meta" : {
         "definition" : {
@@ -5672,6 +8270,21 @@
       },
       "type" : "CLASS",
       "lbl" : "Decreased number of eye"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000658",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of X1 cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of X1 cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal X1 cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000536",
       "meta" : {
@@ -5691,6 +8304,36 @@
       },
       "type" : "CLASS",
       "lbl" : "decreased pigmentation in the epidermis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000657",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of wound.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of wound",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal wound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000778",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of head fragment.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of head fragment",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal head fragment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000415",
       "meta" : {
@@ -5715,11 +8358,11 @@
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "complete loss of pigmentation in the epidermis",
+          "val" : "absence of pigment in the epidermis",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "absence of pigment in the epidermis",
+          "val" : "complete loss of pigmentation in the epidermis",
           "xrefs" : [ ]
         } ]
       },
@@ -5756,6 +8399,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal gastrodermal plexus"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000659",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of X1(FS) cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of X1(FS) cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal X1(FS) cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000412",
       "meta" : {
         "definition" : {
@@ -5770,6 +8428,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal lateral nerve"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000654",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telomere.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telomere",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telomere"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000533",
       "meta" : {
@@ -5786,6 +8459,21 @@
       "type" : "CLASS",
       "lbl" : "absent tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000775",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of dorsal epidermis progenitor cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of dorsal epidermis progenitor cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal dorsal epidermis progenitor cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000411",
       "meta" : {
         "definition" : {
@@ -5800,6 +8488,66 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal tertiary gut branch"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000774",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of cephalic ganglia progenitor cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of cephalic ganglia progenitor cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal cephalic ganglia progenitor cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000653",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of tail tip.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of tail tip",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal tail tip"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000656",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of wedge amputation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of wedge amputation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal wedge amputation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000777",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ventral epidermis progenitor cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ventral epidermis progenitor cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ventral epidermis progenitor cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000535",
       "meta" : {
@@ -5831,6 +8579,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx outer circular muscle cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000776",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of optic cup progenitor cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of optic cup progenitor cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal optic cup progenitor cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000534",
       "meta" : {
         "definition" : {
@@ -5845,6 +8608,66 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal degree of pigmentation of the eye"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000655",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of tight junction.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of tight junction",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal tight junction"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000771",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of testis lumen.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of testis lumen",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal testis lumen"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000650",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of synaptic cleft.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of synaptic cleft",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal synaptic cleft"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000770",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of protonephridial lumen.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of protonephridial lumen",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal protonephridial lumen"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000531",
       "meta" : {
@@ -5876,6 +8699,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal multicellular anatomical structure"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000652",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of synaptonemal complex.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of synaptonemal complex",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal synaptonemal complex"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000773",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of flame cell lumen.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of flame cell lumen",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal flame cell lumen"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000530",
       "meta" : {
         "definition" : {
@@ -5895,6 +8748,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal number of anatomical enitites of type tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000651",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of synaptic vesicle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of synaptic vesicle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal synaptic vesicle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000772",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of ovary lumen.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of ovary lumen",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal ovary lumen"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000508",
       "meta" : {
         "definition" : {
@@ -5910,6 +8793,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal tail with circular lesion"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000629",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of post-meiotic germ cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of post-meiotic germ cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal post-meiotic germ cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000628",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pore.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pore",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pore"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000507",
       "meta" : {
         "definition" : {
@@ -5924,6 +8837,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal tail with star shaped lesion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000749",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic G2 phase spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic G2 phase spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic G2 phase spermatocyte"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000509",
       "meta" : {
@@ -5955,6 +8883,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal head with star shaped lesion"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000746",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of telophase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of telophase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal telophase germ cell cyst"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000625",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pigment granule.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pigment granule",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pigment granule"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000503",
       "meta" : {
         "definition" : {
@@ -5969,6 +8927,36 @@
       },
       "type" : "CLASS",
       "lbl" : "decreased width of the tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000624",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pigment cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pigment cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pigment cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000745",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of anaphase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of anaphase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal anaphase germ cell cyst"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000506",
       "meta" : {
@@ -5985,6 +8973,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal head with linear lesion"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000627",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of point incision.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of point incision",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal point incision"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000748",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic G1 phase spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic G1 phase spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic G1 phase spermatocyte"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000505",
       "meta" : {
         "definition" : {
@@ -5999,6 +9017,51 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal head with circular lesion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000626",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of plug amputation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of plug amputation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal plug amputation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000747",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic S phase spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic S phase spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic S phase spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000742",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G2 phase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G2 phase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G2 phase germ cell cyst"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000500",
       "meta" : {
@@ -6015,6 +9078,66 @@
       "type" : "CLASS",
       "lbl" : "abnormal shape of tail "
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000621",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx outer epidermal cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx outer epidermal cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx outer epidermal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000620",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of optic nerve.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of optic nerve",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal optic nerve"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000741",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of S phase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of S phase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal S phase germ cell cyst"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000744",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of metaphase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of metaphase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal metaphase germ cell cyst"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000502",
       "meta" : {
         "definition" : {
@@ -6030,6 +9153,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal size of tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000623",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx tip.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx tip",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx tip"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000743",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of prophase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of prophase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal prophase germ cell cyst"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000622",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of phagocytic cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of phagocytic cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal phagocytic cell"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000501",
       "meta" : {
         "definition" : {
@@ -6044,6 +9212,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal size of head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000740",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of G1 phase germ cell cyst.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of G1 phase germ cell cyst",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal G1 phase germ cell cyst"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000519",
       "meta" : {
@@ -6083,6 +9266,51 @@
       "type" : "CLASS",
       "lbl" : "abnormal number of anatomical enitites of type eye"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000639",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of reproductive structure.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of reproductive structure",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal reproductive structure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000757",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic anaphase I stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic anaphase I stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic anaphase I stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000636",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of primitive gut.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of primitive gut",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal primitive gut"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000515",
       "meta" : {
         "definition" : {
@@ -6113,6 +9341,96 @@
       "type" : "CLASS",
       "lbl" : "lesion in tail"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000635",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of primary gut branch.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of primary gut branch",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal primary gut branch"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000756",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic metaphase 1 stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic metaphase 1 stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic metaphase 1 stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000759",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiosis II stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiosis II stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiosis II stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000638",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of reproductive organ.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of reproductive organ",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal reproductive organ"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000637",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of quarternary gut branch.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of quarternary gut branch",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal quarternary gut branch"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000758",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic telophase I spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic telophase I spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic telophase I spermatocyte"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000511",
       "meta" : {
         "definition" : {
@@ -6127,6 +9445,36 @@
       },
       "type" : "CLASS",
       "lbl" : "decreased distance between eye and eye"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000632",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of presynaptic cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of presynaptic cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal presynaptic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000753",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pachytene stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pachytene stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pachytene stage spermatocyte"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000510",
       "meta" : {
@@ -6143,6 +9491,51 @@
       "type" : "CLASS",
       "lbl" : "increased distance between eye and eye"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000631",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of premeiotic germ cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of premeiotic germ cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal premeiotic germ cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000752",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of zygotene stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of zygotene stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal zygotene stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000634",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of presynaptic vesicle.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of presynaptic vesicle",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal presynaptic vesicle"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000513",
       "meta" : {
         "definition" : {
@@ -6157,6 +9550,51 @@
       },
       "type" : "CLASS",
       "lbl" : "lesion in head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000755",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of diakinesis stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of diakinesis stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal diakinesis stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000633",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of presynaptic terminal.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of presynaptic terminal",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal presynaptic terminal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000754",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of diplotene stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of diplotene stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal diplotene stage spermatocyte"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000512",
       "meta" : {
@@ -6176,6 +9614,51 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal distance between eye and eye"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000630",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of postsynaptic cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of postsynaptic cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal postsynaptic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000751",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of leptotene stage spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of leptotene stage spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal leptotene stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000750",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of meiotic prophase I spermatocyte.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of meiotic prophase I spermatocyte",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal meiotic prophase I spermatocyte"
     } ],
     "edges" : [ ],
     "id" : "http://purl.obolibrary.org/obo/planp/planp-base.json",
@@ -6195,7 +9678,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/by/3.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-22/planp-base.json"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-24/planp-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

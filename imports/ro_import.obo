@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-22/imports/ro_import.owl
+data-version: planp/releases/2020-01-24/imports/ro_import.owl
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 ontology: planp/imports/ro_import

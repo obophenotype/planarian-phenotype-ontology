@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-22/imports/pato_import.owl
+data-version: planp/releases/2020-01-24/imports/pato_import.owl
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -3239,6 +3239,14 @@ subset: value_slim
 is_a: PATO:0001404 ! nucleate quality
 created_by: gkoutos
 creation_date: 2013-10-21T05:44:34Z
+
+[Term]
+id: PATO:0040025
+name: lesioned
+namespace: quality
+def: "A structural quality which is held by a bearer where a localized pathological or traumatic structural change, damage, deformity, or discontinuity of tissue, organ, or body part is present." [NCIT:C3824]
+is_a: PATO:0000141 ! structure
+created_by: http://orcid.org/0000-0001-5208-3432
 
 [Term]
 id: RO:0002577

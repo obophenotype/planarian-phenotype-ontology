@@ -12,7 +12,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/planp-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-01-22/planp-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-01-24/planp-simple.owl"/>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology (PLANP)</dc:title>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/3.0/</terms:license>
@@ -384,7 +384,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of medial-lateral axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of medial-lateral axis of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal medial-lateral axis of the whole animal</rdfs:label>
@@ -396,6 +396,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
         <obo:IAO_0000115>Abnormality of oviduct lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of oviduct lumen</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal oviduct lumen</rdfs:label>
@@ -409,6 +410,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000135"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000582"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000613"/>
         <obo:IAO_0000115>Abnormality of Category 4 cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of Category 4 cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal Category 4 cell</rdfs:label>
@@ -536,11 +539,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete gastrovascular compartment.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete gastrovascular compartment</oboInOwl:hasExactSynonym>
         <rdfs:comment>no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
-        <rdfs:label>abnormal obsolete gastrovascular compartment</rdfs:label>
         <rdfs:label>obsolete abnormal gastrovascular compartment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -584,7 +583,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000149"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000575"/>
         <obo:IAO_0000115>Abnormality of brain commissure.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of brain commissure</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal brain commissure</rdfs:label>
@@ -595,8 +594,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of oviduct.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of oviduct</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal oviduct</rdfs:label>
@@ -838,6 +836,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
         <obo:IAO_0000115>Abnormality of pharynx lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx lumen</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal pharynx lumen</rdfs:label>
@@ -871,7 +870,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
         <obo:IAO_0000115>Abnormality of pharynx epithelium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx epithelium</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal pharynx epithelium</rdfs:label>
@@ -904,11 +903,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete Schmidtea mediterranea developmental term.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete Schmidtea mediterranea developmental term</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete Schmidtea mediterranea developmental term</rdfs:label>
         <rdfs:label>obsolete abnormal Schmidtea mediterranea developmental term</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -918,11 +913,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  dispersed cleavage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  dispersed cleavage</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  dispersed cleavage</rdfs:label>
         <rdfs:label>obsolete abnormal dispersed cleavage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -933,6 +924,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000639"/>
         <obo:IAO_0000115>Abnormality of copulatory apparatus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of copulatory apparatus</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal copulatory apparatus</rdfs:label>
@@ -988,11 +980,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete acidophilic cytoplasm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete acidophilic cytoplasm</oboInOwl:hasExactSynonym>
         <rdfs:comment>term is not needed.</rdfs:comment>
-        <rdfs:label>abnormal obsolete acidophilic cytoplasm</rdfs:label>
         <rdfs:label>obsolete abnormal acidophilic cytoplasm</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -1002,10 +990,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000059"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000581"/>
         <obo:IAO_0000115>Abnormality of embryonic gut cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of embryonic gut cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal embryonic gut cell</rdfs:label>
@@ -1095,11 +1081,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete cytoskeleton organization.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete cytoskeleton organization</oboInOwl:hasExactSynonym>
         <rdfs:comment>term is not needed.</rdfs:comment>
-        <rdfs:label>abnormal obsolete cytoskeleton organization</rdfs:label>
         <rdfs:label>obsolete abnormal cytoskeleton organization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -1109,11 +1091,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete anatomical compartment subdivision feature.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete anatomical compartment subdivision feature</oboInOwl:hasExactSynonym>
         <rdfs:comment>extra layer of complexity not needed upon further examination</rdfs:comment>
-        <rdfs:label>abnormal obsolete anatomical compartment subdivision feature</rdfs:label>
         <rdfs:label>obsolete abnormal anatomical compartment subdivision feature</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -1191,6 +1169,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000170"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000628"/>
         <obo:IAO_0000115>Abnormality of nuclear pore.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of nuclear pore</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal nuclear pore</rdfs:label>
@@ -1245,11 +1224,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete parenchymal compartment.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete parenchymal compartment</oboInOwl:hasExactSynonym>
         <rdfs:comment>no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
-        <rdfs:label>abnormal obsolete parenchymal compartment</rdfs:label>
         <rdfs:label>obsolete abnormal parenchymal compartment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -1284,7 +1259,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000151"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000573"/>
         <obo:IAO_0000115>Abnormality of sperm duct epithelium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of sperm duct epithelium</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal sperm duct epithelium</rdfs:label>
@@ -1307,9 +1282,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000667"/>
         <obo:IAO_0000115>Abnormality of embryonic pharynx.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of embryonic pharynx</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal embryonic pharynx</rdfs:label>
@@ -1343,8 +1317,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000268"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000280"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000645"/>
         <obo:IAO_0000115>Abnormality of testis somatic gonadal cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of testis somatic gonadal cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal testis somatic gonadal cell</rdfs:label>
@@ -1380,7 +1354,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000135"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000573"/>
         <obo:IAO_0000115>Abnormality of dorsal stripe.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal stripe</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal dorsal stripe</rdfs:label>
@@ -1567,8 +1541,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of seminal vesicle.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of seminal vesicle</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal seminal vesicle</rdfs:label>
@@ -1624,7 +1598,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000681"/>
         <obo:IAO_0000115>Abnormality of yolk syncytium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of yolk syncytium</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal yolk syncytium</rdfs:label>
@@ -1691,8 +1665,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of sperm duct.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of sperm duct</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal sperm duct</rdfs:label>
@@ -1714,7 +1687,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of anterior-posterior axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of anterior-posterior axis of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal anterior-posterior axis of the whole animal</rdfs:label>
@@ -1797,8 +1770,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of gonad.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of gonad</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal gonad</rdfs:label>
@@ -1857,6 +1829,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000644"/>
         <obo:IAO_0000115>Abnormality of clonogenic neoblast.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of clonogenic neoblast</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal clonogenic neoblast</rdfs:label>
@@ -1901,7 +1874,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of dorsal ventral margin of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal ventral margin of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal dorsal ventral margin of the whole animal</rdfs:label>
@@ -1992,6 +1965,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000109"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
         <obo:IAO_0000115>Abnormality of embryonic pharynx lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of embryonic pharynx lumen</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal embryonic pharynx lumen</rdfs:label>
@@ -2079,11 +2053,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  oviparity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  oviparity</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  oviparity</rdfs:label>
         <rdfs:label>obsolete abnormal oviparity</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2104,11 +2074,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  protosphere.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  protosphere</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  protosphere</rdfs:label>
         <rdfs:label>obsolete abnormal protosphere</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2142,6 +2108,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000207">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000381"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000644"/>
         <obo:IAO_0000115>Abnormality of Category 3 cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of Category 3 cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal Category 3 cell</rdfs:label>
@@ -2153,7 +2120,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
         <obo:IAO_0000115>Abnormality of gastrodermis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of gastrodermis</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal gastrodermis</rdfs:label>
@@ -2187,7 +2154,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of left-right axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of left-right axis of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal left-right axis of the whole animal</rdfs:label>
@@ -2291,11 +2258,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  direct development.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  direct development</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  direct development</rdfs:label>
         <rdfs:label>obsolete abnormal direct development</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2388,11 +2351,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000236">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete tissue morphogenesis.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete tissue morphogenesis</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete tissue morphogenesis</rdfs:label>
         <rdfs:label>obsolete abnormal tissue morphogenesis</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2435,11 +2394,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000240 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000240">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  gametogenesis.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  gametogenesis</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  gametogenesis</rdfs:label>
         <rdfs:label>obsolete abnormal gametogenesis</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2449,11 +2404,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete body wall musculature compartment.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete body wall musculature compartment</oboInOwl:hasExactSynonym>
         <rdfs:comment>no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
-        <rdfs:label>abnormal obsolete body wall musculature compartment</rdfs:label>
         <rdfs:label>obsolete abnormal body wall musculature compartment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2485,8 +2436,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of tuba.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of tuba</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal tuba</rdfs:label>
@@ -2497,8 +2447,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000246">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000635"/>
         <obo:IAO_0000115>Abnormality of posterior primary gut branch.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of posterior primary gut branch</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal posterior primary gut branch</rdfs:label>
@@ -2568,11 +2517,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000255">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete ventral compartment.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete ventral compartment</oboInOwl:hasExactSynonym>
         <rdfs:comment>now using patterned term ventral region PLANA:0000143</rdfs:comment>
-        <rdfs:label>abnormal obsolete ventral compartment</rdfs:label>
         <rdfs:label>obsolete abnormal ventral compartment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2607,11 +2552,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete embryonic cleavage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete embryonic cleavage</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete embryonic cleavage</rdfs:label>
         <rdfs:label>obsolete abnormal embryonic cleavage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2621,11 +2562,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000260">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete definitive anatomical structure.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete definitive anatomical structure</oboInOwl:hasExactSynonym>
         <rdfs:comment>extra layer of complexity not needed upon further examination</rdfs:comment>
-        <rdfs:label>abnormal obsolete definitive anatomical structure</rdfs:label>
         <rdfs:label>obsolete abnormal definitive anatomical structure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2646,11 +2583,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000262">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete Schmidtea mediterranea developmental stage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete Schmidtea mediterranea developmental stage</oboInOwl:hasExactSynonym>
         <rdfs:comment>this term is not needed. All previous children of this term  (Stage 1, Sage 2, etc) are now children of GO life cycle stage or zygote stage</rdfs:comment>
-        <rdfs:label>abnormal obsolete Schmidtea mediterranea developmental stage</rdfs:label>
         <rdfs:label>obsolete abnormal Schmidtea mediterranea developmental stage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2662,6 +2595,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000381"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000644"/>
         <obo:IAO_0000115>Abnormality of Category 2 cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of Category 2 cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal Category 2 cell</rdfs:label>
@@ -2706,7 +2640,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000268 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000268">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000644"/>
         <obo:IAO_0000115>Abnormality of terminally differentiated cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of terminally differentiated cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal terminally differentiated cell</rdfs:label>
@@ -2774,7 +2708,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000023"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000573"/>
         <obo:IAO_0000115>Abnormality of oviduct epithelium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of oviduct epithelium</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal oviduct epithelium</rdfs:label>
@@ -2798,6 +2732,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000135"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000582"/>
         <obo:IAO_0000115>Abnormality of Category 5 cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of Category 5 cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal Category 5 cell</rdfs:label>
@@ -2888,6 +2823,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
         <obo:IAO_0000115>Abnormality of tuba lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of tuba lumen</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal tuba lumen</rdfs:label>
@@ -2909,9 +2845,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000295 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000581"/>
         <obo:IAO_0000115>Abnormality of embryonic gut cavity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of embryonic gut cavity</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal embryonic gut cavity</rdfs:label>
@@ -2922,7 +2856,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000685"/>
         <obo:IAO_0000115>Abnormality of pharynx pouch epithelial surface.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx pouch epithelial surface</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal pharynx pouch epithelial surface</rdfs:label>
@@ -2955,7 +2889,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000299 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000299">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of proximal-distal axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of proximal-distal axis of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal proximal-distal axis of the whole animal</rdfs:label>
@@ -2967,6 +2901,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
         <obo:IAO_0000115>Abnormality of sperm duct lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of sperm duct lumen</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal sperm duct lumen</rdfs:label>
@@ -3105,8 +3040,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000315">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of copulatory bursa.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of copulatory bursa</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal copulatory bursa</rdfs:label>
@@ -3129,8 +3064,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000666"/>
         <obo:IAO_0000115>Abnormality of secondary gut branch.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of secondary gut branch</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal secondary gut branch</rdfs:label>
@@ -3174,24 +3108,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000324 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000324">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  sphere formation.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  sphere formation</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  sphere formation</rdfs:label>
         <rdfs:label>obsolete abnormal sphere formation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PLANP_0000325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete extracellular component.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete extracellular component</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal obsolete extracellular component</rdfs:label>
     </owl:Class>
     
 
@@ -3199,11 +3118,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete basophilic cytoplasm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete basophilic cytoplasm</oboInOwl:hasExactSynonym>
         <rdfs:comment>term is not needed.</rdfs:comment>
-        <rdfs:label>abnormal obsolete basophilic cytoplasm</rdfs:label>
         <rdfs:label>obsolete abnormal basophilic cytoplasm</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -3270,8 +3185,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000638"/>
         <obo:IAO_0000115>Abnormality of penis papilla.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of penis papilla</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal penis papilla</rdfs:label>
@@ -3510,8 +3425,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000635"/>
         <obo:IAO_0000115>Abnormality of anterior primary gut branch.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of anterior primary gut branch</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal anterior primary gut branch</rdfs:label>
@@ -3533,11 +3447,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete epidermal compartment.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete epidermal compartment</oboInOwl:hasExactSynonym>
         <rdfs:comment>no longer designating mediolateral regions using the contained_in object property</rdfs:comment>
-        <rdfs:label>abnormal obsolete epidermal compartment</rdfs:label>
         <rdfs:label>obsolete abnormal epidermal compartment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -3548,6 +3458,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
         <obo:IAO_0000115>Abnormality of digestive tract lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of digestive tract lumen</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal digestive tract lumen</rdfs:label>
@@ -3558,11 +3469,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete pharynx nerve plexus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete pharynx nerve plexus</oboInOwl:hasExactSynonym>
         <rdfs:comment>causes problems with is a and part of relationships for inner and outer pharynx nerve plexus in that both are true. </rdfs:comment>
-        <rdfs:label>abnormal obsolete pharynx nerve plexus</rdfs:label>
         <rdfs:label>obsolete abnormal pharynx nerve plexus</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -3822,7 +3729,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000393 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of dorsal-ventral axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal-ventral axis of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal dorsal-ventral axis of the whole animal</rdfs:label>
@@ -3845,7 +3752,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000573"/>
         <obo:IAO_0000115>Abnormality of pharynx inner epithelium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx inner epithelium</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal pharynx inner epithelium</rdfs:label>
@@ -3905,6 +3812,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000404">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000628"/>
         <obo:IAO_0000115>Abnormality of gonopore.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of gonopore</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal gonopore</rdfs:label>
@@ -3961,8 +3869,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000666"/>
         <obo:IAO_0000115>Abnormality of tertiary gut branch.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of tertiary gut branch</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal tertiary gut branch</rdfs:label>
@@ -3997,7 +3904,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000164"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000575"/>
         <obo:IAO_0000115>Abnormality of transverse commissure.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of transverse commissure</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal transverse commissure</rdfs:label>
@@ -4043,10 +3950,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000059"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000090"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000636"/>
         <obo:IAO_0000115>Abnormality of primitive gut cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of primitive gut cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal primitive gut cell</rdfs:label>
@@ -4117,8 +4022,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000435 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000435">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000667"/>
         <obo:IAO_0000115>Abnormality of primitive ectoderm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of primitive ectoderm</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal primitive ectoderm</rdfs:label>
@@ -4130,7 +4034,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000436">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000573"/>
         <obo:IAO_0000115>Abnormality of pharynx outer epithelium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx outer epithelium</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal pharynx outer epithelium</rdfs:label>
@@ -4178,6 +4082,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000312"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000644"/>
         <obo:IAO_0000115>Abnormality of circular muscle progenitor cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of circular muscle progenitor cell</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal circular muscle progenitor cell</rdfs:label>
@@ -4235,11 +4140,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000449 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000449">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete racing stripe.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete racing stripe</oboInOwl:hasExactSynonym>
         <rdfs:comment>racing stripe is now a synonym of PLANA:0000055 dorsal stripe</rdfs:comment>
-        <rdfs:label>abnormal obsolete racing stripe</rdfs:label>
         <rdfs:label>obsolete abnormal racing stripe</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -4308,11 +4209,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000459">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Abnormality of obsolete  cross-fertilization.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of obsolete  cross-fertilization</oboInOwl:hasExactSynonym>
         <rdfs:comment>removing all processes. may bring back if PLANA expanded to cover processes.</rdfs:comment>
-        <rdfs:label>abnormal obsolete  cross-fertilization</rdfs:label>
         <rdfs:label>obsolete abnormal cross-fertilization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -4322,7 +4219,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000461 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000461">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000628"/>
         <obo:IAO_0000115>Abnormality of secretory pore.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of secretory pore</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal secretory pore</rdfs:label>
@@ -4333,7 +4230,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000462">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000678"/>
         <obo:IAO_0000115>Abnormality of blastema.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of blastema</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal blastema</rdfs:label>
@@ -4490,7 +4387,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000490">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000548"/>
         <obo:IAO_0000115>Any structural anomaly in the shape of the ventral region of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormally shaped ventral region of the whole animal</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal shape of ventral region of the whole animal </rdfs:label>
@@ -4733,6 +4630,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000513 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
         <obo:IAO_0000115>An abnormal head with one or more lesions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>head with lesion(s)</oboInOwl:hasExactSynonym>
         <rdfs:label>lesion in head</rdfs:label>
@@ -4743,6 +4641,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000514 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000498"/>
         <obo:IAO_0000115>An abnormal tail with one or more lesions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>tail with lesion(s)</oboInOwl:hasExactSynonym>
         <rdfs:label>lesion in tail</rdfs:label>
@@ -5006,6 +4905,2811 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>The presence of an increased number of eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Extra eye</oboInOwl:hasExactSynonym>
         <rdfs:label>Increased number of eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of whole organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of whole organism</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal whole organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of regeneration.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of regeneration</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal regeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000682"/>
+        <obo:IAO_0000115>Abnormality of Hyman vesicle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of Hyman vesicle</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal Hyman vesicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>Abnormality of anterior region of the whole animal.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anterior region of the whole animal</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anterior region of the whole animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000548"/>
+        <obo:IAO_0000115>Abnormality of dorsal region of the whole animal.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of dorsal region of the whole animal</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal dorsal region of the whole animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>Abnormality of posterior compartment of the whole animal.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of posterior compartment of the whole animal</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal posterior compartment of the whole animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>Abnormality of ventral region of the whole animal.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ventral region of the whole animal</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ventral region of the whole animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000119"/>
+        <obo:IAO_0000115>Abnormality of heterochromatin.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of heterochromatin</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal heterochromatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000078"/>
+        <obo:IAO_0000115>Abnormality of adenal rhabdite.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of adenal rhabdite</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal adenal rhabdite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000420"/>
+        <obo:IAO_0000115>Abnormality of adherens junction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of adherens junction</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal adherens junction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000287"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000366"/>
+        <obo:IAO_0000115>Abnormality of adhesive papilla.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of adhesive papilla</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal adhesive papilla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000576"/>
+        <obo:IAO_0000115>Abnormality of amputation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of amputation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal amputation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000666"/>
+        <obo:IAO_0000115>Abnormality of anterior gut branch.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anterior gut branch</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anterior gut branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000261"/>
+        <obo:IAO_0000115>Abnormality of anterior tip.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anterior tip</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anterior tip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of antrum.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of antrum</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal antrum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000173"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000365"/>
+        <obo:IAO_0000115>Abnormality of auricle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of auricle</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal auricle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000611"/>
+        <obo:IAO_0000115>Abnormality of axon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of axon</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal axon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000590"/>
+        <obo:IAO_0000115>Abnormality of axoneme.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of axoneme</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal axoneme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000590"/>
+        <obo:IAO_0000115>Abnormality of basal body.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of basal body</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal basal body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of brain visual center.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of brain visual center</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal brain visual center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000136"/>
+        <obo:IAO_0000115>Abnormality of bulbar cavity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of bulbar cavity</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal bulbar cavity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000644"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000704"/>
+        <obo:IAO_0000115>Abnormality of Category 1 cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of Category 1 cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal Category 1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of cell body.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cell body</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cell body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000149"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of cephalic ganglia lobe.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cephalic ganglia lobe</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cephalic ganglia lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000149"/>
+        <obo:IAO_0000115>Abnormality of cephalic ganglia neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cephalic ganglia neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cephalic ganglia neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000657"/>
+        <obo:IAO_0000115>Abnormality of chemical amputation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chemical amputation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chemical amputation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000567"/>
+        <obo:IAO_0000115>Abnormality of chemical pharynx amputation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chemical pharynx amputation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chemical pharynx amputation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000173"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000416"/>
+        <obo:IAO_0000115>Abnormality of chemosensory neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chemosensory neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chemosensory neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000192"/>
+        <obo:IAO_0000115>Abnormality of chromatoid body.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chromatoid body</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chromatoid body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000170"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000192"/>
+        <obo:IAO_0000115>Abnormality of chromosome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chromosome</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chromosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000571"/>
+        <obo:IAO_0000115>Abnormality of chromosome arm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chromosome arm</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chromosome arm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
+        <obo:IAO_0000115>Abnormality of ciliated epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ciliated epithelium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ciliated epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000366"/>
+        <obo:IAO_0000115>Abnormality of cilium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cilium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cilium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000238"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of commissure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of commissure</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal commissure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000648"/>
+        <obo:IAO_0000115>Abnormality of cut.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cut</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000611"/>
+        <obo:IAO_0000115>Abnormality of dendrite.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of dendrite</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal dendrite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000256"/>
+        <obo:IAO_0000115>Abnormality of dorsal-ventral muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of dorsal-ventral muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal dorsal-ventral muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000179"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000437"/>
+        <obo:IAO_0000115>Abnormality of early female germ cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of early female germ cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal early female germ cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000128"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000280"/>
+        <obo:IAO_0000115>Abnormality of early male germ cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of early male germ cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal early male germ cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000090"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000667"/>
+        <obo:IAO_0000115>Abnormality of embryonic gut.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of embryonic gut</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal embryonic gut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000310"/>
+        <obo:IAO_0000115>Abnormality of epidermal cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of epidermal cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal epidermal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000078"/>
+        <obo:IAO_0000115>Abnormality of epidermal rhabdite.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of epidermal rhabdite</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal epidermal rhabdite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000206"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000313"/>
+        <obo:IAO_0000115>Abnormality of ER membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ER membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ER membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000608"/>
+        <obo:IAO_0000115>Abnormality of eumelanin.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of eumelanin</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal eumelanin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000268"/>
+        <obo:IAO_0000115>Abnormality of excretory cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of excretory cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal excretory cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of extracellular matrix.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of extracellular matrix</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal extracellular matrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of extracellular space.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of extracellular space</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal extracellular space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000657"/>
+        <obo:IAO_0000115>Abnormality of fission.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of fission</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal fission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000349"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000366"/>
+        <obo:IAO_0000115>Abnormality of flagellum.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of flagellum</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal flagellum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000265"/>
+        <obo:IAO_0000115>Abnormality of gap junction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of gap junction</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal gap junction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <obo:IAO_0000115>Abnormality of genital atrium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of genital atrium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal genital atrium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000639"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000681"/>
+        <obo:IAO_0000115>Abnormality of germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000283"/>
+        <obo:IAO_0000115>Abnormality of germline stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of germline stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal germline stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000682"/>
+        <obo:IAO_0000115>Abnormality of glycogen granule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of glycogen granule</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal glycogen granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000576"/>
+        <obo:IAO_0000115>Abnormality of incision.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of incision</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal incision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000582"/>
+        <obo:IAO_0000115>Abnormality of pharynx inner epidermal cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx inner epidermal cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx inner epidermal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of inner zone of gland cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of inner zone of gland cells</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal inner zone of gland cells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000265"/>
+        <obo:IAO_0000115>Abnormality of intercellular junction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of intercellular junction</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal intercellular junction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000553"/>
+        <obo:IAO_0000115>Abnormality of linear amputation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of linear amputation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal linear amputation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000596"/>
+        <obo:IAO_0000115>Abnormality of linear incision.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of linear incision</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal linear incision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000067"/>
+        <obo:IAO_0000115>Abnormality of lipid droplet.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of lipid droplet</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal lipid droplet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of lumen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of marginal adhesive zone.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of marginal adhesive zone</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal marginal adhesive zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000173"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000416"/>
+        <obo:IAO_0000115>Abnormality of mechanosensory neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of mechanosensory neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal mechanosensory neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000256"/>
+        <obo:IAO_0000115>Abnormality of medial muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of medial muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal medial muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000288"/>
+        <obo:IAO_0000115>Abnormality of meiotic germ cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic germ cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic germ cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000398"/>
+        <obo:IAO_0000115>Abnormality of melanosome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of melanosome</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal melanosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000384"/>
+        <obo:IAO_0000115>Abnormality of mucus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of mucus</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal mucus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000230"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000628"/>
+        <obo:IAO_0000115>Abnormality of nephridiopore.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of nephridiopore</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal nephridiopore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000366"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <obo:IAO_0000115>Abnormality of neurite.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of neurite</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal neurite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000238"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000365"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <obo:IAO_0000115>Abnormality of neuropeptidergic neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of neuropeptidergic neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal neuropeptidergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000427"/>
+        <obo:IAO_0000115>Abnormality of non-ciliated epidermis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of non-ciliated epidermis</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal non-ciliated epidermis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000229"/>
+        <obo:IAO_0000115>Abnormality of nuclear envelope.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of nuclear envelope</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal nuclear envelope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000388"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000614"/>
+        <obo:IAO_0000115>Abnormality of nuclear inner membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of nuclear inner membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal nuclear inner membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000170"/>
+        <obo:IAO_0000115>Abnormality of nuclear lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of nuclear lumen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal nuclear lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000388"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000614"/>
+        <obo:IAO_0000115>Abnormality of nuclear outer membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of nuclear outer membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal nuclear outer membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000170"/>
+        <obo:IAO_0000115>Abnormality of nuclear periphery.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of nuclear periphery</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal nuclear periphery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000624"/>
+        <obo:IAO_0000115>Abnormality of ommochrome pigment cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ommochrome pigment cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ommochrome pigment cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000456"/>
+        <obo:IAO_0000115>Abnormality of optic nerve.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of optic nerve</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal optic nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000582"/>
+        <obo:IAO_0000115>Abnormality of pharynx outer epidermal cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx outer epidermal cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx outer epidermal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000268"/>
+        <obo:IAO_0000115>Abnormality of phagocytic cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of phagocytic cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal phagocytic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of pharynx tip.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx tip</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx tip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000268"/>
+        <obo:IAO_0000115>Abnormality of pigment cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pigment cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pigment cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000624"/>
+        <obo:IAO_0000115>Abnormality of pigment granule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pigment granule</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pigment granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000553"/>
+        <obo:IAO_0000115>Abnormality of plug amputation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of plug amputation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal plug amputation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000596"/>
+        <obo:IAO_0000115>Abnormality of point incision.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of point incision</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal point incision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of pore.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pore</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000179"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000280"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000288"/>
+        <obo:IAO_0000115>Abnormality of post-meiotic germ cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of post-meiotic germ cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal post-meiotic germ cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of postsynaptic cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of postsynaptic cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal postsynaptic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000179"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000280"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000288"/>
+        <obo:IAO_0000115>Abnormality of premeiotic germ cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of premeiotic germ cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal premeiotic germ cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <obo:IAO_0000115>Abnormality of presynaptic cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of presynaptic cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal presynaptic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000558"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000632"/>
+        <obo:IAO_0000115>Abnormality of presynaptic terminal.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of presynaptic terminal</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal presynaptic terminal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000632"/>
+        <obo:IAO_0000115>Abnormality of presynaptic vesicle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of presynaptic vesicle</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal presynaptic vesicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000666"/>
+        <obo:IAO_0000115>Abnormality of primary gut branch.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of primary gut branch</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal primary gut branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000090"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000667"/>
+        <obo:IAO_0000115>Abnormality of primitive gut.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of primitive gut</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal primitive gut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000666"/>
+        <obo:IAO_0000115>Abnormality of quarternary gut branch.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of quarternary gut branch</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal quarternary gut branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000353"/>
+        <obo:IAO_0000115>Abnormality of reproductive organ.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of reproductive organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal reproductive organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of reproductive structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of reproductive structure</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal reproductive structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of rhabdome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of rhabdome</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal rhabdome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000159"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000366"/>
+        <obo:IAO_0000115>Abnormality of rhabdomere.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of rhabdomere</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal rhabdomere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000384"/>
+        <obo:IAO_0000115>Abnormality of secretory duct.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of secretory duct</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal secretory duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000331"/>
+        <obo:IAO_0000115>Abnormality of secretory granule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of secretory granule</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal secretory granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of somatic cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of somatic cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal somatic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000268"/>
+        <obo:IAO_0000115>Abnormality of somatic gonadal cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of somatic gonadal cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal somatic gonadal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of specialized neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of specialized neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal specialized neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000329"/>
+        <obo:IAO_0000115>Abnormality of stalk.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of stalk</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal stalk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000657"/>
+        <obo:IAO_0000115>Abnormality of surgical wound.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of surgical wound</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal surgical wound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000265"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <obo:IAO_0000115>Abnormality of synapse.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of synapse</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal synapse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000588"/>
+        <obo:IAO_0000115>Abnormality of synaptic cleft.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of synaptic cleft</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal synaptic cleft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <obo:IAO_0000115>Abnormality of synaptic vesicle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of synaptic vesicle</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal synaptic vesicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000670"/>
+        <obo:IAO_0000115>Abnormality of synaptonemal complex.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of synaptonemal complex</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal synaptonemal complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000261"/>
+        <obo:IAO_0000115>Abnormality of tail tip.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of tail tip</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal tail tip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000572"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000668"/>
+        <obo:IAO_0000115>Abnormality of telomere.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telomere</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telomere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000265"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
+        <obo:IAO_0000115>Abnormality of tight junction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of tight junction</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal tight junction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000553"/>
+        <obo:IAO_0000115>Abnormality of wedge amputation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of wedge amputation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal wedge amputation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000669"/>
+        <obo:IAO_0000115>Abnormality of wound.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of wound</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal wound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
+        <obo:IAO_0000115>Abnormality of X1 cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of X1 cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal X1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
+        <obo:IAO_0000115>Abnormality of X1(FS) cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of X1(FS) cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal X1(FS) cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
+        <obo:IAO_0000115>Abnormality of X2 cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of X2 cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal X2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
+        <obo:IAO_0000115>Abnormality of Xins cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of Xins cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal Xins cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000662">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000261"/>
+        <obo:IAO_0000115>Abnormality of post-pharyngeal region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of post-pharyngeal region</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal post-pharyngeal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of post-blastema region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of post-blastema region</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal post-blastema region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000664">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of fission fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of fission fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal fission fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of epithelium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of gut branch.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of gut branch</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal gut branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
+        <obo:IAO_0000115>Abnormality of extraembryonic organ.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of extraembryonic organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal extraembryonic organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000571"/>
+        <obo:IAO_0000115>Abnormality of chromosome_part.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chromosome_part</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chromosome_part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of perturbation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of perturbation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal perturbation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000668"/>
+        <obo:IAO_0000115>Abnormality of chromosomal_structural_element.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chromosomal_structural_element</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chromosomal_structural_element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000671">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000786"/>
+        <obo:IAO_0000115>Abnormality of thick fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of thick fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal thick fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000672">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000786"/>
+        <obo:IAO_0000115>Abnormality of thin fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of thin fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal thin fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of longitudinal region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of longitudinal region</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal longitudinal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000657"/>
+        <obo:IAO_0000115>Abnormality of chemical wound.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of chemical wound</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal chemical wound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000657"/>
+        <obo:IAO_0000115>Abnormality of plug wound.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of plug wound</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal plug wound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000657"/>
+        <obo:IAO_0000115>Abnormality of wedge wound.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of wedge wound</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal wedge wound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of regenerating fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of regenerating fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal regenerating fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of sagittal orientation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of sagittal orientation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal sagittal orientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000679"/>
+        <obo:IAO_0000115>Abnormality of parasagittal orientation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of parasagittal orientation</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal parasagittal orientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of syncytium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of syncytium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal syncytium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000067"/>
+        <obo:IAO_0000115>Abnormality of intracellular granule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of intracellular granule</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal intracellular granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000684"/>
+        <obo:IAO_0000115>Abnormality of FACS sorted cell population.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of FACS sorted cell population</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal FACS sorted cell population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>Abnormality of derived cell population.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of derived cell population</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal derived cell population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
+        <obo:IAO_0000115>Abnormality of pharynx pouch epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx pouch epithelium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx pouch epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000105"/>
+        <obo:IAO_0000115>Abnormality of sperm duct epithelial surface.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of sperm duct epithelial surface</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal sperm duct epithelial surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
+        <obo:IAO_0000115>Abnormality of parenchyma.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of parenchyma</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal parenchyma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000280"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of testis cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of testis cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal testis cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000052"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of ventral epidermis cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ventral epidermis cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ventral epidermis cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of visual system cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of visual system cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal visual system cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of eye cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of eye cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal eye cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000342"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of enteric muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of enteric muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal enteric muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000135"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of dorsal epidermis cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of dorsal epidermis cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal dorsal epidermis cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000140"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of adhesion gland cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of adhesion gland cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal adhesion gland cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000392"/>
+        <obo:IAO_0000115>Abnormality of body wall muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of body wall muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal body wall muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000209"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of gastrodermal cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of gastrodermal cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal gastrodermal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000277"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <obo:IAO_0000115>Abnormality of anterior pole cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anterior pole cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anterior pole cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000452"/>
+        <obo:IAO_0000115>Abnormality of pharynx neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000310"/>
+        <obo:IAO_0000115>Abnormality of pharynx epithelial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx epithelial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000091"/>
+        <obo:IAO_0000115>Abnormality of pharynx muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000310"/>
+        <obo:IAO_0000115>Abnormality of pharynx pouch epithelial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx pouch epithelial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx pouch epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000585"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000625"/>
+        <obo:IAO_0000115>Abnormality of melanin pigment granule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of melanin pigment granule</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal melanin pigment granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000619"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000625"/>
+        <obo:IAO_0000115>Abnormality of ommochrome pigment granule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ommochrome pigment granule</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ommochrome pigment granule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000687"/>
+        <obo:IAO_0000115>Abnormality of parenchymal cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of parenchymal cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal parenchymal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of G1 phase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G1 phase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G1 phase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of S phase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of S phase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal S phase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of G2 phase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G2 phase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G2 phase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of prophase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prophase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prophase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of metaphase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of metaphase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal metaphase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of anaphase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anaphase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anaphase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000029"/>
+        <obo:IAO_0000115>Abnormality of telophase neoblast.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telophase neoblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telophase neoblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of G1 phase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G1 phase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G1 phase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of S phase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of S phase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal S phase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of G2 phase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G2 phase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G2 phase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of prophase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prophase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prophase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of metaphase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of metaphase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal metaphase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of anaphase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anaphase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anaphase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000250"/>
+        <obo:IAO_0000115>Abnormality of telophase spermatogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telophase spermatogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telophase spermatogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of G1 phase oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G1 phase oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G1 phase oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of S phase oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of S phase oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal S phase oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000721">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of G2 phase  oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G2 phase  oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G2 phase  oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of prophase  oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prophase  oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prophase  oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of metaphase oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of metaphase oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal metaphase oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of anaphase oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anaphase oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anaphase oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
+        <obo:IAO_0000115>Abnormality of telophase  oogonial stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telophase  oogonial stem cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telophase  oogonial stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of G1 phase spermatogonium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G1 phase spermatogonium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G1 phase spermatogonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of S phase spermatogonium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of S phase spermatogonium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal S phase spermatogonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of G2 phase spermatogonium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G2 phase spermatogonium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G2 phase spermatogonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of prophase spermatogonium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prophase spermatogonium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prophase spermatogonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000730">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of metaphase spermatogonia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of metaphase spermatogonia</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal metaphase spermatogonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of anaphase spermatogonia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anaphase spermatogonia</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anaphase spermatogonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000732">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000132"/>
+        <obo:IAO_0000115>Abnormality of telophase spermatogonium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telophase spermatogonium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telophase spermatogonium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000733">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of G1 phase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G1 phase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G1 phase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of S phase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of S phase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal S phase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of G2 phase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G2 phase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G2 phase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000736">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of prophase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prophase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prophase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of metaphase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of metaphase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal metaphase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of anaphase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anaphase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anaphase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000216"/>
+        <obo:IAO_0000115>Abnormality of telophase oogonial cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telophase oogonial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telophase oogonial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of G1 phase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G1 phase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G1 phase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of S phase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of S phase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal S phase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of G2 phase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of G2 phase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal G2 phase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of prophase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prophase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prophase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of metaphase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of metaphase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal metaphase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of anaphase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anaphase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anaphase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000593"/>
+        <obo:IAO_0000115>Abnormality of telophase germ cell cyst.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of telophase germ cell cyst</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal telophase germ cell cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic S phase spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic S phase spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic S phase spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000748">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic G1 phase spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic G1 phase spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic G1 phase spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic G2 phase spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic G2 phase spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic G2 phase spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic prophase I spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic prophase I spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic prophase I spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000751">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of leptotene stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of leptotene stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal leptotene stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000752">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of zygotene stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of zygotene stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal zygotene stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of pachytene stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pachytene stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pachytene stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of diplotene stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of diplotene stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal diplotene stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of diakinesis stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of diakinesis stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal diakinesis stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic metaphase 1 stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic metaphase 1 stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic metaphase 1 stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic anaphase I stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic anaphase I stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic anaphase I stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000758">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic telophase I spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic telophase I spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic telophase I spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiosis II stage spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiosis II stage spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiosis II stage spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000760">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic prophase II spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic prophase II spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic prophase II spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000761">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic metaphase 2 spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic metaphase 2 spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic metaphase 2 spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic anaphase II spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic anaphase II spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic anaphase II spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000445"/>
+        <obo:IAO_0000115>Abnormality of meiotic telophase II spermatocyte.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of meiotic telophase II spermatocyte</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal meiotic telophase II spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000270"/>
+        <obo:IAO_0000115>Abnormality of cephalic ganglia primordium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cephalic ganglia primordium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cephalic ganglia primordium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000270"/>
+        <obo:IAO_0000115>Abnormality of eye primordium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of eye primordium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal eye primordium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000270"/>
+        <obo:IAO_0000115>Abnormality of pharynx primordium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pharynx primordium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pharynx primordium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000767">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000270"/>
+        <obo:IAO_0000115>Abnormality of pigment cup primordium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of pigment cup primordium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal pigment cup primordium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000768">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000270"/>
+        <obo:IAO_0000115>Abnormality of testis primordium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of testis primordium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal testis primordium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000769">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000270"/>
+        <obo:IAO_0000115>Abnormality of gonad primoridium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of gonad primoridium</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal gonad primoridium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000770 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000770">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
+        <obo:IAO_0000115>Abnormality of protonephridial lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of protonephridial lumen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal protonephridial lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000771">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000280"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
+        <obo:IAO_0000115>Abnormality of testis lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of testis lumen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal testis lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000179"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
+        <obo:IAO_0000115>Abnormality of ovary lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ovary lumen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ovary lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000230"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000603"/>
+        <obo:IAO_0000115>Abnormality of flame cell lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of flame cell lumen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal flame cell lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000774">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
+        <obo:IAO_0000115>Abnormality of cephalic ganglia progenitor cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of cephalic ganglia progenitor cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal cephalic ganglia progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
+        <obo:IAO_0000115>Abnormality of dorsal epidermis progenitor cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of dorsal epidermis progenitor cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal dorsal epidermis progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
+        <obo:IAO_0000115>Abnormality of optic cup progenitor cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of optic cup progenitor cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal optic cup progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
+        <obo:IAO_0000115>Abnormality of ventral epidermis progenitor cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of ventral epidermis progenitor cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal ventral epidermis progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000778">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of head fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of head fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal head fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000779">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of trunk fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of trunk fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal trunk fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of tail fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of tail fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal tail fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000781">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of prepharyngeal fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of prepharyngeal fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal prepharyngeal fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000782">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of postpharyngeal fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of postpharyngeal fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal postpharyngeal fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000783">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of anterior fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of anterior fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal anterior fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000784">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of posterior fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of posterior fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal posterior fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000785">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of lateral fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of lateral fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal lateral fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000786">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of longitudinal fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of longitudinal fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal longitudinal fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000787">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of plug fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of plug fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal plug fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000673"/>
+        <obo:IAO_0000115>Abnormality of wedge fragment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of wedge fragment</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal wedge fragment</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

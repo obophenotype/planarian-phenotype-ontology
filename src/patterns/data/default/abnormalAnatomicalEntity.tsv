@@ -1,6 +1,6 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 PLANP:0000001	default	PLANA:0000514	cytoplasmic vesicle part
-PLANP:0000002	default	PLANA:0007522	mediolateral axis
+PLANP:0000002	default	PLANA:0007522	medial-lateral axis
 PLANP:0000003	default	PLANA:0004530	oviduct lumen
 PLANP:0000004	default	PLANA:0000018	Category 4 cell
 PLANP:0000006	default	PLANA:0000098	zygote
@@ -8,23 +8,22 @@ PLANP:0000008	default	PLANA:0000218	male primordial germ cell
 PLANP:0000009	default	PLANA:0000107	yolk cell
 PLANP:0000010	default	PLANA:0007558	fission plane
 PLANP:0000011	default	PLANA:0000562	central nervous system neuron
-PLANP:0000012	default	PLANA:0000478	musculature of pharynx
+PLANP:0000012	default	PLANA:0000478	pharynx musculature
 PLANP:0000014	default	PLANA:0000047	collecting duct
 PLANP:0000015	default	PLANA:0000533	nucleolus
-PLANP:0000016	default	PLANA:0000078	outer longitudinal muscle fiber
+PLANP:0000016	default	PLANA:0000078	outer longitudinal muscle cell
 PLANP:0000017	default	PLANA:0000422	tail stripe
-PLANP:0000018	default	PLANA:0007560	gastrovascular compartment
 PLANP:0000019	default	PLANA:0000027	Smed sexual biotype
 PLANP:0000020	default	PLANA:0007514	rough endoplasmic reticulum
 PLANP:0000021	default	PLANA:0000088	renal system
 PLANP:0000022	default	PLANA:0000494	brain commissure
 PLANP:0000023	default	PLANA:0000205	oviduct
 PLANP:0000027	default	PLANA:0004512	primitive ectoderm surface
-PLANP:0000029	default	PLANA:0000429	neoblast compartment
+PLANP:0000029	default	PLANA:0000429	neoblast
 PLANP:0000032	default	PLANA:0000215	reproductive system product
-PLANP:0000033	default	PLANA:0000475	inner pharyngeal longitudinal muscle fiber
+PLANP:0000033	default	PLANA:0000475	pharynx inner longitudinal muscle cell
 PLANP:0000036	default	PLANA:0000421	tail
-PLANP:0000038	default	PLANA:0000419	neck
+PLANP:0000038	default	PLANA:0000419	prepharyngeal region
 PLANP:0000039	default	PLANA:0007511	extracellular organelle
 PLANP:0000041	default	PLANA:0000115	distal tubule epithelial cell
 PLANP:0000042	default	PLANA:0000087	proximal tubule
@@ -33,25 +32,22 @@ PLANP:0000044	default	PLANA:0000031	pigment cup cell
 PLANP:0000045	default	PLANA:0007528	glial cell
 PLANP:0000046	default	PLANA:0000036	eye
 PLANP:0000047	default	PLANA:0000067	goblet cell
-PLANP:0000048	default	PLANA:0000411	lumen gut surface
+PLANP:0000048	default	PLANA:0000411	gastrodermis surface
 PLANP:0000050	default	PLANA:0000546	bipolar neuron
 PLANP:0000051	default	PLANA:0000016	definitive pharynx
 PLANP:0000052	default	PLANA:0000096	ventral epidermis
 PLANP:0000053	default	PLANA:0007544	cintillo+ sensory neuron
-PLANP:0000054	default	PLANA:0000404	cavity of pharynx
+PLANP:0000054	default	PLANA:0000404	pharynx lumen
 PLANP:0000056	default	PLANA:0000009	sigma neoblast
-PLANP:0000057	default	PLANA:0000069	inner longitudinal muscle fiber
-PLANP:0000058	default	PLANA:0004528	pharyngeal epithelium
+PLANP:0000057	default	PLANA:0000069	inner longitudinal muscle cell
+PLANP:0000058	default	PLANA:0004528	pharynx epithelium
 PLANP:0000059	default	PLANA:0004518	extraembryonic cell
 PLANP:0000060	default	PLANA:0000418	head
-PLANP:0000062	default	PLANA:0000112	Schmidtea mediterranea developmental term
-PLANP:0000064	default	PLANA:0000052	dispersed cleavage
 PLANP:0000065	default	PLANA:0000232	copulatory apparatus
 PLANP:0000067	default	PLANA:0000519	intracellular non-membrane-bounded organelle
 PLANP:0000069	default	PLANA:0000001	Stage 1
 PLANP:0000070	default	PLANA:0000565	autonomic neuron
-PLANP:0000071	default	PLANA:0000410	basal epidermis surface
-PLANP:0000074	default	PLANA:0000511	acidophilic cytoplasm
+PLANP:0000071	default	PLANA:0000410	basal surface of the epidermis
 PLANP:0000076	default	PLANA:0000059	embryonic gut cell
 PLANP:0000078	default	PLANA:0000104	rhabdite
 PLANP:0000079	default	PLANA:0000020	protonephridia
@@ -59,9 +55,7 @@ PLANP:0000080	default	PLANA:0000237	round spermatid
 PLANP:0000082	default	PLANA:0001005	basal lamina of epithelium
 PLANP:0000083	default	PLANA:0000133	mechanoreceptor cell
 PLANP:0000084	default	PLANA:0000006	Stage 6
-PLANP:0000085	default	PLANA:0000480	outer pharynx nerve plexus
-PLANP:0000086	default	PLANA:0000516	cytoskeleton organization
-PLANP:0000087	default	PLANA:0000109	anatomical compartment subdivision feature
+PLANP:0000085	default	PLANA:0000480	pharynx outer nerve plexus
 PLANP:0000088	default	PLANA:0000564	peripheral nervous system neuron
 PLANP:0000090	default	PLANA:0000058	embryonic digestive system
 PLANP:0000091	default	PLANA:0000101	muscle cell
@@ -72,29 +66,28 @@ PLANP:0000095	default	PLANA:0007516	nuclear pore
 PLANP:0000096	default	PLANA:0000462	sensory cell
 PLANP:0000097	default	PLANA:0000537	ribosome
 PLANP:0000099	default	PLANA:0000039	gamma neoblast
-PLANP:0000102	default	PLANA:0007554	parenchymal compartment
 PLANP:0000103	default	PLANA:0007525	posterior pole
 PLANP:0000104	default	PLANA:0000074	oocyte
 PLANP:0000105	default	PLANA:0004533	sperm duct epithelium
 PLANP:0000108	default	PLANA:0000122	gamete
-PLANP:0000109	default	PLANA:0000023	temporary embryonic pharynx
+PLANP:0000109	default	PLANA:0000023	embryonic pharynx
 PLANP:0000110	default	PLANA:0000505	cell-cell contact zone
 PLANP:0000111	default	PLANA:0007541	releasing gland cell
 PLANP:0000112	default	PLANA:0004506	testis somatic gonadal cell
 PLANP:0000113	default	PLANA:0000201	bursal canal
-PLANP:0000114	default	PLANA:0000461	lateral branches
+PLANP:0000114	default	PLANA:0000461	lateral branch
 PLANP:0000115	default	PLANA:0000055	dorsal stripe
 PLANP:0000116	default	PLANA:0000117	embryonic structure
-PLANP:0000117	default	PLANA:0000033	epidermal progenitor
+PLANP:0000117	default	PLANA:0000033	epidermal progenitor cell
 PLANP:0000119	default	PLANA:0000534	chromatin
 PLANP:0000121	default	PLANA:0000004	Stage 4
 PLANP:0000122	default	PLANA:0007539	anchor cell
 PLANP:0000124	default	PLANA:0007551	klf+ sensory neuron progenitor cell
-PLANP:0000125	default	PLANA:0000459	optic chiasma
+PLANP:0000125	default	PLANA:0000459	optic chiasm
 PLANP:0000126	default	PLANA:0000211	primitive ectoderm cell
 PLANP:0000127	default	PLANA:0000127	oviduct epithelial cell
 PLANP:0000128	default	PLANA:0000228	male germ cell
-PLANP:0000129	default	PLANA:0000071	longitudinal muscle fiber
+PLANP:0000129	default	PLANA:0000071	longitudinal muscle cell
 PLANP:0000130	default	PLANA:0000406	oral opening
 PLANP:0000131	default	PLANA:0000526	membrane-bounded organelle
 PLANP:0000132	default	PLANA:0000220	spermatogonium
@@ -104,7 +97,7 @@ PLANP:0000138	default	PLANA:0000063	extraembryonic structure
 PLANP:0000139	default	PLANA:0000003	Stage 3
 PLANP:0000140	default	PLANA:0007538	adhesion gland
 PLANP:0000143	default	PLANA:0000012	neural progenitor
-PLANP:0000144	default	PLANA:0000092	syncytial yolk cell
+PLANP:0000144	default	PLANA:0000092	yolk syncytium
 PLANP:0000145	default	PLANA:0007509	plasma membrane
 PLANP:0000146	default	PLANA:0000513	cytoplasmic part
 PLANP:0000147	default	PLANA:0000559	unipolar neuron
@@ -112,9 +105,9 @@ PLANP:0000149	default	PLANA:0000044	cephalic ganglia
 PLANP:0000150	default	PLANA:0000106	ciliated epithelial cell
 PLANP:0000151	default	PLANA:0000207	sperm duct
 PLANP:0000152	default	PLANA:0007547	anterior pole progenitor cell
-PLANP:0000153	default	PLANA:0007519	anteroposterior axis
+PLANP:0000153	default	PLANA:0007519	anterior-posterior axis
 PLANP:0000154	default	PLANA:0000523	plasma membrane part
-PLANP:0000155	default	PLANA:0004524	temporary embryonic pharynx circular muscle fiber
+PLANP:0000155	default	PLANA:0004524	embryonic pharynx circular muscle cell
 PLANP:0000156	default	PLANA:0000467	submuscular nerve plexus
 PLANP:0000158	default	PLANA:0000135	female primordial germ cell
 PLANP:0000159	default	PLANA:0000017	photoreceptor neuron
@@ -123,20 +116,20 @@ PLANP:0000161	default	PLANA:0000217	gonad
 PLANP:0000164	default	PLANA:0000097	ventral nerve cord
 PLANP:0000165	default	PLANA:0000060	embryonic wall
 PLANP:0000166	default	PLANA:0007557	testis nerve plexus
-PLANP:0000167	default	PLANA:0000477	pharyngeal radial muscle fiber
+PLANP:0000167	default	PLANA:0000477	pharynx radial muscle cell
 PLANP:0000169	default	PLANA:0000046	clonogenic neoblast
 PLANP:0000170	default	PLANA:0000532	nuclear part
 PLANP:0000173	default	PLANA:0000125	sensory system
-PLANP:0000175	default	PLANA:0000026	definitive gut
-PLANP:0000177	default	PLANA:0000043	dorsoventral margin
+PLANP:0000175	default	PLANA:0000026	gut
+PLANP:0000177	default	PLANA:0000043	dorsal ventral margin
 PLANP:0000179	default	PLANA:0000204	ovary
 PLANP:0000181	default	PLANA:0000464	GABAergic neuron
 PLANP:0000183	default	PLANA:0000539	electrically responsive cell
-PLANP:0000185	default	PLANA:0000081	pharyngeal pouch
+PLANP:0000185	default	PLANA:0000081	pharynx pouch
 PLANP:0000186	default	PLANA:0000428	musculature system
 PLANP:0000187	default	PLANA:0000502	actin-based cell projection
 PLANP:0000188	default	PLANA:0000548	efferent neuron
-PLANP:0000191	default	PLANA:0007556	temporary embryonic pharynx cavity
+PLANP:0000191	default	PLANA:0007556	embryonic pharynx lumen
 PLANP:0000192	default	PLANA:0000531	non-membrane-bounded organelle
 PLANP:0000193	default	PLANA:0000420	parapharyngeal region
 PLANP:0000194	default	PLANA:0000076	oral hemisphere
@@ -144,16 +137,14 @@ PLANP:0000196	default	PLANA:0000540	electrically signaling cell
 PLANP:0000198	default	PLANA:0000124	visual system
 PLANP:0000199	default	PLANA:0000025	nervous system
 PLANP:0000200	default	PLANA:0000529	nucleus
-PLANP:0000201	default	PLANA:0000225	oviparity
 PLANP:0000202	default	PLANA:0000114	anatomical system
-PLANP:0000204	default	PLANA:0000086	protosphere
 PLANP:0000205	default	PLANA:0000485	gland cell
 PLANP:0000206	default	PLANA:0000521	bounding membrane of organelle
 PLANP:0000207	default	PLANA:0000035	Category 3 cell
 PLANP:0000209	default	PLANA:0000066	gastrodermis
 PLANP:0000211	default	PLANA:0000015	non ciliated epithelial cell
-PLANP:0000212	default	PLANA:0000241	pharyngeal longitudinal muscle fiber
-PLANP:0000213	default	PLANA:0007521	dextro-sinister axis
+PLANP:0000212	default	PLANA:0000241	pharynx longitudinal muscle cell
+PLANP:0000213	default	PLANA:0007521	left-right axis
 PLANP:0000214	default	PLANA:0000095	trail cell
 PLANP:0000215	default	PLANA:0004517	blastomere
 PLANP:0000216	default	PLANA:0000239	oogonial cell
@@ -162,36 +153,28 @@ PLANP:0000219	default	PLANA:0004527	copulatory region
 PLANP:0000220	default	PLANA:0000528	Golgi apparatus
 PLANP:0000221	default	PLANA:0000222	spermatid
 PLANP:0000222	default	PLANA:0000417	definitive organism subdivision
-PLANP:0000223	default	PLANA:0000051	direct development
 PLANP:0000226	default	PLANA:0000231	vitelline gland
-PLANP:0000228	default	PLANA:0004519	temporary embryonic pharynx neuron
+PLANP:0000228	default	PLANA:0004519	embryonic pharynx neuron
 PLANP:0000229	default	PLANA:0000520	membrane
 PLANP:0000230	default	PLANA:0000065	flame cell
 PLANP:0000232	default	PLANA:0000510	cytoplasm
 PLANP:0000233	default	PLANA:0004511	oral-aboral axis
 PLANP:0000234	default	PLANA:0000014	zeta neoblast
-PLANP:0000236	default	PLANA:0000094	tissue morphogenesis
 PLANP:0000237	default	PLANA:0000214	juvenile
 PLANP:0000238	default	PLANA:0000103	central nervous system
-PLANP:0000239	default	PLANA:0000474	inner pharyngeal circular muscle fiber
-PLANP:0000240	default	PLANA:0000132	gametogenesis
-PLANP:0000241	default	PLANA:0007549	body wall musculature compartment
+PLANP:0000239	default	PLANA:0000474	pharynx inner circular muscle cell
 PLANP:0000242	default	PLANA:0000553	motor neuron
-PLANP:0000243	default	PLANA:0000409	apical epidermis surface
+PLANP:0000243	default	PLANA:0000409	apical surface of the epidermis
 PLANP:0000245	default	PLANA:0000230	tuba
 PLANP:0000246	default	PLANA:0000084	posterior primary gut branch
 PLANP:0000248	default	PLANA:0000430	epithelial cell component
-PLANP:0000250	default	PLANA:0000219	male germline stem cell
+PLANP:0000250	default	PLANA:0000219	spermatogonial stem cell
 PLANP:0000251	default	PLANA:0007559	ovary nerve plexus
 PLANP:0000252	default	PLANA:0000030	midline
-PLANP:0000254	default	PLANA:0000479	inner pharynx nerve plexus
-PLANP:0000255	default	PLANA:0007505	ventral compartment
+PLANP:0000254	default	PLANA:0000479	pharynx inner nerve plexus
 PLANP:0000256	default	PLANA:0000079	parenchymal musculature
 PLANP:0000258	default	PLANA:0000543	neuron projection bundle
-PLANP:0000259	default	PLANA:0000057	embryonic cleavage
-PLANP:0000260	default	PLANA:0000425	definitive anatomical structure
-PLANP:0000261	default	PLANA:0000102	anatomical compartment subdivision
-PLANP:0000262	default	PLANA:0000040	Schmidtea mediterranea developmental stage
+PLANP:0000261	default	PLANA:0000102	anatomical region
 PLANP:0000264	default	PLANA:0000028	Category 2 cell
 PLANP:0000265	default	PLANA:0000507	cell-cell junction
 PLANP:0000266	default	PLANA:0007543	TrpA+ central nervous system neuron
@@ -215,10 +198,10 @@ PLANP:0000291	default	PLANA:0000487	acidophilic gland cell
 PLANP:0000293	default	PLANA:0004534	tuba lumen
 PLANP:0000294	default	PLANA:0000005	Stage 5
 PLANP:0000295	default	PLANA:0000068	embryonic gut cavity
-PLANP:0000296	default	PLANA:0000414	pharyngeal pouch surface
+PLANP:0000296	default	PLANA:0000414	pharynx pouch epithelial surface
 PLANP:0000297	default	PLANA:0004514	embryonic gut cell surface
 PLANP:0000298	default	PLANA:0000515	vacuole
-PLANP:0000299	default	PLANA:0007523	proximodistal axis
+PLANP:0000299	default	PLANA:0007523	proximal-distal axis
 PLANP:0000301	default	PLANA:0004531	sperm duct lumen
 PLANP:0000302	default	PLANA:0000561	neuron associated cell (sensu Nematoda and Protostomia)
 PLANP:0000304	default	PLANA:0000120	progenitor cell
@@ -237,21 +220,18 @@ PLANP:0000318	default	PLANA:0000089	secondary gut branch
 PLANP:0000320	default	PLANA:0000002	Stage 2
 PLANP:0000322	default	PLANA:0000011	protonephridial progenitor
 PLANP:0000323	default	PLANA:0000038	ventral midline
-PLANP:0000324	default	PLANA:0000091	sphere formation
-PLANP:0000325	default	PLANA:0007508	extracellular component
-PLANP:0000326	default	PLANA:0000512	basophilic cytoplasm
 PLANP:0000327	default	PLANA:0004513	primtive gut cell surface
 PLANP:0000329	default	PLANA:0000216	egg capsule
 PLANP:0000330	default	PLANA:0000560	multipolar neuron
 PLANP:0000331	default	PLANA:0000105	secretory cell
-PLANP:0000332	default	PLANA:0000476	outer pharyngeal longitudinal muscle fiber
+PLANP:0000332	default	PLANA:0000476	pharynx outer longitudinal muscle cell
 PLANP:0000333	default	PLANA:0000206	penis papilla
 PLANP:0000334	default	PLANA:0007546	TrpA+ neural progenitor cell
 PLANP:0000335	default	PLANA:0000550	interneuron
 PLANP:0000336	default	PLANA:0000466	subepidermal nerve plexus
 PLANP:0000338	default	PLANA:0000134	longitudinal muscle progenitor cell
 PLANP:0000339	default	PLANA:0000504	microvillus
-PLANP:0000340	default	PLANA:0004503	sexually mature adult
+PLANP:0000340	default	PLANA:0004503	adult hermaphrodite
 PLANP:0000341	default	PLANA:0007512	mitochondrion
 PLANP:0000342	default	PLANA:0000061	enteric musculature
 PLANP:0000345	default	PLANA:0000032	dorsal midline
@@ -266,9 +246,7 @@ PLANP:0000355	default	PLANA:0000470	neuropil
 PLANP:0000356	default	PLANA:0000070	intestinal phagocyte
 PLANP:0000357	default	PLANA:0000042	anterior primary gut branch
 PLANP:0000358	default	PLANA:0000509	intracellular part
-PLANP:0000359	default	PLANA:0007545	epidermal compartment
-PLANP:0000360	default	PLANA:0000405	lumen of digestive tract
-PLANP:0000361	default	PLANA:0000465	pharynx nerve plexus
+PLANP:0000360	default	PLANA:0000405	digestive tract lumen
 PLANP:0000363	default	PLANA:0000499	cell
 PLANP:0000364	default	PLANA:0000538	axon tract
 PLANP:0000365	default	PLANA:0000080	peripheral nervous system
@@ -279,7 +257,7 @@ PLANP:0000372	default	PLANA:0000113	tissue
 PLANP:0000373	default	PLANA:0000518	intracellular organelle
 PLANP:0000374	default	PLANA:0000530	secretory vesicle
 PLANP:0000375	default	PLANA:0000075	optic cup
-PLANP:0000376	default	PLANA:0007535	pharyngeal circular muscle fiber
+PLANP:0000376	default	PLANA:0007535	pharynx circular muscle cell
 PLANP:0000378	default	PLANA:0000566	enteric neuron
 PLANP:0000379	default	PLANA:0000123	embryonic cell
 PLANP:0000380	default	PLANA:0000024	Smed asexual biotype
@@ -291,12 +269,12 @@ PLANP:0000387	default	PLANA:0007518	lysosome
 PLANP:0000388	default	PLANA:0000522	membrane part
 PLANP:0000391	default	PLANA:0000007	Stage 7
 PLANP:0000392	default	PLANA:0000240	body wall musculature
-PLANP:0000393	default	PLANA:0007520	dorsoventral axis
-PLANP:0000394	default	PLANA:0004516	temporary embryonic pharynx lumen epithelial surface
-PLANP:0000396	default	PLANA:0007534	inner pharyngeal epithelium
-PLANP:0000397	default	PLANA:0000045	circular muscle fiber
+PLANP:0000393	default	PLANA:0007520	dorsal-ventral axis
+PLANP:0000394	default	PLANA:0004516	embryonic pharynx lumen epithelial surface
+PLANP:0000396	default	PLANA:0007534	pharynx inner epithelium
+PLANP:0000397	default	PLANA:0000045	circular muscle cell
 PLANP:0000398	default	PLANA:0000527	intracellular membrane-bounded organelle
-PLANP:0000399	default	PLANA:0000223	female germline stem cell
+PLANP:0000399	default	PLANA:0000223	oogonial stem cell
 PLANP:0000403	default	PLANA:0000483	octopaminergic neuron
 PLANP:0000404	default	PLANA:0000203	gonopore
 PLANP:0000406	default	PLANA:0000064	flame bulb
@@ -305,36 +283,281 @@ PLANP:0000409	default	PLANA:0000013	visceral musculature
 PLANP:0000410	default	PLANA:0000427	multicellular anatomical structure
 PLANP:0000411	default	PLANA:0000093	tertiary gut branch
 PLANP:0000412	default	PLANA:0007553	lateral nerve
-PLANP:0000413	default	PLANA:0000473	outer pharyngeal circular muscle fiber
+PLANP:0000413	default	PLANA:0000473	pharynx outer circular muscle cell
 PLANP:0000415	default	PLANA:0007548	transverse commissure
 PLANP:0000416	default	PLANA:0000552	sensory neuron
 PLANP:0000417	default	PLANA:0000468	gastrodermal plexus
 PLANP:0000420	default	PLANA:0000506	cell junction
 PLANP:0000421	default	PLANA:0000085	primitive gut cell
 PLANP:0000425	default	PLANA:0000056	ectolecithal embryo
-PLANP:0000427	default	PLANA:0000034	definitive epidermis
+PLANP:0000427	default	PLANA:0000034	epidermis
 PLANP:0000430	default	PLANA:0007552	nu neoblast
 PLANP:0000433	default	PLANA:0004507	ovarian somatic gonadal cell
 PLANP:0000434	default	PLANA:0000128	sperm duct epithelial cell
 PLANP:0000435	default	PLANA:0000029	primitive ectoderm
-PLANP:0000436	default	PLANA:0000472	outer pharyngeal epithelium
+PLANP:0000436	default	PLANA:0000472	pharynx outer epithelium
 PLANP:0000437	default	PLANA:0000229	female germ cell
 PLANP:0000438	default	PLANA:0000118	collecting duct epithelial cell
 PLANP:0000439	default	PLANA:0000072	mouth
 PLANP:0000442	default	PLANA:0000130	circular muscle progenitor cell
-PLANP:0000443	default	PLANA:0004521	temporary embryonic pharynx epithelial cell
-PLANP:0000444	default	PLANA:0000407	pharnygeal pouch cavity
+PLANP:0000443	default	PLANA:0004521	embryonic pharynx epithelial cell
+PLANP:0000444	default	PLANA:0000407	pharynx pouch cavity
 PLANP:0000445	default	PLANA:0000221	spermatocyte
-PLANP:0000448	default	PLANA:0000110	definitive pharynx progenitor
-PLANP:0000449	default	PLANA:0000082	racing stripe
+PLANP:0000448	default	PLANA:0000110	pharynx progenitor cell
 PLANP:0000450	default	PLANA:0000549	excitatory motor neuron
 PLANP:0000452	default	PLANA:0000099	neuron
-PLANP:0000455	default	PLANA:0000048	diagonal muscle fiber
+PLANP:0000455	default	PLANA:0000048	diagonal muscle cell
 PLANP:0000456	default	PLANA:0000541	nerve
 PLANP:0000458	default	PLANA:0000558	sympathetic neuron
-PLANP:0000459	default	PLANA:0000226	cross-fertilization
 PLANP:0000461	default	PLANA:0000486	secretory pore
 PLANP:0000462	default	PLANA:0000495	blastema
-PLANP:0000463	default	PLANA:0004520	temporary embryonic pharynx radial muscle cell
+PLANP:0000463	default	PLANA:0004520	embryonic pharynx radial muscle cell
 PLANP:0000464	default	PLANA:0000524	organelle membrane
-PLANP:0000465	default	PLANA:0000413	pharynx outer epithelial surface
+PLANP:0000465	default	PLANA:0000413	pharynx outer epithelium surface
+PLANP:0000542	default	PLANA:0000136	whole organism
+PLANP:0000543	default	PLANA:0000137	regeneration
+PLANP:0000544	default	PLANA:0000138	Hyman vesicle
+PLANP:0000545	default	PLANA:0000140	anterior region
+PLANP:0000546	default	PLANA:0000141	dorsal region
+PLANP:0000547	default	PLANA:0000142	posterior region
+PLANP:0000548	default	PLANA:0000143	ventral region
+PLANP:0000549	default	PLANA:0000535	heterochromatin
+PLANP:0000550	default	PLANA:0002000	adenal rhabdite
+PLANP:0000551	default	PLANA:0002001	adherens junction
+PLANP:0000552	default	PLANA:0002002	adhesive papilla
+PLANP:0000553	default	PLANA:0002003	amputation
+PLANP:0000554	default	PLANA:0002004	anterior gut branch
+PLANP:0000555	default	PLANA:0002005	anterior tip
+PLANP:0000556	default	PLANA:0002006	antrum
+PLANP:0000557	default	PLANA:0002007	auricle
+PLANP:0000558	default	PLANA:0002008	axon
+PLANP:0000559	default	PLANA:0002009	axoneme
+PLANP:0000560	default	PLANA:0002010	basal body
+PLANP:0000561	default	PLANA:0002011	brain visual center
+PLANP:0000562	default	PLANA:0002012	bulbar cavity
+PLANP:0000563	default	PLANA:0002013	Category 1 cell
+PLANP:0000564	default	PLANA:0002014	cell body
+PLANP:0000565	default	PLANA:0002015	cephalic ganglia lobe
+PLANP:0000566	default	PLANA:0002016	cephalic ganglia neuron
+PLANP:0000567	default	PLANA:0002017	chemical amputation
+PLANP:0000568	default	PLANA:0002018	chemical pharynx amputation
+PLANP:0000569	default	PLANA:0002019	chemosensory neuron
+PLANP:0000570	default	PLANA:0002020	chromatoid body
+PLANP:0000571	default	PLANA:0002021	chromosome
+PLANP:0000572	default	PLANA:0002022	chromosome arm
+PLANP:0000573	default	PLANA:0002023	ciliated epithelium
+PLANP:0000574	default	PLANA:0002024	cilium
+PLANP:0000575	default	PLANA:0002025	commissure
+PLANP:0000576	default	PLANA:0002026	cut
+PLANP:0000577	default	PLANA:0002027	dendrite
+PLANP:0000578	default	PLANA:0002028	dorsal-ventral muscle cell
+PLANP:0000579	default	PLANA:0002029	early female germ cell
+PLANP:0000580	default	PLANA:0002030	early male germ cell
+PLANP:0000581	default	PLANA:0002031	embryonic gut
+PLANP:0000582	default	PLANA:0002032	epidermal cell
+PLANP:0000583	default	PLANA:0002033	epidermal rhabdite
+PLANP:0000584	default	PLANA:0002034	ER membrane
+PLANP:0000585	default	PLANA:0002035	eumelanin
+PLANP:0000586	default	PLANA:0002036	excretory cell
+PLANP:0000587	default	PLANA:0002037	extracellular matrix
+PLANP:0000588	default	PLANA:0002038	extracellular space
+PLANP:0000589	default	PLANA:0002039	fission
+PLANP:0000590	default	PLANA:0002040	flagellum
+PLANP:0000591	default	PLANA:0002041	gap junction
+PLANP:0000592	default	PLANA:0002042	genital atrium
+PLANP:0000593	default	PLANA:0002043	germ cell cyst
+PLANP:0000594	default	PLANA:0002044	germline stem cell
+PLANP:0000595	default	PLANA:0002045	glycogen granule
+PLANP:0000596	default	PLANA:0002046	incision
+PLANP:0000597	default	PLANA:0002047	pharynx inner epidermal cell
+PLANP:0000598	default	PLANA:0002048	inner zone of gland cells
+PLANP:0000599	default	PLANA:0002049	intercellular junction
+PLANP:0000600	default	PLANA:0002050	linear amputation
+PLANP:0000601	default	PLANA:0002051	linear incision
+PLANP:0000602	default	PLANA:0002052	lipid droplet
+PLANP:0000603	default	PLANA:0002053	lumen
+PLANP:0000604	default	PLANA:0002054	marginal adhesive zone
+PLANP:0000605	default	PLANA:0002055	mechanosensory neuron
+PLANP:0000606	default	PLANA:0002056	medial muscle cell
+PLANP:0000607	default	PLANA:0002057	meiotic germ cell
+PLANP:0000608	default	PLANA:0002058	melanosome
+PLANP:0000609	default	PLANA:0002059	mucus
+PLANP:0000610	default	PLANA:0002060	nephridiopore
+PLANP:0000611	default	PLANA:0002061	neurite
+PLANP:0000612	default	PLANA:0002062	neuropeptidergic neuron
+PLANP:0000613	default	PLANA:0002063	non-ciliated epidermis
+PLANP:0000614	default	PLANA:0002064	nuclear envelope
+PLANP:0000615	default	PLANA:0002065	nuclear inner membrane
+PLANP:0000616	default	PLANA:0002066	nuclear lumen
+PLANP:0000617	default	PLANA:0002067	nuclear outer membrane
+PLANP:0000618	default	PLANA:0002068	nuclear periphery
+PLANP:0000619	default	PLANA:0002069	ommochrome pigment cell
+PLANP:0000620	default	PLANA:0002070	optic nerve
+PLANP:0000621	default	PLANA:0002071	pharynx outer epidermal cell
+PLANP:0000622	default	PLANA:0002073	phagocytic cell
+PLANP:0000623	default	PLANA:0002074	pharynx tip
+PLANP:0000624	default	PLANA:0002075	pigment cell
+PLANP:0000625	default	PLANA:0002076	pigment granule
+PLANP:0000626	default	PLANA:0002077	plug amputation
+PLANP:0000627	default	PLANA:0002078	point incision
+PLANP:0000628	default	PLANA:0002079	pore
+PLANP:0000629	default	PLANA:0002080	post-meiotic germ cell
+PLANP:0000630	default	PLANA:0002081	postsynaptic cell
+PLANP:0000631	default	PLANA:0002082	premeiotic germ cell
+PLANP:0000632	default	PLANA:0002083	presynaptic cell
+PLANP:0000633	default	PLANA:0002084	presynaptic terminal
+PLANP:0000634	default	PLANA:0002085	presynaptic vesicle
+PLANP:0000635	default	PLANA:0002086	primary gut branch
+PLANP:0000636	default	PLANA:0002087	primitive gut
+PLANP:0000637	default	PLANA:0002088	quarternary gut branch
+PLANP:0000638	default	PLANA:0002089	reproductive organ
+PLANP:0000639	default	PLANA:0002090	reproductive structure
+PLANP:0000640	default	PLANA:0002091	rhabdome
+PLANP:0000641	default	PLANA:0002092	rhabdomere
+PLANP:0000642	default	PLANA:0002093	secretory duct
+PLANP:0000643	default	PLANA:0002094	secretory granule
+PLANP:0000644	default	PLANA:0002095	somatic cell
+PLANP:0000645	default	PLANA:0002096	somatic gonadal cell
+PLANP:0000646	default	PLANA:0002097	specialized neoblast
+PLANP:0000647	default	PLANA:0002098	stalk
+PLANP:0000648	default	PLANA:0002099	surgical wound
+PLANP:0000649	default	PLANA:0002100	synapse
+PLANP:0000650	default	PLANA:0002101	synaptic cleft
+PLANP:0000651	default	PLANA:0002102	synaptic vesicle
+PLANP:0000652	default	PLANA:0002103	synaptonemal complex
+PLANP:0000653	default	PLANA:0002104	tail tip
+PLANP:0000654	default	PLANA:0002105	telomere
+PLANP:0000655	default	PLANA:0002106	tight junction
+PLANP:0000656	default	PLANA:0002107	wedge amputation
+PLANP:0000657	default	PLANA:0002108	wound
+PLANP:0000658	default	PLANA:0002109	X1 cell
+PLANP:0000659	default	PLANA:0002110	X1(FS) cell
+PLANP:0000660	default	PLANA:0002111	X2 cell
+PLANP:0000661	default	PLANA:0002112	Xins cell
+PLANP:0000662	default	PLANA:0002113	post-pharyngeal region
+PLANP:0000663	default	PLANA:0002114	post-blastema region
+PLANP:0000664	default	PLANA:0002116	fission fragment
+PLANP:0000665	default	PLANA:0002118	epithelium
+PLANP:0000666	default	PLANA:0002119	gut branch
+PLANP:0000667	default	PLANA:0002120	extraembryonic organ
+PLANP:0000668	default	PLANA:0002121	chromosome:part
+PLANP:0000669	default	PLANA:0002122	perturbation
+PLANP:0000670	default	PLANA:0002123	chromosomal:structural:element
+PLANP:0000671	default	PLANA:0002125	thick fragment
+PLANP:0000672	default	PLANA:0002126	thin fragment
+PLANP:0000673	default	PLANA:0002128	fragment
+PLANP:0000674	default	PLANA:0002129	longitudinal region
+PLANP:0000675	default	PLANA:0002130	chemical wound
+PLANP:0000676	default	PLANA:0002131	plug wound
+PLANP:0000677	default	PLANA:0002132	wedge wound
+PLANP:0000678	default	PLANA:0002133	regenerating fragment
+PLANP:0000679	default	PLANA:0002134	sagittal orientation
+PLANP:0000680	default	PLANA:0002135	parasagittal orientation
+PLANP:0000681	default	PLANA:0002136	syncytium
+PLANP:0000682	default	PLANA:0002137	intracellular granule
+PLANP:0000683	default	PLANA:0002138	FACS sorted cell population
+PLANP:0000684	default	PLANA:0002139	derived cell population
+PLANP:0000685	default	PLANA:0002140	pharynx pouch epithelium
+PLANP:0000686	default	PLANA:0002141	sperm duct epithelial surface
+PLANP:0000687	default	PLANA:0002142	parenchyma
+PLANP:0000688	default	PLANA:0003100	testis cell
+PLANP:0000689	default	PLANA:0003101	ventral epidermis cell
+PLANP:0000690	default	PLANA:0003102	visual system cell
+PLANP:0000691	default	PLANA:0003103	eye cell
+PLANP:0000692	default	PLANA:0003104	enteric muscle cell
+PLANP:0000693	default	PLANA:0003105	dorsal epidermis cell
+PLANP:0000694	default	PLANA:0003106	adhesion gland cell
+PLANP:0000695	default	PLANA:0003107	body wall muscle cell
+PLANP:0000696	default	PLANA:0003108	gastrodermal cell
+PLANP:0000697	default	PLANA:0003109	anterior pole cell
+PLANP:0000698	default	PLANA:0003110	pharynx neuron
+PLANP:0000699	default	PLANA:0003111	pharynx epithelial cell
+PLANP:0000700	default	PLANA:0003112	pharynx muscle cell
+PLANP:0000701	default	PLANA:0003113	pharynx pouch epithelial cell
+PLANP:0000702	default	PLANA:0003114	melanin pigment granule
+PLANP:0000703	default	PLANA:0003115	ommochrome pigment granule
+PLANP:0000704	default	PLANA:0003116	parenchymal cell
+PLANP:0000705	default	PLANA:0003200	G1 phase neoblast
+PLANP:0000706	default	PLANA:0003201	S phase neoblast
+PLANP:0000707	default	PLANA:0003202	G2 phase neoblast
+PLANP:0000708	default	PLANA:0003203	prophase neoblast
+PLANP:0000709	default	PLANA:0003204	metaphase neoblast
+PLANP:0000710	default	PLANA:0003205	anaphase neoblast
+PLANP:0000711	default	PLANA:0003206	telophase neoblast
+PLANP:0000712	default	PLANA:0003207	G1 phase spermatogonial stem cell
+PLANP:0000713	default	PLANA:0003208	S phase spermatogonial stem cell
+PLANP:0000714	default	PLANA:0003209	G2 phase spermatogonial stem cell
+PLANP:0000715	default	PLANA:0003210	prophase spermatogonial stem cell
+PLANP:0000716	default	PLANA:0003211	metaphase spermatogonial stem cell
+PLANP:0000717	default	PLANA:0003212	anaphase spermatogonial stem cell
+PLANP:0000718	default	PLANA:0003213	telophase spermatogonial stem cell
+PLANP:0000719	default	PLANA:0003214	G1 phase oogonial stem cell
+PLANP:0000720	default	PLANA:0003215	S phase oogonial stem cell
+PLANP:0000721	default	PLANA:0003216	G2 phase oogonial stem cell
+PLANP:0000722	default	PLANA:0003217	prophase oogonial stem cell
+PLANP:0000723	default	PLANA:0003218	metaphase oogonial stem cell
+PLANP:0000724	default	PLANA:0003219	anaphase oogonial stem cell
+PLANP:0000725	default	PLANA:0003220	telophase oogonial stem cell
+PLANP:0000726	default	PLANA:0003221	G1 phase spermatogonium
+PLANP:0000727	default	PLANA:0003222	S phase spermatogonium
+PLANP:0000728	default	PLANA:0003223	G2 phase spermatogonium
+PLANP:0000729	default	PLANA:0003224	prophase spermatogonium
+PLANP:0000730	default	PLANA:0003225	metaphase spermatogonia
+PLANP:0000731	default	PLANA:0003226	anaphase spermatogonia
+PLANP:0000732	default	PLANA:0003227	telophase spermatogonium
+PLANP:0000733	default	PLANA:0003228	G1 phase oogonial cell
+PLANP:0000734	default	PLANA:0003229	S phase oogonial cell
+PLANP:0000735	default	PLANA:0003230	G2 phase oogonial cell
+PLANP:0000736	default	PLANA:0003231	prophase oogonial cell
+PLANP:0000737	default	PLANA:0003232	metaphase oogonial cell
+PLANP:0000738	default	PLANA:0003233	anaphase oogonial cell
+PLANP:0000739	default	PLANA:0003234	telophase oogonial cell
+PLANP:0000740	default	PLANA:0003235	G1 phase germ cell cyst
+PLANP:0000741	default	PLANA:0003236	S phase germ cell cyst
+PLANP:0000742	default	PLANA:0003237	G2 phase germ cell cyst
+PLANP:0000743	default	PLANA:0003238	prophase germ cell cyst
+PLANP:0000744	default	PLANA:0003239	metaphase germ cell cyst
+PLANP:0000745	default	PLANA:0003240	anaphase germ cell cyst
+PLANP:0000746	default	PLANA:0003241	telophase germ cell cyst
+PLANP:0000747	default	PLANA:0003242	meiotic S phase spermatocyte
+PLANP:0000748	default	PLANA:0003243	meiotic G1 phase spermatocyte
+PLANP:0000749	default	PLANA:0003244	meiotic G2 phase spermatocyte
+PLANP:0000750	default	PLANA:0003245	meiotic prophase I spermatocyte
+PLANP:0000751	default	PLANA:0003246	leptotene stage spermatocyte
+PLANP:0000752	default	PLANA:0003247	zygotene stage spermatocyte
+PLANP:0000753	default	PLANA:0003248	pachytene stage spermatocyte
+PLANP:0000754	default	PLANA:0003249	diplotene stage spermatocyte
+PLANP:0000755	default	PLANA:0003250	diakinesis stage spermatocyte
+PLANP:0000756	default	PLANA:0003251	meiotic metaphase 1 stage spermatocyte
+PLANP:0000757	default	PLANA:0003252	meiotic anaphase I stage spermatocyte
+PLANP:0000758	default	PLANA:0003253	meiotic telophase I spermatocyte
+PLANP:0000759	default	PLANA:0003254	meiosis II stage spermatocyte
+PLANP:0000760	default	PLANA:0003255	meiotic prophase II spermatocyte
+PLANP:0000761	default	PLANA:0003256	meiotic metaphase 2 spermatocyte
+PLANP:0000762	default	PLANA:0003257	meiotic anaphase II spermatocyte
+PLANP:0000763	default	PLANA:0003258	meiotic telophase II spermatocyte
+PLANP:0000764	default	PLANA:0003300	cephalic ganglia primordium
+PLANP:0000765	default	PLANA:0003301	eye primordium
+PLANP:0000766	default	PLANA:0003302	pharynx primordium
+PLANP:0000767	default	PLANA:0003303	pigment cup primordium
+PLANP:0000768	default	PLANA:0003304	testis primordium
+PLANP:0000769	default	PLANA:0003305	gonad primoridium
+PLANP:0000770	default	PLANA:0003400	protonephridial lumen
+PLANP:0000771	default	PLANA:0003401	testis lumen
+PLANP:0000772	default	PLANA:0003402	ovary lumen
+PLANP:0000773	default	PLANA:0003403	flame cell lumen
+PLANP:0000774	default	PLANA:0003500	cephalic ganglia progenitor cell
+PLANP:0000775	default	PLANA:0003501	dorsal epidermis progenitor cell
+PLANP:0000776	default	PLANA:0003502	optic cup progenitor cell
+PLANP:0000777	default	PLANA:0003503	ventral epidermis progenitor cell
+PLANP:0000778	default	PLANA:0003600	head fragment
+PLANP:0000779	default	PLANA:0003601	trunk fragment
+PLANP:0000780	default	PLANA:0003602	tail fragment
+PLANP:0000781	default	PLANA:0003603	prepharyngeal fragment
+PLANP:0000782	default	PLANA:0003604	postpharyngeal fragment
+PLANP:0000783	default	PLANA:0003605	anterior fragment
+PLANP:0000784	default	PLANA:0003606	posterior fragment
+PLANP:0000785	default	PLANA:0003607	lateral fragment
+PLANP:0000786	default	PLANA:0003608	longitudinal fragment
+PLANP:0000787	default	PLANA:0003609	plug fragment
+PLANP:0000788	default	PLANA:0003610	wedge fragment
