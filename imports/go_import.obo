@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-22/imports/go_import.owl
+data-version: planp/releases/2020-02-13/imports/go_import.owl
 subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
 subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
 subsetdef: goslim_agr "AGR slim"
@@ -44,6 +44,19 @@ is_a: GO:0008150 ! biological_process
 disjoint_from: GO:0044848 ! biological phase
 
 [Term]
+id: GO:0000022
+name: mitotic spindle elongation
+namespace: biological_process
+def: "The cell cycle process in which the distance is lengthened between poles of the mitotic spindle. Mitotic spindle elongation begins during mitotic prophase and ends during mitotic anaphase B." [GOC:mtg_cell_cycle, GOC:vw]
+synonym: "spindle elongation during mitosis" EXACT []
+is_a: GO:0051231 ! spindle elongation
+is_a: GO:1903047 ! mitotic cell cycle process
+intersection_of: GO:0051231 ! spindle elongation
+intersection_of: part_of GO:0000278 ! mitotic cell cycle
+relationship: part_of GO:0000070 ! mitotic sister chromatid segregation
+relationship: part_of GO:0007052 ! mitotic spindle organization
+
+[Term]
 id: GO:0000045
 name: autophagosome assembly
 namespace: biological_process
@@ -74,6 +87,97 @@ is_a: GO:1903047 ! mitotic cell cycle process
 intersection_of: GO:0098813 ! nuclear chromosome segregation
 intersection_of: part_of GO:0140014 ! mitotic nuclear division
 relationship: part_of GO:0140014 ! mitotic nuclear division
+
+[Term]
+id: GO:0000080
+name: mitotic G1 phase
+namespace: biological_process
+def: "The cell cycle 'gap' phase which is the interval between the completion of DNA segregation by mitosis and the beginning of DNA synthesis." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "G1 phase of mitotic cell cycle" EXACT []
+xref: MIPS_funcat:10.03.01.01.01
+is_a: GO:0051318 ! G1 phase
+relationship: part_of GO:0051329 ! mitotic interphase
+
+[Term]
+id: GO:0000084
+name: mitotic S phase
+namespace: biological_process
+def: "The cell cycle phase, following G1, during which DNA synthesis takes place as part of a mitotic cell cycle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "S phase of mitotic cell cycle" EXACT []
+synonym: "S-phase of mitotic cell cycle" EXACT []
+xref: MIPS_funcat:10.03.01.01.05
+is_a: GO:0051320 ! S phase
+relationship: part_of GO:0051329 ! mitotic interphase
+
+[Term]
+id: GO:0000085
+name: mitotic G2 phase
+namespace: biological_process
+def: "The cell cycle 'gap' phase which is the interval between the completion of DNA synthesis and the beginning of DNA segregation by mitosis." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "G2 phase of mitotic cell cycle" EXACT []
+xref: MIPS_funcat:10.03.01.01.07
+is_a: GO:0051319 ! G2 phase
+relationship: part_of GO:0051329 ! mitotic interphase
+
+[Term]
+id: GO:0000087
+name: mitotic M phase
+namespace: biological_process
+def: "A cell cycle phase during which nuclear division occurs, and which is comprises the phases: prophase, metaphase, anaphase and telophase and occurs as part of a mitotic cell cycle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "M phase of mitotic cell cycle" EXACT []
+synonym: "M-phase of mitotic cell cycle" EXACT []
+is_a: GO:0000279 ! M phase
+is_a: GO:0098763 ! mitotic cell cycle phase
+intersection_of: GO:0000279 ! M phase
+intersection_of: happens_during GO:0000278 ! mitotic cell cycle
+
+[Term]
+id: GO:0000088
+name: mitotic prophase
+namespace: biological_process
+def: "The cell cycle phase which is the first stage of M phase of mitosis and during which chromosomes condense and the two daughter centrioles and their asters migrate toward the poles of the cell." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051324 ! prophase
+relationship: part_of GO:0000087 ! mitotic M phase
+
+[Term]
+id: GO:0000089
+name: mitotic metaphase
+namespace: biological_process
+def: "The cell cycle phase, following prophase, during which chromosomes become aligned on the equatorial plate of the cell as part of a mitotic cell cycle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051323 ! metaphase
+relationship: part_of GO:0000087 ! mitotic M phase
+
+[Term]
+id: GO:0000090
+name: mitotic anaphase
+namespace: biological_process
+def: "The cell cycle phase during which chromosomes separate and migrate towards the poles of the spindle the as part of a mitotic cell cycle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051322 ! anaphase
+relationship: part_of GO:0000087 ! mitotic M phase
+
+[Term]
+id: GO:0000093
+name: mitotic telophase
+namespace: biological_process
+def: "The cell cycle phase which follows anaphase during M phase of mitosis and during which the chromosomes arrive at the poles of the cell and the division of the cytoplasm starts." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051326 ! telophase
+relationship: part_of GO:0000087 ! mitotic M phase
 
 [Term]
 id: GO:0000122
@@ -131,6 +235,66 @@ is_a: GO:0007010 ! cytoskeleton organization
 is_a: GO:0007017 ! microtubule-based process
 
 [Term]
+id: GO:0000237
+name: leptotene
+namespace: biological_process
+def: "The cell cycle phase which is the first stage of prophase I in meiosis, and during which the chromosomes first become visible." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Leptotene
+xref: Wikipedia:Meiosis#Leptotene
+is_a: GO:0098764 ! meiosis I cell cycle phase
+relationship: part_of GO:0007128 ! meiotic prophase I
+
+[Term]
+id: GO:0000238
+name: zygotene
+namespace: biological_process
+def: "The cell cycle phase which follows leptotene during prophase I of meiosis, and during which each chromosome pairs with its homolog; the two become aligned and crossing over may occur." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Meiosis#Zygotene
+xref: Wikipedia:Zygotene
+is_a: GO:0098764 ! meiosis I cell cycle phase
+relationship: part_of GO:0007128 ! meiotic prophase I
+
+[Term]
+id: GO:0000239
+name: pachytene
+namespace: biological_process
+def: "The cell cycle phase which follows zygotene during prophase I of meiosis, and during which crossing over occurs between a chromatid in one partner and another chromatid in the homologous chromosome." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Meiosis#Pachytene
+xref: Wikipedia:Pachytene
+is_a: GO:0098764 ! meiosis I cell cycle phase
+relationship: part_of GO:0007128 ! meiotic prophase I
+
+[Term]
+id: GO:0000240
+name: diplotene
+namespace: biological_process
+def: "The cell cycle phase which follows pachytene during prophase I of meiosis, during which the homologous chromosomes begin to separate and the synaptonemal complex dissolves." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Diplotene
+xref: Wikipedia:Meiosis#Diplotene
+is_a: GO:0098764 ! meiosis I cell cycle phase
+relationship: part_of GO:0007128 ! meiotic prophase I
+
+[Term]
+id: GO:0000241
+name: diakinesis
+namespace: biological_process
+def: "The cell cycle phase which follows diplotene during prophase I of meiosis, the separation of homologous chromosomes is complete and crossing over has occurred." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Diakinesis
+xref: Wikipedia:Meiosis#Diakinesis
+is_a: GO:0098764 ! meiosis I cell cycle phase
+relationship: part_of GO:0007128 ! meiotic prophase I
+
+[Term]
 id: GO:0000278
 name: mitotic cell cycle
 namespace: biological_process
@@ -148,6 +312,17 @@ is_a: GO:0007049 ! cell cycle
 intersection_of: GO:0007049 ! cell cycle
 intersection_of: has_part GO:0140014 ! mitotic nuclear division
 relationship: has_part GO:0140014 ! mitotic nuclear division
+
+[Term]
+id: GO:0000279
+name: M phase
+namespace: biological_process
+def: "A cell cycle phase during which nuclear division occurs, and which is comprises the phases: prophase, metaphase, anaphase and telophase." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "M-phase" EXACT []
+xref: Wikipedia:M_phase
+is_a: GO:0022403 ! cell cycle phase
 
 [Term]
 id: GO:0000280
@@ -3322,6 +3497,51 @@ intersection_of: GO:0007051 ! spindle organization
 intersection_of: part_of GO:0000278 ! mitotic cell cycle
 
 [Term]
+id: GO:0007053
+name: spindle assembly involved in male meiosis
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle during a meiotic cell cycle in males. An example of this is found in Drosophila melanogaster." [GOC:mah]
+is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
+is_a: GO:0090306 ! spindle assembly involved in meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007140 ! male meiotic nuclear division
+relationship: part_of GO:0007140 ! male meiotic nuclear division
+
+[Term]
+id: GO:0007055
+name: spindle assembly involved in male meiosis II
+namespace: biological_process
+def: "The formation of the spindle during meiosis II of a meiotic cell cycle in males. An example of this is found in Drosophila melanogaster." [GOC:mah]
+synonym: "male meiosis II spindle assembly" RELATED []
+is_a: GO:0007053 ! spindle assembly involved in male meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007142 ! male meiosis II
+relationship: part_of GO:0007142 ! male meiosis II
+
+[Term]
+id: GO:0007056
+name: spindle assembly involved in female meiosis
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle during a meiotic cell cycle in females. An example of this is found in Drosophila melanogaster." [GOC:mah]
+synonym: "female meiotic spindle assembly" RELATED []
+is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
+is_a: GO:0090306 ! spindle assembly involved in meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007143 ! female meiotic nuclear division
+relationship: part_of GO:0007143 ! female meiotic nuclear division
+
+[Term]
+id: GO:0007058
+name: spindle assembly involved in female meiosis II
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle during meiosis II of a meiotic cell cycle in females. An example of this is found in Drosophila melanogaster." [GOC:mah]
+synonym: "female meiosis II spindle assembly" RELATED []
+is_a: GO:0007056 ! spindle assembly involved in female meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007147 ! female meiosis II
+relationship: part_of GO:0007147 ! female meiosis II
+
+[Term]
 id: GO:0007059
 name: chromosome segregation
 namespace: biological_process
@@ -3362,6 +3582,46 @@ intersection_of: regulates GO:0140014 ! mitotic nuclear division
 relationship: regulates GO:0140014 ! mitotic nuclear division
 
 [Term]
+id: GO:0007128
+name: meiotic prophase I
+namespace: biological_process
+def: "The cell cycle phase which is the first stage of meiosis I and during which chromosomes condense and the two daughter centrioles and their asters migrate toward the poles of the cell." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051324 ! prophase
+is_a: GO:0098764 ! meiosis I cell cycle phase
+
+[Term]
+id: GO:0007132
+name: meiotic metaphase I
+namespace: biological_process
+def: "The cell cycle phase, following prophase I, during which chromosomes become aligned on the equatorial plate of the cell as part of meiosis I." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051323 ! metaphase
+is_a: GO:0098764 ! meiosis I cell cycle phase
+
+[Term]
+id: GO:0007133
+name: meiotic anaphase I
+namespace: biological_process
+def: "The cell cycle phase during which chromosomes separate and migrate towards the poles of the spindle the as part of meiosis I." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051322 ! anaphase
+is_a: GO:0098764 ! meiosis I cell cycle phase
+
+[Term]
+id: GO:0007134
+name: meiotic telophase I
+namespace: biological_process
+def: "The cell cycle phase which follows anaphase I of meiosis and during which the chromosomes arrive at the poles of the cell and the division of the cytoplasm starts." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051326 ! telophase
+is_a: GO:0098764 ! meiosis I cell cycle phase
+
+[Term]
 id: GO:0007135
 name: meiosis II
 namespace: biological_process
@@ -3371,6 +3631,46 @@ xref: MIPS_funcat:10.03.02.03
 xref: Wikipedia:Meiosis#Meiosis_II
 is_a: GO:0061983 ! meiosis II cell cycle process
 is_a: GO:0140013 ! meiotic nuclear division
+
+[Term]
+id: GO:0007136
+name: meiotic prophase II
+namespace: biological_process
+def: "The cell cycle phase which is the first stage of meiosis II and during which chromosomes condense and the two daughter centrioles and their asters migrate toward the poles of the cell." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051324 ! prophase
+is_a: GO:0098765 ! meiosis II cell cycle phase
+
+[Term]
+id: GO:0007137
+name: meiotic metaphase II
+namespace: biological_process
+def: "The cell cycle phase, following prophase II, during which chromosomes become aligned on the equatorial plate of the cell as part of meiosis II." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051323 ! metaphase
+is_a: GO:0098765 ! meiosis II cell cycle phase
+
+[Term]
+id: GO:0007138
+name: meiotic anaphase II
+namespace: biological_process
+def: "The cell cycle phase during which chromosomes separate and migrate towards the poles of the spindle the as part of meiosis II." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051322 ! anaphase
+is_a: GO:0098765 ! meiosis II cell cycle phase
+
+[Term]
+id: GO:0007139
+name: meiotic telophase II
+namespace: biological_process
+def: "The cell cycle phase which follows anaphase II of meiosis and during which the chromosomes arrive at the poles of the cell and the division of the cytoplasm starts." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0051326 ! telophase
+is_a: GO:0098765 ! meiosis II cell cycle phase
 
 [Term]
 id: GO:0007140
@@ -7355,6 +7655,14 @@ intersection_of: part_of GO:0007049 ! cell cycle
 relationship: part_of GO:0007049 ! cell cycle
 
 [Term]
+id: GO:0022403
+name: cell cycle phase
+namespace: biological_process
+def: "One of the distinct periods or stages into which the cell cycle is divided. Each phase is characterized by the occurrence of specific biochemical and morphological events." [GOC:mtg_cell_cycle]
+subset: gocheck_do_not_annotate
+is_a: GO:0044848 ! biological phase
+
+[Term]
 id: GO:0022406
 name: membrane docking
 namespace: biological_process
@@ -9462,6 +9770,29 @@ is_a: GO:0050794 ! regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0007017 ! microtubule-based process
 relationship: regulates GO:0007017 ! microtubule-based process
+
+[Term]
+id: GO:0032887
+name: regulation of spindle elongation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the cell cycle process in which the distance is lengthened between poles of the spindle." [GOC:mah]
+is_a: GO:0051983 ! regulation of chromosome segregation
+is_a: GO:0090224 ! regulation of spindle organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051231 ! spindle elongation
+relationship: regulates GO:0051231 ! spindle elongation
+
+[Term]
+id: GO:0032888
+name: regulation of mitotic spindle elongation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the cell cycle process in which the distance is lengthened between poles of the mitotic spindle." [GOC:mah]
+is_a: GO:0032887 ! regulation of spindle elongation
+is_a: GO:0033047 ! regulation of mitotic sister chromatid segregation
+is_a: GO:0060236 ! regulation of mitotic spindle organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0000022 ! mitotic spindle elongation
+relationship: regulates GO:0000022 ! mitotic spindle elongation
 
 [Term]
 id: GO:0032890
@@ -16075,6 +16406,43 @@ intersection_of: negatively_regulates GO:0015031 ! protein transport
 relationship: negatively_regulates GO:0015031 ! protein transport
 
 [Term]
+id: GO:0051225
+name: spindle assembly
+namespace: biological_process
+alt_id: GO:0051226
+alt_id: GO:0051227
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle, the array of microtubules and associated molecules that serves to move duplicated chromosomes apart." [GOC:ai, GOC:expert_rg, GOC:mtg_sensu, GOC:tb]
+synonym: "bipolar spindle biosynthesis" EXACT []
+synonym: "bipolar spindle formation" EXACT []
+synonym: "spindle biosynthesis" EXACT []
+synonym: "spindle formation" EXACT []
+is_a: GO:0007051 ! spindle organization
+is_a: GO:0070925 ! organelle assembly
+
+[Term]
+id: GO:0051231
+name: spindle elongation
+namespace: biological_process
+def: "The cell cycle process in which the distance is lengthened between poles of the spindle." [GOC:ai]
+is_a: GO:0007017 ! microtubule-based process
+is_a: GO:0022402 ! cell cycle process
+relationship: part_of GO:0007051 ! spindle organization
+relationship: part_of GO:0098813 ! nuclear chromosome segregation
+
+[Term]
+id: GO:0051232
+name: meiotic spindle elongation
+namespace: biological_process
+def: "The lengthening of the distance between poles of the spindle during a meiotic cell cycle." [GOC:ai]
+synonym: "spindle elongation during meiosis" EXACT []
+is_a: GO:0051231 ! spindle elongation
+is_a: GO:1903046 ! meiotic cell cycle process
+intersection_of: GO:0051231 ! spindle elongation
+intersection_of: part_of GO:0051321 ! meiotic cell cycle
+relationship: part_of GO:0000212 ! meiotic spindle organization
+relationship: part_of GO:0045132 ! meiotic chromosome segregation
+
+[Term]
 id: GO:0051234
 name: establishment of localization
 namespace: biological_process
@@ -16358,6 +16726,40 @@ intersection_of: regulates GO:0051301 ! cell division
 relationship: regulates GO:0051301 ! cell division
 
 [Term]
+id: GO:0051318
+name: G1 phase
+namespace: biological_process
+def: "The cell cycle 'gap' phase which is the interval between the completion of DNA segregation (usually by mitosis or meiosis) and the beginning of DNA synthesis." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:G1_phase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0051325 ! interphase
+
+[Term]
+id: GO:0051319
+name: G2 phase
+namespace: biological_process
+def: "The cell cycle 'gap' phase which is the interval between the completion of DNA synthesis and the beginning of DNA segregation (usually by mitosis or meiosis)." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:G2_phase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0051325 ! interphase
+
+[Term]
+id: GO:0051320
+name: S phase
+namespace: biological_process
+def: "The cell cycle phase, following G1, during which DNA synthesis takes place." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "S-phase" EXACT []
+xref: Wikipedia:S_phase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0051325 ! interphase
+
+[Term]
 id: GO:0051321
 name: meiotic cell cycle
 namespace: biological_process
@@ -16372,6 +16774,135 @@ is_a: GO:0022414 ! reproductive process
 intersection_of: GO:0007049 ! cell cycle
 intersection_of: has_part GO:0140013 ! meiotic nuclear division
 relationship: has_part GO:0140013 ! meiotic nuclear division
+
+[Term]
+id: GO:0051322
+name: anaphase
+namespace: biological_process
+def: "The cell cycle phase, following metaphase, during which the chromosomes separate and migrate towards the poles of the spindle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Anaphase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0000279 ! M phase
+
+[Term]
+id: GO:0051323
+name: metaphase
+namespace: biological_process
+def: "The cell cycle phase, following prophase or prometaphase in higher eukaryotes, during which chromosomes become aligned on the equatorial plate of the cell." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Metaphase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0000279 ! M phase
+
+[Term]
+id: GO:0051324
+name: prophase
+namespace: biological_process
+def: "The cell cycle phase which is the first stage of M phase of meiosis and mitosis and during which chromosomes condense and the two daughter centrioles and their asters migrate toward the poles of the cell." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Prophase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0000279 ! M phase
+
+[Term]
+id: GO:0051325
+name: interphase
+namespace: biological_process
+def: "The cell cycle phase following cytokinesis which begins with G1 phase, proceeds through S phase and G2 phase and ends when prophase of meiosis or mitosis begins. During interphase the cell readies itself for meiosis or mitosis and the replication of its DNA occurs." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "karyostasis" EXACT []
+synonym: "resting phase" BROAD []
+xref: Wikipedia:Interphase
+is_a: GO:0022403 ! cell cycle phase
+
+[Term]
+id: GO:0051326
+name: telophase
+namespace: biological_process
+def: "The cell cycle phase which follows anaphase during M phase of mitosis and meiosis and during which the chromosomes arrive at the poles of the cell and the division of the cytoplasm starts." [GOC:mtg_cell_cycle]
+comment: note that this term should not be used for direct annotation. if you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic s-phase). to capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+xref: Wikipedia:Telophase
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0000279 ! M phase
+
+[Term]
+id: GO:0051327
+name: meiotic M phase
+namespace: biological_process
+def: "A cell cycle phase during which nuclear division occurs, and which is comprises the phases: prophase, metaphase, anaphase and telophase and occurs as part of a meiotic cell cycle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "M phase of meiotic cell cycle" EXACT []
+is_a: GO:0000279 ! M phase
+is_a: GO:0098762 ! meiotic cell cycle phase
+intersection_of: GO:0000279 ! M phase
+intersection_of: happens_during GO:0051321 ! meiotic cell cycle
+
+[Term]
+id: GO:0051328
+name: meiotic interphase
+namespace: biological_process
+def: "The cell cycle phase which begins after cytokinesis and ends when meiotic prophase begins. Meiotic cells have an interphase after each meiotic division, but only interphase I involves replication of the cell's DNA." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "interphase of meiotic cell cycle" EXACT []
+is_a: GO:0051325 ! interphase
+is_a: GO:0098762 ! meiotic cell cycle phase
+intersection_of: GO:0051325 ! interphase
+intersection_of: happens_during GO:0051321 ! meiotic cell cycle
+
+[Term]
+id: GO:0051329
+name: mitotic interphase
+namespace: biological_process
+def: "The cell cycle phase following cytokinesis which begins with G1 phase, proceeds through S phase and G2 phase and ends when mitotic prophase begins. During interphase the cell readies itself for mitosis and the replication of its DNA occurs." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "interphase of mitotic cell cycle" EXACT []
+is_a: GO:0051325 ! interphase
+is_a: GO:0098763 ! mitotic cell cycle phase
+intersection_of: GO:0051325 ! interphase
+intersection_of: happens_during GO:0000278 ! mitotic cell cycle
+
+[Term]
+id: GO:0051330
+name: meiotic G1 phase
+namespace: biological_process
+def: "The cell cycle 'gap' phase which is the interval between the completion of DNA segregation by meiosis and the beginning of DNA synthesis." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "G1 phase of meiotic cell cycle" EXACT []
+is_a: GO:0051318 ! G1 phase
+relationship: part_of GO:0051328 ! meiotic interphase
+
+[Term]
+id: GO:0051331
+name: meiotic G2 phase
+namespace: biological_process
+def: "The cell cycle 'gap' phase which is the interval between the completion of DNA synthesis and the beginning of DNA segregation by meiosis." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "G2 phase of meiotic cell cycle" EXACT []
+is_a: GO:0051319 ! G2 phase
+relationship: part_of GO:0051328 ! meiotic interphase
+
+[Term]
+id: GO:0051332
+name: meiotic S phase
+namespace: biological_process
+def: "The cell cycle phase, following G1, during which DNA synthesis takes place as part of a meiotic cell cycle." [GOC:mtg_cell_cycle]
+comment: Note that this term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation is 'regulation of x/y phase transition' or to a process which occurs during the reported phase (i.e mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+synonym: "S phase of meiotic cell cycle" EXACT []
+synonym: "S-phase of meiotic cell cycle" EXACT []
+is_a: GO:0051320 ! S phase
+relationship: part_of GO:0051328 ! meiotic interphase
 
 [Term]
 id: GO:0051336
@@ -18349,6 +18880,24 @@ created_by: dph
 creation_date: 2015-11-09T12:40:29Z
 
 [Term]
+id: GO:0061804
+name: mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "The cell cycle process in which the distance is lengthened between poles of the mitotic spindle during mitotic prophase." [GOC:dph, GOC:vw, PMID:21920317]
+synonym: "mitotic spindle elongation during mitotic prophase" EXACT []
+synonym: "mitotic spindle elongation during prophase" EXACT []
+synonym: "mitotic spindle elongation during prophase and prometaphase" EXACT []
+is_a: GO:0007052 ! mitotic spindle organization
+intersection_of: GO:0007051 ! spindle organization
+intersection_of: happens_during GO:0000088 ! mitotic prophase
+intersection_of: part_of GO:0000278 ! mitotic cell cycle
+relationship: happens_during GO:0000088 ! mitotic prophase
+relationship: part_of GO:0000022 ! mitotic spindle elongation
+relationship: part_of GO:0090307 ! mitotic spindle assembly
+created_by: dph
+creation_date: 2016-11-06T23:08:01Z
+
+[Term]
 id: GO:0061919
 name: process utilizing autophagic mechanism
 namespace: biological_process
@@ -19328,6 +19877,20 @@ created_by: tanyaberardini
 creation_date: 2009-12-08T02:12:19Z
 
 [Term]
+id: GO:0090169
+name: regulation of spindle assembly
+namespace: biological_process
+def: "Any process that modulates the rate, frequency or extent of spindle assembly. Spindle assembly is the aggregation, arrangement and bonding together of a set of components to form the spindle, the array of microtubules and associated molecules that serves to move duplicated chromosomes apart." [GOC:ascb_2009, GOC:dph, GOC:tb]
+synonym: "regulation of spindle formation" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
+is_a: GO:0090224 ! regulation of spindle organization
+is_a: GO:1902115 ! regulation of organelle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051225 ! spindle assembly
+relationship: regulates GO:0051225 ! spindle assembly
+created_by: tanyaberardini
+creation_date: 2009-12-11T10:17:51Z
+
+[Term]
 id: GO:0090224
 name: regulation of spindle organization
 namespace: biological_process
@@ -19449,6 +20012,34 @@ is_a: GO:0006139 ! nucleobase-containing compound metabolic process
 is_a: GO:0043170 ! macromolecule metabolic process
 created_by: tanyaberardini
 creation_date: 2010-04-07T10:18:47Z
+
+[Term]
+id: GO:0090306
+name: spindle assembly involved in meiosis
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle that contributes to the process of meiosis." [GOC:tb, GOC:vw]
+synonym: "meiotic spindle assembly" EXACT [GOC:vw]
+is_a: GO:0000212 ! meiotic spindle organization
+is_a: GO:0051225 ! spindle assembly
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0140013 ! meiotic nuclear division
+relationship: part_of GO:0140013 ! meiotic nuclear division
+created_by: tanyaberardini
+creation_date: 2010-04-09T11:21:56Z
+
+[Term]
+id: GO:0090307
+name: mitotic spindle assembly
+namespace: biological_process
+def: "Mitotic bipolar spindle assembly begins with spindle microtubule nucleation from the separated spindle pole body, includes spindle elongation during prometaphase, and is complete when all kinetochores are stably attached the spindle, and the spindle assembly checkpoint is satisfied." [GOC:tb, GOC:vw]
+synonym: "spindle assembly involved in mitosis" EXACT []
+is_a: GO:0007052 ! mitotic spindle organization
+is_a: GO:0051225 ! spindle assembly
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0140014 ! mitotic nuclear division
+relationship: part_of GO:0140014 ! mitotic nuclear division
+created_by: tanyaberardini
+creation_date: 2010-04-09T11:31:28Z
 
 [Term]
 id: GO:0090316
@@ -20045,6 +20636,48 @@ def: "The clustering together and adhesion of initially separate cells to form a
 is_a: GO:0008150 ! biological_process
 
 [Term]
+id: GO:0098762
+name: meiotic cell cycle phase
+namespace: biological_process
+def: "One of the distinct periods or stages into which the meiotic cell cycle is divided. Each phase is characterized by the occurrence of specific biochemical and morphological events." [GOC:dos]
+comment: This term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation should be to 'regulation of x/y phase transition' or to a process which occurs during the reported phase (e.g. mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0022403 ! cell cycle phase
+intersection_of: GO:0022403 ! cell cycle phase
+intersection_of: happens_during GO:0051321 ! meiotic cell cycle
+relationship: happens_during GO:0051321 ! meiotic cell cycle
+
+[Term]
+id: GO:0098763
+name: mitotic cell cycle phase
+namespace: biological_process
+def: "One of the distinct periods or stages into which the mitotic cell cycle is divided. Each phase is characterized by the occurrence of specific biochemical and morphological events." [GOC:dos]
+comment: This term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation should be to 'regulation of x/y phase transition' or to a process which occurs during the reported phase (e.g. mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0022403 ! cell cycle phase
+intersection_of: GO:0022403 ! cell cycle phase
+intersection_of: happens_during GO:0000278 ! mitotic cell cycle
+relationship: happens_during GO:0000278 ! mitotic cell cycle
+
+[Term]
+id: GO:0098764
+name: meiosis I cell cycle phase
+namespace: biological_process
+def: "A meiotic cell cycle phase prior to a during which some part of meiosis I nuclear division or the proceeding cytokinesis occurs." [GOC:dos]
+comment: This term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation should be to 'regulation of x/y phase transition' or to a process which occurs during the reported phase (e.g. mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0098762 ! meiotic cell cycle phase
+
+[Term]
+id: GO:0098765
+name: meiosis II cell cycle phase
+namespace: biological_process
+def: "A meiotic cell cycle phase that occurs after meiosis I (the first meiotic nuclear division)." [GOC:dos]
+comment: This term should not be used for direct annotation. If you are trying to make an annotation to x phase, it is likely that the correct annotation should be to 'regulation of x/y phase transition' or to a process which occurs during the reported phase (e.g. mitotic DNA replication for mitotic S-phase). To capture the phase when a specific location or process is observed, the phase term can be used in an annotation extension (PMID:24885854) applied to a cellular component term (with the relation exists_during) or a biological process term (with the relation happens_during).
+subset: gocheck_do_not_annotate
+is_a: GO:0098762 ! meiotic cell cycle phase
+
+[Term]
 id: GO:0098771
 name: inorganic ion homeostasis
 namespace: biological_process
@@ -20517,6 +21150,47 @@ intersection_of: negatively_regulates GO:0009887 ! animal organ morphogenesis
 relationship: negatively_regulates GO:0009887 ! animal organ morphogenesis
 created_by: kmv
 creation_date: 2018-07-05T14:25:21Z
+
+[Term]
+id: GO:0110159
+name: regulation of mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of mitotic spindle formation (spindle phase one)." [GOC:vw]
+is_a: GO:0032888 ! regulation of mitotic spindle elongation
+is_a: GO:1901673 ! regulation of mitotic spindle assembly
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+relationship: regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+created_by: kmv
+creation_date: 2019-08-12T15:10:26Z
+
+[Term]
+id: GO:0110160
+name: negative regulation of mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of mitotic spindle formation (spindle phase one)." [GOC:vw]
+is_a: GO:0110159 ! regulation of mitotic spindle formation (spindle phase one)
+is_a: GO:1902845 ! negative regulation of mitotic spindle elongation
+is_a: GO:1905831 ! negative regulation of spindle assembly
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: negatively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+relationship: negatively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+created_by: kmv
+creation_date: 2019-08-12T15:18:32Z
+
+[Term]
+id: GO:0110161
+name: positive regulation of mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of mitotic spindle formation (spindle phase one)." [GOC:vw]
+is_a: GO:0110159 ! regulation of mitotic spindle formation (spindle phase one)
+is_a: GO:1902846 ! positive regulation of mitotic spindle elongation
+is_a: GO:1905832 ! positive regulation of spindle assembly
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+relationship: positively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+created_by: kmv
+creation_date: 2019-08-12T15:21:08Z
 
 [Term]
 id: GO:0110165
@@ -21900,6 +22574,21 @@ created_by: pr
 creation_date: 2012-11-20T14:24:19Z
 
 [Term]
+id: GO:1901673
+name: regulation of mitotic spindle assembly
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of mitotic spindle assembly." [GOC:TermGenie]
+synonym: "regulation of spindle assembly involved in mitosis" EXACT []
+is_a: GO:0007088 ! regulation of mitotic nuclear division
+is_a: GO:0060236 ! regulation of mitotic spindle organization
+is_a: GO:0090169 ! regulation of spindle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0090307 ! mitotic spindle assembly
+relationship: regulates GO:0090307 ! mitotic spindle assembly
+created_by: al
+creation_date: 2012-11-22T09:50:00Z
+
+[Term]
 id: GO:1901698
 name: response to nitrogen compound
 namespace: biological_process
@@ -22237,6 +22926,44 @@ intersection_of: positively_regulates GO:0070925 ! organelle assembly
 relationship: positively_regulates GO:0070925 ! organelle assembly
 created_by: pr
 creation_date: 2013-05-14T09:43:36Z
+
+[Term]
+id: GO:1902119
+name: regulation of meiotic spindle elongation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of meiotic spindle elongation." [GOC:TermGenie, PMID:23370392]
+synonym: "regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+is_a: GO:0032887 ! regulation of spindle elongation
+is_a: GO:0040020 ! regulation of meiotic nuclear division
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051232 ! meiotic spindle elongation
+relationship: regulates GO:0051232 ! meiotic spindle elongation
+created_by: al
+creation_date: 2013-05-15T15:15:48Z
+
+[Term]
+id: GO:1902120
+name: negative regulation of meiotic spindle elongation
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of meiotic spindle elongation." [GOC:TermGenie, PMID:23370392]
+synonym: "down regulation of meiotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of meiotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "downregulation of meiotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "inhibition of meiotic spindle elongation" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "negative regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+is_a: GO:0045835 ! negative regulation of meiotic nuclear division
+is_a: GO:0051494 ! negative regulation of cytoskeleton organization
+is_a: GO:0051985 ! negative regulation of chromosome segregation
+is_a: GO:1902119 ! regulation of meiotic spindle elongation
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0051232 ! meiotic spindle elongation
+relationship: negatively_regulates GO:0051232 ! meiotic spindle elongation
+created_by: al
+creation_date: 2013-05-15T15:15:53Z
 
 [Term]
 id: GO:1902262
@@ -22742,6 +23469,52 @@ intersection_of: part_of GO:0048856 ! anatomical structure development
 relationship: part_of GO:0048856 ! anatomical structure development
 created_by: pr
 creation_date: 2014-02-28T13:09:43Z
+
+[Term]
+id: GO:1902845
+name: negative regulation of mitotic spindle elongation
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of mitotic spindle elongation." [GO_REF:0000058, GOC:TermGenie, PMID:23087209]
+synonym: "down regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "downregulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "inhibition of mitotic spindle elongation" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle elongation during mitosis" NARROW [GOC:TermGenie]
+synonym: "negative regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+is_a: GO:0032888 ! regulation of mitotic spindle elongation
+is_a: GO:0033048 ! negative regulation of mitotic sister chromatid segregation
+is_a: GO:0051494 ! negative regulation of cytoskeleton organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0000022 ! mitotic spindle elongation
+relationship: negatively_regulates GO:0000022 ! mitotic spindle elongation
+created_by: vw
+creation_date: 2014-04-02T08:43:28Z
+
+[Term]
+id: GO:1902846
+name: positive regulation of mitotic spindle elongation
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of mitotic spindle elongation." [GO_REF:0000058, GOC:TermGenie, PMID:23087209]
+synonym: "activation of mitotic spindle elongation" NARROW [GOC:TermGenie]
+synonym: "activation of spindle elongation during mitosis" NARROW [GOC:TermGenie]
+synonym: "positive regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "up regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "up-regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "upregulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+is_a: GO:0032888 ! regulation of mitotic spindle elongation
+is_a: GO:0062033 ! positive regulation of mitotic sister chromatid segregation
+is_a: GO:0110028 ! positive regulation of mitotic spindle organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0000022 ! mitotic spindle elongation
+relationship: positively_regulates GO:0000022 ! mitotic spindle elongation
+created_by: vw
+creation_date: 2014-04-02T08:43:34Z
 
 [Term]
 id: GO:1902850
@@ -25178,6 +25951,84 @@ created_by: bmeldal
 creation_date: 2017-01-13T14:13:44Z
 
 [Term]
+id: GO:1905831
+name: negative regulation of spindle assembly
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of spindle assembly." [GO_REF:0000058, GOC:TermGenie, PMID:27689799]
+synonym: "down regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "downregulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "downregulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "inhibition of bipolar spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "inhibition of bipolar spindle formation" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle assembly" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle formation" NARROW [GOC:TermGenie]
+synonym: "negative regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "negative regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "negative regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "negative regulation of spindle formation" EXACT [GOC:TermGenie]
+is_a: GO:0010948 ! negative regulation of cell cycle process
+is_a: GO:0051494 ! negative regulation of cytoskeleton organization
+is_a: GO:0090169 ! regulation of spindle assembly
+is_a: GO:1902116 ! negative regulation of organelle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0051225 ! spindle assembly
+relationship: negatively_regulates GO:0051225 ! spindle assembly
+created_by: hbye
+creation_date: 2017-01-17T10:26:37Z
+
+[Term]
+id: GO:1905832
+name: positive regulation of spindle assembly
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of spindle assembly." [GO_REF:0000058, GOC:TermGenie, PMID:27689799]
+synonym: "activation of bipolar spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "activation of bipolar spindle formation" NARROW [GOC:TermGenie]
+synonym: "activation of spindle assembly" NARROW [GOC:TermGenie]
+synonym: "activation of spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "activation of spindle formation" NARROW [GOC:TermGenie]
+synonym: "positive regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "positive regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "positive regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "positive regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "up regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "up-regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up-regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "upregulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "upregulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle formation" EXACT [GOC:TermGenie]
+is_a: GO:0051495 ! positive regulation of cytoskeleton organization
+is_a: GO:0090068 ! positive regulation of cell cycle process
+is_a: GO:0090169 ! regulation of spindle assembly
+is_a: GO:1902117 ! positive regulation of organelle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0051225 ! spindle assembly
+relationship: positively_regulates GO:0051225 ! spindle assembly
+created_by: hbye
+creation_date: 2017-01-17T10:26:46Z
+
+[Term]
 id: GO:1905843
 name: regulation of cellular response to gamma radiation
 namespace: biological_process
@@ -26258,6 +27109,20 @@ created_by: yaf
 creation_date: 2011-12-02T02:01:26Z
 
 [Typedef]
+id: ends_during
+name: ends_during
+namespace: external
+xref: RO:0002093
+
+[Typedef]
+id: happens_during
+name: happens during
+namespace: external
+xref: RO:0002092
+is_transitive: true
+is_a: ends_during ! ends_during
+
+[Typedef]
 id: has_part
 name: has part
 namespace: external
@@ -26309,4 +27174,10 @@ name: regulates
 namespace: external
 xref: RO:0002211
 is_transitive: true
+
+[Typedef]
+id: starts_during
+name: starts_during
+namespace: external
+xref: RO:0002091
 
