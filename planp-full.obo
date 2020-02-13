@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-24/planp-full.owl
+data-version: planp/releases/2020-02-13/planp-full.owl
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -790,6 +790,8 @@ is_a: BFO:0000004 ! independent continuant
 id: CL:0000000
 name: cell
 is_a: CARO:0000003 ! anatomical structure
+relationship: has_part GO:0005634 {gci_filler="PATO:0001407", gci_relation="bearer_of"} ! nucleus
+relationship: has_part GO:0005634 {gci_filler="PATO:0001908", gci_relation="bearer_of"} ! nucleus
 relationship: RO:0002207 CL:0000000 ! directly develops from cell
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
 
@@ -828,6 +830,19 @@ synonym: "reproductive physiological process" EXACT []
 xref: Wikipedia:Reproduction
 is_a: GO:0008150 ! biological_process
 disjoint_from: GO:0044848 ! biological phase
+
+[Term]
+id: GO:0000022
+name: mitotic spindle elongation
+namespace: biological_process
+def: "The cell cycle process in which the distance is lengthened between poles of the mitotic spindle. Mitotic spindle elongation begins during mitotic prophase and ends during mitotic anaphase B." [GOC:mtg_cell_cycle, GOC:vw]
+synonym: "spindle elongation during mitosis" EXACT []
+is_a: GO:0051231 ! spindle elongation
+is_a: GO:1903047 ! mitotic cell cycle process
+intersection_of: GO:0051231 ! spindle elongation
+intersection_of: part_of GO:0000278 ! mitotic cell cycle
+relationship: part_of GO:0000070 ! mitotic sister chromatid segregation
+relationship: part_of GO:0007052 ! mitotic spindle organization
 
 [Term]
 id: GO:0000045
@@ -4272,6 +4287,51 @@ is_a: GO:0007051 ! spindle organization
 is_a: GO:1902850 ! microtubule cytoskeleton organization involved in mitosis
 intersection_of: GO:0007051 ! spindle organization
 intersection_of: part_of GO:0000278 ! mitotic cell cycle
+
+[Term]
+id: GO:0007053
+name: spindle assembly involved in male meiosis
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle during a meiotic cell cycle in males. An example of this is found in Drosophila melanogaster." [GOC:mah]
+is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
+is_a: GO:0090306 ! spindle assembly involved in meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007140 ! male meiotic nuclear division
+relationship: part_of GO:0007140 ! male meiotic nuclear division
+
+[Term]
+id: GO:0007055
+name: spindle assembly involved in male meiosis II
+namespace: biological_process
+def: "The formation of the spindle during meiosis II of a meiotic cell cycle in males. An example of this is found in Drosophila melanogaster." [GOC:mah]
+synonym: "male meiosis II spindle assembly" RELATED []
+is_a: GO:0007053 ! spindle assembly involved in male meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007142 ! male meiosis II
+relationship: part_of GO:0007142 ! male meiosis II
+
+[Term]
+id: GO:0007056
+name: spindle assembly involved in female meiosis
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle during a meiotic cell cycle in females. An example of this is found in Drosophila melanogaster." [GOC:mah]
+synonym: "female meiotic spindle assembly" RELATED []
+is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
+is_a: GO:0090306 ! spindle assembly involved in meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007143 ! female meiotic nuclear division
+relationship: part_of GO:0007143 ! female meiotic nuclear division
+
+[Term]
+id: GO:0007058
+name: spindle assembly involved in female meiosis II
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle during meiosis II of a meiotic cell cycle in females. An example of this is found in Drosophila melanogaster." [GOC:mah]
+synonym: "female meiosis II spindle assembly" RELATED []
+is_a: GO:0007056 ! spindle assembly involved in female meiosis
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0007147 ! female meiosis II
+relationship: part_of GO:0007147 ! female meiosis II
 
 [Term]
 id: GO:0007059
@@ -10508,6 +10568,29 @@ is_a: GO:0050794 ! regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0007017 ! microtubule-based process
 relationship: regulates GO:0007017 ! microtubule-based process
+
+[Term]
+id: GO:0032887
+name: regulation of spindle elongation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the cell cycle process in which the distance is lengthened between poles of the spindle." [GOC:mah]
+is_a: GO:0051983 ! regulation of chromosome segregation
+is_a: GO:0090224 ! regulation of spindle organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051231 ! spindle elongation
+relationship: regulates GO:0051231 ! spindle elongation
+
+[Term]
+id: GO:0032888
+name: regulation of mitotic spindle elongation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the cell cycle process in which the distance is lengthened between poles of the mitotic spindle." [GOC:mah]
+is_a: GO:0032887 ! regulation of spindle elongation
+is_a: GO:0033047 ! regulation of mitotic sister chromatid segregation
+is_a: GO:0060236 ! regulation of mitotic spindle organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0000022 ! mitotic spindle elongation
+relationship: regulates GO:0000022 ! mitotic spindle elongation
 
 [Term]
 id: GO:0032890
@@ -17137,6 +17220,43 @@ intersection_of: negatively_regulates GO:0015031 ! protein transport
 relationship: negatively_regulates GO:0015031 ! protein transport
 
 [Term]
+id: GO:0051225
+name: spindle assembly
+namespace: biological_process
+alt_id: GO:0051226
+alt_id: GO:0051227
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle, the array of microtubules and associated molecules that serves to move duplicated chromosomes apart." [GOC:ai, GOC:expert_rg, GOC:mtg_sensu, GOC:tb]
+synonym: "bipolar spindle biosynthesis" EXACT []
+synonym: "bipolar spindle formation" EXACT []
+synonym: "spindle biosynthesis" EXACT []
+synonym: "spindle formation" EXACT []
+is_a: GO:0007051 ! spindle organization
+is_a: GO:0070925 ! organelle assembly
+
+[Term]
+id: GO:0051231
+name: spindle elongation
+namespace: biological_process
+def: "The cell cycle process in which the distance is lengthened between poles of the spindle." [GOC:ai]
+is_a: GO:0007017 ! microtubule-based process
+is_a: GO:0022402 ! cell cycle process
+relationship: part_of GO:0007051 ! spindle organization
+relationship: part_of GO:0098813 ! nuclear chromosome segregation
+
+[Term]
+id: GO:0051232
+name: meiotic spindle elongation
+namespace: biological_process
+def: "The lengthening of the distance between poles of the spindle during a meiotic cell cycle." [GOC:ai]
+synonym: "spindle elongation during meiosis" EXACT []
+is_a: GO:0051231 ! spindle elongation
+is_a: GO:1903046 ! meiotic cell cycle process
+intersection_of: GO:0051231 ! spindle elongation
+intersection_of: part_of GO:0051321 ! meiotic cell cycle
+relationship: part_of GO:0000212 ! meiotic spindle organization
+relationship: part_of GO:0045132 ! meiotic chromosome segregation
+
+[Term]
 id: GO:0051234
 name: establishment of localization
 namespace: biological_process
@@ -17478,6 +17598,7 @@ comment: Note that this term should not be used for direct annotation. If you ar
 subset: gocheck_do_not_annotate
 xref: Wikipedia:Anaphase
 is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0000279 ! M phase
 
 [Term]
 id: GO:0051323
@@ -19573,6 +19694,24 @@ created_by: dph
 creation_date: 2015-11-09T12:40:29Z
 
 [Term]
+id: GO:0061804
+name: mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "The cell cycle process in which the distance is lengthened between poles of the mitotic spindle during mitotic prophase." [GOC:dph, GOC:vw, PMID:21920317]
+synonym: "mitotic spindle elongation during mitotic prophase" EXACT []
+synonym: "mitotic spindle elongation during prophase" EXACT []
+synonym: "mitotic spindle elongation during prophase and prometaphase" EXACT []
+is_a: GO:0007052 ! mitotic spindle organization
+intersection_of: GO:0007051 ! spindle organization
+intersection_of: happens_during GO:0000088 ! mitotic prophase
+intersection_of: part_of GO:0000278 ! mitotic cell cycle
+relationship: happens_during GO:0000088 ! mitotic prophase
+relationship: part_of GO:0000022 ! mitotic spindle elongation
+relationship: part_of GO:0090307 ! mitotic spindle assembly
+created_by: dph
+creation_date: 2016-11-06T23:08:01Z
+
+[Term]
 id: GO:0061919
 name: process utilizing autophagic mechanism
 namespace: biological_process
@@ -20552,6 +20691,20 @@ created_by: tanyaberardini
 creation_date: 2009-12-08T02:12:19Z
 
 [Term]
+id: GO:0090169
+name: regulation of spindle assembly
+namespace: biological_process
+def: "Any process that modulates the rate, frequency or extent of spindle assembly. Spindle assembly is the aggregation, arrangement and bonding together of a set of components to form the spindle, the array of microtubules and associated molecules that serves to move duplicated chromosomes apart." [GOC:ascb_2009, GOC:dph, GOC:tb]
+synonym: "regulation of spindle formation" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
+is_a: GO:0090224 ! regulation of spindle organization
+is_a: GO:1902115 ! regulation of organelle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051225 ! spindle assembly
+relationship: regulates GO:0051225 ! spindle assembly
+created_by: tanyaberardini
+creation_date: 2009-12-11T10:17:51Z
+
+[Term]
 id: GO:0090224
 name: regulation of spindle organization
 namespace: biological_process
@@ -20673,6 +20826,34 @@ is_a: GO:0006139 ! nucleobase-containing compound metabolic process
 is_a: GO:0043170 ! macromolecule metabolic process
 created_by: tanyaberardini
 creation_date: 2010-04-07T10:18:47Z
+
+[Term]
+id: GO:0090306
+name: spindle assembly involved in meiosis
+namespace: biological_process
+def: "The aggregation, arrangement and bonding together of a set of components to form the spindle that contributes to the process of meiosis." [GOC:tb, GOC:vw]
+synonym: "meiotic spindle assembly" EXACT [GOC:vw]
+is_a: GO:0000212 ! meiotic spindle organization
+is_a: GO:0051225 ! spindle assembly
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0140013 ! meiotic nuclear division
+relationship: part_of GO:0140013 ! meiotic nuclear division
+created_by: tanyaberardini
+creation_date: 2010-04-09T11:21:56Z
+
+[Term]
+id: GO:0090307
+name: mitotic spindle assembly
+namespace: biological_process
+def: "Mitotic bipolar spindle assembly begins with spindle microtubule nucleation from the separated spindle pole body, includes spindle elongation during prometaphase, and is complete when all kinetochores are stably attached the spindle, and the spindle assembly checkpoint is satisfied." [GOC:tb, GOC:vw]
+synonym: "spindle assembly involved in mitosis" EXACT []
+is_a: GO:0007052 ! mitotic spindle organization
+is_a: GO:0051225 ! spindle assembly
+intersection_of: GO:0051225 ! spindle assembly
+intersection_of: part_of GO:0140014 ! mitotic nuclear division
+relationship: part_of GO:0140014 ! mitotic nuclear division
+created_by: tanyaberardini
+creation_date: 2010-04-09T11:31:28Z
 
 [Term]
 id: GO:0090316
@@ -21782,6 +21963,47 @@ intersection_of: negatively_regulates GO:0009887 ! animal organ morphogenesis
 relationship: negatively_regulates GO:0009887 ! animal organ morphogenesis
 created_by: kmv
 creation_date: 2018-07-05T14:25:21Z
+
+[Term]
+id: GO:0110159
+name: regulation of mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of mitotic spindle formation (spindle phase one)." [GOC:vw]
+is_a: GO:0032888 ! regulation of mitotic spindle elongation
+is_a: GO:1901673 ! regulation of mitotic spindle assembly
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+relationship: regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+created_by: kmv
+creation_date: 2019-08-12T15:10:26Z
+
+[Term]
+id: GO:0110160
+name: negative regulation of mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of mitotic spindle formation (spindle phase one)." [GOC:vw]
+is_a: GO:0110159 ! regulation of mitotic spindle formation (spindle phase one)
+is_a: GO:1902845 ! negative regulation of mitotic spindle elongation
+is_a: GO:1905831 ! negative regulation of spindle assembly
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: negatively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+relationship: negatively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+created_by: kmv
+creation_date: 2019-08-12T15:18:32Z
+
+[Term]
+id: GO:0110161
+name: positive regulation of mitotic spindle formation (spindle phase one)
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of mitotic spindle formation (spindle phase one)." [GOC:vw]
+is_a: GO:0110159 ! regulation of mitotic spindle formation (spindle phase one)
+is_a: GO:1902846 ! positive regulation of mitotic spindle elongation
+is_a: GO:1905832 ! positive regulation of spindle assembly
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+relationship: positively_regulates GO:0061804 ! mitotic spindle formation (spindle phase one)
+created_by: kmv
+creation_date: 2019-08-12T15:21:08Z
 
 [Term]
 id: GO:0110165
@@ -23166,6 +23388,21 @@ created_by: pr
 creation_date: 2012-11-20T14:24:19Z
 
 [Term]
+id: GO:1901673
+name: regulation of mitotic spindle assembly
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of mitotic spindle assembly." [GOC:TermGenie]
+synonym: "regulation of spindle assembly involved in mitosis" EXACT []
+is_a: GO:0007088 ! regulation of mitotic nuclear division
+is_a: GO:0060236 ! regulation of mitotic spindle organization
+is_a: GO:0090169 ! regulation of spindle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0090307 ! mitotic spindle assembly
+relationship: regulates GO:0090307 ! mitotic spindle assembly
+created_by: al
+creation_date: 2012-11-22T09:50:00Z
+
+[Term]
 id: GO:1901698
 name: response to nitrogen compound
 namespace: biological_process
@@ -23503,6 +23740,44 @@ intersection_of: positively_regulates GO:0070925 ! organelle assembly
 relationship: positively_regulates GO:0070925 ! organelle assembly
 created_by: pr
 creation_date: 2013-05-14T09:43:36Z
+
+[Term]
+id: GO:1902119
+name: regulation of meiotic spindle elongation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of meiotic spindle elongation." [GOC:TermGenie, PMID:23370392]
+synonym: "regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+is_a: GO:0032887 ! regulation of spindle elongation
+is_a: GO:0040020 ! regulation of meiotic nuclear division
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051232 ! meiotic spindle elongation
+relationship: regulates GO:0051232 ! meiotic spindle elongation
+created_by: al
+creation_date: 2013-05-15T15:15:48Z
+
+[Term]
+id: GO:1902120
+name: negative regulation of meiotic spindle elongation
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of meiotic spindle elongation." [GOC:TermGenie, PMID:23370392]
+synonym: "down regulation of meiotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of meiotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "downregulation of meiotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "inhibition of meiotic spindle elongation" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+synonym: "negative regulation of spindle elongation during meiosis" EXACT [GOC:TermGenie]
+is_a: GO:0045835 ! negative regulation of meiotic nuclear division
+is_a: GO:0051494 ! negative regulation of cytoskeleton organization
+is_a: GO:0051985 ! negative regulation of chromosome segregation
+is_a: GO:1902119 ! regulation of meiotic spindle elongation
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0051232 ! meiotic spindle elongation
+relationship: negatively_regulates GO:0051232 ! meiotic spindle elongation
+created_by: al
+creation_date: 2013-05-15T15:15:53Z
 
 [Term]
 id: GO:1902262
@@ -24008,6 +24283,52 @@ intersection_of: part_of GO:0048856 ! anatomical structure development
 relationship: part_of GO:0048856 ! anatomical structure development
 created_by: pr
 creation_date: 2014-02-28T13:09:43Z
+
+[Term]
+id: GO:1902845
+name: negative regulation of mitotic spindle elongation
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of mitotic spindle elongation." [GO_REF:0000058, GOC:TermGenie, PMID:23087209]
+synonym: "down regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "downregulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "inhibition of mitotic spindle elongation" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle elongation during mitosis" NARROW [GOC:TermGenie]
+synonym: "negative regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+is_a: GO:0032888 ! regulation of mitotic spindle elongation
+is_a: GO:0033048 ! negative regulation of mitotic sister chromatid segregation
+is_a: GO:0051494 ! negative regulation of cytoskeleton organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0000022 ! mitotic spindle elongation
+relationship: negatively_regulates GO:0000022 ! mitotic spindle elongation
+created_by: vw
+creation_date: 2014-04-02T08:43:28Z
+
+[Term]
+id: GO:1902846
+name: positive regulation of mitotic spindle elongation
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of mitotic spindle elongation." [GO_REF:0000058, GOC:TermGenie, PMID:23087209]
+synonym: "activation of mitotic spindle elongation" NARROW [GOC:TermGenie]
+synonym: "activation of spindle elongation during mitosis" NARROW [GOC:TermGenie]
+synonym: "positive regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "up regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "up-regulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+synonym: "upregulation of mitotic spindle elongation" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle elongation during mitosis" EXACT [GOC:TermGenie]
+is_a: GO:0032888 ! regulation of mitotic spindle elongation
+is_a: GO:0062033 ! positive regulation of mitotic sister chromatid segregation
+is_a: GO:0110028 ! positive regulation of mitotic spindle organization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0000022 ! mitotic spindle elongation
+relationship: positively_regulates GO:0000022 ! mitotic spindle elongation
+created_by: vw
+creation_date: 2014-04-02T08:43:34Z
 
 [Term]
 id: GO:1902850
@@ -26444,6 +26765,84 @@ created_by: bmeldal
 creation_date: 2017-01-13T14:13:44Z
 
 [Term]
+id: GO:1905831
+name: negative regulation of spindle assembly
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of spindle assembly." [GO_REF:0000058, GOC:TermGenie, PMID:27689799]
+synonym: "down regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "down-regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "downregulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "downregulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "downregulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "inhibition of bipolar spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "inhibition of bipolar spindle formation" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle assembly" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "inhibition of spindle formation" NARROW [GOC:TermGenie]
+synonym: "negative regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "negative regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "negative regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "negative regulation of spindle formation" EXACT [GOC:TermGenie]
+is_a: GO:0010948 ! negative regulation of cell cycle process
+is_a: GO:0051494 ! negative regulation of cytoskeleton organization
+is_a: GO:0090169 ! regulation of spindle assembly
+is_a: GO:1902116 ! negative regulation of organelle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0051225 ! spindle assembly
+relationship: negatively_regulates GO:0051225 ! spindle assembly
+created_by: hbye
+creation_date: 2017-01-17T10:26:37Z
+
+[Term]
+id: GO:1905832
+name: positive regulation of spindle assembly
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of spindle assembly." [GO_REF:0000058, GOC:TermGenie, PMID:27689799]
+synonym: "activation of bipolar spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "activation of bipolar spindle formation" NARROW [GOC:TermGenie]
+synonym: "activation of spindle assembly" NARROW [GOC:TermGenie]
+synonym: "activation of spindle biosynthesis" NARROW [GOC:TermGenie]
+synonym: "activation of spindle formation" NARROW [GOC:TermGenie]
+synonym: "positive regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "positive regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "positive regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "positive regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "up regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "up-regulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up-regulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "up-regulation of spindle formation" EXACT [GOC:TermGenie]
+synonym: "upregulation of bipolar spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "upregulation of bipolar spindle formation" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle assembly" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle biosynthesis" EXACT [GOC:TermGenie]
+synonym: "upregulation of spindle formation" EXACT [GOC:TermGenie]
+is_a: GO:0051495 ! positive regulation of cytoskeleton organization
+is_a: GO:0090068 ! positive regulation of cell cycle process
+is_a: GO:0090169 ! regulation of spindle assembly
+is_a: GO:1902117 ! positive regulation of organelle assembly
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0051225 ! spindle assembly
+relationship: positively_regulates GO:0051225 ! spindle assembly
+created_by: hbye
+creation_date: 2017-01-17T10:26:46Z
+
+[Term]
 id: GO:1905843
 name: regulation of cellular response to gamma radiation
 namespace: biological_process
@@ -27593,6 +27992,17 @@ is_a: BFO:0000020 ! specifically dependent continuant
 property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Term]
+id: PATO:0000004
+name: mobility
+namespace: quality
+def: "A quality of inhering in a bearer by virtue of the bearer's disposition to move freely." [PATOC:GVG]
+comment: Should be defined using translocation.
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0000014
 name: color
 namespace: quality
@@ -27603,6 +28013,21 @@ synonym: "colour" EXACT []
 synonym: "relative color" EXACT []
 is_a: PATO:0000051 ! morphology
 is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000025
+name: composition
+namespace: quality
+alt_id: PATO:0002015
+def: "A single physical entity inhering in an bearer by virtue of the bearer's quantities or relative ratios of subparts." [PATOC:GVG]
+comment: For example calcium composition (which may inhere in bone), haemoglobin composition (which may inhere in blood).
+subset: attribute_slim
+subset: scalar_slim
+synonym: "composed of" EXACT []
+synonym: "compositionality" EXACT []
+synonym: "content" EXACT []
+synonym: "structure, composition" EXACT []
+is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0000033
@@ -27783,6 +28208,28 @@ subset: disposition_slim
 is_a: PATO:0001995 ! organismal quality
 
 [Term]
+id: PATO:0000299
+name: mobile
+namespace: quality
+def: "A mobility quality of inhering in a bearer by virtue of the bearer's disposition to move freely." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0000004 ! mobility
+disjoint_from: PATO:0000300 ! immobile
+relationship: is_opposite_of PATO:0000300 ! immobile
+
+[Term]
+id: PATO:0000300
+name: immobile
+namespace: quality
+def: "A mobility quality inhering in a bearer by virtue of the bearer's being incapable to move freely." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "fixed" RELATED []
+is_a: PATO:0000004 ! mobility
+relationship: is_opposite_of PATO:0000299 ! mobile
+
+[Term]
 id: PATO:0000374
 name: increased distance
 namespace: quality
@@ -27837,6 +28284,17 @@ subset: cell_quality
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0000406
+name: curved
+namespace: quality
+def: "A curvature quality inhering in a bearer by virtue of the bearer's having or being marked by a curve or smoothly rounded bend." [WordNet:WordNet]
+subset: cell_quality
+subset: value_slim
+synonym: "bowing" NARROW []
+synonym: "curled" RELATED []
+is_a: PATO:0001591 ! curvature
 
 [Term]
 id: PATO:0000411
@@ -27982,6 +28440,29 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000582 ! increased weight
 
 [Term]
+id: PATO:0000584
+name: hypertrophic
+namespace: quality
+def: "An increased size quality inhering in a bearer by virtue of the bearer's exhibiting enlargement of a cell or constituent group of cells (for example, organ)." [PATOC:MAH]
+subset: mpath_slim
+subset: value_slim
+synonym: "hypertrophy" NARROW []
+is_a: PATO:0000595 ! increased volume
+relationship: is_opposite_of PATO:0000585 ! hypotrophic
+
+[Term]
+id: PATO:0000585
+name: hypotrophic
+namespace: quality
+alt_id: PATO:0000412
+def: "A decreased size quality inhering in a bearer by virtue of the bearer's exhibiting reduced size of a cell or constituent group of cells (for example, organ)." [PATOC:MAH]
+subset: mpath_slim
+subset: value_slim
+synonym: "shrunken" EXACT []
+is_a: PATO:0000596 ! decreased volume
+relationship: is_opposite_of PATO:0000584 ! hypertrophic
+
+[Term]
 id: PATO:0000586
 name: increased size
 namespace: quality
@@ -28017,6 +28498,36 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000586 ! increased size
 
 [Term]
+id: PATO:0000595
+name: increased volume
+namespace: quality
+def: "A volume which is relatively high." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "high volume" EXACT []
+synonym: "large volume" RELATED []
+is_a: PATO:0000586 ! increased size
+is_a: PATO:0000918 ! volume
+intersection_of: PATO:0000918 ! volume
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000596 ! decreased volume
+
+[Term]
+id: PATO:0000596
+name: decreased volume
+namespace: quality
+def: "A volume which is relatively low." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "low volume" EXACT []
+synonym: "small volume" RELATED []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0000918 ! volume
+intersection_of: PATO:0000918 ! volume
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000595 ! increased volume
+
+[Term]
 id: PATO:0000599
 name: decreased width
 namespace: quality
@@ -28043,6 +28554,46 @@ is_a: PATO:0000921 ! width
 intersection_of: PATO:0000921 ! width
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000599 ! decreased width
+
+[Term]
+id: PATO:0000639
+name: degenerate
+namespace: quality
+def: "A structural quality inhering in a bearer whose structure deteriorates or is lost over time due to an active pathological process." [PATOC:mb, PATOC:PortlandMeetingFeb2015]
+subset: mpath_slim
+subset: value_slim
+synonym: "degeneration" NARROW []
+is_a: PATO:0002037 ! degeneration
+disjoint_from: PATO:0002038 ! non-degenerate
+relationship: has_part PATO:0000585 ! hypotrophic
+relationship: is_opposite_of PATO:0002038 ! non-degenerate
+
+[Term]
+id: PATO:0000644
+name: hyperplastic
+namespace: quality
+alt_id: PATO:0000943
+def: "A increased size quality inhering in an organ or tissue by virtue of the bearer's exhibiting increased number of cells." [Wikipedia:http\://en.wikipedia.org/wiki/Hyperplastic]
+subset: mpath_slim
+subset: value_slim
+synonym: "hyperplasia" EXACT []
+synonym: "overdeveloped" RELATED []
+is_a: PATO:0000586 ! increased size
+relationship: is_opposite_of PATO:0000645 ! hypoplastic
+
+[Term]
+id: PATO:0000645
+name: hypoplastic
+namespace: quality
+alt_id: PATO:0000942
+def: "A decreased size quality inhering in a bearer by virtue of the bearer's exhibiting reduced number of cells within an organ or tissue." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "hypoplasia" EXACT []
+synonym: "underdeveloped" RELATED []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0002290 ! aplastic/hypoplastic
+relationship: is_opposite_of PATO:0000644 ! hyperplastic
 
 [Term]
 id: PATO:0000911
@@ -28072,6 +28623,16 @@ is_a: PATO:0002304 ! increased process quality
 intersection_of: PATO:0000161 ! rate
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000911 ! decreased rate
+
+[Term]
+id: PATO:0000918
+name: volume
+namespace: quality
+def: "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies." [PATOC:GVG]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001710 ! 3-D extent
 
 [Term]
 id: PATO:0000921
@@ -28236,6 +28797,16 @@ synonym: "intersex" EXACT []
 is_a: PATO:0001894 ! phenotypic sex
 
 [Term]
+id: PATO:0001355
+name: convex
+namespace: quality
+def: "A shape quality that obtains by virtue of the bearer having inward facing edges; having a surface or boundary that curves or bulges outward, as the exterior of a sphere." [PATOC:GVG]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0002005 ! concavity
+relationship: is_opposite_of PATO:0001857 ! concave
+
+[Term]
 id: PATO:0001374
 name: ploidy
 namespace: quality
@@ -28368,6 +28939,20 @@ subset: value_slim
 is_a: PATO:0000169 ! viability
 
 [Term]
+id: PATO:0001450
+name: edematous
+namespace: quality
+def: "A structural quality which is held by a bearer when the latter exhibits an excessive accumulation of extracellular fluid." [thefreedictionary.com:thefreedictionary.com]
+subset: mpath_slim
+subset: value_slim
+synonym: "edema" NARROW []
+synonym: "edemic" EXACT []
+synonym: "oedema" NARROW []
+synonym: "oedematous" EXACT []
+synonym: "oedemic" EXACT []
+is_a: PATO:0000025 ! composition
+
+[Term]
 id: PATO:0001475
 name: increased position
 namespace: quality
@@ -28469,6 +29054,38 @@ subset: relational_slim
 is_a: PATO:0001236 ! process quality
 
 [Term]
+id: PATO:0001591
+name: curvature
+namespace: quality
+def: "A surface shape quality inhering in a bearer by virtue of the bearer's exhibiting a degree of bending." [WordNet:WordNet]
+subset: attribute_slim
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001592
+name: increased curvature
+namespace: quality
+def: "A curvature which is relatively high." [PATO:GVG]
+subset: value_slim
+is_a: PATO:0000406 ! curved
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000406 ! curved
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001593 ! decreased curvature
+
+[Term]
+id: PATO:0001593
+name: decreased curvature
+namespace: quality
+def: "A curvature which is relatively low." [PATO:GVG]
+subset: value_slim
+is_a: PATO:0000406 ! curved
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000406 ! curved
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001592 ! increased curvature
+
+[Term]
 id: PATO:0001708
 name: 1-D extent
 namespace: quality
@@ -28478,12 +29095,40 @@ synonym: "1-D size" EXACT []
 is_a: PATO:0000117 ! size
 
 [Term]
+id: PATO:0001710
+name: 3-D extent
+namespace: quality
+def: "A size quality inhering in an bearer by virtue of the bearer's extension in three dimensions." [PATOC:GVG]
+subset: attribute_slim
+synonym: "3D size" EXACT []
+is_a: PATO:0000117 ! size
+
+[Term]
 id: PATO:0001739
 name: radiation quality
 namespace: quality
 def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001799
+name: ruffled
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the bearer's exhibiting disturbance of its smoothness or regularity." [.thefreedictionary.com:.thefreedictionary.com]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001857
+name: concave
+namespace: quality
+def: "A shape quality in a bearer by virtue of the bearer's curving inward." [WordNet:WordNet]
+subset: cell_quality
+subset: value_slim
+is_a: PATO:0002005 ! concavity
+relationship: is_opposite_of PATO:0001355 ! convex
 
 [Term]
 id: PATO:0001869
@@ -28635,6 +29280,14 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0002001 ! has fewer parts of type
 
 [Term]
+id: PATO:0002005
+name: concavity
+namespace: quality
+def: "Surface shape that refers to the inward or outward curvature of the surface." [PATOC:MAH]
+subset: attribute_slim
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0002006
 name: 2-D shape
 namespace: quality
@@ -28643,6 +29296,52 @@ subset: attribute_slim
 synonym: "2-D projection" RELATED []
 synonym: "cross-sectional" RELATED []
 is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002007
+name: convex 3-D shape
+namespace: quality
+def: "A complete three dimensional shape in which for every line connecting pair of points on the object is within the object. Or: a shape lacking cavities. Contrast: concave." [PATOC:CJM]
+comment: Use this term or an is_a child of this term when the entire shape of the object is known.
+subset: attribute_slim
+xref: Image:http\://upload.wikimedia.org/wikipedia/commons/0/06/Convex_polygon_illustration1.png
+is_a: PATO:0002266 ! 3-D shape
+relationship: has_cross_section PATO:0002006 ! 2-D shape
+relationship: is_opposite_of PATO:0002008 ! concave 3-D shape
+
+[Term]
+id: PATO:0002008
+name: concave 3-D shape
+namespace: quality
+def: "A complete three dimensional shape in which there is a line connecting pair of points on the object that lies outside the object. Or: a shape with cavities. Contrast: concave." [PATOC:CJM]
+subset: attribute_slim
+xref: Image:http\://en.wikipedia.org/wiki/Image\:Convex_polygon_illustration2.png
+is_a: PATO:0002266 ! 3-D shape
+relationship: has_part PATO:0001857 ! concave
+relationship: is_opposite_of PATO:0002007 ! convex 3-D shape
+
+[Term]
+id: PATO:0002037
+name: degeneration
+namespace: quality
+def: "A structural quality inhering in a bearer by virtue of the bearer exhibiting deterioration of its structure." [PATOC:GVG]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000141 ! structure
+created_by: george
+creation_date: 2009-02-03T11:13:19Z
+
+[Term]
+id: PATO:0002038
+name: non-degenerate
+namespace: quality
+def: "A structural quality inhering in a bearer whose structure which does not deteriorate." [PATOC:GVG]
+subset: value_slim
+synonym: "not degenerate" EXACT []
+is_a: PATO:0002037 ! degeneration
+relationship: is_opposite_of PATO:0000639 ! degenerate
+created_by: george
+creation_date: 2009-02-03T11:14:54Z
 
 [Term]
 id: PATO:0002062
@@ -28713,6 +29412,16 @@ created_by: george
 creation_date: 2009-10-13T06:41:39Z
 
 [Term]
+id: PATO:0002164
+name: curved medial
+namespace: quality
+def: "A curvature quality inhering in a bearer by virtue of the bearer's being curved towards the middle." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000406 ! curved
+created_by: george
+creation_date: 2009-12-02T10:06:21Z
+
+[Term]
 id: PATO:0002168
 name: displaced to
 namespace: quality
@@ -28733,6 +29442,17 @@ synonym: "relational molecular quality" EXACT []
 is_a: PATO:0001241 ! physical object quality
 created_by: George Gkoutos
 creation_date: 2010-03-10T03:18:15Z
+
+[Term]
+id: PATO:0002239
+name: hourglass-shaped
+namespace: quality
+def: "A concave 3-D shape that inheres in the bearer by virtue of the bearer's nearly) symmetric shape wide at its ends and narrow in the middle, resembling the figure of number 8." [url:http\://en.wikipedia.org/wiki/Hourglass-shaped]
+subset: value_slim
+synonym: "figure 8 shaped" EXACT []
+is_a: PATO:0002008 ! concave 3-D shape
+created_by: george
+creation_date: 2010-07-23T02:25:24Z
 
 [Term]
 id: PATO:0002245
@@ -28843,6 +29563,51 @@ subset: value_slim
 is_a: PATO:0001419 ! sharp
 created_by: george
 creation_date: 2010-09-08T03:15:16Z
+
+[Term]
+id: PATO:0002266
+name: 3-D shape
+namespace: quality
+def: "A shape that inheres in a 3 dimensional entity." [PATOC:OREGON]
+is_a: PATO:0000052 ! shape
+created_by: george
+creation_date: 2010-10-05T12:31:16Z
+
+[Term]
+id: PATO:0002282
+name: increased mobility
+namespace: quality
+def: "A mobility which is relative high." [PATO:GVG]
+subset: value_slim
+is_a: PATO:0000299 ! mobile
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000299 ! mobile
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002283 ! decreased mobility
+created_by: george
+creation_date: 2011-03-09T09:16:03Z
+
+[Term]
+id: PATO:0002283
+name: decreased mobility
+namespace: quality
+def: "A mobility which is relative low." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000299 ! mobile
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000299 ! mobile
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002282 ! increased mobility
+created_by: george
+creation_date: 2011-03-09T09:16:47Z
+
+[Term]
+id: PATO:0002290
+name: aplastic/hypoplastic
+namespace: quality
+is_a: PATO:0001241 ! physical object quality
+created_by: George Gkoutos
+creation_date: 2011-04-18T05:11:33Z
 
 [Term]
 id: PATO:0002300
@@ -28972,6 +29737,19 @@ subset: value_slim
 is_a: PATO:0000133 ! orientation
 created_by: wasila.dahdul
 creation_date: 2014-10-17T14:24:19Z
+
+[Term]
+id: PATO:0015001
+name: absence due to degeneration
+namespace: quality
+def: "Absence due to a degenerative process." [PATOC:PortlandMeetingFeb2015]
+subset: absent_slim
+subset: value_slim
+is_a: PATO:0000462 ! absent
+is_a: PATO:0000639 ! degenerate
+intersection_of: PATO:0000462 ! absent
+intersection_of: PATO:0000639 ! degenerate
+created_by: cjm
 
 [Term]
 id: PATO:0040012
@@ -44968,6 +45746,168 @@ synonym: "abnormality of wedge fragment" EXACT []
 is_a: PLANP:0000673 ! abnormal fragment
 
 [Term]
+id: PLANP:0000789
+name: missing head due to degeneration
+def: "Complete wasting (loss) of head tissue that was once present." []
+synonym: "loss of head due to degeneration" EXACT []
+is_a: PLANP:0000497 ! abnormal head morphology
+is_a: PLANP:0000529 ! absent head
+
+[Term]
+id: PLANP:0000790
+name: missing tail due to degeneration
+def: "Complete wasting (loss) of tail tissue that was once present." []
+synonym: "loss of tail due to degeneration" EXACT []
+is_a: PLANP:0000498 ! abnormal tail morphology
+is_a: PLANP:0000533 ! absent tail
+
+[Term]
+id: PLANP:0000791
+name: decreased whole organism mobility
+def: "Decreased or reduced ability to move whole organism." []
+is_a: PLANP:0000795 ! abnormal whole organism mobility
+
+[Term]
+id: PLANP:0000792
+name: increased length of the whole organism
+def: "longer, increased length of, whole organism" []
+synonym: "longer whole organism" EXACT []
+is_a: PLANP:0000542 ! abnormal whole organism
+
+[Term]
+id: PLANP:0000793
+name: increased pigmentation in the eye
+def: "Increased or increasing of pigmentation of eye." []
+synonym: "eye hyperpigmentation" EXACT []
+synonym: "increasing of pigment in the eye" EXACT []
+is_a: PLANP:0000534 ! abnormal degree of pigmentation of the eye
+
+[Term]
+id: PLANP:0000794
+name: increased pigmentation in the epidermis
+def: "Increased or increasing of pigmentation of epidermis." []
+synonym: "epidermis hyperpigmentation" EXACT []
+synonym: "increasing of pigment in the epidermis" EXACT []
+is_a: PLANP:0000535 ! abnormal degree of pigmentation of the epidermis
+
+[Term]
+id: PLANP:0000795
+name: abnormal whole organism mobility
+def: "anomaly in the ability to move whole organism." []
+is_a: PLANP:0000542 ! abnormal whole organism
+
+[Term]
+id: PLANP:0000796
+name: ruffled epithelium
+def: "Any structural anomaly that causes epithelium to be ruffled shaped." []
+synonym: "abnormal ruffled shape of epithelium" EXACT []
+is_a: PLANP:0000665 ! abnormal epithelium
+
+[Term]
+id: PLANP:0000797
+name: hourglass-shaped head
+def: "Any structural anomaly that causes head to be hourglass-shaped shaped." []
+synonym: "abnormal hourglass-shaped shape of head" EXACT []
+is_a: PLANP:0000499 ! abnormal shape of head
+
+[Term]
+id: PLANP:0000798
+name: hourglass-shaped tail
+def: "Any structural anomaly that causes tail to be hourglass-shaped shaped." []
+synonym: "abnormal hourglass-shaped shape of tail" EXACT []
+is_a: PLANP:0000500 ! abnormal shape of tail
+
+[Term]
+id: PLANP:0000799
+name: curved medial head
+def: "Any structural anomaly that causes head to be curved medial shaped." []
+synonym: "abnormal curved medial shape of head" EXACT []
+is_a: PLANP:0000499 ! abnormal shape of head
+
+[Term]
+id: PLANP:0000800
+name: curved medial tail
+def: "Any structural anomaly that causes tail to be curved medial shaped." []
+synonym: "abnormal curved medial shape of tail" EXACT []
+is_a: PLANP:0000500 ! abnormal shape of tail
+
+[Term]
+id: PLANP:0000801
+name: edema in whole organism
+def: "An abnormal accumulation of fluid in the whole organism." []
+synonym: "abnormal accumulation of fluid in whole organism" EXACT []
+synonym: "whole organism edema" EXACT []
+is_a: PLANP:0000542 ! abnormal whole organism
+
+[Term]
+id: PLANP:0000802
+name: edema in head
+def: "An abnormal accumulation of fluid in the head." []
+synonym: "abnormal accumulation of fluid in head" EXACT []
+synonym: "head edema" EXACT []
+is_a: PLANP:0000497 ! abnormal head morphology
+
+[Term]
+id: PLANP:0000803
+name: edema in tail
+def: "An abnormal accumulation of fluid in the tail." []
+synonym: "abnormal accumulation of fluid in tail" EXACT []
+synonym: "tail edema" EXACT []
+is_a: PLANP:0000498 ! abnormal tail morphology
+
+[Term]
+id: PLANP:0000804
+name: eye hypoplasia
+def: "Small, underdeveloped eye." []
+synonym: "hypoplastic eye" EXACT []
+is_a: PLANP:0000046 ! abnormal eye
+
+[Term]
+id: PLANP:0000805
+name: lesion in whole organism
+def: "An abnormal whole organism with one or more lesions." []
+synonym: "whole organism with lesion(s)" EXACT []
+is_a: PLANP:0000542 ! abnormal whole organism
+
+[Term]
+id: PLANP:0000806
+name: lesion in post-pharyngeal region
+def: "An abnormal post-pharyngeal region with one or more lesions." []
+synonym: "post-pharyngeal region with lesion(s)" EXACT []
+is_a: PLANP:0000662 ! abnormal post-pharyngeal region
+
+[Term]
+id: PLANP:0000807
+name: unpigmented head
+def: "complete loss of pigmenation of the head." []
+synonym: "absence of pigment in the head" EXACT []
+synonym: "complete loss of pigmentation in the head" EXACT []
+is_a: PLANP:0000810 ! abnormal degree of pigmentation of the head
+
+[Term]
+id: PLANP:0000808
+name: decreased pigmentation in the head
+def: "Decreased or loss of pigmentation of head." []
+synonym: "head hypopigmentation" EXACT []
+synonym: "loss of pigment in the head" EXACT []
+is_a: PLANP:0000810 ! abnormal degree of pigmentation of the head
+
+[Term]
+id: PLANP:0000809
+name: increased pigmentation in the head
+def: "Increased or increasing of pigmentation of head." []
+synonym: "head hyperpigmentation" EXACT []
+synonym: "increasing of pigment in the head" EXACT []
+is_a: PLANP:0000810 ! abnormal degree of pigmentation of the head
+
+[Term]
+id: PLANP:0000810
+name: abnormal degree of pigmentation of the head
+def: "abnormal degree of pigmentation of the head." []
+synonym: "abnormal pigmentation of the head" EXACT []
+is_a: PLANP:0000497 ! abnormal head morphology
+
+[Term]
 id: RO:0002577
 name: system
 def: "A material entity consisting of multiple components that are causally integrated." []
@@ -47242,6 +48182,13 @@ property_value: IAO:0000114 IAO:0000125
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:Componency
 is_a: has_part ! has part
+
+[Typedef]
+id: has_cross_section
+name: has_cross_section
+namespace: quality
+def: "s3 has_cross_section s3 if and only if : there exists some 2d plane that intersects the bearer of s3, and the impression of s3 upon that plane has shape quality s2." [PATOC:CJM]
+comment: Example: a spherical object has the quality of being spherical, and the spherical quality has_cross_section round.
 
 [Typedef]
 id: has_developmental_contribution_from

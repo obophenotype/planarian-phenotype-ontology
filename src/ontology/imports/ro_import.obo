@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-24/imports/ro_import.owl
+data-version: planp/releases/2020-02-13/imports/ro_import.owl
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 ontology: planp/imports/ro_import
@@ -391,6 +391,8 @@ property_value: IAO:0000118 "preceded_by" xsd:string
 domain: BFO:0000003 ! occurrent
 range: BFO:0000003 ! occurrent
 holds_over_chain: BFO:0000050 BFO:0000062
+holds_over_chain: RO:0002091 BFO:0000062
+holds_over_chain: RO:0002092 BFO:0000062
 is_transitive: true
 is_a: RO:0002086 ! ends after
 inverse_of: BFO:0000063 ! precedes
@@ -404,6 +406,7 @@ property_value: IAO:0000111 "precedes" xsd:string
 domain: BFO:0000003 ! occurrent
 range: BFO:0000003 ! occurrent
 holds_over_chain: BFO:0000050 BFO:0000063
+holds_over_chain: RO:0002092 BFO:0000063
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
@@ -505,6 +508,30 @@ property_value: IAO:0000116 "A bearer can have many qualities, and its qualities
 property_value: IAO:0000118 "has_quality" xsd:string
 range: BFO:0000019 ! quality
 is_a: RO:0000053 ! bearer of
+
+[Typedef]
+id: RO:0001000
+name: derives from
+def: "a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" []
+subset: ro-eco
+property_value: IAO:0000112 "this cell derives from this parent cell (cell division)" xsd:string
+property_value: IAO:0000112 "this nucleus derives from this parent nucleus (nuclear division)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "This is a very general relation. More specific relations are preferred when applicable, such as 'directly develops from'." xsd:string
+property_value: IAO:0000118 "derives_from" xsd:string
+property_value: IAO:0000232 "This relation is taken from the RO2005 version of RO. It may be obsoleted and replaced by relations with different definitions. See also the 'develops from' family of relations." xsd:string
+inverse_of: RO:0001001 ! derives into
+
+[Typedef]
+id: RO:0001001
+name: derives into
+def: "a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" []
+subset: ro-eco
+property_value: IAO:0000112 "this parent cell derives into this cell (cell division)" xsd:string
+property_value: IAO:0000112 "this parent nucleus derives into this nucleus (nuclear division)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "This is a very general relation. More specific relations are preferred when applicable, such as 'directly develops into'. To avoid making statements about a future that may not come to pass, it is often better to use the backward-looking 'derives from' rather than the forward-looking 'derives into'." xsd:string
+property_value: IAO:0000118 "derives_into" xsd:string
 
 [Typedef]
 id: RO:0001015
@@ -670,11 +697,31 @@ is_transitive: true
 is_a: RO:0002081 ! before or simultaneous with
 
 [Typedef]
+id: RO:0002084
+name: during which ends
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002122 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+is_a: RO:0002222 ! temporally related to
+inverse_of: RO:0002093 ! ends during
+
+[Typedef]
+id: RO:0002085
+name: encompasses
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002124 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "di" xsd:string
+is_transitive: true
+is_a: RO:0002088 ! during which starts
+inverse_of: RO:0002092 ! happens during
+
+[Typedef]
 id: RO:0002086
 name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+holds_over_chain: RO:0002093 BFO:0000062
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
@@ -689,6 +736,15 @@ is_a: BFO:0000062 ! preceded by
 inverse_of: RO:0002090 ! immediately precedes
 
 [Typedef]
+id: RO:0002088
+name: during which starts
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002123 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+is_a: RO:0002222 ! temporally related to
+inverse_of: RO:0002091 ! starts during
+
+[Typedef]
 id: RO:0002090
 name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
@@ -699,6 +755,38 @@ property_value: IAO:0000118 "meets" xsd:string
 property_value: RO:0002575 BFO:0000063
 holds_over_chain: RO:0002230 RO:0002224
 is_a: BFO:0000063 ! precedes
+
+[Typedef]
+id: RO:0002091
+name: starts during
+comment: X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "io" xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002092
+name: happens during
+comment: X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "d" xsd:string
+property_value: IAO:0000118 "during" xsd:string
+is_transitive: true
+is_a: RO:0002093 ! ends during
+
+[Typedef]
+id: RO:0002093
+name: ends during
+comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). 
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "o" xsd:string
+property_value: IAO:0000118 "overlaps" xsd:string
+is_a: RO:0002222 ! temporally related to
 
 [Typedef]
 id: RO:0002104

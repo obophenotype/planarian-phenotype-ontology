@@ -35,7 +35,7 @@ foreach my $tsv (@tsvs){
   my $filename = pop @path;
   open TSV, $tsv or die "Can't open $tsv $! \n";
   <TSV>; # skip header
-  print "### $filename ###\n"; 
+  print "\n### $filename ###\n"; 
   while (my $line = <TSV>) {
    chomp $line;
     my ($defined_class,@rest) = split "\t",$line;

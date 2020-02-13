@@ -1,4 +1,6 @@
 http://purl.obolibrary.org/obo/PLANA_0000036
+http://purl.obolibrary.org/obo/PLANA_0000418
+http://purl.obolibrary.org/obo/PLANP_0000808
 http://purl.obolibrary.org/obo/PLANP_0000536
 http://purl.obolibrary.org/obo/PLANA_0000034
 http://purl.obolibrary.org/obo/PLANP_0000519

@@ -1,0 +1,4 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+PLANP:0000793	increased pigmentation of the eyes	PLANA:0000036	eye
+PLANP:0000794	increased pigmentation of the epidermis	PLANA:0000034	definitive epidermis
+PLANP:0000809	increased pigmentation of the head	PLANA:0000418	head

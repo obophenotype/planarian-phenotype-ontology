@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-24/imports/plana_import.owl
+data-version: planp/releases/2020-02-13/imports/plana_import.owl
 subsetdef: attribute_slim "Attribute slim"
 subsetdef: cell_quality "cell_quality"
 subsetdef: efo_slim ""

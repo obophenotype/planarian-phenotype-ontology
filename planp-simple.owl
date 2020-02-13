@@ -12,7 +12,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/planp-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-01-24/planp-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-02-13/planp-simple.owl"/>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology (PLANP)</dc:title>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/3.0/</terms:license>
@@ -7710,6 +7710,256 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Abnormality of wedge fragment.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of wedge fragment</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal wedge fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000789">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000529"/>
+        <obo:IAO_0000115>Complete wasting (loss) of head tissue that was once present.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>loss of head due to degeneration</oboInOwl:hasExactSynonym>
+        <rdfs:label>missing head due to degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000498"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000533"/>
+        <obo:IAO_0000115>Complete wasting (loss) of tail tissue that was once present.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>loss of tail due to degeneration</oboInOwl:hasExactSynonym>
+        <rdfs:label>missing tail due to degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000795"/>
+        <obo:IAO_0000115>Decreased or reduced ability to move whole organism.</obo:IAO_0000115>
+        <rdfs:label>decreased whole organism mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>longer, increased length of, whole organism</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>longer whole organism</oboInOwl:hasExactSynonym>
+        <rdfs:label>increased length of the whole organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000534"/>
+        <obo:IAO_0000115>Increased or increasing of pigmentation of eye.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>eye hyperpigmentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>increasing of pigment in the eye</oboInOwl:hasExactSynonym>
+        <rdfs:label>increased pigmentation in the eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000535"/>
+        <obo:IAO_0000115>Increased or increasing of pigmentation of epidermis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>epidermis hyperpigmentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>increasing of pigment in the epidermis</oboInOwl:hasExactSynonym>
+        <rdfs:label>increased pigmentation in the epidermis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>anomaly in the ability to move whole organism.</obo:IAO_0000115>
+        <rdfs:label>abnormal whole organism mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
+        <obo:IAO_0000115>Any structural anomaly that causes epithelium to be ruffled shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal ruffled shape of epithelium</oboInOwl:hasExactSynonym>
+        <rdfs:label>ruffled epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000499"/>
+        <obo:IAO_0000115>Any structural anomaly that causes head to be hourglass-shaped shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal hourglass-shaped shape of head</oboInOwl:hasExactSynonym>
+        <rdfs:label>hourglass-shaped head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000500"/>
+        <obo:IAO_0000115>Any structural anomaly that causes tail to be hourglass-shaped shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal hourglass-shaped shape of tail</oboInOwl:hasExactSynonym>
+        <rdfs:label>hourglass-shaped tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000499"/>
+        <obo:IAO_0000115>Any structural anomaly that causes head to be curved medial shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal curved medial shape of head</oboInOwl:hasExactSynonym>
+        <rdfs:label>curved medial head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000500"/>
+        <obo:IAO_0000115>Any structural anomaly that causes tail to be curved medial shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal curved medial shape of tail</oboInOwl:hasExactSynonym>
+        <rdfs:label>curved medial tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000801">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>An abnormal accumulation of fluid in the whole organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal accumulation of fluid in whole organism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>whole organism edema</oboInOwl:hasExactSynonym>
+        <rdfs:label>edema in whole organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000802">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
+        <obo:IAO_0000115>An abnormal accumulation of fluid in the head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal accumulation of fluid in head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>head edema</oboInOwl:hasExactSynonym>
+        <rdfs:label>edema in head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000803">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000498"/>
+        <obo:IAO_0000115>An abnormal accumulation of fluid in the tail.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal accumulation of fluid in tail</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tail edema</oboInOwl:hasExactSynonym>
+        <rdfs:label>edema in tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000804">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000046"/>
+        <obo:IAO_0000115>Small, underdeveloped eye.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hypoplastic eye</oboInOwl:hasExactSynonym>
+        <rdfs:label>eye hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
+        <obo:IAO_0000115>An abnormal whole organism with one or more lesions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>whole organism with lesion(s)</oboInOwl:hasExactSynonym>
+        <rdfs:label>lesion in whole organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000662"/>
+        <obo:IAO_0000115>An abnormal post-pharyngeal region with one or more lesions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>post-pharyngeal region with lesion(s)</oboInOwl:hasExactSynonym>
+        <rdfs:label>lesion in post-pharyngeal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000810"/>
+        <obo:IAO_0000115>complete loss of pigmenation of the head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>absence of pigment in the head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>complete loss of pigmentation in the head</oboInOwl:hasExactSynonym>
+        <rdfs:label>unpigmented head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000808">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000810"/>
+        <obo:IAO_0000115>Decreased or loss of pigmentation of head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>head hypopigmentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>loss of pigment in the head</oboInOwl:hasExactSynonym>
+        <rdfs:label>decreased pigmentation in the head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000809">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000810"/>
+        <obo:IAO_0000115>Increased or increasing of pigmentation of head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>head hyperpigmentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>increasing of pigment in the head</oboInOwl:hasExactSynonym>
+        <rdfs:label>increased pigmentation in the head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000810">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
+        <obo:IAO_0000115>abnormal degree of pigmentation of the head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal pigmentation of the head</oboInOwl:hasExactSynonym>
+        <rdfs:label>abnormal degree of pigmentation of the head</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

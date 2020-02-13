@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-01-24/planp-base.owl
+data-version: planp/releases/2020-02-13/planp-base.owl
 ontology: planp/planp-base
 property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Planarian Phenotype Ontology (PLANP)" xsd:string
@@ -3861,4 +3861,142 @@ id: PLANP:0000788
 name: abnormal wedge fragment
 def: "Abnormality of wedge fragment." []
 synonym: "abnormality of wedge fragment" EXACT []
+
+[Term]
+id: PLANP:0000789
+name: missing head due to degeneration
+def: "Complete wasting (loss) of head tissue that was once present." []
+synonym: "loss of head due to degeneration" EXACT []
+
+[Term]
+id: PLANP:0000790
+name: missing tail due to degeneration
+def: "Complete wasting (loss) of tail tissue that was once present." []
+synonym: "loss of tail due to degeneration" EXACT []
+
+[Term]
+id: PLANP:0000791
+name: decreased whole organism mobility
+def: "Decreased or reduced ability to move whole organism." []
+
+[Term]
+id: PLANP:0000792
+name: increased length of the whole organism
+def: "longer, increased length of, whole organism" []
+synonym: "longer whole organism" EXACT []
+
+[Term]
+id: PLANP:0000793
+name: increased pigmentation in the eye
+def: "Increased or increasing of pigmentation of eye." []
+synonym: "eye hyperpigmentation" EXACT []
+synonym: "increasing of pigment in the eye" EXACT []
+
+[Term]
+id: PLANP:0000794
+name: increased pigmentation in the epidermis
+def: "Increased or increasing of pigmentation of epidermis." []
+synonym: "epidermis hyperpigmentation" EXACT []
+synonym: "increasing of pigment in the epidermis" EXACT []
+
+[Term]
+id: PLANP:0000795
+name: abnormal whole organism mobility
+def: "anomaly in the ability to move whole organism." []
+
+[Term]
+id: PLANP:0000796
+name: ruffled epithelium
+def: "Any structural anomaly that causes epithelium to be ruffled shaped." []
+synonym: "abnormal ruffled shape of epithelium" EXACT []
+
+[Term]
+id: PLANP:0000797
+name: hourglass-shaped head
+def: "Any structural anomaly that causes head to be hourglass-shaped shaped." []
+synonym: "abnormal hourglass-shaped shape of head" EXACT []
+
+[Term]
+id: PLANP:0000798
+name: hourglass-shaped tail
+def: "Any structural anomaly that causes tail to be hourglass-shaped shaped." []
+synonym: "abnormal hourglass-shaped shape of tail" EXACT []
+
+[Term]
+id: PLANP:0000799
+name: curved medial head
+def: "Any structural anomaly that causes head to be curved medial shaped." []
+synonym: "abnormal curved medial shape of head" EXACT []
+
+[Term]
+id: PLANP:0000800
+name: curved medial tail
+def: "Any structural anomaly that causes tail to be curved medial shaped." []
+synonym: "abnormal curved medial shape of tail" EXACT []
+
+[Term]
+id: PLANP:0000801
+name: edema in whole organism
+def: "An abnormal accumulation of fluid in the whole organism." []
+synonym: "abnormal accumulation of fluid in whole organism" EXACT []
+synonym: "whole organism edema" EXACT []
+
+[Term]
+id: PLANP:0000802
+name: edema in head
+def: "An abnormal accumulation of fluid in the head." []
+synonym: "abnormal accumulation of fluid in head" EXACT []
+synonym: "head edema" EXACT []
+
+[Term]
+id: PLANP:0000803
+name: edema in tail
+def: "An abnormal accumulation of fluid in the tail." []
+synonym: "abnormal accumulation of fluid in tail" EXACT []
+synonym: "tail edema" EXACT []
+
+[Term]
+id: PLANP:0000804
+name: eye hypoplasia
+def: "Small, underdeveloped eye." []
+synonym: "hypoplastic eye" EXACT []
+
+[Term]
+id: PLANP:0000805
+name: lesion in whole organism
+def: "An abnormal whole organism with one or more lesions." []
+synonym: "whole organism with lesion(s)" EXACT []
+
+[Term]
+id: PLANP:0000806
+name: lesion in post-pharyngeal region
+def: "An abnormal post-pharyngeal region with one or more lesions." []
+synonym: "post-pharyngeal region with lesion(s)" EXACT []
+
+[Term]
+id: PLANP:0000807
+name: unpigmented head
+def: "complete loss of pigmenation of the head." []
+synonym: "absence of pigment in the head" EXACT []
+synonym: "complete loss of pigmentation in the head" EXACT []
+
+[Term]
+id: PLANP:0000808
+name: decreased pigmentation in the head
+def: "Decreased or loss of pigmentation of head." []
+synonym: "head hypopigmentation" EXACT []
+synonym: "loss of pigment in the head" EXACT []
+
+[Term]
+id: PLANP:0000809
+name: increased pigmentation in the head
+def: "Increased or increasing of pigmentation of head." []
+synonym: "head hyperpigmentation" EXACT []
+synonym: "increasing of pigment in the head" EXACT []
+
+[Term]
+id: PLANP:0000810
+name: abnormal degree of pigmentation of the head
+def: "abnormal degree of pigmentation of the head." []
+synonym: "abnormal pigmentation of the head" EXACT []
 

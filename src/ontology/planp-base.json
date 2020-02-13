@@ -5,6 +5,195 @@
       "type" : "CLASS",
       "lbl" : "Planarian Phenotype"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000805",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal whole organism with one or more lesions.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "whole organism with lesion(s)",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lesion in whole organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000804",
+      "meta" : {
+        "definition" : {
+          "val" : "Small, underdeveloped eye.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hypoplastic eye",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "eye hypoplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000807",
+      "meta" : {
+        "definition" : {
+          "val" : "complete loss of pigmenation of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "complete loss of pigmentation in the head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "absence of pigment in the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unpigmented head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000806",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal post-pharyngeal region with one or more lesions.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "post-pharyngeal region with lesion(s)",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lesion in post-pharyngeal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000801",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal accumulation of fluid in the whole organism.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "whole organism edema",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal accumulation of fluid in whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "edema in whole organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000800",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be curved medial shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal curved medial shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "curved medial tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000803",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal accumulation of fluid in the tail.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal accumulation of fluid in tail",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tail edema",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "edema in tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000802",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal accumulation of fluid in the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal accumulation of fluid in head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "head edema",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "edema in head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000809",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased or increasing of pigmentation of head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "increasing of pigment in the head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "head hyperpigmentation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased pigmentation in the head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000808",
+      "meta" : {
+        "definition" : {
+          "val" : "Decreased or loss of pigmentation of head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "head hypopigmentation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of pigment in the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased pigmentation in the head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000810",
+      "meta" : {
+        "definition" : {
+          "val" : "abnormal degree of pigmentation of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal pigmentation of the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal degree of pigmentation of the head"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000041",
       "meta" : {
         "definition" : {
@@ -3515,6 +3704,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal chromosome_part"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000789",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete wasting (loss) of head tissue that was once present.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of head due to degeneration",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "missing head due to degeneration"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000305",
       "meta" : {
         "definition" : {
@@ -4130,6 +4334,16 @@
       "type" : "CLASS",
       "lbl" : "abnormal mouth"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000791",
+      "meta" : {
+        "definition" : {
+          "val" : "Decreased or reduced ability to move whole organism.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased whole organism mobility"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000670",
       "meta" : {
         "definition" : {
@@ -4144,6 +4358,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal chromosomal_structural_element"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000790",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete wasting (loss) of tail tissue that was once present.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of tail due to degeneration",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "missing tail due to degeneration"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000555",
       "meta" : {
@@ -4174,6 +4403,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal plug wound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000797",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes head to be hourglass-shaped shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal hourglass-shaped shape of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hourglass-shaped head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000313",
       "meta" : {
@@ -4265,6 +4509,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal muscle progenitor cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000796",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes epithelium to be ruffled shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal ruffled shape of epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ruffled epithelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000799",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes head to be curved medial shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal curved medial shape of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "curved medial head"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000436",
       "meta" : {
         "definition" : {
@@ -4339,6 +4613,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal primitive ectoderm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000798",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be hourglass-shaped shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal hourglass-shaped shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hourglass-shaped tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000677",
       "meta" : {
@@ -4415,6 +4704,25 @@
       "type" : "CLASS",
       "lbl" : "abnormal nu neoblast"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000793",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased or increasing of pigmentation of eye.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "eye hyperpigmentation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "increasing of pigment in the eye",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased pigmentation in the eye"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000551",
       "meta" : {
         "definition" : {
@@ -4444,6 +4752,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal thick fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000792",
+      "meta" : {
+        "definition" : {
+          "val" : "longer, increased length of, whole organism",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "longer whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased length of the whole organism"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000550",
       "meta" : {
@@ -4490,6 +4813,16 @@
       "type" : "CLASS",
       "lbl" : "abnormal amputation"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000795",
+      "meta" : {
+        "definition" : {
+          "val" : "anomaly in the ability to move whole organism.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal whole organism mobility"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000674",
       "meta" : {
         "definition" : {
@@ -4504,6 +4837,25 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal longitudinal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000794",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased or increasing of pigmentation of epidermis.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "increasing of pigment in the epidermis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "epidermis hyperpigmentation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased pigmentation in the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000552",
       "meta" : {
@@ -9678,7 +10030,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/by/3.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-24/planp-base.json"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-02-13/planp-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

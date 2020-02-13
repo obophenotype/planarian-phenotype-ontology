@@ -5,6 +5,195 @@
       "type" : "CLASS",
       "lbl" : "Planarian Phenotype"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000805",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal whole organism with one or more lesions.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "whole organism with lesion(s)",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lesion in whole organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000804",
+      "meta" : {
+        "definition" : {
+          "val" : "Small, underdeveloped eye.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hypoplastic eye",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "eye hypoplasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000807",
+      "meta" : {
+        "definition" : {
+          "val" : "complete loss of pigmenation of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "complete loss of pigmentation in the head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "absence of pigment in the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unpigmented head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000806",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal post-pharyngeal region with one or more lesions.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "post-pharyngeal region with lesion(s)",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lesion in post-pharyngeal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000801",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal accumulation of fluid in the whole organism.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "whole organism edema",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal accumulation of fluid in whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "edema in whole organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000800",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be curved medial shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal curved medial shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "curved medial tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000803",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal accumulation of fluid in the tail.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal accumulation of fluid in tail",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tail edema",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "edema in tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000802",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal accumulation of fluid in the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal accumulation of fluid in head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "head edema",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "edema in head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000809",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased or increasing of pigmentation of head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "increasing of pigment in the head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "head hyperpigmentation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased pigmentation in the head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000808",
+      "meta" : {
+        "definition" : {
+          "val" : "Decreased or loss of pigmentation of head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "head hypopigmentation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of pigment in the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased pigmentation in the head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000810",
+      "meta" : {
+        "definition" : {
+          "val" : "abnormal degree of pigmentation of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal pigmentation of the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal degree of pigmentation of the head"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0000052",
       "meta" : {
         "definition" : {
@@ -3640,6 +3829,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal chromosome_part"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000789",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete wasting (loss) of head tissue that was once present.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of head due to degeneration",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "missing head due to degeneration"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000305",
       "meta" : {
         "definition" : {
@@ -4255,6 +4459,16 @@
       "type" : "CLASS",
       "lbl" : "abnormal mouth"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000791",
+      "meta" : {
+        "definition" : {
+          "val" : "Decreased or reduced ability to move whole organism.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased whole organism mobility"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000670",
       "meta" : {
         "definition" : {
@@ -4269,6 +4483,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal chromosomal_structural_element"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000790",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete wasting (loss) of tail tissue that was once present.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of tail due to degeneration",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "missing tail due to degeneration"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000555",
       "meta" : {
@@ -4299,6 +4528,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal plug wound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000797",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes head to be hourglass-shaped shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal hourglass-shaped shape of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hourglass-shaped head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000313",
       "meta" : {
@@ -4390,6 +4634,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal muscle progenitor cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000796",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes epithelium to be ruffled shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal ruffled shape of epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ruffled epithelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000799",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes head to be curved medial shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal curved medial shape of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "curved medial head"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000436",
       "meta" : {
         "definition" : {
@@ -4464,6 +4738,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal primitive ectoderm"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000798",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be hourglass-shaped shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal hourglass-shaped shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hourglass-shaped tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000677",
       "meta" : {
@@ -4540,6 +4829,25 @@
       "type" : "CLASS",
       "lbl" : "abnormal nu neoblast"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000793",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased or increasing of pigmentation of eye.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "eye hyperpigmentation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "increasing of pigment in the eye",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased pigmentation in the eye"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000551",
       "meta" : {
         "definition" : {
@@ -4569,6 +4877,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal thick fragment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000792",
+      "meta" : {
+        "definition" : {
+          "val" : "longer, increased length of, whole organism",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "longer whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased length of the whole organism"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000550",
       "meta" : {
@@ -4615,6 +4938,16 @@
       "type" : "CLASS",
       "lbl" : "abnormal amputation"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000795",
+      "meta" : {
+        "definition" : {
+          "val" : "anomaly in the ability to move whole organism.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal whole organism mobility"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000674",
       "meta" : {
         "definition" : {
@@ -4629,6 +4962,25 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal longitudinal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000794",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased or increasing of pigmentation of epidermis.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "increasing of pigment in the epidermis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "epidermis hyperpigmentation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased pigmentation in the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000552",
       "meta" : {
@@ -9959,13 +10311,13 @@
       "lbl" : "abnormal meiotic prophase I spermatocyte"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000051",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000285"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000022",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000575"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000051",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000285"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000747",
       "pred" : "is_a",
@@ -10151,6 +10503,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000363"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000799",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000499"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000430",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000199"
@@ -10335,6 +10691,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000067"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000790",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000533"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000659",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000683"
@@ -10435,13 +10795,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000668"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000376",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000091"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000720",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000399"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000376",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000501",
       "pred" : "is_a",
@@ -10491,13 +10851,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000170"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000302",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000268"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000529",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000526"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000302",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000268"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000113",
       "pred" : "is_a",
@@ -10635,13 +10995,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000067"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000696",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000363"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000652",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000670"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000696",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000363"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000545",
       "pred" : "is_a",
@@ -10747,6 +11107,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000079"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000791",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000795"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000739",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000216"
@@ -10755,13 +11119,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000043"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000367",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000238"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000360",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000175"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000238"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000520",
       "pred" : "is_a",
@@ -10803,17 +11167,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000145"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000591",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000265"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000427",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000043"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000591",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000265"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000354",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000238"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000790",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000498"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000672",
       "pred" : "is_a",
@@ -10951,6 +11319,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000352"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000797",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000499"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000566",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000011"
@@ -10963,13 +11335,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000198"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000469",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000048"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000293",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000245"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000469",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000048"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000130",
       "pred" : "is_a",
@@ -10991,13 +11363,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000624"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000335",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000365"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000566",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000335",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000365"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000365",
       "pred" : "is_a",
@@ -11015,13 +11387,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000384"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000552",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000287"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000641",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000159"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000552",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000287"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000318",
       "pred" : "is_a",
@@ -11079,13 +11451,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000490",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000548"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000067",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000192"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000490",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000548"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000379",
       "pred" : "is_a",
@@ -11211,13 +11583,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000336"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000309",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000452"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000317",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000309",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000452"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000230",
       "pred" : "is_a",
@@ -11227,13 +11599,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000635"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000212",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000091"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000383",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000212",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000188",
       "pred" : "is_a",
@@ -11267,13 +11639,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000079"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000624",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000268"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000301",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000624",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000268"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000557",
       "pred" : "is_a",
@@ -11383,13 +11755,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000085",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000352"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000603"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000352"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000539",
       "pred" : "is_a",
@@ -11407,13 +11779,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000376"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000313",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000398"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000333",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000313",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000398"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000433",
       "pred" : "is_a",
@@ -11483,13 +11855,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000067"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000279",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000023"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000380",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000305"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000279",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000023"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000032",
       "pred" : "is_a",
@@ -11583,10 +11955,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000574",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000366"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000569",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000416"
@@ -11594,6 +11962,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000553",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000576"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000574",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000694",
       "pred" : "is_a",
@@ -11843,6 +12215,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000644"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000800",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000500"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000158",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000283"
@@ -11903,13 +12279,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000149"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000714",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000250"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000509",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000036"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000714",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000250"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000356",
       "pred" : "is_a",
@@ -11922,6 +12298,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000775",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000304"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000806",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000662"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000593",
       "pred" : "is_a",
@@ -11954,6 +12334,14 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000307",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000796",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000665"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000795",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000542"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000355",
       "pred" : "is_a",
@@ -12039,6 +12427,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000059"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000810",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000497"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000439",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000285"
@@ -12046,6 +12438,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000266",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000809",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000810"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000610",
       "pred" : "is_a",
@@ -12063,17 +12459,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000363"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000104",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000437"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000374",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000398"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000563",
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000104",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000644"
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000437"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000207",
       "pred" : "is_a",
@@ -12083,6 +12475,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000261"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000563",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000644"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000689",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000052"
@@ -12090,6 +12486,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000649",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000452"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000805",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000542"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000559",
       "pred" : "is_a",
@@ -12147,13 +12547,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000519",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000534"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000295",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000581"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000519",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000534"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000484",
       "pred" : "is_a",
@@ -12162,6 +12562,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000092",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000309"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000789",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000497"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000612",
       "pred" : "is_a",
@@ -12238,6 +12642,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000370",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000807",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000810"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000642",
       "pred" : "is_a",
@@ -12375,13 +12783,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000427"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000629",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000288"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000434",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000629",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000288"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000445",
       "pred" : "is_a",
@@ -12446,6 +12854,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000046",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000798",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000500"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000768",
       "pred" : "is_a",
@@ -12555,13 +12967,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000363"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000353",
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000808",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000202"
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000810"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000573",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000665"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000353",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000202"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000350",
       "pred" : "is_a",
@@ -12751,6 +13167,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000043"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000804",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000046"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000397",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000091"
@@ -12818,6 +13238,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000504",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000803",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000498"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000651",
       "pred" : "is_a",
@@ -12959,6 +13383,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000307"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000794",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000535"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000450",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000242"
@@ -13015,13 +13443,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000399"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000011",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000452"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000542"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000452"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000309",
       "pred" : "is_a",
@@ -13062,6 +13490,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000493",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000499"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000801",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000542"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000605",
       "pred" : "is_a",
@@ -13123,13 +13555,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000238"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000666",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000610",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000230"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000666",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000372"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000772",
       "pred" : "is_a",
@@ -13143,13 +13575,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000580",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000128"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000541",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000518"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000580",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000128"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000312",
       "pred" : "is_a",
@@ -13307,6 +13739,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000665"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000802",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000497"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000486",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000394"
@@ -13314,6 +13750,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000287",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000291"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000789",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000529"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000294",
       "pred" : "is_a",
@@ -13407,6 +13847,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000342"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000792",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000542"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000723",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000399"
@@ -13442,6 +13886,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000567",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PLANP_0000657"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PLANP_0000793",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PLANP_0000534"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PLANP_0000691",
       "pred" : "is_a",
@@ -13525,7 +13973,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/by/3.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-01-24/planp-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-02-13/planp-simple.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
