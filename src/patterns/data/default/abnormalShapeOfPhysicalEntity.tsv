@@ -1,4 +1,4 @@
-defined_class	defined_class_label	entity	entity_label
+defined_class	defined_class_name	entity	entity_label
 PLANP:0000490	default	PLANA:0000143	ventral region of the whole animal
 PLANP:0000499	default	PLANA:0000418	head
 PLANP:0000500	default	PLANA:0000421	tail

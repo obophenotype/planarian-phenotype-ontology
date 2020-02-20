@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
 PLANP:0000467	default	PLANA:0004512	primitive ectoderm surface
 PLANP:0000469	default	PLANA:0000411	lumen gut surface
 PLANP:0000470	default	PLANA:0000410	basal epidermis surface

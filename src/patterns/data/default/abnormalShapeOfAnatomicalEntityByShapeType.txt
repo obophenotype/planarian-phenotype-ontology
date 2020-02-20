@@ -3,7 +3,6 @@ http://purl.obolibrary.org/obo/PATO_0001799
 http://purl.obolibrary.org/obo/PATO_0000405
 http://purl.obolibrary.org/obo/PLANA_0000418
 http://purl.obolibrary.org/obo/PLANA_0002118
-http://purl.obolibrary.org/obo/BSPO_0000384
 http://purl.obolibrary.org/obo/PLANP_0000493
 http://purl.obolibrary.org/obo/PLANP_0000797
 http://purl.obolibrary.org/obo/PLANP_0000796
@@ -19,5 +18,6 @@ http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/PLANA_0000421
 http://purl.obolibrary.org/obo/PLANP_0000800
 http://purl.obolibrary.org/obo/BFO_0000051
+http://purl.obolibrary.org/obo/PLANA_0000143
 http://purl.obolibrary.org/obo/PATO_0002164
 http://purl.obolibrary.org/obo/PLANP_0000491

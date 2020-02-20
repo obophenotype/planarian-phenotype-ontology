@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
 PLANP:0000518	abnormal number of eyes	PLANA:0000036	eye
 PLANP:0000526	abnormal number of heads	PLANA:0000418	head
 PLANP:0000530	abnormal number of tails	PLANA:0000421	tail

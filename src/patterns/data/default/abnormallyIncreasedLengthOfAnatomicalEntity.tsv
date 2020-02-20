@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
 PLANP:0000522	long head	PLANA:0000418	head
-PLANP:0000523	long tail	PLANA:0000421	tail	
+PLANP:0000523	long tail	PLANA:0000421	tail
 PLANP:0000792	long animal	PLANA:0000136	whole organism
