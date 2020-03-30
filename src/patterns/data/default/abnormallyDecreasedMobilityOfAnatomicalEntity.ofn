@@ -23,10 +23,10 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000791> (default)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000791> (decreased mobility of animal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000791> "Decreased or reduced ability to move whole organism."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000791> "default"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000791> "decreased mobility of animal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000791> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002283> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000136>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 

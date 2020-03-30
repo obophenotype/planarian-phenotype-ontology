@@ -1,0 +1,4 @@
+defined_class	defined_class_name	anatomical_entity	entity_label
+PLANP:0000520	loss of pigmentation in the eye	PLANA:0000036	eye
+PLANP:0000539	loss of pigmentation in the epidermis	PLANA:0000034	epidermis
+PLANP:0000807	loss of pigmenation in the head	PLANA:0000418	head

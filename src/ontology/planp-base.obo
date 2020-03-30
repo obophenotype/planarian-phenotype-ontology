@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-02-20/planp-base.owl
+data-version: planp/releases/2020-03-28/planp-base.owl
 ontology: planp/planp-base
 property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Planarian Phenotype Ontology (PLANP)" xsd:string
@@ -12,85 +12,85 @@ name: Planarian Phenotype
 
 [Term]
 id: PLANP:0000001
-name: default
+name: abnormal cytoplasmic vesicle part
 def: "Abnormality of cytoplasmic vesicle part." []
 synonym: "abnormality of cytoplasmic vesicle part" EXACT []
 
 [Term]
 id: PLANP:0000002
-name: default
+name: abnormal medial-lateral axis
 def: "Abnormality of medial-lateral axis of the whole animal." []
 synonym: "abnormality of medial-lateral axis of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000003
-name: default
+name: abnormal oviduct lumen
 def: "Abnormality of oviduct lumen." []
 synonym: "abnormality of oviduct lumen" EXACT []
 
 [Term]
 id: PLANP:0000004
-name: default
+name: abnormal Category 4 cell
 def: "Abnormality of Category 4 cell." []
 synonym: "abnormality of Category 4 cell" EXACT []
 
 [Term]
 id: PLANP:0000006
-name: default
+name: abnormal zygote
 def: "Abnormality of zygote." []
 synonym: "abnormality of zygote" EXACT []
 
 [Term]
 id: PLANP:0000008
-name: default
+name: abnormal male primordial germ cell
 def: "Abnormality of male primordial germ cell." []
 synonym: "abnormality of male primordial germ cell" EXACT []
 
 [Term]
 id: PLANP:0000009
-name: default
+name: abnormal yolk cell
 def: "Abnormality of yolk cell." []
 synonym: "abnormality of yolk cell" EXACT []
 
 [Term]
 id: PLANP:0000010
-name: default
+name: abnormal fission plane
 def: "Abnormality of fission plane." []
 synonym: "abnormality of fission plane" EXACT []
 
 [Term]
 id: PLANP:0000011
-name: default
+name: abnormal central nervous system neuron
 def: "Abnormality of central nervous system neuron." []
 synonym: "abnormality of central nervous system neuron" EXACT []
 
 [Term]
 id: PLANP:0000012
-name: default
+name: abnormal pharynx musculature
 def: "Abnormality of pharynx musculature." []
 synonym: "abnormality of pharynx musculature" EXACT []
 
 [Term]
 id: PLANP:0000014
-name: default
+name: abnormal collecting duct
 def: "Abnormality of collecting duct." []
 synonym: "abnormality of collecting duct" EXACT []
 
 [Term]
 id: PLANP:0000015
-name: default
+name: abnormal nucleolus
 def: "Abnormality of nucleolus." []
 synonym: "abnormality of nucleolus" EXACT []
 
 [Term]
 id: PLANP:0000016
-name: default
+name: abnormal outer longitudinal muscle cell
 def: "Abnormality of outer longitudinal muscle cell." []
 synonym: "abnormality of outer longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000017
-name: default
+name: abnormal tail stripe
 def: "Abnormality of tail stripe." []
 synonym: "abnormality of tail stripe" EXACT []
 
@@ -101,121 +101,121 @@ comment: no longer designating mediolateral regions using the contained_in objec
 
 [Term]
 id: PLANP:0000019
-name: default
+name: abnormal Smed sexual biotype
 def: "Abnormality of Smed sexual biotype." []
 synonym: "abnormality of Smed sexual biotype" EXACT []
 
 [Term]
 id: PLANP:0000020
-name: default
+name: abnormal rough endoplasmic reticulum
 def: "Abnormality of rough endoplasmic reticulum." []
 synonym: "abnormality of rough endoplasmic reticulum" EXACT []
 
 [Term]
 id: PLANP:0000021
-name: default
+name: abnormal renal system
 def: "Abnormality of renal system." []
 synonym: "abnormality of renal system" EXACT []
 
 [Term]
 id: PLANP:0000022
-name: default
+name: abnormal brain commissure
 def: "Abnormality of brain commissure." []
 synonym: "abnormality of brain commissure" EXACT []
 
 [Term]
 id: PLANP:0000023
-name: default
+name: abnormal oviduct
 def: "Abnormality of oviduct." []
 synonym: "abnormality of oviduct" EXACT []
 
 [Term]
 id: PLANP:0000027
-name: default
+name: abnormal primitive ectoderm surface
 def: "Abnormality of primitive ectoderm surface." []
 synonym: "abnormality of primitive ectoderm surface" EXACT []
 
 [Term]
 id: PLANP:0000029
-name: default
+name: abnormal neoblast
 def: "Abnormality of neoblast." []
 synonym: "abnormality of neoblast" EXACT []
 
 [Term]
 id: PLANP:0000032
-name: default
+name: abnormal reproductive system product
 def: "Abnormality of reproductive system product." []
 synonym: "abnormality of reproductive system product" EXACT []
 
 [Term]
 id: PLANP:0000033
-name: default
+name: abnormal pharynx inner longitudinal muscle cell
 def: "Abnormality of pharynx inner longitudinal muscle cell." []
 synonym: "abnormality of pharynx inner longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000036
-name: default
+name: abnormal tail
 def: "Abnormality of tail." []
 synonym: "abnormality of tail" EXACT []
 
 [Term]
 id: PLANP:0000038
-name: default
+name: abnormal prepharyngeal region
 def: "Abnormality of prepharyngeal region." []
 synonym: "abnormality of prepharyngeal region" EXACT []
 
 [Term]
 id: PLANP:0000039
-name: default
+name: abnormal extracellular organelle
 def: "Abnormality of extracellular organelle." []
 synonym: "abnormality of extracellular organelle" EXACT []
 
 [Term]
 id: PLANP:0000041
-name: default
+name: abnormal distal tubule epithelial cell
 def: "Abnormality of distal tubule epithelial cell." []
 synonym: "abnormality of distal tubule epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000042
-name: default
+name: abnormal proximal tubule
 def: "Abnormality of proximal tubule." []
 synonym: "abnormality of proximal tubule" EXACT []
 
 [Term]
 id: PLANP:0000043
-name: default
+name: abnormal organ
 def: "Abnormality of organ." []
 synonym: "abnormality of organ" EXACT []
 
 [Term]
 id: PLANP:0000044
-name: default
+name: abnormal pigment cup cell
 def: "Abnormality of pigment cup cell." []
 synonym: "abnormality of pigment cup cell" EXACT []
 
 [Term]
 id: PLANP:0000045
-name: default
+name: abnormal glial cell
 def: "Abnormality of glial cell." []
 synonym: "abnormality of glial cell" EXACT []
 
 [Term]
 id: PLANP:0000046
-name: default
+name: abnormal eye
 def: "Abnormality of eye." []
 synonym: "abnormality of eye" EXACT []
 
 [Term]
 id: PLANP:0000047
-name: default
+name: abnormal goblet cell
 def: "Abnormality of goblet cell." []
 synonym: "abnormality of goblet cell" EXACT []
 
 [Term]
 id: PLANP:0000048
-name: default
+name: abnormal gastrodermis surface
 def: "Abnormality of gastrodermis surface." []
 synonym: "abnormality of gastrodermis surface" EXACT []
 
@@ -226,61 +226,61 @@ comment: let odk import from BSPO if needed
 
 [Term]
 id: PLANP:0000050
-name: default
+name: abnormal bipolar neuron
 def: "Abnormality of bipolar neuron." []
 synonym: "abnormality of bipolar neuron" EXACT []
 
 [Term]
 id: PLANP:0000051
-name: default
+name: abnormal definitive pharynx
 def: "Abnormality of pharynx." []
 synonym: "abnormality of pharynx" EXACT []
 
 [Term]
 id: PLANP:0000052
-name: default
+name: abnormal ventral epidermis
 def: "Abnormality of ventral epidermis." []
 synonym: "abnormality of ventral epidermis" EXACT []
 
 [Term]
 id: PLANP:0000053
-name: default
+name: abnormal cintillo+ sensory neuron
 def: "Abnormality of cintillo+ sensory neuron." []
 synonym: "abnormality of cintillo+ sensory neuron" EXACT []
 
 [Term]
 id: PLANP:0000054
-name: default
+name: abnormal pharynx lumen
 def: "Abnormality of pharynx lumen." []
 synonym: "abnormality of pharynx lumen" EXACT []
 
 [Term]
 id: PLANP:0000056
-name: default
+name: abnormal sigma neoblast
 def: "Abnormality of sigma neoblast." []
 synonym: "abnormality of sigma neoblast" EXACT []
 
 [Term]
 id: PLANP:0000057
-name: default
+name: abnormal inner longitudinal muscle cell
 def: "Abnormality of inner longitudinal muscle cell." []
 synonym: "abnormality of inner longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000058
-name: default
+name: abnormal pharynx epithelium
 def: "Abnormality of pharynx epithelium." []
 synonym: "abnormality of pharynx epithelium" EXACT []
 
 [Term]
 id: PLANP:0000059
-name: default
+name: abnormal extraembryonic cell
 def: "Abnormality of extraembryonic cell." []
 synonym: "abnormality of extraembryonic cell" EXACT []
 
 [Term]
 id: PLANP:0000060
-name: default
+name: abnormal head
 def: "Abnormality of head." []
 synonym: "abnormality of head" EXACT []
 
@@ -296,31 +296,31 @@ comment: removing all processes. may bring back if PLANA expanded to cover proce
 
 [Term]
 id: PLANP:0000065
-name: default
+name: abnormal copulatory apparatus
 def: "Abnormality of copulatory apparatus." []
 synonym: "abnormality of copulatory apparatus" EXACT []
 
 [Term]
 id: PLANP:0000067
-name: default
+name: abnormal intracellular non-membrane-bounded organelle
 def: "Abnormality of intracellular non-membrane-bounded organelle." []
 synonym: "abnormality of intracellular non-membrane-bounded organelle" EXACT []
 
 [Term]
 id: PLANP:0000069
-name: default
+name: abnormal Stage 1
 def: "Abnormality of Stage 1." []
 synonym: "abnormality of Stage 1" EXACT []
 
 [Term]
 id: PLANP:0000070
-name: default
+name: abnormal autonomic neuron
 def: "Abnormality of autonomic neuron." []
 synonym: "abnormality of autonomic neuron" EXACT []
 
 [Term]
 id: PLANP:0000071
-name: default
+name: abnormal basal surface of the epidermis
 def: "Abnormality of basal surface of the epidermis." []
 synonym: "abnormality of basal surface of the epidermis" EXACT []
 
@@ -331,49 +331,49 @@ comment: term is not needed.
 
 [Term]
 id: PLANP:0000076
-name: default
+name: abnormal embryonic gut cell
 def: "Abnormality of embryonic gut cell." []
 synonym: "abnormality of embryonic gut cell" EXACT []
 
 [Term]
 id: PLANP:0000078
-name: default
+name: abnormal rhabdite
 def: "Abnormality of rhabdite." []
 synonym: "abnormality of rhabdite" EXACT []
 
 [Term]
 id: PLANP:0000079
-name: default
+name: abnormal protonephridia
 def: "Abnormality of protonephridia." []
 synonym: "abnormality of protonephridia" EXACT []
 
 [Term]
 id: PLANP:0000080
-name: default
+name: abnormal round spermatid
 def: "Abnormality of round spermatid." []
 synonym: "abnormality of round spermatid" EXACT []
 
 [Term]
 id: PLANP:0000082
-name: default
+name: abnormal basal lamina of epithelium
 def: "Abnormality of basal lamina of epithelium." []
 synonym: "abnormality of basal lamina of epithelium" EXACT []
 
 [Term]
 id: PLANP:0000083
-name: default
+name: abnormal mechanoreceptor cell
 def: "Abnormality of mechanoreceptor cell." []
 synonym: "abnormality of mechanoreceptor cell" EXACT []
 
 [Term]
 id: PLANP:0000084
-name: default
+name: abnormal Stage 6
 def: "Abnormality of Stage 6." []
 synonym: "abnormality of Stage 6" EXACT []
 
 [Term]
 id: PLANP:0000085
-name: default
+name: abnormal pharynx outer nerve plexus
 def: "Abnormality of pharynx outer nerve plexus." []
 synonym: "abnormality of pharynx outer nerve plexus" EXACT []
 
@@ -389,55 +389,55 @@ comment: extra layer of complexity not needed upon further examination
 
 [Term]
 id: PLANP:0000088
-name: default
+name: abnormal peripheral nervous system neuron
 def: "Abnormality of peripheral nervous system neuron." []
 synonym: "abnormality of peripheral nervous system neuron" EXACT []
 
 [Term]
 id: PLANP:0000090
-name: default
+name: abnormal embryonic digestive system
 def: "Abnormality of embryonic digestive system." []
 synonym: "abnormality of embryonic digestive system" EXACT []
 
 [Term]
 id: PLANP:0000091
-name: default
+name: abnormal muscle cell
 def: "Abnormality of muscle cell." []
 synonym: "abnormality of muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000092
-name: default
+name: abnormal dopaminergic neuron
 def: "Abnormality of dopaminergic neuron." []
 synonym: "abnormality of dopaminergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000093
-name: default
+name: abnormal aboral hemisphere
 def: "Abnormality of aboral hemisphere." []
 synonym: "abnormality of aboral hemisphere" EXACT []
 
 [Term]
 id: PLANP:0000094
-name: default
+name: abnormal cell-cell adhesion
 def: "Abnormality of cell-cell adhesion." []
 synonym: "abnormality of cell-cell adhesion" EXACT []
 
 [Term]
 id: PLANP:0000095
-name: default
+name: abnormal nuclear pore
 def: "Abnormality of nuclear pore." []
 synonym: "abnormality of nuclear pore" EXACT []
 
 [Term]
 id: PLANP:0000096
-name: default
+name: abnormal sensory cell
 def: "Abnormality of sensory cell." []
 synonym: "abnormality of sensory cell" EXACT []
 
 [Term]
 id: PLANP:0000097
-name: default
+name: abnormal ribosome
 def: "Abnormality of ribosome." []
 synonym: "abnormality of ribosome" EXACT []
 
@@ -448,7 +448,7 @@ comment: extra layer of complexity not needed upon further examination
 
 [Term]
 id: PLANP:0000099
-name: default
+name: abnormal gamma neoblast
 def: "Abnormality of gamma neoblast." []
 synonym: "abnormality of gamma neoblast" EXACT []
 
@@ -459,427 +459,427 @@ comment: no longer designating mediolateral regions using the contained_in objec
 
 [Term]
 id: PLANP:0000103
-name: default
+name: abnormal posterior pole
 def: "Abnormality of posterior pole." []
 synonym: "abnormality of posterior pole" EXACT []
 
 [Term]
 id: PLANP:0000104
-name: default
+name: abnormal oocyte
 def: "Abnormality of oocyte." []
 synonym: "abnormality of oocyte" EXACT []
 
 [Term]
 id: PLANP:0000105
-name: default
+name: abnormal sperm duct epithelium
 def: "Abnormality of sperm duct epithelium." []
 synonym: "abnormality of sperm duct epithelium" EXACT []
 
 [Term]
 id: PLANP:0000108
-name: default
+name: abnormal gamete
 def: "Abnormality of gamete." []
 synonym: "abnormality of gamete" EXACT []
 
 [Term]
 id: PLANP:0000109
-name: default
+name: abnormal embryonic pharynx
 def: "Abnormality of embryonic pharynx." []
 synonym: "abnormality of embryonic pharynx" EXACT []
 
 [Term]
 id: PLANP:0000110
-name: default
+name: abnormal cell-cell contact zone
 def: "Abnormality of cell-cell contact zone." []
 synonym: "abnormality of cell-cell contact zone" EXACT []
 
 [Term]
 id: PLANP:0000111
-name: default
+name: abnormal releasing gland cell
 def: "Abnormality of releasing gland cell." []
 synonym: "abnormality of releasing gland cell" EXACT []
 
 [Term]
 id: PLANP:0000112
-name: default
+name: abnormal testis somatic gonadal cell
 def: "Abnormality of testis somatic gonadal cell." []
 synonym: "abnormality of testis somatic gonadal cell" EXACT []
 
 [Term]
 id: PLANP:0000113
-name: default
+name: abnormal bursal canal
 def: "Abnormality of bursal canal." []
 synonym: "abnormality of bursal canal" EXACT []
 
 [Term]
 id: PLANP:0000114
-name: default
+name: abnormal lateral branch
 def: "Abnormality of lateral branch." []
 synonym: "abnormality of lateral branch" EXACT []
 
 [Term]
 id: PLANP:0000115
-name: default
+name: abnormal dorsal stripe
 def: "Abnormality of dorsal stripe." []
 synonym: "abnormality of dorsal stripe" EXACT []
 
 [Term]
 id: PLANP:0000116
-name: default
+name: abnormal embryonic structure
 def: "Abnormality of embryonic structure." []
 synonym: "abnormality of embryonic structure" EXACT []
 
 [Term]
 id: PLANP:0000117
-name: default
+name: abnormal epidermal progenitor cell
 def: "Abnormality of epidermal progenitor cell." []
 synonym: "abnormality of epidermal progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000119
-name: default
+name: abnormal chromatin
 def: "Abnormality of chromatin." []
 synonym: "abnormality of chromatin" EXACT []
 
 [Term]
 id: PLANP:0000121
-name: default
+name: abnormal Stage 4
 def: "Abnormality of Stage 4." []
 synonym: "abnormality of Stage 4" EXACT []
 
 [Term]
 id: PLANP:0000122
-name: default
+name: abnormal anchor cell
 def: "Abnormality of anchor cell." []
 synonym: "abnormality of anchor cell" EXACT []
 
 [Term]
 id: PLANP:0000124
-name: default
+name: abnormal klf+ sensory neuron progenitor cell
 def: "Abnormality of klf+ sensory neuron progenitor cell." []
 synonym: "abnormality of klf+ sensory neuron progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000125
-name: default
+name: abnormal optic chiasm
 def: "Abnormality of optic chiasm." []
 synonym: "abnormality of optic chiasm" EXACT []
 
 [Term]
 id: PLANP:0000126
-name: default
+name: abnormal primitive ectoderm cell
 def: "Abnormality of primitive ectoderm cell." []
 synonym: "abnormality of primitive ectoderm cell" EXACT []
 
 [Term]
 id: PLANP:0000127
-name: default
+name: abnormal oviduct epithelial cell
 def: "Abnormality of oviduct epithelial cell." []
 synonym: "abnormality of oviduct epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000128
-name: default
+name: abnormal male germ cell
 def: "Abnormality of male germ cell." []
 synonym: "abnormality of male germ cell" EXACT []
 
 [Term]
 id: PLANP:0000129
-name: default
+name: abnormal longitudinal muscle cell
 def: "Abnormality of longitudinal muscle cell." []
 synonym: "abnormality of longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000130
-name: default
+name: abnormal oral opening
 def: "Abnormality of oral opening." []
 synonym: "abnormality of oral opening" EXACT []
 
 [Term]
 id: PLANP:0000131
-name: default
+name: abnormal membrane-bounded organelle
 def: "Abnormality of membrane-bounded organelle." []
 synonym: "abnormality of membrane-bounded organelle" EXACT []
 
 [Term]
 id: PLANP:0000132
-name: default
+name: abnormal spermatogonium
 def: "Abnormality of spermatogonium." []
 synonym: "abnormality of spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000135
-name: default
+name: abnormal dorsal epidermis
 def: "Abnormality of dorsal region of the epidermis." []
 synonym: "abnormality of dorsal region of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000136
-name: default
+name: abnormal seminal vesicle
 def: "Abnormality of seminal vesicle." []
 synonym: "abnormality of seminal vesicle" EXACT []
 
 [Term]
 id: PLANP:0000138
-name: default
+name: abnormal extraembryonic structure
 def: "Abnormality of extraembryonic structure." []
 synonym: "abnormality of extraembryonic structure" EXACT []
 
 [Term]
 id: PLANP:0000139
-name: default
+name: abnormal Stage 3
 def: "Abnormality of Stage 3." []
 synonym: "abnormality of Stage 3" EXACT []
 
 [Term]
 id: PLANP:0000140
-name: default
+name: abnormal adhesion gland
 def: "Abnormality of adhesion gland." []
 synonym: "abnormality of adhesion gland" EXACT []
 
 [Term]
 id: PLANP:0000143
-name: default
+name: abnormal neural progenitor
 def: "Abnormality of neural progenitor cell." []
 synonym: "abnormality of neural progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000144
-name: default
+name: abnormal yolk syncytium
 def: "Abnormality of yolk syncytium." []
 synonym: "abnormality of yolk syncytium" EXACT []
 
 [Term]
 id: PLANP:0000145
-name: default
+name: abnormal plasma membrane
 def: "Abnormality of plasma membrane." []
 synonym: "abnormality of plasma membrane" EXACT []
 
 [Term]
 id: PLANP:0000146
-name: default
+name: abnormal cytoplasmic part
 def: "Abnormality of cytoplasmic part." []
 synonym: "abnormality of cytoplasmic part" EXACT []
 
 [Term]
 id: PLANP:0000147
-name: default
+name: abnormal unipolar neuron
 def: "Abnormality of unipolar neuron." []
 synonym: "abnormality of unipolar neuron" EXACT []
 
 [Term]
 id: PLANP:0000149
-name: default
+name: abnormal cephalic ganglia
 def: "Abnormality of cephalic ganglia." []
 synonym: "abnormality of cephalic ganglia" EXACT []
 
 [Term]
 id: PLANP:0000150
-name: default
+name: abnormal ciliated epithelial cell
 def: "Abnormality of ciliated epithelial cell." []
 synonym: "abnormality of ciliated epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000151
-name: default
+name: abnormal sperm duct
 def: "Abnormality of sperm duct." []
 synonym: "abnormality of sperm duct" EXACT []
 
 [Term]
 id: PLANP:0000152
-name: default
+name: abnormal anterior pole progenitor cell
 def: "Abnormality of anterior pole progenitor cell." []
 synonym: "abnormality of anterior pole progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000153
-name: default
+name: abnormal anterior-posterior axis
 def: "Abnormality of anterior-posterior axis of the whole animal." []
 synonym: "abnormality of anterior-posterior axis of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000154
-name: default
+name: abnormal plasma membrane part
 def: "Abnormality of plasma membrane part." []
 synonym: "abnormality of plasma membrane part" EXACT []
 
 [Term]
 id: PLANP:0000155
-name: default
+name: abnormal embryonic pharynx circular muscle cell
 def: "Abnormality of embryonic pharynx circular muscle cell." []
 synonym: "abnormality of embryonic pharynx circular muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000156
-name: default
+name: abnormal submuscular nerve plexus
 def: "Abnormality of submuscular nerve plexus." []
 synonym: "abnormality of submuscular nerve plexus" EXACT []
 
 [Term]
 id: PLANP:0000158
-name: default
+name: abnormal female primordial germ cell
 def: "Abnormality of female primordial germ cell." []
 synonym: "abnormality of female primordial germ cell" EXACT []
 
 [Term]
 id: PLANP:0000159
-name: default
+name: abnormal photoreceptor neuron
 def: "Abnormality of photoreceptor neuron." []
 synonym: "abnormality of photoreceptor neuron" EXACT []
 
 [Term]
 id: PLANP:0000160
-name: default
+name: abnormal asexual adult
 def: "Abnormality of asexual adult." []
 synonym: "abnormality of asexual adult" EXACT []
 
 [Term]
 id: PLANP:0000161
-name: default
+name: abnormal gonad
 def: "Abnormality of gonad." []
 synonym: "abnormality of gonad" EXACT []
 
 [Term]
 id: PLANP:0000164
-name: default
+name: abnormal ventral nerve cord
 def: "Abnormality of ventral nerve cord." []
 synonym: "abnormality of ventral nerve cord" EXACT []
 
 [Term]
 id: PLANP:0000165
-name: default
+name: abnormal embryonic wall
 def: "Abnormality of embryonic wall." []
 synonym: "abnormality of embryonic wall" EXACT []
 
 [Term]
 id: PLANP:0000166
-name: default
+name: abnormal testis nerve plexus
 def: "Abnormality of testis nerve plexus." []
 synonym: "abnormality of testis nerve plexus" EXACT []
 
 [Term]
 id: PLANP:0000167
-name: default
+name: abnormal pharynx radial muscle cell
 def: "Abnormality of pharynx radial muscle cell." []
 synonym: "abnormality of pharynx radial muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000169
-name: default
+name: abnormal clonogenic neoblast
 def: "Abnormality of clonogenic neoblast." []
 synonym: "abnormality of clonogenic neoblast" EXACT []
 
 [Term]
 id: PLANP:0000170
-name: default
+name: abnormal nuclear part
 def: "Abnormality of nuclear part." []
 synonym: "abnormality of nuclear part" EXACT []
 
 [Term]
 id: PLANP:0000173
-name: default
+name: abnormal sensory system
 def: "Abnormality of sensory system." []
 synonym: "abnormality of sensory system" EXACT []
 
 [Term]
 id: PLANP:0000175
-name: default
+name: abnormal gut
 def: "Abnormality of gut." []
 synonym: "abnormality of gut" EXACT []
 
 [Term]
 id: PLANP:0000177
-name: default
+name: abnormal dorsal ventral margin
 def: "Abnormality of dorsal ventral margin of the whole animal." []
 synonym: "abnormality of dorsal ventral margin of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000179
-name: default
+name: abnormal ovary
 def: "Abnormality of ovary." []
 synonym: "abnormality of ovary" EXACT []
 
 [Term]
 id: PLANP:0000181
-name: default
+name: abnormal GABAergic neuron
 def: "Abnormality of GABAergic neuron." []
 synonym: "abnormality of GABAergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000183
-name: default
+name: abnormal electrically responsive cell
 def: "Abnormality of electrically responsive cell." []
 synonym: "abnormality of electrically responsive cell" EXACT []
 
 [Term]
 id: PLANP:0000185
-name: default
+name: abnormal pharynx pouch
 def: "Abnormality of pharynx pouch." []
 synonym: "abnormality of pharynx pouch" EXACT []
 
 [Term]
 id: PLANP:0000186
-name: default
+name: abnormal musculature system
 def: "Abnormality of musculature system." []
 synonym: "abnormality of musculature system" EXACT []
 
 [Term]
 id: PLANP:0000187
-name: default
+name: abnormal actin-based cell projection
 def: "Abnormality of actin-based cell projection." []
 synonym: "abnormality of actin-based cell projection" EXACT []
 
 [Term]
 id: PLANP:0000188
-name: default
+name: abnormal efferent neuron
 def: "Abnormality of efferent neuron." []
 synonym: "abnormality of efferent neuron" EXACT []
 
 [Term]
 id: PLANP:0000191
-name: default
+name: abnormal embryonic pharynx lumen
 def: "Abnormality of embryonic pharynx lumen." []
 synonym: "abnormality of embryonic pharynx lumen" EXACT []
 
 [Term]
 id: PLANP:0000192
-name: default
+name: abnormal non-membrane-bounded organelle
 def: "Abnormality of non-membrane-bounded organelle." []
 synonym: "abnormality of non-membrane-bounded organelle" EXACT []
 
 [Term]
 id: PLANP:0000193
-name: default
+name: abnormal parapharyngeal region
 def: "Abnormality of parapharyngeal region." []
 synonym: "abnormality of parapharyngeal region" EXACT []
 
 [Term]
 id: PLANP:0000194
-name: default
+name: abnormal oral hemisphere
 def: "Abnormality of oral hemisphere." []
 synonym: "abnormality of oral hemisphere" EXACT []
 
 [Term]
 id: PLANP:0000196
-name: default
+name: abnormal electrically signaling cell
 def: "Abnormality of electrically signaling cell." []
 synonym: "abnormality of electrically signaling cell" EXACT []
 
 [Term]
 id: PLANP:0000198
-name: default
+name: abnormal visual system
 def: "Abnormality of visual system." []
 synonym: "abnormality of visual system" EXACT []
 
 [Term]
 id: PLANP:0000199
-name: default
+name: abnormal nervous system
 def: "Abnormality of nervous system." []
 synonym: "abnormality of nervous system" EXACT []
 
 [Term]
 id: PLANP:0000200
-name: default
+name: abnormal nucleus
 def: "Abnormality of nucleus." []
 synonym: "abnormality of nucleus" EXACT []
 
@@ -890,7 +890,7 @@ comment: removing all processes. may bring back if PLANA expanded to cover proce
 
 [Term]
 id: PLANP:0000202
-name: default
+name: abnormal anatomical system
 def: "Abnormality of anatomical system." []
 synonym: "abnormality of anatomical system" EXACT []
 
@@ -901,91 +901,91 @@ comment: removing all processes. may bring back if PLANA expanded to cover proce
 
 [Term]
 id: PLANP:0000205
-name: default
+name: abnormal gland cell
 def: "Abnormality of gland cell." []
 synonym: "abnormality of gland cell" EXACT []
 
 [Term]
 id: PLANP:0000206
-name: default
+name: abnormal bounding membrane of organelle
 def: "Abnormality of bounding membrane of organelle." []
 synonym: "abnormality of bounding membrane of organelle" EXACT []
 
 [Term]
 id: PLANP:0000207
-name: default
+name: abnormal Category 3 cell
 def: "Abnormality of Category 3 cell." []
 synonym: "abnormality of Category 3 cell" EXACT []
 
 [Term]
 id: PLANP:0000209
-name: default
+name: abnormal gastrodermis
 def: "Abnormality of gastrodermis." []
 synonym: "abnormality of gastrodermis" EXACT []
 
 [Term]
 id: PLANP:0000211
-name: default
+name: abnormal non ciliated epithelial cell
 def: "Abnormality of non ciliated epithelial cell." []
 synonym: "abnormality of non ciliated epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000212
-name: default
+name: abnormal pharynx longitudinal muscle cell
 def: "Abnormality of pharynx longitudinal muscle cell." []
 synonym: "abnormality of pharynx longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000213
-name: default
+name: abnormal left-right axis
 def: "Abnormality of left-right axis of the whole animal." []
 synonym: "abnormality of left-right axis of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000214
-name: default
+name: abnormal trail cell
 def: "Abnormality of trail cell." []
 synonym: "abnormality of trail cell" EXACT []
 
 [Term]
 id: PLANP:0000215
-name: default
+name: abnormal blastomere
 def: "Abnormality of blastomere." []
 synonym: "abnormality of blastomere" EXACT []
 
 [Term]
 id: PLANP:0000216
-name: default
+name: abnormal oogonial cell
 def: "Abnormality of oogonial cell." []
 synonym: "abnormality of oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000218
-name: default
+name: abnormal Stage 8
 def: "Abnormality of Stage 8." []
 synonym: "abnormality of Stage 8" EXACT []
 
 [Term]
 id: PLANP:0000219
-name: default
+name: abnormal copulatory region
 def: "Abnormality of copulatory region." []
 synonym: "abnormality of copulatory region" EXACT []
 
 [Term]
 id: PLANP:0000220
-name: default
+name: abnormal Golgi apparatus
 def: "Abnormality of Golgi apparatus." []
 synonym: "abnormality of Golgi apparatus" EXACT []
 
 [Term]
 id: PLANP:0000221
-name: default
+name: abnormal spermatid
 def: "Abnormality of spermatid." []
 synonym: "abnormality of spermatid" EXACT []
 
 [Term]
 id: PLANP:0000222
-name: default
+name: abnormal definitive organism subdivision
 def: "Abnormality of definitive organism subdivision." []
 synonym: "abnormality of definitive organism subdivision" EXACT []
 
@@ -996,43 +996,43 @@ comment: removing all processes. may bring back if PLANA expanded to cover proce
 
 [Term]
 id: PLANP:0000226
-name: default
+name: abnormal vitelline gland
 def: "Abnormality of vitelline gland." []
 synonym: "abnormality of vitelline gland" EXACT []
 
 [Term]
 id: PLANP:0000228
-name: default
+name: abnormal embryonic pharynx neuron
 def: "Abnormality of embryonic pharynx neuron." []
 synonym: "abnormality of embryonic pharynx neuron" EXACT []
 
 [Term]
 id: PLANP:0000229
-name: default
+name: abnormal membrane
 def: "Abnormality of membrane." []
 synonym: "abnormality of membrane" EXACT []
 
 [Term]
 id: PLANP:0000230
-name: default
+name: abnormal flame cell
 def: "Abnormality of flame cell." []
 synonym: "abnormality of flame cell" EXACT []
 
 [Term]
 id: PLANP:0000232
-name: default
+name: abnormal cytoplasm
 def: "Abnormality of cytoplasm." []
 synonym: "abnormality of cytoplasm" EXACT []
 
 [Term]
 id: PLANP:0000233
-name: default
+name: abnormal oral-aboral axis
 def: "Abnormality of oral-aboral axis of the embryo." []
 synonym: "abnormality of oral-aboral axis of the embryo" EXACT []
 
 [Term]
 id: PLANP:0000234
-name: default
+name: abnormal zeta neoblast
 def: "Abnormality of zeta neoblast." []
 synonym: "abnormality of zeta neoblast" EXACT []
 
@@ -1043,19 +1043,19 @@ comment: removing all processes. may bring back if PLANA expanded to cover proce
 
 [Term]
 id: PLANP:0000237
-name: default
+name: abnormal juvenile
 def: "Abnormality of juvenile." []
 synonym: "abnormality of juvenile" EXACT []
 
 [Term]
 id: PLANP:0000238
-name: default
+name: abnormal central nervous system
 def: "Abnormality of central nervous system." []
 synonym: "abnormality of central nervous system" EXACT []
 
 [Term]
 id: PLANP:0000239
-name: default
+name: abnormal pharynx inner circular muscle cell
 def: "Abnormality of pharynx inner circular muscle cell." []
 synonym: "abnormality of pharynx inner circular muscle cell" EXACT []
 
@@ -1071,55 +1071,55 @@ comment: no longer designating mediolateral regions using the contained_in objec
 
 [Term]
 id: PLANP:0000242
-name: default
+name: abnormal motor neuron
 def: "Abnormality of motor neuron." []
 synonym: "abnormality of motor neuron" EXACT []
 
 [Term]
 id: PLANP:0000243
-name: default
+name: abnormal apical surface of the epidermis
 def: "Abnormality of apical surface of the epidermis." []
 synonym: "abnormality of apical surface of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000245
-name: default
+name: abnormal tuba
 def: "Abnormality of tuba." []
 synonym: "abnormality of tuba" EXACT []
 
 [Term]
 id: PLANP:0000246
-name: default
+name: abnormal posterior primary gut branch
 def: "Abnormality of posterior primary gut branch." []
 synonym: "abnormality of posterior primary gut branch" EXACT []
 
 [Term]
 id: PLANP:0000248
-name: default
+name: abnormal epithelial cell component
 def: "Abnormality of epithelial cell component." []
 synonym: "abnormality of epithelial cell component" EXACT []
 
 [Term]
 id: PLANP:0000250
-name: default
+name: abnormal spermatogonial stem cell
 def: "Abnormality of spermatogonial stem cell." []
 synonym: "abnormality of spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000251
-name: default
+name: abnormal ovary nerve plexus
 def: "Abnormality of ovary nerve plexus." []
 synonym: "abnormality of ovary nerve plexus" EXACT []
 
 [Term]
 id: PLANP:0000252
-name: default
+name: abnormal midline
 def: "Abnormality of midline." []
 synonym: "abnormality of midline" EXACT []
 
 [Term]
 id: PLANP:0000254
-name: default
+name: abnormal pharynx inner nerve plexus
 def: "Abnormality of pharynx inner nerve plexus." []
 synonym: "abnormality of pharynx inner nerve plexus" EXACT []
 
@@ -1130,13 +1130,13 @@ comment: now using patterned term ventral region PLANA:0000143
 
 [Term]
 id: PLANP:0000256
-name: default
+name: abnormal parenchymal musculature
 def: "Abnormality of parenchymal musculature." []
 synonym: "abnormality of parenchymal musculature" EXACT []
 
 [Term]
 id: PLANP:0000258
-name: default
+name: abnormal neuron projection bundle
 def: "Abnormality of neuron projection bundle." []
 synonym: "abnormality of neuron projection bundle" EXACT []
 
@@ -1152,7 +1152,7 @@ comment: extra layer of complexity not needed upon further examination
 
 [Term]
 id: PLANP:0000261
-name: default
+name: abnormal anatomical region
 def: "Abnormality of anatomical region." []
 synonym: "abnormality of anatomical region" EXACT []
 
@@ -1163,271 +1163,271 @@ comment: this term is not needed. All previous children of this term  (Stage 1, 
 
 [Term]
 id: PLANP:0000264
-name: default
+name: abnormal Category 2 cell
 def: "Abnormality of Category 2 cell." []
 synonym: "abnormality of Category 2 cell" EXACT []
 
 [Term]
 id: PLANP:0000265
-name: default
+name: abnormal cell-cell junction
 def: "Abnormality of cell-cell junction." []
 synonym: "abnormality of cell-cell junction" EXACT []
 
 [Term]
 id: PLANP:0000266
-name: default
+name: abnormal TrpA+ central nervous system neuron
 def: "Abnormality of TrpA+ central nervous system neuron." []
 synonym: "abnormality of TrpA+ central nervous system neuron" EXACT []
 
 [Term]
 id: PLANP:0000267
-name: default
+name: abnormal smooth endoplasmic reticulum
 def: "Abnormality of smooth endoplasmic reticulum." []
 synonym: "abnormality of smooth endoplasmic reticulum" EXACT []
 
 [Term]
 id: PLANP:0000268
-name: default
+name: abnormal terminally differentiated cell
 def: "Abnormality of terminally differentiated cell." []
 synonym: "abnormality of terminally differentiated cell" EXACT []
 
 [Term]
 id: PLANP:0000269
-name: default
+name: abnormal basophilic gland cell
 def: "Abnormality of basophilic gland cell." []
 synonym: "abnormality of basophilic gland cell" EXACT []
 
 [Term]
 id: PLANP:0000270
-name: default
+name: abnormal primordium
 def: "Abnormality of primordium." []
 synonym: "abnormality of primordium" EXACT []
 
 [Term]
 id: PLANP:0000271
-name: default
+name: abnormal euchromatin
 def: "Abnormality of euchromatin." []
 synonym: "abnormality of euchromatin" EXACT []
 
 [Term]
 id: PLANP:0000275
-name: default
+name: abnormal proximal tubule epithelial cell
 def: "Abnormality of proximal tubule epithelial cell." []
 synonym: "abnormality of proximal tubule epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000277
-name: default
+name: abnormal anterior pole
 def: "Abnormality of anterior pole." []
 synonym: "abnormality of anterior pole" EXACT []
 
 [Term]
 id: PLANP:0000279
-name: default
+name: abnormal oviduct epithelium
 def: "Abnormality of oviduct epithelium." []
 synonym: "abnormality of oviduct epithelium" EXACT []
 
 [Term]
 id: PLANP:0000280
-name: default
+name: abnormal testis
 def: "Abnormality of testis." []
 synonym: "abnormality of testis" EXACT []
 
 [Term]
 id: PLANP:0000281
-name: default
+name: abnormal Category 5 cell
 def: "Abnormality of Category 5 cell." []
 synonym: "abnormality of Category 5 cell" EXACT []
 
 [Term]
 id: PLANP:0000283
-name: default
+name: abnormal stem cell
 def: "Abnormality of stem cell." []
 synonym: "abnormality of stem cell" EXACT []
 
 [Term]
 id: PLANP:0000285
-name: default
+name: abnormal digestive system
 def: "Abnormality of digestive system." []
 synonym: "abnormality of digestive system" EXACT []
 
 [Term]
 id: PLANP:0000287
-name: default
+name: abnormal viscid gland cell
 def: "Abnormality of viscid gland cell." []
 synonym: "abnormality of viscid gland cell" EXACT []
 
 [Term]
 id: PLANP:0000288
-name: default
+name: abnormal germ cell
 def: "Abnormality of germ cell." []
 synonym: "abnormality of germ cell" EXACT []
 
 [Term]
 id: PLANP:0000289
-name: default
+name: abnormal embryo
 def: "Abnormality of embryo." []
 synonym: "abnormality of embryo" EXACT []
 
 [Term]
 id: PLANP:0000290
-name: default
+name: abnormal anterior commissure
 def: "Abnormality of anterior commissure." []
 synonym: "abnormality of anterior commissure" EXACT []
 
 [Term]
 id: PLANP:0000291
-name: default
+name: abnormal acidophilic gland cell
 def: "Abnormality of acidophilic gland cell." []
 synonym: "abnormality of acidophilic gland cell" EXACT []
 
 [Term]
 id: PLANP:0000293
-name: default
+name: abnormal tuba lumen
 def: "Abnormality of tuba lumen." []
 synonym: "abnormality of tuba lumen" EXACT []
 
 [Term]
 id: PLANP:0000294
-name: default
+name: abnormal Stage 5
 def: "Abnormality of Stage 5." []
 synonym: "abnormality of Stage 5" EXACT []
 
 [Term]
 id: PLANP:0000295
-name: default
+name: abnormal embryonic gut cavity
 def: "Abnormality of embryonic gut cavity." []
 synonym: "abnormality of embryonic gut cavity" EXACT []
 
 [Term]
 id: PLANP:0000296
-name: default
+name: abnormal pharynx pouch epithelial surface
 def: "Abnormality of pharynx pouch epithelial surface." []
 synonym: "abnormality of pharynx pouch epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000297
-name: default
+name: abnormal embryonic gut cell surface
 def: "Abnormality of embryonic gut cell surface." []
 synonym: "abnormality of embryonic gut cell surface" EXACT []
 
 [Term]
 id: PLANP:0000298
-name: default
+name: abnormal vacuole
 def: "Abnormality of vacuole." []
 synonym: "abnormality of vacuole" EXACT []
 
 [Term]
 id: PLANP:0000299
-name: default
+name: abnormal proximal-distal axis
 def: "Abnormality of proximal-distal axis of the whole animal." []
 synonym: "abnormality of proximal-distal axis of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000301
-name: default
+name: abnormal sperm duct lumen
 def: "Abnormality of sperm duct lumen." []
 synonym: "abnormality of sperm duct lumen" EXACT []
 
 [Term]
 id: PLANP:0000302
-name: default
+name: abnormal neuron associated cell (sensu Nematoda and Protostomia)
 def: "Abnormality of neuron associated cell (sensu Nematoda and Protostomia)." []
 synonym: "abnormality of neuron associated cell (sensu Nematoda and Protostomia)" EXACT []
 
 [Term]
 id: PLANP:0000304
-name: default
+name: abnormal progenitor cell
 def: "Abnormality of progenitor cell." []
 synonym: "abnormality of progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000305
-name: default
+name: abnormal biotype
 def: "Abnormality of biotype." []
 synonym: "abnormality of biotype" EXACT []
 
 [Term]
 id: PLANP:0000306
-name: default
+name: abnormal organelle
 def: "Abnormality of organelle." []
 synonym: "abnormality of organelle" EXACT []
 
 [Term]
 id: PLANP:0000307
-name: default
+name: abnormal embryonic subdivision
 def: "Abnormality of embryonic subdivision." []
 synonym: "abnormality of embryonic subdivision" EXACT []
 
 [Term]
 id: PLANP:0000309
-name: default
+name: abnormal neurosecretory neuron
 def: "Abnormality of neurosecretory neuron." []
 synonym: "abnormality of neurosecretory neuron" EXACT []
 
 [Term]
 id: PLANP:0000310
-name: default
+name: abnormal epithelial cell
 def: "Abnormality of epithelial cell." []
 synonym: "abnormality of epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000311
-name: default
+name: abnormal serotonergic neuron
 def: "Abnormality of serotonergic neuron." []
 synonym: "abnormality of serotonergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000312
-name: default
+name: abnormal muscle progenitor
 def: "Abnormality of muscle progenitor cell." []
 synonym: "abnormality of muscle progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000313
-name: default
+name: abnormal endoplasmic reticulum
 def: "Abnormality of endoplasmic reticulum." []
 synonym: "abnormality of endoplasmic reticulum" EXACT []
 
 [Term]
 id: PLANP:0000314
-name: default
+name: abnormal distal tubule
 def: "Abnormality of distal tubule." []
 synonym: "abnormality of distal tubule" EXACT []
 
 [Term]
 id: PLANP:0000315
-name: default
+name: abnormal copulatory bursa
 def: "Abnormality of copulatory bursa." []
 synonym: "abnormality of copulatory bursa" EXACT []
 
 [Term]
 id: PLANP:0000317
-name: default
+name: abnormal esophagus
 def: "Abnormality of esophagus." []
 synonym: "abnormality of esophagus" EXACT []
 
 [Term]
 id: PLANP:0000318
-name: default
+name: abnormal secondary gut branch
 def: "Abnormality of secondary gut branch." []
 synonym: "abnormality of secondary gut branch" EXACT []
 
 [Term]
 id: PLANP:0000320
-name: default
+name: abnormal Stage 2
 def: "Abnormality of Stage 2." []
 synonym: "abnormality of Stage 2" EXACT []
 
 [Term]
 id: PLANP:0000322
-name: default
+name: abnormal protonephridial progenitor
 def: "Abnormality of protonephridial progenitor cell." []
 synonym: "abnormality of protonephridial progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000323
-name: default
+name: abnormal ventral midline
 def: "Abnormality of ventral midline." []
 synonym: "abnormality of ventral midline" EXACT []
 
@@ -1443,85 +1443,85 @@ comment: term is not needed.
 
 [Term]
 id: PLANP:0000327
-name: default
+name: abnormal primtive gut cell surface
 def: "Abnormality of primtive gut cell surface." []
 synonym: "abnormality of primtive gut cell surface" EXACT []
 
 [Term]
 id: PLANP:0000329
-name: default
+name: abnormal egg capsule
 def: "Abnormality of egg capsule." []
 synonym: "abnormality of egg capsule" EXACT []
 
 [Term]
 id: PLANP:0000330
-name: default
+name: abnormal multipolar neuron
 def: "Abnormality of multipolar neuron." []
 synonym: "abnormality of multipolar neuron" EXACT []
 
 [Term]
 id: PLANP:0000331
-name: default
+name: abnormal secretory cell
 def: "Abnormality of secretory cell." []
 synonym: "abnormality of secretory cell" EXACT []
 
 [Term]
 id: PLANP:0000332
-name: default
+name: abnormal pharynx outer longitudinal muscle cell
 def: "Abnormality of pharynx outer longitudinal muscle cell." []
 synonym: "abnormality of pharynx outer longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000333
-name: default
+name: abnormal penis papilla
 def: "Abnormality of penis papilla." []
 synonym: "abnormality of penis papilla" EXACT []
 
 [Term]
 id: PLANP:0000334
-name: default
+name: abnormal TrpA+ neural progenitor cell
 def: "Abnormality of TrpA+ neural progenitor cell." []
 synonym: "abnormality of TrpA+ neural progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000335
-name: default
+name: abnormal interneuron
 def: "Abnormality of interneuron." []
 synonym: "abnormality of interneuron" EXACT []
 
 [Term]
 id: PLANP:0000336
-name: default
+name: abnormal subepidermal nerve plexus
 def: "Abnormality of subepidermal nerve plexus." []
 synonym: "abnormality of subepidermal nerve plexus" EXACT []
 
 [Term]
 id: PLANP:0000338
-name: default
+name: abnormal longitudinal muscle progenitor cell
 def: "Abnormality of longitudinal muscle progenitor cell." []
 synonym: "abnormality of longitudinal muscle progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000339
-name: default
+name: abnormal microvillus
 def: "Abnormality of microvillus." []
 synonym: "abnormality of microvillus" EXACT []
 
 [Term]
 id: PLANP:0000340
-name: default
+name: abnormal adult hermaphrodite
 def: "Abnormality of adult hermaphrodite." []
 synonym: "abnormality of adult hermaphrodite" EXACT []
 
 [Term]
 id: PLANP:0000341
-name: default
+name: abnormal mitochondrion
 def: "Abnormality of mitochondrion." []
 synonym: "abnormality of mitochondrion" EXACT []
 
 [Term]
 id: PLANP:0000342
-name: default
+name: abnormal enteric musculature
 def: "Abnormality of enteric musculature." []
 synonym: "abnormality of enteric musculature" EXACT []
 
@@ -1532,73 +1532,73 @@ comment: let odk import from BSPO if needed
 
 [Term]
 id: PLANP:0000345
-name: default
+name: abnormal dorsal midline
 def: "Abnormality of dorsal midline." []
 synonym: "abnormality of dorsal midline" EXACT []
 
 [Term]
 id: PLANP:0000346
-name: default
+name: abnormal ganglion
 def: "Abnormality of ganglion." []
 synonym: "abnormality of ganglion" EXACT []
 
 [Term]
 id: PLANP:0000348
-name: default
+name: abnormal pharynx lumen epithelial surface
 def: "Abnormality of pharynx inner epithelium surface." []
 synonym: "abnormality of pharynx inner epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000349
-name: default
+name: abnormal sperm
 def: "Abnormality of sperm." []
 synonym: "abnormality of sperm" EXACT []
 
 [Term]
 id: PLANP:0000350
-name: default
+name: abnormal serotonergic neural progenitor cell
 def: "Abnormality of serotonergic neural progenitor cell." []
 synonym: "abnormality of serotonergic neural progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000352
-name: default
+name: abnormal nerve plexus
 def: "Abnormality of nerve plexus." []
 synonym: "abnormality of nerve plexus" EXACT []
 
 [Term]
 id: PLANP:0000353
-name: default
+name: abnormal reproductive system
 def: "Abnormality of reproductive system." []
 synonym: "abnormality of reproductive system" EXACT []
 
 [Term]
 id: PLANP:0000354
-name: default
+name: abnormal afferent neuron
 def: "Abnormality of afferent neuron." []
 synonym: "abnormality of afferent neuron" EXACT []
 
 [Term]
 id: PLANP:0000355
-name: default
+name: abnormal neuropil
 def: "Abnormality of neuropil." []
 synonym: "abnormality of neuropil" EXACT []
 
 [Term]
 id: PLANP:0000356
-name: default
+name: abnormal intestinal phagocyte
 def: "Abnormality of intestinal phagocyte." []
 synonym: "abnormality of intestinal phagocyte" EXACT []
 
 [Term]
 id: PLANP:0000357
-name: default
+name: abnormal anterior primary gut branch
 def: "Abnormality of anterior primary gut branch." []
 synonym: "abnormality of anterior primary gut branch" EXACT []
 
 [Term]
 id: PLANP:0000358
-name: default
+name: abnormal intracellular part
 def: "Abnormality of intracellular part." []
 synonym: "abnormality of intracellular part" EXACT []
 
@@ -1609,7 +1609,7 @@ comment: no longer designating mediolateral regions using the contained_in objec
 
 [Term]
 id: PLANP:0000360
-name: default
+name: abnormal digestive tract lumen
 def: "Abnormality of digestive tract lumen." []
 synonym: "abnormality of digestive tract lumen" EXACT []
 
@@ -1620,343 +1620,343 @@ comment: causes problems with is a and part of relationships for inner and outer
 
 [Term]
 id: PLANP:0000363
-name: default
+name: abnormal cell
 def: "Abnormality of cell." []
 synonym: "abnormality of cell" EXACT []
 
 [Term]
 id: PLANP:0000364
-name: default
+name: abnormal axon tract
 def: "Abnormality of axon tract." []
 synonym: "abnormality of axon tract" EXACT []
 
 [Term]
 id: PLANP:0000365
-name: default
+name: abnormal peripheral nervous system
 def: "Abnormality of peripheral nervous system." []
 synonym: "abnormality of peripheral nervous system" EXACT []
 
 [Term]
 id: PLANP:0000366
-name: default
+name: abnormal cell projection
 def: "Abnormality of cell projection." []
 synonym: "abnormality of cell projection" EXACT []
 
 [Term]
 id: PLANP:0000367
-name: default
+name: abnormal commissural neuron
 def: "Abnormality of commissural neuron." []
 synonym: "abnormality of commissural neuron" EXACT []
 
 [Term]
 id: PLANP:0000370
-name: default
+name: abnormal pax3/7+ neural progenitor cell
 def: "Abnormality of pax3/7+ neural progenitor cell." []
 synonym: "abnormality of pax3/7+ neural progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000372
-name: default
+name: abnormal tissue
 def: "Abnormality of tissue." []
 synonym: "abnormality of tissue" EXACT []
 
 [Term]
 id: PLANP:0000373
-name: default
+name: abnormal intracellular organelle
 def: "Abnormality of intracellular organelle." []
 synonym: "abnormality of intracellular organelle" EXACT []
 
 [Term]
 id: PLANP:0000374
-name: default
+name: abnormal secretory vesicle
 def: "Abnormality of secretory vesicle." []
 synonym: "abnormality of secretory vesicle" EXACT []
 
 [Term]
 id: PLANP:0000375
-name: default
+name: abnormal optic cup
 def: "Abnormality of optic cup." []
 synonym: "abnormality of optic cup" EXACT []
 
 [Term]
 id: PLANP:0000376
-name: default
+name: abnormal pharynx circular muscle cell
 def: "Abnormality of pharynx circular muscle cell." []
 synonym: "abnormality of pharynx circular muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000378
-name: default
+name: abnormal enteric neuron
 def: "Abnormality of enteric neuron." []
 synonym: "abnormality of enteric neuron" EXACT []
 
 [Term]
 id: PLANP:0000379
-name: default
+name: abnormal embryonic cell
 def: "Abnormality of embryonic cell." []
 synonym: "abnormality of embryonic cell" EXACT []
 
 [Term]
 id: PLANP:0000380
-name: default
+name: abnormal Smed asexual biotype
 def: "Abnormality of Smed asexual biotype." []
 synonym: "abnormality of Smed asexual biotype" EXACT []
 
 [Term]
 id: PLANP:0000381
-name: default
+name: abnormal integumental system
 def: "Abnormality of integumental system." []
 synonym: "abnormality of integumental system" EXACT []
 
 [Term]
 id: PLANP:0000383
-name: default
+name: abnormal cement gland
 def: "Abnormality of cement gland." []
 synonym: "abnormality of cement gland" EXACT []
 
 [Term]
 id: PLANP:0000384
-name: default
+name: abnormal secretory system
 def: "Abnormality of secretory system." []
 synonym: "abnormality of secretory system" EXACT []
 
 [Term]
 id: PLANP:0000386
-name: default
+name: abnormal elongate spermatid
 def: "Abnormality of elongate spermatid." []
 synonym: "abnormality of elongate spermatid" EXACT []
 
 [Term]
 id: PLANP:0000387
-name: default
+name: abnormal lysosome
 def: "Abnormality of lysosome." []
 synonym: "abnormality of lysosome" EXACT []
 
 [Term]
 id: PLANP:0000388
-name: default
+name: abnormal membrane part
 def: "Abnormality of membrane part." []
 synonym: "abnormality of membrane part" EXACT []
 
 [Term]
 id: PLANP:0000391
-name: default
+name: abnormal Stage 7
 def: "Abnormality of Stage 7." []
 synonym: "abnormality of Stage 7" EXACT []
 
 [Term]
 id: PLANP:0000392
-name: default
+name: abnormal body wall musculature
 def: "Abnormality of body wall musculature." []
 synonym: "abnormality of body wall musculature" EXACT []
 
 [Term]
 id: PLANP:0000393
-name: default
+name: abnormal dorsal-ventral axis
 def: "Abnormality of dorsal-ventral axis of the whole animal." []
 synonym: "abnormality of dorsal-ventral axis of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000394
-name: default
+name: abnormal embryonic pharynx lumen epithelial surface
 def: "Abnormality of embryonic pharynx lumen epithelial surface." []
 synonym: "abnormality of embryonic pharynx lumen epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000396
-name: default
+name: abnormal pharynx inner epithelium
 def: "Abnormality of pharynx inner epithelium." []
 synonym: "abnormality of pharynx inner epithelium" EXACT []
 
 [Term]
 id: PLANP:0000397
-name: default
+name: abnormal circular muscle cell
 def: "Abnormality of circular muscle cell." []
 synonym: "abnormality of circular muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000398
-name: default
+name: abnormal intracellular membrane-bounded organelle
 def: "Abnormality of intracellular membrane-bounded organelle." []
 synonym: "abnormality of intracellular membrane-bounded organelle" EXACT []
 
 [Term]
 id: PLANP:0000399
-name: default
+name: abnormal oogonial stem cell
 def: "Abnormality of oogonial stem cell." []
 synonym: "abnormality of oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000403
-name: default
+name: abnormal octopaminergic neuron
 def: "Abnormality of octopaminergic neuron." []
 synonym: "abnormality of octopaminergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000404
-name: default
+name: abnormal gonopore
 def: "Abnormality of gonopore." []
 synonym: "abnormality of gonopore" EXACT []
 
 [Term]
 id: PLANP:0000406
-name: default
+name: abnormal flame bulb
 def: "Abnormality of flame bulb." []
 synonym: "abnormality of flame bulb" EXACT []
 
 [Term]
 id: PLANP:0000407
-name: default
+name: abnormal cholinergic neuron
 def: "Abnormality of cholinergic neuron." []
 synonym: "abnormality of cholinergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000409
-name: default
+name: abnormal visceral musculature
 def: "Abnormality of visceral musculature." []
 synonym: "abnormality of visceral musculature" EXACT []
 
 [Term]
 id: PLANP:0000410
-name: default
+name: abnormal multicellular anatomical structure
 def: "Abnormality of multicellular anatomical structure." []
 synonym: "abnormality of multicellular anatomical structure" EXACT []
 
 [Term]
 id: PLANP:0000411
-name: default
+name: abnormal tertiary gut branch
 def: "Abnormality of tertiary gut branch." []
 synonym: "abnormality of tertiary gut branch" EXACT []
 
 [Term]
 id: PLANP:0000412
-name: default
+name: abnormal lateral nerve
 def: "Abnormality of lateral nerve." []
 synonym: "abnormality of lateral nerve" EXACT []
 
 [Term]
 id: PLANP:0000413
-name: default
+name: abnormal pharynx outer circular muscle cell
 def: "Abnormality of pharynx outer circular muscle cell." []
 synonym: "abnormality of pharynx outer circular muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000415
-name: default
+name: abnormal transverse commissure
 def: "Abnormality of transverse commissure." []
 synonym: "abnormality of transverse commissure" EXACT []
 
 [Term]
 id: PLANP:0000416
-name: default
+name: abnormal sensory neuron
 def: "Abnormality of sensory neuron." []
 synonym: "abnormality of sensory neuron" EXACT []
 
 [Term]
 id: PLANP:0000417
-name: default
+name: abnormal gastrodermal plexus
 def: "Abnormality of gastrodermal plexus." []
 synonym: "abnormality of gastrodermal plexus" EXACT []
 
 [Term]
 id: PLANP:0000420
-name: default
+name: abnormal cell junction
 def: "Abnormality of cell junction." []
 synonym: "abnormality of cell junction" EXACT []
 
 [Term]
 id: PLANP:0000421
-name: default
+name: abnormal primitive gut cell
 def: "Abnormality of primitive gut cell." []
 synonym: "abnormality of primitive gut cell" EXACT []
 
 [Term]
 id: PLANP:0000425
-name: default
+name: abnormal ectolecithal embryo
 def: "Abnormality of ectolecithal embryo." []
 synonym: "abnormality of ectolecithal embryo" EXACT []
 
 [Term]
 id: PLANP:0000427
-name: default
+name: abnormal epidermis
 def: "Abnormality of epidermis." []
 synonym: "abnormality of epidermis" EXACT []
 
 [Term]
 id: PLANP:0000430
-name: default
+name: abnormal nu neoblast
 def: "Abnormality of nu neoblast." []
 synonym: "abnormality of nu neoblast" EXACT []
 
 [Term]
 id: PLANP:0000433
-name: default
+name: abnormal ovarian somatic gonadal cell
 def: "Abnormality of ovarian somatic gonadal cell." []
 synonym: "abnormality of ovarian somatic gonadal cell" EXACT []
 
 [Term]
 id: PLANP:0000434
-name: default
+name: abnormal sperm duct epithelial cell
 def: "Abnormality of sperm duct epithelial cell." []
 synonym: "abnormality of sperm duct epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000435
-name: default
+name: abnormal primitive ectoderm
 def: "Abnormality of primitive ectoderm." []
 synonym: "abnormality of primitive ectoderm" EXACT []
 
 [Term]
 id: PLANP:0000436
-name: default
+name: abnormal pharynx outer epithelium
 def: "Abnormality of pharynx outer epithelium." []
 synonym: "abnormality of pharynx outer epithelium" EXACT []
 
 [Term]
 id: PLANP:0000437
-name: default
+name: abnormal female germ cell
 def: "Abnormality of female germ cell." []
 synonym: "abnormality of female germ cell" EXACT []
 
 [Term]
 id: PLANP:0000438
-name: default
+name: abnormal collecting duct epithelial cell
 def: "Abnormality of collecting duct epithelial cell." []
 synonym: "abnormality of collecting duct epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000439
-name: default
+name: abnormal mouth
 def: "Abnormality of mouth." []
 synonym: "abnormality of mouth" EXACT []
 
 [Term]
 id: PLANP:0000442
-name: default
+name: abnormal circular muscle progenitor cell
 def: "Abnormality of circular muscle progenitor cell." []
 synonym: "abnormality of circular muscle progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000443
-name: default
+name: abnormal embryonic pharynx epithelial cell
 def: "Abnormality of embryonic pharynx epithelial cell." []
 synonym: "abnormality of embryonic pharynx epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000444
-name: default
+name: abnormal pharynx pouch cavity
 def: "Abnormality of pharynx pouch cavity." []
 synonym: "abnormality of pharynx pouch cavity" EXACT []
 
 [Term]
 id: PLANP:0000445
-name: default
+name: abnormal spermatocyte
 def: "Abnormality of spermatocyte." []
 synonym: "abnormality of spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000448
-name: default
+name: abnormal pharynx progenitor cell
 def: "Abnormality of pharynx progenitor cell." []
 synonym: "abnormality of pharynx progenitor cell" EXACT []
 
@@ -1967,31 +1967,31 @@ comment: racing stripe is now a synonym of PLANA:0000055 dorsal stripe
 
 [Term]
 id: PLANP:0000450
-name: default
+name: abnormal excitatory motor neuron
 def: "Abnormality of excitatory motor neuron." []
 synonym: "abnormality of excitatory motor neuron" EXACT []
 
 [Term]
 id: PLANP:0000452
-name: default
+name: abnormal neuron
 def: "Abnormality of neuron." []
 synonym: "abnormality of neuron" EXACT []
 
 [Term]
 id: PLANP:0000455
-name: default
+name: abnormal diagonal muscle cell
 def: "Abnormality of diagonal muscle cell." []
 synonym: "abnormality of diagonal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000456
-name: default
+name: abnormal nerve
 def: "Abnormality of nerve." []
 synonym: "abnormality of nerve" EXACT []
 
 [Term]
 id: PLANP:0000458
-name: default
+name: abnormal sympathetic neuron
 def: "Abnormality of sympathetic neuron." []
 synonym: "abnormality of sympathetic neuron" EXACT []
 
@@ -2002,97 +2002,97 @@ comment: removing all processes. may bring back if PLANA expanded to cover proce
 
 [Term]
 id: PLANP:0000461
-name: default
+name: abnormal secretory pore
 def: "Abnormality of secretory pore." []
 synonym: "abnormality of secretory pore" EXACT []
 
 [Term]
 id: PLANP:0000462
-name: default
+name: abnormal blastema
 def: "Abnormality of blastema." []
 synonym: "abnormality of blastema" EXACT []
 
 [Term]
 id: PLANP:0000463
-name: default
+name: abnormal embryonic pharynx radial muscle cell
 def: "Abnormality of embryonic pharynx radial muscle cell." []
 synonym: "abnormality of embryonic pharynx radial muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000464
-name: default
+name: abnormal organelle membrane
 def: "Abnormality of organelle membrane." []
 synonym: "abnormality of organelle membrane" EXACT []
 
 [Term]
 id: PLANP:0000465
-name: default
+name: abnormal pharynx outer epithelium surface
 def: "Abnormality of pharynx outer epithelium surface." []
 synonym: "abnormality of pharynx outer epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000467
-name: default
+name: abnormal morphology of primitive ectoderm surface
 def: "Any unspecified morphological anomaly of the primitive ectoderm surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of primitive ectoderm surface" EXACT []
 
 [Term]
 id: PLANP:0000469
-name: default
+name: abnormal morphology of lumen gut surface
 def: "Any unspecified morphological anomaly of the gastrodermis surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of gastrodermis surface" EXACT []
 
 [Term]
 id: PLANP:0000470
-name: default
+name: abnormal morphology of basal epidermis surface
 def: "Any unspecified morphological anomaly of the basal surface of the epidermis, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of basal surface of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000475
-name: default
+name: abnormal morphology of apical epidermis surface
 def: "Any unspecified morphological anomaly of the apical surface of the epidermis, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of apical surface of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000480
-name: default
+name: abnormal morphology of pharyngeal pouch surface
 def: "Any unspecified morphological anomaly of the pharynx pouch epithelial surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of pharynx pouch epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000481
-name: default
+name: abnormal morphology of embryonic gut cell surface
 def: "Any unspecified morphological anomaly of the embryonic gut cell surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of embryonic gut cell surface" EXACT []
 
 [Term]
 id: PLANP:0000482
-name: default
+name: abnormal morphology of primtive gut cell surface
 def: "Any unspecified morphological anomaly of the primtive gut cell surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of primtive gut cell surface" EXACT []
 
 [Term]
 id: PLANP:0000484
-name: default
+name: abnormal morphology of pharynx lumen epithelial surface
 def: "Any unspecified morphological anomaly of the pharynx inner epithelium surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of pharynx inner epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000486
-name: default
+name: abnormal morphology of temporary embryonic pharynx lumen epithelial surface
 def: "Any unspecified morphological anomaly of the embryonic pharynx lumen epithelial surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of embryonic pharynx lumen epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000489
-name: default
+name: abnormal morphology of pharynx outer epithelial surface
 def: "Any unspecified morphological anomaly of the pharynx outer epithelium surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of pharynx outer epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000490
-name: default
+name: abormal shape of the ventral region of the animal
 def: "Any structural anomaly in the shape of the ventral region of the whole animal." []
 synonym: "abnormally shaped ventral region of the whole animal" EXACT []
 
@@ -2128,37 +2128,37 @@ synonym: "abnormal pointed shape of tail" EXACT []
 
 [Term]
 id: PLANP:0000497
-name: default
+name: abnormal morphology of head
 def: "Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of head" EXACT []
 
 [Term]
 id: PLANP:0000498
-name: default
+name: abnormal morphology of tail
 def: "Any unspecified morphological anomaly of the tail, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of tail" EXACT []
 
 [Term]
 id: PLANP:0000499
-name: default
+name: abnormal shape of head
 def: "Any structural anomaly in the shape of the head." []
 synonym: "abnormally shaped head" EXACT []
 
 [Term]
 id: PLANP:0000500
-name: default
+name: abnormal shape of tail
 def: "Any structural anomaly in the shape of the tail." []
 synonym: "abnormally shaped tail" EXACT []
 
 [Term]
 id: PLANP:0000501
-name: default
+name: abnormal size of head
 def: "A deviation from the normal size of the head." []
 synonym: "abnormal size of the head" EXACT []
 
 [Term]
 id: PLANP:0000502
-name: default
+name: abnormal size of tail
 def: "A deviation from the normal size of the tail." []
 synonym: "abnormal size of the tail" EXACT []
 
@@ -2206,19 +2206,19 @@ synonym: "linear lesion of the tail" EXACT []
 
 [Term]
 id: PLANP:0000510
-name: Eyes further apart than normal
+name: eyes further apart than normae
 def: "Increased distance between eye and eye." []
 synonym: "distance increased between eye and eye" EXACT []
 
 [Term]
 id: PLANP:0000511
-name: Eyes closer together than normal
+name: eyes closer together than normal
 def: "Decreased distance between eye and eye." []
 synonym: "distance decreased between eye and eye" EXACT []
 
 [Term]
 id: PLANP:0000512
-name: Abnormal distance between eyes
+name: abnormal distance between eyes
 def: "abnormal distance between eye and eye." []
 synonym: "abnormal distance between eye and eye" EXACT []
 synonym: "distance abnormal between eye and eye" EXACT []
@@ -2382,1483 +2382,1483 @@ synonym: "Extra eye" EXACT []
 
 [Term]
 id: PLANP:0000542
-name: default
+name: abnormal whole organism
 def: "Abnormality of whole organism." []
 synonym: "abnormality of whole organism" EXACT []
 
 [Term]
 id: PLANP:0000543
-name: default
+name: abnormal regeneration
 def: "Abnormality of regeneration." []
 synonym: "abnormality of regeneration" EXACT []
 
 [Term]
 id: PLANP:0000544
-name: default
+name: abnormal Hyman vesicle
 def: "Abnormality of Hyman vesicle." []
 synonym: "abnormality of Hyman vesicle" EXACT []
 
 [Term]
 id: PLANP:0000545
-name: default
+name: abnormal anterior region
 def: "Abnormality of anterior region of the whole animal." []
 synonym: "abnormality of anterior region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000546
-name: default
+name: abnormal dorsal region
 def: "Abnormality of dorsal region of the whole animal." []
 synonym: "abnormality of dorsal region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000547
-name: default
+name: abnormal posterior region
 def: "Abnormality of posterior compartment of the whole animal." []
 synonym: "abnormality of posterior compartment of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000548
-name: default
+name: abnormal ventral region
 def: "Abnormality of ventral region of the whole animal." []
 synonym: "abnormality of ventral region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000549
-name: default
+name: abnormal heterochromatin
 def: "Abnormality of heterochromatin." []
 synonym: "abnormality of heterochromatin" EXACT []
 
 [Term]
 id: PLANP:0000550
-name: default
+name: abnormal adenal rhabdite
 def: "Abnormality of adenal rhabdite." []
 synonym: "abnormality of adenal rhabdite" EXACT []
 
 [Term]
 id: PLANP:0000551
-name: default
+name: abnormal adherens junction
 def: "Abnormality of adherens junction." []
 synonym: "abnormality of adherens junction" EXACT []
 
 [Term]
 id: PLANP:0000552
-name: default
+name: abnormal adhesive papilla
 def: "Abnormality of adhesive papilla." []
 synonym: "abnormality of adhesive papilla" EXACT []
 
 [Term]
 id: PLANP:0000553
-name: default
+name: abnormal amputation
 def: "Abnormality of amputation." []
 synonym: "abnormality of amputation" EXACT []
 
 [Term]
 id: PLANP:0000554
-name: default
+name: abnormal anterior gut branch
 def: "Abnormality of anterior gut branch." []
 synonym: "abnormality of anterior gut branch" EXACT []
 
 [Term]
 id: PLANP:0000555
-name: default
+name: abnormal anterior tip
 def: "Abnormality of anterior tip." []
 synonym: "abnormality of anterior tip" EXACT []
 
 [Term]
 id: PLANP:0000556
-name: default
+name: abnormal antrum
 def: "Abnormality of antrum." []
 synonym: "abnormality of antrum" EXACT []
 
 [Term]
 id: PLANP:0000557
-name: default
+name: abnormal auricle
 def: "Abnormality of auricle." []
 synonym: "abnormality of auricle" EXACT []
 
 [Term]
 id: PLANP:0000558
-name: default
+name: abnormal axon
 def: "Abnormality of axon." []
 synonym: "abnormality of axon" EXACT []
 
 [Term]
 id: PLANP:0000559
-name: default
+name: abnormal axoneme
 def: "Abnormality of axoneme." []
 synonym: "abnormality of axoneme" EXACT []
 
 [Term]
 id: PLANP:0000560
-name: default
+name: abnormal basal body
 def: "Abnormality of basal body." []
 synonym: "abnormality of basal body" EXACT []
 
 [Term]
 id: PLANP:0000561
-name: default
+name: abnormal brain visual center
 def: "Abnormality of brain visual center." []
 synonym: "abnormality of brain visual center" EXACT []
 
 [Term]
 id: PLANP:0000562
-name: default
+name: abnormal bulbar cavity
 def: "Abnormality of bulbar cavity." []
 synonym: "abnormality of bulbar cavity" EXACT []
 
 [Term]
 id: PLANP:0000563
-name: default
+name: abnormal Category 1 cell
 def: "Abnormality of Category 1 cell." []
 synonym: "abnormality of Category 1 cell" EXACT []
 
 [Term]
 id: PLANP:0000564
-name: default
+name: abnormal cell body
 def: "Abnormality of cell body." []
 synonym: "abnormality of cell body" EXACT []
 
 [Term]
 id: PLANP:0000565
-name: default
+name: abnormal cephalic ganglia lobe
 def: "Abnormality of cephalic ganglia lobe." []
 synonym: "abnormality of cephalic ganglia lobe" EXACT []
 
 [Term]
 id: PLANP:0000566
-name: default
+name: abnormal cephalic ganglia neuron
 def: "Abnormality of cephalic ganglia neuron." []
 synonym: "abnormality of cephalic ganglia neuron" EXACT []
 
 [Term]
 id: PLANP:0000567
-name: default
+name: abnormal chemical amputation
 def: "Abnormality of chemical amputation." []
 synonym: "abnormality of chemical amputation" EXACT []
 
 [Term]
 id: PLANP:0000568
-name: default
+name: abnormal chemical pharynx amputation
 def: "Abnormality of chemical pharynx amputation." []
 synonym: "abnormality of chemical pharynx amputation" EXACT []
 
 [Term]
 id: PLANP:0000569
-name: default
+name: abnormal chemosensory neuron
 def: "Abnormality of chemosensory neuron." []
 synonym: "abnormality of chemosensory neuron" EXACT []
 
 [Term]
 id: PLANP:0000570
-name: default
+name: abnormal chromatoid body
 def: "Abnormality of chromatoid body." []
 synonym: "abnormality of chromatoid body" EXACT []
 
 [Term]
 id: PLANP:0000571
-name: default
+name: abnormal chromosome
 def: "Abnormality of chromosome." []
 synonym: "abnormality of chromosome" EXACT []
 
 [Term]
 id: PLANP:0000572
-name: default
+name: abnormal chromosome arm
 def: "Abnormality of chromosome arm." []
 synonym: "abnormality of chromosome arm" EXACT []
 
 [Term]
 id: PLANP:0000573
-name: default
+name: abnormal ciliated epithelium
 def: "Abnormality of ciliated epithelium." []
 synonym: "abnormality of ciliated epithelium" EXACT []
 
 [Term]
 id: PLANP:0000574
-name: default
+name: abnormal cilium
 def: "Abnormality of cilium." []
 synonym: "abnormality of cilium" EXACT []
 
 [Term]
 id: PLANP:0000575
-name: default
+name: abnormal commissure
 def: "Abnormality of commissure." []
 synonym: "abnormality of commissure" EXACT []
 
 [Term]
 id: PLANP:0000576
-name: default
+name: abnormal cut
 def: "Abnormality of cut." []
 synonym: "abnormality of cut" EXACT []
 
 [Term]
 id: PLANP:0000577
-name: default
+name: abnormal dendrite
 def: "Abnormality of dendrite." []
 synonym: "abnormality of dendrite" EXACT []
 
 [Term]
 id: PLANP:0000578
-name: default
+name: abnormal dorsal-ventral muscle cell
 def: "Abnormality of dorsal-ventral muscle cell." []
 synonym: "abnormality of dorsal-ventral muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000579
-name: default
+name: abnormal early female germ cell
 def: "Abnormality of early female germ cell." []
 synonym: "abnormality of early female germ cell" EXACT []
 
 [Term]
 id: PLANP:0000580
-name: default
+name: abnormal early male germ cell
 def: "Abnormality of early male germ cell." []
 synonym: "abnormality of early male germ cell" EXACT []
 
 [Term]
 id: PLANP:0000581
-name: default
+name: abnormal embryonic gut
 def: "Abnormality of embryonic gut." []
 synonym: "abnormality of embryonic gut" EXACT []
 
 [Term]
 id: PLANP:0000582
-name: default
+name: abnormal epidermal cell
 def: "Abnormality of epidermal cell." []
 synonym: "abnormality of epidermal cell" EXACT []
 
 [Term]
 id: PLANP:0000583
-name: default
+name: abnormal epidermal rhabdite
 def: "Abnormality of epidermal rhabdite." []
 synonym: "abnormality of epidermal rhabdite" EXACT []
 
 [Term]
 id: PLANP:0000584
-name: default
+name: abnormal ER membrane
 def: "Abnormality of ER membrane." []
 synonym: "abnormality of ER membrane" EXACT []
 
 [Term]
 id: PLANP:0000585
-name: default
+name: abnormal eumelanin
 def: "Abnormality of eumelanin." []
 synonym: "abnormality of eumelanin" EXACT []
 
 [Term]
 id: PLANP:0000586
-name: default
+name: abnormal excretory cell
 def: "Abnormality of excretory cell." []
 synonym: "abnormality of excretory cell" EXACT []
 
 [Term]
 id: PLANP:0000587
-name: default
+name: abnormal extracellular matrix
 def: "Abnormality of extracellular matrix." []
 synonym: "abnormality of extracellular matrix" EXACT []
 
 [Term]
 id: PLANP:0000588
-name: default
+name: abnormal extracellular space
 def: "Abnormality of extracellular space." []
 synonym: "abnormality of extracellular space" EXACT []
 
 [Term]
 id: PLANP:0000589
-name: default
+name: abnormal fission
 def: "Abnormality of fission." []
 synonym: "abnormality of fission" EXACT []
 
 [Term]
 id: PLANP:0000590
-name: default
+name: abnormal flagellum
 def: "Abnormality of flagellum." []
 synonym: "abnormality of flagellum" EXACT []
 
 [Term]
 id: PLANP:0000591
-name: default
+name: abnormal gap junction
 def: "Abnormality of gap junction." []
 synonym: "abnormality of gap junction" EXACT []
 
 [Term]
 id: PLANP:0000592
-name: default
+name: abnormal genital atrium
 def: "Abnormality of genital atrium." []
 synonym: "abnormality of genital atrium" EXACT []
 
 [Term]
 id: PLANP:0000593
-name: default
+name: abnormal germ cell cyst
 def: "Abnormality of germ cell cyst." []
 synonym: "abnormality of germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000594
-name: default
+name: abnormal germline stem cell
 def: "Abnormality of germline stem cell." []
 synonym: "abnormality of germline stem cell" EXACT []
 
 [Term]
 id: PLANP:0000595
-name: default
+name: abnormal glycogen granule
 def: "Abnormality of glycogen granule." []
 synonym: "abnormality of glycogen granule" EXACT []
 
 [Term]
 id: PLANP:0000596
-name: default
+name: abnormal incision
 def: "Abnormality of incision." []
 synonym: "abnormality of incision" EXACT []
 
 [Term]
 id: PLANP:0000597
-name: default
+name: abnormal pharynx inner epidermal cell
 def: "Abnormality of pharynx inner epidermal cell." []
 synonym: "abnormality of pharynx inner epidermal cell" EXACT []
 
 [Term]
 id: PLANP:0000598
-name: default
+name: abnormal inner zone of gland cells
 def: "Abnormality of inner zone of gland cells." []
 synonym: "abnormality of inner zone of gland cells" EXACT []
 
 [Term]
 id: PLANP:0000599
-name: default
+name: abnormal intercellular junction
 def: "Abnormality of intercellular junction." []
 synonym: "abnormality of intercellular junction" EXACT []
 
 [Term]
 id: PLANP:0000600
-name: default
+name: abnormal linear amputation
 def: "Abnormality of linear amputation." []
 synonym: "abnormality of linear amputation" EXACT []
 
 [Term]
 id: PLANP:0000601
-name: default
+name: abnormal linear incision
 def: "Abnormality of linear incision." []
 synonym: "abnormality of linear incision" EXACT []
 
 [Term]
 id: PLANP:0000602
-name: default
+name: abnormal lipid droplet
 def: "Abnormality of lipid droplet." []
 synonym: "abnormality of lipid droplet" EXACT []
 
 [Term]
 id: PLANP:0000603
-name: default
+name: abnormal lumen
 def: "Abnormality of lumen." []
 synonym: "abnormality of lumen" EXACT []
 
 [Term]
 id: PLANP:0000604
-name: default
+name: abnormal marginal adhesive zone
 def: "Abnormality of marginal adhesive zone." []
 synonym: "abnormality of marginal adhesive zone" EXACT []
 
 [Term]
 id: PLANP:0000605
-name: default
+name: abnormal mechanosensory neuron
 def: "Abnormality of mechanosensory neuron." []
 synonym: "abnormality of mechanosensory neuron" EXACT []
 
 [Term]
 id: PLANP:0000606
-name: default
+name: abnormal medial muscle cell
 def: "Abnormality of medial muscle cell." []
 synonym: "abnormality of medial muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000607
-name: default
+name: abnormal meiotic germ cell
 def: "Abnormality of meiotic germ cell." []
 synonym: "abnormality of meiotic germ cell" EXACT []
 
 [Term]
 id: PLANP:0000608
-name: default
+name: abnormal melanosome
 def: "Abnormality of melanosome." []
 synonym: "abnormality of melanosome" EXACT []
 
 [Term]
 id: PLANP:0000609
-name: default
+name: abnormal mucus
 def: "Abnormality of mucus." []
 synonym: "abnormality of mucus" EXACT []
 
 [Term]
 id: PLANP:0000610
-name: default
+name: abnormal nephridiopore
 def: "Abnormality of nephridiopore." []
 synonym: "abnormality of nephridiopore" EXACT []
 
 [Term]
 id: PLANP:0000611
-name: default
+name: abnormal neurite
 def: "Abnormality of neurite." []
 synonym: "abnormality of neurite" EXACT []
 
 [Term]
 id: PLANP:0000612
-name: default
+name: abnormal neuropeptidergic neuron
 def: "Abnormality of neuropeptidergic neuron." []
 synonym: "abnormality of neuropeptidergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000613
-name: default
+name: abnormal non-ciliated epidermis
 def: "Abnormality of non-ciliated epidermis." []
 synonym: "abnormality of non-ciliated epidermis" EXACT []
 
 [Term]
 id: PLANP:0000614
-name: default
+name: abnormal nuclear envelope
 def: "Abnormality of nuclear envelope." []
 synonym: "abnormality of nuclear envelope" EXACT []
 
 [Term]
 id: PLANP:0000615
-name: default
+name: abnormal nuclear inner membrane
 def: "Abnormality of nuclear inner membrane." []
 synonym: "abnormality of nuclear inner membrane" EXACT []
 
 [Term]
 id: PLANP:0000616
-name: default
+name: abnormal nuclear lumen
 def: "Abnormality of nuclear lumen." []
 synonym: "abnormality of nuclear lumen" EXACT []
 
 [Term]
 id: PLANP:0000617
-name: default
+name: abnormal nuclear outer membrane
 def: "Abnormality of nuclear outer membrane." []
 synonym: "abnormality of nuclear outer membrane" EXACT []
 
 [Term]
 id: PLANP:0000618
-name: default
+name: abnormal nuclear periphery
 def: "Abnormality of nuclear periphery." []
 synonym: "abnormality of nuclear periphery" EXACT []
 
 [Term]
 id: PLANP:0000619
-name: default
+name: abnormal ommochrome pigment cell
 def: "Abnormality of ommochrome pigment cell." []
 synonym: "abnormality of ommochrome pigment cell" EXACT []
 
 [Term]
 id: PLANP:0000620
-name: default
+name: abnormal optic nerve
 def: "Abnormality of optic nerve." []
 synonym: "abnormality of optic nerve" EXACT []
 
 [Term]
 id: PLANP:0000621
-name: default
+name: abnormal pharynx outer epidermal cell
 def: "Abnormality of pharynx outer epidermal cell." []
 synonym: "abnormality of pharynx outer epidermal cell" EXACT []
 
 [Term]
 id: PLANP:0000622
-name: default
+name: abnormal phagocytic cell
 def: "Abnormality of phagocytic cell." []
 synonym: "abnormality of phagocytic cell" EXACT []
 
 [Term]
 id: PLANP:0000623
-name: default
+name: abnormal pharynx tip
 def: "Abnormality of pharynx tip." []
 synonym: "abnormality of pharynx tip" EXACT []
 
 [Term]
 id: PLANP:0000624
-name: default
+name: abnormal pigment cell
 def: "Abnormality of pigment cell." []
 synonym: "abnormality of pigment cell" EXACT []
 
 [Term]
 id: PLANP:0000625
-name: default
+name: abnormal pigment granule
 def: "Abnormality of pigment granule." []
 synonym: "abnormality of pigment granule" EXACT []
 
 [Term]
 id: PLANP:0000626
-name: default
+name: abnormal plug amputation
 def: "Abnormality of plug amputation." []
 synonym: "abnormality of plug amputation" EXACT []
 
 [Term]
 id: PLANP:0000627
-name: default
+name: abnormal point incision
 def: "Abnormality of point incision." []
 synonym: "abnormality of point incision" EXACT []
 
 [Term]
 id: PLANP:0000628
-name: default
+name: abnormal pore
 def: "Abnormality of pore." []
 synonym: "abnormality of pore" EXACT []
 
 [Term]
 id: PLANP:0000629
-name: default
+name: abnormal post-meiotic germ cell
 def: "Abnormality of post-meiotic germ cell." []
 synonym: "abnormality of post-meiotic germ cell" EXACT []
 
 [Term]
 id: PLANP:0000630
-name: default
+name: abnormal postsynaptic cell
 def: "Abnormality of postsynaptic cell." []
 synonym: "abnormality of postsynaptic cell" EXACT []
 
 [Term]
 id: PLANP:0000631
-name: default
+name: abnormal premeiotic germ cell
 def: "Abnormality of premeiotic germ cell." []
 synonym: "abnormality of premeiotic germ cell" EXACT []
 
 [Term]
 id: PLANP:0000632
-name: default
+name: abnormal presynaptic cell
 def: "Abnormality of presynaptic cell." []
 synonym: "abnormality of presynaptic cell" EXACT []
 
 [Term]
 id: PLANP:0000633
-name: default
+name: abnormal presynaptic terminal
 def: "Abnormality of presynaptic terminal." []
 synonym: "abnormality of presynaptic terminal" EXACT []
 
 [Term]
 id: PLANP:0000634
-name: default
+name: abnormal presynaptic vesicle
 def: "Abnormality of presynaptic vesicle." []
 synonym: "abnormality of presynaptic vesicle" EXACT []
 
 [Term]
 id: PLANP:0000635
-name: default
+name: abnormal primary gut branch
 def: "Abnormality of primary gut branch." []
 synonym: "abnormality of primary gut branch" EXACT []
 
 [Term]
 id: PLANP:0000636
-name: default
+name: abnormal primitive gut
 def: "Abnormality of primitive gut." []
 synonym: "abnormality of primitive gut" EXACT []
 
 [Term]
 id: PLANP:0000637
-name: default
+name: abnormal quarternary gut branch
 def: "Abnormality of quarternary gut branch." []
 synonym: "abnormality of quarternary gut branch" EXACT []
 
 [Term]
 id: PLANP:0000638
-name: default
+name: abnormal reproductive organ
 def: "Abnormality of reproductive organ." []
 synonym: "abnormality of reproductive organ" EXACT []
 
 [Term]
 id: PLANP:0000639
-name: default
+name: abnormal reproductive structure
 def: "Abnormality of reproductive structure." []
 synonym: "abnormality of reproductive structure" EXACT []
 
 [Term]
 id: PLANP:0000640
-name: default
+name: abnormal rhabdome
 def: "Abnormality of rhabdome." []
 synonym: "abnormality of rhabdome" EXACT []
 
 [Term]
 id: PLANP:0000641
-name: default
+name: abnormal rhabdomere
 def: "Abnormality of rhabdomere." []
 synonym: "abnormality of rhabdomere" EXACT []
 
 [Term]
 id: PLANP:0000642
-name: default
+name: abnormal secretory duct
 def: "Abnormality of secretory duct." []
 synonym: "abnormality of secretory duct" EXACT []
 
 [Term]
 id: PLANP:0000643
-name: default
+name: abnormal secretory granule
 def: "Abnormality of secretory granule." []
 synonym: "abnormality of secretory granule" EXACT []
 
 [Term]
 id: PLANP:0000644
-name: default
+name: abnormal somatic cell
 def: "Abnormality of somatic cell." []
 synonym: "abnormality of somatic cell" EXACT []
 
 [Term]
 id: PLANP:0000645
-name: default
+name: abnormal somatic gonadal cell
 def: "Abnormality of somatic gonadal cell." []
 synonym: "abnormality of somatic gonadal cell" EXACT []
 
 [Term]
 id: PLANP:0000646
-name: default
+name: abnormal specialized neoblast
 def: "Abnormality of specialized neoblast." []
 synonym: "abnormality of specialized neoblast" EXACT []
 
 [Term]
 id: PLANP:0000647
-name: default
+name: abnormal stalk
 def: "Abnormality of stalk." []
 synonym: "abnormality of stalk" EXACT []
 
 [Term]
 id: PLANP:0000648
-name: default
+name: abnormal surgical wound
 def: "Abnormality of surgical wound." []
 synonym: "abnormality of surgical wound" EXACT []
 
 [Term]
 id: PLANP:0000649
-name: default
+name: abnormal synapse
 def: "Abnormality of synapse." []
 synonym: "abnormality of synapse" EXACT []
 
 [Term]
 id: PLANP:0000650
-name: default
+name: abnormal synaptic cleft
 def: "Abnormality of synaptic cleft." []
 synonym: "abnormality of synaptic cleft" EXACT []
 
 [Term]
 id: PLANP:0000651
-name: default
+name: abnormal synaptic vesicle
 def: "Abnormality of synaptic vesicle." []
 synonym: "abnormality of synaptic vesicle" EXACT []
 
 [Term]
 id: PLANP:0000652
-name: default
+name: abnormal synaptonemal complex
 def: "Abnormality of synaptonemal complex." []
 synonym: "abnormality of synaptonemal complex" EXACT []
 
 [Term]
 id: PLANP:0000653
-name: default
+name: abnormal tail tip
 def: "Abnormality of tail tip." []
 synonym: "abnormality of tail tip" EXACT []
 
 [Term]
 id: PLANP:0000654
-name: default
+name: abnormal telomere
 def: "Abnormality of telomere." []
 synonym: "abnormality of telomere" EXACT []
 
 [Term]
 id: PLANP:0000655
-name: default
-def: "Abnormality of tight junction." []
-synonym: "abnormality of tight junction" EXACT []
+name: abnormal tight junction
+def: "Abnormality of septate junction." []
+synonym: "abnormality of septate junction" EXACT []
 
 [Term]
 id: PLANP:0000656
-name: default
+name: abnormal wedge amputation
 def: "Abnormality of wedge amputation." []
 synonym: "abnormality of wedge amputation" EXACT []
 
 [Term]
 id: PLANP:0000657
-name: default
+name: abnormal wound
 def: "Abnormality of wound." []
 synonym: "abnormality of wound" EXACT []
 
 [Term]
 id: PLANP:0000658
-name: default
+name: abnormal X1 cell
 def: "Abnormality of X1 cell." []
 synonym: "abnormality of X1 cell" EXACT []
 
 [Term]
 id: PLANP:0000659
-name: default
+name: abnormal X1(FS) cell
 def: "Abnormality of X1(FS) cell." []
 synonym: "abnormality of X1(FS) cell" EXACT []
 
 [Term]
 id: PLANP:0000660
-name: default
+name: abnormal X2 cell
 def: "Abnormality of X2 cell." []
 synonym: "abnormality of X2 cell" EXACT []
 
 [Term]
 id: PLANP:0000661
-name: default
+name: abnormal Xins cell
 def: "Abnormality of Xins cell." []
 synonym: "abnormality of Xins cell" EXACT []
 
 [Term]
 id: PLANP:0000662
-name: default
+name: abnormal post-pharyngeal region
 def: "Abnormality of post-pharyngeal region." []
 synonym: "abnormality of post-pharyngeal region" EXACT []
 
 [Term]
 id: PLANP:0000663
-name: default
+name: abnormal post-blastema region
 def: "Abnormality of post-blastema region." []
 synonym: "abnormality of post-blastema region" EXACT []
 
 [Term]
 id: PLANP:0000664
-name: default
+name: abnormal fission fragment
 def: "Abnormality of fission fragment." []
 synonym: "abnormality of fission fragment" EXACT []
 
 [Term]
 id: PLANP:0000665
-name: default
+name: abnormal epithelium
 def: "Abnormality of epithelium." []
 synonym: "abnormality of epithelium" EXACT []
 
 [Term]
 id: PLANP:0000666
-name: default
+name: abnormal gut branch
 def: "Abnormality of gut branch." []
 synonym: "abnormality of gut branch" EXACT []
 
 [Term]
 id: PLANP:0000667
-name: default
+name: abnormal extraembryonic organ
 def: "Abnormality of extraembryonic organ." []
 synonym: "abnormality of extraembryonic organ" EXACT []
 
 [Term]
 id: PLANP:0000668
-name: default
+name: abnormal chromosome:part
 def: "Abnormality of chromosome_part." []
 synonym: "abnormality of chromosome_part" EXACT []
 
 [Term]
 id: PLANP:0000669
-name: default
+name: abnormal perturbation
 def: "Abnormality of perturbation." []
 synonym: "abnormality of perturbation" EXACT []
 
 [Term]
 id: PLANP:0000670
-name: default
+name: abnormal chromosomal:structural:element
 def: "Abnormality of chromosomal_structural_element." []
 synonym: "abnormality of chromosomal_structural_element" EXACT []
 
 [Term]
 id: PLANP:0000671
-name: default
+name: abnormal thick fragment
 def: "Abnormality of thick fragment." []
 synonym: "abnormality of thick fragment" EXACT []
 
 [Term]
 id: PLANP:0000672
-name: default
+name: abnormal thin fragment
 def: "Abnormality of thin fragment." []
 synonym: "abnormality of thin fragment" EXACT []
 
 [Term]
 id: PLANP:0000673
-name: default
+name: abnormal fragment
 def: "Abnormality of fragment." []
 synonym: "abnormality of fragment" EXACT []
 
 [Term]
 id: PLANP:0000674
-name: default
+name: abnormal longitudinal region
 def: "Abnormality of longitudinal region." []
 synonym: "abnormality of longitudinal region" EXACT []
 
 [Term]
 id: PLANP:0000675
-name: default
+name: abnormal chemical wound
 def: "Abnormality of chemical wound." []
 synonym: "abnormality of chemical wound" EXACT []
 
 [Term]
 id: PLANP:0000676
-name: default
+name: abnormal plug wound
 def: "Abnormality of plug wound." []
 synonym: "abnormality of plug wound" EXACT []
 
 [Term]
 id: PLANP:0000677
-name: default
+name: abnormal wedge wound
 def: "Abnormality of wedge wound." []
 synonym: "abnormality of wedge wound" EXACT []
 
 [Term]
 id: PLANP:0000678
-name: default
+name: abnormal regenerating fragment
 def: "Abnormality of regenerating fragment." []
 synonym: "abnormality of regenerating fragment" EXACT []
 
 [Term]
 id: PLANP:0000679
-name: default
+name: abnormal sagittal orientation
 def: "Abnormality of sagittal orientation." []
 synonym: "abnormality of sagittal orientation" EXACT []
 
 [Term]
 id: PLANP:0000680
-name: default
+name: abnormal parasagittal orientation
 def: "Abnormality of parasagittal orientation." []
 synonym: "abnormality of parasagittal orientation" EXACT []
 
 [Term]
 id: PLANP:0000681
-name: default
+name: abnormal syncytium
 def: "Abnormality of syncytium." []
 synonym: "abnormality of syncytium" EXACT []
 
 [Term]
 id: PLANP:0000682
-name: default
+name: abnormal intracellular granule
 def: "Abnormality of intracellular granule." []
 synonym: "abnormality of intracellular granule" EXACT []
 
 [Term]
 id: PLANP:0000683
-name: default
+name: abnormal FACS sorted cell population
 def: "Abnormality of FACS sorted cell population." []
 synonym: "abnormality of FACS sorted cell population" EXACT []
 
 [Term]
 id: PLANP:0000684
-name: default
+name: abnormal derived cell population
 def: "Abnormality of derived cell population." []
 synonym: "abnormality of derived cell population" EXACT []
 
 [Term]
 id: PLANP:0000685
-name: default
+name: abnormal pharynx pouch epithelium
 def: "Abnormality of pharynx pouch epithelium." []
 synonym: "abnormality of pharynx pouch epithelium" EXACT []
 
 [Term]
 id: PLANP:0000686
-name: default
+name: abnormal sperm duct epithelial surface
 def: "Abnormality of sperm duct epithelial surface." []
 synonym: "abnormality of sperm duct epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000687
-name: default
+name: abnormal parenchyma
 def: "Abnormality of parenchyma." []
 synonym: "abnormality of parenchyma" EXACT []
 
 [Term]
 id: PLANP:0000688
-name: default
+name: abnormal testis cell
 def: "Abnormality of testis cell." []
 synonym: "abnormality of testis cell" EXACT []
 
 [Term]
 id: PLANP:0000689
-name: default
+name: abnormal ventral epidermis cell
 def: "Abnormality of ventral epidermis cell." []
 synonym: "abnormality of ventral epidermis cell" EXACT []
 
 [Term]
 id: PLANP:0000690
-name: default
+name: abnormal visual system cell
 def: "Abnormality of visual system cell." []
 synonym: "abnormality of visual system cell" EXACT []
 
 [Term]
 id: PLANP:0000691
-name: default
+name: abnormal eye cell
 def: "Abnormality of eye cell." []
 synonym: "abnormality of eye cell" EXACT []
 
 [Term]
 id: PLANP:0000692
-name: default
+name: abnormal enteric muscle cell
 def: "Abnormality of enteric muscle cell." []
 synonym: "abnormality of enteric muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000693
-name: default
+name: abnormal dorsal epidermis cell
 def: "Abnormality of dorsal epidermis cell." []
 synonym: "abnormality of dorsal epidermis cell" EXACT []
 
 [Term]
 id: PLANP:0000694
-name: default
+name: abnormal adhesion gland cell
 def: "Abnormality of adhesion gland cell." []
 synonym: "abnormality of adhesion gland cell" EXACT []
 
 [Term]
 id: PLANP:0000695
-name: default
+name: abnormal body wall muscle cell
 def: "Abnormality of body wall muscle cell." []
 synonym: "abnormality of body wall muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000696
-name: default
+name: abnormal gastrodermal cell
 def: "Abnormality of gastrodermal cell." []
 synonym: "abnormality of gastrodermal cell" EXACT []
 
 [Term]
 id: PLANP:0000697
-name: default
+name: abnormal anterior pole cell
 def: "Abnormality of anterior pole cell." []
 synonym: "abnormality of anterior pole cell" EXACT []
 
 [Term]
 id: PLANP:0000698
-name: default
+name: abnormal pharynx neuron
 def: "Abnormality of pharynx neuron." []
 synonym: "abnormality of pharynx neuron" EXACT []
 
 [Term]
 id: PLANP:0000699
-name: default
+name: abnormal pharynx epithelial cell
 def: "Abnormality of pharynx epithelial cell." []
 synonym: "abnormality of pharynx epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000700
-name: default
+name: abnormal pharynx muscle cell
 def: "Abnormality of pharynx muscle cell." []
 synonym: "abnormality of pharynx muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000701
-name: default
+name: abnormal pharynx pouch epithelial cell
 def: "Abnormality of pharynx pouch epithelial cell." []
 synonym: "abnormality of pharynx pouch epithelial cell" EXACT []
 
 [Term]
 id: PLANP:0000702
-name: default
+name: abnormal melanin pigment granule
 def: "Abnormality of melanin pigment granule." []
 synonym: "abnormality of melanin pigment granule" EXACT []
 
 [Term]
 id: PLANP:0000703
-name: default
+name: abnormal ommochrome pigment granule
 def: "Abnormality of ommochrome pigment granule." []
 synonym: "abnormality of ommochrome pigment granule" EXACT []
 
 [Term]
 id: PLANP:0000704
-name: default
+name: abnormal parenchymal cell
 def: "Abnormality of parenchymal cell." []
 synonym: "abnormality of parenchymal cell" EXACT []
 
 [Term]
 id: PLANP:0000705
-name: default
+name: abnormal G1 phase neoblast
 def: "Abnormality of G1 phase neoblast." []
 synonym: "abnormality of G1 phase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000706
-name: default
+name: abnormal S phase neoblast
 def: "Abnormality of S phase neoblast." []
 synonym: "abnormality of S phase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000707
-name: default
+name: abnormal G2 phase neoblast
 def: "Abnormality of G2 phase neoblast." []
 synonym: "abnormality of G2 phase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000708
-name: default
+name: abnormal prophase neoblast
 def: "Abnormality of prophase neoblast." []
 synonym: "abnormality of prophase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000709
-name: default
+name: abnormal metaphase neoblast
 def: "Abnormality of metaphase neoblast." []
 synonym: "abnormality of metaphase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000710
-name: default
+name: abnormal anaphase neoblast
 def: "Abnormality of anaphase neoblast." []
 synonym: "abnormality of anaphase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000711
-name: default
+name: abnormal telophase neoblast
 def: "Abnormality of telophase neoblast." []
 synonym: "abnormality of telophase neoblast" EXACT []
 
 [Term]
 id: PLANP:0000712
-name: default
+name: abnormal G1 phase spermatogonial stem cell
 def: "Abnormality of G1 phase spermatogonial stem cell." []
 synonym: "abnormality of G1 phase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000713
-name: default
+name: abnormal S phase spermatogonial stem cell
 def: "Abnormality of S phase spermatogonial stem cell." []
 synonym: "abnormality of S phase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000714
-name: default
+name: abnormal G2 phase spermatogonial stem cell
 def: "Abnormality of G2 phase spermatogonial stem cell." []
 synonym: "abnormality of G2 phase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000715
-name: default
+name: abnormal prophase spermatogonial stem cell
 def: "Abnormality of prophase spermatogonial stem cell." []
 synonym: "abnormality of prophase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000716
-name: default
+name: abnormal metaphase spermatogonial stem cell
 def: "Abnormality of metaphase spermatogonial stem cell." []
 synonym: "abnormality of metaphase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000717
-name: default
+name: abnormal anaphase spermatogonial stem cell
 def: "Abnormality of anaphase spermatogonial stem cell." []
 synonym: "abnormality of anaphase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000718
-name: default
+name: abnormal telophase spermatogonial stem cell
 def: "Abnormality of telophase spermatogonial stem cell." []
 synonym: "abnormality of telophase spermatogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000719
-name: default
+name: abnormal G1 phase oogonial stem cell
 def: "Abnormality of G1 phase oogonial stem cell." []
 synonym: "abnormality of G1 phase oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000720
-name: default
+name: abnormal S phase oogonial stem cell
 def: "Abnormality of S phase oogonial stem cell." []
 synonym: "abnormality of S phase oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000721
-name: default
+name: abnormal G2 phase oogonial stem cell
 def: "Abnormality of G2 phase  oogonial stem cell." []
 synonym: "abnormality of G2 phase  oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000722
-name: default
+name: abnormal prophase oogonial stem cell
 def: "Abnormality of prophase  oogonial stem cell." []
 synonym: "abnormality of prophase  oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000723
-name: default
+name: abnormal metaphase oogonial stem cell
 def: "Abnormality of metaphase oogonial stem cell." []
 synonym: "abnormality of metaphase oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000724
-name: default
+name: abnormal anaphase oogonial stem cell
 def: "Abnormality of anaphase oogonial stem cell." []
 synonym: "abnormality of anaphase oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000725
-name: default
+name: abnormal telophase oogonial stem cell
 def: "Abnormality of telophase  oogonial stem cell." []
 synonym: "abnormality of telophase  oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000726
-name: default
+name: abnormal G1 phase spermatogonium
 def: "Abnormality of G1 phase spermatogonium." []
 synonym: "abnormality of G1 phase spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000727
-name: default
+name: abnormal S phase spermatogonium
 def: "Abnormality of S phase spermatogonium." []
 synonym: "abnormality of S phase spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000728
-name: default
+name: abnormal G2 phase spermatogonium
 def: "Abnormality of G2 phase spermatogonium." []
 synonym: "abnormality of G2 phase spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000729
-name: default
+name: abnormal prophase spermatogonium
 def: "Abnormality of prophase spermatogonium." []
 synonym: "abnormality of prophase spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000730
-name: default
+name: abnormal metaphase spermatogonia
 def: "Abnormality of metaphase spermatogonia." []
 synonym: "abnormality of metaphase spermatogonia" EXACT []
 
 [Term]
 id: PLANP:0000731
-name: default
+name: abnormal anaphase spermatogonia
 def: "Abnormality of anaphase spermatogonia." []
 synonym: "abnormality of anaphase spermatogonia" EXACT []
 
 [Term]
 id: PLANP:0000732
-name: default
+name: abnormal telophase spermatogonium
 def: "Abnormality of telophase spermatogonium." []
 synonym: "abnormality of telophase spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000733
-name: default
+name: abnormal G1 phase oogonial cell
 def: "Abnormality of G1 phase oogonial cell." []
 synonym: "abnormality of G1 phase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000734
-name: default
+name: abnormal S phase oogonial cell
 def: "Abnormality of S phase oogonial cell." []
 synonym: "abnormality of S phase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000735
-name: default
+name: abnormal G2 phase oogonial cell
 def: "Abnormality of G2 phase oogonial cell." []
 synonym: "abnormality of G2 phase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000736
-name: default
+name: abnormal prophase oogonial cell
 def: "Abnormality of prophase oogonial cell." []
 synonym: "abnormality of prophase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000737
-name: default
+name: abnormal metaphase oogonial cell
 def: "Abnormality of metaphase oogonial cell." []
 synonym: "abnormality of metaphase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000738
-name: default
+name: abnormal anaphase oogonial cell
 def: "Abnormality of anaphase oogonial cell." []
 synonym: "abnormality of anaphase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000739
-name: default
+name: abnormal telophase oogonial cell
 def: "Abnormality of telophase oogonial cell." []
 synonym: "abnormality of telophase oogonial cell" EXACT []
 
 [Term]
 id: PLANP:0000740
-name: default
+name: abnormal G1 phase germ cell cyst
 def: "Abnormality of G1 phase germ cell cyst." []
 synonym: "abnormality of G1 phase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000741
-name: default
+name: abnormal S phase germ cell cyst
 def: "Abnormality of S phase germ cell cyst." []
 synonym: "abnormality of S phase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000742
-name: default
+name: abnormal G2 phase germ cell cyst
 def: "Abnormality of G2 phase germ cell cyst." []
 synonym: "abnormality of G2 phase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000743
-name: default
+name: abnormal prophase germ cell cyst
 def: "Abnormality of prophase germ cell cyst." []
 synonym: "abnormality of prophase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000744
-name: default
+name: abnormal metaphase germ cell cyst
 def: "Abnormality of metaphase germ cell cyst." []
 synonym: "abnormality of metaphase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000745
-name: default
+name: abnormal anaphase germ cell cyst
 def: "Abnormality of anaphase germ cell cyst." []
 synonym: "abnormality of anaphase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000746
-name: default
+name: abnormal telophase germ cell cyst
 def: "Abnormality of telophase germ cell cyst." []
 synonym: "abnormality of telophase germ cell cyst" EXACT []
 
 [Term]
 id: PLANP:0000747
-name: default
+name: abnormal meiotic S phase spermatocyte
 def: "Abnormality of meiotic S phase spermatocyte." []
 synonym: "abnormality of meiotic S phase spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000748
-name: default
+name: abnormal meiotic G1 phase spermatocyte
 def: "Abnormality of meiotic G1 phase spermatocyte." []
 synonym: "abnormality of meiotic G1 phase spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000749
-name: default
+name: abnormal meiotic G2 phase spermatocyte
 def: "Abnormality of meiotic G2 phase spermatocyte." []
 synonym: "abnormality of meiotic G2 phase spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000750
-name: default
+name: abnormal meiotic prophase I spermatocyte
 def: "Abnormality of meiotic prophase I spermatocyte." []
 synonym: "abnormality of meiotic prophase I spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000751
-name: default
+name: abnormal leptotene stage spermatocyte
 def: "Abnormality of leptotene stage spermatocyte." []
 synonym: "abnormality of leptotene stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000752
-name: default
+name: abnormal zygotene stage spermatocyte
 def: "Abnormality of zygotene stage spermatocyte." []
 synonym: "abnormality of zygotene stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000753
-name: default
+name: abnormal pachytene stage spermatocyte
 def: "Abnormality of pachytene stage spermatocyte." []
 synonym: "abnormality of pachytene stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000754
-name: default
+name: abnormal diplotene stage spermatocyte
 def: "Abnormality of diplotene stage spermatocyte." []
 synonym: "abnormality of diplotene stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000755
-name: default
+name: abnormal diakinesis stage spermatocyte
 def: "Abnormality of diakinesis stage spermatocyte." []
 synonym: "abnormality of diakinesis stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000756
-name: default
+name: abnormal meiotic metaphase 1 stage spermatocyte
 def: "Abnormality of meiotic metaphase 1 stage spermatocyte." []
 synonym: "abnormality of meiotic metaphase 1 stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000757
-name: default
+name: abnormal meiotic anaphase I stage spermatocyte
 def: "Abnormality of meiotic anaphase I stage spermatocyte." []
 synonym: "abnormality of meiotic anaphase I stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000758
-name: default
+name: abnormal meiotic telophase I spermatocyte
 def: "Abnormality of meiotic telophase I spermatocyte." []
 synonym: "abnormality of meiotic telophase I spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000759
-name: default
+name: abnormal meiosis II stage spermatocyte
 def: "Abnormality of meiosis II stage spermatocyte." []
 synonym: "abnormality of meiosis II stage spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000760
-name: default
+name: abnormal meiotic prophase II spermatocyte
 def: "Abnormality of meiotic prophase II spermatocyte." []
 synonym: "abnormality of meiotic prophase II spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000761
-name: default
+name: abnormal meiotic metaphase 2 spermatocyte
 def: "Abnormality of meiotic metaphase 2 spermatocyte." []
 synonym: "abnormality of meiotic metaphase 2 spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000762
-name: default
+name: abnormal meiotic anaphase II spermatocyte
 def: "Abnormality of meiotic anaphase II spermatocyte." []
 synonym: "abnormality of meiotic anaphase II spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000763
-name: default
+name: abnormal meiotic telophase II spermatocyte
 def: "Abnormality of meiotic telophase II spermatocyte." []
 synonym: "abnormality of meiotic telophase II spermatocyte" EXACT []
 
 [Term]
 id: PLANP:0000764
-name: default
+name: abnormal cephalic ganglia primordium
 def: "Abnormality of cephalic ganglia primordium." []
 synonym: "abnormality of cephalic ganglia primordium" EXACT []
 
 [Term]
 id: PLANP:0000765
-name: default
+name: abnormal eye primordium
 def: "Abnormality of eye primordium." []
 synonym: "abnormality of eye primordium" EXACT []
 
 [Term]
 id: PLANP:0000766
-name: default
+name: abnormal pharynx primordium
 def: "Abnormality of pharynx primordium." []
 synonym: "abnormality of pharynx primordium" EXACT []
 
 [Term]
 id: PLANP:0000767
-name: default
+name: abnormal pigment cup primordium
 def: "Abnormality of pigment cup primordium." []
 synonym: "abnormality of pigment cup primordium" EXACT []
 
 [Term]
 id: PLANP:0000768
-name: default
+name: abnormal testis primordium
 def: "Abnormality of testis primordium." []
 synonym: "abnormality of testis primordium" EXACT []
 
 [Term]
 id: PLANP:0000769
-name: default
+name: abnormal gonad primoridium
 def: "Abnormality of gonad primoridium." []
 synonym: "abnormality of gonad primoridium" EXACT []
 
 [Term]
 id: PLANP:0000770
-name: default
+name: abnormal protonephridial lumen
 def: "Abnormality of protonephridial lumen." []
 synonym: "abnormality of protonephridial lumen" EXACT []
 
 [Term]
 id: PLANP:0000771
-name: default
+name: abnormal testis lumen
 def: "Abnormality of testis lumen." []
 synonym: "abnormality of testis lumen" EXACT []
 
 [Term]
 id: PLANP:0000772
-name: default
+name: abnormal ovary lumen
 def: "Abnormality of ovary lumen." []
 synonym: "abnormality of ovary lumen" EXACT []
 
 [Term]
 id: PLANP:0000773
-name: default
+name: abnormal flame cell lumen
 def: "Abnormality of flame cell lumen." []
 synonym: "abnormality of flame cell lumen" EXACT []
 
 [Term]
 id: PLANP:0000774
-name: default
+name: abnormal cephalic ganglia progenitor cell
 def: "Abnormality of cephalic ganglia progenitor cell." []
 synonym: "abnormality of cephalic ganglia progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000775
-name: default
+name: abnormal dorsal epidermis progenitor cell
 def: "Abnormality of dorsal epidermis progenitor cell." []
 synonym: "abnormality of dorsal epidermis progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000776
-name: default
+name: abnormal optic cup progenitor cell
 def: "Abnormality of optic cup progenitor cell." []
 synonym: "abnormality of optic cup progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000777
-name: default
+name: abnormal ventral epidermis progenitor cell
 def: "Abnormality of ventral epidermis progenitor cell." []
 synonym: "abnormality of ventral epidermis progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000778
-name: default
+name: abnormal head fragment
 def: "Abnormality of head fragment." []
 synonym: "abnormality of head fragment" EXACT []
 
 [Term]
 id: PLANP:0000779
-name: default
+name: abnormal trunk fragment
 def: "Abnormality of trunk fragment." []
 synonym: "abnormality of trunk fragment" EXACT []
 
 [Term]
 id: PLANP:0000780
-name: default
+name: abnormal tail fragment
 def: "Abnormality of tail fragment." []
 synonym: "abnormality of tail fragment" EXACT []
 
 [Term]
 id: PLANP:0000781
-name: default
+name: abnormal prepharyngeal fragment
 def: "Abnormality of prepharyngeal fragment." []
 synonym: "abnormality of prepharyngeal fragment" EXACT []
 
 [Term]
 id: PLANP:0000782
-name: default
+name: abnormal postpharyngeal fragment
 def: "Abnormality of postpharyngeal fragment." []
 synonym: "abnormality of postpharyngeal fragment" EXACT []
 
 [Term]
 id: PLANP:0000783
-name: default
+name: abnormal anterior fragment
 def: "Abnormality of anterior fragment." []
 synonym: "abnormality of anterior fragment" EXACT []
 
 [Term]
 id: PLANP:0000784
-name: default
+name: abnormal posterior fragment
 def: "Abnormality of posterior fragment." []
 synonym: "abnormality of posterior fragment" EXACT []
 
 [Term]
 id: PLANP:0000785
-name: default
+name: abnormal lateral fragment
 def: "Abnormality of lateral fragment." []
 synonym: "abnormality of lateral fragment" EXACT []
 
 [Term]
 id: PLANP:0000786
-name: default
+name: abnormal longitudinal fragment
 def: "Abnormality of longitudinal fragment." []
 synonym: "abnormality of longitudinal fragment" EXACT []
 
 [Term]
 id: PLANP:0000787
-name: default
+name: abnormal plug fragment
 def: "Abnormality of plug fragment." []
 synonym: "abnormality of plug fragment" EXACT []
 
 [Term]
 id: PLANP:0000788
-name: default
+name: abnormal wedge fragment
 def: "Abnormality of wedge fragment." []
 synonym: "abnormality of wedge fragment" EXACT []
 
@@ -3876,7 +3876,7 @@ synonym: "loss of tail due to degeneration" EXACT []
 
 [Term]
 id: PLANP:0000791
-name: default
+name: decreased mobility of animal
 def: "Decreased or reduced ability to move whole organism." []
 
 [Term]
@@ -3901,7 +3901,7 @@ synonym: "increasing of pigment in the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000795
-name: default
+name: stationary animal
 def: "anomaly in the ability to move whole organism." []
 
 [Term]
@@ -3936,14 +3936,14 @@ synonym: "abnormal curved medial shape of tail" EXACT []
 
 [Term]
 id: PLANP:0000801
-name: default
+name: edema in animal
 def: "An abnormal accumulation of fluid in the whole organism." []
 synonym: "abnormal accumulation of fluid in whole organism" EXACT []
 synonym: "whole organism edema" EXACT []
 
 [Term]
 id: PLANP:0000802
-name: default
+name: head edema
 def: "An abnormal accumulation of fluid in the head." []
 synonym: "abnormal accumulation of fluid in head" EXACT []
 synonym: "head edema" EXACT []
@@ -3999,4 +3999,32 @@ id: PLANP:0000810
 name: abnormal pigmentation of the head
 def: "abnormal degree of pigmentation of the head." []
 synonym: "abnormal pigmentation of the head" EXACT []
+
+[Term]
+id: PLANP:0000811
+name: scorpion tail
+def: "Any structural anomaly that causes dorsal region of tail to be curled shaped." []
+synonym: "abnormal curled shape of dorsal region of tail" EXACT []
+
+[Term]
+id: PLANP:0000812
+name: abnormally inchworming
+def: "An anomaly in inchworming behavior." []
+
+[Term]
+id: PLANP:0000813
+name: slow moving animal
+def: "slower, decreased speed of, whole organism" []
+synonym: "slow moving whole organism" EXACT []
+
+[Term]
+id: PLANP:0000814
+name: fast moving animal
+def: "faster, increased speed of, whole organism" []
+synonym: "fast moving whole organism" EXACT []
+
+[Term]
+id: PLANP:0000815
+name: immobile animal
+def: "anomaly in the complete lack of the ability to move of whole organism." []
 

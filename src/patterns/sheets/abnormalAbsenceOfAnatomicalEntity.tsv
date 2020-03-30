@@ -1,0 +1,4 @@
+defined_class	defined_class_name	anatomical_entity	entity_label
+PLANP:0000515	loss of eyes	PLANA:0000036	eye
+PLANP:0000529	loss of head	PLANA:0000418	head
+PLANP:0000533	loss of tail	PLANA:0000421	tail
