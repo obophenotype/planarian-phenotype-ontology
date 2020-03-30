@@ -8,7 +8,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
-Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001799>))
@@ -16,9 +15,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002258>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000421>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0002118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0003000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000491>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000492>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000493>))
@@ -28,6 +29,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000797>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000798>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000799>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000800>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000811>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
@@ -40,68 +42,75 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000491> (curled ventral surface)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000491> (ventral curling)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000491> "Any structural anomaly that causes ventral surface to be curled shaped."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000491> "abnormal curled shape of ventral surface"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000491> "curled ventral surface"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000384>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000491> "Any structural anomaly that causes ventral region of the whole animal to be curled shaped."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000491> "abnormal curled shape of ventral region of the whole animal"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000491> "ventral curling"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000143>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000492> (pointed head)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000492> (pointy head)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000492> "Any structural anomaly that causes head to be pointed shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000492> "abnormal pointed shape of head"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000492> "pointed head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000492> "pointy head"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000492> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000493> (columnar head)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000493> (column-like head)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000493> "Any structural anomaly that causes head to be columnar shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000493> "abnormal columnar shape of head"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000493> "columnar head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000493> "column-like head"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000493> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000496> (pointed tail)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000496> (pointy tail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000496> "Any structural anomaly that causes tail to be pointed shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000496> "abnormal pointed shape of tail"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000496> "pointed tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000496> "pointy tail"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000496> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000796> (ruffled epithelium)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000796> (epithelial ruffles)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000796> "Any structural anomaly that causes epithelium to be ruffled shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000796> "abnormal ruffled shape of epithelium"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000796> "ruffled epithelium"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000796> "epithelial ruffles"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000796> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001799> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0002118>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000797> (hourglass-shaped head)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000797> (pinched head)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000797> "Any structural anomaly that causes head to be hourglass-shaped shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000797> "abnormal hourglass-shaped shape of head"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000797> "hourglass-shaped head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000797> "pinched head"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000797> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002239> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000798> (hourglass-shaped tail)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000798> (pinched tail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000798> "Any structural anomaly that causes tail to be hourglass-shaped shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000798> "abnormal hourglass-shaped shape of tail"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000798> "hourglass-shaped tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000798> "pinched tail"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000798> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002239> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000799> (curved medial head)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000799> (single sided head pinching)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000799> "Any structural anomaly that causes head to be curved medial shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000799> "abnormal curved medial shape of head"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000799> "curved medial head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000799> "single sided head pinching"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000799> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000800> (curved medial tail)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000800> (single sided tail pinching)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000800> "Any structural anomaly that causes tail to be curved medial shaped."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000800> "abnormal curved medial shape of tail"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000800> "curved medial tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000800> "single sided tail pinching"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000800> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000811> (scorpion tail)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000811> "Any structural anomaly that causes dorsal region of tail to be curled shaped."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000811> "abnormal curled shape of dorsal region of tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000811> "scorpion tail"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000811> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0003000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )

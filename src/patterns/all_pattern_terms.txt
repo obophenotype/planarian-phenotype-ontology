@@ -2,8 +2,9 @@ http://purl.obolibrary.org/obo/BFO_0000050
 http://purl.obolibrary.org/obo/BFO_0000050
 http://purl.obolibrary.org/obo/BFO_0000051
 http://purl.obolibrary.org/obo/BFO_0000051
-http://purl.obolibrary.org/obo/BSPO_0000384
 http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/NBO_0000313
+http://purl.obolibrary.org/obo/NBO_0050001
 http://purl.obolibrary.org/obo/NCIT_C3824
 http://purl.obolibrary.org/obo/NCIT_C3824
 http://purl.obolibrary.org/obo/PATO_0000001
@@ -20,6 +21,12 @@ http://purl.obolibrary.org/obo/PATO_0000070
 http://purl.obolibrary.org/obo/PATO_0000070
 http://purl.obolibrary.org/obo/PATO_0000117
 http://purl.obolibrary.org/obo/PATO_0000117
+http://purl.obolibrary.org/obo/PATO_0000300
+http://purl.obolibrary.org/obo/PATO_0000300
+http://purl.obolibrary.org/obo/PATO_0000303
+http://purl.obolibrary.org/obo/PATO_0000303
+http://purl.obolibrary.org/obo/PATO_0000304
+http://purl.obolibrary.org/obo/PATO_0000304
 http://purl.obolibrary.org/obo/PATO_0000374
 http://purl.obolibrary.org/obo/PATO_0000374
 http://purl.obolibrary.org/obo/PATO_0000375
@@ -44,6 +51,8 @@ http://purl.obolibrary.org/obo/PATO_0000600
 http://purl.obolibrary.org/obo/PATO_0000645
 http://purl.obolibrary.org/obo/PATO_0000645
 http://purl.obolibrary.org/obo/PATO_0001199
+http://purl.obolibrary.org/obo/PATO_0001236
+http://purl.obolibrary.org/obo/PATO_0001236
 http://purl.obolibrary.org/obo/PATO_0001450
 http://purl.obolibrary.org/obo/PATO_0001450
 http://purl.obolibrary.org/obo/PATO_0001799
@@ -471,6 +480,7 @@ http://purl.obolibrary.org/obo/PLANA_0002139
 http://purl.obolibrary.org/obo/PLANA_0002140
 http://purl.obolibrary.org/obo/PLANA_0002141
 http://purl.obolibrary.org/obo/PLANA_0002142
+http://purl.obolibrary.org/obo/PLANA_0003000
 http://purl.obolibrary.org/obo/PLANA_0003100
 http://purl.obolibrary.org/obo/PLANA_0003101
 http://purl.obolibrary.org/obo/PLANA_0003102
@@ -1273,6 +1283,11 @@ http://purl.obolibrary.org/obo/PLANP_0000807
 http://purl.obolibrary.org/obo/PLANP_0000808
 http://purl.obolibrary.org/obo/PLANP_0000809
 http://purl.obolibrary.org/obo/PLANP_0000810
+http://purl.obolibrary.org/obo/PLANP_0000811
+http://purl.obolibrary.org/obo/PLANP_0000812
+http://purl.obolibrary.org/obo/PLANP_0000813
+http://purl.obolibrary.org/obo/PLANP_0000814
+http://purl.obolibrary.org/obo/PLANP_0000815
 http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/RO_0002314
@@ -1285,6 +1300,7 @@ http://purl.obolibrary.org/obo/UBERON_0001062
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfPigmentationOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDistanceBetweenAnatomicalEntities.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasExtraPartsOfTypeAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml
@@ -1300,11 +1316,14 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAn
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedMobilityOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedPigmentationOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSpeedOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWidthOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyImmobileAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedDistanceBetweenAnatomicalEntities.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLengthOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedPigmentationOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSpeedOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWeightOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/edematousAnatomicalEntity.yaml

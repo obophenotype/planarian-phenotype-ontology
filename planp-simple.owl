@@ -12,7 +12,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/planp-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-02-13/planp-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-03-28/planp-simple.owl"/>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology (PLANP)</dc:title>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/3.0/</terms:license>
@@ -184,12 +184,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#is_cyclic -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_cyclic"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
@@ -266,13 +260,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <oboInOwl:hasDbXref>BFO:0000051</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>has_part</oboInOwl:id>
-        <oboInOwl:is_cyclic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</oboInOwl:is_cyclic>
         <oboInOwl:shorthand>has_part</oboInOwl:shorthand>
         <rdfs:comment>We use the has_part relation to relate complex qualities to more primitive ones. A complex quality is a collection of qualities. The complex quality cannot exist without the sub-qualities. For example, the quality &apos;swollen&apos; necessarily comes with the qualities of &apos;protruding&apos; and &apos;increased size&apos;.</rdfs:comment>
         <rdfs:label>has part</rdfs:label>
@@ -387,7 +379,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of medial-lateral axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of medial-lateral axis of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal medial-lateral axis of the whole animal</rdfs:label>
+        <rdfs:label>abnormal medial-lateral axis</rdfs:label>
     </owl:Class>
     
 
@@ -805,7 +797,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000285"/>
         <obo:IAO_0000115>Abnormality of pharynx.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal pharynx</rdfs:label>
+        <rdfs:label>abnormal definitive pharynx</rdfs:label>
     </owl:Class>
     
 
@@ -1533,7 +1525,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000052"/>
         <obo:IAO_0000115>Abnormality of dorsal region of the epidermis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal region of the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal dorsal region of the epidermis</rdfs:label>
+        <rdfs:label>abnormal dorsal epidermis</rdfs:label>
     </owl:Class>
     
 
@@ -1590,7 +1582,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
         <obo:IAO_0000115>Abnormality of neural progenitor cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of neural progenitor cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal neural progenitor cell</rdfs:label>
+        <rdfs:label>abnormal neural progenitor</rdfs:label>
     </owl:Class>
     
 
@@ -1690,7 +1682,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of anterior-posterior axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of anterior-posterior axis of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal anterior-posterior axis of the whole animal</rdfs:label>
+        <rdfs:label>abnormal anterior-posterior axis</rdfs:label>
     </owl:Class>
     
 
@@ -1877,7 +1869,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of dorsal ventral margin of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal ventral margin of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal dorsal ventral margin of the whole animal</rdfs:label>
+        <rdfs:label>abnormal dorsal ventral margin</rdfs:label>
     </owl:Class>
     
 
@@ -2157,7 +2149,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of left-right axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of left-right axis of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal left-right axis of the whole animal</rdfs:label>
+        <rdfs:label>abnormal left-right axis</rdfs:label>
     </owl:Class>
     
 
@@ -2330,7 +2322,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000289"/>
         <obo:IAO_0000115>Abnormality of oral-aboral axis of the embryo.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of oral-aboral axis of the embryo</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal oral-aboral axis of the embryo</rdfs:label>
+        <rdfs:label>abnormal oral-aboral axis</rdfs:label>
     </owl:Class>
     
 
@@ -2892,7 +2884,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of proximal-distal axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of proximal-distal axis of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal proximal-distal axis of the whole animal</rdfs:label>
+        <rdfs:label>abnormal proximal-distal axis</rdfs:label>
     </owl:Class>
     
 
@@ -3009,7 +3001,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
         <obo:IAO_0000115>Abnormality of muscle progenitor cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of muscle progenitor cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal muscle progenitor cell</rdfs:label>
+        <rdfs:label>abnormal muscle progenitor</rdfs:label>
     </owl:Class>
     
 
@@ -3089,7 +3081,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000304"/>
         <obo:IAO_0000115>Abnormality of protonephridial progenitor cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of protonephridial progenitor cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal protonephridial progenitor cell</rdfs:label>
+        <rdfs:label>abnormal protonephridial progenitor</rdfs:label>
     </owl:Class>
     
 
@@ -3330,7 +3322,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000396"/>
         <obo:IAO_0000115>Abnormality of pharynx inner epithelium surface.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of pharynx inner epithelium surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal pharynx inner epithelium surface</rdfs:label>
+        <rdfs:label>abnormal pharynx lumen epithelial surface</rdfs:label>
     </owl:Class>
     
 
@@ -3732,7 +3724,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of dorsal-ventral axis of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal-ventral axis of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal dorsal-ventral axis of the whole animal</rdfs:label>
+        <rdfs:label>abnormal dorsal-ventral axis</rdfs:label>
     </owl:Class>
     
 
@@ -4280,7 +4272,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000027"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the primitive ectoderm surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of primitive ectoderm surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal primitive ectoderm surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of primitive ectoderm surface</rdfs:label>
     </owl:Class>
     
 
@@ -4291,7 +4283,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000048"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the gastrodermis surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of gastrodermis surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal gastrodermis surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of lumen gut surface</rdfs:label>
     </owl:Class>
     
 
@@ -4302,7 +4294,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000071"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the basal surface of the epidermis, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of basal surface of the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal basal surface of the epidermis morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of basal epidermis surface</rdfs:label>
     </owl:Class>
     
 
@@ -4313,7 +4305,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000243"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the apical surface of the epidermis, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of apical surface of the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal apical surface of the epidermis morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of apical epidermis surface</rdfs:label>
     </owl:Class>
     
 
@@ -4324,7 +4316,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000296"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the pharynx pouch epithelial surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of pharynx pouch epithelial surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal pharynx pouch epithelial surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of pharyngeal pouch surface</rdfs:label>
     </owl:Class>
     
 
@@ -4335,7 +4327,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000297"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the embryonic gut cell surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of embryonic gut cell surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal embryonic gut cell surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of embryonic gut cell surface</rdfs:label>
     </owl:Class>
     
 
@@ -4346,7 +4338,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000327"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the primtive gut cell surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of primtive gut cell surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal primtive gut cell surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of primtive gut cell surface</rdfs:label>
     </owl:Class>
     
 
@@ -4357,7 +4349,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000348"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the pharynx inner epithelium surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of pharynx inner epithelium surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal pharynx inner epithelium surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of pharynx lumen epithelial surface</rdfs:label>
     </owl:Class>
     
 
@@ -4368,7 +4360,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000394"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the embryonic pharynx lumen epithelial surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of embryonic pharynx lumen epithelial surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal embryonic pharynx lumen epithelial surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of temporary embryonic pharynx lumen epithelial surface</rdfs:label>
     </owl:Class>
     
 
@@ -4379,7 +4371,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000465"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the pharynx outer epithelium surface, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of pharynx outer epithelium surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal pharynx outer epithelium surface morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of pharynx outer epithelial surface</rdfs:label>
     </owl:Class>
     
 
@@ -4390,7 +4382,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000548"/>
         <obo:IAO_0000115>Any structural anomaly in the shape of the ventral region of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormally shaped ventral region of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal shape of ventral region of the whole animal </rdfs:label>
+        <rdfs:label>abormal shape of the ventral region of the animal</rdfs:label>
     </owl:Class>
     
 
@@ -4398,10 +4390,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000491">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
-        <obo:IAO_0000115>Any structural anomaly that causes ventral surface to be curled shaped.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormal curled shape of ventral surface</oboInOwl:hasExactSynonym>
-        <rdfs:label>curled ventral surface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000490"/>
+        <obo:IAO_0000115>Any structural anomaly that causes ventral region of the whole animal to be curled shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal curled shape of ventral region of the whole animal</oboInOwl:hasExactSynonym>
+        <rdfs:label>ventral curling</rdfs:label>
     </owl:Class>
     
 
@@ -4412,7 +4404,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000499"/>
         <obo:IAO_0000115>Any structural anomaly that causes head to be pointed shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal pointed shape of head</oboInOwl:hasExactSynonym>
-        <rdfs:label>pointed head</rdfs:label>
+        <rdfs:label>pointy head</rdfs:label>
     </owl:Class>
     
 
@@ -4423,7 +4415,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000499"/>
         <obo:IAO_0000115>Any structural anomaly that causes head to be columnar shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal columnar shape of head</oboInOwl:hasExactSynonym>
-        <rdfs:label>columnar head</rdfs:label>
+        <rdfs:label>column-like head</rdfs:label>
     </owl:Class>
     
 
@@ -4434,7 +4426,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <obo:IAO_0000115>skinny or decreased width of the head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>skinny head</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased width of the head</rdfs:label>
+        <rdfs:label>skinny head</rdfs:label>
     </owl:Class>
     
 
@@ -4445,7 +4437,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000500"/>
         <obo:IAO_0000115>Any structural anomaly that causes tail to be pointed shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal pointed shape of tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>pointed tail</rdfs:label>
+        <rdfs:label>pointy tail</rdfs:label>
     </owl:Class>
     
 
@@ -4456,7 +4448,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000060"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of head</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal head morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of head</rdfs:label>
     </owl:Class>
     
 
@@ -4467,7 +4459,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000036"/>
         <obo:IAO_0000115>Any unspecified morphological anomaly of the tail, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal morphology of tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal tail morphology</rdfs:label>
+        <rdfs:label>abnormal morphology of tail</rdfs:label>
     </owl:Class>
     
 
@@ -4478,7 +4470,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
         <obo:IAO_0000115>Any structural anomaly in the shape of the head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormally shaped head</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal shape of head </rdfs:label>
+        <rdfs:label>abnormal shape of head</rdfs:label>
     </owl:Class>
     
 
@@ -4489,7 +4481,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000498"/>
         <obo:IAO_0000115>Any structural anomaly in the shape of the tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormally shaped tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal shape of tail </rdfs:label>
+        <rdfs:label>abnormal shape of tail</rdfs:label>
     </owl:Class>
     
 
@@ -4522,7 +4514,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>skinny or decreased width of the tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>skinny tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased width of the tail</rdfs:label>
+        <rdfs:label>skinny tail</rdfs:label>
     </owl:Class>
     
 
@@ -4533,7 +4525,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000060"/>
         <obo:IAO_0000115>An abnormal head with a lesion that is star shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>star shaped lesion of the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal head with star shaped lesion</rdfs:label>
+        <rdfs:label>star shaped lesion on the head</rdfs:label>
     </owl:Class>
     
 
@@ -4544,7 +4536,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000060"/>
         <obo:IAO_0000115>An abnormal head with a lesion that is circular.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>circular lesion of the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal head with circular lesion</rdfs:label>
+        <rdfs:label>circular shaped lesion on the head</rdfs:label>
     </owl:Class>
     
 
@@ -4555,7 +4547,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000060"/>
         <obo:IAO_0000115>An abnormal head with a lesion that is linear.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>linear lesion of the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal head with linear lesion</rdfs:label>
+        <rdfs:label>linear shaped lesion on the head</rdfs:label>
     </owl:Class>
     
 
@@ -4566,7 +4558,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000036"/>
         <obo:IAO_0000115>An abnormal tail with a lesion that is star shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>star shaped lesion of the tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal tail with star shaped lesion</rdfs:label>
+        <rdfs:label>star shaped lesion on the tail</rdfs:label>
     </owl:Class>
     
 
@@ -4577,7 +4569,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000036"/>
         <obo:IAO_0000115>An abnormal tail with a lesion that is circular.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>circular lesion of the tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal tail with circular lesion</rdfs:label>
+        <rdfs:label>circular shaped lesion on the tail</rdfs:label>
     </owl:Class>
     
 
@@ -4588,7 +4580,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000036"/>
         <obo:IAO_0000115>An abnormal tail with a lesion that is linear.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>linear lesion of the tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal tail with linear lesion</rdfs:label>
+        <rdfs:label>linear shaped lesion on the tail</rdfs:label>
     </owl:Class>
     
 
@@ -4599,7 +4591,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000512"/>
         <obo:IAO_0000115>Increased distance between eye and eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>distance increased between eye and eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased distance between eye and eye</rdfs:label>
+        <rdfs:label>eyes further apart than normae</rdfs:label>
     </owl:Class>
     
 
@@ -4610,7 +4602,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000512"/>
         <obo:IAO_0000115>Decreased distance between eye and eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>distance decreased between eye and eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased distance between eye and eye</rdfs:label>
+        <rdfs:label>eyes closer together than normal</rdfs:label>
     </owl:Class>
     
 
@@ -4622,7 +4614,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>abnormal distance between eye and eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal distance between eye and eye</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>distance abnormal between eye and eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal distance between eye and eye</rdfs:label>
+        <rdfs:label>abnormal distance between eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4633,7 +4625,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
         <obo:IAO_0000115>An abnormal head with one or more lesions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>head with lesion(s)</oboInOwl:hasExactSynonym>
-        <rdfs:label>lesion in head</rdfs:label>
+        <rdfs:label>lesion in the head</rdfs:label>
     </owl:Class>
     
 
@@ -4644,7 +4636,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000498"/>
         <obo:IAO_0000115>An abnormal tail with one or more lesions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>tail with lesion(s)</oboInOwl:hasExactSynonym>
-        <rdfs:label>lesion in tail</rdfs:label>
+        <rdfs:label>lesion in the tail</rdfs:label>
     </owl:Class>
     
 
@@ -4655,7 +4647,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000518"/>
         <obo:IAO_0000115>Absence of eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>missing eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>absent eye</rdfs:label>
+        <rdfs:label>loss of eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4667,7 +4659,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Any structural anomaly that causes there to be an abnormal number eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal number of eyes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>altered number of eyes</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal number of anatomical enitites of type eye</rdfs:label>
+        <rdfs:label>abnormal number of eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4679,7 +4671,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Decreased or loss of pigmentation of eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>eye hypopigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>loss of pigment in the eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased pigmentation in the eye</rdfs:label>
+        <rdfs:label>decreased pigmentation of the eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4691,7 +4683,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>complete loss of pigmenation of the eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>absence of pigment in the eye</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>complete loss of pigmentation in the eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>unpigmented eye</rdfs:label>
+        <rdfs:label>loss of pigmentation in the eye</rdfs:label>
     </owl:Class>
     
 
@@ -4702,7 +4694,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>Decreased length or shortening of the tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>short tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased length of tail</rdfs:label>
+        <rdfs:label>short tail</rdfs:label>
     </owl:Class>
     
 
@@ -4713,7 +4705,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <obo:IAO_0000115>longer, increased length of, head</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>longer head</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased length of the head</rdfs:label>
+        <rdfs:label>long head</rdfs:label>
     </owl:Class>
     
 
@@ -4724,7 +4716,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>longer, increased length of, tail</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>longer tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased length of the tail</rdfs:label>
+        <rdfs:label>long tail</rdfs:label>
     </owl:Class>
     
 
@@ -4735,7 +4727,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <obo:IAO_0000115>Increased width of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>wider head</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased width of head</rdfs:label>
+        <rdfs:label>wide head</rdfs:label>
     </owl:Class>
     
 
@@ -4746,7 +4738,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>Increased width of tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>wider tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased width of tail</rdfs:label>
+        <rdfs:label>wide tail</rdfs:label>
     </owl:Class>
     
 
@@ -4758,7 +4750,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Any structural anomaly that causes there to be an abnormal number head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal number of heads</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>altered number of heads</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal number of anatomical enitites of type head</rdfs:label>
+        <rdfs:label>abnormal number of heads</rdfs:label>
     </owl:Class>
     
 
@@ -4769,7 +4761,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000526"/>
         <obo:IAO_0000115>The presence of an increased number of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Extra head</oboInOwl:hasExactSynonym>
-        <rdfs:label>Increased number of head</rdfs:label>
+        <rdfs:label>more heads</rdfs:label>
     </owl:Class>
     
 
@@ -4780,7 +4772,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000526"/>
         <obo:IAO_0000115>Absence of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>missing head</oboInOwl:hasExactSynonym>
-        <rdfs:label>absent head</rdfs:label>
+        <rdfs:label>loss of head</rdfs:label>
     </owl:Class>
     
 
@@ -4792,7 +4784,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Any structural anomaly that causes there to be an abnormal number tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal number of tails</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>altered number of tails</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal number of anatomical enitites of type tail</rdfs:label>
+        <rdfs:label>abnormal number of tails</rdfs:label>
     </owl:Class>
     
 
@@ -4803,7 +4795,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000530"/>
         <obo:IAO_0000115>The presence of an increased number of tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Extra tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>Increased number of tail</rdfs:label>
+        <rdfs:label>more tails</rdfs:label>
     </owl:Class>
     
 
@@ -4814,7 +4806,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000530"/>
         <obo:IAO_0000115>Absence of tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>missing tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>absent tail</rdfs:label>
+        <rdfs:label>loss of tail</rdfs:label>
     </owl:Class>
     
 
@@ -4825,7 +4817,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000046"/>
         <obo:IAO_0000115>abnormal degree of pigmentation of the eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal pigmentation of the eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal degree of pigmentation of the eye</rdfs:label>
+        <rdfs:label>abnormal pigmentation of the eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4836,7 +4828,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000427"/>
         <obo:IAO_0000115>abnormal degree of pigmentation of the epidermis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal pigmentation of the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal degree of pigmentation of the epidermis</rdfs:label>
+        <rdfs:label>abnormal pigmentation of the epidermis</rdfs:label>
     </owl:Class>
     
 
@@ -4848,7 +4840,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Decreased or loss of pigmentation of epidermis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis hypopigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>loss of pigment in the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased pigmentation in the epidermis</rdfs:label>
+        <rdfs:label>decreased pigmentation of the epidermis</rdfs:label>
     </owl:Class>
     
 
@@ -4859,7 +4851,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000518"/>
         <obo:IAO_0000115>The presence of a reduced number of eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Reduced number of eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>Decreased number of eye</rdfs:label>
+        <rdfs:label>less eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4870,7 +4862,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000526"/>
         <obo:IAO_0000115>The presence of a reduced number of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Reduced number of head</oboInOwl:hasExactSynonym>
-        <rdfs:label>Decreased number of head</rdfs:label>
+        <rdfs:label>less heads</rdfs:label>
     </owl:Class>
     
 
@@ -4882,7 +4874,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>complete loss of pigmenation of the epidermis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>absence of pigment in the epidermis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>complete loss of pigmentation in the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>unpigmented epidermis</rdfs:label>
+        <rdfs:label>loss of pigmentation in the epidermis</rdfs:label>
     </owl:Class>
     
 
@@ -4893,7 +4885,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000530"/>
         <obo:IAO_0000115>The presence of a reduced number of tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Reduced number of tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>Decreased number of tail</rdfs:label>
+        <rdfs:label>less tails</rdfs:label>
     </owl:Class>
     
 
@@ -4904,7 +4896,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000518"/>
         <obo:IAO_0000115>The presence of an increased number of eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Extra eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>Increased number of eye</rdfs:label>
+        <rdfs:label>more eyes</rdfs:label>
     </owl:Class>
     
 
@@ -4948,7 +4940,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of anterior region of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of anterior region of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal anterior region of the whole animal</rdfs:label>
+        <rdfs:label>abnormal anterior region</rdfs:label>
     </owl:Class>
     
 
@@ -4959,7 +4951,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000548"/>
         <obo:IAO_0000115>Abnormality of dorsal region of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of dorsal region of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal dorsal region of the whole animal</rdfs:label>
+        <rdfs:label>abnormal dorsal region</rdfs:label>
     </owl:Class>
     
 
@@ -4970,7 +4962,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of posterior compartment of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of posterior compartment of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal posterior compartment of the whole animal</rdfs:label>
+        <rdfs:label>abnormal posterior region</rdfs:label>
     </owl:Class>
     
 
@@ -4981,7 +4973,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>Abnormality of ventral region of the whole animal.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of ventral region of the whole animal</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal ventral region of the whole animal</rdfs:label>
+        <rdfs:label>abnormal ventral region</rdfs:label>
     </owl:Class>
     
 
@@ -5130,6 +5122,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000149"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000198"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000372"/>
         <obo:IAO_0000115>Abnormality of brain visual center.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of brain visual center</oboInOwl:hasExactSynonym>
@@ -6220,8 +6214,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000655">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000265"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
-        <obo:IAO_0000115>Abnormality of tight junction.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>abnormality of tight junction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Abnormality of septate junction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormality of septate junction</oboInOwl:hasExactSynonym>
         <rdfs:label>abnormal tight junction</rdfs:label>
     </owl:Class>
     
@@ -6252,6 +6246,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000658 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
         <obo:IAO_0000115>Abnormality of X1 cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of X1 cell</oboInOwl:hasExactSynonym>
@@ -6263,6 +6258,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
         <obo:IAO_0000115>Abnormality of X1(FS) cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of X1(FS) cell</oboInOwl:hasExactSynonym>
@@ -6274,6 +6270,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000660 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
         <obo:IAO_0000115>Abnormality of X2 cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of X2 cell</oboInOwl:hasExactSynonym>
@@ -6285,6 +6282,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000661 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000363"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000683"/>
         <obo:IAO_0000115>Abnormality of Xins cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of Xins cell</oboInOwl:hasExactSynonym>
@@ -6367,7 +6365,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000571"/>
         <obo:IAO_0000115>Abnormality of chromosome_part.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of chromosome_part</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal chromosome_part</rdfs:label>
+        <rdfs:label>abnormal chromosome:part</rdfs:label>
     </owl:Class>
     
 
@@ -6389,7 +6387,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000668"/>
         <obo:IAO_0000115>Abnormality of chromosomal_structural_element.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of chromosomal_structural_element</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal chromosomal_structural_element</rdfs:label>
+        <rdfs:label>abnormal chromosomal:structural:element</rdfs:label>
     </owl:Class>
     
 
@@ -6968,7 +6966,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
         <obo:IAO_0000115>Abnormality of G2 phase  oogonial stem cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of G2 phase  oogonial stem cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal G2 phase  oogonial stem cell</rdfs:label>
+        <rdfs:label>abnormal G2 phase oogonial stem cell</rdfs:label>
     </owl:Class>
     
 
@@ -6979,7 +6977,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
         <obo:IAO_0000115>Abnormality of prophase  oogonial stem cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of prophase  oogonial stem cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal prophase  oogonial stem cell</rdfs:label>
+        <rdfs:label>abnormal prophase oogonial stem cell</rdfs:label>
     </owl:Class>
     
 
@@ -7012,7 +7010,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000399"/>
         <obo:IAO_0000115>Abnormality of telophase  oogonial stem cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormality of telophase  oogonial stem cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal telophase  oogonial stem cell</rdfs:label>
+        <rdfs:label>abnormal telophase oogonial stem cell</rdfs:label>
     </owl:Class>
     
 
@@ -7721,7 +7719,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000529"/>
         <obo:IAO_0000115>Complete wasting (loss) of head tissue that was once present.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>loss of head due to degeneration</oboInOwl:hasExactSynonym>
-        <rdfs:label>missing head due to degeneration</rdfs:label>
+        <rdfs:label>head regression</rdfs:label>
     </owl:Class>
     
 
@@ -7733,7 +7731,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000533"/>
         <obo:IAO_0000115>Complete wasting (loss) of tail tissue that was once present.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>loss of tail due to degeneration</oboInOwl:hasExactSynonym>
-        <rdfs:label>missing tail due to degeneration</rdfs:label>
+        <rdfs:label>tail regression</rdfs:label>
     </owl:Class>
     
 
@@ -7743,7 +7741,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000791">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000795"/>
         <obo:IAO_0000115>Decreased or reduced ability to move whole organism.</obo:IAO_0000115>
-        <rdfs:label>decreased whole organism mobility</rdfs:label>
+        <rdfs:label>decreased mobility of animal</rdfs:label>
     </owl:Class>
     
 
@@ -7754,7 +7752,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>longer, increased length of, whole organism</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>longer whole organism</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased length of the whole organism</rdfs:label>
+        <rdfs:label>long animal</rdfs:label>
     </owl:Class>
     
 
@@ -7766,7 +7764,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Increased or increasing of pigmentation of eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>eye hyperpigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>increasing of pigment in the eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased pigmentation in the eye</rdfs:label>
+        <rdfs:label>increased pigmentation of the eyes</rdfs:label>
     </owl:Class>
     
 
@@ -7778,7 +7776,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Increased or increasing of pigmentation of epidermis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis hyperpigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>increasing of pigment in the epidermis</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased pigmentation in the epidermis</rdfs:label>
+        <rdfs:label>increased pigmentation of the epidermis</rdfs:label>
     </owl:Class>
     
 
@@ -7788,7 +7786,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000795">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>anomaly in the ability to move whole organism.</obo:IAO_0000115>
-        <rdfs:label>abnormal whole organism mobility</rdfs:label>
+        <rdfs:label>stationary animal</rdfs:label>
     </owl:Class>
     
 
@@ -7799,7 +7797,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000665"/>
         <obo:IAO_0000115>Any structural anomaly that causes epithelium to be ruffled shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal ruffled shape of epithelium</oboInOwl:hasExactSynonym>
-        <rdfs:label>ruffled epithelium</rdfs:label>
+        <rdfs:label>epithelial ruffles</rdfs:label>
     </owl:Class>
     
 
@@ -7810,7 +7808,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000499"/>
         <obo:IAO_0000115>Any structural anomaly that causes head to be hourglass-shaped shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal hourglass-shaped shape of head</oboInOwl:hasExactSynonym>
-        <rdfs:label>hourglass-shaped head</rdfs:label>
+        <rdfs:label>pinched head</rdfs:label>
     </owl:Class>
     
 
@@ -7821,7 +7819,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000500"/>
         <obo:IAO_0000115>Any structural anomaly that causes tail to be hourglass-shaped shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal hourglass-shaped shape of tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>hourglass-shaped tail</rdfs:label>
+        <rdfs:label>pinched tail</rdfs:label>
     </owl:Class>
     
 
@@ -7832,7 +7830,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000499"/>
         <obo:IAO_0000115>Any structural anomaly that causes head to be curved medial shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal curved medial shape of head</oboInOwl:hasExactSynonym>
-        <rdfs:label>curved medial head</rdfs:label>
+        <rdfs:label>single sided head pinching</rdfs:label>
     </owl:Class>
     
 
@@ -7843,7 +7841,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000500"/>
         <obo:IAO_0000115>Any structural anomaly that causes tail to be curved medial shaped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal curved medial shape of tail</oboInOwl:hasExactSynonym>
-        <rdfs:label>curved medial tail</rdfs:label>
+        <rdfs:label>single sided tail pinching</rdfs:label>
     </owl:Class>
     
 
@@ -7855,7 +7853,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>An abnormal accumulation of fluid in the whole organism.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal accumulation of fluid in whole organism</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>whole organism edema</oboInOwl:hasExactSynonym>
-        <rdfs:label>edema in whole organism</rdfs:label>
+        <rdfs:label>edema in animal</rdfs:label>
     </owl:Class>
     
 
@@ -7867,7 +7865,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>An abnormal accumulation of fluid in the head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal accumulation of fluid in head</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>head edema</oboInOwl:hasExactSynonym>
-        <rdfs:label>edema in head</rdfs:label>
+        <rdfs:label>head edema</rdfs:label>
     </owl:Class>
     
 
@@ -7879,7 +7877,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>An abnormal accumulation of fluid in the tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal accumulation of fluid in tail</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>tail edema</oboInOwl:hasExactSynonym>
-        <rdfs:label>edema in tail</rdfs:label>
+        <rdfs:label>tail edema</rdfs:label>
     </owl:Class>
     
 
@@ -7890,7 +7888,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000046"/>
         <obo:IAO_0000115>Small, underdeveloped eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>hypoplastic eye</oboInOwl:hasExactSynonym>
-        <rdfs:label>eye hypoplasia</rdfs:label>
+        <rdfs:label>underdeveloped eyes</rdfs:label>
     </owl:Class>
     
 
@@ -7901,7 +7899,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>An abnormal whole organism with one or more lesions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>whole organism with lesion(s)</oboInOwl:hasExactSynonym>
-        <rdfs:label>lesion in whole organism</rdfs:label>
+        <rdfs:label>lesion in animal</rdfs:label>
     </owl:Class>
     
 
@@ -7912,7 +7910,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000662"/>
         <obo:IAO_0000115>An abnormal post-pharyngeal region with one or more lesions.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>post-pharyngeal region with lesion(s)</oboInOwl:hasExactSynonym>
-        <rdfs:label>lesion in post-pharyngeal region</rdfs:label>
+        <rdfs:label>post-pharyngeal lesion</rdfs:label>
     </owl:Class>
     
 
@@ -7924,7 +7922,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>complete loss of pigmenation of the head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>absence of pigment in the head</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>complete loss of pigmentation in the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>unpigmented head</rdfs:label>
+        <rdfs:label>loss of pigmenation in the head</rdfs:label>
     </owl:Class>
     
 
@@ -7936,7 +7934,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Decreased or loss of pigmentation of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>head hypopigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>loss of pigment in the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>decreased pigmentation in the head</rdfs:label>
+        <rdfs:label>decreased pigmentation of the head</rdfs:label>
     </owl:Class>
     
 
@@ -7948,7 +7946,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000115>Increased or increasing of pigmentation of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>head hyperpigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>increasing of pigment in the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>increased pigmentation in the head</rdfs:label>
+        <rdfs:label>increased pigmentation of the head</rdfs:label>
     </owl:Class>
     
 
@@ -7959,7 +7957,58 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000497"/>
         <obo:IAO_0000115>abnormal degree of pigmentation of the head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>abnormal pigmentation of the head</oboInOwl:hasExactSynonym>
-        <rdfs:label>abnormal degree of pigmentation of the head</rdfs:label>
+        <rdfs:label>abnormal pigmentation of the head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000036"/>
+        <obo:IAO_0000115>Any structural anomaly that causes dorsal region of tail to be curled shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal curled shape of dorsal region of tail</oboInOwl:hasExactSynonym>
+        <rdfs:label>scorpion tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_00000000"/>
+        <obo:IAO_0000115>An anomaly in inchworming behavior.</obo:IAO_0000115>
+        <rdfs:label>abnormally inchworming</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000813">
+        <obo:IAO_0000115>slower, decreased speed of, whole organism</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>slow moving whole organism</oboInOwl:hasExactSynonym>
+        <rdfs:label>slow moving animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000814">
+        <obo:IAO_0000115>faster, increased speed of, whole organism</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fast moving whole organism</oboInOwl:hasExactSynonym>
+        <rdfs:label>fast moving animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000795"/>
+        <obo:IAO_0000115>anomaly in the complete lack of the ability to move of whole organism.</obo:IAO_0000115>
+        <rdfs:label>immobile animal</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

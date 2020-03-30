@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-02-13/planp-base.owl
+data-version: planp/releases/2020-03-28/planp-base.owl
 ontology: planp/planp-base
 property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Planarian Phenotype Ontology (PLANP)" xsd:string
@@ -18,7 +18,7 @@ synonym: "abnormality of cytoplasmic vesicle part" EXACT []
 
 [Term]
 id: PLANP:0000002
-name: abnormal medial-lateral axis of the whole animal
+name: abnormal medial-lateral axis
 def: "Abnormality of medial-lateral axis of the whole animal." []
 synonym: "abnormality of medial-lateral axis of the whole animal" EXACT []
 
@@ -232,7 +232,7 @@ synonym: "abnormality of bipolar neuron" EXACT []
 
 [Term]
 id: PLANP:0000051
-name: abnormal pharynx
+name: abnormal definitive pharynx
 def: "Abnormality of pharynx." []
 synonym: "abnormality of pharynx" EXACT []
 
@@ -609,7 +609,7 @@ synonym: "abnormality of spermatogonium" EXACT []
 
 [Term]
 id: PLANP:0000135
-name: abnormal dorsal region of the epidermis
+name: abnormal dorsal epidermis
 def: "Abnormality of dorsal region of the epidermis." []
 synonym: "abnormality of dorsal region of the epidermis" EXACT []
 
@@ -639,7 +639,7 @@ synonym: "abnormality of adhesion gland" EXACT []
 
 [Term]
 id: PLANP:0000143
-name: abnormal neural progenitor cell
+name: abnormal neural progenitor
 def: "Abnormality of neural progenitor cell." []
 synonym: "abnormality of neural progenitor cell" EXACT []
 
@@ -693,7 +693,7 @@ synonym: "abnormality of anterior pole progenitor cell" EXACT []
 
 [Term]
 id: PLANP:0000153
-name: abnormal anterior-posterior axis of the whole animal
+name: abnormal anterior-posterior axis
 def: "Abnormality of anterior-posterior axis of the whole animal." []
 synonym: "abnormality of anterior-posterior axis of the whole animal" EXACT []
 
@@ -789,7 +789,7 @@ synonym: "abnormality of gut" EXACT []
 
 [Term]
 id: PLANP:0000177
-name: abnormal dorsal ventral margin of the whole animal
+name: abnormal dorsal ventral margin
 def: "Abnormality of dorsal ventral margin of the whole animal." []
 synonym: "abnormality of dorsal ventral margin of the whole animal" EXACT []
 
@@ -937,7 +937,7 @@ synonym: "abnormality of pharynx longitudinal muscle cell" EXACT []
 
 [Term]
 id: PLANP:0000213
-name: abnormal left-right axis of the whole animal
+name: abnormal left-right axis
 def: "Abnormality of left-right axis of the whole animal." []
 synonym: "abnormality of left-right axis of the whole animal" EXACT []
 
@@ -1026,7 +1026,7 @@ synonym: "abnormality of cytoplasm" EXACT []
 
 [Term]
 id: PLANP:0000233
-name: abnormal oral-aboral axis of the embryo
+name: abnormal oral-aboral axis
 def: "Abnormality of oral-aboral axis of the embryo." []
 synonym: "abnormality of oral-aboral axis of the embryo" EXACT []
 
@@ -1319,7 +1319,7 @@ synonym: "abnormality of vacuole" EXACT []
 
 [Term]
 id: PLANP:0000299
-name: abnormal proximal-distal axis of the whole animal
+name: abnormal proximal-distal axis
 def: "Abnormality of proximal-distal axis of the whole animal." []
 synonym: "abnormality of proximal-distal axis of the whole animal" EXACT []
 
@@ -1379,7 +1379,7 @@ synonym: "abnormality of serotonergic neuron" EXACT []
 
 [Term]
 id: PLANP:0000312
-name: abnormal muscle progenitor cell
+name: abnormal muscle progenitor
 def: "Abnormality of muscle progenitor cell." []
 synonym: "abnormality of muscle progenitor cell" EXACT []
 
@@ -1421,7 +1421,7 @@ synonym: "abnormality of Stage 2" EXACT []
 
 [Term]
 id: PLANP:0000322
-name: abnormal protonephridial progenitor cell
+name: abnormal protonephridial progenitor
 def: "Abnormality of protonephridial progenitor cell." []
 synonym: "abnormality of protonephridial progenitor cell" EXACT []
 
@@ -1544,7 +1544,7 @@ synonym: "abnormality of ganglion" EXACT []
 
 [Term]
 id: PLANP:0000348
-name: abnormal pharynx inner epithelium surface
+name: abnormal pharynx lumen epithelial surface
 def: "Abnormality of pharynx inner epithelium surface." []
 synonym: "abnormality of pharynx inner epithelium surface" EXACT []
 
@@ -1752,7 +1752,7 @@ synonym: "abnormality of body wall musculature" EXACT []
 
 [Term]
 id: PLANP:0000393
-name: abnormal dorsal-ventral axis of the whole animal
+name: abnormal dorsal-ventral axis
 def: "Abnormality of dorsal-ventral axis of the whole animal." []
 synonym: "abnormality of dorsal-ventral axis of the whole animal" EXACT []
 
@@ -2032,121 +2032,121 @@ synonym: "abnormality of pharynx outer epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000467
-name: abnormal primitive ectoderm surface morphology
+name: abnormal morphology of primitive ectoderm surface
 def: "Any unspecified morphological anomaly of the primitive ectoderm surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of primitive ectoderm surface" EXACT []
 
 [Term]
 id: PLANP:0000469
-name: abnormal gastrodermis surface morphology
+name: abnormal morphology of lumen gut surface
 def: "Any unspecified morphological anomaly of the gastrodermis surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of gastrodermis surface" EXACT []
 
 [Term]
 id: PLANP:0000470
-name: abnormal basal surface of the epidermis morphology
+name: abnormal morphology of basal epidermis surface
 def: "Any unspecified morphological anomaly of the basal surface of the epidermis, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of basal surface of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000475
-name: abnormal apical surface of the epidermis morphology
+name: abnormal morphology of apical epidermis surface
 def: "Any unspecified morphological anomaly of the apical surface of the epidermis, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of apical surface of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000480
-name: abnormal pharynx pouch epithelial surface morphology
+name: abnormal morphology of pharyngeal pouch surface
 def: "Any unspecified morphological anomaly of the pharynx pouch epithelial surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of pharynx pouch epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000481
-name: abnormal embryonic gut cell surface morphology
+name: abnormal morphology of embryonic gut cell surface
 def: "Any unspecified morphological anomaly of the embryonic gut cell surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of embryonic gut cell surface" EXACT []
 
 [Term]
 id: PLANP:0000482
-name: abnormal primtive gut cell surface morphology
+name: abnormal morphology of primtive gut cell surface
 def: "Any unspecified morphological anomaly of the primtive gut cell surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of primtive gut cell surface" EXACT []
 
 [Term]
 id: PLANP:0000484
-name: abnormal pharynx inner epithelium surface morphology
+name: abnormal morphology of pharynx lumen epithelial surface
 def: "Any unspecified morphological anomaly of the pharynx inner epithelium surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of pharynx inner epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000486
-name: abnormal embryonic pharynx lumen epithelial surface morphology
+name: abnormal morphology of temporary embryonic pharynx lumen epithelial surface
 def: "Any unspecified morphological anomaly of the embryonic pharynx lumen epithelial surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of embryonic pharynx lumen epithelial surface" EXACT []
 
 [Term]
 id: PLANP:0000489
-name: abnormal pharynx outer epithelium surface morphology
+name: abnormal morphology of pharynx outer epithelial surface
 def: "Any unspecified morphological anomaly of the pharynx outer epithelium surface, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of pharynx outer epithelium surface" EXACT []
 
 [Term]
 id: PLANP:0000490
-name: abnormal shape of ventral region of the whole animal 
+name: abormal shape of the ventral region of the animal
 def: "Any structural anomaly in the shape of the ventral region of the whole animal." []
 synonym: "abnormally shaped ventral region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000491
-name: curled ventral surface
-def: "Any structural anomaly that causes ventral surface to be curled shaped." []
-synonym: "abnormal curled shape of ventral surface" EXACT []
+name: ventral curling
+def: "Any structural anomaly that causes ventral region of the whole animal to be curled shaped." []
+synonym: "abnormal curled shape of ventral region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000492
-name: pointed head
+name: pointy head
 def: "Any structural anomaly that causes head to be pointed shaped." []
 synonym: "abnormal pointed shape of head" EXACT []
 
 [Term]
 id: PLANP:0000493
-name: columnar head
+name: column-like head
 def: "Any structural anomaly that causes head to be columnar shaped." []
 synonym: "abnormal columnar shape of head" EXACT []
 
 [Term]
 id: PLANP:0000494
-name: decreased width of the head
+name: skinny head
 def: "skinny or decreased width of the head." []
 synonym: "skinny head" EXACT []
 
 [Term]
 id: PLANP:0000496
-name: pointed tail
+name: pointy tail
 def: "Any structural anomaly that causes tail to be pointed shaped." []
 synonym: "abnormal pointed shape of tail" EXACT []
 
 [Term]
 id: PLANP:0000497
-name: abnormal head morphology
+name: abnormal morphology of head
 def: "Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of head" EXACT []
 
 [Term]
 id: PLANP:0000498
-name: abnormal tail morphology
+name: abnormal morphology of tail
 def: "Any unspecified morphological anomaly of the tail, such as, for example, abnormal shape or colour." []
 synonym: "abnormal morphology of tail" EXACT []
 
 [Term]
 id: PLANP:0000499
-name: abnormal shape of head 
+name: abnormal shape of head
 def: "Any structural anomaly in the shape of the head." []
 synonym: "abnormally shaped head" EXACT []
 
 [Term]
 id: PLANP:0000500
-name: abnormal shape of tail 
+name: abnormal shape of tail
 def: "Any structural anomaly in the shape of the tail." []
 synonym: "abnormally shaped tail" EXACT []
 
@@ -2164,219 +2164,219 @@ synonym: "abnormal size of the tail" EXACT []
 
 [Term]
 id: PLANP:0000503
-name: decreased width of the tail
+name: skinny tail
 def: "skinny or decreased width of the tail." []
 synonym: "skinny tail" EXACT []
 
 [Term]
 id: PLANP:0000504
-name: abnormal head with star shaped lesion
+name: star shaped lesion on the head
 def: "An abnormal head with a lesion that is star shaped." []
 synonym: "star shaped lesion of the head" EXACT []
 
 [Term]
 id: PLANP:0000505
-name: abnormal head with circular lesion
+name: circular shaped lesion on the head
 def: "An abnormal head with a lesion that is circular." []
 synonym: "circular lesion of the head" EXACT []
 
 [Term]
 id: PLANP:0000506
-name: abnormal head with linear lesion
+name: linear shaped lesion on the head
 def: "An abnormal head with a lesion that is linear." []
 synonym: "linear lesion of the head" EXACT []
 
 [Term]
 id: PLANP:0000507
-name: abnormal tail with star shaped lesion
+name: star shaped lesion on the tail
 def: "An abnormal tail with a lesion that is star shaped." []
 synonym: "star shaped lesion of the tail" EXACT []
 
 [Term]
 id: PLANP:0000508
-name: abnormal tail with circular lesion
+name: circular shaped lesion on the tail
 def: "An abnormal tail with a lesion that is circular." []
 synonym: "circular lesion of the tail" EXACT []
 
 [Term]
 id: PLANP:0000509
-name: abnormal tail with linear lesion
+name: linear shaped lesion on the tail
 def: "An abnormal tail with a lesion that is linear." []
 synonym: "linear lesion of the tail" EXACT []
 
 [Term]
 id: PLANP:0000510
-name: increased distance between eye and eye
+name: eyes further apart than normae
 def: "Increased distance between eye and eye." []
 synonym: "distance increased between eye and eye" EXACT []
 
 [Term]
 id: PLANP:0000511
-name: decreased distance between eye and eye
+name: eyes closer together than normal
 def: "Decreased distance between eye and eye." []
 synonym: "distance decreased between eye and eye" EXACT []
 
 [Term]
 id: PLANP:0000512
-name: abnormal distance between eye and eye
+name: abnormal distance between eyes
 def: "abnormal distance between eye and eye." []
 synonym: "abnormal distance between eye and eye" EXACT []
 synonym: "distance abnormal between eye and eye" EXACT []
 
 [Term]
 id: PLANP:0000513
-name: lesion in head
+name: lesion in the head
 def: "An abnormal head with one or more lesions." []
 synonym: "head with lesion(s)" EXACT []
 
 [Term]
 id: PLANP:0000514
-name: lesion in tail
+name: lesion in the tail
 def: "An abnormal tail with one or more lesions." []
 synonym: "tail with lesion(s)" EXACT []
 
 [Term]
 id: PLANP:0000515
-name: absent eye
+name: loss of eyes
 def: "Absence of eye." []
 synonym: "missing eye" EXACT []
 
 [Term]
 id: PLANP:0000518
-name: abnormal number of anatomical enitites of type eye
+name: abnormal number of eyes
 def: "Any structural anomaly that causes there to be an abnormal number eye." []
 synonym: "abnormal number of eyes" EXACT []
 synonym: "altered number of eyes" EXACT []
 
 [Term]
 id: PLANP:0000519
-name: decreased pigmentation in the eye
+name: decreased pigmentation of the eyes
 def: "Decreased or loss of pigmentation of eye." []
 synonym: "eye hypopigmentation" EXACT []
 synonym: "loss of pigment in the eye" EXACT []
 
 [Term]
 id: PLANP:0000520
-name: unpigmented eye
+name: loss of pigmentation in the eye
 def: "complete loss of pigmenation of the eye." []
 synonym: "absence of pigment in the eye" EXACT []
 synonym: "complete loss of pigmentation in the eye" EXACT []
 
 [Term]
 id: PLANP:0000521
-name: decreased length of tail
+name: short tail
 def: "Decreased length or shortening of the tail." []
 synonym: "short tail" EXACT []
 
 [Term]
 id: PLANP:0000522
-name: increased length of the head
+name: long head
 def: "longer, increased length of, head" []
 synonym: "longer head" EXACT []
 
 [Term]
 id: PLANP:0000523
-name: increased length of the tail
+name: long tail
 def: "longer, increased length of, tail" []
 synonym: "longer tail" EXACT []
 
 [Term]
 id: PLANP:0000524
-name: increased width of head
+name: wide head
 def: "Increased width of head." []
 synonym: "wider head" EXACT []
 
 [Term]
 id: PLANP:0000525
-name: increased width of tail
+name: wide tail
 def: "Increased width of tail." []
 synonym: "wider tail" EXACT []
 
 [Term]
 id: PLANP:0000526
-name: abnormal number of anatomical enitites of type head
+name: abnormal number of heads
 def: "Any structural anomaly that causes there to be an abnormal number head." []
 synonym: "abnormal number of heads" EXACT []
 synonym: "altered number of heads" EXACT []
 
 [Term]
 id: PLANP:0000527
-name: Increased number of head
+name: more heads
 def: "The presence of an increased number of head." []
 synonym: "Extra head" EXACT []
 
 [Term]
 id: PLANP:0000529
-name: absent head
+name: loss of head
 def: "Absence of head." []
 synonym: "missing head" EXACT []
 
 [Term]
 id: PLANP:0000530
-name: abnormal number of anatomical enitites of type tail
+name: abnormal number of tails
 def: "Any structural anomaly that causes there to be an abnormal number tail." []
 synonym: "abnormal number of tails" EXACT []
 synonym: "altered number of tails" EXACT []
 
 [Term]
 id: PLANP:0000531
-name: Increased number of tail
+name: more tails
 def: "The presence of an increased number of tail." []
 synonym: "Extra tail" EXACT []
 
 [Term]
 id: PLANP:0000533
-name: absent tail
+name: loss of tail
 def: "Absence of tail." []
 synonym: "missing tail" EXACT []
 
 [Term]
 id: PLANP:0000534
-name: abnormal degree of pigmentation of the eye
+name: abnormal pigmentation of the eyes
 def: "abnormal degree of pigmentation of the eye." []
 synonym: "abnormal pigmentation of the eye" EXACT []
 
 [Term]
 id: PLANP:0000535
-name: abnormal degree of pigmentation of the epidermis
+name: abnormal pigmentation of the epidermis
 def: "abnormal degree of pigmentation of the epidermis." []
 synonym: "abnormal pigmentation of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000536
-name: decreased pigmentation in the epidermis
+name: decreased pigmentation of the epidermis
 def: "Decreased or loss of pigmentation of epidermis." []
 synonym: "epidermis hypopigmentation" EXACT []
 synonym: "loss of pigment in the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000537
-name: Decreased number of eye
+name: less eyes
 def: "The presence of a reduced number of eye." []
 synonym: "Reduced number of eye" EXACT []
 
 [Term]
 id: PLANP:0000538
-name: Decreased number of head
+name: less heads
 def: "The presence of a reduced number of head." []
 synonym: "Reduced number of head" EXACT []
 
 [Term]
 id: PLANP:0000539
-name: unpigmented epidermis
+name: loss of pigmentation in the epidermis
 def: "complete loss of pigmenation of the epidermis." []
 synonym: "absence of pigment in the epidermis" EXACT []
 synonym: "complete loss of pigmentation in the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000540
-name: Decreased number of tail
+name: less tails
 def: "The presence of a reduced number of tail." []
 synonym: "Reduced number of tail" EXACT []
 
 [Term]
 id: PLANP:0000541
-name: Increased number of eye
+name: more eyes
 def: "The presence of an increased number of eye." []
 synonym: "Extra eye" EXACT []
 
@@ -2400,25 +2400,25 @@ synonym: "abnormality of Hyman vesicle" EXACT []
 
 [Term]
 id: PLANP:0000545
-name: abnormal anterior region of the whole animal
+name: abnormal anterior region
 def: "Abnormality of anterior region of the whole animal." []
 synonym: "abnormality of anterior region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000546
-name: abnormal dorsal region of the whole animal
+name: abnormal dorsal region
 def: "Abnormality of dorsal region of the whole animal." []
 synonym: "abnormality of dorsal region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000547
-name: abnormal posterior compartment of the whole animal
+name: abnormal posterior region
 def: "Abnormality of posterior compartment of the whole animal." []
 synonym: "abnormality of posterior compartment of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000548
-name: abnormal ventral region of the whole animal
+name: abnormal ventral region
 def: "Abnormality of ventral region of the whole animal." []
 synonym: "abnormality of ventral region of the whole animal" EXACT []
 
@@ -3061,8 +3061,8 @@ synonym: "abnormality of telomere" EXACT []
 [Term]
 id: PLANP:0000655
 name: abnormal tight junction
-def: "Abnormality of tight junction." []
-synonym: "abnormality of tight junction" EXACT []
+def: "Abnormality of septate junction." []
+synonym: "abnormality of septate junction" EXACT []
 
 [Term]
 id: PLANP:0000656
@@ -3138,7 +3138,7 @@ synonym: "abnormality of extraembryonic organ" EXACT []
 
 [Term]
 id: PLANP:0000668
-name: abnormal chromosome_part
+name: abnormal chromosome:part
 def: "Abnormality of chromosome_part." []
 synonym: "abnormality of chromosome_part" EXACT []
 
@@ -3150,7 +3150,7 @@ synonym: "abnormality of perturbation" EXACT []
 
 [Term]
 id: PLANP:0000670
-name: abnormal chromosomal_structural_element
+name: abnormal chromosomal:structural:element
 def: "Abnormality of chromosomal_structural_element." []
 synonym: "abnormality of chromosomal_structural_element" EXACT []
 
@@ -3456,13 +3456,13 @@ synonym: "abnormality of S phase oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000721
-name: abnormal G2 phase  oogonial stem cell
+name: abnormal G2 phase oogonial stem cell
 def: "Abnormality of G2 phase  oogonial stem cell." []
 synonym: "abnormality of G2 phase  oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000722
-name: abnormal prophase  oogonial stem cell
+name: abnormal prophase oogonial stem cell
 def: "Abnormality of prophase  oogonial stem cell." []
 synonym: "abnormality of prophase  oogonial stem cell" EXACT []
 
@@ -3480,7 +3480,7 @@ synonym: "abnormality of anaphase oogonial stem cell" EXACT []
 
 [Term]
 id: PLANP:0000725
-name: abnormal telophase  oogonial stem cell
+name: abnormal telophase oogonial stem cell
 def: "Abnormality of telophase  oogonial stem cell." []
 synonym: "abnormality of telophase  oogonial stem cell" EXACT []
 
@@ -3864,139 +3864,167 @@ synonym: "abnormality of wedge fragment" EXACT []
 
 [Term]
 id: PLANP:0000789
-name: missing head due to degeneration
+name: head regression
 def: "Complete wasting (loss) of head tissue that was once present." []
 synonym: "loss of head due to degeneration" EXACT []
 
 [Term]
 id: PLANP:0000790
-name: missing tail due to degeneration
+name: tail regression
 def: "Complete wasting (loss) of tail tissue that was once present." []
 synonym: "loss of tail due to degeneration" EXACT []
 
 [Term]
 id: PLANP:0000791
-name: decreased whole organism mobility
+name: decreased mobility of animal
 def: "Decreased or reduced ability to move whole organism." []
 
 [Term]
 id: PLANP:0000792
-name: increased length of the whole organism
+name: long animal
 def: "longer, increased length of, whole organism" []
 synonym: "longer whole organism" EXACT []
 
 [Term]
 id: PLANP:0000793
-name: increased pigmentation in the eye
+name: increased pigmentation of the eyes
 def: "Increased or increasing of pigmentation of eye." []
 synonym: "eye hyperpigmentation" EXACT []
 synonym: "increasing of pigment in the eye" EXACT []
 
 [Term]
 id: PLANP:0000794
-name: increased pigmentation in the epidermis
+name: increased pigmentation of the epidermis
 def: "Increased or increasing of pigmentation of epidermis." []
 synonym: "epidermis hyperpigmentation" EXACT []
 synonym: "increasing of pigment in the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000795
-name: abnormal whole organism mobility
+name: stationary animal
 def: "anomaly in the ability to move whole organism." []
 
 [Term]
 id: PLANP:0000796
-name: ruffled epithelium
+name: epithelial ruffles
 def: "Any structural anomaly that causes epithelium to be ruffled shaped." []
 synonym: "abnormal ruffled shape of epithelium" EXACT []
 
 [Term]
 id: PLANP:0000797
-name: hourglass-shaped head
+name: pinched head
 def: "Any structural anomaly that causes head to be hourglass-shaped shaped." []
 synonym: "abnormal hourglass-shaped shape of head" EXACT []
 
 [Term]
 id: PLANP:0000798
-name: hourglass-shaped tail
+name: pinched tail
 def: "Any structural anomaly that causes tail to be hourglass-shaped shaped." []
 synonym: "abnormal hourglass-shaped shape of tail" EXACT []
 
 [Term]
 id: PLANP:0000799
-name: curved medial head
+name: single sided head pinching
 def: "Any structural anomaly that causes head to be curved medial shaped." []
 synonym: "abnormal curved medial shape of head" EXACT []
 
 [Term]
 id: PLANP:0000800
-name: curved medial tail
+name: single sided tail pinching
 def: "Any structural anomaly that causes tail to be curved medial shaped." []
 synonym: "abnormal curved medial shape of tail" EXACT []
 
 [Term]
 id: PLANP:0000801
-name: edema in whole organism
+name: edema in animal
 def: "An abnormal accumulation of fluid in the whole organism." []
 synonym: "abnormal accumulation of fluid in whole organism" EXACT []
 synonym: "whole organism edema" EXACT []
 
 [Term]
 id: PLANP:0000802
-name: edema in head
+name: head edema
 def: "An abnormal accumulation of fluid in the head." []
 synonym: "abnormal accumulation of fluid in head" EXACT []
 synonym: "head edema" EXACT []
 
 [Term]
 id: PLANP:0000803
-name: edema in tail
+name: tail edema
 def: "An abnormal accumulation of fluid in the tail." []
 synonym: "abnormal accumulation of fluid in tail" EXACT []
 synonym: "tail edema" EXACT []
 
 [Term]
 id: PLANP:0000804
-name: eye hypoplasia
+name: underdeveloped eyes
 def: "Small, underdeveloped eye." []
 synonym: "hypoplastic eye" EXACT []
 
 [Term]
 id: PLANP:0000805
-name: lesion in whole organism
+name: lesion in animal
 def: "An abnormal whole organism with one or more lesions." []
 synonym: "whole organism with lesion(s)" EXACT []
 
 [Term]
 id: PLANP:0000806
-name: lesion in post-pharyngeal region
+name: post-pharyngeal lesion
 def: "An abnormal post-pharyngeal region with one or more lesions." []
 synonym: "post-pharyngeal region with lesion(s)" EXACT []
 
 [Term]
 id: PLANP:0000807
-name: unpigmented head
+name: loss of pigmenation in the head
 def: "complete loss of pigmenation of the head." []
 synonym: "absence of pigment in the head" EXACT []
 synonym: "complete loss of pigmentation in the head" EXACT []
 
 [Term]
 id: PLANP:0000808
-name: decreased pigmentation in the head
+name: decreased pigmentation of the head
 def: "Decreased or loss of pigmentation of head." []
 synonym: "head hypopigmentation" EXACT []
 synonym: "loss of pigment in the head" EXACT []
 
 [Term]
 id: PLANP:0000809
-name: increased pigmentation in the head
+name: increased pigmentation of the head
 def: "Increased or increasing of pigmentation of head." []
 synonym: "head hyperpigmentation" EXACT []
 synonym: "increasing of pigment in the head" EXACT []
 
 [Term]
 id: PLANP:0000810
-name: abnormal degree of pigmentation of the head
+name: abnormal pigmentation of the head
 def: "abnormal degree of pigmentation of the head." []
 synonym: "abnormal pigmentation of the head" EXACT []
+
+[Term]
+id: PLANP:0000811
+name: scorpion tail
+def: "Any structural anomaly that causes dorsal region of tail to be curled shaped." []
+synonym: "abnormal curled shape of dorsal region of tail" EXACT []
+
+[Term]
+id: PLANP:0000812
+name: abnormally inchworming
+def: "An anomaly in inchworming behavior." []
+
+[Term]
+id: PLANP:0000813
+name: slow moving animal
+def: "slower, decreased speed of, whole organism" []
+synonym: "slow moving whole organism" EXACT []
+
+[Term]
+id: PLANP:0000814
+name: fast moving animal
+def: "faster, increased speed of, whole organism" []
+synonym: "fast moving whole organism" EXACT []
+
+[Term]
+id: PLANP:0000815
+name: immobile animal
+def: "anomaly in the complete lack of the ability to move of whole organism." []
 

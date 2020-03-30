@@ -28,25 +28,25 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000527> (Increased number of head)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000527> (more heads)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000527> "The presence of an increased number of head."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000527> "Extra head"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000527> "Increased number of head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000527> "more heads"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000527> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000531> (Increased number of tail)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000531> (more tails)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000531> "The presence of an increased number of tail."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000531> "Extra tail"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000531> "Increased number of tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000531> "more tails"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000531> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000541> (Increased number of eye)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000541> (more eyes)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000541> "The presence of an increased number of eye."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000541> "Extra eye"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000541> "Increased number of eye"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000541> "more eyes"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000541> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000036>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 

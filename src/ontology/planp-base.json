@@ -18,7 +18,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "lesion in whole organism"
+      "lbl" : "lesion in animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000804",
       "meta" : {
@@ -33,7 +33,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "eye hypoplasia"
+      "lbl" : "underdeveloped eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000807",
       "meta" : {
@@ -52,7 +52,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "unpigmented head"
+      "lbl" : "loss of pigmenation in the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000806",
       "meta" : {
@@ -67,7 +67,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "lesion in post-pharyngeal region"
+      "lbl" : "post-pharyngeal lesion"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000801",
       "meta" : {
@@ -86,7 +86,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "edema in whole organism"
+      "lbl" : "edema in animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000800",
       "meta" : {
@@ -101,7 +101,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "curved medial tail"
+      "lbl" : "single sided tail pinching"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000803",
       "meta" : {
@@ -120,7 +120,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "edema in tail"
+      "lbl" : "tail edema"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000802",
       "meta" : {
@@ -139,7 +139,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "edema in head"
+      "lbl" : "head edema"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000809",
       "meta" : {
@@ -158,7 +158,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased pigmentation in the head"
+      "lbl" : "increased pigmentation of the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000808",
       "meta" : {
@@ -177,7 +177,72 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased pigmentation in the head"
+      "lbl" : "decreased pigmentation of the head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000815",
+      "meta" : {
+        "definition" : {
+          "val" : "anomaly in the complete lack of the ability to move of whole organism.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "immobile animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000812",
+      "meta" : {
+        "definition" : {
+          "val" : "An anomaly in inchworming behavior.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormally inchworming"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000811",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes dorsal region of tail to be curled shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal curled shape of dorsal region of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "scorpion tail"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000814",
+      "meta" : {
+        "definition" : {
+          "val" : "faster, increased speed of, whole organism",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "fast moving whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fast moving animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000813",
+      "meta" : {
+        "definition" : {
+          "val" : "slower, decreased speed of, whole organism",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "slow moving whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "slow moving animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000810",
       "meta" : {
@@ -192,7 +257,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal degree of pigmentation of the head"
+      "lbl" : "abnormal pigmentation of the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000041",
       "meta" : {
@@ -610,7 +675,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal pharynx"
+      "lbl" : "abnormal definitive pharynx"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000054",
       "meta" : {
@@ -775,7 +840,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal dorsal ventral margin of the whole animal"
+      "lbl" : "abnormal dorsal ventral margin"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000056",
       "meta" : {
@@ -865,7 +930,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal proximal-distal axis of the whole animal"
+      "lbl" : "abnormal proximal-distal axis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000057",
       "meta" : {
@@ -1221,7 +1286,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal neural progenitor cell"
+      "lbl" : "abnormal neural progenitor"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000388",
       "meta" : {
@@ -1341,7 +1406,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal dorsal-ventral axis of the whole animal"
+      "lbl" : "abnormal dorsal-ventral axis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000271",
       "meta" : {
@@ -1416,7 +1481,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal anterior-posterior axis of the whole animal"
+      "lbl" : "abnormal anterior-posterior axis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000394",
       "meta" : {
@@ -2851,7 +2916,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal protonephridial progenitor cell"
+      "lbl" : "abnormal protonephridial progenitor"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000201",
       "meta" : {
@@ -3209,6 +3274,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal diagonal muscle cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000213",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of left-right axis of the whole animal.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of left-right axis of the whole animal",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal left-right axis"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000576",
       "meta" : {
         "definition" : {
@@ -3238,21 +3318,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal TrpA+ neural progenitor cell"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000213",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of left-right axis of the whole animal.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of left-right axis of the whole animal",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal left-right axis of the whole animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000697",
       "meta" : {
@@ -3657,7 +3722,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal ventral region of the whole animal"
+      "lbl" : "abnormal ventral region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000669",
       "meta" : {
@@ -3687,7 +3752,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal posterior compartment of the whole animal"
+      "lbl" : "abnormal posterior region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000668",
       "meta" : {
@@ -3702,7 +3767,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal chromosome_part"
+      "lbl" : "abnormal chromosome:part"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000789",
       "meta" : {
@@ -3717,7 +3782,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "missing head due to degeneration"
+      "lbl" : "head regression"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000305",
       "meta" : {
@@ -3957,7 +4022,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal dorsal region of the whole animal"
+      "lbl" : "abnormal dorsal region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000425",
       "meta" : {
@@ -3987,7 +4052,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal anterior region of the whole animal"
+      "lbl" : "abnormal anterior region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000787",
       "meta" : {
@@ -4032,7 +4097,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Decreased number of tail"
+      "lbl" : "less tails"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000661",
       "meta" : {
@@ -4167,7 +4232,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Increased number of eye"
+      "lbl" : "more eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000420",
       "meta" : {
@@ -4342,7 +4407,7 @@
         }
       },
       "type" : "CLASS",
-      "lbl" : "decreased whole organism mobility"
+      "lbl" : "decreased mobility of animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000670",
       "meta" : {
@@ -4357,7 +4422,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal chromosomal_structural_element"
+      "lbl" : "abnormal chromosomal:structural:element"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000790",
       "meta" : {
@@ -4372,7 +4437,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "missing tail due to degeneration"
+      "lbl" : "tail regression"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000555",
       "meta" : {
@@ -4389,6 +4454,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal anterior tip"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000797",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes head to be hourglass-shaped shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal hourglass-shaped shape of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pinched head"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000676",
       "meta" : {
         "definition" : {
@@ -4403,21 +4483,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal plug wound"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000797",
-      "meta" : {
-        "definition" : {
-          "val" : "Any structural anomaly that causes head to be hourglass-shaped shaped.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal hourglass-shaped shape of head",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "hourglass-shaped head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000313",
       "meta" : {
@@ -4479,6 +4544,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal anterior gut branch"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000796",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes epithelium to be ruffled shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal ruffled shape of epithelium",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "epithelial ruffles"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000312",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of muscle progenitor cell.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of muscle progenitor cell",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal muscle progenitor"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000675",
       "meta" : {
         "definition" : {
@@ -4494,36 +4589,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal chemical wound"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000312",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of muscle progenitor cell.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of muscle progenitor cell",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal muscle progenitor cell"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000796",
-      "meta" : {
-        "definition" : {
-          "val" : "Any structural anomaly that causes epithelium to be ruffled shaped.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal ruffled shape of epithelium",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "ruffled epithelium"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000799",
       "meta" : {
         "definition" : {
@@ -4537,7 +4602,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "curved medial head"
+      "lbl" : "single sided head pinching"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000436",
       "meta" : {
@@ -4614,21 +4679,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal primitive ectoderm"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000798",
-      "meta" : {
-        "definition" : {
-          "val" : "Any structural anomaly that causes tail to be hourglass-shaped shaped.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal hourglass-shaped shape of tail",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "hourglass-shaped tail"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000677",
       "meta" : {
         "definition" : {
@@ -4643,6 +4693,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal wedge wound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000798",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be hourglass-shaped shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal hourglass-shaped shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pinched tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000314",
       "meta" : {
@@ -4721,7 +4786,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased pigmentation in the eye"
+      "lbl" : "increased pigmentation of the eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000551",
       "meta" : {
@@ -4766,7 +4831,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased length of the whole organism"
+      "lbl" : "long animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000550",
       "meta" : {
@@ -4821,7 +4886,7 @@
         }
       },
       "type" : "CLASS",
-      "lbl" : "abnormal whole organism mobility"
+      "lbl" : "stationary animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000674",
       "meta" : {
@@ -4855,7 +4920,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased pigmentation in the epidermis"
+      "lbl" : "increased pigmentation of the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000552",
       "meta" : {
@@ -4975,7 +5040,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal embryonic gut cell surface morphology"
+      "lbl" : "abnormal morphology of embryonic gut cell surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000480",
       "meta" : {
@@ -4990,7 +5055,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal pharynx pouch epithelial surface morphology"
+      "lbl" : "abnormal morphology of pharyngeal pouch surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000241",
       "meta" : {
@@ -5018,7 +5083,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal primtive gut cell surface morphology"
+      "lbl" : "abnormal morphology of primtive gut cell surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000240",
       "meta" : {
@@ -5046,21 +5111,6 @@
       "type" : "CLASS",
       "lbl" : "obsolete abnormal pharynx nerve plexus"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000489",
-      "meta" : {
-        "definition" : {
-          "val" : "Any unspecified morphological anomaly of the pharynx outer epithelium surface, such as, for example, abnormal shape or colour.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of pharynx outer epithelium surface",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal pharynx outer epithelium surface morphology"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000126",
       "meta" : {
         "definition" : {
@@ -5075,6 +5125,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal primitive ectoderm cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000489",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the pharynx outer epithelium surface, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of pharynx outer epithelium surface",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal morphology of pharynx outer epithelial surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000367",
       "meta" : {
@@ -5269,7 +5334,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal pharynx inner epithelium surface morphology"
+      "lbl" : "abnormal morphology of pharynx lumen epithelial surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000363",
       "meta" : {
@@ -5376,21 +5441,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal oviduct lumen"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000486",
-      "meta" : {
-        "definition" : {
-          "val" : "Any unspecified morphological anomaly of the embryonic pharynx lumen epithelial surface, such as, for example, abnormal shape or colour.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of embryonic pharynx lumen epithelial surface",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal embryonic pharynx lumen epithelial surface morphology"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000365",
       "meta" : {
         "definition" : {
@@ -5419,7 +5469,22 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal medial-lateral axis of the whole animal"
+      "lbl" : "abnormal medial-lateral axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000486",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the embryonic pharynx lumen epithelial surface, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of embryonic pharynx lumen epithelial surface",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal morphology of temporary embryonic pharynx lumen epithelial surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000019",
       "meta" : {
@@ -5464,22 +5529,22 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "pointed head"
+      "lbl" : "pointy head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000491",
       "meta" : {
         "definition" : {
-          "val" : "Any structural anomaly that causes ventral surface to be curled shaped.",
+          "val" : "Any structural anomaly that causes ventral region of the whole animal to be curled shaped.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormal curled shape of ventral surface",
+          "val" : "abnormal curled shape of ventral region of the whole animal",
           "xrefs" : [ ]
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "curled ventral surface"
+      "lbl" : "ventral curling"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000370",
       "meta" : {
@@ -5539,7 +5604,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased width of the head"
+      "lbl" : "skinny head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000131",
       "meta" : {
@@ -5614,7 +5679,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "columnar head"
+      "lbl" : "column-like head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000130",
       "meta" : {
@@ -5644,7 +5709,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal shape of ventral region of the whole animal "
+      "lbl" : "abormal shape of the ventral region of the animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000258",
       "meta" : {
@@ -5719,7 +5784,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal shape of head "
+      "lbl" : "abnormal shape of head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000136",
       "meta" : {
@@ -5822,6 +5887,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal extraembryonic structure"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000496",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes tail to be pointed shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal pointed shape of tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pointy tail"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000375",
       "meta" : {
         "definition" : {
@@ -5851,21 +5931,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pharynx inner nerve plexus"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000496",
-      "meta" : {
-        "definition" : {
-          "val" : "Any structural anomaly that causes tail to be pointed shaped.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal pointed shape of tail",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "pointed tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000012",
       "meta" : {
@@ -5940,7 +6005,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal tail morphology"
+      "lbl" : "abnormal morphology of tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000256",
       "meta" : {
@@ -5970,7 +6035,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal dorsal region of the epidermis"
+      "lbl" : "abnormal dorsal epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000014",
       "meta" : {
@@ -5987,21 +6052,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal collecting duct"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000497",
-      "meta" : {
-        "definition" : {
-          "val" : "Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormal morphology of head",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal head morphology"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000376",
       "meta" : {
         "definition" : {
@@ -6016,6 +6066,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal pharynx circular muscle cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000497",
+      "meta" : {
+        "definition" : {
+          "val" : "Any unspecified morphological anomaly of the head, such as, for example, abnormal shape or colour.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal morphology of head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal morphology of head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000255",
       "meta" : {
@@ -6223,7 +6288,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal primitive ectoderm surface morphology"
+      "lbl" : "abnormal morphology of primitive ectoderm surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000588",
       "meta" : {
@@ -6285,21 +6350,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal dorsal midline"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000348",
-      "meta" : {
-        "definition" : {
-          "val" : "Abnormality of pharynx inner epithelium surface.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormality of pharynx inner epithelium surface",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal pharynx inner epithelium surface"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000469",
       "meta" : {
         "definition" : {
@@ -6313,7 +6363,22 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal gastrodermis surface morphology"
+      "lbl" : "abnormal morphology of lumen gut surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000348",
+      "meta" : {
+        "definition" : {
+          "val" : "Abnormality of pharynx inner epithelium surface.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormality of pharynx inner epithelium surface",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "abnormal pharynx lumen epithelial surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000226",
       "meta" : {
@@ -6637,7 +6702,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal basal surface of the epidermis morphology"
+      "lbl" : "abnormal morphology of basal epidermis surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000591",
       "meta" : {
@@ -7098,7 +7163,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal oral-aboral axis of the embryo"
+      "lbl" : "abnormal oral-aboral axis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000354",
       "meta" : {
@@ -7143,7 +7208,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal apical surface of the epidermis morphology"
+      "lbl" : "abnormal morphology of apical epidermis surface"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000596",
       "meta" : {
@@ -7368,7 +7433,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal telophase  oogonial stem cell"
+      "lbl" : "abnormal telophase oogonial stem cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000604",
       "meta" : {
@@ -7413,7 +7478,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal prophase  oogonial stem cell"
+      "lbl" : "abnormal prophase oogonial stem cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000601",
       "meta" : {
@@ -7458,7 +7523,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal G2 phase  oogonial stem cell"
+      "lbl" : "abnormal G2 phase oogonial stem cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000618",
       "meta" : {
@@ -8088,7 +8153,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "absent head"
+      "lbl" : "loss of head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000647",
       "meta" : {
@@ -8137,7 +8202,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal number of anatomical enitites of type head"
+      "lbl" : "abnormal number of heads"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000767",
       "meta" : {
@@ -8167,7 +8232,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased width of tail"
+      "lbl" : "wide tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000404",
       "meta" : {
@@ -8272,7 +8337,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Increased number of head"
+      "lbl" : "more heads"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000406",
       "meta" : {
@@ -8288,6 +8353,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal flame bulb"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000522",
+      "meta" : {
+        "definition" : {
+          "val" : "longer, increased length of, head",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "longer head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "long head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000764",
       "meta" : {
@@ -8319,21 +8399,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal secretory granule"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000522",
-      "meta" : {
-        "definition" : {
-          "val" : "longer, increased length of, head",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "longer head",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "increased length of the head"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000521",
       "meta" : {
         "definition" : {
@@ -8347,7 +8412,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased length of tail"
+      "lbl" : "short tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000642",
       "meta" : {
@@ -8437,7 +8502,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased width of head"
+      "lbl" : "wide head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000765",
       "meta" : {
@@ -8467,7 +8532,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased length of the tail"
+      "lbl" : "long tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000644",
       "meta" : {
@@ -8516,7 +8581,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "unpigmented eye"
+      "lbl" : "loss of pigmentation in the eye"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000762",
       "meta" : {
@@ -8621,7 +8686,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Decreased number of eye"
+      "lbl" : "less eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000658",
       "meta" : {
@@ -8655,7 +8720,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased pigmentation in the epidermis"
+      "lbl" : "decreased pigmentation of the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000657",
       "meta" : {
@@ -8719,7 +8784,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "unpigmented epidermis"
+      "lbl" : "loss of pigmentation in the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000538",
       "meta" : {
@@ -8734,7 +8799,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Decreased number of head"
+      "lbl" : "less heads"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000417",
       "meta" : {
@@ -8796,21 +8861,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal telomere"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000533",
-      "meta" : {
-        "definition" : {
-          "val" : "Absence of tail.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "missing tail",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "absent tail"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000775",
       "meta" : {
         "definition" : {
@@ -8825,6 +8875,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal dorsal epidermis progenitor cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000533",
+      "meta" : {
+        "definition" : {
+          "val" : "Absence of tail.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "missing tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "loss of tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000411",
       "meta" : {
@@ -8914,7 +8979,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal degree of pigmentation of the epidermis"
+      "lbl" : "abnormal pigmentation of the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000413",
       "meta" : {
@@ -8959,17 +9024,17 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal degree of pigmentation of the eye"
+      "lbl" : "abnormal pigmentation of the eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000655",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of tight junction.",
+          "val" : "Abnormality of septate junction.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of tight junction",
+          "val" : "abnormality of septate junction",
           "xrefs" : [ ]
         } ]
       },
@@ -9034,7 +9099,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Increased number of tail"
+      "lbl" : "more tails"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000410",
       "meta" : {
@@ -9098,7 +9163,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal number of anatomical enitites of type tail"
+      "lbl" : "abnormal number of tails"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000651",
       "meta" : {
@@ -9130,21 +9195,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal ovary lumen"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000508",
-      "meta" : {
-        "definition" : {
-          "val" : "An abnormal tail with a lesion that is circular.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "circular lesion of the tail",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal tail with circular lesion"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000629",
       "meta" : {
         "definition" : {
@@ -9159,6 +9209,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal post-meiotic germ cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000508",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal tail with a lesion that is circular.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "circular lesion of the tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "circular shaped lesion on the tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000628",
       "meta" : {
@@ -9188,7 +9253,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal tail with star shaped lesion"
+      "lbl" : "star shaped lesion on the tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000749",
       "meta" : {
@@ -9218,7 +9283,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal tail with linear lesion"
+      "lbl" : "linear shaped lesion on the tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000504",
       "meta" : {
@@ -9233,7 +9298,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal head with star shaped lesion"
+      "lbl" : "star shaped lesion on the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000746",
       "meta" : {
@@ -9278,7 +9343,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased width of the tail"
+      "lbl" : "skinny tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000624",
       "meta" : {
@@ -9310,21 +9375,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal anaphase germ cell cyst"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000506",
-      "meta" : {
-        "definition" : {
-          "val" : "An abnormal head with a lesion that is linear.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "linear lesion of the head",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "abnormal head with linear lesion"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000627",
       "meta" : {
         "definition" : {
@@ -9355,6 +9405,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal meiotic G1 phase spermatocyte"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000506",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal head with a lesion that is linear.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "linear lesion of the head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "linear shaped lesion on the head"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000505",
       "meta" : {
         "definition" : {
@@ -9368,7 +9433,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal head with circular lesion"
+      "lbl" : "circular shaped lesion on the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000626",
       "meta" : {
@@ -9428,7 +9493,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal shape of tail "
+      "lbl" : "abnormal shape of tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000621",
       "meta" : {
@@ -9597,7 +9662,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased pigmentation in the eye"
+      "lbl" : "decreased pigmentation of the eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000518",
       "meta" : {
@@ -9616,7 +9681,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal number of anatomical enitites of type eye"
+      "lbl" : "abnormal number of eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000639",
       "meta" : {
@@ -9676,7 +9741,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "absent eye"
+      "lbl" : "loss of eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000514",
       "meta" : {
@@ -9691,7 +9756,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "lesion in tail"
+      "lbl" : "lesion in the tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000635",
       "meta" : {
@@ -9796,7 +9861,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased distance between eye and eye"
+      "lbl" : "eyes closer together than normal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000632",
       "meta" : {
@@ -9828,21 +9893,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal pachytene stage spermatocyte"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000510",
-      "meta" : {
-        "definition" : {
-          "val" : "Increased distance between eye and eye.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "distance increased between eye and eye",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "increased distance between eye and eye"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000631",
       "meta" : {
         "definition" : {
@@ -9873,6 +9923,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal zygotene stage spermatocyte"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000510",
+      "meta" : {
+        "definition" : {
+          "val" : "Increased distance between eye and eye.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "distance increased between eye and eye",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "eyes further apart than normae"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000634",
       "meta" : {
         "definition" : {
@@ -9888,21 +9953,6 @@
       "type" : "CLASS",
       "lbl" : "abnormal presynaptic vesicle"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PLANP_0000513",
-      "meta" : {
-        "definition" : {
-          "val" : "An abnormal head with one or more lesions.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "head with lesion(s)",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "lesion in head"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000755",
       "meta" : {
         "definition" : {
@@ -9917,6 +9967,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal diakinesis stage spermatocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000513",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal head with one or more lesions.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "head with lesion(s)",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lesion in the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000633",
       "meta" : {
@@ -9965,7 +10030,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "abnormal distance between eye and eye"
+      "lbl" : "abnormal distance between eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000630",
       "meta" : {
@@ -10030,7 +10095,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/by/3.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-02-13/planp-base.json"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-03-28/planp-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

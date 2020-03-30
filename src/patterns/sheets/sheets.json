@@ -1,0 +1,534 @@
+{
+  "spreadsheetId": "1iBSBr4c0EoumK8MAGCmjf329vjAxtBz-FtiyeIqnS34",
+  "properties": {
+    "title": "PLANP Ontology Term Management",
+    "locale": "en_US",
+    "autoRecalc": "ON_CHANGE",
+    "timeZone": "America/Denver",
+    "defaultFormat": {
+      "backgroundColor": {
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      "padding": {
+        "top": 2,
+        "right": 3,
+        "bottom": 2,
+        "left": 3
+      },
+      "verticalAlignment": "BOTTOM",
+      "wrapStrategy": "OVERFLOW_CELL",
+      "textFormat": {
+        "foregroundColor": {},
+        "fontFamily": "arial,sans,sans-serif",
+        "fontSize": 10,
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "foregroundColorStyle": {
+          "rgbColor": {}
+        }
+      },
+      "backgroundColorStyle": {
+        "rgbColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+    "spreadsheetTheme": {
+      "primaryFontFamily": "Arial",
+      "themeColors": [
+        {
+          "colorType": "ACCENT4",
+          "color": {
+            "rgbColor": {
+              "red": 0.20392157,
+              "green": 0.65882355,
+              "blue": 0.3254902
+            }
+          }
+        },
+        {
+          "colorType": "BACKGROUND",
+          "color": {
+            "rgbColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT2",
+          "color": {
+            "rgbColor": {
+              "red": 0.91764706,
+              "green": 0.2627451,
+              "blue": 0.20784314
+            }
+          }
+        },
+        {
+          "colorType": "TEXT",
+          "color": {
+            "rgbColor": {}
+          }
+        },
+        {
+          "colorType": "ACCENT3",
+          "color": {
+            "rgbColor": {
+              "red": 0.9843137,
+              "green": 0.7372549,
+              "blue": 0.015686275
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT6",
+          "color": {
+            "rgbColor": {
+              "red": 0.27450982,
+              "green": 0.7411765,
+              "blue": 0.7764706
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT5",
+          "color": {
+            "rgbColor": {
+              "red": 1,
+              "green": 0.42745098,
+              "blue": 0.003921569
+            }
+          }
+        },
+        {
+          "colorType": "ACCENT1",
+          "color": {
+            "rgbColor": {
+              "red": 0.25882354,
+              "green": 0.52156866,
+              "blue": 0.95686275
+            }
+          }
+        },
+        {
+          "colorType": "LINK",
+          "color": {
+            "rgbColor": {
+              "red": 0.06666667,
+              "green": 0.33333334,
+              "blue": 0.8
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sheets": [
+    {
+      "properties": {
+        "sheetId": 2066755425,
+        "title": "Index",
+        "index": 0,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 997,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 888283068,
+        "title": "abnormallyDecreasedMobilityOfAnatomicalEntity.tsv",
+        "index": 1,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1331522367,
+        "title": "abnormallyDecreasedSpeedOfAnatomicalEntity.tsv",
+        "index": 2,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1568674073,
+        "title": "abnormallyIncreasedSpeedOfAnatomicalEntity.tsv",
+        "index": 3,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 129504298,
+        "title": "abnormallyImmobileAnatomicalEntity.tsv",
+        "index": 4,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1196593347,
+        "title": "edematousAnatomicalEntity.tsv",
+        "index": 5,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 770148123,
+        "title": "abnormalMobilityOfAnatomicalEntity.tsv",
+        "index": 6,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 507100065,
+        "title": "abnormalBehavior.tsv",
+        "index": 7,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1091347555,
+        "title": "abnormalAbsenceOfAnatomicalEntityDueToDegeneration",
+        "index": 8,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 350122407,
+        "title": "lesionedAnatomicalEntity.tsv",
+        "index": 9,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 2051837681,
+        "title": "abnormalShapeOfAnatomicalEntityByShapeType.tsv",
+        "index": 10,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 383884078,
+        "title": "abnormalShapeOfPhysicalEntity.tsv",
+        "index": 11,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 2013605138,
+        "title": "abnormallyIncreasedLengthOfAnatomicalEntity.tsv",
+        "index": 12,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1747924449,
+        "title": "hypoplasticAnatomicalEntity.tsv",
+        "index": 13,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 0,
+        "title": "abnomalAnatomicalEntity",
+        "index": 14,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 660,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1478769582,
+        "title": "abnormalOther",
+        "index": 15,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1794003519,
+        "title": "abnormalAbsenceOfAnatomicalEntity.tsv",
+        "index": 16,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 2005905801,
+        "title": "lesionInLocationByShape.tsv",
+        "index": 17,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 814140763,
+        "title": "abnormalMorphologyOfAnatomicalEntity.tsv",
+        "index": 18,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 364362595,
+        "title": "abnormalSizeOfAnatomicalEntity.tsv",
+        "index": 19,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1223111155,
+        "title": "abnormalNumberOfAnatomicalEntity.tsv",
+        "index": 20,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 963844209,
+        "title": "abnormallyIncreasedWidthOfAnatomicalEntity.tsv",
+        "index": 21,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1854970742,
+        "title": "abnormallyDecreasedWidthOfAnatomicalEntity",
+        "index": 22,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1218636103,
+        "title": "abnormalPigmentationOfAnatomicalEntity.tsv",
+        "index": 23,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 911692946,
+        "title": "abnormalAbsenceOfPigmentationOfAnatomicalEntity",
+        "index": 24,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 2016052342,
+        "title": "abnormallyDecreasedPigmentationOfAnatomicalEntity",
+        "index": 25,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1889865188,
+        "title": "abnormallyIncreasedPigmentationOfAnatomicalEntity",
+        "index": 26,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1000,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 77493796,
+        "title": "abnormallyDecreasedNumberOfAnatomicalEntity.tsv",
+        "index": 27,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1299873626,
+        "title": "abnormallyIncreasedNumberOfAnatomicalEntity",
+        "index": 28,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 999,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 591675839,
+        "title": "abnormallyDecreasedLengthOfAnatomicalEntity.tsv",
+        "index": 29,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 1496503223,
+        "title": "abnormalDistanceBetweenAnatomicalEntities.tsv",
+        "index": 30,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 641260547,
+        "title": "abnormallyDecreasedDistanceBetweenAnatomicalEntiti",
+        "index": 31,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 758259160,
+        "title": "abnormallyIncreasedDistanceBetweenAnatomicalEntiti",
+        "index": 32,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1002,
+          "columnCount": 26
+        }
+      }
+    }
+  ],
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1iBSBr4c0EoumK8MAGCmjf329vjAxtBz-FtiyeIqnS34/edit"
+}
+

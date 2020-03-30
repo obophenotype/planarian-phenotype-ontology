@@ -53,11 +53,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_A11",
-          "val" : "http://purl.obolibrary.org/obo/NCIT_C90259"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
           "val" : "Finding"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_A11",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C90259"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
           "val" : "Finding"
@@ -249,7 +249,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-02-13/imports/ncit_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-03-27/imports/ncit_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
