@@ -25,6 +25,7 @@ http://purl.obolibrary.org/obo/PLANP_0000204
 http://purl.obolibrary.org/obo/PLANP_0000062
 http://purl.obolibrary.org/obo/PLANP_0000260
 http://purl.obolibrary.org/obo/PLANP_0000049
+http://purl.obolibrary.org/obo/PLANP_00000000
 http://purl.obolibrary.org/obo/PLANP_0000799
 http://purl.obolibrary.org/obo/PLANP_0000812
 http://purl.obolibrary.org/obo/PLANP_0000622
@@ -151,6 +152,7 @@ http://purl.obolibrary.org/obo/PLANP_0000665
 http://purl.obolibrary.org/obo/PLANP_0000475
 http://purl.obolibrary.org/obo/PLANP_0000285
 http://purl.obolibrary.org/obo/PLANP_0000095
+http://purl.obolibrary.org/obo/PLANP_0000818
 http://purl.obolibrary.org/obo/PLANP_0000628
 http://purl.obolibrary.org/obo/PLANP_0000438
 http://purl.obolibrary.org/obo/PLANP_0000248
@@ -284,6 +286,7 @@ http://purl.obolibrary.org/obo/PLANP_0000304
 http://purl.obolibrary.org/obo/PLANP_0000114
 http://purl.obolibrary.org/obo/PLANP_0000666
 http://purl.obolibrary.org/obo/PLANP_0000096
+http://purl.obolibrary.org/obo/PLANP_0000819
 http://purl.obolibrary.org/obo/PLANP_0000629
 http://purl.obolibrary.org/obo/PLANP_0000439
 http://purl.obolibrary.org/obo/PLANP_0000059
@@ -512,6 +515,7 @@ http://purl.obolibrary.org/obo/PLANP_0000635
 http://purl.obolibrary.org/obo/PLANP_0000445
 http://purl.obolibrary.org/obo/PLANP_0000065
 http://purl.obolibrary.org/obo/PLANP_0000218
+http://purl.obolibrary.org/obo/PLANP_0000820
 http://purl.obolibrary.org/obo/PLANP_0000630
 http://purl.obolibrary.org/obo/PLANP_0000250
 http://purl.obolibrary.org/obo/PLANP_0000060
@@ -539,6 +543,7 @@ http://purl.obolibrary.org/obo/PLANP_0000111
 http://purl.obolibrary.org/obo/PLANP_0000663
 http://purl.obolibrary.org/obo/PLANP_0000283
 http://purl.obolibrary.org/obo/PLANP_0000093
+http://purl.obolibrary.org/obo/PLANP_0000816
 http://purl.obolibrary.org/obo/PLANP_0000626
 http://purl.obolibrary.org/obo/PLANP_0000436
 http://purl.obolibrary.org/obo/PLANP_0000246
@@ -668,7 +673,7 @@ http://purl.obolibrary.org/obo/PLANP_0000302
 http://purl.obolibrary.org/obo/PLANP_0000112
 http://purl.obolibrary.org/obo/PLANP_0000664
 http://purl.obolibrary.org/obo/PLANP_0000094
+http://purl.obolibrary.org/obo/PLANP_0000817
 http://purl.obolibrary.org/obo/PLANP_0000627
 http://purl.obolibrary.org/obo/PLANP_0000437
 http://purl.obolibrary.org/obo/PLANP_0000057
-http://purl.obolibrary.org/obo/PLANP_00000000

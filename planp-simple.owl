@@ -12,7 +12,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/planp-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-03-28/planp-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-04-15/planp-simple.owl"/>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planarian Phenotype Ontology (PLANP)</dc:title>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/3.0/</terms:license>
@@ -43,44 +43,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
-
-On the specifics of the proposed definition:
-
-We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -136,18 +101,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
-        <rdfs:label>subset_property</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty">
-        <oboInOwl:hasDbXref>IAO:0100001</oboInOwl:hasDbXref>
-        <rdfs:label>synonym_type_property</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     
 
 
@@ -159,10 +113,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <oboInOwl:hasDbXref>IAO:0100001</oboInOwl:hasDbXref>
-        <rdfs:label>has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     
 
 
@@ -4424,6 +4375,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000494">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>skinny or decreased width of the head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>skinny head</oboInOwl:hasExactSynonym>
         <rdfs:label>skinny head</rdfs:label>
@@ -4511,6 +4463,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000503 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>skinny or decreased width of the tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>skinny tail</oboInOwl:hasExactSynonym>
@@ -4691,6 +4644,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>Decreased length or shortening of the tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>short tail</oboInOwl:hasExactSynonym>
@@ -4703,6 +4657,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000522">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>longer, increased length of, head</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>longer head</oboInOwl:hasExactSynonym>
         <rdfs:label>long head</rdfs:label>
@@ -4713,6 +4668,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000523 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>longer, increased length of, tail</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>longer tail</oboInOwl:hasExactSynonym>
@@ -4725,6 +4681,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>Increased width of head.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>wider head</oboInOwl:hasExactSynonym>
         <rdfs:label>wide head</rdfs:label>
@@ -4735,6 +4692,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000525 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000501"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000502"/>
         <obo:IAO_0000115>Increased width of tail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>wider tail</oboInOwl:hasExactSynonym>
@@ -7786,7 +7744,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000795">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>anomaly in the ability to move whole organism.</obo:IAO_0000115>
-        <rdfs:label>stationary animal</rdfs:label>
+        <rdfs:label>abnormal mobility of animal</rdfs:label>
     </owl:Class>
     
 
@@ -7986,6 +7944,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000813 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>slower, decreased speed of, whole organism</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>slow moving whole organism</oboInOwl:hasExactSynonym>
         <rdfs:label>slow moving animal</rdfs:label>
@@ -7996,6 +7955,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/PLANP_0000814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000814">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000542"/>
         <obo:IAO_0000115>faster, increased speed of, whole organism</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>fast moving whole organism</oboInOwl:hasExactSynonym>
         <rdfs:label>fast moving animal</rdfs:label>
@@ -8009,6 +7969,55 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000795"/>
         <obo:IAO_0000115>anomaly in the complete lack of the ability to move of whole organism.</obo:IAO_0000115>
         <rdfs:label>immobile animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000193"/>
+        <obo:IAO_0000115>Any structural anomaly that causes parapharyngeal region to be shriveled shaped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abnormal shriveled shape of parapharyngeal region</oboInOwl:hasExactSynonym>
+        <rdfs:label>shriveled parapharyngeal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANP_0000193"/>
+        <obo:IAO_0000115>Large circular lesions surrounded by accumulated pigment. They are nearly always on the midline near the pharynx</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>circular lesion of the parapharyngeal region</oboInOwl:hasExactSynonym>
+        <rdfs:label>bullet hole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000818">
+        <obo:IAO_0000115>head with extensive cellular membrane destruction.</obo:IAO_0000115>
+        <rdfs:label>head lysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000819">
+        <obo:IAO_0000115>tail with extensive cellular membrane destruction.</obo:IAO_0000115>
+        <rdfs:label>tail lysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANP_0000820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANP_0000820">
+        <obo:IAO_0000115>whole organism with extensive cellular membrane destruction.</obo:IAO_0000115>
+        <rdfs:label>whole animal lysis</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

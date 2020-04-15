@@ -179,6 +179,21 @@
       "type" : "CLASS",
       "lbl" : "decreased pigmentation of the head"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000816",
+      "meta" : {
+        "definition" : {
+          "val" : "Any structural anomaly that causes parapharyngeal region to be shriveled shaped.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal shriveled shape of parapharyngeal region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "shriveled parapharyngeal region"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000815",
       "meta" : {
         "definition" : {
@@ -188,6 +203,31 @@
       },
       "type" : "CLASS",
       "lbl" : "immobile animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000818",
+      "meta" : {
+        "definition" : {
+          "val" : "head with extensive cellular membrane destruction.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "head lysis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000817",
+      "meta" : {
+        "definition" : {
+          "val" : "Large circular lesions surrounded by accumulated pigment. They are nearly always on the midline near the pharynx",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "circular lesion of the parapharyngeal region",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "bullet hole"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000812",
       "meta" : {
@@ -243,6 +283,16 @@
       },
       "type" : "CLASS",
       "lbl" : "slow moving animal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000819",
+      "meta" : {
+        "definition" : {
+          "val" : "tail with extensive cellular membrane destruction.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "tail lysis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000810",
       "meta" : {
@@ -4886,7 +4936,7 @@
         }
       },
       "type" : "CLASS",
-      "lbl" : "stationary animal"
+      "lbl" : "abnormal mobility of animal"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000674",
       "meta" : {
@@ -7975,6 +8025,16 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx muscle cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000820",
+      "meta" : {
+        "definition" : {
+          "val" : "whole organism with extensive cellular membrane destruction.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "whole animal lysis"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000717",
       "meta" : {
         "definition" : {
@@ -8094,6 +8154,33 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal G2 phase spermatogonial stem cell"
+    }, {
+      "id" : "urn:dosdp:defined_class",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal reduction in the size of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "enlarged tail",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "enlarged head",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormally small tail",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormally small head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "small tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000711",
       "meta" : {
@@ -10095,7 +10182,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/by/3.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-03-28/planp-base.json"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-04-15/planp-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

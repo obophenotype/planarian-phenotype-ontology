@@ -7,7 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/planp/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/planp/releases/2020-03-28/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/planp/releases/2020-04-15/patterns/definitions.owl>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0050001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C3824>))
@@ -30,6 +30,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000462>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000574>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000586>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000587>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000645>))
@@ -48,8 +50,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002251>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002258>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002283>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0015001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0040025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0065001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000003>))
@@ -1259,6 +1263,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000812>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000813>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000814>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000815>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000816>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000817>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000818>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000819>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000820>))
+Declaration(Class(<urn:dosdp:defined_class>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -5658,10 +5668,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000794> "increased pigmentation of the epidermis"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000794> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000034>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/PLANP_0000795> (stationary animal)
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000795> (abnormal mobility of animal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000795> "anomaly in the ability to move whole organism."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000795> "stationary animal"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000795> "abnormal mobility of animal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000795> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000136>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/PLANP_0000796> (epithelial ruffles)
@@ -5807,6 +5817,57 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000814> ObjectSomeValue
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000815> "anomaly in the complete lack of the ability to move of whole organism."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000815> "immobile animal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000815> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000300> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000136>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000816> (shriveled parapharyngeal region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000816> "Any structural anomaly that causes parapharyngeal region to be shriveled shaped."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000816> "abnormal shriveled shape of parapharyngeal region"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000816> "shriveled parapharyngeal region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000816> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002460> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000420>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000817> (bullet hole)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000817> "Large circular lesions surrounded by accumulated pigment. They are nearly always on the midline near the pharynx"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000817> "circular lesion of the parapharyngeal region"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000817> "bullet hole"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000817> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCIT_C3824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PLANA_0000420>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000818> (head lysis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000818> "head with extensive cellular membrane destruction."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000818> "head lysis"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000818> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0065001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000819> (tail lysis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000819> "tail with extensive cellular membrane destruction."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000819> "tail lysis"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000819> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0065001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000820> (whole animal lysis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000820> "whole organism with extensive cellular membrane destruction."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000820> "whole animal lysis"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000820> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0065001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000136>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <urn:dosdp:defined_class> (large head)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <urn:dosdp:defined_class> "An abnormal reduction in the size of the head."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <urn:dosdp:defined_class> "An abnormal reduction in the size of the tail."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <urn:dosdp:defined_class> "An increase in the size of the head."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <urn:dosdp:defined_class> "An increase in the size of the tail."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <urn:dosdp:defined_class> "abnormally small head"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <urn:dosdp:defined_class> "abnormally small tail"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <urn:dosdp:defined_class> "enlarged head"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <urn:dosdp:defined_class> "enlarged tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <urn:dosdp:defined_class> "large head"^^xsd:string)
+AnnotationAssertion(rdfs:label <urn:dosdp:defined_class> "large tail"^^xsd:string)
+AnnotationAssertion(rdfs:label <urn:dosdp:defined_class> "small head"^^xsd:string)
+AnnotationAssertion(rdfs:label <urn:dosdp:defined_class> "small tail"^^xsd:string)
+EquivalentClasses(<urn:dosdp:defined_class> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+EquivalentClasses(<urn:dosdp:defined_class> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+EquivalentClasses(<urn:dosdp:defined_class> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000418>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+EquivalentClasses(<urn:dosdp:defined_class> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000421>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )

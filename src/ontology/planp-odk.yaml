@@ -18,10 +18,11 @@ export_formats:
 import_group:
   products:
     - id: plana 
-    - id: ncit
     - id: go
     - id: ro
     - id: pato
+    - id: nbo 
+      mirror_from: http://purl.obolibrary.org/obo/nbo/nbo-base.owl
 components:
   products:
     - filename: obsolete.owl

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-03-27/imports/pato_import.owl
+data-version: planp/releases/2020-04-03/imports/pato_import.owl
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -477,6 +477,16 @@ subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
+id: PATO:0000008
+name: speed
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's scalar absolute value of the rate of change of the bearer's position." [Wikipedia:http\://en.wikipedia.org/wiki/Velocity]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "velocity" RELATED []
+is_a: PATO:0001906 ! movement quality
+
+[Term]
 id: PATO:0000014
 name: color
 namespace: quality
@@ -704,6 +714,34 @@ is_a: PATO:0000004 ! mobility
 relationship: is_opposite_of PATO:0000299 ! mobile
 
 [Term]
+id: PATO:0000303
+name: increased speed
+namespace: quality
+def: "A speed which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "fast speed" RELATED []
+synonym: "high speed" EXACT []
+is_a: PATO:0000008 ! speed
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000008 ! speed
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000304 ! decreased speed
+
+[Term]
+id: PATO:0000304
+name: decreased speed
+namespace: quality
+def: "A speed which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "slow" EXACT []
+synonym: "slow speed" EXACT []
+is_a: PATO:0000008 ! speed
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000008 ! speed
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000303 ! increased speed
+
+[Term]
 id: PATO:0000374
 name: increased distance
 namespace: quality
@@ -750,6 +788,20 @@ subset: value_slim
 is_a: PATO:0001894 ! phenotypic sex
 
 [Term]
+id: PATO:0000402
+name: branched
+namespace: quality
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's having branches." [WordNet:WordNet]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+synonym: "ramified" EXACT []
+synonym: "ramiform" EXACT []
+is_a: PATO:0002009 ! branchiness
+disjoint_from: PATO:0000414 ! unbranched
+relationship: is_opposite_of PATO:0000414 ! unbranched
+
+[Term]
 id: PATO:0000405
 name: curled
 namespace: quality
@@ -781,6 +833,17 @@ subset: value_slim
 synonym: "round" RELATED []
 synonym: "rounded" RELATED []
 is_a: PATO:0000947 ! elliptic
+
+[Term]
+id: PATO:0000414
+name: unbranched
+namespace: quality
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's lacking branches." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002009 ! branchiness
+relationship: is_opposite_of PATO:0000402 ! branched
 
 [Term]
 id: PATO:0000460
@@ -1635,6 +1698,14 @@ subset: attribute_slim
 is_a: PATO:0000047 ! biological sex
 
 [Term]
+id: PATO:0001906
+name: movement quality
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's participation in movement." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0001908
 name: multinucleate
 namespace: quality
@@ -1795,6 +1866,15 @@ relationship: has_part PATO:0001857 ! concave
 relationship: is_opposite_of PATO:0002007 ! convex 3-D shape
 
 [Term]
+id: PATO:0002009
+name: branchiness
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the degree to which there are subdivisions or offshoots in a bearer entity." [PATOC:MAH]
+subset: attribute_slim
+subset: cell_quality
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0002037
 name: degeneration
 namespace: quality
@@ -1861,6 +1941,17 @@ subset: relational_slim
 is_a: PATO:0001555 ! has number of
 created_by: George Gkoutos
 creation_date: 2009-09-21T10:41:58Z
+
+[Term]
+id: PATO:0002124
+name: laminar
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's processing the form of a thin plate sheet or layer." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: george
+creation_date: 2009-10-06T04:37:14Z
 
 [Term]
 id: PATO:0002131
@@ -2170,6 +2261,16 @@ synonym: "Lamé curve" EXACT []
 is_a: PATO:0002006 ! 2-D shape
 created_by: George Gkoutos
 creation_date: 2011-10-12T12:45:16Z
+
+[Term]
+id: PATO:0002460
+name: shriveled
+namespace: quality
+def: "A structural quality inhering in a bearer by virtue of the bearer being smaller and contracted, expecially due to loss of moisture." [PATOC:JL]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2013-04-09T06:05:18Z
 
 [Term]
 id: PATO:0002486

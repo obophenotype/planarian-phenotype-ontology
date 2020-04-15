@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-03-28/planp-base.owl
+data-version: planp/releases/2020-04-15/planp-base.owl
 ontology: planp/planp-base
 property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Planarian Phenotype Ontology (PLANP)" xsd:string
@@ -3901,7 +3901,7 @@ synonym: "increasing of pigment in the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000795
-name: stationary animal
+name: abnormal mobility of animal
 def: "anomaly in the ability to move whole organism." []
 
 [Term]
@@ -4027,4 +4027,46 @@ synonym: "fast moving whole organism" EXACT []
 id: PLANP:0000815
 name: immobile animal
 def: "anomaly in the complete lack of the ability to move of whole organism." []
+
+[Term]
+id: PLANP:0000816
+name: shriveled parapharyngeal region
+def: "Any structural anomaly that causes parapharyngeal region to be shriveled shaped." []
+synonym: "abnormal shriveled shape of parapharyngeal region" EXACT []
+
+[Term]
+id: PLANP:0000817
+name: bullet hole
+def: "Large circular lesions surrounded by accumulated pigment. They are nearly always on the midline near the pharynx" []
+synonym: "circular lesion of the parapharyngeal region" EXACT []
+
+[Term]
+id: PLANP:0000818
+name: head lysis
+def: "head with extensive cellular membrane destruction." []
+
+[Term]
+id: PLANP:0000819
+name: tail lysis
+def: "tail with extensive cellular membrane destruction." []
+
+[Term]
+id: PLANP:0000820
+name: whole animal lysis
+def: "whole organism with extensive cellular membrane destruction." []
+
+[Term]
+id: urn:dosdp:defined:class
+name: large head
+name: large tail
+name: small head
+name: small tail
+def: "An abnormal reduction in the size of the head." []
+def: "An abnormal reduction in the size of the tail." []
+def: "An increase in the size of the head." []
+def: "An increase in the size of the tail." []
+synonym: "abnormally small head" EXACT []
+synonym: "abnormally small tail" EXACT []
+synonym: "enlarged head" EXACT []
+synonym: "enlarged tail" EXACT []
 

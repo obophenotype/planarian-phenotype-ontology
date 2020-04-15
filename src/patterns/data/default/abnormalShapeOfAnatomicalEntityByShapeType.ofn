@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont18#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,7 +6,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<urn:unnamed:ontology#ont1>
+Ontology(<urn:unnamed:ontology#ont18>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
@@ -15,8 +15,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002258>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000418>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000420>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0000421>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0002118>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANA_0003000>))
@@ -30,6 +32,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000798>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000799>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000800>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000811>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PLANP_0000816>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
@@ -111,6 +114,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000811> "abnormal curled shape of dorsal region of tail"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000811> "scorpion tail"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000811> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0003000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/PLANP_0000816> (shriveled parapharyngeal region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PLANP_0000816> "Any structural anomaly that causes parapharyngeal region to be shriveled shaped."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PLANP_0000816> "abnormal shriveled shape of parapharyngeal region"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PLANP_0000816> "shriveled parapharyngeal region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PLANP_0000816> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002460> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PLANA_0000420>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )

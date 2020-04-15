@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-03-28/planp-simple.owl
+data-version: planp/releases/2020-04-15/planp-simple.owl
 subsetdef: ro-eco ""
 ontology: planp/planp-simple
 property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
@@ -2628,6 +2628,7 @@ name: skinny head
 def: "skinny or decreased width of the head." []
 synonym: "skinny head" EXACT []
 is_a: PLANP:0000501 ! abnormal size of head
+is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
 id: PLANP:0000496
@@ -2683,6 +2684,7 @@ id: PLANP:0000503
 name: skinny tail
 def: "skinny or decreased width of the tail." []
 synonym: "skinny tail" EXACT []
+is_a: PLANP:0000501 ! abnormal size of head
 is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
@@ -2799,6 +2801,7 @@ id: PLANP:0000521
 name: short tail
 def: "Decreased length or shortening of the tail." []
 synonym: "short tail" EXACT []
+is_a: PLANP:0000501 ! abnormal size of head
 is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
@@ -2807,12 +2810,14 @@ name: long head
 def: "longer, increased length of, head" []
 synonym: "longer head" EXACT []
 is_a: PLANP:0000501 ! abnormal size of head
+is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
 id: PLANP:0000523
 name: long tail
 def: "longer, increased length of, tail" []
 synonym: "longer tail" EXACT []
+is_a: PLANP:0000501 ! abnormal size of head
 is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
@@ -2821,12 +2826,14 @@ name: wide head
 def: "Increased width of head." []
 synonym: "wider head" EXACT []
 is_a: PLANP:0000501 ! abnormal size of head
+is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
 id: PLANP:0000525
 name: wide tail
 def: "Increased width of tail." []
 synonym: "wider tail" EXACT []
+is_a: PLANP:0000501 ! abnormal size of head
 is_a: PLANP:0000502 ! abnormal size of tail
 
 [Term]
@@ -4774,7 +4781,7 @@ is_a: PLANP:0000533 ! loss of tail
 id: PLANP:0000791
 name: decreased mobility of animal
 def: "Decreased or reduced ability to move whole organism." []
-is_a: PLANP:0000795 ! stationary animal
+is_a: PLANP:0000795 ! abnormal mobility of animal
 
 [Term]
 id: PLANP:0000792
@@ -4801,7 +4808,7 @@ is_a: PLANP:0000535 ! abnormal pigmentation of the epidermis
 
 [Term]
 id: PLANP:0000795
-name: stationary animal
+name: abnormal mobility of animal
 def: "anomaly in the ability to move whole organism." []
 is_a: PLANP:0000542 ! abnormal whole organism
 
@@ -4934,18 +4941,49 @@ id: PLANP:0000813
 name: slow moving animal
 def: "slower, decreased speed of, whole organism" []
 synonym: "slow moving whole organism" EXACT []
+is_a: PLANP:0000542 ! abnormal whole organism
 
 [Term]
 id: PLANP:0000814
 name: fast moving animal
 def: "faster, increased speed of, whole organism" []
 synonym: "fast moving whole organism" EXACT []
+is_a: PLANP:0000542 ! abnormal whole organism
 
 [Term]
 id: PLANP:0000815
 name: immobile animal
 def: "anomaly in the complete lack of the ability to move of whole organism." []
-is_a: PLANP:0000795 ! stationary animal
+is_a: PLANP:0000795 ! abnormal mobility of animal
+
+[Term]
+id: PLANP:0000816
+name: shriveled parapharyngeal region
+def: "Any structural anomaly that causes parapharyngeal region to be shriveled shaped." []
+synonym: "abnormal shriveled shape of parapharyngeal region" EXACT []
+is_a: PLANP:0000193 ! abnormal parapharyngeal region
+
+[Term]
+id: PLANP:0000817
+name: bullet hole
+def: "Large circular lesions surrounded by accumulated pigment. They are nearly always on the midline near the pharynx" []
+synonym: "circular lesion of the parapharyngeal region" EXACT []
+is_a: PLANP:0000193 ! abnormal parapharyngeal region
+
+[Term]
+id: PLANP:0000818
+name: head lysis
+def: "head with extensive cellular membrane destruction." []
+
+[Term]
+id: PLANP:0000819
+name: tail lysis
+def: "tail with extensive cellular membrane destruction." []
+
+[Term]
+id: PLANP:0000820
+name: whole animal lysis
+def: "whole organism with extensive cellular membrane destruction." []
 
 [Typedef]
 id: RO:0000052

@@ -1,0 +1,4 @@
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
+	small head	PLANA:0000418	head
+	small tail	PLANA:0000421	tail
+			head blastema
