@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: planp/releases/2020-04-15/planp-base.owl
+data-version: planp/releases/2020-06-03/planp-base.owl
 ontology: planp/planp-base
 property_value: http://purl.org/dc/elements/1.1/description "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Planarian Phenotype Ontology (PLANP)" xsd:string
@@ -2250,7 +2250,7 @@ synonym: "altered number of eyes" EXACT []
 
 [Term]
 id: PLANP:0000519
-name: decreased pigmentation of the eyes
+name: decreased pigmentation in the eyes
 def: "Decreased or loss of pigmentation of eye." []
 synonym: "eye hypopigmentation" EXACT []
 synonym: "loss of pigment in the eye" EXACT []
@@ -2344,7 +2344,7 @@ synonym: "abnormal pigmentation of the epidermis" EXACT []
 
 [Term]
 id: PLANP:0000536
-name: decreased pigmentation of the epidermis
+name: decreased pigmentation in the epidermis
 def: "Decreased or loss of pigmentation of epidermis." []
 synonym: "epidermis hypopigmentation" EXACT []
 synonym: "loss of pigment in the epidermis" EXACT []
@@ -2413,8 +2413,8 @@ synonym: "abnormality of dorsal region of the whole animal" EXACT []
 [Term]
 id: PLANP:0000547
 name: abnormal posterior region
-def: "Abnormality of posterior compartment of the whole animal." []
-synonym: "abnormality of posterior compartment of the whole animal" EXACT []
+def: "Abnormality of posterior region of the whole animal." []
+synonym: "abnormality of posterior region of the whole animal" EXACT []
 
 [Term]
 id: PLANP:0000548
@@ -3139,8 +3139,8 @@ synonym: "abnormality of extraembryonic organ" EXACT []
 [Term]
 id: PLANP:0000668
 name: abnormal chromosome:part
-def: "Abnormality of chromosome_part." []
-synonym: "abnormality of chromosome_part" EXACT []
+def: "Abnormality of chromosome part." []
+synonym: "abnormality of chromosome part" EXACT []
 
 [Term]
 id: PLANP:0000669
@@ -3982,7 +3982,7 @@ synonym: "complete loss of pigmentation in the head" EXACT []
 
 [Term]
 id: PLANP:0000808
-name: decreased pigmentation of the head
+name: decreased pigmentation in the head
 def: "Decreased or loss of pigmentation of head." []
 synonym: "head hypopigmentation" EXACT []
 synonym: "loss of pigment in the head" EXACT []
@@ -4056,17 +4056,52 @@ name: whole animal lysis
 def: "whole organism with extensive cellular membrane destruction." []
 
 [Term]
-id: urn:dosdp:defined:class
-name: large head
-name: large tail
+id: PLANP:0000821
+name: decreased pigmentation in the prepharyngeal region
+def: "Decreased or loss of pigmentation of prepharyngeal region." []
+synonym: "loss of pigment in the prepharyngeal region" EXACT []
+synonym: "prepharyngeal region hypopigmentation" EXACT []
+
+[Term]
+id: PLANP:0000822
 name: small head
-name: small tail
 def: "An abnormal reduction in the size of the head." []
-def: "An abnormal reduction in the size of the tail." []
-def: "An increase in the size of the head." []
-def: "An increase in the size of the tail." []
 synonym: "abnormally small head" EXACT []
+
+[Term]
+id: PLANP:0000823
+name: small tail
+def: "An abnormal reduction in the size of the tail." []
 synonym: "abnormally small tail" EXACT []
+
+[Term]
+id: PLANP:0000824
+name: small head blastema
+def: "An abnormal reduction in the size of the head blastema." []
+synonym: "abnormally small head blastema" EXACT []
+
+[Term]
+id: PLANP:0000825
+name: small tail blastema
+def: "An abnormal reduction in the size of the tail blastema." []
+synonym: "abnormally small tail blastema" EXACT []
+
+[Term]
+id: PLANP:0000826
+name: large head
+def: "An increase in the size of the head." []
 synonym: "enlarged head" EXACT []
+
+[Term]
+id: PLANP:0000827
+name: large tail
+def: "An increase in the size of the tail." []
 synonym: "enlarged tail" EXACT []
+
+[Term]
+id: PLANP:0000828
+name: patchy pigmentation in the whole animal
+def: "whole organism with a degree of pigmentation quality that is diversified with patches, or irregularity." []
+synonym: "loss of pigment in the whole organism" EXACT []
+synonym: "whole organism hypopigmentation" EXACT []
 

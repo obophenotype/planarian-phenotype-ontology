@@ -18,7 +18,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/planp/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-04-15/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/planp/releases/2020-06-03/imports/pato_import.owl"/>
     </owl:Ontology>
     
 
@@ -2446,7 +2446,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s scalar absolute value of the rate of change of the bearer&apos;s position.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Velocity</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Velocity</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4382,7 +4382,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002063"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape inhering in a bearer by virtue of the bearer&apos;s being elongated and cylindrical.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:me</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:me</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4406,7 +4406,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002065"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being arranged like rays or radii; radiating from a common center.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:me</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:me</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5111,6 +5111,44 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structural quality which is held by a bearer where a localized pathological or traumatic structural change, damage, deformity, or discontinuity of tissue, organ, or body part is present.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT:C3824</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0065001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0065001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
+        <obo:IAO_0000115>The breakdown, disintegration, destruction of an entity due to the breaking of cell membranes by any means.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0002-3528-5267</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0065001</oboInOwl:id>
+        <rdfs:label>lysed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0065001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The breakdown, disintegration, destruction of an entity due to the breaking of cell membranes by any means.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Lysis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0065002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0065002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002248"/>
+        <obo:IAO_0000115>A degree of pigmentation quality that is diversified with patches, or irregularity.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0002-3528-5267</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0065002</oboInOwl:id>
+        <rdfs:label>patchy pigmentation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0065002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A degree of pigmentation quality that is diversified with patches, or irregularity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://medlineplus.gov/ency/article/003224.htm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

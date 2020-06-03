@@ -1,7 +1,6 @@
 SHEETID=1iBSBr4c0EoumK8MAGCmjf329vjAxtBz-FtiyeIqnS34
 
-# In WebBrowser GO to: 
-URL=https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/get?apix_params=%7B%22spreadsheetId%22%3A%22${SHEETID}%22%7D
+URL=https://docs.google.com/spreadsheets/d/1iBSBr4c0EoumK8MAGCmjf329vjAxtBz-FtiyeIqnS34/edit#gid=463628839
 
 echo "===================================="
 echo "========    STEP 1  ================"
@@ -12,13 +11,13 @@ echo ""
 echo "===================================="
 echo "========    STEP 2  ================"
 echo "===================================="
-echo "Copy results of execute to sheets.json"
+echo "Make sure GID index menu is up to date"
+echo "Copy lines pattern name and GID into googleSheets.txt"
 echo ""
 echo "===================================="
 echo "========    STEP 3  ================"
 echo "===================================="
-echo "Run these:"
-echo "python3 parseJSON.py > googleSheets.txt"
+echo "Run this:"
 echo "sh getSheets.sh"
 echo ""
 echo "===================================="

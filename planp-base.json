@@ -177,7 +177,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased pigmentation of the head"
+      "lbl" : "decreased pigmentation in the head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000816",
       "meta" : {
@@ -3792,12 +3792,12 @@
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000547",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of posterior compartment of the whole animal.",
+          "val" : "Abnormality of posterior region of the whole animal.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of posterior compartment of the whole animal",
+          "val" : "abnormality of posterior region of the whole animal",
           "xrefs" : [ ]
         } ]
       },
@@ -3807,12 +3807,12 @@
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000668",
       "meta" : {
         "definition" : {
-          "val" : "Abnormality of chromosome_part.",
+          "val" : "Abnormality of chromosome part.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "abnormality of chromosome_part",
+          "val" : "abnormality of chromosome part",
           "xrefs" : [ ]
         } ]
       },
@@ -7875,6 +7875,21 @@
       "type" : "CLASS",
       "lbl" : "abnormal telophase spermatogonium"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000827",
+      "meta" : {
+        "definition" : {
+          "val" : "An increase in the size of the tail.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "enlarged tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "large tail"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000706",
       "meta" : {
         "definition" : {
@@ -7889,6 +7904,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal S phase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000826",
+      "meta" : {
+        "definition" : {
+          "val" : "An increase in the size of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "enlarged head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "large head"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000705",
       "meta" : {
@@ -7935,6 +7965,25 @@
       "type" : "CLASS",
       "lbl" : "abnormal G2 phase neoblast"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000828",
+      "meta" : {
+        "definition" : {
+          "val" : "whole organism with a degree of pigmentation quality that is diversified with patches, or irregularity.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "whole organism hypopigmentation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of pigment in the whole organism",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "patchy pigmentation in the whole animal"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000702",
       "meta" : {
         "definition" : {
@@ -7949,6 +7998,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal melanin pigment granule"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000823",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal reduction in the size of the tail.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormally small tail",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "small tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000701",
       "meta" : {
@@ -7965,6 +8029,36 @@
       "type" : "CLASS",
       "lbl" : "abnormal pharynx pouch epithelial cell"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000822",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal reduction in the size of the head.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormally small head",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "small head"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000825",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal reduction in the size of the tail blastema.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormally small tail blastema",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "small tail blastema"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000704",
       "meta" : {
         "definition" : {
@@ -7979,6 +8073,21 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal parenchymal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000824",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal reduction in the size of the head blastema.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormally small head blastema",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "small head blastema"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000703",
       "meta" : {
@@ -8009,6 +8118,25 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal metaphase neoblast"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PLANP_0000821",
+      "meta" : {
+        "definition" : {
+          "val" : "Decreased or loss of pigmentation of prepharyngeal region.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of pigment in the prepharyngeal region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "prepharyngeal region hypopigmentation",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased pigmentation in the prepharyngeal region"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000700",
       "meta" : {
@@ -8154,33 +8282,6 @@
       },
       "type" : "CLASS",
       "lbl" : "abnormal G2 phase spermatogonial stem cell"
-    }, {
-      "id" : "urn:dosdp:defined_class",
-      "meta" : {
-        "definition" : {
-          "val" : "An abnormal reduction in the size of the head.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "enlarged tail",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "enlarged head",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormally small tail",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "abnormally small head",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "small tail"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000711",
       "meta" : {
@@ -8807,7 +8908,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased pigmentation of the epidermis"
+      "lbl" : "decreased pigmentation in the epidermis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000657",
       "meta" : {
@@ -9749,7 +9850,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "decreased pigmentation of the eyes"
+      "lbl" : "decreased pigmentation in the eyes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PLANP_0000518",
       "meta" : {
@@ -10182,7 +10283,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://creativecommons.org/licenses/by/3.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-04-15/planp-base.json"
+      "version" : "http://purl.obolibrary.org/obo/planp/releases/2020-06-03/planp-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

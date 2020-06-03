@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my @sheets;
+foreach my $each (<DATA>){
+  chomp $each;
+  push @sheets,  "QUERY({'$each'!A4:B10000},\"select Col1,Col2, '$each' where Col1 <>''\")";
+}
+
+print "={" , join(';',@sheets) , "}" ;
+
+__DATA__
+abnormalMobilityOfAnatomicalEntity.tsv
+abnormallyDecreasedMobilityOfAnatomicalEntity.tsv
+abnormallyDecreasedSpeedOfAnatomicalEntity.tsv
+abnormallyIncreasedSpeedOfAnatomicalEntity.tsv
+abnormallyImmobileAnatomicalEntity.tsv
+edematousAnatomicalEntity.tsv
+abnormalBehavior.tsv
+abnormalAbsenceOfAnatomicalEntityDueToDegeneration
+lysedAnatomicalEntity.tsv
+lesionedAnatomicalEntity.tsv
+abnormalShapeOfAnatomicalEntityByShapeType.tsv
+abnormalShapeOfPhysicalEntity.tsv
+abnormallyIncreasedLengthOfAnatomicalEntity.tsv
+hypoplasticAnatomicalEntity.tsv
+abnomalAnatomicalEntity
+abnormalAbsenceOfAnatomicalEntity.tsv
+lesionInLocationByShape.tsv
+abnormalMorphologyOfAnatomicalEntity.tsv
+abnormalSizeOfAnatomicalEntity.tsv
+abnormallyDecreasedSizeOfAnatomicalEntity.tsv
+abnormallyIncreasedSizeOfAnatomicalEntity.tsv
+abnormalNumberOfAnatomicalEntity.tsv
+abnormallyIncreasedWidthOfAnatomicalEntity.tsv
+abnormallyDecreasedWidthOfAnatomicalEntity
+abnormalPigmentationOfAnatomicalEntity.tsv
+abnormalAbsenceOfPigmentationOfAnatomicalEntity
+abnormallyDecreasedPigmentationOfAnatomicalEntity
+abnormallyPatchyPigmentationOfAnatomicalEntity
+abnormallyIncreasedPigmentationOfAnatomicalEntity
+abnormallyDecreasedNumberOfAnatomicalEntity.tsv
+abnormallyIncreasedNumberOfAnatomicalEntity
+abnormallyDecreasedLengthOfAnatomicalEntity.tsv
+abnormalDistanceBetweenAnatomicalEntities.tsv
+abnormallyDecreasedDistanceBetweenAnatomicalEntiti
+abnormallyIncreasedDistanceBetweenAnatomicalEntiti

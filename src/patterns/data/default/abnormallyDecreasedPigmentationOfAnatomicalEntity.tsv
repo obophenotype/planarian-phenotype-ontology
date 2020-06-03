@@ -1,4 +1,5 @@
 defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
-PLANP:0000519	decreased pigmentation of the eyes	PLANA:0000036	eye
-PLANP:0000536	decreased pigmentation of the epidermis	PLANA:0000034	definitive epidermis
-PLANP:0000808	decreased pigmentation of the head	PLANA:0000418	head
+PLANP:0000519	decreased pigmentation in the eyes	PLANA:0000036	eye
+PLANP:0000536	decreased pigmentation in the epidermis	PLANA:0000034	epidermis
+PLANP:0000808	decreased pigmentation in the head	PLANA:0000418	head
+PLANP:0000821	decreased pigmentation in the prepharyngeal region	PLANA:0000419	prepharyngeal region

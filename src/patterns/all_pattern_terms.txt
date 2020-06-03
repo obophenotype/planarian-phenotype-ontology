@@ -87,6 +87,8 @@ http://purl.obolibrary.org/obo/PATO_0040025
 http://purl.obolibrary.org/obo/PATO_0040025
 http://purl.obolibrary.org/obo/PATO_0065001
 http://purl.obolibrary.org/obo/PATO_0065001
+http://purl.obolibrary.org/obo/PATO_0065002
+http://purl.obolibrary.org/obo/PATO_0065002
 http://purl.obolibrary.org/obo/PLANA_0000001
 http://purl.obolibrary.org/obo/PLANA_0000002
 http://purl.obolibrary.org/obo/PLANA_0000003
@@ -590,6 +592,8 @@ http://purl.obolibrary.org/obo/PLANA_0003607
 http://purl.obolibrary.org/obo/PLANA_0003608
 http://purl.obolibrary.org/obo/PLANA_0003609
 http://purl.obolibrary.org/obo/PLANA_0003610
+http://purl.obolibrary.org/obo/PLANA_0003900
+http://purl.obolibrary.org/obo/PLANA_0003901
 http://purl.obolibrary.org/obo/PLANA_0004503
 http://purl.obolibrary.org/obo/PLANA_0004504
 http://purl.obolibrary.org/obo/PLANA_0004506
@@ -1301,6 +1305,14 @@ http://purl.obolibrary.org/obo/PLANP_0000817
 http://purl.obolibrary.org/obo/PLANP_0000818
 http://purl.obolibrary.org/obo/PLANP_0000819
 http://purl.obolibrary.org/obo/PLANP_0000820
+http://purl.obolibrary.org/obo/PLANP_0000821
+http://purl.obolibrary.org/obo/PLANP_0000822
+http://purl.obolibrary.org/obo/PLANP_0000823
+http://purl.obolibrary.org/obo/PLANP_0000824
+http://purl.obolibrary.org/obo/PLANP_0000825
+http://purl.obolibrary.org/obo/PLANP_0000826
+http://purl.obolibrary.org/obo/PLANP_0000827
+http://purl.obolibrary.org/obo/PLANP_0000828
 http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/RO_0002314
@@ -1342,6 +1354,7 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSizeOfAnat
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSpeedOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWeightOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPatchyPigmentationOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/edematousAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/hypoplasticAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/lesionedAnatomicalEntity.yaml
