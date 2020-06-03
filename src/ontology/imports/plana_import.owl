@@ -5617,7 +5617,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Progression through the phases of the mitotic cell cycle, the most common eukaryotic cell cycle, which canonically comprises four successive phases called G1, S, G2, and M and includes replication of the genome and the subsequent segregation of chromosomes into daughter cells. In some variant cell cycles nuclear replication or nuclear division may not be followed by cell division, or G1 and G2 phases may be absent.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0815316194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0815316194</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:69278</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5798,7 +5798,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>single organism organelle organization</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
@@ -7041,7 +7041,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1903046"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A process that is part of the meiotic cell cycle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:TermGenie</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_cell_cycle</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO_REF:0000060</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -7081,7 +7081,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1903047"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A process that is part of the mitotic cell cycle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:TermGenie</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_cell_cycle</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO_REF:0000060</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -7414,7 +7414,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001875"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s having three angles.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>wordreference:wordreference</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wordreference:wordreference</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7434,7 +7434,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001955"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being narrowly triangular, wider at the apex and tapering toward the base.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>wordreference:wordreference</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wordreference:wordreference</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7702,7 +7702,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/stage8.png"/>
-        <rdfs:comment>Depicted by field contains hematoxylin and eosin staining section of a stage 8 embryo. Scale bar = 100um</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depicted by field contains hematoxylin and eosin staining section of a stage 8 embryo. Scale bar = 100um</rdfs:comment>
     </owl:Axiom>
     
 
@@ -7814,8 +7814,8 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Neoblasts and their differentiating daughters implicated in maintenance and regeneration of different tissues in the nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21282632</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24173799</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25356635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24173799</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25356635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26057828</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26525673</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387</oboInOwl:hasDbXref>
@@ -8603,7 +8603,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/protonephridia.png"/>
-        <rdfs:comment>http://purl.obolibrary.org/obo/Depicted by field contains a whole-mount acetylated tubulin (AcTub) staining. Scale bars_ 500 um. Inset to right shows depth-coded projection of AcTub staining. Superficial structures are in blue and deeper structures are in red. Scale bars: 50 um</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/Depicted by field contains a whole-mount acetylated tubulin (AcTub) staining. Scale bars_ 500 um. Inset to right shows depth-coded projection of AcTub staining. Superficial structures are in blue and deeper structures are in red. Scale bars: 50 um</rdfs:comment>
     </owl:Axiom>
     
 
@@ -8870,7 +8870,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/asexualadult.png"/>
-        <rdfs:comment>Image is an scanning electron micrograph of the dorsal side of an entire animal. This is an adult asexual Schmidtea mediterranea. Anterior is to the right and posterior is to the left. Scale bar is 500um.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an scanning electron micrograph of the dorsal side of an entire animal. This is an adult asexual Schmidtea mediterranea. Anterior is to the right and posterior is to the left. Scale bar is 500um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -9204,7 +9204,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000027"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/smedsexualbiotype.png"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depicted by field contains light micrscope image of asexual and sexual biotypes of Schmidtea meditteranea with their respective karyotypes. Note that the asexual bioptype has a chromosome inversion compared to the sexual.</rdfs:comment>
+        <rdfs:comment>Depicted by field contains light micrscope image of asexual and sexual biotypes of Schmidtea meditteranea with their respective karyotypes. Note that the asexual bioptype has a chromosome inversion compared to the sexual.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -9496,7 +9496,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000030"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/midline.png"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illustration of the midline (in green).</rdfs:comment>
+        <rdfs:comment>Illustration of the midline (in green).</rdfs:comment>
     </owl:Axiom>
     
 
@@ -11807,7 +11807,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/entericmusculature.png"/>
-        <rdfs:comment>Image is an electron micrograph depicting the enteric musculature (arrowheads) surrounding the gut, which extends across the top of the image. These cells are very small compared to the layer of medial muscle underneath them. Scale bar is 1um.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph depicting the enteric musculature (arrowheads) surrounding the gut, which extends across the top of the image. These cells are very small compared to the layer of medial muscle underneath them. Scale bar is 1um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -11879,7 +11879,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005423"/>
         <obo:IAO_0000115>A multicellular anatomical structure that is associated with an embryo and derived from the zygote from which it develops, but which does not contribute to the embryo proper or to structures that are part of the same organism after embryogenesis.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>UBERON:0000478</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000478</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>extraembryonic structure</rdfs:label>
     </owl:Class>
@@ -11887,7 +11887,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000063"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A multicellular anatomical structure that is associated with an embryo and derived from the zygote from which it develops, but which does not contribute to the embryo proper or to structures that are part of the same organism after embryogenesis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UBERON:0000478</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000478</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11981,7 +11981,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000064"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/flamebulb.png"/>
-        <rdfs:comment>Image is an electron micrograph depicting a flame cell (outlined), which is a part of the flame bulb. &quot;N&quot; marks this cell&apos;s nucleus and the cilia are noted by an arrowhead. Scale bar is 1um.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph depicting a flame cell (outlined), which is a part of the flame bulb. &quot;N&quot; marks this cell&apos;s nucleus and the cilia are noted by an arrowhead. Scale bar is 1um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -12101,7 +12101,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000065"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/flamecell.png"/>
-        <rdfs:comment>Image is an electron micrograph depicting a flame cell (outlined), which is a part of the flame bulb. &quot;N&quot; marks this cell&apos;s nucleus and the cilia are noted by an arrowhead. Scale bar is 1um.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph depicting a flame cell (outlined), which is a part of the flame bulb. &quot;N&quot; marks this cell&apos;s nucleus and the cilia are noted by an arrowhead. Scale bar is 1um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -15465,7 +15465,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002095"/>
         <obo:IAO_0000115>piwi-1+, nkx1-1+ progenitor neoblasts required for specification of circular muscle fibers.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>PMID:29168507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29168507</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>circular muscle progenitor cell</rdfs:label>
     </owl:Class>
@@ -15473,7 +15473,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000130"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>piwi-1+, nkx1-1+ progenitor neoblasts required for specification of circular muscle fibers.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:29168507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29168507</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15526,7 +15526,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000429"/>
         <obo:IAO_0000115>piwi-1+, myoD+, snail-1+ progenitor neoblasts required for specification and creation of longitudinal muscle fibers.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>PMID:29168507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29168507</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>longitudinal muscle progenitor cell</rdfs:label>
     </owl:Class>
@@ -15534,7 +15534,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000134"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>piwi-1+, myoD+, snail-1+ progenitor neoblasts required for specification and creation of longitudinal muscle fibers.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:29168507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29168507</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15763,13 +15763,13 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22479207</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:22696458</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:22899852</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23250205</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23297191</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23250205</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23297191</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23318635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23405188</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23629965</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23903188</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24040508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24040508</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24063805</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24367277</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24415944</oboInOwl:hasDbXref>
@@ -15777,25 +15777,25 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:hasDbXref>PMID:24950970</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25017721</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:25278423</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25356635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25356635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:25493551</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:25558068</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26062938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26062938</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26114597</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26556349</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26651295</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26884331</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27013241</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27034770</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27063937</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27063937</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27074666</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27150006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27240733</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27240733</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27612382</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27612384</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27800171</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28072387</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28287248</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28287248</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:28893948</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29273738</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29547123</oboInOwl:hasDbXref>
@@ -16595,7 +16595,7 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:hasDbXref>PMID:27163480</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:28434803</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:28976975</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000991</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1101/279364</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>gonad</rdfs:label>
@@ -16604,7 +16604,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000217"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Reproductive organ that produces and releases eggs (ovary) or sperm (testis).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000991</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17253,7 +17253,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000227"/>
         <obo:IAO_0000115>A male germ cell is a germ cell that supports male gamete production.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000015</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23652002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27304889</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27330085</oboInOwl:hasDbXref>
@@ -17264,7 +17264,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000228"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A male germ cell is a germ cell that supports male gamete production.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000015</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17275,7 +17275,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000227"/>
         <obo:IAO_0000115>Female germ cell is a germ cell that supports female gamete production.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0000021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000021</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>female germ cell</rdfs:label>
     </owl:Class>
@@ -17283,7 +17283,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000229"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Female germ cell is a germ cell that supports female gamete production.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000021</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -20954,7 +20954,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>any of the nerve fiber tracts that span the longitudinal fissure between the cerebral and/or cerebellar hemispheres of the brain</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>UBERON:0005970</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0005970</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>brain commissure</rdfs:label>
     </owl:Class>
@@ -20962,7 +20962,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000494"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>any of the nerve fiber tracts that span the longitudinal fissure between the cerebral and/or cerebellar hemispheres of the brain</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UBERON:0005970</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0005970</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21104,7 +21104,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
         <oboInOwl:hasDbXref>CALOHA:TS-2035</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:68646</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0005623</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>KUPO:0000002</oboInOwl:hasDbXref>
@@ -21119,7 +21119,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000499"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000000</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21130,7 +21130,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
         <obo:IAO_0000115>A prolongation or process extending from a cell.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0042995</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042995</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>cell projection</rdfs:label>
     </owl:Class>
@@ -21138,7 +21138,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000501"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A prolongation or process extending from a cell.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0042995</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042995</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21149,7 +21149,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000501"/>
         <obo:IAO_0000115>A cell projection supported by an assembly of actin filaments.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098858</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0098858</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>actin-based cell projection</rdfs:label>
     </owl:Class>
@@ -21157,7 +21157,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000502"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cell projection supported by an assembly of actin filaments.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098858</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0098858</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21268,7 +21268,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>The attachment of one cell to another cell via adhesion molecules.</obo:IAO_0000115>
         <obo:foaf_depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/cell-celladhesion.png"/>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0098609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098609</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>cell-cell adhesion</rdfs:label>
     </owl:Class>
@@ -21276,7 +21276,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000508"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The attachment of one cell to another cell via adhesion molecules.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0098609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098609</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000508"/>
@@ -21346,7 +21346,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any constituent part of the cytoplasm, all of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0044444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044444</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>cytoplasmic part</rdfs:label>
     </owl:Class>
@@ -21354,7 +21354,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000513"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any constituent part of the cytoplasm, all of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0044444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044444</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21365,7 +21365,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000513"/>
         <obo:IAO_0000115>Any constituent part of cytoplasmic vesicle, a vesicle formed of membrane or protein, found in the cytoplasm of a cell.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044433</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>cytoplasmic vesicle part</rdfs:label>
     </owl:Class>
@@ -21373,7 +21373,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000514"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any constituent part of cytoplasmic vesicle, a vesicle formed of membrane or protein, found in the cytoplasm of a cell.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044433</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21384,7 +21384,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000526"/>
         <obo:IAO_0000115>A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0005773</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005773</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>vacuole</rdfs:label>
     </owl:Class>
@@ -21392,7 +21392,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000515"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0005773</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005773</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21461,7 +21461,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000520"/>
         <obo:IAO_0000115>Examples include the outer membranes of double membrane bound organelles such as mitochondria as well as the bounding membranes of single-membrane bound organelles such as lysosomes.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0098588</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098588</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>bounding membrane of organelle</rdfs:label>
     </owl:Class>
@@ -21469,7 +21469,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Examples include the outer membranes of double membrane bound organelles such as mitochondria as well as the bounding membranes of single-membrane bound organelles such as lysosomes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0098588</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098588</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21536,7 +21536,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0031090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0031090</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>organelle membrane</rdfs:label>
     </owl:Class>
@@ -21544,7 +21544,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000524"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0031090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0031090</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22040,7 +22040,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0000103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000103</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67282</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:9780070316607</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16033796</oboInOwl:hasDbXref>
@@ -22057,7 +22057,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000546"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000103</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22112,7 +22112,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A neuron which sends impulses peripherally to activate muscles or secretory cells.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0000527</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000527</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>output neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>efferent neuron</rdfs:label>
@@ -22121,7 +22121,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000548"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A neuron which sends impulses peripherally to activate muscles or secretory cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000527</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000527</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22168,7 +22168,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
         <oboInOwl:hasDbXref>BTO:0003811</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CL:0000099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000099</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBbt:00005125</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:67313</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0005113</oboInOwl:hasDbXref>
@@ -22179,7 +22179,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000550"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000099</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22215,7 +22215,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>An efferent neuron that passes from the central nervous system or a ganglion toward or to a muscle and conducts an impulse that causes or inhibits movement.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
         <oboInOwl:hasDbXref>BTO:0000312</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83617</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0005409</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>motoneuron</oboInOwl:hasExactSynonym>
@@ -22226,7 +22226,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000553"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An efferent neuron that passes from the central nervous system or a ganglion toward or to a muscle and conducts an impulse that causes or inhibits movement.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000100</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22250,7 +22250,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>Neuronal cells which synthesize, store and release neurohormones.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000381</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBbt:00005130</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24173799</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>neurosecretory cell</oboInOwl:hasExactSynonym>
@@ -22261,7 +22261,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000556"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Neuronal cells which synthesize, store and release neurohormones.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000381</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22272,7 +22272,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000099"/>
         <obo:IAO_0000115>Sympathetic neurons are part of the sympathetic nervous system and are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0011103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0011103</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>sympathetic neuron</rdfs:label>
     </owl:Class>
@@ -22280,7 +22280,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000558"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Sympathetic neurons are part of the sympathetic nervous system and are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0011103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0011103</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22431,7 +22431,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000564"/>
         <obo:IAO_0000115>A neruon whose cell body is within an autonomic ganglion.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0000107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000107</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:80121</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>autonomic neuron</rdfs:label>
@@ -22440,7 +22440,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000565"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A neruon whose cell body is within an autonomic ganglion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000107</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22451,7 +22451,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000565"/>
         <obo:IAO_0000115>A neruon whose cell body is within an autonomic ganglion.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>CL:0007011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0007011</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>enteric neuron</rdfs:label>
     </owl:Class>
@@ -22459,7 +22459,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000566"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A neruon whose cell body is within an autonomic ganglion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0007011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0007011</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22609,7 +22609,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>A cell junction at which anchoring proteins (cadherins or integrins) extend through the plasma membrane and are attached to actin filaments.</obo:IAO_0000115>
         <obo:foaf_depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/adherensjunction.png"/>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0005912</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005912</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26556349</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>adherens junction</rdfs:label>
@@ -22618,7 +22618,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cell junction at which anchoring proteins (cadherins or integrins) extend through the plasma membrane and are attached to actin filaments.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0005912</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005912</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002001"/>
@@ -25252,7 +25252,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0042470</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042470</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>melanosome</rdfs:label>
     </owl:Class>
@@ -25260,7 +25260,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0042470</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042470</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25304,7 +25304,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:foaf_depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/mucus.png"/>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
         <oboInOwl:hasDbXref>PMID:21282632</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22653920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22653920</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>mucus</rdfs:label>
     </owl:Class>
@@ -25312,13 +25312,13 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002059"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A secreted, mucin-rich extracellular substance coating the epidermal surface of the animal implicated in gliding locomotion, substrate adhesion, innate immunity and predator avoidance.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22653920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22653920</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002059"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/mucus.png"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph of the outside of an animal at the marginal adhesive zone. The adhesive papilla are colored in blue and surround each secretory pore (yellow). Mucus (arrowheads) and cilia are both green. Scale bar is 2um.</rdfs:comment>
+        <rdfs:comment>Image is an electron micrograph of the outside of an animal at the marginal adhesive zone. The adhesive papilla are colored in blue and surround each secretory pore (yellow). Mucus (arrowheads) and cilia are both green. Scale bar is 2um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -25368,7 +25368,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>Cell appendage of the neuron which includes the axon and the dendrite.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:61814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:61814</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:9780070316607</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27612382</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29547123</oboInOwl:hasDbXref>
@@ -25380,7 +25380,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Cell appendage of the neuron which includes the axon and the dendrite.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:61814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:61814</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25403,7 +25403,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A neuron that produces and releases neuropeptides at chemical synapses.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24173799</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24173799</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:25356635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27163480</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>cns peptidergic cell</oboInOwl:hasExactSynonym>
@@ -25415,7 +25415,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002062"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A neuron that produces and releases neuropeptides at chemical synapses.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24173799</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24173799</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25480,7 +25480,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>The inner, i.e. lumen-facing, lipid bilayer of the nuclear envelope.</obo:IAO_0000115>
         <obo:foaf_depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/nuclearinnermembrane.png"/>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005637</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>inner leaflet</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>nuclear inner membrane</rdfs:label>
@@ -25489,7 +25489,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002065"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The inner, i.e. lumen-facing, lipid bilayer of the nuclear envelope.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005637</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002065"/>
@@ -25506,7 +25506,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0000532"/>
         <obo:IAO_0000115>The volume enclosed by the nuclear inner membrane.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0031981</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0031981</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>nuclear lumen</rdfs:label>
     </owl:Class>
@@ -25514,7 +25514,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002066"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The volume enclosed by the nuclear inner membrane.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0031981</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0031981</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25532,7 +25532,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115>The outer, i.e. cytoplasm-facing, lipid bilayer of the nuclear envelope; continuous with the endoplasmic reticulum of the cell and sometimes studded with ribosomes.</obo:IAO_0000115>
         <obo:foaf_depiction rdf:resource="http://purl.obolibrary.org/obo/plana/images/nuclearoutermembrane.png"/>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005640</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005640</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>outer leaflet</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>nuclear outer membrane</rdfs:label>
@@ -25541,13 +25541,13 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002067"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The outer, i.e. cytoplasm-facing, lipid bilayer of the nuclear envelope; continuous with the endoplasmic reticulum of the cell and sometimes studded with ribosomes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005640</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005640</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002067"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/nuclearoutermembrane.png"/>
-        <rdfs:comment>Image is an electron micrograph depicting the nuclear envelope. The nucleus takes up the top left corner of the image and the outer nuclear membrane has been labeled with arrowheads. Scale bar is 200 nm.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph depicting the nuclear envelope. The nucleus takes up the top left corner of the image and the outer nuclear membrane has been labeled with arrowheads. Scale bar is 200 nm.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -25651,7 +25651,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>Parenchymal cells that synthesize and contain brown ommonchrome pigment.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27240733</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27240733</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>non-melanin pigment cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>ommochrome pigment cell</rdfs:label>
@@ -25660,7 +25660,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002069"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Parenchymal cells that synthesize and contain brown ommonchrome pigment.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27240733</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27240733</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25789,7 +25789,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002071"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/pharynxouterepidermalcell.png"/>
-        <rdfs:comment>Image is an electron micrograph of a transverse section through the pharynx. The pharynx pouch cavity is at the top. An epidermal cell, a part of the outer epithelium, has been labeled with arrowheads. Immediately deep to the outer epithelial layer of the pharynx is musculature that has been colored. Red = circular; blue = longitudinal. Scale bar is 2 um.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph of a transverse section through the pharynx. The pharynx pouch cavity is at the top. An epidermal cell, a part of the outer epithelium, has been labeled with arrowheads. Immediately deep to the outer epithelial layer of the pharynx is musculature that has been colored. Red = circular; blue = longitudinal. Scale bar is 2 um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -25896,7 +25896,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A small, subcellular membrane-bounded vesicle containing pigment and/or pigment precursor molecules. Pigment granule biogenesis is poorly understood, as pigment granules are derived from multiple sources including the endoplasmic reticulum, coated vesicles, lysosomes, and endosomes.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>GO:0048770</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0048770</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:9780070316607</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27551436</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
@@ -25906,7 +25906,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A small, subcellular membrane-bounded vesicle containing pigment and/or pigment precursor molecules. Pigment granule biogenesis is poorly understood, as pigment granules are derived from multiple sources including the endoplasmic reticulum, coated vesicles, lysosomes, and endosomes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0048770</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0048770</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25949,7 +25949,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002553"/>
         <obo:IAO_0000115>An anatomical space that is an opening, usually at the end of a canal or duct, on the surface of the integument or the lining of an internal anatomical space.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref>UBERON:0008915</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008915</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
         <rdfs:label>pore</rdfs:label>
     </owl:Class>
@@ -25957,7 +25957,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002079"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An anatomical space that is an opening, usually at the end of a canal or duct, on the surface of the integument or the lining of an internal anatomical space.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UBERON:0008915</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0008915</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -26036,7 +26036,7 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <obo:IAO_0000115>A specialized area of membrane facing the presynaptic membrane on the tip of the nerve ending and separated from it by a minute cleft (the synaptic cleft). Neurotransmitters cross the synaptic cleft and transmit the signal to the postsynaptic membrane.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0045211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0045211</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24950970</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>post-synaptic cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>Planarian_Anatomy</oboInOwl:hasOBONamespace>
@@ -26046,7 +26046,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002081"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A specialized area of membrane facing the presynaptic membrane on the tip of the nerve ending and separated from it by a minute cleft (the synaptic cleft). Neurotransmitters cross the synaptic cleft and transmit the signal to the postsynaptic membrane.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0045211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0045211</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -27197,7 +27197,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002114"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/post-blastemaregion.png"/>
-        <rdfs:comment>Illustration of the post-blastema region(in green) in the anterior region of a regenerating tail fragment.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illustration of the post-blastema region(in green) in the anterior region of a regenerating tail fragment.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -27656,7 +27656,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0002140"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/pharynxpouchepithelium.png"/>
-        <rdfs:comment>Image is an electron micrograph of a transverse slice through the parapharyngeal region. It includes the dorsal epidermis, pharynx pouch epithelium (arrowheads), and a portion of the pharynx. Dorsal is up and the lumen of the pouch is visible as the white stripe in the middle of the micrograph. Scale bar is 5um.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph of a transverse slice through the parapharyngeal region. It includes the dorsal epidermis, pharynx pouch epithelium (arrowheads), and a portion of the pharynx. Dorsal is up and the lumen of the pouch is visible as the white stripe in the middle of the micrograph. Scale bar is 5um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -28412,7 +28412,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0003114"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>pigment granule which is part of the eumelanin</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25356635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25356635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26017970</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27551436</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -31753,7 +31753,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0003712"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/dorsalregionofprepharyngealfragment.png"/>
-        <rdfs:comment>Illustration of the dorsal region of a prepharyngeal fragment (green).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illustration of the dorsal region of a prepharyngeal fragment (green).</rdfs:comment>
     </owl:Axiom>
     
 
@@ -32061,7 +32061,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0003719"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/posteriorregionofpostpharyngealfragment.png"/>
-        <rdfs:comment>Illustration of the posterior region of a postpharyngeal fragment (green).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illustration of the posterior region of a postpharyngeal fragment (green).</rdfs:comment>
     </owl:Axiom>
     
 
@@ -32809,7 +32809,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0003736"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/dorsalregionofplugfragment.png"/>
-        <rdfs:comment>Illustration of the dorsal region of a plug fragment (green).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illustration of the dorsal region of a plug fragment (green).</rdfs:comment>
     </owl:Axiom>
     
 
@@ -32985,7 +32985,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0003740"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/dorsalregionofplugfragment.png"/>
-        <rdfs:comment>Illustration of the dorsal region of a plug fragment (green).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illustration of the dorsal region of a plug fragment (green).</rdfs:comment>
     </owl:Axiom>
     
 
@@ -34840,7 +34840,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007509"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/plasmamembrane.png"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph showing several cells. Arrowheads label the plasma membrane, the boundary between cells. Scale bar is 1um.</rdfs:comment>
+        <rdfs:comment>Image is an electron micrograph showing several cells. Arrowheads label the plasma membrane, the boundary between cells. Scale bar is 1um.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -34969,7 +34969,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007516"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/nuclearpore.png"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph depicting the nuclear envelope. The nucleus takes up the top left corner of the image and two nuclear pores have been labeled with arrowheads. Scale bar is 200 nm.</rdfs:comment>
+        <rdfs:comment>Image is an electron micrograph depicting the nuclear envelope. The nucleus takes up the top left corner of the image and two nuclear pores have been labeled with arrowheads. Scale bar is 200 nm.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -35100,7 +35100,7 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24415944</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24523458</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25017721</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27063937</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27063937</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27523733</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27612382</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:28137894</oboInOwl:hasDbXref>
@@ -35209,15 +35209,15 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21295483</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21664348</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21806978</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23250205</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23250205</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23318641</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23903188</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23954785</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25017721</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26062938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26062938</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26525673</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27523733</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28287248</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28287248</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29291981</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29547123</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30471994</oboInOwl:hasDbXref>
@@ -35279,7 +35279,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007523"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/proximodistalaxis.png"/>
-        <rdfs:comment>Pharynx of an asexual adult exposed by tricaine treatment. The proximodistal axis is denoted with the double headed magenta arrow.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharynx of an asexual adult exposed by tricaine treatment. The proximodistal axis is denoted with the double headed magenta arrow.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -35342,11 +35342,11 @@ Previous. An information content entity is a non-realizable information entity t
         <oboInOwl:created_by>https://orcid.org/0000-0003-2569-1939 | https://orcid.org/0000-0002-7535-4407</oboInOwl:created_by>
         <oboInOwl:hasDbXref>PMID:18063755</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:21566195</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23297191</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23297191</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23318641</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23903188</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23954785</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24040508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24040508</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24415944</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24523458</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24704339</oboInOwl:hasDbXref>
@@ -35372,8 +35372,8 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Distinct anterior cluster of muscle cells located at the midline which express notum, follistatin, zic-1, and foxD.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:21566195</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23297191</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24040508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23297191</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24040508</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24415944</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:24704339</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24992682</oboInOwl:hasDbXref>
@@ -36051,7 +36051,7 @@ Previous. An information content entity is a non-realizable information entity t
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007540"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/foaf_depiction"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/plana/images/viscidglandcell.png"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image is an electron micrograph showing the whole adhesion gland structure, specifically outlining a single cell (viscid gland cell) associated with this multicelluar structure. Ventral is up and scale bar is 2um.</rdfs:comment>
+        <rdfs:comment>Image is an electron micrograph showing the whole adhesion gland structure, specifically outlining a single cell (viscid gland cell) associated with this multicelluar structure. Ventral is up and scale bar is 2um.</rdfs:comment>
     </owl:Axiom>
     
 
