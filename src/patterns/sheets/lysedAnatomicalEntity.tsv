@@ -1,0 +1,4 @@
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
+PLANP:0000818	head lysis	PLANA:0000418	head
+PLANP:0000819	tail lysis	PLANA:0000421	tail
+PLANP:0000820	whole animal lysis	PLANA:0000136	whole organism

@@ -1,0 +1,5 @@
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label	location	location_label	
+PLANP:0000832	underdeveloped eyes in tail fragment	PLANA:0000036	eye	PLANA:0003602	tail fragment	
+PLANP:0000833	underdeveloped head in tail fragment	PLANA:0000418	head	PLANA:0003602	tail fragment	
+PLANP:0000834	underdeveloped tail in head fragment	PLANA:0000421	tail	PLANA:0003600	head fragment	
+						probalby should add regenerating tail fragment (if it has eyes at all it has to be regenerating)

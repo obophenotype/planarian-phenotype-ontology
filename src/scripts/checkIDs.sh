@@ -1,6 +1,6 @@
 echo "*** all ids"
 PREFIX=PLANP
-TSVs=../patterns/data/default/*tsv
+TSVs=~/src/ontology/planarian-phenotype-ontology/src/patterns/data/default/*tsv
 cut -f1 $TSVs | grep  $PREFIX  | sort  
 echo " "
 echo "***Checking for duplicate IDs"

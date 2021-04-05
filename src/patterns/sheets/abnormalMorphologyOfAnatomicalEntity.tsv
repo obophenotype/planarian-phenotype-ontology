@@ -1,0 +1,13 @@
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label
+PLANP:0000467	abnormal morphology of primitive ectoderm surface	PLANA:0004512	primitive ectoderm surface
+PLANP:0000469	abnormal morphology of lumen gut surface	PLANA:0000411	lumen gut surface
+PLANP:0000470	abnormal morphology of basal epidermis surface	PLANA:0000410	basal epidermis surface
+PLANP:0000475	abnormal morphology of apical epidermis surface	PLANA:0000409	apical epidermis surface
+PLANP:0000480	abnormal morphology of pharyngeal pouch surface	PLANA:0000414	pharyngeal pouch surface
+PLANP:0000481	abnormal morphology of embryonic gut cell surface	PLANA:0004514	embryonic gut cell surface
+PLANP:0000482	abnormal morphology of primtive gut cell surface	PLANA:0004513	primtive gut cell surface
+PLANP:0000484	abnormal morphology of pharynx lumen epithelial surface	PLANA:0000412	pharynx lumen epithelial surface
+PLANP:0000486	abnormal morphology of temporary embryonic pharynx lumen epithelial surface	PLANA:0004516	temporary embryonic pharynx lumen epithelial surface
+PLANP:0000489	abnormal morphology of pharynx outer epithelial surface	PLANA:0000413	pharynx outer epithelial surface
+PLANP:0000497	abnormal morphology of head	PLANA:0000418	head
+PLANP:0000498	abnormal morphology of tail	PLANA:0000421	tail

@@ -1,0 +1,3 @@
+defined_class	defined_class_name	anatomical_entity	anatomical_entity_label	location	location_label
+	small head	PLANA:0000418	head	PLANA:0003901	tail blastema
+	small tail	PLANA:0000421	tail	PLANA:0003900	head blastema
